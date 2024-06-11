@@ -4,8 +4,8 @@ hide:
   - toc
 ---
 
-!!! info "This section explains"
-    How to change your current password
+!!! danger "This section explains"
+    How to change your current password and log in again. :material-robot-happy:
 
 Once you are logged in to the 121 Platform, click on your email address under "Logged in as" in the top right corner.
 
