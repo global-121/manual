@@ -18,6 +18,12 @@
   font-weight: bold;
 }
 
+/* Make all clickable links bold */
+.md-typeset a {
+  font-weight: bold;
+}
+
+
 /* Make screenshots (only inside pages) stand-out more */
 article img {
   border-radius: 0.375rem;
