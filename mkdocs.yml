@@ -27,6 +27,7 @@ plugins:
 
 theme:
     name: material
+    custom_dir: overrides
     language: en
     palette:
       primary: custom
