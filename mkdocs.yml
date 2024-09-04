@@ -39,13 +39,9 @@ theme:
 
 extra:
   generator: false
-#   alternate:
-#     - name: English
-#       link: /
-#       lang: en
-#     - name: Nederlands
-#       link: /nl/
-#       lang: nl
+  analytics:
+    provider: custom
+    connectionString: InstrumentationKey=5eacdcc3-d4a4-4251-8ba1-f49b9eaa22be;IngestionEndpoint=https://westeurope-5.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/;ApplicationId=ce4dc6f1-1361-4ef9-ab56-ca1fc82f2309
 
 nav:
     - 'Home': 'index.md'
