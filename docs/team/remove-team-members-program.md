@@ -7,7 +7,7 @@ hide:
 !!! info "This section explains"
     How to remove a team members from a program
 
-In the **Team** page of your program, you can see the list of team members currently added into your program. If you have the permission, you can remove a team member from a program.
+In the **Team** page of your program, you can see the list of team members currently added into your program. If you have the permission, you can remove a team member from a program. Team members should be removed from the program team if they no longer work with the program or they have left the organisation to ensure data protection.
 
 - Enter the program, **go to Team** page.
 - Click on the 3 dots **:material-dots-horizontal:**  on the right end of the team member row.

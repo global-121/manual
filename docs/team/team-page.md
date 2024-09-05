@@ -31,6 +31,8 @@ In the **Team** page of your program, you can create or view the list of team me
 
 You can always add, remove and edit members from the team while running your program. Programs status and action history will remain unchanged.
 
+We recommend that the **CVA Manager** review the program team on a regular basis to ensure that it is up to date and that only those who are working in the program have access. Any team members who no longer work with the program or who have left the organisation should be removed from the program team to ensure data protection.
+
 !!! warning "Permission required"
     Per default, Program Admin and CVA manager roles have the permission to add and delete team members, and assign them a role into a program team. If you would like to enable more users to manage the program team members and roles distribution, you can request to add the Team management permission into your instance. Contact your dedicated account manager or support team via <support@121.global>
 
