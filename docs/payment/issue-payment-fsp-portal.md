@@ -45,7 +45,7 @@ The file will provide the necessary instructions for the FSP to issue the paymen
 - Review the file if required. *Based on your agreement with the FSP, share the file to your FSP or import it into the FSP portal (if available).
 
 !!! info "Payment instructions excel template"
-    The payment instructions excel file should only contain the criteria needed for the FSP to confirm the beneficiaries' identity and issue the payments, such as names, phone number and ID number or any other criteria based on your program SOPs. For data privacy, we recommend to only export the minimum criteria to verify the PA identity. All other irrelevant data for the payment process should be excluded from the payment instructions file.
+    The payment instructions excel file should only contain the criteria needed for the FSP to confirm the beneficiaries' identity and issue the payments, such as names, phone number and ID number or any other criteria based on your program SOPs. For data privacy, we recommend to only export the minimum criteria to verify the PA identity. All other irrelevant data for the payment process should be excluded from the payment instructions file. After usage the exported data should be deleted to ensure personal data is kept secure.
 
     Each program may require a different template depending on the FSP you work with in the region of your operations. Our Team will create a template specifically for the program requirements and adapted to upload into each FSP portal. 
 

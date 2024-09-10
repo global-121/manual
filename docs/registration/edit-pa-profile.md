@@ -18,7 +18,7 @@ Due to misspelling or double entry, you may need to edit details in the PA profi
 - A pop-up **Reason for update** request to fill in the reason for this change.
 - Add a reason, then **Save**
 
-When the details are fully reviewed and correct, you can then mark the PA profile as validated. Follow the instructions to [validate PA profile](./registration-validate-pa.md.md).
+When the details are fully reviewed and correct, you can then mark the PA profile as validated. Follow the instructions to [validate PA profile](./registration-validate-pa.md).
 
 !!! info "Reason for update"
   For auditing and accountability reasons, changes in PAs profile cannot be performed without indicating a reason. All data changes are logged into 121 platform with the old value, new value, reasons for update and are linked to the users email address performing the change.

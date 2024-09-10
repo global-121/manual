@@ -46,6 +46,9 @@ For example, the program registration form may include selection criteria such a
     Double entries can occur while registering beneficiaries on the field. Duplicate PAs can be checked in the 121 Platform. You can follow the steps on [this page.](./registration-deduplication.md)  
     If you need additional explanations, contact your dedicated Account Manager or our support team via email.
 
+!!! Info "TIPS: do not save old excel record"
+    To prevent mistakes and keep personal data secure, excel files should be deleted from your computer once your database is cleaned and updated in 121 platform. This way, you will always have your latest updated list of registered beneficiaries in 121.
+
 ___
 Need further assistance? Contact your dedicated Account Manager or reach our [support team via email](mailto:support@121.global).
 ___
