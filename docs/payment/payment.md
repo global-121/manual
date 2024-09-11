@@ -32,7 +32,11 @@ Find out more about the payment and PA statuses on [this page](./list-status-pay
 
 For **financial audit**, financial and payment reporting for all transactions can be exported as an excel file. You can track and trace any successful and failed payments, and also share the reporting to donors that may require additional information about the running Cash Program.
 
-Find out more about the payment reporting and activity on [this page](./payment-activity-reporting.md)
+Find out more about the payment reporting and activity on [this page](./payment-reporting.md)
+
+!!! Info "TIPS: Only download excel files when required and delete after exporting / using"
+    Excel files should only be downloaded when required to ensure personal data is kept secure. After use, excel files should be deleted from your computer to keep personal data secure and prevent mistakes using old files. This way, you will always have the latest updated data in 121.
+
 
 ### Delivery Mechanisms
 

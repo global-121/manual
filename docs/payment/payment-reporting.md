@@ -21,6 +21,8 @@ To export a financial report:
 - A pop-up window will request a confirmation.**This will download an Excel file with all People Affected included in this payment**
 - The file will be exported into the download folder as an excel file.
 
+!!! Info "TIPS: Only download excel files when required and delete after exporting / using"
+    Excel files should only be downloaded when required to ensure personal data is kept secure. After use, excel files should be deleted from your computer to keep personal data secure and prevent mistakes using old files. This way, you will always have the latest updated data in 121.
 
 ### Oversee the Activity Overview in PA profile
 

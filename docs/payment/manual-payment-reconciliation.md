@@ -13,7 +13,7 @@ In the 121 Platform, payments can be processed in two different methods: with a 
 
 ### Check the reconciliation data file
 
-Before uploading the reconciliation data file, there is a few labels that must be adjusted according to the 121 platform. This relates to the payment statuses.
+Before uploading the reconciliation data file, there are a few labels that must be adjusted according to the 121 platform. This relates to the payment statuses.
 The below table indicate the correct label names that must be filled in the payment status of your reconciliation data. The FSP may write the statuses differently than the 121 Platform. Therefore, you should overwrite the status with the data indicated in the below table, column **121 Data**
 
 

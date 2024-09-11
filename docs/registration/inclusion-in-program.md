@@ -5,7 +5,7 @@ hide:
 ---
 The Inclusion stage is a necessary step to move a PA from the registration phase to the payment phase.
 
-Depending on the SOPs you follow for your CVA program, Validation can be used to mark People Affected whose information has been checked and verified, before taking the step to include them in the program. You can follow the steps to validate the PA details on this [page](./registration-validate-pa.mdregistration/)
+Depending on the SOPs you follow for your CVA program, Validation can be used to mark People Affected whose information has been checked and verified, before taking the step to include them in the program. You can follow the steps to validate the PA details on this [page](./registration-validate-pa.md/)
 
 ### Inclusion of People Affected into the program
 
@@ -21,12 +21,12 @@ The People Affected table shows all of the registered households for your progra
 
 
 !!! info "Deduplication process"
-    The SOPs may include a deduplication process of the registered PAs before initiating the inclusion phase. Follow the instructions to [check your registration list and deduplicate PA before moving the list to the inclusion phase](../registration-deduplication.md).
+    The SOPs may include a deduplication process of the registered PAs before initiating the inclusion phase. Follow the instructions to [check your registration list and deduplicate PA before moving the list to the inclusion phase](./registration-deduplication.md).
 
 ### Decline People Affected from the program
 
 Based on the SOPs, verification process and inclusion score calculation, you may have to decline a certain number of registered beneficiaries from your program.
-You can follow the instructions on this [page](../registration-reject-pa.md)
+You can follow the instructions on this [page](./registration-reject-pa.md)
 
 ### Validation and deduplication process
 
