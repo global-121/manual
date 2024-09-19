@@ -5,6 +5,11 @@
   --md-primary-fg-color--dark: #361a8c;
 }
 
+/* Enforce hiding hidden elements */
+[hidden] {
+  display: none !important;
+}
+
 /**
  * Reset/Tweak Theme-styles
  */
@@ -49,4 +54,9 @@ table th:first-child {
 table {
   table-layout: fixed;
   width: 100%;
+}
+
+/* Reserve space for after interacting */
+.md-feedback__inner {
+  min-height: 4em;
 }

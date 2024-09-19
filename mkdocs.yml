@@ -45,6 +45,28 @@ extra:
   analytics:
     provider: custom
     connectionString: InstrumentationKey=5eacdcc3-d4a4-4251-8ba1-f49b9eaa22be;IngestionEndpoint=https://westeurope-5.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/;ApplicationId=ce4dc6f1-1361-4ef9-ab56-ca1fc82f2309
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/thumb-up-outline
+          name: Yes, this page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/star-half-full
+          name: Multple options are possible
+          data: 0.5
+          note: >-
+            Other thanks also possible!
+        - icon: material/thumb-down-outline
+          name: No, this page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! Help us improve this page,
+            <a href="https://kobo.example.org/feedback?formId=121&content=Feedback on 121-Manual: {url}" target="_blank" rel="noopener">let us know what you think</a>.
+
+extra_javascript:
+  - javascripts/feedback.js
 
 nav:
   - 'Home': 'index.md'
