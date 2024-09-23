@@ -53,17 +53,12 @@ extra:
           data: 1
           note: >-
             Thanks for your feedback!
-        - icon: material/star-half-full
-          name: Multple options are possible
-          data: 0.5
-          note: >-
-            Other thanks also possible!
         - icon: material/thumb-down-outline
           name: No, this page could be improved
           data: 0
           note: >-
             Thanks for your feedback! Help us improve this page,
-            <a href="https://kobo.example.org/feedback?formId=121&content=Feedback on 121-Manual: {url}" target="_blank" rel="noopener">let us know what you think</a>.
+            <a href="mailto:support@121.global?subject=Feedback%20on%20121-Manual:%20{url}" rel="noopener">let us know what you think</a>.
 
 extra_javascript:
   - javascripts/feedback.js
