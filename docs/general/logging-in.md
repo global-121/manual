@@ -25,6 +25,9 @@ If you are logging in for the first time you will have received your login detai
 
 If Single Sign-On (SSO) is enabled in your organization’s system, users will be required to log in using their Microsoft account email address. This will automatically log them into the 121 platform. To access SSO, your organization must have enabled it, and your email must be part of the registry.
 
-___
-Need further assistance? Contact your dedicated Account Manager or reach our [support team via email](mailto:support@121.global).
-___
+---
+
+Need further assistance? Contact your dedicated Account Manager or
+reach our [support team via email](mailto:support@121.global).
+
+---
