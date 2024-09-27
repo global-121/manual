@@ -72,7 +72,7 @@ the 121 Platform is following the CVA workflow step-by-step. Find out the instru
 
     Log in the portal, SSO, reset your password and change the portal language.
 
--   :fontawesome-solid-question:{ .lg .middle } [__F.A.Q.__](./faq/)
+-   :fontawesome-solid-question:{ .lg .middle } [__F.A.Q.__](./faq/index.md)
 
     ---
 
