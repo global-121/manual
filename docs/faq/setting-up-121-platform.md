@@ -16,7 +16,7 @@ hide:
      It's important to note that the **121 Platform is designed for digital payments**. We focus on mobile money, bank transfers, mobile transfers, and prepaid card solutions rather than physical cash. However, if the FSP supports cash payments, the platform can manage those payment instructions as well.
 
 
-??? "2. how much support do I need to use 121?"
+??? "2. How much support do I need to use 121?"
 
      The 121 Platform is **designed by humanitarian workers with extensive experience in operational Cash and Voucher Assistance (CVA) programs**, both in the office and the field, across various response settings. Its primary strength lies in its ability to be instantly deployable and user-friendly, making it particularly valuable in emergency situations. The platform's learning curve is intentionally quick, allowing users at all levels of digital literacy to adapt without needing technical skills. This ensures the platform is scalable and can be rapidly implemented when needed.
 
@@ -31,7 +31,7 @@ hide:
      - **Scalability and Adaptation**: As the platform scales or adapts to new contexts, support may be needed to adjust settings or expand usage, ensuring it continues to meet user needs as programs grow or change.
 
 
-??? "3. what are the minimum requirements for using 121?"
+??? "3. What are the minimum requirements for using 121?"
 
      **Internet**
      
@@ -46,7 +46,7 @@ hide:
      Internet or mobile data is required for accessing the portal and syncing data. Offline work will need to be synced once connectivity is available.
 
 
-??? "4. how much does it cost me?"
+??? "4. How much does it cost me?"
 
      The 121 Platform has four main cost categories:
 
@@ -68,7 +68,7 @@ hide:
      4. **Optional Costs**
      Customization or integration with new third-party tools is optional and charged at an hourly rate. A detailed cost plan will be discussed, and work will only commence after a written agreement with the partner.
 
-??? "5. where does this money go?"
+??? "5. Where does this money go?"
 
      The 121 Platform is a **non-profit product**. The NLRC (Netherlands Red Cross) focuses on cost recovery to cover expenses for developing, maintaining, and managing the platform. These contributions help keep usage costs low and aim to reduce them as much as possible in the future, ensuring that funds are fully allocated to delivering aid to beneficiaries.
 
