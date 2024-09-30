@@ -19,9 +19,9 @@ To ensure efficient communication, please **copy our support team on all
 requests**. This ensures your request is properly tracked and resolved by the
 right team members.
 
-
-**Support Hours** 🕐 Monday to Friday, 8:00 AM – 6:00 PM CET.
+**Support Hours:** 🕐 _Monday to Friday, 8:00 AM – 6:00 PM CET._  
 Your Account Manager remains your main contact for all request updates and inquiries.
+
 ---
 
 ### Urgent Technical Issues
@@ -51,7 +51,7 @@ by the appropriate team.
 | **Level 3** | Development Team | - Escalation from Level 2<br>- Bug fixes and advanced troubleshooting    |
 <!-- markdownlint-enable no-inline-html -->
 
-________________________________________
+---
 
 ### Response Time Expectations
 
@@ -83,7 +83,9 @@ We aim at providing:
 Your feedback is important to us. If you have suggestions or need to discuss the
  support provided, we’re always open to hearing from you and improving your experience.
 
-________________________________________
+---
+
 Need further assistance? Contact your dedicated Account Manager or reach
 our [support team via email](mailto:support@121.global).
-________________________________________
+
+---
