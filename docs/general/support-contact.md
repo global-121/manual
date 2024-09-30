@@ -48,7 +48,7 @@ For urgent issues requiring immediate attention, you can reach out to us directl
 Or any other agreed-upon instant messaging tools.
 These channels are for critical situations where fast troubleshooting is necessary.
 
-________________________________________
+---
 
 ### Escalation Process
 
