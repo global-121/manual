@@ -43,13 +43,13 @@ These channels are for critical situations where fast troubleshooting is necessa
 We operate a structured support system to ensure that every issue is handled
 by the appropriate team.
 
-<!-- markdownlint-disable -->
+<!-- markdownlint-disable no-inline-html -->
 | **Level** | **Point of Contact**       | **Type of Support** |
 |:-----|:-----|:-----|
 | **Level 1** | First Line Support (Account Manager) | - Basic troubleshooting<br>- Program settings<br>- Configuration issues<br>- Login issues<br>- Explaining platform features (e.g., program settings, adding users, editing profiles, exporting reports)<br>- Collecting information to escalate complex issues<br> |
 | **Level 2** | Information Manager (CVA IM) | - Escalation from Level 1<br>- IM support (e.g., database updates)<br>- Power BI support<br>- Escalation to Level 3  |
 | **Level 3** | Development Team | - Escalation from Level 2<br>- Bug fixes and advanced troubleshooting    |
-<!-- markdownlint-enable -->
+<!-- markdownlint-enable no-inline-html -->
 
 ________________________________________
 
@@ -57,14 +57,12 @@ ________________________________________
 
 We aim to resolve issues swiftly, based on the urgency of the situation.
 
-<!-- markdownlint-disable -->
-| **Category** | **Response Time** | **Target Resolution Time** | **Description**                                                  |
-|:--------------|:-------------------|:----------------------------|:------------------------------------------------------------------|
-| **Critical** | 15 minutes         | 2 hours                    | Service unusable: unable to access the 121 platform               |
-| **High**     | 1 hour             | 4 hours                    | Service severely impaired: unable to send payments                |
-| **Medium**   | 2 hours            | 12 hours                   | Service partially impaired: issues with sending SMS               |
-| **Low**      | 3 hours            | In consultation with client | Service usable but with minor issues      |
-<!-- markdownlint-enable -->
+| **Category** | **Response Time** | **Target Resolution Time**  | **Description**                                     |
+| :----------- | :---------------- | :-------------------------- | :-------------------------------------------------- |
+| **Critical** | 15 minutes        | 2 hours                     | Service unusable: unable to access the 121 platform |
+| **High**     | 1 hour            | 4 hours                     | Service severely impaired: unable to send payments  |
+| **Medium**   | 2 hours           | 12 hours                    | Service partially impaired: issues with sending SMS |
+| **Low**      | 3 hours           | In consultation with client | Service usable but with minor issues                |
 
 ### After-Hours Support
 
