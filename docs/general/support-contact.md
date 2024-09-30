@@ -85,7 +85,7 @@ your request will be forwarded to our support team at
 [support@121.global](mailto:support@121.global) and shared in our internal
 support alert system to ensure timely follow-up.
 
-________________________________________
+---
 
 ### Our Commitment to You
 
