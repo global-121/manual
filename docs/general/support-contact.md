@@ -28,7 +28,7 @@ right team members.
 
 **Support Hours** 🕐 Monday to Friday, 8:00 AM – 6:00 PM CET.
 Your Account Manager remains your main contact for all request updates and inquiries.
-________________________________________
+---
 
 ### Urgent Technical Issues
 
