@@ -12,14 +12,8 @@ Our team consists of Cash IM practitioners with extensive experience in Cash and
 
 For general support inquiries, your first point of contact is always your Account Manager. If further technical assistance is required, the issue will be smoothly escalated to the appropriate team.
 
-<!-- markdownlint-disable -->
-**Submit Requests to**
-<a href="mailto:support@121.global" style="text-decoration: none;">
-  <button style="background-color: #003366; color: #fff; padding: 12px 24px; border: none; border-radius: 25px; font-size: 16px; font-family: Arial, sans-serif; cursor: pointer; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: background-color 0.3s ease;">
-    📧 support@121.global
-  </button>
-</a>
-<!-- markdownlint-enable -->
+**Submit Requests to:**  
+[:fontawesome-regular-envelope: support@121.global](mailto:support@121.global){.md-button .md-button--primary}
 
 To ensure efficient communication, please **copy our support team on all
 requests**. This ensures your request is properly tracked and resolved by the
@@ -35,14 +29,8 @@ Your Account Manager remains your main contact for all request updates and inqui
 For urgent issues requiring immediate attention, you can reach out to us directly
  via instant communication channels:
 
-<!-- markdownlint-disable -->
-<a href="https://wa.me/yourwhatsappnumber" style="text-decoration: none;">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 30px; height: 30px; vertical-align: middle;">
-  WhatsApp
-</a>
-<!-- markdownlint-enable -->
-
-💬 Microsoft Teams
+- [:simple-whatsapp: WhatsApp](https://wa.me/example){.md-button .md-button--primary}
+- [:fontawesome-solid-people-group: Microsoft Teams](https://teams.microsoft.com/_){.md-button .md-button--primary}
 
 
 Or any other agreed-upon instant messaging tools.
