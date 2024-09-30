@@ -5,12 +5,11 @@ hide:
 ---
 
 
-
 ??? "1. Is 121 a good solution for me?"
 
      The 121 Platform is an **adaptive solution** that can generally be deployed within a few hours to a few days, depending on the context. In emergency settings, our team prioritizes rapid deployment, aiming to have the platform operational within just a few hours. Additionally, it is well-suited for preparedness, localization, and long-term recovery operations, allowing for quick initiation of critical phases such as beneficiary registration and inclusion in programs.
 
-     121 offers **flexibility with two payment processing options**.**The manual process** allows for issuing payments anytime, even without integration with a Financial Service Provider (FSP). We can configure the instance so that payment instructions are preformatted for easy upload or sending to the FSP, ensuring they can be shared at any time, regardless of integration status. This flexibility is ideal for **emergency response operations**, helping to provide timely support when it’s needed most.
+     121 offers **flexibility with two payment processing options**.**The manual process** allows for issuing payments anytime, even without integration with a Financial Service Provider (FSP). We can configure the instance so that payment instructions are pre-formatted for easy upload or sending to the FSP, ensuring they can be shared at any time, regardless of integration status. This flexibility is ideal for **emergency response operations**, helping to provide timely support when it’s needed most.
 
      The second option is **integrating with a local FSP**, which makes the platform even more robust. We usually consider this integration as part of a long-term plan, such as localization, preparedness, or ongoing processes within aid agencies. This approach allows the 121 Platform to serve as the central management tool, streamlining and centralizing processes effectively from registration to payments phases.
 
@@ -114,6 +113,8 @@ hide:
 
      You can discuss further details about third-party tool integration with our technical team by contacting us on our [support team email](mailto:support@121.global).
 
-___
+---
+
 Need further assistance? Contact your dedicated Account Manager or reach our [support team via email](mailto:support@121.global).
-___
+
+---
