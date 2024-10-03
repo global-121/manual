@@ -83,9 +83,4 @@ We aim at providing:
 Your feedback is important to us. If you have suggestions or need to discuss the
  support provided, we’re always open to hearing from you and improving your experience.
 
----
-
-Need further assistance? Contact your dedicated Account Manager or reach
-our [support team via email](mailto:support@121.global).
-
----
+-8<- "docs/_snippets/contact-support.md"

@@ -28,6 +28,4 @@ When the details are fully reviewed and correct, you can then mark the PA profil
 !!! info "Include PAs in program"
     Follow the instructions to [include the PA directly in the program](./inclusion-in-program.md)
 
-___
-Need further assistance? Contact your dedicated Account Manager or reach our [support team via email](mailto:support@121.global).
-___
+-8<- "docs/_snippets/contact-support.md"

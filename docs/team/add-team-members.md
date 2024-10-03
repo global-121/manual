@@ -33,6 +33,4 @@ In the **Team** page of your program, you can see the list of team members curre
 !!! warning "This user is already a team member"
     If you get an error message **"This user is already a team member"**, they have already been added to the team. Do you want to [change their roles](./change-team-roles-program.md)?
 
-___
-Need further assistance? Contact your dedicated Account Manager or reach our [support team via email](mailto:support@121.global).
-___
+-8<- "docs/_snippets/contact-support.md"

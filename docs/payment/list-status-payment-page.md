@@ -34,6 +34,4 @@ The status will be updated automatically for integrated FSP when successful, or 
 | **Completed** | The PAs have received the full amount of transfers. No other payments can be sent.|None. Unless additional payment rounds have been added to the program.|
 
 
-___
-Need further assistance? Contact your dedicated Account Manager or reach our [support team via email](mailto:support@121.global).
-___
+-8<- "docs/_snippets/contact-support.md"

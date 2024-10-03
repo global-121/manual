@@ -81,9 +81,4 @@ the 121 Platform is following the CVA workflow step-by-step. Find out the instru
 
 </div>
 
----
-
-Need further assistance? Contact your dedicated Account Manager
-or reach our [support team via email](mailto:support@121.global).
-
----
+-8<- "docs/_snippets/contact-support.md"

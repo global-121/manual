@@ -57,6 +57,4 @@ Once you have identified the reason, you can proceed with retrying the payments:
 
 We recommend getting in contact with our support team to verify the reasons of payment failing together with your finance team. We will provide guidance in the next steps.
 
-___
-Need further assistance? Contact your dedicated Account Manager or reach our [support team via email](mailto:support@121.global).
-___
+-8<- "docs/_snippets/contact-support.md"

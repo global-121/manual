@@ -62,8 +62,4 @@ You will be able to execute payments with one or multiple delivery mechanisms de
     - Check that your FSP or the bank allow integrating with third party tool or external service provider platform;
     - the FSP or the bank support API protocols. An application programming interface (API) is a way for two or more computer programs or components to communicate with each other.
 
----
-
-Need further assistance? Contact your dedicated Account Manager or reach our [support team via email](mailto:support@121.global).
-
----
+-8<- "docs/_snippets/contact-support.md"

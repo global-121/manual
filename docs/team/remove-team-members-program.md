@@ -31,6 +31,4 @@ Do not worry! The action history and logs remain unchanged. If you have the perm
     You can Follow these instructions to [add team members to a program](./add-team-members.md).
 
 
-___
-Need further assistance? Contact your dedicated Account Manager or reach our [support team via email](mailto:support@121.global).
-___
+-8<- "docs/_snippets/contact-support.md"

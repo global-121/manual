@@ -78,6 +78,4 @@ Below, the different payment statuses.
     Once the FSP share back the payment data, you can execute the manual payment reconciliation in the 121 platform.
     Follow the instructions on [this page](manual-payment-reconciliation.md)
 
-___
-Need further assistance? Contact your dedicated Account Manager or reach our [support team via email](mailto:support@121.global).
-___
+-8<- "docs/_snippets/contact-support.md"

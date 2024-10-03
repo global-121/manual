@@ -39,6 +39,4 @@ When setting up your instance, our team will request you to share your **program
 To go to the next phase of your program process, click on the right button to open registration phase or in the menu barre.
 Follow the instructions on [Registration](../registration/registration.md)
 
-___
-Need further assistance? Contact your dedicated Account Manager or reach our [support team via email](mailto:support@121.global).
-___
+-8<- "docs/_snippets/contact-support.md"
