@@ -29,8 +29,8 @@ Your Account Manager remains your main contact for all request updates and inqui
 For urgent issues requiring immediate attention, you can reach out to us directly
  via instant communication channels:
 
-- [:simple-whatsapp: WhatsApp](https://wa.me/example){.md-button .md-button--primary}
-- [:fontawesome-solid-people-group: Microsoft Teams](https://teams.microsoft.com/_){.md-button .md-button--primary}
+- **:simple-whatsapp:&nbsp; WhatsApp**
+- **:fontawesome-solid-people-group:&nbsp; Microsoft Teams**
 
 
 Or any other agreed-upon instant messaging tools.
