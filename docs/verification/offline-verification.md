@@ -26,7 +26,7 @@ After you have trained your volunteers, you are almost ready to start field veri
 - :fontawesome-solid-triangle-exclamation: **Download final version of the forms all devices** once the 121 support team has informed you that the latest data is available.
 
 !!! danger "Important"
-Please keep in mind that all data collected during field verification will overwrite existing information in the 121 platform. It is advisable to make as little changes as possible directly in the 121 platform during data verification, so that no unnecessary mistakes are made.
+    Please keep in mind that all data collected during field verification will overwrite existing information in the 121 platform. It is advisable to make as little changes as possible directly in the 121 platform during data verification, so that no unnecessary mistakes are made.
 
 ## During Offline Verification
 
@@ -44,3 +44,7 @@ Some tips:
 ### Upload forms
 
 Once you have done verification, please connect the devices to the internet and make sure to upload **ALL** collected kobo forms. Then verify you can see the changes reflected in the 121 platform.
+
+---
+
+-8<- "docs/_snippets/contact-support.md"
