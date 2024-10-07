@@ -38,6 +38,4 @@ Due to misspelling or double entry, you may need to edit details in the PA profi
 !!! info "Reject PA from program"
     Follow the instructions to [reject PA from the program](./registration-reject-pa.md).
 
-___
-Need further assistance? Contact your dedicated Account Manager or reach our [support team via email](mailto:support@121.global).
-___
+-8<- "docs/_snippets/contact-support.md"

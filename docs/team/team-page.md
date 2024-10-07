@@ -36,6 +36,4 @@ We recommend that the **CVA Manager** review the program team on a regular basis
 !!! warning "Permission required"
     Per default, Program Admin and CVA manager roles have the permission to add and delete team members, and assign them a role into a program team. If you would like to enable more users to manage the program team members and roles distribution, you can request to add the Team management permission into your instance. Contact your dedicated account manager or support team via <support@121.global>
 
-___
-Need further assistance? Contact your dedicated Account Manager or reach our [support team via email](mailto:support@121.global).
-___
+-8<- "docs/_snippets/contact-support.md"

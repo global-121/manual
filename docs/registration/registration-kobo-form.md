@@ -28,8 +28,4 @@ There is no need to follow any templates as this adaptable in 121 Platform. Howe
 
     For example, if Beneficiary A is registered in KOBO and you upload the data to the 121 Platform at the end of the day, you might later notice that question 4 was not answered by Beneficiary A. In this case, you will need to find Beneficiary A's profile in the 121 Platform to make the necessary edits. Changes made instead in KOBO Beneficiary A's form after the initial upload will not be updated in the 121 Platform.
 
----
-
-Need further assistance? Contact your dedicated Account Manager or reach our [support team via email](mailto:support@121.global).
-
----
+-8<- "docs/_snippets/contact-support.md"

@@ -49,6 +49,4 @@ For example, the program registration form may include selection criteria such a
 !!! Info "TIPS: do not save old excel record"
     To prevent mistakes and keep personal data secure, excel files should be deleted from your computer once your database is cleaned and updated in 121 platform. This way, you will always have your latest updated list of registered beneficiaries in 121.
 
-___
-Need further assistance? Contact your dedicated Account Manager or reach our [support team via email](mailto:support@121.global).
-___
+-8<- "docs/_snippets/contact-support.md"

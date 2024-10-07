@@ -35,6 +35,4 @@ Currently it is not possible to perform any actions in the Program Design or cha
 
 ---
 
-Need further assistance? Contact your dedicated Account Manager or reach our [support team via email](mailto:support@121.global).
-
----
+-8<- "docs/_snippets/contact-support.md"

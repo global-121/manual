@@ -17,6 +17,4 @@ Upon receipt, our team will create the new user(s) and an email will be sent to 
 !!! info "add users to a program"
     You can follow the instructions to [add team members to a program](../team/add-team-members.md)
 
-___
-Need further assistance? Contact your dedicated Account Manager or reach our [support team via email](mailto:support@121.global).
-___
+-8<- "docs/_snippets/contact-support.md"
