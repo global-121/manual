@@ -106,5 +106,5 @@ nav:
       - 'Evaluation page': 'evaluation/evaluation.md'
   - 'F.A.Q':
       - 'Data Protection': 'faq/data-protection.md'
-      - 'Timeline and Integration': 'faq/timeline-121-integration.md'
       - 'Financial Service Providers (FSP)': 'faq/financial-service-provider.md'
+      - 'Setting-up 121 Platform': 'faq/setting-up-121-platform.md'
