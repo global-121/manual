@@ -35,4 +35,4 @@ Currently it is not possible to perform any actions in the Program Design or cha
 
 ---
 
--8<- "docs/_snippets/contact-support.md"
+-8<- "docs/\_snippets/contact-support.md"

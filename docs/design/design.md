@@ -35,4 +35,4 @@ Currently it is not possible to perform any actions or change these metrics your
 
 ---
 
--8<- "docs/_snippets/contact-support.md"
+-8<- "docs/\_snippets/contact-support.md"
