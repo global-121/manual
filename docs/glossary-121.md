@@ -111,9 +111,4 @@ A list of key terms used in the 121 platform.
 | **Spent this month (max X)** | In some projects the amount of money a person/ household can spend in a single month is capped. This is a precaution measure to avoid miss use of the cards.|
 | **Card number** | The number written on the card, used to verify the card and to check information. |
 
----
-
-Need further assistance?  
-Contact your dedicated Account Manager or reach our [support team via email](mailto:support@121.global).
-
----
+-8<- "docs/_snippets/contact-support.md"

@@ -36,6 +36,4 @@ There may be are some filters applied to the table that might mean the PAs are n
     In case the page is fully blank and does not show the registration column, there may be a technical issue.
     Please contact your Account Manager or our [support team](mailto:support@121.global) to help fixing the issue.
 
-___
-Need further assistance? Contact your dedicated Account Manager or reach our [support team via email](mailto:support@121.global).
-___
+-8<- "docs/_snippets/contact-support.md"

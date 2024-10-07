@@ -22,6 +22,4 @@ Once you have logged in with you new password, we kindly recommend you to change
 !!! danger "Reset your password"
     If you, or one of 121 users, have lost their passwords, you can reset your password by following the instructions on the Reset password page.
 
-___
-Need further assistance? Contact your dedicated Account Manager or reach our [support team via email](mailto:support@121.global).
-___
+-8<- "docs/_snippets/contact-support.md"

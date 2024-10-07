@@ -39,6 +39,4 @@ hide:
 
      To enable the integration with 121 platform, the FSPs must have an API (Application programming interfaces) as sets of protocols and tools that allow software programs to communicate with each other.
 
-___
-Need further assistance? Contact your dedicated Account Manager or reach our [support team via email](mailto:support@121.global).
-___
+-8<- "docs/_snippets/contact-support.md"

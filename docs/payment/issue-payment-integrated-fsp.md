@@ -82,8 +82,4 @@ For financial audit and donor requirements, you can export the payment reports o
     - Select the required **payment#**
     - Click on **Export Report**
 
----
-
-Need further assistance? Contact your dedicated Account Manager or reach our [support team via email](mailto:support@121.global).
-
----
+-8<- "docs/_snippets/contact-support.md"

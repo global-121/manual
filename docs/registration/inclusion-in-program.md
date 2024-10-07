@@ -36,6 +36,4 @@ Your SOPs may include a verification process before including PAs in program:
 - **Edit PA profile and details**. Follow the instructions on the [Edit PA details page.](./edit-pa-profile.md)
 - **Validate People Affected details**. Follow the instructions on the [PAs validation page.](./registration-validate-pa.md)
 
-___
-Need further assistance? Contact your dedicated Account Manager or reach our [support team via email](mailto:support@121.global).
-___
+-8<- "docs/_snippets/contact-support.md"

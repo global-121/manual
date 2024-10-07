@@ -41,7 +41,4 @@ No single user can take all actions in the 121 platform. The 121 platform follow
 !!! note "Permissions"
     Find a description of role-based permissions [on this page](../users/description-roles.md).
 
-___
-Need further assistance?
-Contact your dedicated Account Manager or reach our [support team via email](mailto:support@121.global).
-___
+-8<- "docs/_snippets/contact-support.md"

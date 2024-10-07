@@ -36,6 +36,4 @@ Edit People Affected status in the cash program by clicking on **Choose Action**
 - Click on **OK**. A message indicates the completion of the action.
 
 
-___
-Need further assistance? Contact your dedicated Account Manager or reach our [support team via email](mailto:support@121.global).
-___
+-8<- "docs/_snippets/contact-support.md"

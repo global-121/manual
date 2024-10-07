@@ -24,6 +24,4 @@ Declined People Affected remain listed in the Registration & Validation page wit
 
 If you make a mistake and decline PAs who should be included in the program, don't worry! You can update this by following the [instructions to Include PAs in the program.](./inclusion-in-program.md)
 
-___
-Need further assistance? Contact your dedicated Account Manager or reach our [support team via email](mailto:support@121.global).
-___
+-8<- "docs/_snippets/contact-support.md"

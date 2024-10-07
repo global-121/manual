@@ -26,6 +26,4 @@ In the **Team** page of your program, you can see the list of team members curre
     You can follow the instructions to [add team members to a program](../team/add-team-members.md).  
     or to [remove team members from a program](../team/remove-team-members-program.md)
 
-___
-Need further assistance? Contact your dedicated Account Manager or reach our [support team via email](mailto:support@121.global).
-___
+-8<- "docs/_snippets/contact-support.md"
