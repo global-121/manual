@@ -12,7 +12,7 @@ markdown_extensions:
   - def_list
   - md_in_html
   - toc:
-      toc_depth: '1-1'
+      toc_depth: "1-1"
       permalink: true
       permalink_title: Specific link to this section
   - admonition
@@ -20,7 +20,11 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 plugins:
   - privacy
@@ -64,47 +68,49 @@ extra_javascript:
   - javascripts/feedback.js
 
 nav:
-  - 'Home': 'index.md'
-  - 'Support': 'general/support-contact.md'
-  - 'General':
-      - 'Log In': 'general/logging-in.md'
-      - 'Change current password': 'general/change-current-password.md'
-      - 'Reset password': 'general/reset-password.md'
-      - 'Change Language': 'general/change-language.md'
-  - 'Users and Roles':
-      - 'Users page': 'users/users-roles-page.md'
-      - 'Add Users': 'users/add-users.md'
-      - 'Roles and permissions': 'users/description-roles.md'
-  - 'Program Team':
-      - 'Team page': 'team/team-page.md'
-      - 'Add team members': 'team/add-team-members.md'
-      - 'Change team members roles': 'team/change-team-roles-program.md'
-      - 'Remove team members': 'team/remove-team-members-program.md'
-  - 'Program Design':
-      - 'Program Design page': 'design/design.md'
-      - 'Read & Change Program Design': 'design/read-change-design-details.md'
-  - 'People Affected':
-      - 'People Affected page': 'registration/people-affected-page.md'
-      - 'Import Registration with excel': 'registration/registration-import-list.md'
-      - 'Registration with KOBO form': 'registration/registration-automatic-import-kobo.md'
-      - 'Deduplication': 'registration/registration-deduplication.md'
-      - 'Edit PA profile': 'registration/edit-pa-profile.md'
-      - 'Validate registration': 'registration/registration-validate-pa.md'
-      - 'Decline registration': 'registration/registration-reject-pa.md'
-      - 'Include PA in program': 'registration/inclusion-in-program.md'
-      - 'What if I see empty page': 'registration/registration-list-empty.md'
-  - 'Payment':
-      - 'Payment page': 'payment/payment.md'
-      - 'Issue instant payments': 'payment/issue-payment-integrated-fsp.md'
-      - 'Send manual payment instructions (FSP portal)': 'payment/issue-payment-fsp-portal.md'
-      - 'Reconcile manual payments': 'payment/manual-payment-reconciliation.md'
-      - 'Failed and retry payments': 'payment/failed-retry-payment.md'
-      - 'Pause payments sent to PAs': 'payment/pause-payment-pa.md'
-      - 'Payment statuses in 121': 'payment/list-status-payment-page.md'
-      - 'Payment reporting and activty': 'payment/payment-reporting.md'
-  - 'Evaluation':
-      - 'Evaluation page': 'evaluation/evaluation.md'
-  - 'F.A.Q':
-      - 'Data Protection': 'faq/data-protection.md'
-      - 'Timeline and Integration': 'faq/timeline-121-integration.md'
-      - 'Financial Service Providers (FSP)': 'faq/financial-service-provider.md'
+  - "Home": "index.md"
+  - "Support": "general/support-contact.md"
+  - "General":
+      - "Log In": "general/logging-in.md"
+      - "Change current password": "general/change-current-password.md"
+      - "Reset password": "general/reset-password.md"
+      - "Change Language": "general/change-language.md"
+  - "Users and Roles":
+      - "Users page": "users/users-roles-page.md"
+      - "Add Users": "users/add-users.md"
+      - "Roles and permissions": "users/description-roles.md"
+  - "Program Team":
+      - "Team page": "team/team-page.md"
+      - "Add team members": "team/add-team-members.md"
+      - "Change team members roles": "team/change-team-roles-program.md"
+      - "Remove team members": "team/remove-team-members-program.md"
+  - "Program Design":
+      - "Program Design page": "design/design.md"
+      - "Read & Change Program Design": "design/read-change-design-details.md"
+  - "People Affected":
+      - "People Affected page": "registration/people-affected-page.md"
+      - "Import Registration with excel": "registration/registration-import-list.md"
+      - "Registration with KOBO form": "registration/registration-automatic-import-kobo.md"
+      - "Deduplication": "registration/registration-deduplication.md"
+      - "Edit PA profile": "registration/edit-pa-profile.md"
+      - "Validate registration": "registration/registration-validate-pa.md"
+      - "Decline registration": "registration/registration-reject-pa.md"
+      - "Include PA in program": "registration/inclusion-in-program.md"
+      - "What if I see empty page": "registration/registration-list-empty.md"
+  - "Verification":
+      - "Offline Verification with 121 and Kobo Toolbox": "verification/offline-verification.md"
+  - "Payment":
+      - "Payment page": "payment/payment.md"
+      - "Issue instant payments": "payment/issue-payment-integrated-fsp.md"
+      - "Send manual payment instructions (FSP portal)": "payment/issue-payment-fsp-portal.md"
+      - "Reconcile manual payments": "payment/manual-payment-reconciliation.md"
+      - "Failed and retry payments": "payment/failed-retry-payment.md"
+      - "Pause payments sent to PAs": "payment/pause-payment-pa.md"
+      - "Payment statuses in 121": "payment/list-status-payment-page.md"
+      - "Payment reporting and activty": "payment/payment-reporting.md"
+  - "Evaluation":
+      - "Evaluation page": "evaluation/evaluation.md"
+  - "F.A.Q":
+      - "Data Protection": "faq/data-protection.md"
+      - "Timeline and Integration": "faq/timeline-121-integration.md"
+      - "Financial Service Providers (FSP)": "faq/financial-service-provider.md"
