@@ -31,7 +31,7 @@ Due to misspelling or double entry, you may need to edit details in the PA profi
 - Add a reason, then **Save**
 
 !!! info "Reason for update"
-  For auditing and accountability reasons, changes in PAs profile cannot be performed without indicating a reason. All data changes are logged into 121 platform with the old value, new value, reasons for update and are linked to the users email address performing the change.
+    For auditing and accountability reasons, changes in PAs profile cannot be performed without indicating a reason. All data changes are logged into 121 platform with the old value, new value, reasons for update and are linked to the users email address performing the change.
   To enhance the audit trail, you can download the data changes report by clicking on **Export** and selecting **Export data changes**
 
 

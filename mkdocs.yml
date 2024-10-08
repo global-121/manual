@@ -24,7 +24,8 @@ markdown_extensions:
   - pymdownx.superfences
 
 plugins:
-  - privacy
+  - privacy:
+      assets: false
   - search
   - glightbox
 
