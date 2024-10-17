@@ -7,7 +7,7 @@ hide:
 To make offline verification easy and smooth, there are a few steps needed to make sure you can do offline verification. Here’s a step-by-step guide.
 
 !!! Success "Keep the 121 support team in the loop"
-   The offline verification process requires a good coordination together with our support team and your field team. To ensure the process runs smoothly, we will elaborate a clear communication plan together with your local team.
+    The offline verification process requires a good coordination together with our support team and your field team. To ensure the process runs smoothly, we will elaborate a clear communication plan together with your local team.
 
 ## Before Offline Verification
 
