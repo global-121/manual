@@ -1,6 +1,6 @@
 /* Customized Colors */
 :root {
-  --md-primary-fg-color: #4f22d7; /* consider 510 navy #00214D */
+  --md-primary-fg-color: #00214D; /* Old 121 color: 4f22d7 */
   --md-primary-fg-color--light: #cfbfff;
   --md-primary-fg-color--dark: #361a8c;
 }

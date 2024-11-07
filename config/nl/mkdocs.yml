@@ -1,0 +1,86 @@
+# See: https://squidfunk.github.io/mkdocs-material/creating-your-site/#configuration
+# See: https://www.mkdocs.org/user-guide/configuration/
+
+site_name: 121 Platform User Manual
+site_url: https://manual.121.global/
+docs_dir: '../../docs/nl'
+site_dir: '../../generated/nl'
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+markdown_extensions:
+  - attr_list
+  - def_list
+  - md_in_html
+  - toc:
+      toc_depth: "1-1"
+      permalink: true
+      permalink_title: Specific link to this section
+  - admonition
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+plugins:
+  - privacy:
+      assets: false
+  - search
+  - glightbox
+
+theme:
+  name: material
+  custom_dir: ../../overrides
+  language: en
+  palette:
+    primary: custom
+  logo: assets/img/121Logo.svg
+  favicon: assets/img/favicon.ico
+  features:
+    - navigation.top
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.tabs.sticky
+
+extra:
+  generator: false
+  alternate:
+  - name: English
+    link: /en/
+    lang: en
+  analytics:
+    provider: custom
+    connectionString: InstrumentationKey=5eacdcc3-d4a4-4251-8ba1-f49b9eaa22be;IngestionEndpoint=https://westeurope-5.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/;ApplicationId=ce4dc6f1-1361-4ef9-ab56-ca1fc82f2309
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/thumb-up-outline
+          name: Yes, this page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/thumb-down-outline
+          name: No, this page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! Help us improve this page,
+            <a href="mailto:support@121.global?subject=Feedback%20on%20121-Manual:%20{url}" rel="noopener">let us know what you think</a>.
+
+extra_javascript:
+  - javascripts/feedback.js
+
+nav:
+  - "🇳🇱 NLRC":
+      - "Inloggen met 2FA": "nlrc/log-in-2fa.md"
+      - "Hulvragers Tabel": "nlrc/pa-table.md"
+      - "Beoordelen aanmeldingen": "nlrc/assess-new-registrations.md"
+      - "Hulpvrager zoeken en gegevens wijzigen": "nlrc/edit-pas.md"
+      - "Papieren Voucher printen": "nlrc/print-paper-voucher.md"
+      - "Pauze payments": "nlrc/pauze-payments.md"
+      - "Deelname beëindigen": "nlrc/end-payments.md"
+      - "Deelname pauzeren": "nlrc/one-off-payments.md"
+      - "Toegang": "nlrc/access.md"
