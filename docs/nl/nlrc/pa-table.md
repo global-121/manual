@@ -4,11 +4,11 @@ hide:
   - toc
 ---
 
-Zodra u bent ingelogd in 121, krijgt u de mensen te zien die door uw organisatie zijn aangemeld. 
+Zodra u bent ingelogd in 121, krijgt u de mensen te zien die door uw organisatie zijn aangemeld.
 
 !!! danger ""
-    U krijgt alleen mensen te zien die door uw organisatie zijn aangemeld. U kunt geen informatie zien van mensen die bij andere organisaties horen. Tegelijkertijd kunnen andere organisaties niet uw gegevens bekijken. Zo houden we dit systeem veilig. 
-    
+    U krijgt alleen mensen te zien die door uw organisatie zijn aangemeld. U kunt geen informatie zien van mensen die bij andere organisaties horen. Tegelijkertijd kunnen andere organisaties niet uw gegevens bekijken. Zo houden we dit systeem veilig.
+
     Lees [hier](access.md) meer over het toevoegen of verwijderen van collega’s die gegevens kunnen zien.
 
 ![Registraties Tabel](/assets/img/nlrc/nl/PATable.png)
@@ -67,21 +67,21 @@ Hier kunt u de berichten zien die het Rode Kruis naar de hulpvrager heeft gestuu
 - **Whatsapp failed**: Er is een Whatsapp bericht gestuurd, maar dit bericht is niet aangekomen. We hebben een foutmelding ontvangen.
 
 !!! danger ""
-    Omdat de digitale AH boodschappenkaarten via WhatsApp worden verstuurd, is het belangrijk dat WhatsApp berichten goed aankomen. Er kunnen verschillende redenen zijn waarom een WhatsApp bericht niet aan komt.  Als er staat ‘WhatsApp Failed’, controleer dan in ieder geval de volgende twee dingen: 
-    
-    1.	Is het juiste Whatsapp nummer geregistreerd? 
+    Omdat de digitale AH boodschappenkaarten via WhatsApp worden verstuurd, is het belangrijk dat WhatsApp berichten goed aankomen. Er kunnen verschillende redenen zijn waarom een WhatsApp bericht niet aan komt.  Als er staat ‘WhatsApp Failed’, controleer dan in ieder geval de volgende twee dingen:
+
+    1. Is het juiste Whatsapp nummer geregistreerd? 
     Het Whatsapp nummer kan een ander telefoonnummer zijn dan het nummer waarmee de hulpvrager is geregistreerd. Helemaal rechts staat het Whatsapp nummer geregistreerd, zie punt 14.
     
-    2.	Heeft de hulpvrager de laatste versie van Whatsapp geïnstalleerd?
+    2. Heeft de hulpvrager de laatste versie van Whatsapp geïnstalleerd?
       
-        1.	Zorg dat de telefoon de laatste software-update heeft doorlopen 
-        2.	Zorg dat WhatsApp is geüpdate  
-        3.	De persoon moet de laatste voorwaarden van WhatsApp hebben geaccepteerd (dat kan via deze link: [https://wa.me/tos/20210210](https://wa.me/tos/20210210)).
+        1. Zorg dat de telefoon de laatste software-update heeft doorlopen 
+        2. Zorg dat WhatsApp is geüpdate  
+        3. De persoon moet de laatste voorwaarden van WhatsApp hebben geaccepteerd (dat kan via deze link: [https://wa.me/tos/20210210](https://wa.me/tos/20210210)).
     
     Als er staat ‘WhatsApp Sent’, dan kan het zijn dat de hulpvrager vanwege de volgende twee redenen nog geen bericht heeft ontvangen:
     
-    1.	De telefoon heeft nog geen internet gehad sinds de verzending. Zodra de telefoon internet heeft, komt het bericht aan. 
-    2.	De hulpvrager heeft het telefoonnummer van 121 geblokkeerd. Dit is op te lossen door het volgende nummer: +3197****5344 te deblokkeren. 
+    1. De telefoon heeft nog geen internet gehad sinds de verzending. Zodra de telefoon internet heeft, komt het bericht aan. 
+    2. De hulpvrager heeft het telefoonnummer van 121 geblokkeerd. Dit is op te lossen door het volgende nummer: +3197****5344 te deblokkeren. 
 
 **Partner organisatie**  
 Dit is de naam van de organisatie die de hulpvrager heeft aangemeld. Dit zou altijd de naam van uw organisatie moeten zijn.

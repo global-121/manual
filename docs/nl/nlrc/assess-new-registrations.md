@@ -18,9 +18,9 @@ hide:
     ![Filter Tabel](/assets/img/nlrc/nl/FilterIncluded.png)
       - Klik daarna op: **Toepassen**. U krijgt nu iedereen te zien die zich via het Kobo formulier heeft aangemeld, maar die nog niet is goedgekeurd of geactiveerd:
 ![Gefilterde Tabel](/assets/img/nlrc/nl/Included.png)
-1. Om een selectie te maken, vinkt u de selectievakjes aan naast de registraties die u wilt selecteren. Dit zijn de vakjes links van elke rij. Als je alle gefilterde registraties wilt selecteren, kun je het selectievakje bovenaan de lijst gebruiken. Hiermee selecteer je automatisch alle registraties. *Controleer je selectie: je ziet onderaan de pagina hoeveel registraties geselecteerd zijn.*
+3. Om een selectie te maken, vinkt u de selectievakjes aan naast de registraties die u wilt selecteren. Dit zijn de vakjes links van elke rij. Als je alle gefilterde registraties wilt selecteren, kun je het selectievakje bovenaan de lijst gebruiken. Hiermee selecteer je automatisch alle registraties. *Controleer je selectie: je ziet onderaan de pagina hoeveel registraties geselecteerd zijn.*
 ![Geselecteerde Tabel](/assets/img/nlrc/nl/SelectedRegistrations.png)
-1. Klik **Valideer** in de knoppenbalk boven de tabel. De volgende popup verschijnt, klik approve:
+4. Klik **Valideer** in de knoppenbalk boven de tabel. De volgende popup verschijnt, klik approve:
 
 ![Valideer popup](/assets/img/nlrc/nl/ValidateModal.png)
 
