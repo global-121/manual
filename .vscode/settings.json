@@ -6,7 +6,8 @@
     "!**/venv"
   ],
   "spellright.language": [
-    "en"
+    "en",
+    "nl"
   ],
   "spellright.documentTypes": [
     "markdown",
