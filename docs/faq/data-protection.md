@@ -65,36 +65,36 @@ hide:
 
 ??? "8. Who process the data?"
 
-    The main processor is NLRC, who is subject to the EU General Data Protection Regulation (GDPR). It maintains the 121 platform but will only access personal data if necessary to provide support or for product improvements. 
+    The main processor is NLRC, who is subject to the EU General Data Protection Regulation (GDPR). It maintains the 121 platform but will only access personal data if necessary to provide support or for product improvements.
 
-    However, to operate the 121 platform, several data processors (trusted parties that assist with the actual functioning of the platform) are required.  
+    However, to operate the 121 platform, several data processors (trusted parties that assist with the actual functioning of the platform) are required.
 
-    The user can find more information about the third parties (sub-processors) involved in 121 and review their Data Protection Addendums through the links provided below: 
+    The user can find more information about the third parties (sub-processors) involved in 121 and review their Data Protection Addendums through the links provided below:
 
       - **Microsoft Azure Legal Information** [https://azure.microsoft.com/en-us/support/legal/](https://azure.microsoft.com/en-us/support/legal/)
 
         And when applicable:
 
-    - **Twilio Flex** [https://www.twilio.com/en-us/legal/online-terms-updates](https://www.twilio.com/en-us/legal/online-terms-updates)  
+    - **Twilio Flex** [https://www.twilio.com/en-us/legal/online-terms-updates](https://www.twilio.com/en-us/legal/online-terms-updates)
 
       - **KoboToolbox** [https://www.ifrc.org/ifrc-kobo](https://www.ifrc.org/ifrc-kobo)
 
     121 can also make use of EspoCRM, an open-source software self-hosted by the client in a server with a location chosen by the client  [https://www.espocrm.com/tos/](https://www.espocrm.com/tos/)
 
-??? "9. What are my responsabilities as 121 user?"
-    
-    Below you can find a non-exhaustive list of user responsibilities regarding the protection of personal data processed through the 121 platform. Please note that there might be other obligations imposed by national or international legislation applicable to your organization.  
-    
-    **Non-exhaustive list of user responsibilities:** 
+??? "9. What are my responsibilities as 121 user?"
 
-    - Ensure adherence to applicable legislation. 
-    - Ensure that anyone with access to 121 under the NS or Organisation must maintain the confidentiality of their account and password. 
-    - Ensure that all personnel involved, including new staff, are adequately trained for their roles and understand their responsibilities and the importance of data protection.  
-    - Evaluate if a data protection impact assessment (DPIA) is required for the specific use-case and context. A DPIA assesses privacy risks associated with the processing of personal data and determines necessary measures to mitigate the identified risks effectively. An outline of DPIAs can be found here (this link is only to provide information about the general DPIA process, your NS or Organisation may be subject to a different set of requirements). 
-    - Establish and adhere to a data retention policy that accurately reflects the nature and sensitivity of the personal data processed.  
+    Below you can find a non-exhaustive list of user responsibilities regarding the protection of personal data processed through the 121 platform. Please note that there might be other obligations imposed by national or international legislation applicable to your organization.
+    
+    **Non-exhaustive list of user responsibilities:**
+
+    - Ensure adherence to applicable legislation.
+    - Ensure that anyone with access to 121 under the NS or organization must maintain the confidentiality of their account and password.
+    - Ensure that all personnel involved, including new staff, are adequately trained for their roles and understand their responsibilities and the importance of data protection.
+    - Evaluate if a data protection impact assessment (DPIA) is required for the specific use-case and context. A DPIA assesses privacy risks associated with the processing of personal data and determines necessary measures to mitigate the identified risks effectively. An outline of DPIAs can be found here (this link is only to provide information about the general DPIA process, your NS or organization may be subject to a different set of requirements).
+    - Establish and adhere to a data retention policy that accurately reflects the nature and sensitivity of the personal data processed.
     - Provide adequate and understandable information about personal data processing and any related rights to the data subjects in local language(s), in line with the applicable legislation requirements.  
     - Ensure that data subjects can effectively exercise their rights, such as their access, rectification, erasure, and objection rights, or any additional rights granted under the applicable legislation.  
-    - Have a data breach protocol in place. 
+    - Have a data breach protocol in place.
 
     Consider any other requirements that may be imposed by applicable legislation.
 
@@ -102,30 +102,30 @@ hide:
 
     Recommended reading for the Red Cross Red Crescent movement users:
 
-    - IFRC Practical Guidance for Data Protection in Cash and Voucher Assistance 
-    - IFRC Data Protection overview and general best practices  
+    - IFRC Practical Guidance for Data Protection in Cash and Voucher Assistance
+    - IFRC Data Protection overview and general best practices
 
     Recommended reading to all Organisations:
 
     - General Data Protection Regulation (GDPR)
 
-    - Module 3 (Data and Digital responsibility) of the Data and Digital Literacy Introduction Course 
+    - Module 3 (Data and Digital responsibility) of the Data and Digital Literacy Introduction Course
 
-    Additional recommendations: 
+    Additional recommendations:
 
-    - Do Not collect more data than is necessary for the purpose of the specific program. 
-    - Do Not keep data for longer than necessary. 
-    - Performing monthly/bi-monthly access review. 
-    - Handle responsibly any excel files exported from 121. 
+    - Do Not collect more data than is necessary for the purpose of the specific program.
+    - Do Not keep data for longer than necessary.
+    - Performing monthly/bi-monthly access review.
+    - Handle responsibly any excel files exported from 121.
     
-    In general, this is strongly adviced to delete the files after doing the duplication check in way that cannot be easily recovered. The User may apply additional measures such as protecting the workbook with a password. Microsoft this can be done following this steps: 
+    In general, this is strongly advised to delete the files after doing the duplication check in way that cannot be easily recovered. The User may apply additional measures such as protecting the workbook with a password. Microsoft this can be done following this steps:
 
       - Select File > Info.
-      - Select the Protect Workbook box and choose Encrypt with Password. 
-      - Enter a password in the Password box, and then select OK. 
-      - Confirm the password in the Reenter Password box, and then select OK. 
-      - Update the initial password shared with you to access the 121 platform and choose a robust new password (e.g., use passphrases containing capital letters, numbers and symbols). 
-      - Follow a data protection training.  
+      - Select the Protect Workbook box and choose Encrypt with Password.
+      - Enter a password in the Password box, and then select OK.
+      - Confirm the password in the Reenter Password box, and then select OK.
+      - Update the initial password shared with you to access the 121 platform and choose a robust new password (e.g., use passphrases containing capital letters, numbers and symbols).
+      - Follow a data protection training.
       - Use a digital password manager (e.g., Bitwarden) 
 
 
