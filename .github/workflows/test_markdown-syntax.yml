@@ -8,6 +8,7 @@ on:
     branches:
       - main
     paths:
+      - '.github/workflows/test_markdown-syntax.yml'
       - '**/*.md'
 
 jobs:
@@ -17,7 +18,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: 'Run Markdownlint'
-        uses: DavidAnson/markdownlint-cli2-action@v17
+        uses: DavidAnson/markdownlint-cli2-action@v18
         with:
           config: '.markdownlint.yml'
           globs: '**/*.md'
