@@ -7,6 +7,7 @@ on:
   pull_request:
     branches:
       - main
+      - new
     paths:
       - '.github/workflows/test_markdown-syntax.yml'
       - '**/*.md'
