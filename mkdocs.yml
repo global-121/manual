@@ -1,8 +1,8 @@
 # See: https://squidfunk.github.io/mkdocs-material/creating-your-site/#configuration
 # See: https://www.mkdocs.org/user-guide/configuration/
 
-site_name: 121 Platform User Manual
-site_url: https://manual.121.global/
+site_name: 121 Platform User Manual 🆕
+site_url: https://new.manual.121.global/
 
 extra_css:
   - stylesheets/extra.css
@@ -35,6 +35,7 @@ theme:
   language: en
   palette:
     primary: custom
+    accent: custom
   logo: /assets/img/121Logo.svg
   favicon: /assets/img/favicon.ico
   font: false # To comply with GDPR
