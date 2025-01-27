@@ -27,7 +27,7 @@
       }
     }
   ],
-  "trailingSlash": "always",
+  "trailingSlash": "auto",
   "globalHeaders": {
     "Cross-Origin-Opener-Policy": "same-origin",
     "Permissions-Policy": "document-domain=(), storage-access=(self), attribution-reporting=(), interest-cohort=(), browsing-topics=()",
