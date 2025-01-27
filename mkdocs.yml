@@ -37,6 +37,7 @@ theme:
     primary: custom
   logo: /assets/img/121Logo.svg
   favicon: /assets/img/favicon.ico
+  font: false # To comply with GDPR
   features:
     - navigation.top
     - navigation.instant

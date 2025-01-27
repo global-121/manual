@@ -4,10 +4,10 @@ var clickPluginInstance = new Microsoft.ApplicationInsights.ClickAnalyticsPlugin
 // Click Analytics configuration
 // See: https://learn.microsoft.com/en-us/azure/azure-monitor/app/javascript-feature-extensions?tabs=javascriptwebsdkloaderscript
 var clickPluginConfig = {
-    autoCapture : true,
-    dataTags: {
-        useDefaultContentNameOrId: true
-    }
+  autoCapture : true,
+  dataTags: {
+    useDefaultContentNameOrId: true,
+  },
 };
 
 // Application Insights JavaScript (Web) SDK Loader Script code
@@ -21,10 +21,11 @@ var clickPluginConfig = {
     disableCookiesUsage: true,
     enableAutoRouteTracking: true,
     extensions: [
-        clickPluginInstance
+      clickPluginInstance,
     ],
     extensionConfig: {
-        [clickPluginInstance.identifier] : clickPluginConfig
+      ['AppInsightsCfgSyncPlugin']: { cfgUrl: '' },
+      [clickPluginInstance.identifier]: clickPluginConfig,
     },
   }
 });
