@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/staticwebapp.config.json",
+  "routes": [
+    {
+      "route": "assets/{stylesheets,javascripts}/*.min.{css,js}",
+      "headers": {
+        "Cache-Control": "public, immutable, no-transform, max-age=31536000"
+      }
+    },
+    {
+      "route": "assets/img/*.{svg,webp,png,ico}",
+      "headers": {
+        "Cache-Control": "must-revalidate, no-transform, max-age=2592000"
+      }
+    },
+    {
+      "route": "{stylesheets,javascripts}/*.{css,js}",
+      "headers": {
+        "Cache-Control": "must-revalidate, no-transform, max-age=2592000"
+      }
+    }
+  ],
+  "trailingSlash": "always",
+  "globalHeaders": {
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Permissions-Policy": "document-domain=(), storage-access=(self), attribution-reporting=(), interest-cohort=(), browsing-topics=()",
+    "Referrer-Policy": "same-origin"
+  }
+}
