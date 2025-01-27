@@ -13,7 +13,7 @@ hide:
 
       The partner remains the data controller and is therefore responsible for any data entered into the platform. The partner should therefore be informed and in compliance with their data protection legislation.
 
-      Please, contact our Account Manager Team to **discuss any requirements and questions** in regard to our GDPR responsabilities at <info@121.global>.
+      Please, contact our Account Manager Team to **discuss any requirements and questions** in regard to our GDPR responsibilities at <info@121.global>.
 
 ??? "2. Where and how do you store and process data?"
 
@@ -63,7 +63,7 @@ hide:
 
     **Integrity** is protected by extensive testing of the software using various types of automated and also manual tests, and using DBMS-provided integrity functionality with an ERD in 3rd normal form (primary key-foreign key relationships, unique contraints, not null columns, and the like). Malicious attempts at accessing the data are mitigated by daily monitoring of logs and resources and by regular pentests performend by an external company. The whole The Netherlands Red Cross (NLRC) has undersigned the IFRC Code of Conduct and also external contractors do so.
 
-??? "8. Who process the data?"
+??? "8. Who processes the data?"
 
     The main processor is NLRC, who is subject to the EU General Data Protection Regulation (GDPR). It maintains the 121 platform but will only access personal data if necessary to provide support or for product improvements.
 
@@ -118,7 +118,7 @@ hide:
     - Performing monthly/bi-monthly access review.
     - Handle responsibly any excel files exported from 121.
     
-    In general, this is strongly advised to delete the files after doing the duplication check in way that cannot be easily recovered. The User may apply additional measures such as protecting the workbook with a password. Microsoft this can be done following this steps:
+    In general, this is strongly advised to delete the files after doing the duplication check in way that cannot be easily recovered. The User may apply additional measures such as protecting the workbook with a password. In Microsoft Excel, this can be done following this steps:
 
       - Select File > Info.
       - Select the Protect Workbook box and choose Encrypt with Password.
