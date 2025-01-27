@@ -1,7 +1,7 @@
-# 121 Manual
+# 121 Manual 🆕
 
 > [!TIP]
-> Read the manual: <https://manual.121.global>
+> Read the 🆕 manual: <https://new.manual.121.global>
 
 ## Development
 
