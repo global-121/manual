@@ -2,13 +2,6 @@
   "$schema": "https://json.schemastore.org/staticwebapp.config.json",
   "routes": [
     {
-      "route": "favicon.ico",
-      "rewrite": "assets/img/favicon.ico",
-      "headers": {
-        "Cache-Control": "must-revalidate, no-transform, max-age=2592000"
-      }
-    },
-    {
       "route": "assets/{stylesheets,javascripts}/*.min.{css,js}",
       "headers": {
         "Cache-Control": "public, immutable, no-transform, max-age=31536000"
@@ -27,7 +20,7 @@
       }
     }
   ],
-  "trailingSlash": "auto",
+  "trailingSlash": "always",
   "globalHeaders": {
     "Cross-Origin-Opener-Policy": "same-origin",
     "Permissions-Policy": "document-domain=(), storage-access=(self), attribution-reporting=(), interest-cohort=(), browsing-topics=()",

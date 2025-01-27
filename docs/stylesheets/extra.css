@@ -1,12 +1,8 @@
 /* Customized Colors */
 :root {
-  --md-primary-fg-color: hsl(214, 100%, 15%); /* 510-color: navy */
-  --md-primary-fg-color--light: hsl(215, 57%, 24%);
-  --md-primary-fg-color--dark: hsl(214, 100%, 13%);
-
-  --md-accent-fg-color: #4f22d8;
-  --md-accent-fg-color--light: #5930fd;
-  --md-accent-fg-color--dark: #361A8C;
+  --md-primary-fg-color: #4f22d7; /* consider 510 navy #00214D */
+  --md-primary-fg-color--light: #cfbfff;
+  --md-primary-fg-color--dark: #361a8c;
 }
 
 /* Enforce hiding hidden elements */
