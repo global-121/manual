@@ -12,8 +12,8 @@ The People Affected table shows all of the registered households for your progra
 
 - To mark the People Affected as validated click on **Choose Action : Mark as Validated**.
 - When clicking, a tick box :material-checkbox-blank-outline: appears on the left of the PA name column.
-  - Make an **individual selection** by clicking on the :material-checkbox-outline: on the PA line;
-  - Or a **bulk selection** by clicking on the :material-checkbox-multiple-marked-outline: on the upper line **Select**
+    - Make an **individual selection** by clicking on the :material-checkbox-outline: on the PA line;
+    - Or a **bulk selection** by clicking on the :material-checkbox-multiple-marked-outline: on the upper line **Select**
 - A pop-up appears to confirm your action **You are about to Mark as Validated for X People Affected.**
 - Click on OK. A message indicates the completion of the action.
 - PA status is now updated to **Validated**.
