@@ -13,4 +13,4 @@ To change the language:
 
 ## Before login
 
-1. Pick a language from the dropdown menu at the bottom.
+1. Pick a language from the dropdown menu at the bottom of the login page.

@@ -19,4 +19,4 @@ Assessing new registrations is an important task. As a partner, you need to make
 7. Confirm your action in the popup that appears.
 
 !!! Danger "Validating registrations"
-  Only approve registrations for people you know and have registered yourself. Reject registrations with unrecognized details.
+    Only approve registrations for people you know and have registered yourself. Reject registrations with unrecognized details.
