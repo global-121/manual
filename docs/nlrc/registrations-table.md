@@ -24,10 +24,10 @@ Once [logged into](../log-in-2fa) 121, you can view data for individuals registe
 
 ## Changing Default Columns
 
-If you want to change the default columns that you see in the table, you can modify the table view by adding and removing columns.
+If you want to change the columns you see in the table, you can update the table view by adding or removing columns.
 
-1. Click the settings icon (:material-cog-outline:), at the top-right of the **table** section
-2. Now select or deselect columns
-3. Click apply
-4. The table should be adjusted accordingly
-5. If you want to reset to the default settings, click the :material-cog-outline:-icon again and click "Revert to default"
+1. Click the settings icon (:material-cog-outline:) at the top-right of the **table** section.
+2. Select or deselect columns as needed.
+3. Click apply.
+4. The table will update with your changes.
+5. To reset to the default settings, click the :material-cog-outline: icon again and choose "Revert to default".

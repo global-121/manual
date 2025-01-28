@@ -4,13 +4,13 @@ hide:
   - toc
 ---
 
-To customize the language:
+To change the language:
 
 ## After login
 
-1. Click on the menu button (:material-menu:) in the top-left corner.
-2. Select an available language in the dropdown field at the bottom of the menu.
+1. Click the menu button (:material-menu:) in the top-left corner.
+2. Choose a language from the dropdown menu at the bottom.
 
 ## Before login
 
-1. Select an available language in the dropdown field at the bottom of the menu.
+1. Pick a language from the dropdown menu at the bottom.
