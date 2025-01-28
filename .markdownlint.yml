@@ -4,4 +4,6 @@ line-length: false
 no-hard-tabs:
   spaces_per_tab: 2
 no-multiple-blanks:
- maximum: 2
+  maximum: 2
+MD007:
+  indent: 4
