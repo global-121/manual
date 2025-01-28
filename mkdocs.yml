@@ -118,7 +118,7 @@ nav:
         - "Financial Service Providers (FSP)": "faq/financial-service-provider.md"
         - "Setting-up 121 Platform": "faq/setting-up-121-platform.md"
   - "🇳🇱 NLRC":
-    - "Logging in via 2FA": "nlrc/log-in-2fa.md"
+    - "Logging in via 2FA (2 Factor Authentication)": "nlrc/log-in-2fa.md"
     - "Change the language": "nlrc/change-language.md"
     - "Registrations Table": "nlrc/registrations-table.md"
     - "Assess (new) Registrations": "nlrc/assess-new-registrations.md"
