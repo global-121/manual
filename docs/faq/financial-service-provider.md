@@ -36,6 +36,8 @@ hide:
 ??? "5. What banks or FSP do qualify to be integrated in the platform?"
 
      The (local) National Society or NGO needs to have a framework agreement with the FSP, unless the FSP is already integrated with 121 platform. The 121 Team will handle the technical aspects of the integration. 
+     
+     We strongly recommend including in this agreement provisions detailing how the FSP will handle and protect personal data. Additionally, the National Society or NGO is responsible for verifying the FSP’s trustworthiness, which will include the existence of a privacy policy compliant with applicable (inter-)national legislation.
 
      To enable the integration with 121 platform, the FSPs must have an API (Application programming interfaces) as sets of protocols and tools that allow software programs to communicate with each other.
 
