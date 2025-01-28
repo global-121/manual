@@ -23,8 +23,8 @@ To initiate a payment:
 
 - Include the People Affected in the payment round as follows.
 - After selecting **payment#**, a tick box :material-checkbox-blank-outline: appears on the left of the PA name column.
-  - Make an **individual selection** by clicking on the :material-checkbox-outline: on the PA line;
-  - Or a **bulk selection** by clicking on the :material-checkbox-multiple-marked-outline: on the upper line **Select**
+    - Make an **individual selection** by clicking on the :material-checkbox-outline: on the PA line;
+    - Or a **bulk selection** by clicking on the :material-checkbox-multiple-marked-outline: on the upper line **Select**
 - **Apply Action** button becomes blue and clickable. Click the button to start paying out to the selected PA.
 - A pop-up appears to confirm the sum to be transferred value to each household and the **Maximum amount that will be spend this payment: SUM.**, matching the total sum of the transfers.
 - Click on **Start paying now**.
