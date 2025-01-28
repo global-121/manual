@@ -12,9 +12,9 @@ Once [logged into](../log-in-2fa) 121, you can view data for individuals registe
 - **Name:** The name as entered in the Kobo form.
 - **Registration Status:** Indicates the beneficiary's assistance status:
     - **Registered:** Beneficiary is registered but not yet approved or declined.
-    - **Approved:** Registration is confirmed; payments are pending activation.
+    - **Validated:** Registration is confirmed; payments are pending activation.
     - **Declined:** Registration is rejected; no assistance will be provided.
-    - **Active:** Payments are activated; weekly grocery cards are being distributed.
+    - **Included:** Payments are activated; weekly grocery cards are being distributed.
     - **Paused:** Payments are temporarily paused.
     - **Completed:** Assistance has ended.
 - **Phone Number:** The beneficiary's phone number as provided in the Kobo form.
