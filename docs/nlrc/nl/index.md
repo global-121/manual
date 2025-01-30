@@ -7,6 +7,6 @@ Aan de linkerkant vind je een navigatieoverzicht, of vind de informatie die je n
 
 !!! note ""
   Je kunt **de taal wijzigen** door het taal-icoon rechtsboven (naast de zoekbalk) te selecteren en een andere taal te kiezen.
-  Let op dat niet alle informatie in alle talen beschikbaar is!
+  Let op: niet alle informatie is in alle talen beschikbaar!
 
 ---
