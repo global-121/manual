@@ -44,12 +44,12 @@ Once your labels are updated, you can save the file as a .csv format:
 
 Once your updated file is saved as a .csv format, you can import the payment reconciliation file:
 
-- Go to **Payment** page
-- In **Payment data**, select the **payment #** number you want to reconcile the data.
-  Note that the payment must be shown as **CLOSED**
-- Click on the button **Import payment reconciliation data**
-- A pop-up window appears. Click on **Choose File** and select the required file
-- **OK**
+- Go to **Payments** and select the specific payment to be reconciled.
+- Click **Import reconciliation data**
+- **Drag and drop** or **choose a file** and 
+- Click on **Import file**
+  
+![Import reconciliation file](..\assets\img\ReconciliationImport.png)
 
 !!! info "Payment statuses"
     All payment statuses will be updated for the beneficiaries. You can then overview the number of successful, waiting and failed payments within the beneficiaries list. Read more about the payment statuses in [this page](./list-status-payment-page.md)

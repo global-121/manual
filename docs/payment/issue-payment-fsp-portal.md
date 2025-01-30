@@ -20,11 +20,11 @@ In the 121 Platform, payments can be processed in two different methods: with a 
 
 To initiate a new payment:
 
-1. On the top right, click **Create new payment**
+- On the top right, click **Create new payment**
 
 ![Create new payment button](../assets/img/PaymentsPage.png)
 
-2. A page will open displaying a list of beneficiaries included in the program.
+- A page will open displaying a list of beneficiaries included in the program.
   *Only beneficiaries with an ***Included*** status who have not yet received all their installments will appear in the list. Beneficiaries who have received and completed all their payments will not be shown.*
 
 ![Select List](../assets/img/CreateNew)
@@ -32,54 +32,82 @@ To initiate a new payment:
 - **Select the list of beneficiaries to be added** to the payment round as follows.
     - Make an **individual selection** by clicking on the :material-checkbox-outline: on the indivudual beneficiary line;
     - Or do a **bulk selection** by clicking on the :material-checkbox-multiple-marked-outline: on the upper table line **Select**
-- **Apply Action** button becomes blue and clickable. Click the button to start paying out to the selected PA.
-- A pop-up appears to confirm the sum to be transferred value to each household and the **Maximum amount that will be spend this payment: SUM.**, matching the total sum of the transfers.
-- Click on **Start paying now**.
-- A message indicates the completion of the action and **next steps to download the payment instructions**.
+- On the bottom right, click **Add to payment**;
 
-Only PAs who have not received **payment#** round are available for selection. PA’s that have received the max payments will not be applicable (max payment number per household might change as the program continues).
+![Add to Payment](..\assets\img\CreateNewpaymentSelect.png)
+
+- A window appears to confirm the number of beneficiaries included and the total amount to be transferred;
+- Click on **Start payment**;
+- The portal will display guidelines on the left side of your screen for exporting the FSP payment instructions, as shown below.
+
+![Start Payment](.\assets\img\StartPayment.png)
+
+---
 
 ### Export the payment instructions
 
-Once you have selected and included the People Affected in your payment round, you can download the payment instructions.
+After processing the payment preparation, **remain on the payment page you just worked on**. From there, you can download the payment instructions. You will see all pending payments for registrations that have opted to receive cash aid through the FSP via manual import-export (Excel).
+
+![Pending Statuses Excel](..\assets\img\PendingStatusExcel.png)
+
 The file will provide the necessary instructions for the FSP to issue the payments.
 
-- On the top left of your **payment page**, go into the **Payment data** dropdown list
-- Click on **Choose Payment** and select the **payment#** round matching your selection
-- **Export payment instructions** (right) becomes blue and clickable
-- Click on the export button to download the file
+- On the top right of your **page**, go into the **Payment data** dropdown list
+- Click on **Export** and select the **Export FSP payment list**
 - The file will be available in your downloaded folder
 - Review the file if required. *Based on your agreement with the FSP, share the file to your FSP or import it into the FSP portal (if available).
 
+![Export FSP payment list](..assets\img\IndividualExportReport.png)
+
+The payment status displayed in the payment page will be updated depending on the payment phase. For Manual Payment, the default message will be **PENDING** until the payment reconciliation has been processed.
+
 !!! info "Payment instructions excel template"
-    The payment instructions excel file should only contain the criteria needed for the FSP to confirm the beneficiaries' identity and issue the payments, such as names, phone number and ID number or any other criteria based on your program SOPs. For data privacy, we recommend to only export the minimum criteria to verify the PA identity. All other irrelevant data for the payment process should be excluded from the payment instructions file. After usage the exported data should be deleted to ensure personal data is kept secure.
+    The payment instructions excel file should only contain the criteria needed for the FSP to confirm the beneficiaries' identity and issue the payments, such as names, phone number and ID number or any other criteria based on your program SOPs. For data privacy, we recommend to only export the minimum criteria to verify the beneficiary identity. All other irrelevant data for the payment process should be excluded from the payment instructions file. After usage the exported data should be deleted to ensure personal data is kept secure.
 
     Each program may require a different template depending on the FSP you work with in the region of your operations. Our Team will create a template specifically for the program requirements and adapted to upload into each FSP portal. 
 
     To export a payment report, the payment status should be shown as **closed** in the dropdownlist.
 
+---
+
 ### Reconcile payments in 121 platform
 
-Once the FSP shared the updated payment instructions back to you, you can reconcile payments in 121 Platform to update the People Affected payment status by uploading the file in the **payment page**.
+Once the FSP shared the updated payment instructions back to you, you can reconcile payments in 121 Platform to update the payment status by uploading the file in the **specific payment page**.
 
-- On the top left of your **payment page**, go to the **Payment data** dropdown list
-- Click on **Choose Payment** and select the **payment#** round matching your selection
-- **Import payment reconciliation data** (right) becomes blue and clickable
+!!! important "Format the reconciliation file"
+    Before importing the reconciliation file, ensure it meets the required format. You can download the template by clicking Import reconciliation data and selecting the template. Make sure all required columns are included, and adjust the statuses as follows:
+    - **Completed** → success
+    - **Failed** → error
+    - **Pending** → waiting
+
+    The file must be in .csv format. Follow the instructions [in this page](..\payment\manual-payment-reconciliation.md)
+
+To update the payment statuses:
+
+- Go to the payment page for the selected date that matches.
+- On the top right of your page, click on **Import reconciliation data**
+  
+![Export FSP payment list](..\assets\img\IndividualExportReport.png)
+
 - Click on the import button to upload the FSP file, *the file must be in .csv format*
-- Drag and drop the file; or use the 'Choose file' function.
-- Click on OK. The PA status will be updated according to whether the transfer was marked as Successful, Waiting or Failed by the FSP.
+- **Drag and drop** the file; or use the **Choose file** function.
+- Click on OK. The beneficiaries status will be updated according to whether the transfer was marked as Successful, Pending or Failed by the FSP.
+
+![Reconciliation Data Import](..\assets\img\ReconciliationImport.png)
+
+---
 
 ### Payment status
 
-The payment status displayed in the payment page will be updated depending on the payment phase. For Manual Payment, the default message will be **WAITING** until the payment reconciliation has been processed.
+The payment status displayed in the payment page will be updated depending on the payment phase. For Manual Payment, the default message will be **PENDING** until the payment reconciliation has been processed.
 
 Below, the different payment statuses.
 
 | Status | Description | Actions required |
 | :------| :-----------| :----------------|
-| **SUCCESSFUL** | The transfer have been sent to the People Affected or Household and they can now use it. | None.|
-| **WAITING** | The payment is waiting for approval of one or more financial officers. The transfer is not yet sent to the People Affected or Household selected for this payment round. | Import the reconciliation file into 121 Platform to update the status (.csv Format) |
-| **FAILED** | The transaction has failed. The PAs have not received any payment.| Please check the error message provided by your bank. Failed payment can be due to wrong bank details, phone number or ID number depending on the chosen payment methods. You can try again. Contact our 121 Support Team if this remains unsolved.|
+| **SUCCESSFUL** | The transfer have been sent to the Beneficiaries or Household and they can now use it. | None.|
+| **PENDING** | The payment is waiting for approval of one or more financial officers. The transfer is not yet sent to the Beneficiaries or Household selected for this payment round. | Import the reconciliation file into 121 Platform to update the status (.csv Format) |
+| **FAILED** | The transaction has failed. The beneficiaries have not received any payment.| Please check the error message provided by your bank. Failed payment can be due to wrong bank details, phone number or ID number depending on the chosen payment methods. You can try again. Contact our 121 Support Team if this remains unsolved.|
 
 !!! info "Manual payment reconciliation"
     Once the FSP share back the payment data, you can execute the manual payment reconciliation in the 121 platform.

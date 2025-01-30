@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-When processing the payments, the statuses will be updated with **Successful**, **Waiting** and **Failed**.
+When processing the payments, the statuses will be updated with **Successful**, **Pending** and **Failed**.
 Below, you will find the step-by-step instructions to understand the reasons of **failed payments** and retry payments.
 
 *For payment statuses description, please refer to this [page listing the statuses.](./list-status-payment-page.md)
