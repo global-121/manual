@@ -36,12 +36,12 @@ jobs:
       - name: Build EN
         working-directory: config/en
         run: |
-          mkdocs build --site-dir
+          mkdocs build
 
       - name: Build NL
         working-directory: config/nl
         run: |
-          mkdocs build --site-dir
+          mkdocs build
 
       - name: 'Create redirect `/`'
         run: |-
