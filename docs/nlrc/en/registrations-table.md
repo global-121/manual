@@ -1,5 +1,5 @@
 ---
-title: PA Table
+title: Registrations Table
 hide:
   - toc
 ---
@@ -31,3 +31,4 @@ If you want to change the columns you see in the table, you can update the table
 3. Click apply.
 4. The table will update with your changes.
 5. To reset to the default settings, click the :material-cog-outline: icon again and choose "Revert to default".
+
