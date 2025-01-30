@@ -46,10 +46,8 @@ Once your updated file is saved as a .csv format, you can import the payment rec
 
 - Go to **Payments** and select the specific payment to be reconciled.
 - Click **Import reconciliation data**
-- **Drag and drop** or **choose a file** and 
-- Click on **Import file**
-  
-![Import reconciliation file](..\assets\img\ReconciliationImport.png)
+- **Drag and drop** or **choose a file**
+- Click on **Import file** ![Import reconciliation file](..\assets\img\ReconciliationImport.png)
 
 !!! info "Payment statuses"
     All payment statuses will be updated for the beneficiaries. You can then overview the number of successful, waiting and failed payments within the beneficiaries list. Read more about the payment statuses in [this page](./list-status-payment-page.md)
