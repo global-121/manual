@@ -1,11 +1,13 @@
 # 121 User Manual - 🆕
 
-
 <!-- markdownlint-disable-next-line no-trailing-punctuation -->
 ## Welcome to the 121 user manual!
 
 On the left you can find a navigation overview, or find the information you need by using the search bar on the top right.
 
+!!! note ""
+    You can **change the language** by selecting the language icon on the top right (next to the search bar), and selecting a different language.
+    Please note that not all content is available in all languages!
 
 ---
 
