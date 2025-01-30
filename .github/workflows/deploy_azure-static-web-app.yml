@@ -33,9 +33,23 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Build
+      - name: Build EN
+        working-directory: config/en
         run: |
-          mkdocs build --site-dir www
+          mkdocs build --site-dir
+
+      - name: Build NL
+        working-directory: config/nl
+        run: |
+          mkdocs build --site-dir
+
+      - name: 'Create redirect `/`'
+        run: |-
+          cat <<EOF > www/index.html
+          <!doctype html>
+          <title>Redirecting...</title>
+          <meta http-equiv="refresh" content="1;url=/en/">
+          EOF
 
       # More information on Static Web App workflow configurations,
       # See: https://aka.ms/swaworkflowconfig

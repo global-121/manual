@@ -3,9 +3,11 @@
 
 site_name: 121 Platform User Manual 🆕
 site_url: https://new.manual.121.global/
+docs_dir: '../../docs'
+site_dir: '../../www/en'
 
 extra_css:
-  - stylesheets/extra.css
+  - assets/stylesheets/extra.css
 
 markdown_extensions:
   - attr_list
@@ -32,13 +34,13 @@ plugins:
 
 theme:
   name: material
-  custom_dir: overrides
+  custom_dir: ../../overrides
   language: en
   palette:
     primary: custom
     accent: custom
-  logo: /assets/img/121Logo.svg
-  favicon: /assets/img/favicon.ico
+  logo: assets/img/121Logo.svg
+  favicon: assets/img/favicon.ico
   font: false # To comply with GDPR
   features:
     - navigation.top
@@ -48,6 +50,10 @@ theme:
 
 extra:
   generator: false
+  alternate:
+  - name: Nederlands
+    link: /nl/
+    lang: nl
   analytics:
     provider: custom
     connectionString: InstrumentationKey=5eacdcc3-d4a4-4251-8ba1-f49b9eaa22be;IngestionEndpoint=https://westeurope-5.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/;ApplicationId=ce4dc6f1-1361-4ef9-ab56-ca1fc82f2309
@@ -67,7 +73,7 @@ extra:
             <a href="mailto:support@121.global?subject=Feedback%20on%20121-Manual:%20{url}" rel="noopener">let us know what you think</a>.
 
 extra_javascript:
-  - javascripts/feedback.js
+  - assets/javascripts/feedback.js
 
 nav:
   - "General":
