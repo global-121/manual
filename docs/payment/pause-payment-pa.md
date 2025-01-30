@@ -14,23 +14,16 @@ In the course of a program, beneficiaries status may change. You can decide to e
 
 In the **Registration** page:
 
-1. Go to the table view
-2. Click on the filter logo in the column **Name** and search for the **Beneficiary's name**, or search with **#reg. number**
-3. The beneficiary will be listed.
+- Go to the table view
+- Click on the filter logo in the column **Name** and search for the **Beneficiary's name**, or search with **#reg. number** ![Select Pause](..\assets\img\SearchReg.png)
 
-![Select Pause](..\assets\img\SearchReg.png)
+### Change status
 
-### Change status 
+  Click on the :material-checkbox-outline: to add the beneficiary in the selection,
 
-4. Click on the :material-checkbox-outline: to add the beneficiary in the selection,
-5. Click on **Pause** status on the top of the table,
-6. You can **Approve** the action, and *optionnally, send a message to the beneficiary*.
-
-![Approve Pause Status](C:\Users\cdamico\Git\121Manual\overrides\assets\img\PausePANotification.png)
-
-7. The status has been changed to **Paused**
-
-![Pause Status](C:\Users\cdamico\Git\121Manual\overrides\assets\img\PauseStatus.png)
+- Click on **Pause** status on the top of the table,
+- You can **Approve** the action, and *optionnally, send a message to the beneficiary*. ![Approve Pause Status](..\assets\img\PausePANotification.png)
+- The status has been changed to **Paused** ![Pause Status](C:\Users\cdamico\Git\121Manual\overrides\assets\img\PauseStatus.png)
 
 ### Change the Beneficiary status
 
