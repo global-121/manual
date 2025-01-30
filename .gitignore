@@ -4,3 +4,4 @@ venv
 # Generated/Cached files
 .cache
 site
+.DS_Store
