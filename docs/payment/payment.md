@@ -31,7 +31,7 @@ This overview is especially useful for
 
 Find out more about the payment and PA statuses on [this page](./list-status-payment-page.md)
 
-![Payment status]()
+![Payment status](..\assets\img\PaymentReportBoard.png)
 
 ### Export payment reports
 
