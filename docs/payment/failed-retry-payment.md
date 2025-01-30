@@ -15,24 +15,27 @@ Below, you will find the step-by-step instructions to understand the reasons of 
 
 ### Reasons for failed payments
 
-Failed payments occur due to an error in data. Depending on how the payment is processed in your instance, you may look at different errors.
+Failed payments occur due to an error in data. Depending on how the payment is processed in your instance, you may look at different errors. Your Financial Service Provider(s) should share the reasons for the payment to fail together with the reconciliation data.
+
+![Failed Payment](C:\Users\cdamico\Git\121Manual\docs\assets\img\PaymentFailedReasons.png)
+
 
 **1. Incorrect payment details**
-    The KYC required is incorrect and cannot match the information required by the FSP to process the payment. The incorrect details can be as follows:
+    For both manual and automatic payments, The KYC required may be incorrect and cannot match the information required by the FSP to process the payment. The incorrect details can be as follows:
 
-- PA full name
+- Full name
 - Phone numbers
 - Bank account number
 - Id number
 - Location
 
-Once you have identified the incorrect data, you can correct the information within the PA profile. Follow the instructions [on this page.](../registration/edit-pa-profile.md)
+Once you have identified the incorrect data, you can request your CVA manager or CVA officer to correct the information within the beneficiary's profile. To further read on the instructions, visit [this page.](../registration/edit-pa-profile.md)
 
 **2. Wrong format of the reconciliation file**
-    For manual payment, the imported reconciliation file is not formatted correctly. The data cannot match within the platform. Check the instructions on formatting your [manual reconciliation file.](./manual-payment-reconciliation.md)
+    For manual payment, the imported reconciliation file may not be formatted correctly. The data cannot match within the platform. Check the instructions on formatting your [manual reconciliation file.](./manual-payment-reconciliation.md)
 
-**3. PAs changed their payment details**
-    In case the failed payment occurs while the PAs have received successfully the payment in the past, this can be due to the fact that PAs have changed their payment details or phone number. Consequently, the FSP cannot match and process the payment.
+**3. Beneficiary changed their payment details**
+    If a failed payment occurs despite the beneficiary having successfully received payments in the past, it may be due to a change in their payment details or phone number. As a result, the Financial Service Provider (FSP) may be unable to match and process the payment.
 
 
 **4. Updating payment between FSP-121 is failing**

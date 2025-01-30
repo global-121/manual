@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-Audit trail can be performed in 121 for financial reporting and data changes overview at a general or individual level.
+Audit trail can be performed in 121 for financial reporting and data changes overview at a general or individual level. The Payment page in your program will display information about any completed installments or payment rounds. If no payments have been made yet, no details will appear. However, if some installments are already in progress, you will see each individual installment.
 
 !!! Important "Who can perform actions in this page?"
     Finance Manager and Finance Officer roles can perform actions in the Payment page.  
@@ -15,8 +15,8 @@ Audit trail can be performed in 121 for financial reporting and data changes ove
 To export a financial report:
 
 - Go in **Payment page**
-- On the top left, click on the dropdown list below **Payment data**
-- Select the **Payment#** for which you would like to export the payment data
+- On the top right, click on **Export**
+- Select the file for which you would like to export the payment data
 - Click on **Export Report** button
 - A pop-up window will request a confirmation.**This will download an Excel file with all People Affected included in this payment**
 - The file will be exported into the download folder as an excel file.

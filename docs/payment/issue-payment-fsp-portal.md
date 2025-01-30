@@ -1,10 +1,13 @@
 ---
-title: Payment - Issue a payment via the FSP portal
+title: Payment - Create a new payment via the FSP portal
 hide:
   - toc
 ---
 
-In the 121 Platform, payments can be processed in two different methods: with a manual payment via a FSP portal or directly with a FSP integration. Below, you will find the step-by-step instructions to execute the manual payment via a FSP portal, to export the payment instructions and reconcile payments into your program.
+
+The Payment page in your program will display information about any completed installments or payment rounds. If no payments have been made yet, no details will appear. However, if some installments are already in progress, you will see each individual installment. As long as payments are still being processed in the current program, you can add beneficiaries to new payments.
+
+In the 121 Platform, payments can be processed in two different methods: with a **manual payment via a FSP portal** or with a **direct FSP integration**. Below, you will find the step-by-step instructions to **process the manual payment via a FSP portal**, to export the payment instructions and reconcile payments into your program.
 
 *For payments instructions with an integrated Financial Service Provider, please refer to the instructions on the [Payment with an integrated FSP page](./issue-payment-integrated-fsp.md)*
 
@@ -13,18 +16,22 @@ In the 121 Platform, payments can be processed in two different methods: with a 
     Additional users may be granted only **View** permission on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
 
 
-### Include People Affected in the payment round
+### Create a new payment
 
-The Payment table shows all of the included households in your program ready to receive payment with the status **Included**.
-To initiate a payment:
+To initiate a new payment:
 
-- On the top left of the table, Open the drop down to **Choose action.**
-- Select  **Do Payment#**
+1. On the top right, click **Create new payment**
 
-- Include the People Affected in the payment round as follows.
-- After selecting **payment#**, a tick box :material-checkbox-blank-outline: appears on the left of the PA name column.
-    - Make an **individual selection** by clicking on the :material-checkbox-outline: on the PA line;
-    - Or a **bulk selection** by clicking on the :material-checkbox-multiple-marked-outline: on the upper line **Select**
+![Create new payment button](../assets/img/PaymentsPage.png)
+
+2. A page will open displaying a list of beneficiaries included in the program.
+  *Only beneficiaries with an ***Included*** status who have not yet received all their installments will appear in the list. Beneficiaries who have received and completed all their payments will not be shown.*
+
+![Select List](../assets/img/CreateNew)
+
+- **Select the list of beneficiaries to be added** to the payment round as follows.
+    - Make an **individual selection** by clicking on the :material-checkbox-outline: on the indivudual beneficiary line;
+    - Or do a **bulk selection** by clicking on the :material-checkbox-multiple-marked-outline: on the upper table line **Select**
 - **Apply Action** button becomes blue and clickable. Click the button to start paying out to the selected PA.
 - A pop-up appears to confirm the sum to be transferred value to each household and the **Maximum amount that will be spend this payment: SUM.**, matching the total sum of the transfers.
 - Click on **Start paying now**.

@@ -4,13 +4,13 @@ hide:
   - toc
 ---
 
-In the course of a program, PA status may change due to a variety of factors. You can decide to end or pause the inclusion of a PA within a program. Therefore, the PA may stop receiving payments.
+In the course of a program, beneficiaries status may change. You can decide to end or pause the inclusion of a beneficiary within a program. Therefore, they will stop receiving cash aid through this program.
 
 !!! Important "Who can perform actions in this page?"
     Finance Manager and Finance Officer roles can perform actions in the Payment page.  
     Additional users may be granted only **View** permission on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
 
-### Search for a PA and Filter on status
+### Search for a beneficiary and Filter on status
 
 In the **Payment** page:
 
