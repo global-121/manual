@@ -16,11 +16,11 @@ If a beneficiary no longer needs assistance, you can stop the assistance. This c
 5. In the popup, **Approve** the action.
 6. The beneficiary will no longer receive assistance.
 
-![DeclinedRegistration](C:\Users\cdamico\Git\121Manual\docs\assets\img\RegistrationDeclined.png)
+![DeclinedRegistration](..\assets\img\RegistrationDeclined.png)
 
 You can also change the status by right-clicking the beneficiary in the table and clicking **Decline**
 
-![DropDownListStatus](C:\Users\cdamico\Git\121Manual\docs\assets\img\RegistationsStatusRighList.png)
+![DropDownListStatus](..\assets\img\RegistationsStatusRighList.png)
 
 
 ### Undo the action and revert the status
