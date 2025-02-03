@@ -22,7 +22,7 @@ In the **Registration** page:
 
 ### Change status
 
-- Select individually the beneficiary/beneficiaries that you want to end the assistance for thicking the box :material-checkbox-multiple-marked-outline:
+- Select individually the beneficiary/beneficiaries that you want to end the assistance for ticking the box :material-checkbox-multiple-marked-outline:
 - Click on **:fontawesome-solid-ban: Decline** on the top of the table;
 - In the popup window, **Approve** the action.
 - The beneficiary will no longer receive assistance. ![DeclinedRegistration](../assets/img/RegistrationDeclined.png)

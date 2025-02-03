@@ -25,14 +25,14 @@ The Payments page in your program will display information about any completed i
 - A page will open displaying a list of beneficiaries included in the program.
   *Only beneficiaries with **Included** status who have not yet received all their installments will appear in the list. Beneficiaries who have received and completed all their payments will not be shown.*
 
-![Select List](../assets/img/CreateNew)
+![Select List](../assets/img/CreateNewpaymentSelect.png)
 
 - **Select the list of beneficiaries to be added** to the payment round as follows.
     - Make an **individual selection** by clicking on the :material-checkbox-outline: on the individual beneficiary line;
     - Or do a **bulk selection** by clicking on the :material-checkbox-multiple-marked-outline: on the upper table line **Select**
 - On the bottom right, click **Add to payment**;
 
-![Add to Payment](../assets/img/CreateNewpaymentSelect.png)
+![Add to Payment](../assets/img/StartPayment.png)
 
 - A window appears to confirm the number of beneficiaries included and the total amount to be transferred;
 - Click on **Start payment**. **This action will automatically process and send the payment request to the FSP.**
