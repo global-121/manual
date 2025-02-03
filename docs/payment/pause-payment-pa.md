@@ -24,7 +24,7 @@ In the **Registration** page:
   Click on the :material-checkbox-outline: to add the beneficiary in the selection,
 
 - Click on **:material-pause: Pause** status on the top of the table,
-- In the pop up window, **Approve**, and *optionnally, send a message to the beneficiary*. ![Approve Pause Status](../assets/img/PausePANotification.png)
+- In the pop up window, **Approve**, and *optionally, send a message to the beneficiary*. ![Approve Pause Status](../assets/img/PausePANotification.png)
 - The status has been changed to **Paused** ![Pause Status](../assets/img/PauseStatus.png)
 - The beneficiary will no longer receive cash aid, unless you revert the status to **Included**
 

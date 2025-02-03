@@ -11,7 +11,7 @@ In the 121 Platform, payments can be processed in two different methods: with a 
     Finance Manager and Finance Officer roles can perform actions in the Payments page.  
     Additional users may be granted only **View** permission on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
 
-Before dowloading the reconciliation file into the 121 platform, there are a few steps you should follow so to adjust the file to the 121 platform.
+Before downloading the reconciliation file into the 121 platform, there are a few steps you should follow so to adjust the file to the 121 platform.
 
 ### Download the reconciliation file template
 
@@ -19,7 +19,7 @@ Go to the Payments page, and enter the specific payment round you would like to 
 
 - On the top right, click on **Import Reconciliation data** ![Import Reconciliation data](../assets/img/IndividualExportReport.png)
 - In the pop-up window, you can read in the first sentence *Import the file sent by the FSP to see the transfer status of the registrations included in this payment. Download the template .*
-- Click on the **Donwload the template** ![Download Reconciliation template](../assets/img/ReconciliationImport.png)
+- Click on the **Download the template** ![Download Reconciliation template](../assets/img/ReconciliationImport.png)
 - You can now start editing this file with the requested value, as follows.
 
 ### Check the reconciliation data file

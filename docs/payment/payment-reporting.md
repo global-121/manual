@@ -41,12 +41,12 @@ To export a specific financial report based on a specific date:
 
 ### Oversee the Activity Overview in Payment Page
 
-Detailed payment information can be found in each separate installements and for each beneficiary. To access the Individual overview:
+Detailed payment information can be found in each separate installments and for each beneficiary. To access the Individual overview:
 
 1. Go to **Payments** page;
 2. Click on one of the installments you would like to read further details
    The included list of beneficiaries with detailed information about the transfer value, the payment statuses, FSP and dates will be shown.
-3. For further details per individual, you can click on the hyperlink **#reg.##** on the beneficiary profile. You can read the activity overview from different phases (registration, inclusion, payments).
+3. For further details per individual, you can click on the hyperlink **reg. #** on the beneficiary profile. You can read the activity overview from different phases (registration, inclusion, payments).
 4. In the Activity Overview, any changes or activities will be automatically logged, including payment details.
 
 **How to read the logs in the Activity Overview?**

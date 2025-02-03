@@ -30,24 +30,21 @@ To initiate a new payment:
 ![Select List](../assets/img/CreateNew)
 
 - **Select the list of beneficiaries to be added** to the payment round as follows.
-    - Make an **individual selection** by clicking on the :material-checkbox-outline: on the indivudual beneficiary line;
+    - Make an **individual selection** by clicking on the :material-checkbox-outline: on the individual beneficiary line;
     - Or do a **bulk selection** by clicking on the :material-checkbox-multiple-marked-outline: on the upper table line **Select**
 - On the bottom right, click **Add to payment**;
 
-![Add to Payment](..\assets\img\CreateNewpaymentSelect.png)
-
+![Add to Payment](../assets/img/CreateNewpaymentSelect.png)
 - A window appears to confirm the number of beneficiaries included and the total amount to be transferred;
 - The portal will display guidelines on the left side of your screen for exporting the FSP payment instructions (as shown below).
 - Click on **Start payment**. **This action will NOT automatically process or send the payment request to the FSP. However, it will prepare the payment instructions, including the list of beneficiaries set to receive payments.**
 
-![Start Payment](.\assets\img\StartPayment.png)
-
+![Start Payment](../assets/img/StartPayment.png)
 Once the payment has been processed, **remain on the payment page you just worked on**. From there, you can download the payment instructions. You will see all pending payments for registrations that have opted to receive cash aid through the FSP via manual import-export (Excel).
 
 ### Export the payment instructions
 
-![Pending Statuses Excel](..\assets\img\PendingStatusExcel.png)
-
+![Pending Statuses Excel](../assets/img/PendingStatusExcel.png)
 The file will provide the necessary instructions for the FSP to issue the payments.
 
 - On the top right of your **page**, go into the **Payment data** dropdown list;
@@ -55,10 +52,8 @@ The file will provide the necessary instructions for the FSP to issue the paymen
 - The file will be available in your downloaded folder;
 - Review the file if required. *Based on your agreement with the FSP, share the file to your FSP or import it into the FSP portal (if available).*
 
-![Export FSP payment list](..assets\img\IndividualExportReport.png)
-
 The payment status displayed in the payment page will be updated depending on the payment phase. For Manual Payment, the default message will be **PENDING** until the payment reconciliation has been processed.
-
+![Export FSP payment list](../assets/img/IndividualExportReport.png)
 !!! info "Payment instructions excel template"
     Each program may require a different template depending on the FSP you work with in the region of your operations. Our Team will create a template specifically adapted to upload into each FSP portal.
 
@@ -89,13 +84,12 @@ To update the payment statuses:
 - Click on the import button to upload the FSP file, *the file must be in .csv format*;
 - **Drag and drop** the file; or use the **Choose file** function;
 - Click on **Proceed**. The beneficiaries status will be updated according to whether the transfer was marked as Successful, Pending or Failed by the FSP.
-
-![Reconciliation Data Import](..\assets\img\ReconciliationImport.png)
+![Export FSP payment list](../assets/img/IndividualExportReport.png)
 
 ---
 
 ### Payment status
-
+![Reconciliation Data Import](../assets/img/ReconciliationImport.png)
 The payment status displayed in the payment page will be updated depending on the payment phase. For Manual Payment, the default message will be **PENDING** until the payment reconciliation has been processed.
 
 Below, the different payment statuses.

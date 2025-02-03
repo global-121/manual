@@ -34,7 +34,7 @@ Once you have identified the incorrect data, you can **request your CVA manager 
 
 
 **2. Wrong format of the reconciliation file**
-    For manual payment, the imported reconciliation file may not be formatted correctly. The data cannot match within the platform. Check the instructions on formatting your [manual reconciliation file.](../manual-payment-reconciliation.md)
+    For manual payment, the imported reconciliation file may not be formatted correctly. The data cannot match within the platform. Check the instructions on formatting your [manual reconciliation file.](./manual-payment-reconciliation.md)
 
 
 **3. Beneficiary changed their payment details**

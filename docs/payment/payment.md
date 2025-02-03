@@ -9,14 +9,14 @@ The Payment page provides an overview of all payments made and disbursed to bene
     Finance Manager and Finance Officer roles can perform actions in the Payments page.  
     Additional users may be granted only **View** permission on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
 
-![Paymentspage](../assets/img/Paymentspage.png)
+![Paymentspage](../assets/img/PaymentsPage.png)
 
 ### Create new payments
 
 You can create new payments by clicking the **Create new payment** button in the top right corner. This will allow you to start sending cash aid to the beneficiaries included in the program. The 121 Platform offers **two different methods for processing payments**:
 
 - **Send and Reconcile manual payments by exporting a payment instructions file**. You pre-process the payment within 121 by including the selected beneficiary list in the payment round, then download the payment instructions to share to the FSP and later reconcile the payment data. Further instructions on the [manual payment page](./issue-payment-fsp-portal.md) and [manual reconciliation page.](./manual-payment-reconciliation.md)
-- Process an **instant payment** directly within the 121 Platform. A direct integration to the FSP automates the payment and reconciliation. Further instructions on [this page](./issue-payment-integrated-fsp.md)
+- Process an **instant payment** directly within the 121 Platform. A direct integration with the FSP automates the payment and reconciliation. Further instructions on [this page](./payment-integrated-fsp.md)
 
 
 ### Overview of payment status
