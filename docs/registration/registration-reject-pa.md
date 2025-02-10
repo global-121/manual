@@ -19,7 +19,7 @@ The **Registrations table** shows you all of the registered households or benefi
 To mark the Beneficiaries as **declined**:
 
 - Go to the **Registrations Page**;
-- Filter the list of beneficiaries on **status**, select **Registered** and **Apply**. *this action is to make sure you select only **registered** status.* ![Filter Status Register](assets/img/RegisteredStatusFilter.png)
+- Filter the list of beneficiaries on **status**, select **Registered** and **Apply**. *this action is to make sure you select only **registered** status.* ![Filter Status Register](../assets/img/RegisteredStatusFilter.png)
 - You can select one beneficiary or the entire registration list:
     - Make an **individual selection** by clicking on the :material-checkbox-outline: on the registration line;
     - Or a **bulk selection** by clicking on the :material-checkbox-multiple-marked-outline: on the upper line **Select**
@@ -29,7 +29,7 @@ To mark the Beneficiaries as **declined**:
 
 Declined registrations remain listed in the Registrations page with the status **Declined**. Filter the list by status to have an overview of all declined beneficiaries in this project.
 
-**If you make a mistake and decline beneficiaries who should be included in the program, don't worry! You can update this by following the [instructions to Include registrations in the project.](./inclusion-in-program.md)**
+**If you make a mistake and decline beneficiaries who should be included in the program, don't worry! You can update this by following the [instructions to Include registrations in the project.](../inclusion-in-program.md)**
 
 ---
 
