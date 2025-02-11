@@ -12,7 +12,7 @@ On the left you can find a navigation overview, or find the information you need
 
 ### CVA Program flow
 
-the 121 Platform is following the CVA workflow step-by-step. Find out the instructions for each phases your are working on.
+the 121 Platform is following the CVA workflow step-by-step. Find out the instructions for each phase your are working on.
 
 <!-- markdownlint-disable-next-line no-inline-html -->
 <div class="grid cards" markdown>
@@ -24,30 +24,37 @@ the 121 Platform is following the CVA workflow step-by-step. Find out the instru
     Understand how to add users, the roles available and distribution of permissions within the 121 Platform.
 
 
+- :material-book-edit:{ .lg .middle } [Overview  - the project design](./design/design.md)
+
+    ---
+
+    Have an overview of the program design components and metrics.
+
+
 - :material-account-multiple-plus:{ .lg .middle } [Create your Team](./team/team-page.md)
 
     ---
 
-    Add team members into your project teams and assign a role to each of the users.
+    Add team members into your project teams and assign a roles to each of the users.
 
 
-- :fontawesome-solid-people-roof:{ .lg .middle } [Manage Registration Lists](./registration/people-affected-page.md)
+- :fontawesome-solid-people-roof:{ .lg .middle } [Manage Registrations](./registration/registrations-page.md)
 
     ---
 
-    Oversee the list of registered beneficiaries, verify their details, include or decline their participation in a project.
+    Oversee the list of registered beneficiaries, verify their details, include or decline their participation in a project in this section.
 
 - :fontawesome-solid-money-bill-transfer:{ .lg .middle } [Process the payment](./payment/payment.md)
 
     ---
 
-    Issue the payments, reconcile payments and export transaction reports for financial audit.
+    Create new payments, reconcile payments and export transaction reports for financial audit.
 
-- :octicons-graph-16:{ .lg .middle } [Monitor your CVA project](../docs/evaluation/evaluation.md)
+- :octicons-graph-16:{ .lg .middle } [Monitor your CVA project](../docs/monitoring/monitoring.md)
 
     ---
 
-    Have an overview of the program design components and metrics by visualizing the latest updates and PowerBi dashboard.
+    Stay up to date with the latest updates and track the project through the table overview or the Power BI dashboard.
 
 </div>
 
