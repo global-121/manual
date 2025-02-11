@@ -9,7 +9,7 @@ The Payment page provides an overview of all payments made and disbursed to bene
     Finance Manager and Finance Officer roles can perform actions in the Payments page.  
     Additional users may be granted only **View** permission on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
 
-![Paymentspage](../assets/img/PaymentsPage.png)
+![Payments page](../assets/img/PaymentsPage.png)
 
 ### Create new payments
 

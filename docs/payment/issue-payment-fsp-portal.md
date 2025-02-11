@@ -45,6 +45,7 @@ Once the payment has been processed, **remain on the payment page you just worke
 ### Export the payment instructions
 
 ![Pending Statuses Excel](../assets/img/PendingStatusExcel.png)
+
 The file will provide the necessary instructions for the FSP to issue the payments.
 
 - On the top right of your **page**, go into the **Payment data** dropdown list;
@@ -79,7 +80,7 @@ To update the payment statuses:
 - Go to the payments page for the selected date and payment that match the file;
 - On the top right of your page, click on **Import reconciliation data**.
   
-![Export FSP payment list](..\assets\img\IndividualExportReport.png)
+![Export FSP payment list](../assets/img/IndividualExportReport.png)
 
 - Click on the import button to upload the FSP file, *the file must be in .csv format*;
 - **Drag and drop** the file; or use the **Choose file** function;
