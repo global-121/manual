@@ -21,7 +21,6 @@ Our 121 support team will link the kobo form with the right program in the 121 p
 
 ### View a KOBO registration list
 
-
 - Go to your **Program.**
 - Enter the **People Affected** page.
 - You will see the updated list of registered PA any time a new form is completed and sent (when connected to the internet).
