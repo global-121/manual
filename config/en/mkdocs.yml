@@ -101,10 +101,10 @@ nav:
         - "Import Registration with excel": "registration/registration-import-list.md"
         - "Registration with KOBO form": "registration/registration-automatic-import-kobo.md"
         - "Deduplication": "registration/registration-deduplication.md"
-        - "Edit PA profile": "registration/edit-pa-profile.md"
+        - "Edit Personal Information": "registration/edit-pa-profile.md"
         - "Validate registration": "registration/registration-validate-pa.md"
         - "Decline registration": "registration/registration-reject-pa.md"
-        - "Include PA in program": "registration/inclusion-in-program.md"
+        - "Include beneficiaries in program": "registration/inclusion-in-program.md"
         - "What if I see empty page": "registration/registration-list-empty.md"
     - "Verification":
         - "Offline Verification with 121 and Kobo Toolbox": "verification/offline-verification.md"
