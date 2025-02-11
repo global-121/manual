@@ -48,7 +48,7 @@ If you need additional explanations, contact your dedicated Account Manager or o
 
 ---
 
-!!! Info "TIPS: do not save old excel record"
+!!! Info "TIP: do not save old excel record"
     To prevent mistakes and keep personal data secure, excel files should be deleted from your computer once your database is cleaned and updated in 121 platform. This way, you will always have your latest updated list of registered beneficiaries in 121.
 
 -8<- "docs/_snippets/contact-support.md"

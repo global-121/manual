@@ -1,22 +1,22 @@
 ---
-title: Assess (new) Registrations
+title: Beoordelen van (nieuwe) Registraties
 hide:
   - toc
 ---
 
-Assessing new registrations is an important task. As a partner, you need to make sure that only valid registrations are approved. This helps keep our system safe. Follow these steps to check new registrations:
+Het controleren van nieuwe registraties is belangrijk. Als partner moet je ervoor zorgen dat alleen geldige registraties worden goedgekeurd. Dit houdt het systeem veilig. Volg deze stappen:
 
-1. Go to the **Registrations** page at the top. You will see the registrations table.
-2. In the table, click the filter icon (:material-filter-outline:) next to the 'Registration Status' column.
-3. Click "Choose options".
-4. From the list, make sure only **Registered** is checked. The filter will apply automatically.
-5. For each registration in the list, you can:
-    - **Validate**: Approve registrations from people you know and have registered yourself.
-    - **Decline**: Reject registrations if you do not recognize the person's details.
-6. You can validate or decline in two ways:
-    1. Select all the registrations you want to validate or decline, then click the corresponding button on top of the table.
-    2. Right-click the registration you want to validate or decline, and choose the action from the menu.
-7. Confirm your action in the popup that appears.
+1. Ga naar de **Registraties**-pagina bovenaan. Je ziet de registratietabel.
+2. Klik in de tabel op het filterpictogram (:material-filter-outline:) naast de kolom 'Registratiestatus'.
+3. Klik op "Opties kiezen."
+4. Selecteer alleen **Geregistreerd**. Het filter wordt automatisch toegepast.
+5. Voor elke registratie in de lijst kun je:
+    - **Valideren**: Goedkeuren van registraties van mensen die je kent en zelf hebt geregistreerd.
+    - **Afwijzen**: Registraties afwijzen als de gegevens niet worden herkend.
+6. Je kunt valideren of afwijzen op twee manieren:
+    1. Selecteer meerdere registraties en klik op de bijbehorende knop boven de tabel.
+    2. Klik met de rechtermuisknop op een registratie en kies de actie uit het menu.
+7. Bevestig je actie in de pop-up die verschijnt.
 
-!!! Danger "Validating registrations"
-    Only approve registrations for people you know and have registered yourself. Reject registrations with unrecognized details.
+!!! Danger "Registraties valideren"
+    Keur alleen registraties goed van mensen die je kent en zelf hebt geregistreerd. Wijs registraties met onbekende gegevens af.

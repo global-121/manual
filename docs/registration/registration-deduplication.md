@@ -57,7 +57,7 @@ Did you accidentally mark a registration as declined? No worries, this is a reve
 
 ---
 
-!!! Info "TIPS: do not save old duplicate excel record"
+!!! Info "TIP: do not save old duplicate excel record"
     To prevent mistakes and keep personal data secure, excel files should be deleted from your computer once your database is cleaned and updated in 121 platform. This way, you will always have your latest updated list of registered beneficiaries in 121.
 
 -8<- "docs/_snippets/contact-support.md"
