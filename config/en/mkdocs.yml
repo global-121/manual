@@ -86,7 +86,7 @@ nav:
         - "Change Language": "general/change-language.md"
     - "Users and Roles":
         - "Users page": "users/users-roles-page.md"
-        - "Add Users": "users/add-users.md"
+        - "Add User to 121": "users/add-users.md"
         - "Roles and permissions": "users/description-roles.md"
     - "Team":
         - "Team page": "team/team-page.md"

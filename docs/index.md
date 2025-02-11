@@ -6,8 +6,7 @@
 On the left you can find a navigation overview, or find the information you need by using the search bar on the top right.
 
 !!! note ""
-    You can **change the language** by selecting the language icon on the top right (next to the search bar), and selecting a different language.
-    Please note that not all content is available in all languages!
+    You can **change the language** of this user manual by clicking the **language icon :material-translate:** on the top right (next to the search bar), and selecting a different language.
 
 ---
 
@@ -22,7 +21,7 @@ the 121 Platform is following the CVA workflow step-by-step. Find out the instru
 
     ---
 
-    Understand the roles available in your instance and distribution of permissions within 121.
+    Understand how to add users, the roles available and distribution of permissions within the 121 Platform.
 
 
 - :material-book-edit:{ .lg .middle } [Overview  - the project design](./design/design.md)
