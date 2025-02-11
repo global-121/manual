@@ -35,6 +35,7 @@ To initiate a new payment:
 - On the bottom right, click **Add to payment**;
 
 ![Add to Payment](../assets/img/StartPayment.png)
+
 - A window appears to confirm the number of beneficiaries included and the total amount to be transferred;
 - The portal will display guidelines on the left side of your screen for exporting the FSP payment instructions (as shown below).
 - Click on **Start payment**. **This action will NOT automatically process or send the payment request to the FSP. However, it will prepare the payment instructions, including the list of beneficiaries set to receive payments.**
@@ -88,6 +89,7 @@ To update the payment statuses:
 ---
 
 ### Payment status
+
 ![Reconciliation Data Import](../assets/img/ReconciliationImport.png)
 The payment status displayed in the payment page will be updated depending on the payment phase. For Manual Payment, the default message will be **PENDING** until the payment reconciliation has been processed.
 
