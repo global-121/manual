@@ -6,8 +6,7 @@
 On the left you can find a navigation overview, or find the information you need by using the search bar on the top right.
 
 !!! note ""
-    You can **change the language** by selecting the language icon on the top right (next to the search bar), and selecting a different language.
-    Please note that not all content is available in all languages!
+    You can **change the language** of this user manual by clicking the **language icon :material-translate:** on the top right (next to the search bar), and selecting a different language.
 
 ---
 
@@ -22,40 +21,33 @@ the 121 Platform is following the CVA workflow step-by-step. Find out the instru
 
     ---
 
-    Understand the roles available in your instance and distribution of permissions within 121.
-
-
-- :material-book-edit:{ .lg .middle } [Overview  - the program design](./design/design.md)
-
-    ---
-
-    Have an overview of the program design components and metrics.
+    Understand how to add users, the roles available and distribution of permissions within the 121 Platform.
 
 
 - :material-account-multiple-plus:{ .lg .middle } [Create your Team](./team/team-page.md)
 
     ---
 
-    Add team members into your program teams and assign a roles to each of the users.
+    Add team members into your project teams and assign a role to each of the users.
 
 
-- :fontawesome-solid-people-roof:{ .lg .middle } [Manage People Affected](./registration/people-affected-page.md)
+- :fontawesome-solid-people-roof:{ .lg .middle } [Manage Registration Lists](./registration/people-affected-page.md)
 
     ---
 
-    Oversee the list of registered beneficiaries, verify their details, include or decline their participation in a program in this section.
+    Oversee the list of registered beneficiaries, verify their details, include or decline their participation in a project.
 
 - :fontawesome-solid-money-bill-transfer:{ .lg .middle } [Process the payment](./payment/payment.md)
 
     ---
 
-    Issue the payments, reconile payments and export transaction reports for financial audit.
+    Issue the payments, reconcile payments and export transaction reports for financial audit.
 
-- :octicons-graph-16:{ .lg .middle } Monitor your CVA program
+- :octicons-graph-16:{ .lg .middle } [Monitor your CVA project](../docs/evaluation/evaluation.md)
 
     ---
 
-    *In progress.*
+    Have an overview of the program design components and metrics by visualizing the latest updates and PowerBi dashboard.
 
 </div>
 

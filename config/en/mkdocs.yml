@@ -86,13 +86,13 @@ nav:
         - "Change Language": "general/change-language.md"
     - "Users and Roles":
         - "Users page": "users/users-roles-page.md"
-        - "Add Users": "users/add-users.md"
+        - "Add User to 121": "users/add-users.md"
         - "Roles and permissions": "users/description-roles.md"
-    - "Program Team":
+    - "Project Team":
         - "Team page": "team/team-page.md"
-        - "Add team members": "team/add-team-members.md"
-        - "Change team members roles": "team/change-team-roles-program.md"
-        - "Remove team members": "team/remove-team-members-program.md"
+        - "Add users in projects": "team/add-team-members.md"
+        - "Change users roles": "team/change-team-roles-program.md"
+        - "Remove users": "team/remove-team-members-program.md"
     - "Program Design":
         - "Program Design page": "design/design.md"
         - "Read & Change Program Design": "design/read-change-design-details.md"
