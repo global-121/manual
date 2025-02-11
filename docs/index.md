@@ -13,7 +13,7 @@ On the left you can find a navigation overview, or find the information you need
 
 ### CVA Program flow
 
-the 121 Platform is following the CVA workflow step-by-step. Find out the instructions for each phases your are working on.
+the 121 Platform is following the CVA workflow step-by-step. Find out the instructions for each phase your are working on.
 
 <!-- markdownlint-disable-next-line no-inline-html -->
 <div class="grid cards" markdown>
@@ -25,7 +25,7 @@ the 121 Platform is following the CVA workflow step-by-step. Find out the instru
     Understand the roles available in your instance and distribution of permissions within 121.
 
 
-- :material-book-edit:{ .lg .middle } [Overview  - the program design](./design/design.md)
+- :material-book-edit:{ .lg .middle } [Overview  - the project design](./design/design.md)
 
     ---
 
@@ -36,26 +36,26 @@ the 121 Platform is following the CVA workflow step-by-step. Find out the instru
 
     ---
 
-    Add team members into your program teams and assign a roles to each of the users.
+    Add team members into your project teams and assign a roles to each of the users.
 
 
-- :fontawesome-solid-people-roof:{ .lg .middle } [Manage People Affected](./registration/people-affected-page.md)
+- :fontawesome-solid-people-roof:{ .lg .middle } [Manage Registrations](./registration/registrations-page.md)
 
     ---
 
-    Oversee the list of registered beneficiaries, verify their details, include or decline their participation in a program in this section.
+    Oversee the list of registered beneficiaries, verify their details, include or decline their participation in a project in this section.
 
 - :fontawesome-solid-money-bill-transfer:{ .lg .middle } [Process the payment](./payment/payment.md)
 
     ---
 
-    Issue the payments, reconile payments and export transaction reports for financial audit.
+    Create new payments, reconcile payments and export transaction reports for financial audit.
 
-- :octicons-graph-16:{ .lg .middle } Monitor your CVA program
+- :octicons-graph-16:{ .lg .middle } [Monitor your CVA project](../docs/monitoring/monitoring.md)
 
     ---
 
-    *In progress.*
+    Stay up to date with the latest updates and track the project through the table overview or the Power BI dashboard.
 
 </div>
 
