@@ -8,9 +8,9 @@ Not everyone registered for your project may be eligible to be included in the p
 
 You use this **Registrations** Page and dropdown menu to choose the appropriate next actions : validating, rejecting or editing registration of PA, move the beneficiaries into inclusion phase.
 
-!!! Important "Who can perform actions in this page?"
-    CVA Manager and CVA Officer roles can perform actions in the Registrations page.  
-    Additional users may be granted only **View** permission on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
+!!! Important "Who can perform actions on this page ?"
+    Organisational Admin, CVA Officer and CVA Manager can perform actions.  
+    Additional users may only have View permissions on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
 
 ### Decline registrations from the project
 

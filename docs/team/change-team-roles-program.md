@@ -7,7 +7,7 @@ hide:
 In the **Team** page of your project, you can see the list of users currently added into your project, with their assigned role(s). If you have the permission, you can **change, add or remove a role assigned to a user**.
 
 !!! Important "Who can perform actions on this page ?"
-    Program Manager and CVA Manager can perform actions in this page.
+    Organisational Admin and CVA Manager can perform actions in this page.
     Additional users may only have View permissions on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
 
 ### Change assigned roles and permissions
