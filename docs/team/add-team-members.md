@@ -7,7 +7,7 @@ hide:
 In the **Team** page of your project, you can see the list of users currently added into your project. If you have the permission, you can **add a user to a project**. *Team members should be removed from the program team if they no longer work with the project or they have left the organisation to ensure data protection.*
 
 !!! Important "Who can perform actions on this page?"
-    Program Manager and CVA Manager can perform actions in this page.
+    Program Admin and CVA Manager can perform actions in this page.
     Additional users may only have View permissions on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
 
 ### Adding team members

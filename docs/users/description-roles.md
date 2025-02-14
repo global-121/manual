@@ -4,16 +4,13 @@ hide:
   - toc
 ---
 
-!!! info "This section explains"
-    Overview of standard users permissions and tasks that can be performed
-
 No single user can take all actions in the 121 platform. The 121 platform follows **role-based segregation of duties**, which improves task **accountability**. For example, users with a CVA profile will not be able to make payments but are able to make updates to beneficiary data. Users with a finance profile can make payments, but are not able to update beneficiaries’ personal information. The following standard roles are configured in the 121 platform.
 
 ### Standard 121 user Roles
 
 | Type                | Description                                                          |
 | :------------------ | :------------------------------------------------------------------- |
-| **Organisational Admin**| System Administrator, overseeing user access on the platform and managing project with an overall view of project progress.|
+| **Program Admin**| System Administrator, overseeing user access on the platform and managing project with an overall view of project progress.|
 | **CVA Officer**     | Officer for Cash and Voucher Assistance.                              |
 | **CVA Manager**     | Manager for Cash and Voucher Assistance.                              |
 | **Finance Officer** | Officer for Finance operations and audit.                             |
@@ -23,7 +20,7 @@ No single user can take all actions in the 121 platform. The 121 platform follow
 ### Permissions per role
 
 
-| Permissions                                                     | **Organisational Admin**              |              **CVA Manager**          |            **CVA Officer**            |        **Finance Officer**            |          **Finance Manager**          |
+| Permissions                                                     | **Program Admin**              |              **CVA Manager**          |            **CVA Officer**            |        **Finance Officer**            |          **Finance Manager**          |
 | :-------------------------------------------------------------- | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: |
 | Overview Users and Roles                                        | :octicons-check-circle-fill-24:{.yes} |                                       |                                       |                                       |                                       |
 | Add new 121 users                                               | :octicons-check-circle-fill-24:{.yes} |                                       |                                       |                                       |                                       |

@@ -4,6 +4,10 @@ hide:
   - toc
 ---
 
+!!! Important "Who can perform actions on this page ?"
+    Program Admin, CVA Officer and CVA Manager can perform actions.  
+    Additional users may only have View permissions on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
+
 Unless you manually import registrations with an excel .CSV file, registrations done with KOBO will automatically be imported within your project in 121 Platform, in the **Registrations** page.
 
 - Create your KOBO-form on the KOBO tool,
@@ -27,5 +31,7 @@ There is no need to follow any templates as this adaptable in 121 Platform. Howe
     Please note that the connection between KOBO and the 121 Platform is a one-way upload. This means that data is not synchronized between the two systems. Any changes made in KOBO after the data has been uploaded to the 121 Platform will not be reflected in the Platform. You must make edits directly in the 121 Platform.
 
     For example, if Beneficiary A is registered in KOBO and you upload the data to the 121 Platform at the end of the day, you might later notice that question 4 was not answered by Beneficiary A. In this case, you will need to find Beneficiary A's profile in the 121 Platform to make the necessary edits. Changes made instead in KOBO Beneficiary A's form after the initial upload will not be updated in the 121 Platform.
+
+---
 
 -8<- "docs/_snippets/contact-support.md"

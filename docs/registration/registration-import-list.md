@@ -6,9 +6,9 @@ hide:
 
 If you are not collecting registrations with a Kobo form or equivalent, which automatically transfers the registrations into the 121 Platform, a registration list can be manually imported from an excel file (.csv format).
 
-!!! Important "Who can perform actions in this page?"
-    CVA Manager and CVA Officer roles can perform actions in the Registrations page.  
-    Additional users may be granted only **View** permission on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
+!!! Important "Who can perform actions on this page ?"
+    Program Admin, CVA Officer and CVA Manager can perform actions.  
+    Additional users may only have View permissions on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
 
 If you want to import your registration list using an excel file (.csv format), you first need to make sure that this file matches the format accepted by 121. To match these, first download the .csv template file from the 121 Platform, then you can upload your matching file with the registration information to 121.
 

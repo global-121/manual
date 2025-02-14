@@ -7,7 +7,7 @@ hide:
 To grant login credentials and access to a new user on the 121 platform, you must add them as a 121 user.
 
 !!! Important "Who can perform actions on this page ?"
-    Organisational Admin can view and perform actions in this page.
+    Program Admin can view and perform actions in this page.
 
 ## Adding new users in 121
 
