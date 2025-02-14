@@ -7,7 +7,7 @@ hide:
 The **Registrations** page lets you review and, if necessary, update the registered Beneficiaries' details before including them in the project to start receiving cash assistance. Note that Beneficiaries are referred to as Registrations (reg) in the 121 Platform.
 
 !!! Important "Who can perform actions on this page ?"
-    Organisational Admin, CVA Officer and CVA Manager can perform actions.  
+    Program Admin, CVA Officer and CVA Manager can perform actions.  
     Additional users may only have View permissions on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
 
 

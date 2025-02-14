@@ -7,7 +7,7 @@ hide:
 In the **Team** page of your project, you can see the list of users currently added into your project. If you have the permission, you can **add a user to a project**. *Team members should be removed from the program team if they no longer work with the project or they have left the organisation to ensure data protection.*
 
 !!! Important "Who can perform actions on this page?"
-    Organisational Admin and CVA Manager can perform actions in this page.
+    Program Admin and CVA Manager can perform actions in this page.
     Additional users may only have View permissions on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
 
 ### Adding team members
@@ -35,7 +35,7 @@ In the **Team** page of your project, you can see the list of users currently ad
 ---
 
 !!! warning "Users must be added to each individual project they are assigned to"
-    Adding a user to the project team grants them access to this specific project, but it does not automatically assign them to ALL projects. Each user must be manually assigned to individual projects by the Organisational Admin or CVA Manager. Without project assignments, they may see a blank page upon login. Additionally, you can assign each user a specific role within the separate projects they are added to.
+    Adding a user to the project team grants them access to this specific project, but it does not automatically assign them to ALL projects. Each user must be manually assigned to individual projects by the Program Admin or CVA Manager. Without project assignments, they may see a blank page upon login. Additionally, you can assign each user a specific role within the separate projects they are added to.
 
 ---
 

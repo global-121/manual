@@ -5,7 +5,7 @@ hide:
 ---
 
 !!! Important "Who can perform actions on this page ?"
-    Organisational Admin, CVA Officer and CVA Manager can perform actions.  
+    Program Admin, CVA Officer and CVA Manager can perform actions.  
     Additional users may only have View permissions on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
 
 Unless you manually import registrations with an excel .CSV file, registrations done with KOBO will automatically be imported within your project in 121 Platform, in the **Registrations** page.

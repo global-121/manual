@@ -7,7 +7,7 @@ hide:
 The Validation stage is optional, depending on the SOPs you follow for your CVA project. Validation can be used to mark Registrations whose information has been checked and verified, before taking the step to include them in the program. By validating registrations, you update their status in the 121 Platform from Registered to Validated, which allows you to keep track of whose information has been checked.
 
 !!! Important "Who can perform actions on this page ?"
-    Organisational Admin, CVA Officer and CVA Manager can perform actions.  
+    Program Admin, CVA Officer and CVA Manager can perform actions.  
     Additional users may only have View permissions on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
 
 ### Validation of Registrations into the program

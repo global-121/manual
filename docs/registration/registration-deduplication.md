@@ -7,7 +7,7 @@ hide:
 Below, you will find the steps to deduplicate double entries or beneficiaries registered multiple times in the same project registration list. The deduplication is currently a semi-automated process, that first requires users to check the entries in the excel file downloaded and then update the registrations within the 121 Platform.
 
 !!! Important "Who can perform actions on this page ?"
-    Organisational Admin, CVA Officer and CVA Manager can perform actions.  
+    Program Admin, CVA Officer and CVA Manager can perform actions.  
     Additional users may only have View permissions on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
 
 ### Export the duplication report

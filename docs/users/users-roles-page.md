@@ -7,7 +7,7 @@ hide:
 The **Users and User Roles pages**  display a list of registered 121 users on the platform along with the available roles set in your 121 instance.
 
 !!! Important "Who can perform actions on this page ?"
-    Organisational Admin can view and perform actions in this page.
+    Program Admin can view and perform actions in this page.
 
 In the **Home page**, you can click on the **menu icon (:material-menu:)** on the top left, and select either **Users** or **User Roles**. The **Users page** will provide different information than the **User Roles page**.
 
@@ -38,7 +38,7 @@ No single user can take all actions in the 121 platform. The 121 platform follow
 
 | Type                | Description                                                          |
 | :------------------ | :------------------------------------------------------------------- |
-| **Organisational Admin**| System Administrator, overseeing user access on the platform and managing project with an overall view of project progress.|
+| **Program Admin**| System Administrator, overseeing user access on the platform and managing project with an overall view of project progress.|
 | **CVA Officer**     | Officer for Cash and Voucher Assistance.                              |
 | **CVA Manager**     | Manager for Cash and Voucher Assistance.                              |
 | **Finance Officer** | Officer for Finance operations and audit.                             |

@@ -7,7 +7,7 @@ hide:
 The Project **Team** page is found in each of your active projects, in which you can constitute and manage a different team per project.
 
 !!! Important "Who can perform actions on this page ?"
-    Organisational Admin and CVA Manager can perform actions in this page.
+    Program Admin and CVA Manager can perform actions in this page.
     Additional users may only have View permissions on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
 
 ### View your project team

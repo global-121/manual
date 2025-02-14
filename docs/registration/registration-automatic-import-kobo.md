@@ -9,7 +9,7 @@ hide:
 *Do you prefer to import your list via excel? Follow the instructions on [how to import registrations clicking on this page](../registration/registration-import-list.md)*
 
 !!! Important "Who can perform actions on this page ?"
-    Organisational Admin, CVA Officer and CVA Manager can perform actions.  
+    Program Admin, CVA Officer and CVA Manager can perform actions.  
     Additional users may only have View permissions on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
 
 ## To set-up the Kobo integration within your 121 program
