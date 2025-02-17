@@ -23,14 +23,6 @@ the 121 Platform is following the CVA workflow step-by-step. Find out the instru
 
     Understand how to add users, the roles available and distribution of permissions within the 121 Platform.
 
-
-- :material-book-edit:{ .lg .middle } [Overview  - the project design](./design/design.md)
-
-    ---
-
-    Have an overview of the program design components and metrics.
-
-
 - :material-account-multiple-plus:{ .lg .middle } [Create your Team](./team/team-page.md)
 
     ---
