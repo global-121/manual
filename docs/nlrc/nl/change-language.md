@@ -4,13 +4,13 @@ hide:
   - toc
 ---
 
-Om de taal te wijzigen:
+Je kunt op twee momenten de taal aanpassen:
 
 ## Na inloggen
 
-1. Klik op de menuknop (:material-menu:) in de linkerbovenhoek.
-2. Kies een taal uit het dropdownmenu onderaan.
+1. Klik op de menuknop (:material-menu:) linksboven aan de pagina.
+2. Kies een taal in het menu onderaan.
 
 ## Voor inloggen
 
-1. Kies een taal uit het dropdownmenu onderaan de inlogpagina.
+1. Kies een taal in het menu onderaan de inlogpagina.

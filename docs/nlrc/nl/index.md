@@ -3,10 +3,9 @@
 <!-- markdownlint-disable-next-line no-trailing-punctuation -->
 ## Welkom bij de 121 handleiding!
 
-Aan de linkerkant vind je een navigatieoverzicht, of vind de informatie die je nodig hebt door de zoekbalk rechtsboven te gebruiken.
+Gebruik het menu aan de linkerkant of de zoekbalk rechtsboven om informatie te vinden.
 
 !!! note ""
-  Je kunt **de taal wijzigen** door het taal-icoon rechtsboven (naast de zoekbalk) te selecteren en een andere taal te kiezen.
-  Let op: niet alle informatie is in alle talen beschikbaar!
+  Wil je de taal veranderen? Klik dan op het taalicoon (:material-translate:) rechtsboven, naast de zoekbalk. Let op: niet alle informatie is in elke taal beschikbaar.
 
 ---
