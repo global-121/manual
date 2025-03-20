@@ -8,8 +8,6 @@ hide:
 
 This guide provides the essential steps to prepare and launch your Cash and Voucher Assistance (CVA) program through the 121 Platform. Please review each step carefully before getting started. You can also print or save this page to use as a checklist throughout the process.
 
-Or, [Download the CVA Program Checklist excel file](files/121_CVA_Program_Checklist.xlsx)
-
 ---
 
 ## 1. Finalize Your Data Collection Form  
