@@ -10,6 +10,8 @@ Er zijn twee manieren om een registratie te vinden:
   1. Snel zoeken
   2. Kolomfiltering
 
+![Column Filter](../assets/img/ColumnFiltering.png)
+
 ## Snel zoeken
 
 Om snel te zoeken, klik je op het zoekicoon (:octicons-search-16:) in de rechterbovenhoek van de tabel. Vul een zoekterm in, bijvoorbeeld een voor- of achternaam of een telefoonnummer.

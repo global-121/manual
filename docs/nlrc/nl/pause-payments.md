@@ -18,4 +18,4 @@ Zolang een hulpvrager de status 'Actief' heeft, ontvangt die persoon automatisch
 8. De hulpvrager ontvangt tijdelijk geen hulp meer.
 
 Je kunt hetzelfde bereiken door met de rechtermuisknop op de hulpvrager in de tabel te klikken en 'Pauzeren' te selecteren.
-![Context menu](../assets/img/nlrc/nl/registrationContextMenu.png){: width="30%" }
+![Context menu](../assets/img/AcceptRejectPauseRegistrations.png){: width="30%" }
