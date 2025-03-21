@@ -84,6 +84,7 @@ nav:
         - "Change current password": "general/change-current-password.md"
         - "Reset password": "general/reset-password.md"
         - "Change Language": "general/change-language.md"
+    - "Step-by-Step Guide - Prepare your CVA Project": "general/prepare-your-project.md"
     - "Users and Roles":
         - "Users page": "users/users-roles-page.md"
         - "Add User to 121": "users/add-users.md"
