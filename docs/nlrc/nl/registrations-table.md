@@ -22,6 +22,8 @@ Na het [inloggen](../log-in-2fa), zie je gegevens van mensen die via jouw organi
 - **Maximale betalingen:** Het totaal aantal betalingen dat de persoon kan ontvangen
 - **Registratiedatum:** De datum waarop de hulpvrager is aangemeld
 
+![Overview Registrations](../assets/img/OverviewRegistrations.png)
+
 
 ## Standaardkolommen Wijzigen
 

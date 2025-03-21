@@ -12,6 +12,8 @@ Om gegevens veilig te houden, is het belangrijk te controleren wie toegang heeft
 2. Klik rechtsboven op het tabblad **Team**.
 3. Bekijk de lijst met namen en e-mails.
 
+![Control Access](../assets/img/ControlAccess.png)
+
 ### Acties
 
 - **Iemand verwijderen?** Neem contact op met het **Rode Kruis**.
