@@ -16,5 +16,8 @@ hide:
 6. Vul de code van het scherm in op je telefoon om in te loggen. </br>
    ![login4](../assets/img/nlrc/nl/2falogin4.png){: width="30%" }
 7. je bent ingelogd!
+8. Klik op een project om verder te gaan.
+
+![Select Food Program](../assets/img/SelectFoodProgram.png){: width="30%" }
 
 Je ziet een totaaloverzicht met daarin het totaal aantal registraties, actieve hulpvragers en het totaal uitgekeerde bedrag dat ooit is uitgegeven. Klik op naam van een project om verder te gaan.
