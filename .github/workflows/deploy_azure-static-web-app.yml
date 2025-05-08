@@ -7,10 +7,12 @@ on:
   workflow_dispatch:
   push:
     branches:
+      - main
       - new
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
+      - main
       - new
 
 permissions:
