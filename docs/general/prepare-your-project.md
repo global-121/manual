@@ -65,7 +65,7 @@ Once your form and program are integrated, and project team members identified, 
   
   [ ] User accounts created for new team members.
   
-  [ ] Roles assigned to team members within the project in the 121 Platform. Folow [the instructions on how to add team members to the project](../team/add-team-members.md)
+  [ ] Roles assigned to team members within the project in the 121 Platform. Follow [the instructions on how to add team members to the project](../team/add-team-members.md)
 
 The user has not been created yet? Refer to the [user creation guide](../users/add-users.md).
 

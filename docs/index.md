@@ -12,7 +12,7 @@ On the left you can find a navigation overview, or find the information you need
 
 ### CVA Program flow
 
-the 121 Platform is following the CVA workflow step-by-step. Find out the instructions for each phase your are working on.
+the 121 Platform is following the CVA workflow step-by-step. Find out the instructions for each phase you are working on.
 
 <!-- markdownlint-disable-next-line no-inline-html -->
 <div class="grid cards" markdown>

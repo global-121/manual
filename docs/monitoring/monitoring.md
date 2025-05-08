@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-The Monitoring page is an overview of your project details. This include the main metrics of your cash and voucher assistance that will be run within 121 platform. These metrics are provided by your team when creating the program in the instance, and are updated and filled in with the number of data imported into the program, such as number of registrations and transfers processed up to date. The table below give a description on the metrics used.
+The Monitoring page is an overview of your project details. This includes the main metrics of your cash and voucher assistance that will be run within 121 platform. These metrics are provided by your team when creating the program in the instance, and are updated and filled in with the number of data imported into the program, such as number of registrations and transfers processed up to date. The table below give a description on the metrics used.
 
 the monitoring page can feature a Power BI dashboard, either the 121 template version or a custom version, if you have requested it to be embedded.
 

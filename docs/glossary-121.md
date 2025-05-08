@@ -43,9 +43,9 @@ A list of key terms used in the 121 platform.
 | :------------------    | :------------------------------------------------------------------- |
 | **All projects**       | The home page of 121, contains all projects, running and archived, that the users are assigned to.|
 | **Users** | All individuals who have access to, and work on the 121 platform e.g. CVA officer, volunteers, Financial officers etc. A user can have different roles in different projects. |
-| **Roles** | Each user will be assigned a position for a specific project (e.g. CVA officer, volunteer, Financial officer etc.). This is done in the "Team" page of the project details. Each role has 1 or more premissions.|
+| **Roles** | Each user will be assigned a position for a specific project (e.g. CVA officer, volunteer, Financial officer etc.). This is done in the "Team" page of the project details. Each role has 1 or more permissions.|
 | **Permissions** | Each role has different authorization to preform different actions. e.g. only a Financial officer can approve a payment. You can see which permissions are related to which role on the "Roles and permissions" page.|
-| **Settings** | Where users can make changes to the platform to adjest it to thier needs e.g. change language, time zone etc.|
+| **Settings** | Where users can make changes to the platform to adjust it to their needs e.g. change language, time zone etc.|
 | **Manual**             | The place in which users can find instructions for how to use the platform.|
 | **Monitoring** | The detailed information of a project and powerBI dashboard with information of the project's statistics. (if applicable).|
 | **Team** | 121 users that will be working on this project and their roles. |

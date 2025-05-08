@@ -21,7 +21,7 @@ The Organisational Admin can reset users'passwords directly from the **Users pag
 
 ![Reset User Password](../assets/img/ResetPasswordUser.png)
 
-**An email will be automatically sent to the user so that they can reset their password.** Once the users have logged in with their new passwords, we kindly recommend them to change and personnalize their new password for additional security.
+**An email will be automatically sent to the user so that they can reset their password.** Once the users have logged in with their new passwords, we kindly recommend them to change and personalize their new password for additional security.
 
 ---
 
