@@ -1,4 +1,4 @@
-# 121 User Manual - 🆕
+# 121 User Manual
 
 <!-- markdownlint-disable-next-line no-trailing-punctuation -->
 ## Welcome to the 121 user manual!

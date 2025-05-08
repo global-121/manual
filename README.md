@@ -1,7 +1,7 @@
-# 121 Manual 🆕
+# 121 Manual
 
 > [!TIP]
-> Read the 🆕 manual: <https://new.manual.121.global>
+> Read the manual: <https://manual.121.global>
 
 ## Development
 
@@ -22,14 +22,21 @@
   pip install -r requirements.txt
   ```
 
-- Build the documentation
+- Build the documentation (for each language separately):
+    - For English, preview at: <http://localhost:8000>
 
-  ```sh
-  mkdocs serve
-  ```
+    ```sh
+    mkdocs serve --config-file config/en/mkdocs.yml --dev-addr localhost:8000
+    ```
 
-- Preview at: <http://localhost:8000>
+    - For Dutch, preview at: <http://localhost:8080>
 
+    ```sh
+    mkdocs serve --config-file config/nl/mkdocs.yml --dev-addr localhost:8080
+    ```
+
+<!-- NOTE: The Docker-way to serve/build is not compatible with the multi-lingual setup currently in use. -->
+<!-- 
 #### With Docker
 
 - Install Docker: <https://docs.docker.com/get-docker/>
@@ -45,6 +52,7 @@
   ```sh
   docker run --rm -it -p 8000:8000 -v ${PWD}:/docs manual-121
   ```
+-->
 
 ### Tools in use
 

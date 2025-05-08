@@ -21,10 +21,26 @@ jobs:
           cache: 'pip'
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
 
-      - name: Build
-        run: mkdocs build --site-dir www
+      - name: Build EN
+        working-directory: config/en
+        run: |
+          mkdocs build
+
+      - name: Build NL
+        working-directory: config/nl
+        run: |
+          mkdocs build
+
+      - name: 'Create redirect `/`'
+        run: |-
+          cat <<EOF > www/index.html
+          <!doctype html>
+          <title>Redirecting...</title>
+          <meta http-equiv="refresh" content="1;url=/en/">
+          EOF
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

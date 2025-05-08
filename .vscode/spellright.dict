@@ -1,10 +1,10 @@
+.csv
 Boodschappenkaarten
 csv
-.csv
 Espo
 fontawesome
-FSP
 fsp
+FSP
 Heijn
 helpdesk
 Intersolve
@@ -13,6 +13,9 @@ lg
 markdownlint
 markdownlint-disable-next-line
 md
+mkdocs
+mkdocs-glightbox
+mkdocs-material
 octicons
 passphrase
 passphrases
