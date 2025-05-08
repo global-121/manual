@@ -5,6 +5,7 @@ site_name: 121 Platform User Manual 🆕
 site_url: https://new.manual.121.global/
 docs_dir: '../../docs'
 site_dir: '../../www/en'
+exclude_docs: 'nlrc/nl/*'
 
 extra_css:
   - assets/stylesheets/extra.css
