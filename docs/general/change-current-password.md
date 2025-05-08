@@ -4,22 +4,28 @@ hide:
   - toc
 ---
 
-!!! info "This section explains"
-    How to change your current password
+!!! Important "Who can perform actions on this page ?"
+    All users can change their own passwords.
+
 
 Once you are logged in to the 121 Platform, click on your email address under "Logged in as" in the top right corner.
 
-- Enter your current password.
-- Enter your new password.
-- Confirm your new password.
-- Click on save and update the new password.
+- **Log in to the 121 Platform**,
+- Click on **:material-account-outline: Account** on the top right corner and select **Change Password**,
+- Enter your **current password**,
+- **Enter your new password**, then **Confirm** your new password.
+- Click on **Change Password** to save your new password.
 
-If you lost or do not remember your password, our support team will reset your password and share your temporary new password per email.
+![Account User](../assets/img/AccountUser.png)
 
-Contact your dedicated Account Manager directly or reach out to our support team via <support@121.global>
-Once you have logged in with you new password, we kindly recommend you to change your new password for additional security.
+![Change Password](../assets/img/ChangePassword.png)
 
-!!! danger "Reset your password"
-    If you, or one of 121 users, have lost their passwords, you can reset your password by following the instructions on the Reset password page.
+---
+
+If you lost or do not remember your password, you can contact your Organisational Admin user, so he/she will reset your password [by following the instructions on the Reset password page.](../general/reset-password.md). Once you have logged in with you new password, we kindly recommend you to change your new password for additional security.
+
+If you are still not able to log in the 121 Platform, contact your dedicated Account Manager directly or reach out to our support team via <support@121.global>
+
+---
 
 -8<- "docs/_snippets/contact-support.md"

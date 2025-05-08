@@ -1,5 +1,5 @@
 ---
-title: People Affected - Empty Table
+title: Registrations - Empty Table
 hide:
   - toc
 ---
@@ -24,13 +24,10 @@ To start importing the registration list:
 
 ### Filters may be applied to the list
 
-There may be are some filters applied to the table that might mean the PAs are not being shown.
+There may be are some filters applied to the table that might mean the beneficiaries are not being shown.
 
-- Check that the filter and search bar are empty. If you see a filter shown below the search bar click the X next to it to delete it.
-- Check Status filter to the right of the search bar. Click**Filter by: Status** and select **All** or the choose group you want to look at.
-
-![Filter Status Registered](https://raw.githubusercontent.com/global-121/121-platform/main/e2e/tests/__screenshots__/UserManualScreenshots/userManualScreenshots.spec.ts/FilterFunctionStatusSearch.png)
-
+- Check that the filter and search bar are empty.
+- If you see a filter shown below the search bar click **Clear filters** on the top right of your table. ![Clear Filters](../assets/img/ClearFilterButton.png)
 
 !!! warning "Blank page"
     In case the page is fully blank and does not show the registration column, there may be a technical issue.

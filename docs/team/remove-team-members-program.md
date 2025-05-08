@@ -1,34 +1,36 @@
 ---
-title: Remove members from program team
+title: Remove users from project team
 hide:
   - toc
 ---
 
-!!! info "This section explains"
-    How to remove a team members from a program
+In the **Team** page of your project, you can see the list of users currently added into your project. If you have the permission, you can **remove a user from a project**. Team members should be removed from the program team if they no longer work with the program or they have left the organisation to ensure data protection.
 
-In the **Team** page of your program, you can see the list of team members currently added into your program. If you have the permission, you can remove a team member from a program. Team members should be removed from the program team if they no longer work with the program or they have left the organisation to ensure data protection.
+!!! Important "Who can perform actions on this page ?"
+    Program Admin and CVA Manager can perform actions in this page.
+    Additional users may only have View permissions on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
 
-- Enter the program, **go to Team** page.
-- Click on the 3 dots **:material-dots-horizontal:**  on the right end of the team member row.
+### Revoke a user's access to the project
 
-![Program Team](https://raw.githubusercontent.com/global-121/121-platform/main/e2e/tests/__screenshots__/UserManualScreenshots/userManualScreenshots.spec.ts/ProgramTeam.png)
+- Enter the desired project and **go to :octicons-people-24: Team** page,
+- Use the **:octicons-search-24: search bar** on the right side of your table to find the user,
 
-- Click **Remove team member**. A pop-window will warn your action before confirming.
-- Click **Remove user** to confirm. The user is removed from the team.
+![Search a Team member](../assets/img/SearchTeammembers.png)
 
-![Action box](https://raw.githubusercontent.com/global-121/121-platform/main/e2e/tests/__screenshots__/UserManualScreenshots/userManualScreenshots.spec.ts/ProgramTeamDeleteRemoveUserActionBox.png)
+- Click on the 3 dots **:material-dots-horizontal:**  on the right end of the user row,
+- Select **Remove user** and confirm.
 
-![Remove team member](https://raw.githubusercontent.com/global-121/121-platform/main/e2e/tests/__screenshots__/UserManualScreenshots/userManualScreenshots.spec.ts/ProgramTeamDeleteRemoveUserValidation.png)
+![Remove button](../assets/img/RemoveTeammember.png)
 
-___
+---
 
-### A team member was removed by mistake?
+### A user was removed by mistake?
 
-Do not worry! The action history and logs remain unchanged. If you have the permission, you can add the team member back to the team. If not, contact your 121 Program Admin or our support team to help you.
+Do not worry! The action history and logs remain unchanged. If you have the permission, you can add the user back to the team. If not, contact your 121 Program Admin or CVA manager, or our support team to help you.
 
-!!! info "add users to a program"
-    You can Follow these instructions to [add team members to a program](./add-team-members.md).
+!!! info "add users to a project"
+    You can Follow these instructions to [add users to a project on this page.](./add-team-members.md).
 
+---
 
 -8<- "docs/_snippets/contact-support.md"

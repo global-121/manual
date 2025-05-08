@@ -4,23 +4,33 @@ hide:
   - toc
 ---
 
+The **Users and User Roles pages**  display a list of registered 121 users on the platform along with the available roles set in your 121 instance.
 
+!!! Important "Who can perform actions on this page ?"
+    Program Admin can view and perform actions in this page.
 
-!!! info "This section explains"
-    Overview of registered users and roles into 121 platform
+In the **Home page**, you can click on the **menu icon (:material-menu:)** on the top left, and select either **Users** or **User Roles**. The **Users page** will provide different information than the **User Roles page**.
 
-The users page provides the list of registered user accounts and available roles in your 121 platform.
+### Users page
 
-### Roles and Users page
+In the **Users** page, you can:
 
-**Admin users** only can access the Users page; have an overview of both roles and users registered in the 121 platform.
+- See the list of all registered users in your 121 instance,
+- [Add new users into the 121 platform](../users/add-users.md) by sending them an invitation,
+- Reset user's password
 
-- In **Home page**, Click on the menu icon (:material-menu:) on the top left.
-- Select **Users**.
-- The left tab **Users** shows the list of registered users in your instance.
-- The right tab **Roles** shows the list of available roles in your instance.
+![Users Page](../assets/img/AddUser.png)
 
-![User Role Tab](https://raw.githubusercontent.com/global-121/121-platform/main/e2e/tests/__screenshots__/UserManualScreenshots/userManualScreenshots.spec.ts/UsersRoleTab.png)
+### User Roles page
+
+In the **User Roles** page, you view the list of available roles set in your instance. This is not possible to create new roles and permissions in this page.
+
+- To add additional roles, please reach out to our 121 support team.
+- To assign an existing role to a user, [follow the instructions on this page.](../team/add-team-members.md)
+
+![User Roles Page](../assets/img/UserRolesPage.png)
+
+---
 
 ### Standard 121 user roles
 
@@ -28,17 +38,18 @@ No single user can take all actions in the 121 platform. The 121 platform follow
 
 | Type                | Description                                                          |
 | :------------------ | :------------------------------------------------------------------- |
-| **Program Admin**   | Program Administrator, responsible for overall program management    |
-| **Finance Officer** | Officer for Finance operations                                       |
-| **Finance Manager** | Manager for Finance operations, payment instructions                 |
-| **CVA Officer**     | Officer for Cash and Voucher Assistance                              |
-| **CVA Manager**     | Manager for Cash and Voucher Assistance                              |
-| **View**            | Portal Users who are allowed to view only and cannot perform actions |
+| **Program Admin**| System Administrator, overseeing user access on the platform and managing project with an overall view of project progress.|
+| **CVA Officer**     | Officer for Cash and Voucher Assistance.                              |
+| **CVA Manager**     | Manager for Cash and Voucher Assistance.                              |
+| **Finance Officer** | Officer for Finance operations and audit.                             |
+| **Finance Manager** | Manager for Finance operations, payment instructions.                 |
+| **View**            | Portal Users who are allowed to view only and cannot perform actions. |
+
+Find a description of role-based permissions [on this page](../users/description-roles.md).
 
 !!! info "Additional roles"
     Additional roles can be configured based on request. Contact your dedicated Account Manager reach out to our [support team via email](mailto:support@121.global).
 
-!!! note "Permissions"
-    Find a description of role-based permissions [on this page](../users/description-roles.md).
+---
 
 -8<- "docs/_snippets/contact-support.md"

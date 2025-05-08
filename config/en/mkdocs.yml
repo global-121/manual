@@ -1,0 +1,138 @@
+# See: https://squidfunk.github.io/mkdocs-material/creating-your-site/#configuration
+# See: https://www.mkdocs.org/user-guide/configuration/
+
+site_name: 121 Platform User Manual
+site_url: https://manual.121.global/
+docs_dir: '../../docs'
+site_dir: '../../www/en'
+exclude_docs: 'nlrc/nl/*'
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+markdown_extensions:
+  - attr_list
+  - def_list
+  - md_in_html
+  - toc:
+      toc_depth: "1-1"
+      permalink: true
+      permalink_title: Specific link to this section
+  - admonition
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.betterem
+
+plugins:
+  - privacy:
+      assets: false
+  - search
+  - glightbox
+
+theme:
+  name: material
+  custom_dir: ../../overrides
+  language: en
+  palette:
+    primary: custom
+    accent: custom
+  logo: assets/img/121Logo.svg
+  favicon: assets/img/favicon.ico
+  font: false # To comply with GDPR
+  features:
+    - navigation.top
+    - navigation.tabs
+    - navigation.instant
+    - navigation.instant.progress
+
+extra:
+  generator: false
+  alternate:
+  - name: Nederlands
+    link: /nl/
+    lang: nl
+  analytics:
+    provider: custom
+    connectionString: InstrumentationKey=5eacdcc3-d4a4-4251-8ba1-f49b9eaa22be;IngestionEndpoint=https://westeurope-5.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/;ApplicationId=ce4dc6f1-1361-4ef9-ab56-ca1fc82f2309
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/thumb-up-outline
+          name: Yes, this page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/thumb-down-outline
+          name: No, this page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! Help us improve this page,
+            <a href="mailto:support@121.global?subject=Feedback%20on%20121-Manual:%20{url}" rel="noopener">let us know what you think</a>.
+
+extra_javascript:
+  - assets/javascripts/feedback.js
+
+nav:
+  - "General":
+    - "Home": "index.md"
+    - "Support": "general/support-contact.md"
+    - "General":
+        - "Log In": "general/logging-in.md"
+        - "Change current password": "general/change-current-password.md"
+        - "Reset password": "general/reset-password.md"
+        - "Change Language": "general/change-language.md"
+    - "Step-by-Step Guide - Prepare your CVA Project": "general/prepare-your-project.md"
+    - "Users and Roles":
+        - "Users page": "users/users-roles-page.md"
+        - "Add User to 121": "users/add-users.md"
+        - "Roles and permissions": "users/description-roles.md"
+    - "Team":
+        - "Team page": "team/team-page.md"
+        - "Add team members": "team/add-team-members.md"
+        - "Change team members roles": "team/change-team-roles-program.md"
+        - "Remove team members": "team/remove-team-members-program.md"
+    - "Registrations":
+        - "Registrations page": "registration/registrations-page.md"
+        - "Import Registrations with excel": "registration/registration-import-list.md"
+        - "Registration with KOBO form": "registration/registration-automatic-import-kobo.md"
+        - "Deduplication": "registration/registration-deduplication.md"
+        - "Edit beneficiaries profiles": "registration/edit-pa-profile.md"
+        - "Validate registrations": "registration/registration-validate-pa.md"
+        - "Decline registrations": "registration/registration-reject-pa.md"
+        - "Include registrations": "registration/inclusion-in-program.md"
+        - "Pause a registration": "payment/pause-payment-pa.md"
+        - "End payments": "payment/end-payments.md"
+        - "What if I see empty page": "registration/registration-list-empty.md"
+    - "Verification":
+        - "Offline Verification with 121 and Kobo Toolbox": "verification/offline-verification.md"
+    - "Payment":
+        - "Payments page": "payment/payment.md"
+        - "Payments with integrated FSP": "payment/payment-integrated-fsp.md"
+        - "Manual payment instructions (excel export)": "payment/issue-payment-fsp-portal.md"
+        - "Reconcile manual payments": "payment/manual-payment-reconciliation.md"
+        - "Failed and Retry payments": "payment/failed-retry-payment.md"
+        - "Pause payments": "payment/pause-payment-pa.md"
+        - "End payments": "payment/end-payments.md"
+        - "Payment statuses in 121": "payment/list-status-payment-page.md"
+        - "Payment reporting and activty": "payment/payment-reporting.md"
+    - "Monitoring":
+        - "Monitoring page": "monitoring/monitoring.md"
+    - "F.A.Q":
+        - "Data Protection": "faq/data-protection.md"
+        - "Financial Service Providers (FSP)": "faq/financial-service-provider.md"
+        - "Setting-up 121 Platform": "faq/setting-up-121-platform.md"
+  - "🇳🇱 NLRC":
+    - "Logging in via 2FA (2 Factor Authentication)": "nlrc/en/log-in-2fa.md"
+    - "Change the language": "nlrc/en/change-language.md"
+    - "Registrations Table": "nlrc/en/registrations-table.md"
+    - "Assess (new) Registrations": "nlrc/en/assess-new-registrations.md"
+    - "Finding registrations": "nlrc/en/filter-registrations.md"
+    - "Edit Registrations": "nlrc/en/edit-registration.md"
+    - "Print a paper voucher": "nlrc/en/print-paper-voucher.md"
+    - "Pause payments": "nlrc/en/pause-payments.md"
+    - "End payments": "nlrc/en/end-payments.md"
+    - "Access": "nlrc/en/access.md"

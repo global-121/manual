@@ -1,29 +1,33 @@
 ---
-title: Change and Assign roles to Team members
+title: Change and Assign roles to users
 hide:
   - toc
 ---
 
-!!! info "This section explains"
-    How to assign and change different role(s) to team members in a program
+In the **Team** page of your project, you can see the list of users currently added into your project, with their assigned role(s). If you have the permission, you can **change, add or remove a role assigned to a user**.
 
-### Change assigned roles
+!!! Important "Who can perform actions on this page ?"
+    Program Admin and CVA Manager can perform actions in this page.
+    Additional users may only have View permissions on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
 
-In the **Team** page of your program, you can see the list of team members currently added into your program, with their assigned role(s). If you have the permission, you can change, add or remove a role assigned to a team member.
+### Change assigned roles and permissions
 
-- Enter the program, **go to Team** page.
-- Click on the 3 dots **:material-dots-horizontal:**  on the right end of the team member row.
+- Enter the desired project and **go to :octicons-people-24: Team** page,
+- Use the **:octicons-search-24: search bar** on the right side of your table to find the user,
 
-![Program Team](https://raw.githubusercontent.com/global-121/121-platform/main/e2e/tests/__screenshots__/UserManualScreenshots/userManualScreenshots.spec.ts/ProgramTeam.png)
+![Search a Team member](../assets/img/SearchTeammembers.png)
 
-- Click **Edit**. A pop-window will appear.
-- In **Role** field, **Select or deselect** the roles you want to assign to the team member.
-- Click **Save** to confirm the changes.
+- Click on the 3 dots **:material-dots-horizontal:**  on the right end of the user row,
+- Click **:octicons-pencil-24: Edit**. A sidebar will appear on the right side of your screen.
 
-![Program Team](https://raw.githubusercontent.com/global-121/121-platform/main/e2e/tests/__screenshots__/UserManualScreenshots/userManualScreenshots.spec.ts/ChangeRoleTeam.png)
+![Editrolesteam](../assets/img/Editrolesteam.png)
 
-!!! question "add or remove users"
-    You can follow the instructions to [add team members to a program](../team/add-team-members.md).  
-    or to [remove team members from a program](../team/remove-team-members-program.md)
+![Sidebar Roles](../assets/img/TeamRolesSideBar.png)
+
+- In **Assign Roles** field, **Select or deselect** the roles you want to assign to the user.
+- Click **Submit** to confirm the changes.
+
+!!! question "Add or Remove users"
+    You can follow the instructions to [add users to a project](../team/add-team-members.md) or to [revoke users'access from a project.](../team/remove-team-members-program.md)
 
 -8<- "docs/_snippets/contact-support.md"

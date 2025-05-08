@@ -4,33 +4,39 @@ hide:
   - toc
 ---
 
-!!! info "This section explains"
-    How to add team members to your program
+In the **Team** page of your project, you can see the list of users currently added into your project. If you have the permission, you can **add a user to a project**. *Team members should be removed from the program team if they no longer work with the project or they have left the organisation to ensure data protection.*
+
+!!! Important "Who can perform actions on this page?"
+    Program Admin and CVA Manager can perform actions in this page.
+    Additional users may only have View permissions on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
 
 ### Adding team members
 
-In the **Team** page of your program, you can see the list of team members currently added into your program. If you have the permission, you can add a team member to a program.
+- Enter the desired project and **go to :octicons-people-24: Team** page,
+- On the right side of your screen, click on **:material-plus: Add Team member** button,
 
-!!! warning "Permission required"
-    Per default, Program Admin and CVA manager can add and delete team members, and assign them a role into a program team. If you would like to add this role to your instance, contact your dedicated account manager or support team via <support@121.global>
+![Add Team member](../assets/img/AddTeamMember.png)
 
+- A sidebar opens, you can search for the user by typing their **email address** in **Choose user** field,
 
-- Click on the **Add team member** button on the top right
+![Add Team Member](../assets/img/SideBarAddTeam.png)
 
-![Program Team](https://raw.githubusercontent.com/global-121/121-platform/main/e2e/tests/__screenshots__/UserManualScreenshots/userManualScreenshots.spec.ts/ProgramTeam.png)
+- On the second field **Assign Roles**, you can now select and **assign one or more role(s)** by ticking the box,
 
-- In the pop-up window, search for the username of the person you want to add to your program
-- **Assign one or more role(s)**
-- Click on the **Add user** button
+![Sidebar Roles](../assets/img/TeamRolesSideBar.png)
 
-![Add Team Member](https://raw.githubusercontent.com/global-121/121-platform/main/e2e/tests/__screenshots__/UserManualScreenshots/userManualScreenshots.spec.ts/AddTeamMember.png)
+- Click **Submit** to confirm the changes.
 
-- **Save** your changes. The user will be automatically added into the program team.
+*Can't find the user? Their user account needs to be created and [added to the 121 platform first.](../users/add-users.md)*
 
-!!! question "Can't find the user?"
-    If you can't find the user that you want to add to the program, they need to be [added to the 121 platform first](../users/add-users.md)
+!!! info "This user is already a team member"
+    If you get an error message **"This user is already a team member"**, they have already been added to the team. Do you want to [change their roles? Please visit the **Change user roles page** and follow the instructions.](./change-team-roles-program.md)
 
-!!! warning "This user is already a team member"
-    If you get an error message **"This user is already a team member"**, they have already been added to the team. Do you want to [change their roles](./change-team-roles-program.md)?
+---
+
+!!! warning "Users must be added to each individual project they are assigned to"
+    Adding a user to the project team grants them access to this specific project, but it does not automatically assign them to ALL projects. Each user must be manually assigned to individual projects by the Program Admin or CVA Manager. Without project assignments, they may see a blank page upon login. Additionally, you can assign each user a specific role within the separate projects they are added to.
+
+---
 
 -8<- "docs/_snippets/contact-support.md"
