@@ -36,7 +36,6 @@
   "trailingSlash": "auto",
   "responseOverrides": {
     "404": {
-      "statusCode": 404,
       "redirect": "/"
     }
   },
