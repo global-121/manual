@@ -25,9 +25,20 @@
       "headers": {
         "Cache-Control": "must-revalidate, no-transform, max-age=2592000"
       }
+    },
+    {
+      "route": "en/faq/*",
+      "headers": {
+        "Access-Control-Allow-Origin": "https://510.global"
+      }
     }
   ],
   "trailingSlash": "auto",
+  "responseOverrides": {
+    "404": {
+      "redirect": "/"
+    }
+  },
   "globalHeaders": {
     "Cross-Origin-Opener-Policy": "same-origin",
     "Permissions-Policy": "document-domain=(), storage-access=(self), attribution-reporting=(), interest-cohort=(), browsing-topics=()",
