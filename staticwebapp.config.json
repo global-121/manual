@@ -32,7 +32,7 @@
     "404": {
       "redirect": "/"
     }
-  }
+  },
   "globalHeaders": {
     "Access-Control-Allow-Origin": "https://510.global",
     "Cross-Origin-Opener-Policy": "same-origin",
