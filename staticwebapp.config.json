@@ -29,7 +29,7 @@
     {
       "route": "en/faq/*",
       "headers": {
-        "Access-Control-Allow-Origin": "https://510.global",
+        "Access-Control-Allow-Origin": "https://510.global"
       }
     }
   ],
