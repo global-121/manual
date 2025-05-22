@@ -10,47 +10,50 @@ Below, you will find the steps to spotcheck multiple entries and deduplicate ben
     Program Admin, CVA Officer and CVA Manager can perform actions.  
     Additional users may only have View permissions on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
 
+---
+
+### Setting up the Duplicate Check
+
+**The criteria for detecting duplicates have been configured in your Kobo form.**
+
+**Duplicates are identified based on specific unique criteria** such as phone number or ID number. This criteria is flexible and can be chosen by the organisation and changed depending on the program requirements. WWe recommend using unique identification criteria (e.g., ID Number, phone number) to reduce the duplicate check, instead of criteria that can easily match across registrations (like name).
+
+The criteria can be set up directly in your Kobo, marking the question as **+dedup** in your form. The 121 Platform will then recognize the value as the duplicate criteria. Request our team to adjust the criteria based on your project.
+
+---
+
 ### Filter the duplicated Registrations
 
-In the **Registration** page, and following your organization's SOPs, all duplicated entries will be listed based on the unique criteria (ID number, phone number or required criteria).
+In the **Registration** page, all duplicated entries will be marked based on the unique criteria selected by your organization (e.g., ID number, phone number, etc.).
 
-- Click on **Manage table** and display the **Duplicate** column,
-- In the column **duplicate**, filter on **Duplicate**
-- You will find the matching **Reg. # number** marked in red with **duplicate**
-- **Open the registration**. You can now read the value that is duplicated in the **Reg. # profiles** on the top of the page, as well as the **matching fields**.
-- In the **beneficiary profile**, you can decide to ignore, decline or update. See the description below.
+- Click on :material-cog: icon to **manage the table**,
+- Select **Duplicates** and click **Apply** to show duplicate column in the table,
+- In the **Duplicates** column, select the filter icon and filter on **Duplicate**,
+- YThe filtered list will only show the registrations marked as **Duplicate**,
+- Click on **Reg #** or **Name** to open the personal registration profile. A red banner at the top of the page labelled **Duplicated with** will show who this person is duplicated with and the **matching field**.
+- To resolve this duplicate you can decide to ignore, decline or update. See the description below.
 
 ![Manage Table](../assets/img/ShowDuplicateColumn.png)
 
 ![Filter Duplicate](../assets/img/FilterDuplicate.png)
 
-!!! Note "Setting up your duplicates criteria in Kobo"
-    **Duplicates are identified based on specific unique criteria** such as phone number or ID number. This criteria is flexible and can be chosen by the organisation and changed depending on the program requirements. We recommand unique criteria so to ease the duplicate check, such as ID number when possible or similar alternative which makes the criteria unique to the registration.
-
-    The criteria can be set up directly in your Kobo, marking the question as **+dedup** in your form. The 121 Platform will then recognize the value as the duplicate criteria. Request our team to adjust the criteria based on your project.
-
-
 ## Update the list of registrations
 
-Once you have identified the duplicate, you can either decide to update the registration list in the 121 platform as follows:
-You can perform 3 actions in the **Registrations** page:
+Once you have identified the duplicate, you can update the registration and remove the duplicate label in 3 ways:
 
-- **Edit the value directly in the registration profile**
-- **Decline the registration**, in case this is a double entry for the same beneficiary.
-- **Ignore the duplicate**, in case your SOPs allow registrations to share a same value - such as phone number, which can be used by multiple beneficiaires in the same community.
-
-Below, the solution based on either of these 3 options:
+- **Edit the duplicated value directly in the registration profile** after validating the information.
+- **Decline the registration**, if the same person is registered twice.
+- **Ignore the duplicate**, if your SOPs allow registrations to share the value - such as phone number, which may be used by multiple people in the same community.
 
 ---
 
-## Edit the value in the registration profile
+## Edit the duplicated value in the registration profile
 
-- Search for the registration number by filtering the **Reg. # column**
 - Open the profile clicking on **Reg. #** on the left side. You will now see the registration overview,
 - Click the tab **Personal Information** and search for the value to be edited,
 - **Edit** the value. Click on **Save** and give a reason,
 - The new value is now saved,
-- The duplicate will automatically be updated and marked as **Unique**.
+- The registration will automatically be updated and marked as **Unique**.
 
 ![Edit Information](../assets/img/EditInformationDuplicate.png)
 
@@ -58,11 +61,11 @@ Below, the solution based on either of these 3 options:
 
 ## Decline the registration
 
-- Search for the registration number by filtering the **Reg. # column**
-- Once you have found the registration, **enter the beneficiary registration**,
-- On the top left of the page, click on **Action** and then on the **Decline** button,
+- In the personal registration profile, on the top left of the page, click on **Action**
+- Click on the **Decline** button,
 - **Approve** the action. *Confirm only if you are sure to decline this registration, otherwise cancel.*
 - You will have to enter a reason for declining the beneficiary.
+- When a registration is declined they are no longer included in the duplicate check so the registration they were duplicated with will change to **Unique**.
 
 ![Decline Registration](../assets/img/DeclineIgnoreDuplicate.png)
 
@@ -72,13 +75,16 @@ Did you accidentally mark a registration as declined? No worries, this is a reve
 
 ## Ignore the duplicate
 
-- Once you have found the registration, **enter the beneficiary registration**,
-- On the top left of the page, click on **Action** and then on the **Ignore the duplicate** button,
+- In the personal registration profile, on the top left of the page, click on **Action**,
+- Click on the **Ignore the duplicate** button,
 - **Approve** the action. *Confirm only if you are sure to ignore this registration, otherwise cancel.*
+- The registration will automatically be updated and marked as **Unique**.
 
 ![Ignore Duplicate](../assets/img/DeclineIgnoreDuplicate.png)
 
 !!! Info "Why ignoring a duplicate?"
-    In some situations, the duplicate criteria may be set on **phone numbers**, meaning that if multiple registrations share the same phone numbers, the platform will show the registrations as duplicate. Nevertheless, in many cases, communities share the same phone number with multiple inhabitants. Therefore, based on your SOPs, you may decide to consider the registrations as Unique if a same phone number is shared within the community.
+    In some situations, the duplicate criteria may be set on **phone number**, meaning that if multiple registrations share the same phone number, the platform will show the registrations as duplicates. 
+    
+    However, in some cases, phone numbers are shared by multiple people in a community (for example, if one person doesn't have a phone they might use the phone number from their neighbour). Therefore, if it aligns with your SOPs, you may decide to consider the registrations as Unique if you've validated that the same phone number is being used by different people.
 
 -8<- "docs/_snippets/contact-support.md"
