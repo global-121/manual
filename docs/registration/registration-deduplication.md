@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-Below, you will find the steps to spotcheck multiple entries and deduplicate beneficiaries registered multiple times in the same project registration list. You can check duplicates in the **Registration** page. Three options are possible: **Update** the matching information, **Decline** the registration or **Ignore** the duplicate.
+Below you will find the steps to check duplicated registrations and deduplicate as needed. Note that duplicates can only be checked within a single project and there is no way to check duplicates across different projects in 121.
 
 !!! Important "Who can perform actions on this page ?"
     Program Admin, CVA Officer and CVA Manager can perform actions.  
@@ -16,7 +16,7 @@ Below, you will find the steps to spotcheck multiple entries and deduplicate ben
 
 **The criteria for detecting duplicates have been configured in your Kobo form.**
 
-**Duplicates are identified based on specific unique criteria** such as phone number or ID number. This criteria is flexible and can be chosen by the organisation and changed depending on the program requirements. WWe recommend using unique identification criteria (e.g., ID Number, phone number) to reduce the duplicate check, instead of criteria that can easily match across registrations (like name).
+**Duplicates are identified based on specific unique criteria** such as phone number or ID number. This criteria is flexible and can be chosen by the organisation and changed depending on the program requirements. We recommend using unique identification criteria (e.g., ID Number, phone number) to reduce the duplicate check, instead of criteria that can easily match across registrations (like name).
 
 The criteria can be set up directly in your Kobo, marking the question as **+dedup** in your form. The 121 Platform will then recognize the value as the duplicate criteria. Request our team to adjust the criteria based on your project.
 
@@ -29,7 +29,7 @@ In the **Registration** page, all duplicated entries will be marked based on the
 - Click on :material-cog: icon to **manage the table**,
 - Select **Duplicates** and click **Apply** to show duplicate column in the table,
 - In the **Duplicates** column, select the filter icon and filter on **Duplicate**,
-- YThe filtered list will only show the registrations marked as **Duplicate**,
+- The filtered list will only show the registrations marked as **Duplicate**,
 - Click on **Reg #** or **Name** to open the personal registration profile. A red banner at the top of the page labelled **Duplicated with** will show who this person is duplicated with and the **matching field**.
 - To resolve this duplicate you can decide to ignore, decline or update. See the description below.
 
