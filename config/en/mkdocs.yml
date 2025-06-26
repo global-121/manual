@@ -106,6 +106,7 @@ nav:
         - "Include registrations": "registration/inclusion-in-program.md"
         - "Pause a registration": "payment/pause-payment-pa.md"
         - "End payments": "payment/end-payments.md"
+        - "Sending messages" : "registration/sending-messages.md"
         - "What if I see empty page": "registration/registration-list-empty.md"
     - "Verification":
         - "Offline Verification with 121 and Kobo Toolbox": "verification/offline-verification.md"
