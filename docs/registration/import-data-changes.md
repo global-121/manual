@@ -1,10 +1,10 @@
 ---
-title: Registrations - Mass Update
+title: Registrations - Import Data Changes
 hide:
   - toc
 ---
 
-Mass update function allows you to import or update registration information into the platform.
+Import Data Changes function allows you to import or update registration information into the platform.
 
 !!! Important "Who can perform actions on this page ?"
     CVA Manager can perform this action by default. The Mass Update permission can also be assigned in addition to your existing role.
@@ -19,9 +19,9 @@ Go to the **Registrations** page. You can optionally download a template includi
 - **Select the column(s)** in the dropdownlist,
 - **Export the CSV**. The file will open on your device. You can now add the information into the matching columns.
 
-![Export Mass Update button](../assets/img/MassUpdateButton.png)
+![Export Data Changes button](../assets/img/MassUpdateButton.png)
 
-![Export Mass Update Template](../assets/img/MassUpdateWindow.png)
+![Export Data Changes Template](../assets/img/MassUpdateWindow.png)
 
 !!! Important "Columns to always include"
     Your file must always include the referenceId to match the selected registrations. The mass update function cannot match on names or other values.
@@ -41,9 +41,9 @@ After you have formatted your file, you can now import the file. The system will
 - Tick the box that you understand the impact of the mass update,
 - Click on **Import file**.
 
-![Mass Update file](../assets/img/MassUpdateImportFile.png)
+![Data Changes Update file](../assets/img/MassUpdateImportFile.png)
 
-![Mass Update Complete](../assets/img/MassUpdateDone.png)
+![Data Changes Update Complete](../assets/img/MassUpdateDone.png)
 
 ---
 
