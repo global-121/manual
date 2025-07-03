@@ -10,6 +10,10 @@ Import Data Changes function allows you to import or update registration informa
     CVA Manager can perform this action by default. The Data Changes permission can also be assigned in addition to your existing role.
     [Learn more about Users & Roles](../users/users-roles-page.md)
 
+!!! warning "Phone numbers cannot be bulk updated"
+
+    While it is possible to update phone numbers individually, it is not possible to bulk update phone numbers following the import data changes procedure. If you are looking to do that, we recommend to get in touch with us via [support@121.global](mailto:support@121.global).
+
 ### Format your import
 
 Go to the **Registrations** page. You can optionally download a template including the columns you want to update.
@@ -36,7 +40,7 @@ After you have formatted your file, you can now import the file. The system will
 !!! Warning "Only include registrations to update"
     Only import registrations for which you want to update the information. If you leave a blank cell in your imported file, this will delete the information. Make sure you exclude registrations you do not need to update.
 
-- Click on**Choose fil** and drop the csv file you created for the data changes,
+- Click on **Choose file** and drop the csv file you created for the data changes,
 - **Write a reason** for this update,
 - Tick the box that you understand the impact of the data changes,
 - Click on **Import file**.
