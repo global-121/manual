@@ -34,12 +34,12 @@ Once your Twilio account is active, the 121 support team will link it to your 12
 
 You can log in to your Twilio account everytime you need to top-up your account.
 
-* **Sending SMS**
+**Sending SMS**
 Fees per SMS differ per destination and number of characters sent per messaging. Check Twilio website for the fees applied to your destination on this website for [SMS](https://www.twilio.com/en-us/sms/pricing/ma)
 
 Note that one **SMS is limited to 160 characters** — messages longer than this will be split into multiple SMS and charged accordingly. For example, a message between 161 and 320 characters will be counted and billed as two SMS. A message between 321 and 481 as three messages, etc. You can use this base to calculate how much your Twilio account should topped-up with. The calculation will include : number of SMS sent x number of beneficiaries x price per SMS for the destination.
 
-* **WhatsApp messages**
+**WhatsApp messages**
 WhatsApp messages follow a different scheme. You can find the fees description on [Twilio website](https://www.twilio.com/en-us/whatsapp/pricing)
 
 Once you had calculated the total costs, you can top-up your account via the Twilio Portal and add the necessary funds.
@@ -85,7 +85,7 @@ In the **registration page**:
 
 #### Predefined template messages
 
-If you intend to send messages at various stages of the program, you can add message templates to your instance. To do this, provide the message content along with a title and specify when the message should be triggered. There are 2 options to send templated mesages:
+If you intend to send messages at various stages of the program, you can add message templates to your instance. To do this, provide the message content along with a title and specify when the message should be triggered. Our support team will set them up. There are 2 options to send templated mesages:
 
   1. Templates can be linked to key stages such as Registration, Validation, Inclusion, Exclusion, and Payment(s). This means the message will be automatically sent when the corresponding action is performed — for example, by clicking a specific button.
 
