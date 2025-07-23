@@ -10,8 +10,8 @@ There is an option to send **outbound messages** via SMS or WhatsApp to benefici
 - [Top-up before sending messages](#top-up-before-sending-messages)
 - [Formatting phone numbers in Kobo](#formatting-phone-numbers-in-kobo)
 - [Send a message to the beneficiaries](#send-a-message-to-the-beneficiaries)
-  - [Custom message](#custom-message)
-  - [Predefined template messages](#predefined-template-messages)
+- [Custom message](#custom-message)
+- [Predefined template messages](#predefined-template-messages)
 
 
 !!! Important "Who can perform actions in this page?"
@@ -66,7 +66,7 @@ Phone numbers must be entered in international format. This means starting with 
 
 You can choose to send a message to an individual registration, multiple selected registrations, or the entire list of beneficiaries. You may use either a custom message or a predefined template. See below for the differences and recommended usage guidelines.
 
-#### Custom message
+### Custom message
 
 In the **registration page**:
 
@@ -83,7 +83,7 @@ In the **registration page**:
     For example: Dear **@name**, you will receive the amount of **@amount** tomorrow. Kind regards, **@Organization**. would be read as Dear **Paulina**, you will receive the amount of **150 USD** tomorrow. Kind regards, **HelpOrg**.
 
 
-#### Predefined template messages
+### Predefined template messages
 
 If you intend to send messages at various stages of the program, you can add message templates to your instance. To do this, provide the message content along with a title and specify when the message should be triggered. Our support team will set them up. There are 2 options to send templated mesages:
 
