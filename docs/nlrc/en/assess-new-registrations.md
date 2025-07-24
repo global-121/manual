@@ -4,19 +4,22 @@ hide:
   - toc
 ---
 
-Assessing new registrations is an important task. As a partner, you need to make sure that only valid registrations are approved. This helps keep our system safe. Follow these steps to check new registrations:
+It's important to review new registrations. Only validate registrations of people registered by you or your colleagues. Follow these steps:
 
-1. Go to the **Registrations** page at the top. You will see the registrations table.
-2. In the table, click the filter icon (:material-filter-outline:) next to the 'Registration Status' column.
-3. Click "Choose options".
-4. From the list, make sure only **Registered** is checked. The filter will apply automatically.
-5. For each registration in the list, you can:
-    - **Validate**: Approve registrations from people you know and have registered yourself.
-    - **Decline**: Reject registrations if you do not recognize the person's details.
-6. You can validate or decline in two ways:
-    1. Select all the registrations you want to validate or decline, then click the corresponding button on top of the table.
-    2. Right-click the registration you want to validate or decline, and choose the action from the menu.
-7. Confirm your action in the popup that appears.
+1. Go to the 'Registrations' page.
+2. Click the filter icon (:material-filter-outline:) next to 'Registration Status'.
+3. Click 'Choose options' and select only 'New'. The filter is applied automatically.
+
+For each registration, you can:
+
+- **Validate:** If you know and registered the person
+- **Decline:** If you don't recognize the data
+
+You can do this in two ways:
+
+- Select multiple registrations using the checkboxes on the left and click validate or decline
+- Right-click on a registration and choose an action
+- Confirm your choice in the pop-up
 
 !!! Danger "Validating registrations"
-    Only approve registrations for people you know and have registered yourself. Reject registrations with unrecognized details.
+    Only validate registrations for people you know and have registered yourself. Decline registrations with unrecognized details.

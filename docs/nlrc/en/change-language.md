@@ -4,13 +4,13 @@ hide:
   - toc
 ---
 
-To change the language:
+You can change the language at two moments:
 
-## After login
+## After logging in
 
-1. Click the menu button (:material-menu:) in the top-left corner.
-2. Choose a language from the dropdown menu at the bottom.
+1. Click the menu button (:material-menu:) at the top left of the page.
+2. Choose a language from the menu at the bottom.
 
-## Before login
+## Before logging in
 
-1. Pick a language from the dropdown menu at the bottom of the login page.
+1. Choose a language from the menu at the bottom of the login page.
