@@ -4,31 +4,30 @@ hide:
   - toc
 ---
 
-## Default Overview of Information
+## Overview of Information
 
-Once [logged into](../log-in-2fa) 121, you can view data for individuals registered via your organization. The table includes the following details:
+After logging into 121, you will see data of people registered through your organization. The list shows:
 
-- **Reg. #:** Each registered individual is assigned a unique number
-- **Name:** The name as entered in the Kobo form.
-- **Registration Status:** Indicates the beneficiary's assistance status:
-    - **Registered:** Beneficiary is registered but not yet approved or declined.
-    - **Validated:** Registration is confirmed; payments are pending activation.
-    - **Declined:** Registration is rejected; no assistance will be provided.
-    - **Included:** Payments are activated; weekly grocery cards are being distributed.
-    - **Paused:** Payments are temporarily paused.
-    - **Completed:** Assistance has ended.
-- **Phone Number:** The beneficiary's phone number as provided in the Kobo form.
-- **Number of payments:** The amount of payments sent to the beneficiary
-- **Max Payments:** Duration (in weeks) the beneficiary will receive grocery cards.
-- **Registration Created:** The date the beneficiary was registered.
+- **Reg. #:** Unique number per person
+- **Name:** The person's name as entered in the Kobo form
+- **Registration Status:**
+    - **New:** Person is signed up, but registration is not yet validated or rejected
+    - **Validated:** Registration is confirmed but not yet activated for payments
+    - **Declined:** No assistance granted
+    - **Included:** Registration is validated and activated; weekly grocery vouchers are sent
+    - **Paused:** Temporary stop on payments
+    - **Completed:** Assistance has ended
+- **Phone Number:** As entered in the Kobo form
+- **Number of Payments:** Number of payments the person has received
+- **Maximum Payments:** Total number of grocery vouchers the person can receive
+- **Registration Date:** The date the person was registered
 
-## Changing Default Columns
+## Adjusting Columns
 
-If you want to change the columns you see in the table, you can update the table view by adding or removing columns.
+Want to add or remove columns?
 
-1. Click the settings icon (:material-cog-outline:) at the top-right of the **table** section.
-2. Select or deselect columns as needed.
-3. Click apply.
-4. The table will update with your changes.
-5. To reset to the default settings, click the :material-cog-outline: icon again and choose "Revert to default".
+1. Click the settings icon (:material-cog-outline:) at the top right of the page.
+2. Select or deselect columns.
+3. Click Apply to save changes.
+4. To return to the default view, click the icon again and choose Reset to default.
 

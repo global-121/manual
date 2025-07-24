@@ -4,21 +4,34 @@ hide:
   - toc
 ---
 
-1. Go to the **Registrations** page at the top. You will see the registrations table.
-2. There are two ways to find a registration:
-    - Quick search
-    - Column filtering
+Click on Registrations at the top of the page to view the registration table.
 
-## Quick search
+There are two ways to find a registration:
 
-To use quick search, click the search icon (:octicons-search-16:) in the top-right corner of the table. You can now search through most columns.
+- Quick Search
+- Column Filtering
 
-!!! info
-    Quick search works for most, but **not** all columns. If you cannot find what you need, use column filtering.
+## Quick Search
 
-## Column filtering
+1. Click the search icon (:octicons-search-16:) in the top right of the table.
+2. Enter a search term, such as a first or last name or phone number.
 
-You can filter each column in the table by clicking the filter icon (:material-filter-outline:) next to the column header.
+The person will appear.
 
 !!! info
-    To show or hide certain columns, see [Changing default columns](../pa-table/#changing-default-columns).
+    Quick search works for most, but not all columns. If you can't find what you're looking for, use column filtering.
+
+## Column Filtering
+
+You can filter any column by clicking the filter icon (:material-filter-outline:) next to the column header.
+
+To show or hide certain columns, click the settings icon (:material-cog-outline:) to adjust the default columns.
+
+Example: You can search by registration number, full name, registration status, FSP, phone number, and registration date.
+
+FSP (type of assistance):
+
+- Albert Heijn (digital)
+- Albert Heijn (printed)
+- Visa card (periodically)
+- Occasionally (physical)
