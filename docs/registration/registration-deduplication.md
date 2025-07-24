@@ -16,7 +16,7 @@ Below you will find the steps to check duplicated registrations and deduplicate 
 
 **The criteria for detecting duplicates have been configured in your Kobo form.**
 
-**Duplicates are identified based on specific unique criteria** such as phone number or ID number. This criteria is flexible and can be chosen by the organisation and changed depending on the program requirements. We recommend using unique identification criteria (e.g., ID Number, phone number) to reduce the duplicate check, instead of criteria that can easily match across registrations (like name).
+**Duplicates are identified based on specific unique criteria** such as phone number or ID number. This criteria is flexible and can be chosen by the organization and changed depending on the program requirements. We recommend using unique identification criteria (e.g., ID Number, phone number) to reduce the duplicate check, instead of criteria that can easily match across registrations (like name).
 
 The criteria can be set up directly in your Kobo, marking the question as **+dedup** in your form. The 121 Platform will then recognize the value as the duplicate criteria. Request our team to adjust the criteria based on your project.
 
@@ -38,7 +38,7 @@ In the **Registration** page, and following your organization's SOPs, all duplic
 ![Filter Duplicate](../assets/img/FilterDuplicate.png)
 
 !!! Note "Setting up your duplicates criteria in Kobo"
-    **Duplicates are identified based on specific unique criteria** such as phone number or ID number. This criteria is flexible and can be chosen by the organisation and changed depending on the program requirements. We recommand unique criteria so to ease the duplicate check, such as ID number when possible or similar alternative which makes the criteria unique to the registration.
+    **Duplicates are identified based on specific unique criteria** such as phone number or ID number. This criteria is flexible and can be chosen by the organization and changed depending on the program requirements. We recommend unique criteria so to ease the duplicate check, such as ID number when possible or similar alternative which makes the criteria unique to the registration.
 
     The criteria can be set up directly in your Kobo, marking the question as **+dedup** in your form. The 121 Platform will then recognize the value as the duplicate criteria. Request our team to adjust the criteria based on your project.
 
@@ -50,7 +50,7 @@ You can perform 3 actions in the **Registrations** page:
 
 - **Edit the value directly in the registration profile**
 - **Decline the registration**, in case this is a double entry for the same beneficiary.
-- **Ignore the duplicate**, in case your SOPs allow registrations to share a same value - such as phone number, which can be used by multiple beneficiaires in the same community.
+- **Ignore the duplicate**, in case your SOPs allow registrations to share a same value - such as phone number, which can be used by multiple beneficiaries in the same community.
 
 Below, the solution based on either of these 3 options:
 
@@ -79,7 +79,7 @@ Below, the solution based on either of these 3 options:
 
 ![Decline Registration](../assets/img/DeclineIgnoreDuplicate.png)
 
-If you need to decline multiple registrations, this action will have to be done for each invididual registration.
+If you need to decline multiple registrations, this action will have to be done for each individual registration.
 
 *Did you accidentally mark a registration as declined? No worries, this is a reversible action. You can always change the status back to **Included**.
 
