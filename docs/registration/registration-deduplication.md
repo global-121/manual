@@ -63,7 +63,7 @@ Below, the solution based on either of these 3 options:
 - Click the tab **Personal Information**, then **Edit** button and search for the value to be edited, ![Edit Value](../assets/img/EditInformationDuplicate.png)
 - **Edit** the value. Click on **Save** and give a reason,
 - The new value is now saved,
-- The duplicate will automatically be updated and marked as **Unique**.
+- The registration will automatically be updated and marked as **Unique**.
 
 ![Edit Information](../assets/img/EditInformationDuplicate.png)
 
