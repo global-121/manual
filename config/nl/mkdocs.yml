@@ -54,8 +54,8 @@ extra:
     lang: en
   analytics:
     provider: custom
-    matomoUrl: "https://510global.matomo.cloud/"  # Your Matomo server URL (with trailing slash)
-    siteId: "12"  # Your site ID from Matomo
+    matomoUrl: "510global.matomo.cloud"
+    siteId: "12"
     feedback:
       title: Was deze pagina nuttig?
       ratings:
