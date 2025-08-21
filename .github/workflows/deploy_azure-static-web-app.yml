@@ -60,6 +60,8 @@ jobs:
       - name: Deploy to Azure Static Web App
         id: deployment
         uses: Azure/static-web-apps-deploy@v1
+        env:
+          SKIP_DEPLOY_ON_MISSING_SECRETS: true
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_MANUAL }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
@@ -70,6 +72,7 @@ jobs:
           skip_app_build: true
 
       - name: Finish
+        if: steps.deployment.outputs.static_web_app_url != ''
         run: |
           echo "Deployed at: ${{ steps.deployment.outputs.static_web_app_url }}" >> $GITHUB_STEP_SUMMARY
 
