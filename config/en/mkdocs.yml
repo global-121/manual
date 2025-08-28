@@ -107,6 +107,7 @@ nav:
         - "Include registrations": "registration/inclusion-in-program.md"
         - "Pause a registration": "payment/pause-payment-pa.md"
         - "End payments": "payment/end-payments.md"
+        - "Export registration lists" : "registration-export-list.md"
         - "Sending messages" : "registration/sending-messages.md"
         - "Import Data Changes": "registration/import-data-changes.md"
         - "What if I see empty page": "registration/registration-list-empty.md"
@@ -124,6 +125,7 @@ nav:
         - "Payment reporting and activty": "payment/payment-reporting.md"
     - "Monitoring":
         - "Monitoring page": "monitoring/monitoring.md"
+        - "Upload files or attachments" : "monitoring/upload-files.md"
     - "F.A.Q":
         - "Data Protection": "faq/data-protection.md"
         - "Financial Service Providers (FSP)": "faq/financial-service-provider.md"
