@@ -91,8 +91,10 @@ nav:
         - "Users page": "users/users-roles-page.md"
         - "Add User to 121": "users/add-users.md"
         - "Roles and permissions": "users/description-roles.md"
+    - "Project Settings":
+      - "Project Settings page": "settings/project-settings-page.md"
     - "Team":
-        - "Team page": "team/team-page.md"
+        - "Project Team page": "team/team-page.md"
         - "Add team members": "team/add-team-members.md"
         - "Change team members roles": "team/change-team-roles-program.md"
         - "Remove team members": "team/remove-team-members-program.md"

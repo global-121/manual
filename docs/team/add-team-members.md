@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-In the **Team** page of your project, you can see the list of users currently added into your project. If you have the permission, you can **add a user to a project**. *Team members should be removed from the program team if they no longer work with the project or they have left the organisation to ensure data protection.*
+In the **Settings** page of your project, under the **Project Team tab**, you can see the list of users currently added into your project. If you have the permission, you can **add a user to a project**. *Team members should be removed from the program team if they no longer work with the project or they have left the organisation to ensure data protection.*
 
 !!! Important "Who can perform actions on this page?"
     Program Admin and CVA Manager can perform actions in this page.
@@ -12,18 +12,20 @@ In the **Team** page of your project, you can see the list of users currently ad
 
 ### Adding team members
 
-- Enter the desired project and **go to :octicons-people-24: Team** page,
-- On the right side of your screen, click on **:material-plus: Add Team member** button,
+- Enter the desired project and **go to :material-cog-outline: Settings** page,
+- Select the **Project Team** tab,
+- On the right side of your screen, click on **:octicons-pencil-24: the pencil**,
+- Now, select **+ Add user to team**
 
-![Add Team member](../assets/img/AddTeamMember.png)
+![Add Team member](../assets/img/SettingsProjectTeam.png)
 
-- A sidebar opens, you can search for the user by typing their **email address** in **Choose user** field,
+- A window opens, you can search for the user by typing their **email address** in **Choose user** field,
 
-![Add Team Member](../assets/img/SideBarAddTeam.png)
+![Add Team Member](../assets/img/AddTeamMember1.png)
 
 - On the second field **Assign Roles**, you can now select and **assign one or more role(s)** by ticking the box,
 
-![Sidebar Roles](../assets/img/TeamRolesSideBar.png)
+![Pop Up Window User Roles](../assets/img/AddUserWindow.png)
 
 - Click **Submit** to confirm the changes.
 

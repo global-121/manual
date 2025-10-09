@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-In the **Team** page of your project, you can see the list of users currently added into your project, with their assigned role(s). If you have the permission, you can **change, add or remove a role assigned to a user**.
+In the **Settings** page of your project, under the **Project Team tab**, you can see the list of users currently added into your project, with their assigned role(s). If you have the permission, you can **change, add or remove a role assigned to a user**.
 
 !!! Important "Who can perform actions on this page ?"
     Program Admin and CVA Manager can perform actions in this page.
@@ -12,20 +12,21 @@ In the **Team** page of your project, you can see the list of users currently ad
 
 ### Change assigned roles and permissions
 
-- Enter the desired project and **go to :octicons-people-24: Team** page,
-- Use the **:octicons-search-24: search bar** on the right side of your table to find the user,
+- Enter the desired project and **go to :material-cog-outline: Settings** page,
+- Select the **Project Team** tab,
+- On the right side of your screen, click on **:octicons-pencil-24: the pencil**
 
-![Search a Team member](../assets/img/SearchTeammembers.png)
+![Add Team member](../assets/img/SettingsProjectTeam.png)
 
 - Click on the 3 dots **:material-dots-horizontal:**  on the right end of the user row,
-- Click **:octicons-pencil-24: Edit**. A sidebar will appear on the right side of your screen.
+- Select **Edit**
 
-![Editrolesteam](../assets/img/Editrolesteam.png)
-
-![Sidebar Roles](../assets/img/TeamRolesSideBar.png)
+![Edit Roles button](../assets/img/EditRoles.png)
 
 - In **Assign Roles** field, **Select or deselect** the roles you want to assign to the user.
 - Click **Submit** to confirm the changes.
+
+![Pop Up Window User Roles](../assets/img/AddUserWindow.png)
 
 !!! question "Add or Remove users"
     You can follow the instructions to [add users to a project](../team/add-team-members.md) or to [revoke users'access from a project.](../team/remove-team-members-program.md)
