@@ -23,7 +23,7 @@ To enter and view the **Project settings** page:
 If you have the correct permission assigned, you can:
 
 - [**Manage** your project team](../team/add-team-members.md)
-- [**Change** project details]
-- [**Change** budget and payment-related information]
+- [**Change** basic project information](../Settings/project-info.md)
+- [**Change** budget and payment-related information](../settings/payment-budget-settings.md)
 
 -8<- "docs/_snippets/contact-support.md"
