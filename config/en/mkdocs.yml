@@ -92,7 +92,10 @@ nav:
         - "Add User to 121": "users/add-users.md"
         - "Roles and permissions": "users/description-roles.md"
     - "Project Settings":
-      - "Project Settings page": "settings/project-settings-page.md"
+        - "Project Settings page": "settings/project-settings-page"
+        - "Project Info & Settings": "settings/project-info"
+        - "Budget & Payment settings": "settings/payment-budget-settings"
+        - "Manage your project team": "team/team-page.md"
     - "Team":
         - "Project Team page": "team/team-page.md"
         - "Add team members": "team/add-team-members.md"
