@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-The Project **Team** page is found in each of your active projects, in which you can constitute and manage a different team per project.
+The Project **Project Team** page is found in each of your active projects and can be found under **Settings**. You can constitute and manage a different team per project.
 
 !!! Important "Who can perform actions on this page ?"
     Program Admin and CVA Manager can perform actions in this page.
@@ -12,12 +12,12 @@ The Project **Team** page is found in each of your active projects, in which you
 
 ### View your project team
 
-To enter and view the **Team** page:
+To enter and view the **Project Team** page:
 
-- Select and enter a project,
-- On the top right, click on **:octicons-people-24: Team**.
+- Enter the desired project and **go to :material-cog-outline: Settings** page,
+- Select the **:octicons-people-24: Project Team** tab,
 
-![Team Page](../assets/img/TeamPage1.png)
+![Team Page](../assets/img/SettingsProjectTeam.png)
 
 Each user can have designated roles and permissions to allow them to execute specific tasks within the project. You can read more about [roles and permissions](../users/description-roles.md)
 
@@ -25,7 +25,7 @@ ___
 
 ### Managing your Project Team
 
-In the **:octicons-people-24: Team** page of your project, you can create or view the list of users working into the specific project. If you have the correct permission assigned, you can:
+In the **:octicons-people-24: Project Team** page of your project, you can create or view the list of users working into the specific project. If you have the correct permission assigned, you can:
 
 - [**Add** users to the project](../team/add-team-members.md)
 - [**Assign one or multiple role(s)** to a user](../team/change-team-roles-program.md)
