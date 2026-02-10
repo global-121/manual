@@ -12,7 +12,7 @@ In the 121 Platform, payments can be processed in two different methods: with a 
     Finance Manager and Finance Officer roles can perform actions in the Payments page.  
     Additional users may be granted only **View** permission on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
 
-### Payments Overview
+## Payments Overview
 
 The Payments page in your program will display information about any completed installments or payment rounds. If no payments have been made yet, no details will appear. However, if some installments are already in progress, you will see each individual installment. **As long as payments are still being processed in the current program, you can add beneficiaries to new payments.**
 
@@ -97,10 +97,10 @@ The payment status displayed in the payment page will be updated depending on th
 Below, the different payment statuses.
 
 | Status | Description | Actions required |
-| :------| :-----------| :----------------|
-| **SUCCESSFUL** | The transfer have been sent to the Beneficiaries or Household and they can now use it. | None.|
+| :------ | :----------- | :---------------- |
+| **SUCCESSFUL** | The transfer have been sent to the Beneficiaries or Household and they can now use it. | None. |
 | **PENDING** | The payment is waiting for approval of one or more financial officers. The transfer is not yet sent to the Beneficiaries or Household selected for this payment round. | Import the reconciliation file into 121 Platform to update the status |
-| **FAILED** | The transaction has failed. The beneficiaries have not received any payments.| Please check the error message provided by your bank. Failed payment can be due to wrong bank details, phone number or ID number depending on the chosen payment methods. You can try again. Contact our 121 Support Team if this remains unsolved.|
+| **FAILED** | The transaction has failed. The beneficiaries have not received any payments. | Please check the error message provided by your bank. Failed payment can be due to wrong bank details, phone number or ID number depending on the chosen payment methods. You can try again. Contact our 121 Support Team if this remains unsolved. |
 
 !!! info "Manual payment reconciliation"
     Once the FSP share back the payment data, you can process the manual payment reconciliation in the 121 platform.

@@ -10,7 +10,7 @@ The project budget and base transfer value can be set and changed within the Pro
     Program Admin and users with Program Update permissions can perform actions in this page.
     Additional users may only have View permissions on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
 
-### View your budget and payment settings
+## View your budget and payment settings
 
 You can read Project Basic Information and Budget details in the **Settings** Page.
 
@@ -23,7 +23,7 @@ You can read Project Basic Information and Budget details in the **Settings** Pa
 
 ---
 
-### Update your budget and payment related details
+## Update your budget and payment related details
 
 In the second table **Budget**, you will find the budget and payment-related details for your project. During the project, you may need to adjust the budget, base transfer value, number of payments, or the project’s currency. These settings can be modified at any time.**All changes made on the Budget page take effect immediately and apply to the entire registration list**.
 
