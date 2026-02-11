@@ -10,7 +10,7 @@ The Project **Settings** page is found in each of your active projects, on the t
     Program Admin and CVA Manager can perform actions in this page.
     Additional users may only have View permissions on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
 
-### View your project settings
+## View your project settings
 
 To enter and view the **Project settings** page:
 

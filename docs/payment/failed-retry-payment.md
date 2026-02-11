@@ -13,7 +13,7 @@ Below, you will find the step-by-step instructions to understand the reasons of 
     Finance Manager and Finance Officer roles can perform actions in the Payments page.  
     Additional users may be granted only **View** permission on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
 
-### Reasons for failed payments
+## Reasons for failed payments
 
 Failed payments occur due to an error in data. Depending on how the payment is processed in your instance, you may look at different errors. Your Financial Service Provider(s) should share the reasons for the payment to fail together with the reconciliation data.
 
@@ -48,7 +48,7 @@ Once you have identified the incorrect data, you can **request your CVA manager 
 
 ---
 
-### Retry failed transfers
+## Retry failed transfers
 
 Once you have identified the reason, you can proceed with retrying the payments:
 

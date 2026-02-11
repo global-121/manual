@@ -12,11 +12,11 @@ In the 121 Platform, payments can be processed in two different methods: with a 
     Finance Manager and Finance Officer roles can perform actions in the Payment page.  
     Additional users may be granted only **View** permission on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
 
-### Payments Overview
+## Payments Overview
 
 The Payments page in your program will display information about any completed installments or payment rounds. If no payments have been made yet, no details will appear. However, if some installments are already in progress, you will see each individual installment. **As long as payments are still being processed in the current program, you can add beneficiaries to new payments.**
 
-### Create new payment
+## Create new payment
 
 - On the top right, click **Create new payment**
 
@@ -49,19 +49,19 @@ The Payments page in your program will display information about any completed i
 
 ---
 
-### Payment status
+## Payment status
 
 The status will be updated automatically for integrated FSP.
 
 | Type | Description | Actions required |
-| :---- | :----------- | :----------  |
-| **SUCCESSFUL** | The transaction has be sent to the beneficiaries on the preferred payment method. The Bank approved the transaction.| None |
-| **PENDING** | The transaction is being processed by the bank. Pending payment reconciliation. The status will be updated automatically by the integrated FSP (successful or failed) | This can take sometimes a few hours. If this remains unchanged after 24 hours, please request an update to your FSP. Contact our 121 Support Team if this remains unsolved.|
-| **FAILED** | The transaction has failed. The beneficiaries have not received any payments.| Please check the error message provided by your bank. Failed payment can be due to wrong bank details, phone number or ID number depending on the chosen payment methods. Contact our 121 Support Team if this remains unsolved.|
+| :---- | :----------- | :---------- |
+| **SUCCESSFUL** | The transaction has be sent to the beneficiaries on the preferred payment method. The Bank approved the transaction. | None |
+| **PENDING** | The transaction is being processed by the bank. Pending payment reconciliation. The status will be updated automatically by the integrated FSP (successful or failed) | This can take sometimes a few hours. If this remains unchanged after 24 hours, please request an update to your FSP. Contact our 121 Support Team if this remains unsolved. |
+| **FAILED** | The transaction has failed. The beneficiaries have not received any payments. | Please check the error message provided by your bank. Failed payment can be due to wrong bank details, phone number or ID number depending on the chosen payment methods. Contact our 121 Support Team if this remains unsolved. |
 
 ---
 
-### Export payment reports
+## Export payment reports
 
 For financial audit and donor requirements, you can export the payment reports once this is completed. Follow the instructions on [this page.](../payment/payment-reporting.md)
 

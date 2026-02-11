@@ -15,7 +15,7 @@ A list of key terms used in the 121 platform.
 - [Transfer statuses](#transfer-statuses)
 - [Debit cards (Visa Specific)](#debit-cards-visa-specific)
 
-### General terms
+## General terms
 
 | Term                   | Definition                           |
 | :------------------    | :------------------------------------------------------------------- |

@@ -13,7 +13,9 @@ In the 121 Platform, payments can be processed in two different methods: with a 
 
 Before downloading the reconciliation file into the 121 platform, there are a few steps you should follow so to adjust the file to the 121 platform.
 
-### Download the reconciliation file template
+---
+
+## Download the reconciliation file template
 
 Go to the Payments page, and enter the specific payment round you would like to update.
 
@@ -22,7 +24,7 @@ Go to the Payments page, and enter the specific payment round you would like to 
 - Click on the **Download the template** ![Download Reconciliation template](../assets/img/ReconciliationImport.png)
 - You can now start editing this file with the requested value, as follows.
 
-### Check the reconciliation data file
+## Check the reconciliation data file
 
 A few labels that must be adjusted according to the 121 platform. This relates to the payment statuses.
 The below table indicate the correct label names that must be filled in the payment status of your reconciliation data. The FSP may write the statuses differently than the 121 Platform. Therefore, you should overwrite the status with the data indicated in the below table, column **121 Data status**, in your reconciliation data file (excel):
@@ -44,7 +46,7 @@ If these labels are not correctly matching, three errors can occur in the 121 Pl
 
 ---
 
-### Format your file in .csv
+## Format your file in .csv
 
 Once your labels are updated, you can save the file as a .csv format:
 
@@ -53,7 +55,7 @@ Once your labels are updated, you can save the file as a .csv format:
 - Select **.csv** format in the dropdown list;
 - **Save**
 
-### Import the reconciliation file
+## Import the reconciliation file
 
 Once your updated file is ready and saved as a .csv format, you can import the payment reconciliation file:
 
