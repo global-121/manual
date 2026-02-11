@@ -11,7 +11,7 @@ If a beneficiary no longer needs assistance, you can stop the assistance at any 
     [Learn more about Users & Roles](../users/users-roles-page.md)
 
 
-### Search for a beneficiary
+## Search for a beneficiary
 
 In the **Registration** page:
 
@@ -31,7 +31,7 @@ You can also change the status by right-clicking the beneficiary in the table an
 
 ---
 
-### Undo the action and revert the status
+## Undo the action and revert the status
 
 The **Declined** status can be applied temporarily. You can restore a beneficiary's status to **Included** by following the same steps and selecting **Include** instead.
 
