@@ -114,7 +114,7 @@ nav:
         - "End payments": "payment/end-payments.md"
         - "Export registration lists" : "registration-export-list.md"
         - "Sending messages" : "registration/sending-messages.md"
-        - "Import Data Changes": "registration/import-data-changes.md"
+        - "Import Mass Data Changes": "registration/import-data-changes.md"
         - "What if I see empty page": "registration/registration-list-empty.md"
     - "Verification":
         - "Offline Verification with 121 and Kobo Toolbox": "verification/offline-verification.md"
@@ -132,6 +132,9 @@ nav:
     - "Monitoring":
         - "Monitoring page": "monitoring/monitoring.md"
         - "Upload files or attachments" : "monitoring/upload-files.md"
+        - "Data Changes Overview": "monitoring/data-changes.md"
+        - "PowerBI dashboard" : "monitoring/PowerBI.md"
+        - "Base Dashboard": "monitoring/Dashboard.md"
     - "F.A.Q":
         - "Data Protection": "faq/data-protection.md"
         - "Financial Service Providers (FSP)": "faq/financial-service-provider.md"
