@@ -10,7 +10,7 @@ In the course of a program, beneficiaries status may change. You can decide to e
     CVA Manager and CVA Officer roles can perform actions in the Registration page. Finance users should consult the CVA Manager or CVA Officer users assigned to this program.
     [Learn more about Users & Roles](../users/users-roles-page.md)
 
-### Search for a beneficiary
+## Search for a beneficiary
 
 In the **Registration** page:
 
@@ -19,7 +19,7 @@ In the **Registration** page:
 
 ![Select Pause](../assets/img/SearchReg.png)
 
-### Change status
+## Change status
 
   Click on the :material-checkbox-outline: to add the beneficiary in the selection,
 
@@ -32,7 +32,7 @@ You can also change the status by right-clicking the beneficiary in the table an
 
 ---
 
-### Undo the action and revert the status
+## Undo the action and revert the status
 
 The **Paused** status can be applied temporarily. You can restore a beneficiary's status to **Included** by following the same steps and selecting **Include** instead.
 

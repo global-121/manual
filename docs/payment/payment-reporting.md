@@ -10,7 +10,7 @@ Audit trail can be performed in 121 for financial reporting and data changes ove
     Finance Manager and Finance Officer roles can perform actions in the Payment page.  
     Additional users may be granted only **View** permission on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
 
-### Download the General financial reporting
+## Download the General financial reporting
 
 To export a general financial report:
 
@@ -26,7 +26,7 @@ To export a general financial report:
 
 ---
 
-### Download specific financial reporting
+## Download specific financial reporting
 
 To export a specific financial report based on a specific date:
 
@@ -39,7 +39,7 @@ To export a specific financial report based on a specific date:
 
 ---
 
-### Oversee the Activity Overview in Payment Page
+## Oversee the Activity Overview in Payment Page
 
 Detailed payment information can be found in each separate installments and for each beneficiary. To access the Individual overview:
 
@@ -53,11 +53,11 @@ Detailed payment information can be found in each separate installments and for 
 
 | Category | Description |
 | ---- | ---- |
-| **Data changes** | the log will show **Data Changes-** followed by the value or field name that was edited, the **old value** and the **new value**, as well as the 121 user account performing the change.|
-| **Transfer** | the log will show the **payment#** followed with the payment status (successful, waiting, failed) and the 121 user account executing the payment. In the dropdown, the transaction date, FSP name and amount transfers will be indicated.|
-| **Messages** | the log will show the **message template title**, the type of message (SMS, Whatsapp), the sending date, the message content and the 121 user account performing the action.|
-| **Status Update** | the log will show the **Status update**, the date and time, the **old** and **new status** and the 121 user account performing the status update.|
-|**Notes** | the log will show the **notes** history, the date and time, the content and the 121 user account adding the notes into the PA profile. A note can be added manually by clicking on **Add notes** button (right side)|
+| **Data changes** | the log will show **Data Changes-** followed by the value or field name that was edited, the **old value** and the **new value**, as well as the 121 user account performing the change. |
+| **Transfer** | the log will show the **payment#** followed with the payment status (successful, waiting, failed) and the 121 user account executing the payment. In the dropdown, the transaction date, FSP name and amount transfers will be indicated. |
+| **Messages** | the log will show the **message template title**, the type of message (SMS, Whatsapp), the sending date, the message content and the 121 user account performing the action. |
+| **Status Update** | the log will show the **Status update**, the date and time, the **old** and **new status** and the 121 user account performing the status update. |
+| **Notes** | the log will show the **notes** history, the date and time, the content and the 121 user account adding the notes into the PA profile. A note can be added manually by clicking on **Add notes** button (right side) |
 
 ---
 

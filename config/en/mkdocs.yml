@@ -120,6 +120,7 @@ nav:
         - "Offline Verification with 121 and Kobo Toolbox": "verification/offline-verification.md"
     - "Payment":
         - "Payments page": "payment/payment.md"
+        - "Create and Approve payments": "payment/create-approve-payment.md"
         - "Payments with integrated FSP": "payment/payment-integrated-fsp.md"
         - "Manual payment instructions (excel export)": "payment/issue-payment-fsp-portal.md"
         - "Reconcile manual payments": "payment/manual-payment-reconciliation.md"

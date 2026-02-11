@@ -10,7 +10,7 @@ The project information can be read and changed within the Project **Settings** 
     Program Admin and users with Program Update permissions can perform actions in this page.
     Additional users may only have View permissions on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
 
-### View your basic project information
+## View your basic project information
 
 You can read Project Basic Information and Budget details in the **Settings** Page.
 
@@ -22,7 +22,7 @@ You can read Project Basic Information and Budget details in the **Settings** Pa
 
 ---
 
-### Update your basic Project information
+## Update your basic Project information
 
 In the first table **:octicons-info-24: Project Information**, you will find the details related to your project. During the project, you may need to adjust any details, such as the project name, project description, dates, location and target registrations. These settings can be modified at any time. **All changes made on the project information page take effect immediately**.
 
