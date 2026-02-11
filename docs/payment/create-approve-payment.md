@@ -47,7 +47,7 @@ Once the payment request has been created, it must be approved by an approver.
 - Go to the **payment page**,
 - Click on payment cards with the message **XX of XX approved**
 *In the transaction, you can review the list of beneficiaries included into the payment list, the total amount reserved and the total beneficiaires.*
-- Based on this information, you can either approve or leave the payment. [Approve or Cancel](../assets/img/ApprovePaymentFinal.png)
+- Based on this information, you can either approve or leave the payment. ![Approve or Cancel](../assets/img/ApprovePaymentFinal.png)
 - If you agree, click on **Approve payment** button on the top right of the page. **The payment request status will be updated.**
 - If you disagree, click on **Cancel**. *the payment will remain pending. We recommend getting in touch with the finance users*
 - Once approved by all approvers, the payment request status will change from **Pending approval** to **Approved**
@@ -60,9 +60,9 @@ Once the payment request has been created, it must be approved by an approver.
 Once the payment has been approved by all approvers in the list, the finance manager can **start the payment**.
 
 - Enter the **approved** payment card,
-- Click the **start payment** on the top right, [Start Payment](./img/StartPaymentApproved.png)
-- The payment will start.
-- All payments status will change from **Approved** to **Processing**
+- Click the **start payment** on the top right, ![Start Payment](./img/StartPaymentApproved.png)
+- The payment will start,
+- All payments status will change from **Approved** to **Processing**.
 
 ---
 
