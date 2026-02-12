@@ -24,7 +24,7 @@ No single user can take all actions in the 121 platform. The 121 platform follow
 | :-------------------------------------------------------------- | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: |
 | Overview Users and Roles                                        | :octicons-check-circle-fill-24:{.yes} |                                       |                                       |                                       |                                       |
 | Add new 121 users                                               | :octicons-check-circle-fill-24:{.yes} |                                       |                                       |                                       |                                       |
-| Reset 121 users 'password                                       | :octicons-check-circle-fill-24:{.yes} |                                       |                                       |                                       |                                       |
+| Reset 121 users ' password                                       | :octicons-check-circle-fill-24:{.yes} |                                       |                                       |                                       |                                       |
 | Overview all active programs                                    | :octicons-check-circle-fill-24:{.yes} |                                       |                                       |                                       |                                       |  
 | View only active programs assigned to the user          | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} |
 | Create new projects in 121                                      | :octicons-check-circle-fill-24:{.yes} |                                       |                                       |                                       |                                       |
@@ -58,11 +58,11 @@ No single user can take all actions in the 121 platform. The 121 platform follow
 
 ### Additional roles
 
-Additional roles and permissions can be configured upon request. Contact your dedicated Account Manager reach out to our [support team via email](mailto:support@121.global).
+Additional roles and permissions can be configured upon request. Contact your dedicated Account Manager or reach out to our [support team via email](mailto:support@121.global).
 
 ---
 
-!!! note "add users to a program"
+!!! note "Add users to a program"
     You can follow these instructions to [add team members to a program and assign a role](../team/add-team-members.md).
 
 -8<- "docs/_snippets/contact-support.md"

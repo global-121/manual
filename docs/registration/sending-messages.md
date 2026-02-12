@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-There is an option to send **outbound messages** via SMS or WhatsApp to beneficiaries for each action you perform in the instance, such as Including, Declining, or Sending payments to beneficiaries. If you would like to communicate project progress to the registered beneficiaries, you can toggle the button to **Send a message to registrations** and enable messaging through the 121 Platform. To enable messaging services, you must create a Twilio account and ensure there are sufficient messaging credits. Contact our team to set this up. Below the steps to follow:
+There is an option to send **outbound messages** via SMS or WhatsApp to beneficiaries for each action you perform in the instance, such as Including, Declining, or Sending payments to beneficiaries. If you would like to communicate project progress to the registered beneficiaries, you can click the button to **Send a message to registrations** and enable messaging through the 121 Platform. To enable messaging services, you must create a Twilio account and ensure there are sufficient messaging credits. Contact our team to set this up. Below the steps to follow:
 
 - [Create a Twilio Account](#create-a-twilio-account)
 - [Top-up before sending messages](#top-up-before-sending-messages)
@@ -35,14 +35,14 @@ Once your Twilio account is active, the 121 support team will link it to your 12
 You can log in to your Twilio account everytime you need to top-up your account.
 
 **Sending SMS**
-Fees per SMS differ per destination and number of characters sent per messaging. Check Twilio website for the fees applied to your destination on this website for [SMS](https://www.twilio.com/en-us/sms/pricing/ma)
+Fees per SMS differ per destination and number of characters sent per messaging. Check Twilio website for the fees applied to your destination on this website for [SMS.](https://www.twilio.com/en-us/sms/pricing/ma)
 
 Note that one **SMS is limited to 160 characters** — messages longer than this will be split into multiple SMS and charged accordingly. For example, a message between 161 and 320 characters will be counted and billed as two SMS. A message between 321 and 481 as three messages, etc. You can use this base to calculate how much your Twilio account should topped-up with. The calculation will include : number of SMS sent x number of beneficiaries x price per SMS for the destination.
 
 **WhatsApp messages**
-WhatsApp messages follow a different scheme. You can find the fees description on [Twilio website](https://www.twilio.com/en-us/whatsapp/pricing)
+WhatsApp messages follow a different scheme. You can find the fees description on [Twilio website.](https://www.twilio.com/en-us/whatsapp/pricing)
 
-Once you had calculated the total costs, you can top-up your account via the Twilio Portal and add the necessary funds.
+Once you have calculated the total costs, you can top-up your account via the Twilio Portal and add the necessary funds.
 
 !!! Important "Add sufficient funds on your Twilio account"
     Without funds available in your Twilio account, SMS or WhatsApp messages will fail. Contact our team if you need help setting up your Twilio account.
@@ -78,16 +78,17 @@ In the **registration page**:
 !!! Note "What is a variable and how does it work?"
     A variable is a placeholder that automatically pulls and inserts specific information from your registration form — like a name, email address, phone number, or any other field collected during sign-up.
 
-    You can use a variable by typing @ and selecting the field you want to insert. For example, typing @First Name will automatically insert each person's first name into the message. This means you don’t need to manually customize the message for every individual. The variable will dynamically adjust for each registration, based on the information submitted by that person.
+    You can use a variable by typing @ and selecting the field you want to insert. For example, typing @name will automatically insert each person's name into the message. This means you don’t need to manually customize the message for every individual. The variable will dynamically adjust for each registration, based on the information submitted by that person.
 
-    For example: Dear **@name**, you will receive the amount of **@amount** tomorrow. Kind regards, **@Organization**. would be read as Dear **Paulina**, you will receive the amount of **150 USD** tomorrow. Kind regards, **HelpOrg**.
+    For example: Dear **@name**, you will receive the amount of **@amount** tomorrow. Kind regards, **@Organization**. would be read as Dear **Paulina Baker**, you will receive the amount of **150 USD** tomorrow. Kind regards, **HelpOrg**.
 
+    *The variables match your kobo fields and may differ per program.*
 
 ### Predefined template messages
 
 If you intend to send messages at various stages of the program, you can add message templates to your instance. To do this, provide the message content along with a title and specify when the message should be triggered. Our support team will set them up. There are 2 options to send templated mesages:
 
-  1. Templates can be linked to key stages such as Registration, Validation, Inclusion, Exclusion, and Payment(s). This means the message will be automatically sent when the corresponding action is performed — for example, by clicking a specific button.
+  1. Templates can be linked to key stages such as Registration, Validation, Inclusion, Declining, and Payment(s). This means the message will be automatically sent when the corresponding action is performed — for example, by clicking a specific button.
 
   2. Templated messages will be available in the dropdown menu when you click on the **Message** button. You can choose to send them whenever you want, independently of a specific action or stage in the program — unlike the first option, where messages are triggered automatically by actions such as registration or validation.
 

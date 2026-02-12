@@ -31,7 +31,7 @@ The **Monitoring page** allows users to upload attachments or files that provide
 
 ![Upload Files Information](../assets/img/UploadFilesInfo.png)
 
-*The uploaded file will be available for viewing and exporting to users with the appropriate file viewing permissions.*
+*The files will be visible to all users, except View users.*
 
 To view a file:
 

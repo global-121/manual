@@ -1,5 +1,5 @@
 ---
-title: Registrations - Edit details and Validation of PA
+title: Registrations - Edit details and Validation of registrations
 hide:
   - toc
 ---
@@ -14,18 +14,18 @@ The Validation stage is optional, depending on the SOPs you follow for your CVA 
 
 The **Registrations** table shows all of the registered households for your project. Their initial status should be **Registered**. To mark the Registrations as **validated**:
 
-- Filter the list of beneficiaries on **status**, select **Registered** and **Apply**. *this action is to make sure you select only **registered** status.*![Filter Status Register](../assets/img/RegisteredStatusFilter.png)
-- You can select one beneficiary or the entire registration list:
+- Filter the list of registrations on **status**, select **New** and **Apply**. *This action is to make sure you select only **New** status.*![Filter Status Register](../assets/img/RegisteredStatusFilter.png)
+- You can:
     - Make an **individual selection** by clicking on the :material-checkbox-outline: on the registration line;
-    - Or a **bulk selection** by clicking on the :material-checkbox-multiple-marked-outline: on the upper line **Select**
+    - Make a **bulk selection** by clicking on the :material-checkbox-multiple-marked-outline: on the upper line **Select**;
 - On the top of the table, click **Validate** button;
-- A pop-up appears to confirm your action **You're about to validate X registrations.**
-- Click on **Approve**. A message indicates the completion of the action.
+- A pop-up appears to confirm your action **You're about to validate X registrations;**
+- Click on **Approve**. A message indicates the completion of the action;
 - Registration status is now updated to **Validated**.
 
 ---
 
-### Editing beneficiaries' personal details
+### Editing registrations' personal details
 
 Due to misspelling or double entry, you may need to edit details in the registration profile before validation and inclusion into the program.
 

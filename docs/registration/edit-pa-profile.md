@@ -10,9 +10,9 @@ Misspelling or double entries may occur during the registration phase. PAs detai
     CVA Manager and CVA Officer roles can perform actions in the Registrations page.  
     Additional users may be granted only **View** permission on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
 
-### Editing PAs details
+### Editing registrations details
 
-- **Enter the beneficiary profile** by clicking on the **reg#** hyperlink on the left side. ![Registrations Page](../img/RegistrationsPage.png)
+- **Enter the beneficiary profile** by clicking on the **reg#** hyperlink on the left side. ![Registrations Page](../assets/img/RegistrationsPage.png)
 - Once in the profile overview, click on **Personal Information** tab ![Personal Information](../assets/img/PersonalInformationPA.png)
 - Click on **Edit Information** button on the top right and Search for the field to edit.
 - Type in the new value directly in the field and click **Save**. *The old value will be automatically overwritten.*
@@ -22,8 +22,8 @@ Misspelling or double entries may occur during the registration phase. PAs detai
 When the details are fully reviewed and correct, you can then mark the profile as **validated**. Follow the instructions to [validate PA profile](./registration-validate-pa.md).
 
 !!! info "Reason for update"
-    For auditing and accountability reasons, changes in beneficiaries'profile cannot be performed without indicating a reason. All data changes are logged into 121 platform with the old value, new value, reasons for update and are linked to the users email address performing the change.
-    To enhance the audit trail, you can download the data changes report by clicking on **Export** and selecting **Export data changes**. You can also overview the changes in the Activity Log within the beneficiaries'profiles.
+    For auditing and accountability reasons, changes in the registration's profile cannot be performed without indicating a reason. All data changes are logged into 121 platform with the old value, new value, reasons for update and are linked to the users email address performing the change.
+    To enhance the audit trail, you can download the data changes report by clicking on **Export** and selecting **Export status & data changes**. You can also overview the changes in the Activity Log within the registration's profiles.
 
 ---
 

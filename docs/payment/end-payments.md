@@ -33,7 +33,7 @@ You can also change the status by right-clicking the beneficiary in the table an
 
 ## Undo the action and revert the status
 
-The **Declined** status can be applied temporarily. You can restore a beneficiary's status to **Included** by following the same steps and selecting **Include** instead.
+The **Declined** status can be applied temporarily. You can restore a registration's status to **Included** by following the same steps and selecting **Include** instead.
 
 !!! Important "Completed status cannot be changed"
 

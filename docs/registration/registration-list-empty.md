@@ -8,7 +8,7 @@ The Registration table can be empty for the following reasons:
 
 ### No new registration imported
 
-There is no new registration since last validation round.
+There is no new registration.
 The table will show **No data**
 
 ### No Internet Connection
@@ -24,7 +24,7 @@ To start importing the registration list:
 
 ### Filters may be applied to the list
 
-There may be are some filters applied to the table that might mean the beneficiaries are not being shown.
+There may be some filters applied to the table that might mean the beneficiaries are not being shown.
 
 - Check that the filter and search bar are empty.
 - If you see a filter shown below the search bar click **Clear filters** on the top right of your table. ![Clear Filters](../assets/img/ClearFilterButton.png)

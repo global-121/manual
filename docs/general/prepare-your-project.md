@@ -28,7 +28,7 @@ To share your form, please send it to our Kobo user (contact our support team to
 
 To set up your program in 121, please provide the following information:  
 
-  [ ] Program title and location provided.  
+  [ ] Program title and location(s) provided.  
   [ ] Total budget defined.  
   [ ] Number of transfers specified.  
   [ ] Transfer value per household set.  

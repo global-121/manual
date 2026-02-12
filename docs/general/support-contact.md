@@ -44,11 +44,11 @@ We operate a structured support system to ensure that every issue is handled
 by the appropriate team.
 
 <!-- markdownlint-disable no-inline-html -->
-| **Level** | **Point of Contact**       | **Type of Support** |
-|:-----|:-----|:-----|
-| **Level 1** | First Line Support (Account Manager) | - Basic troubleshooting<br>- Program settings<br>- Configuration issues<br>- Login issues<br>- Explaining platform features (e.g., program settings, adding users, editing profiles, exporting reports)<br>- Collecting information to escalate complex issues<br> |
-| **Level 2** | Information Manager (CVA IM) | - Escalation from Level 1<br>- IM support (e.g., database updates)<br>- Power BI support<br>- Escalation to Level 3  |
-| **Level 3** | Development Team | - Escalation from Level 2<br>- Bug fixes and advanced troubleshooting    |
+| **Level** | **Point of Contact** | **Type of Support** |
+|:----- | :----- | :----- |
+| **Level 1** | First Line Support (Technical Support) | - Basic troubleshooting<br>- Program settings<br>- Configuration issues<br>- Login issues<br>- Explaining platform features (e.g., program settings, adding users, editing profiles, exporting reports)<br>- Collecting information to escalate complex issues<br> |
+| **Level 2** | Information Manager (CVA IM) | - Escalation from Level 1<br>- IM support (e.g., database updates)<br>- Power BI support<br>- Escalation to Level 3 |
+| **Level 3** | Development Team | - Escalation from Level 2<br>- Bug fixes and advanced troubleshooting |
 <!-- markdownlint-enable no-inline-html -->
 
 ---
@@ -77,10 +77,10 @@ support alert system to ensure timely follow-up.
 
 We aim at providing:
 
-- **Personalized support** tailored to your needs
-- **Clear communication** with easy access to our team
-- **Fast resolution** of issues to minimize disruption
-Your feedback is important to us. If you have suggestions or need to discuss the
- support provided, we’re always open to hearing from you and improving your experience.
+- **Personalized support** tailored to your needs;
+- **Clear communication** with easy access to our team;
+- **Fast resolution** of issues to minimize disruption.
+
+Your feedback is important to us. If you have suggestions or need to discuss the support provided, we’re always open to hearing from you and improving your experience.
 
 -8<- "docs/_snippets/contact-support.md"
