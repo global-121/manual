@@ -1,7 +1,7 @@
 # 121 User Manual
 
 <!-- markdownlint-disable-next-line no-trailing-punctuation -->
-## Welcome to the 121 user manual!
+## Welcome to the 121 user manual, Guusje!
 
 On the left you can find a navigation overview, or find the information you need by using the search bar on the top right.
 
