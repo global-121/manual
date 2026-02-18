@@ -28,14 +28,14 @@ Go to the **Registrations** page. You can optionally download a template includi
 ![Export Data Changes Template](../assets/img/MassUpdateWindow.png)
 
 !!! Important "Columns to always include"
-    Your file must always include the referenceId to match the selected registrations. The data change function cannot match on names or other values.
+    Your file must always include the ReferenceID to match the selected registrations. The data change function cannot match on names or other values.
     Column names must always match the 121 column names - as written in the csv template.
     Your file must be formatted as .csv
 
 
 ### How to import data changes
 
-After you have formatted your file, you can now import the file. The system will automatically match the registration based on the referenceId.
+After you have formatted your file, you can now import the file. The system will automatically match the registration based on the ReferenceID field.
 
 !!! Warning "Only include registrations to update"
     Only import registrations for which you want to update the information. If you leave a blank cell in your imported file, this will delete the information. Make sure you exclude registrations you do not need to update.

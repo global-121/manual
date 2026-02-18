@@ -21,7 +21,7 @@ Payments are created and initiated from the **Payments** page. Each payment must
 To initiate a new payment request:
 
 - On the top right, click **Create new payment** ![Create new payment button](../assets/img/PaymentsPage.png)
-- A page will open displaying a list of beneficiaries **included** in the program.
+- A page will open displaying a list of registrations **included** in the program.
   *Only beneficiaries with **Included** status who have not yet received all their installments will appear in the list. Beneficiaries who have received and completed all their payments will not be shown.* ![Select List](../assets/img/CreateNewpaymentSelect.png)
 - **Select the list of beneficiaries to be added** to the payment round as follows.
     - Make an **individual selection** by clicking on the :material-checkbox-outline: on the individual beneficiary line;
@@ -32,7 +32,7 @@ To initiate a new payment request:
 
 !!! Important "No change possible in the payment list"
     Once a payment is created, its details cannot be changed. This includes the list of people in the payment and the transfer value.
-    Before creating a payment, make sure to carefully review the transfer value, budget, and selected beneficiaires. If needed, apply filters such as location or FSP and confirm your selection before proceeding.
+    Before creating a payment, make sure to carefully review the transfer value, budget, and selected registrations. If needed, apply filters such as location or FSP and confirm your selection before proceeding.
 
     To change the transfer value before creating a payment, please refer to [Program settings & Budget](./settings/payment-budget-settings.md)
 

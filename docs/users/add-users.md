@@ -31,7 +31,7 @@ On the left of your screen, open the **:material-menu: menu** and select **Users
 
 ### Reset User Password
 
-You can reset users'password directly from the user page.
+You can reset a user's password directly from the user page.
 
 - On the end of the user row, click on the **:material-dots-horizontal: three dots**,
 - Select **Reset Password**,

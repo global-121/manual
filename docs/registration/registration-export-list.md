@@ -1,5 +1,5 @@
 ---
-title: People Affected - Export registration list
+title: Registrations- Export registration list
 hide:
   - toc
 ---

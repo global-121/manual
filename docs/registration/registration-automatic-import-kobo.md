@@ -4,9 +4,9 @@ hide:
   - toc
 ---
 
-**Kobo Toolbox is directly integrated with 121 platform**. Registrations are automatically added to the 121 Platform in real-time. To set-up this integration the 121 Team need to access to your Kobo form to create the link between Kobo and the 121 Platform. After this integration is finalized you may remove access for the 121 Team if preferred.
+**Kobo Toolbox is directly integrated with 121 platform**. Registrations are automatically added to the 121 Platform in real-time. To set-up this integration our support Team needs to access to your Kobo form to create the link between Kobo and the 121 Platform. After this integration is finalized you may remove access for our support Team if preferred.
 
-*Do you prefer to import your list via excel? Follow the instructions on [how to import registrations clicking on this page](../registration/registration-import-list.md)*
+*Do you prefer to import your list via excel? Follow the instructions on [how to import registrations HERE.](../registration/registration-import-list.md)*
 
 !!! Important "Who can perform actions on this page ?"
     Program Admin, CVA Officer and CVA Manager can perform actions.  
@@ -31,7 +31,7 @@ Our 121 support team will link the kobo form with the right program in the 121 p
 - Enter the **Registrations** page.
 - You will see the updated list of registered beneficiaries any time a new form is completed and sent (when connected to the internet).
 
-Note that KOBO toolbox can be used offline, while on the field. Nevertheless, the registration list can be imported into 121 platform only when an internet connection is established.
+Note that KOBO toolbox can be used offline, while on-site. Nevertheless, the registration list can be imported into 121 platform only when an internet connection is established.
 
 ![Import Registration button](../assets/img/ImportRegistrationTemplate.png)
 
@@ -43,7 +43,7 @@ Do you see an empty list when you are in the registrations page? The registratio
 
 - No new registrations have been uploaded since last validation round. The table will show "No data"
 - No automatic upload has been made from the KOBO form or any alternative registration app yet. This is usually caused by a lack of internet connection. To begin importing new registrations, connect the device with the KOBO form open to an internet network.
-- Filters are applied to the list. Make sure the filter search barre is empty, on the top of the table .
+- Filters are applied to the list. Make sure the filters are clear, on the top of the table.
 
 !!! warning "Blank page"
     In case the page is fully blank and does not show the registration table, there may be a technical issue with the link connecting with your KOBO form.
@@ -53,7 +53,7 @@ Do you see an empty list when you are in the registrations page? The registratio
 
 ### Deduplication
 
-Double entries can occur while registering beneficiaries on the field. Deduplication can be made within 121 Platform. You can follow the steps on [this page.](./registration-deduplication.md) . If you need additional explanations, contact your dedicated Account Manager or our support team via email.
+Double entries can occur while doing registrations on-site. Deduplication can be made within 121 Platform. You can follow the steps on [this page.](./registration-deduplication.md) If you need additional explanations, contact your dedicated Account Manager or our support team via email.
 
 ---
 

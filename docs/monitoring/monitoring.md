@@ -4,9 +4,9 @@ hide:
   - toc
 ---
 
-The Monitoring page is an overview of your project details. This includes the main metrics of your cash and voucher assistance that will be run within 121 platform. These metrics are provided by your team when creating the program in the instance, and are updated and filled in with the number of data imported into the program, such as number of registrations and transfers processed up to date. The table below give a description on the metrics used.
+The Monitoring page is an overview of your project details. This includes the main metrics of your cash and voucher assistance that will be run within 121 platform. These metrics are provided by your team when creating the program in the instance, and are updated and filled in with the number of data imported into the program, such as number of registrations and transfers processed up to date. The table below gives a description on the metrics used.
 
-the monitoring page can feature a Power BI dashboard, either the 121 template version or a custom version, if you have requested it to be embedded.
+The monitoring page can feature a Power BI dashboard, either the 121 template version or a custom version, if you have requested it to be embedded.
 
 ## Monitor your project updates and indicators
 
@@ -39,7 +39,7 @@ The table is updated automatically.
 ## At the bottom, you can see 4 tabs: Dashboard, PowerBi, Data changes and Files
 
 - **Dashboard** provides real-time program updates with corresponding baseline indicators. [Read more](./dashboard.md)
-- **PowerBI** show a real-time template dashboard, but a custom-made dashboard can be embedded. [Read more](powerbi.md)
+- **PowerBI** shows a real-time template dashboard, but a custom-made dashboard can be embedded. [Read more](powerbi.md)
 - **Data Changes** lists the history of all changes made into the programs. [Read more](./data-changes.md)
 - **Files** is used to upload attachements useful to your program. [Read more](./upload-files.md)
 

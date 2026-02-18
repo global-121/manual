@@ -5,7 +5,7 @@ hide:
 ---
 The Inclusion stage is a necessary step to move a list of beneficiaries from the registration phase to the payment phase.
 
-Based on the SOPs you follow for your CVA project, **Validation** can be used to identify beneficiaries whose information has been verified, either prior to including them in the program or for sharing the verified list with a committee for approval. You can follow the steps to validate the PA details on the [Validation page](./registration-validate-pa.md/)
+Based on the SOPs you follow for your CVA program, **Validation** can be used to identify beneficiaries whose information has been verified, either prior to including them in the program or for sharing the verified list with a committee for approval. You can follow the steps to validate the PA details on the [Validation page](./registration-validate-pa.md/)
 
 !!! Important "Who can perform actions in this page?"
     CVA Manager and CVA Officer roles can perform actions in the Registrations page.  
@@ -13,17 +13,17 @@ Based on the SOPs you follow for your CVA project, **Validation** can be used to
 
 ### Inclusion of Beneficiaries into the program
 
-The **Registrations table** shows all of the registered households or beneficiaries for your project. Their initial status should be **Registered**. Or, if you SOPs include a validation step, the status may show **Validated**.
+The **Registrations table** shows all of the registered households or beneficiaries for your project. Their initial status should be **New**. Or, if you SOPs include a validation step, the status may show **Validated**.
 
 To mark the Beneficiaries as **included**:
 
 - go to the **Registrations Page**;
-- Filter the list of beneficiaries on **status**, select **Registered** and **Apply**. *this action is to make sure you select only **registered** status.* ![Filter Status Register](assets/img/RegisteredStatusFilter.png)
-- You can select one beneficiary or the entire registration list:
+- Filter the list of beneficiaries on **status**, select **New** and **Apply**. *This action is to make sure you select only **New** status.* ![Filter Status Register](./assets/img/RegisteredStatusFilter.png)
+- You can:
     - Make an **individual selection** by clicking on the :material-checkbox-outline: on the PA line;
-    - Or a **bulk selection** by clicking on the :material-checkbox-multiple-marked-outline: on the upper line **Select**;
+    - Make a **bulk selection** by clicking on the :material-checkbox-multiple-marked-outline: on the upper line **Select**;
 - On the top of the table, click **:octicons-check-16: Include** button;
-- A pop-up appears to confirm your action **You're about to include X registrations. This means that they can be included in payments.**
+- A pop-up appears to confirm your action **You're about to include X registrations. This means that they can be included in payments;**
 - Click on **Approve**. A message indicates the completion of the action;
 - The status is now updated to **Included**.
 

@@ -4,10 +4,11 @@ hide:
   - toc
 ---
 
-The **Users and User Roles pages**  display a list of registered 121 users on the platform along with the available roles set in your 121 instance.
+You can manage users in the **Users** page and have an overview of roles in the **User Roles page** in these sections.
 
 !!! Important "Who can perform actions on this page ?"
-    Program Admin can view and perform actions in this page.
+    User Manager or Super Admin can view and perform actions in this page.
+    If you do not have these roles, you cannot see the pages.
 
 In the **Home page**, you can click on the **menu icon (:material-menu:)** on the top left, and select either **Users** or **User Roles**. The **Users page** will provide different information than the **User Roles page**.
 
@@ -17,7 +18,7 @@ In the **Users** page, you can:
 
 - See the list of all registered users in your 121 instance,
 - [Add new users into the 121 platform](../users/add-users.md) by sending them an invitation,
-- Reset user's password
+- Reset user's password.
 
 ![Users Page](../assets/img/AddUser.png)
 

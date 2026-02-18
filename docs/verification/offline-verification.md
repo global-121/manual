@@ -46,7 +46,7 @@ Use your usual SOPs to verify collected information. Here are a few tips to make
 
 ### Upload forms
 
-Once verification is complete, connect your devices to the internet and make sure to upload **ALL** collected Kobo forms. Then check that all changes changes are correctly reflected on the 121 platform.
+Once verification is complete, connect your devices to the internet and make sure to upload **ALL** collected Kobo forms. Then check that all changes are correctly reflected on the 121 platform.
 
 ---
 

@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-The Project **Project Team** page is found in each of your active projects and can be found under **Settings**. You can constitute and manage a different team per project.
+The **Program Team** page is found in each of your active projects and can be found under **Settings**. You can constitute and manage a different team per project.
 
 !!! Important "Who can perform actions on this page ?"
     Program Admin and CVA Manager can perform actions in this page.
@@ -19,7 +19,7 @@ To enter and view the **Project Team** page:
 
 ![Team Page](../assets/img/SettingsProjectTeam.png)
 
-Each user can have designated roles and permissions to allow them to execute specific tasks within the project. You can read more about [roles and permissions](../users/description-roles.md)
+Each user can have designated roles and permissions to allow them to execute specific tasks within the project. You can read more about [roles and permissions.](../users/description-roles.md)
 
 ___
 
@@ -35,6 +35,6 @@ In the **:octicons-people-24: Project Team** page of your project, you can creat
 You can add, remove, and edit users at any time while managing your project. The project's status and action history will remain unchanged, continuing to track users who made changes, even after they have been removed.
 
 !!! warning "Review **regularly** your Team access"
-    We recommend that the **CVA Manager or Program Manager** review the project team on a regular basis to ensure that it is up to date and that only those who are working in the project have access. Any users who no longer work with the project or who have left the organisation should be removed from the project team to ensure data protection.
+    We recommend that the **CVA Manager or Program Manager** review the program team on a regular basis to ensure that it is up to date and that only those who are working in the project have access. Any users who no longer work with the project or who have left the organisation should be removed from the project team to ensure data protection.
 
 -8<- "docs/_snippets/contact-support.md"
