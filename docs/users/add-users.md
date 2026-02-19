@@ -22,10 +22,10 @@ On the left of your screen, open the **:material-menu: menu** and select **Users
 
 **An email will be automatically sent to the specified address. Ensure the email is correctly entered before sending the access link. The user will receive their credentials and a link to access the 121 platform through this email.**
 
-!!! warning "Add users to a project"
-    Creating and adding a new user on the Users page grants them access to the 121 platform. However, this does not automatically assign them to any projects. As a result, they may see a blank page upon their first login unless they have already been added to a project.
+!!! warning "Add users to a program"
+    Creating and adding a new user on the Users page grants them access to the 121 platform. However, this does not automatically assign them to any programs. As a result, they may see a blank page upon their first login unless they have already been added to a program.
 
-    Each user must be manually added to the specific projects they are assigned to. You can assign them a specific role within the project. Follow the instructions on [this page to add team members to a project.](../team/add-team-members.md)
+    Each user must be manually added to the specific programs they are assigned to. You can assign them a specific role within the program. Follow the instructions on [this page to add team members to a program.](../team/add-team-members.md)
 
 ---
 

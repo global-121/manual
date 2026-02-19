@@ -113,7 +113,7 @@ If your verification process includes validating lists in the field, we can supp
 
 ## 9. SIM Card Distribution (Optional)  
 
-If you are planning to distribute SIM cards to beneficiaries, we can support you in updating your database accordingly. To ensure proper matching in the system, key fields such as names, ID numbers, or registration numbers must exactly match the records already registered in 121. It is crucial to align the data between 121 and the provider managing the SIM card distribution to ensure a smooth update of the database.
+If you are planning to distribute SIM cards, we can support you in updating your database accordingly. To ensure proper matching in the system, key fields such as names, ID numbers, or registration numbers must exactly match the records already registered in 121. It is crucial to align the data between 121 and the provider managing the SIM card distribution to ensure a smooth update of the database.
 
 Please contact us to set up a dedicated form and discuss how to align the data before starting the distribution.
 

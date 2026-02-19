@@ -33,7 +33,7 @@ The below table indicate the correct label names that must be filled in the paym
 | :---- | :---- |
 | **success** | Successful, completed or confirmed payments |
 | **waiting** | Payments is pending. It is not distributed yet or cannot be sent yet. |
-| **error** | Failed payments, not received by beneficiaries due to wrong data shared or error at the FSP. |
+| **error** | Failed payments, not received by registrations due to wrong data shared or error at the FSP. |
 
 
 If these labels are not correctly matching, three errors can occur in the 121 Platform:
@@ -65,6 +65,6 @@ Once your updated file is ready and saved as a .csv format, you can import the p
 - Click on **Import file** ![Import reconciliation file](../assets/img/ReconciliationImport.png)
 
 !!! info "Payment statuses"
-    All beneficiaries payment statuses will be updated in the specific payment round. You can then overview the number of successful, waiting and failed payments within the beneficiaries list. Read more about the payment statuses in [this page](./list-status-payment-page.md)
+    All registrations payment statuses will be updated in the specific payment round. You can then overview the number of successful, waiting and failed payments within the registrations list. Read more about the payment statuses in [this page](./list-status-payment-page.md)
 
 -8<- "docs/_snippets/contact-support.md"

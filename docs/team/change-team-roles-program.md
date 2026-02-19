@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-In the **Settings** page of your program, under the **Porgram Team tab**, you can see the list of users currently added into your program, with their assigned role(s). If you have the permission, you can **change, add or remove a role assigned to a user**.
+In the **Settings** page of your program, under the **Program Team tab**, you can see the list of users currently added into your program, with their assigned role(s). If you have the permission, you can **change, add or remove a role assigned to a user**.
 
 !!! Important "Who can perform actions on this page ?"
     Program Admin and CVA Manager can perform actions in this page.

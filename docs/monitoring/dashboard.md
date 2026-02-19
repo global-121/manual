@@ -4,14 +4,14 @@ hide:
   - toc
 ---
 
-The **Monitoring page** features a standard dashboard with baseline indicators and gives a first overview on the project progresses.
+The **Monitoring page** features a standard dashboard with baseline indicators and gives a first overview on the program progresses.
 
 !!! Important "Who can perform actions in this page?"
     All users. [Learn more about Users & Roles](../users/users-roles-page.md)
 
 ## Accessing the Dashboard section
 
-- Go to the **Project**.
+- Go to the **PrProgramoject**.
 - Navigate to the **Monitoring page**.
 - Select the **Dashboard tab**.
 
@@ -20,7 +20,7 @@ The **Monitoring page** features a standard dashboard with baseline indicators a
 
 ## How to view the base Dashboard
 
-A **standard dashboard** displaying baseline indicators linked to the main project metrics—such as number of registrations, status, payments, duplicates, and disbursements—is provided in a clear and simple format to offer an easy-to-read project update. The metrics are different based on the project.
+A **standard dashboard** displaying baseline indicators linked to the main program metrics—such as number of registrations, status, payments, duplicates, and disbursements—is provided in a clear and simple format to offer an easy-to-read program update. The metrics are different based on the program.
 
 ![Dashboard](./assets/img/Dashboard.png)
 

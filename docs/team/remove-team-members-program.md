@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-In the **Settings** page of your program, under the **Project Team tab**, you can see the list of users currently added into your project. If you have the permission, you can **remove a user from a program**. Team members should be removed from the program team if they no longer work with the program or they have left the organisation to ensure data protection.
+In the **Settings** page of your program, under the **Program Team tab**, you can see the list of users currently added into your program. If you have the permission, you can **remove a user from a program**. Team members should be removed from the program team if they no longer work with the program or they have left the organisation to ensure data protection.
 
 !!! Important "Who can perform actions on this page ?"
     Program Admin and CVA Manager can perform actions in this page.
@@ -12,8 +12,8 @@ In the **Settings** page of your program, under the **Project Team tab**, you ca
 
 ### Revoke a user's access to the program
 
-- Enter the desired project and **go to :material-cog-outline: Settings** page,
-- Select the **Project Team** tab,
+- Enter the desired program and **go to :material-cog-outline: Settings** page,
+- Select the **Program Team** tab,
 - On the right side of your screen, click on **:octicons-pencil-24: the pencil**.
 
 ![Add Team member](../assets/img/SettingsProjectTeam.png)
@@ -26,7 +26,7 @@ In the **Settings** page of your program, under the **Project Team tab**, you ca
 
 !!! info "User logins remain active"
 
-    After a user’s permissions are revoked from a program, their account remains active. This means the user can still log in to the platform and access any other projects where they still have assigned roles.
+    After a user’s permissions are revoked from a program, their account remains active. This means the user can still log in to the platform and access any other programs where they still have assigned roles.
     
     If you wish to fully revoke a user’s account and disable their login access to the platform, please contact our support team to permanently remove their access.
 

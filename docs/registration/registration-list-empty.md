@@ -18,15 +18,15 @@ Although the registration tool can be used offline, an internet connection is re
 
 To start importing the registration list:
 
-- Connect to an internet network.
-- Start the upload with KOBO form.
+- Connect to an internet network;
+- Start the upload with KOBO form;
 - Once done, refresh the registration page in your program.
 
 ### Filters may be applied to the list
 
-There may be some filters applied to the table that might mean the beneficiaries are not being shown.
+There may be some filters applied to the table that might mean the registrations are not being shown.
 
-- Check that the filter and search bar are empty.
+- Check that the filter and search bar are empty;
 - If you see a filter shown below the search bar click **Clear filters** on the top right of your table. ![Clear Filters](../assets/img/ClearFilterButton.png)
 
 !!! warning "Blank page"

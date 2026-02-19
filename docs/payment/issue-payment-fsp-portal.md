@@ -14,7 +14,7 @@ In the 121 Platform, payments can be processed in two different methods: with a 
 
 ## Payments Overview
 
-The Payments page in your program will display information about any completed installments or payment rounds. If no payments have been made yet, no details will appear. However, if some installments are already in progress, you will see each individual installment. **As long as payments are still being processed in the current program, you can add beneficiaries to new payments.**
+The Payments page in your program will display information about any completed installments or payment rounds. If no payments have been made yet, no details will appear. However, if some installments are already in progress, you will see each individual installment. **As long as payments are still being processed in the current program, you can add registrations to new payments.**
 
 ### Create a new payment
 
@@ -24,21 +24,21 @@ To initiate a new payment:
 
 ![Create new payment button](../assets/img/PaymentsPage.png)
 
-- A page will open displaying a list of beneficiaries included in the program.
-  *Only beneficiaries with **Included** status who have not yet received all their installments will appear in the list. Beneficiaries who have received and completed all their payments will not be shown.*
+- A page will open displaying a list of registrations included in the program.
+  *Only registrations with **Included** status who have not yet received all their installments will appear in the list. Registrations who have received and completed all their payments will not be shown.*
 
 ![Select List](../assets/img/CreateNewpaymentSelect.png)
 
-- **Select the list of beneficiaries to be added** to the payment round as follows.
-    - Make an **individual selection** by clicking on the :material-checkbox-outline: on the individual beneficiary line;
+- **Select the list of registrations to be added** to the payment round as follows.
+    - Make an **individual selection** by clicking on the :material-checkbox-outline: on the individual registration line;
     - Or do a **bulk selection** by clicking on the :material-checkbox-multiple-marked-outline: on the upper table line **Select**
 - On the bottom right, click **Add to payment**;
 
 ![Add to Payment](../assets/img/StartPayment.png)
 
-- A window appears to confirm the number of beneficiaries included and the total amount to be transferred;
+- A window appears to confirm the number of registrations included and the total amount to be transferred;
 - The portal will display guidelines on the left side of your screen for exporting the FSP payment instructions (as shown below).
-- Click on **Start payment**. **This action will NOT automatically process or send the payment request to the FSP. However, it will prepare the payment instructions, including the list of beneficiaries set to receive payments.**
+- Click on **Start payment**. **This action will NOT automatically process or send the payment request to the FSP. However, it will prepare the payment instructions, including the list of registrations set to receive payments.**
 
 Once the payment has been processed, **remain on the payment page you just worked on**. From there, you can download the payment instructions. You will see all pending payments for registrations that have opted to receive cash aid through the FSP via manual import-export (Excel).
 
@@ -58,7 +58,7 @@ The payment status displayed in the payment page will be updated depending on th
 !!! info "Payment instructions excel template"
     Each program may require a different template depending on the FSP you work with in the region of your operations. Our Team will create a template specifically adapted to upload into each FSP portal.
 
-    The payment instructions excel file should only contain the criteria needed for the FSP to confirm the beneficiaries' identity and issue the payments, such as names, phone number and ID number or any other criteria based on your program SOPs. For data privacy, we recommend to only export the minimum criteria to verify the beneficiary identity. All other irrelevant data for the payment process should be excluded from the payment instructions file. After usage the exported data should be deleted to ensure personal data is kept secure.
+    The payment instructions excel file should only contain the criteria needed for the FSP to confirm the registrations' identity and issue the payments, such as names, phone number and ID number or any other criteria based on your program SOPs. For data privacy, we recommend to only export the minimum criteria to verify the registration identity. All other irrelevant data for the payment process should be declined from the payment instructions file. After usage the exported data should be deleted to ensure personal data is kept secure.
 
 ---
 
@@ -84,7 +84,7 @@ To update the payment statuses:
 
 - Click on the import button to upload the FSP file, *the file must be in .csv format*;
 - **Drag and drop** the file; or use the **Choose file** function;
-- Click on **Proceed**. The beneficiaries status will be updated according to whether the transfer was marked as Successful, Pending or Failed by the FSP.
+- Click on **Proceed**. The registrations status will be updated according to whether the transfer was marked as Successful, Pending or Failed by the FSP.
 ![Export FSP payment list](../assets/img/IndividualExportReport.png)
 
 ---
@@ -98,9 +98,9 @@ Below, the different payment statuses.
 
 | Status | Description | Actions required |
 | :------ | :----------- | :---------------- |
-| **SUCCESSFUL** | The transfer have been sent to the Beneficiaries or Household and they can now use it. | None. |
-| **PENDING** | The payment is waiting for approval of one or more financial officers. The transfer is not yet sent to the Beneficiaries or Household selected for this payment round. | Import the reconciliation file into 121 Platform to update the status |
-| **FAILED** | The transaction has failed. The beneficiaries have not received any payments. | Please check the error message provided by your bank. Failed payment can be due to wrong bank details, phone number or ID number depending on the chosen payment methods. You can try again. Contact our 121 Support Team if this remains unsolved. |
+| **SUCCESSFUL** | The transfer have been sent to the Registrations and they can now use it. | None. |
+| **PENDING** | The payment is waiting for approval of one or more financial officers. The transfer is not yet sent to the Registrations selected for this payment round. | Import the reconciliation file into 121 Platform to update the status |
+| **FAILED** | The transaction has failed. The registrations have not received any payments. | Please check the error message provided by your bank. Failed payment can be due to wrong bank details, phone number or ID number depending on the chosen payment methods. You can try again. Contact our 121 Support Team if this remains unsolved. |
 
 !!! info "Manual payment reconciliation"
     Once the FSP share back the payment data, you can process the manual payment reconciliation in the 121 platform.

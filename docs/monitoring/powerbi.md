@@ -11,7 +11,7 @@ The **Monitoring page** can feature a Power BI dashboard, either the 121 templat
 
 ## Accessing the PowerBI section
 
-- Go to the **Project**.
+- Go to the **Program**.
 - Navigate to the **Monitoring page**.
 - Select the **PowerBI tab**.
 

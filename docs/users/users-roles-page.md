@@ -37,14 +37,14 @@ In the **User Roles** page, you view the list of available roles set in your ins
 
 No single user can take all actions in the 121 platform. The 121 platform follows **role-based segregation of duties**, which improves task **accountability**. For example, users with a CVA profile will not be able to make payments but are able to make updates to beneficiary data. Users with a finance profile can make payments, but are not able to update beneficiaries’ personal information. The following standard roles are configured in the 121 platform.
 
-| Type                | Description                                                          |
+| Type | Description |
 | :------------------ | :------------------------------------------------------------------- |
-| **Program Admin**| System Administrator, overseeing user access on the platform and managing project with an overall view of project progress.|
-| **CVA Officer**     | Officer for Cash and Voucher Assistance.                              |
-| **CVA Manager**     | Manager for Cash and Voucher Assistance.                              |
-| **Finance Officer** | Officer for Finance operations and audit.                             |
-| **Finance Manager** | Manager for Finance operations, payment instructions.                 |
-| **View**            | Portal Users who are allowed to view only and cannot perform actions. |
+| **Program Admin** | System Administrator, overseeing user access on the platform and managing project with an overall view of project progress. |
+| **CVA Officer** | Officer for Cash and Voucher Assistance. |
+| **CVA Manager** | Manager for Cash and Voucher Assistance. |
+| **Finance Officer** | Officer for Finance operations and audit. |
+| **Finance Manager** | Manager for Finance operations, payment instructions. |
+| **View** | Portal Users who are allowed to view only and cannot perform actions. |
 
 Find a description of role-based permissions [on this page](../users/description-roles.md).
 
