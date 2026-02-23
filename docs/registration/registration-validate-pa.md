@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-The Validation stage is optional, depending on the SOPs you follow for your CVA project. Validation can be used to mark Registrations whose information has been checked and verified, before taking the step to include them in the program. By validating registrations, you update their status in the 121 Platform from Registered to Validated, which allows you to keep track of whose information has been checked.
+The Validation stage is optional, depending on the SOPs you follow for your CVA program. Validation can be used to mark Registrations whose information has been checked and verified, before taking the step to include them in the program. By validating registrations, you update their status in the 121 Platform from Registered to Validated, which allows you to keep track of whose information has been checked.
 
 !!! Important "Who can perform actions on this page ?"
     Program Admin, CVA Officer and CVA Manager can perform actions.  
@@ -12,7 +12,7 @@ The Validation stage is optional, depending on the SOPs you follow for your CVA 
 
 ### Validation of Registrations into the program
 
-The **Registrations** table shows all of the registered households for your project. Their initial status should be **Registered**. To mark the Registrations as **validated**:
+The **Registrations** table shows all of the registered households for your program. Their initial status should be **Registered**. To mark the Registrations as **validated**:
 
 - Filter the list of registrations on **status**, select **New** and **Apply**. *This action is to make sure you select only **New** status.*![Filter Status Register](../assets/img/RegisteredStatusFilter.png)
 - You can:
@@ -29,11 +29,11 @@ The **Registrations** table shows all of the registered households for your proj
 
 Due to misspelling or double entry, you may need to edit details in the registration profile before validation and inclusion into the program.
 
-- **Enter the registration profile** by clicking on the **Reg. #** hyperlink on the left side,
-- Once in the profile overview, go to **Personal Information** tab,
-- On the top left, click on **Edit**. The fields become now editable.
-- Search for the field to edit, type in the new value and click **Save**,
-- A pop-up **Reason for update** requests to fill in the reason for this change,
+- **Enter the registration profile** by clicking on the **Reg. #** hyperlink on the left side;
+- Once in the profile overview, go to **Personal Information** tab;
+- On the top left, click on **Edit**. The fields become now editable;
+- Search for the field to edit, type in the new value and click **Save**;
+- A pop-up **Reason for update** requests to fill in the reason for this change;
 - Add a reason, then **Save**.
 
 !!! info "Reason for update"

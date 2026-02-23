@@ -40,12 +40,11 @@ These channels are for critical situations where fast troubleshooting is necessa
 
 ### Escalation Process
 
-We operate a structured support system to ensure that every issue is handled
-by the appropriate team.
+We operate a structured support system to ensure that every issue is handled by the appropriate team.
 
 <!-- markdownlint-disable no-inline-html -->
 | **Level** | **Point of Contact** | **Type of Support** |
-|:----- | :----- | :----- |
+| :----- | :----- | :----- |
 | **Level 1** | First Line Support (Technical Support) | - Basic troubleshooting<br>- Program settings<br>- Configuration issues<br>- Login issues<br>- Explaining platform features (e.g., program settings, adding users, editing profiles, exporting reports)<br>- Collecting information to escalate complex issues<br> |
 | **Level 2** | Information Manager (CVA IM) | - Escalation from Level 1<br>- IM support (e.g., database updates)<br>- Power BI support<br>- Escalation to Level 3 |
 | **Level 3** | Development Team | - Escalation from Level 2<br>- Bug fixes and advanced troubleshooting |
@@ -68,7 +67,7 @@ We aim to resolve issues swiftly, based on the urgency of the situation.
 
 If you contact your **Account Manager** outside of regular business hours,
 your request will be forwarded to our support team at
-[support@121.global](mailto:support@121.global) and shared in our internal
+<support@121.global> and shared in our internal
 support alert system to ensure timely follow-up.
 
 ---

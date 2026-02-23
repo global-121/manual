@@ -3,7 +3,7 @@ title: Payments
 hide:
   - toc
 ---
-The Payment page provides an overview of all payments made and disbursed to beneficiaries in the program. It allows you to track the payment status for each beneficiary, including any completed, pending, or failed transactions, and processes new payments.
+The Payment page provides an overview of all payments made and disbursed to registrations in the program. It allows you to track the payment status for each registration, including any completed, pending, or failed transactions, and processes new payments.
 
 !!! Important "Who can perform actions in this page?"
     Finance Manager and Finance Officer roles can perform actions in the Payments page.  
@@ -13,26 +13,26 @@ The Payment page provides an overview of all payments made and disbursed to bene
 
 ## Create new payment requests and Approve
 
-You can create new payment requests and assign approvers to each project by clicking **Create new payment** in the top-right corner. This allows you to begin sending cash assistance to beneficiaries included in the program. [To start creating payment, you can follow the guidelines on this page](./create-approve-payment.md)
+You can create new payment requests and assign approvers to each program by clicking **Create new payment** in the top-right corner. This allows you to begin sending cash assistance to registrations included in the program. [To start creating payment, you can follow the guidelines on this page](./create-approve-payment.md)
 
 ## Proceed with payments
 
 The 121 Platform offers **two different methods for processing payments**:
 
-- **Send and Reconcile manual payments by exporting a payment instructions file**. You pre-process the payment within 121 by including the selected beneficiary list in the payment round, then download the payment instructions to share to the FSP and later reconcile the payment data. Further instructions on the [manual payment page](./issue-payment-fsp-portal.md) and [manual reconciliation page.](./manual-payment-reconciliation.md)
+- **Send and Reconcile manual payments by exporting a payment instructions file**. You pre-process the payment within 121 by including the selected registration list in the payment round, then download the payment instructions to share to the FSP and later reconcile the payment data. Further instructions on the [manual payment page](./issue-payment-fsp-portal.md) and [manual reconciliation page.](./manual-payment-reconciliation.md)
 - Process an **instant payment** directly within the 121 Platform. A direct integration with the FSP automates the payment and reconciliation. Further instructions on [this page](./payment-integrated-fsp.md)
 
 
 ## Overview of payment status
 
-You can view a summary of all payments made in the course of your program and to beneficiaries included in the program. This overview is especially useful for:
+You can view a summary of all payments made in the course of your program and to registrations included in the program. This overview is especially useful for:
 
 - Having clear insights of all disbursements made along the program up to date.
 - Finance Manager and Finance Officer to keep track of payment statuses, including successful, pending and failed ones.
-- CVA Manager and CVA Officer to keep informed and follow wether or not a beneficiary is receiving cash aid support.
+- CVA Manager and CVA Officer to keep informed and follow wether or not a registration is receiving cash aid support.
 - For donors that may want to view the ongoing payment processes and deadlines as required.
 
-Find out more about the payment and beneficiary's statuses on [this page](./list-status-payment-page.md)
+Find out more about the payment and registration's statuses on [this page](./list-status-payment-page.md)
 
 ---
 
@@ -56,7 +56,7 @@ You will be able to process payments with one or multiple delivery mechanisms de
 | Category | Description |
 | ---------------- | ----------- |
 | **FSP Portal** | For non-integrated FSP and universal cash distribution methods. Manual export of payment instructions to upload into the FSP portal and reconciliation of payment data into 121. |
-| **Bank Wire** | Direct bank transfers issued with 121 platform to beneficiaries (integrated FSP) |
+| **Bank Wire** | Direct bank transfers issued with 121 platform to registrations (integrated FSP) |
 | **VISA debit card** | Direct transfers and top-up to VISA debit card (integrated FSP). Allows conditional and unconditional modalities. |
 | **Mobile money** | Direct transfers to mobile wallets. |
 | **E-vouchers** | This is an electronic document with a specific amount and dates that support and authorize financial transactions at designated locations. These are sent via Whatsapp. |

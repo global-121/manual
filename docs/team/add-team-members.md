@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-In the **Settings** page of your project, under the **Project Team tab**, you can see the list of users currently added into your project. If you have the permission, you can **add a user to a project**. *Team members should be removed from the program team if they no longer work with the project or they have left the organisation to ensure data protection.*
+In the **Settings** page of your program, under the **Program Team tab**, you can see the list of users currently added into your program. If you have the permission, you can **add a user to a program**. *Team members should be removed from the program team if they no longer work with the program or they have left the organisation to ensure data protection.*
 
 !!! Important "Who can perform actions on this page?"
     Program Admin and CVA Manager can perform actions in this page.
@@ -12,8 +12,8 @@ In the **Settings** page of your project, under the **Project Team tab**, you ca
 
 ### Adding team members
 
-- Enter the desired project and **go to :material-cog-outline: Settings** page,
-- Select the **Project Team** tab,
+- Enter the desired program and **go to :material-cog-outline: Settings** page,
+- Select the **Program Team** tab,
 - On the right side of your screen, click on **:octicons-pencil-24: the pencil**,
 - Now, select **+ Add user to team**
 
@@ -36,8 +36,8 @@ In the **Settings** page of your project, under the **Project Team tab**, you ca
 
 ---
 
-!!! warning "Users must be added to each individual project they are assigned to"
-    Adding a user to the project team grants them access to this specific project, but it does not automatically assign them to ALL projects. Each user must be manually assigned to individual projects by the Program Admin or CVA Manager. Without project assignments, they may see a blank page upon login. Additionally, you can assign each user a specific role within the separate projects they are added to.
+!!! warning "Users must be added to each individual program they are assigned to"
+    Adding a user to the program team grants them access to this specific program, but it does not automatically assign them to ALL programs. Each user must be manually assigned to individual programs by the Program Admin or CVA Manager. Without program assignments, they may see a blank page upon login. Additionally, you can assign each user a specific role within the separate programs they are added to.
 
 ---
 

@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-Below you will find the steps to check duplicated registrations and deduplicate as needed. Note that duplicates can only be checked within a single project and there is no way to check duplicates across different projects in 121.
+Below you will find the steps to check duplicated registrations and deduplicate as needed. Note that duplicates can only be checked within a single project and there is no way to check duplicates across different programs in 121.
 
 !!! Important "Who can perform actions on this page ?"
     Program Admin, CVA Officer and CVA Manager can perform actions.  
@@ -18,7 +18,7 @@ Below you will find the steps to check duplicated registrations and deduplicate 
 
 **Duplicates are identified based on specific unique criteria** such as phone number or ID number. This criteria is flexible and can be chosen by the organization and changed depending on the program requirements. We recommend avoiding criteria that can easily match across registrations (like name).
 
-The criteria can be set up directly in your Kobo, marking the question as **+dedup** in your form. The 121 Platform will then recognize the value as the duplicate criteria. Request our team to adjust the criteria based on your project.
+The criteria can be set up directly in your Kobo, marking the question as **+dedup** in your form. The 121 Platform will then recognize the value as the duplicate criteria. Request our team to adjust the criteria based on your program.
 
 ---
 
@@ -26,11 +26,11 @@ The criteria can be set up directly in your Kobo, marking the question as **+ded
 
 In the **Registration** page, and following your organization's SOPs, all duplicated entries will be listed based on the selected unique criteria.
 
-- Click on :material-cog: icon to **manage the table**,
-- Select **Duplicates** and click **Apply** to show duplicate column in the table,
-- In the **Duplicates** column, select the filter icon and filter on **Duplicate**,
-- The filtered list will only show the registrations marked as **Duplicate**,
-- Click on **Reg #** or **Name** to open the personal registration profile. A red banner at the top of the page labelled **Duplicated with** will show who this person is duplicated with and the **matching field**.
+- Click on :material-cog: icon to **manage the table**;
+- Select **Duplicates** and click **Apply** to show duplicate column in the table;
+- In the **Duplicates** column, select the filter icon and filter on **Duplicate**;
+- The filtered list will only show the registrations marked as **Duplicate**;
+- Click on **Reg #** or **Name** to open the personal registration profile. A red banner at the top of the page labelled **Duplicated with** will show who this person is duplicated with and the **matching field**;
 - To resolve this duplicate you can decide to ignore, decline or update. See the description below.
 
 ![Manage Table](../assets/img/ShowDuplicateColumn.png)
@@ -40,7 +40,7 @@ In the **Registration** page, and following your organization's SOPs, all duplic
 !!! Note "Setting up your duplicates criteria in Kobo"
     **Duplicates are identified based on specific unique criteria** such as phone number or ID number. This criteria is flexible and can be chosen by the organization and changed depending on the program requirements. We recommend unique criteria so to ease the duplicate check.
 
-    The criteria can be set up directly in your Kobo, marking the question as **+dedup** in your form. The 121 Platform will then recognize the value as the duplicate criteria. Request our team to adjust the criteria based on your project.
+    The criteria can be set up directly in your Kobo, marking the question as **+dedup** in your form. The 121 Platform will then recognize the value as the duplicate criteria. Request our team to adjust the criteria based on your program.
 
 
 ## Update the list of registrations
@@ -48,9 +48,9 @@ In the **Registration** page, and following your organization's SOPs, all duplic
 Once you have identified the duplicate, you can either decide to update the registration list in the 121 platform as follows:
 You can perform 3 actions in the **Registrations** page:
 
-- **Edit the value directly in the registration profile**
-- **Decline the registration**, in case this is a double entry for the same beneficiary.
-- **Ignore the duplicate**, in case your SOPs allow registrations to share a same value - such as phone number, which can be used by multiple beneficiaries in the same community.
+- **Edit the value directly in the registration profile;**
+- **Decline the registration**, in case this is a double entry for the same registration;
+- **Ignore the duplicate**, in case your SOPs allow registrations to share a same value - such as phone number, which can be used by multiple registrations in the same community.
 
 Below, the solution based on either of these 3 options:
 
@@ -58,11 +58,11 @@ Below, the solution based on either of these 3 options:
 
 ### Edit the value in the registration profile
 
-- Search for the registration number by filtering the **Reg. # column**
-- Open the profile clicking on **Reg. #** on the left side. You will now see the registration overview,
-- Click the tab **Personal Information**, then **Edit** button and search for the value to be edited, ![Edit Value](../assets/img/EditInformationDuplicate.png)
-- **Edit** the value. Click on **Save** and give a reason,
-- The new value is now saved,
+- Search for the registration number by filtering the **Reg. # column**;
+- Open the profile clicking on **Reg. #** on the left side. You will now see the registration overview;
+- Click the tab **Personal Information**, then **Edit** button and search for the value to be edited; ![Edit Value](../assets/img/EditInformationDuplicate.png)
+- **Edit** the value. Click on **Save** and give a reason;
+- The new value is now saved;
 - The registration will automatically be updated and marked as **Unique**.
 
 ![Edit Information](../assets/img/EditInformationDuplicate.png)
@@ -71,9 +71,9 @@ Below, the solution based on either of these 3 options:
 
 ## Decline the registration
 
-- Search for the registration number by filtering the **Reg. # column**
-- Once you have found the registration, **enter the beneficiary registration**,
-- On the top left of the page, click on **Action** and then on the **Decline** button,
+- Search for the registration number by filtering the **Reg. # column**;
+- Once you have found the registration, **enter the registration profile**;
+- On the top left of the page, click on **Action** and then on the **Decline** button;
 - **Approve** the action. *Confirm only if you are sure to decline this registration, otherwise cancel.*
 - You will have to enter a reason for declining the beneficiary.
 
@@ -85,8 +85,8 @@ Below, the solution based on either of these 3 options:
 
 ## Ignore the duplicate
 
-- Once you have found the registration, **enter the beneficiary registration**,
-- On the top left of the page, click on **Action** and then on the **Ignore the duplicate** button,
+- Once you have found the registration, **enter the registration profile**;
+- On the top left of the page, click on **Action** and then on the **Ignore the duplicate** button;
 - **Approve** the action. *Confirm only if you are sure to ignore this registration, otherwise cancel.*
 
 ![Ignore Duplicate](../assets/img/DeclineIgnoreDuplicate.png)

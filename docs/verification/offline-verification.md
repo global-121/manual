@@ -37,9 +37,9 @@ Once you have trained your volunteers, you are almost ready to start field verif
 
 Use your usual SOPs to verify collected information. Here are a few tips to make sure everything runs smoothly:
 
-- Ensure all devices have the most recent version of the Kobo form.
-- Test the form on each device to confirm it works properly.
-- Make sure devices are properly charged and/or bring a chargers as backup.
+- Ensure all devices have the most recent version of the Kobo form;
+- Test the form on each device to confirm it works properly;
+- Make sure devices are properly charged and/or bring a chargers as backup;
 - Make sure volunteers and enumerators are trained properly.
 
 ## After Offline Verification

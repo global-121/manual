@@ -18,9 +18,9 @@ Import Data Changes function allows you to import or update registration informa
 
 Go to the **Registrations** page. You can optionally download a template including the columns you want to update.
 
-- **Select the registrations** to update
-- Click on **Import** and select **update selected registrations**
-- **Select the column(s)** in the dropdownlist
+- **Select the registrations** to update;
+- Click on **Import** and select **update selected registrations;**
+- **Select the column(s)** in the dropdownlist;
 - **Export the CSV**. The file will open on your device. You can now add the information into the matching columns.
 
 ![Export Data Changes button](../assets/img/MassUpdateButton.png)
@@ -38,11 +38,11 @@ Go to the **Registrations** page. You can optionally download a template includi
 After you have formatted your file, you can now import the file. The system will automatically match the registration based on the ReferenceID field.
 
 !!! Warning "Only include registrations to update"
-    Only import registrations for which you want to update the information. If you leave a blank cell in your imported file, this will delete the information. Make sure you exclude registrations you do not need to update.
+    Only import registrations for which you want to update the information. If you leave a blank cell in your imported file, this will delete the information. Make sure you decline registrations you do not need to update.
 
-- Click on **Choose file** and drop the csv file you created for the data changes,
-- **Write a reason** for this update,
-- Tick the box that you understand the impact of the data changes,
+- Click on **Choose file** and drop the csv file you created for the data changes;
+- **Write a reason** for this update;
+- Tick the box that you understand the impact of the data changes;
 - Click on **Import file**.
 
 ![Data Changes Update file](../assets/img/MassUpdateImportFile.png)

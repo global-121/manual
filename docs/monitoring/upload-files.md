@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-The **Monitoring page** allows users to upload attachments or files that provide additional information for the project (e.g. payment receipts, project updates, registration changes, proofs).
+The **Monitoring page** allows users to upload attachments or files that provide additional information for the program (e.g. payment receipts, program updates, registration changes, proofs).
 
 !!! Important "Who can perform actions in this page?"
     All users, except View users, can perform this action. Deletion is however restricted to Program Admin, CVA Manager and Finance Manager.  
@@ -14,7 +14,7 @@ The **Monitoring page** allows users to upload attachments or files that provide
 
 ## Accessing the File Upload Section
 
-- Go to the **Project**.
+- Go to the **Program**.
 - Navigate to the **Monitoring page**.
 - Select the **Files tab**.
 
@@ -58,7 +58,7 @@ Replacing an uploaded file is not possible. If a change is required:
 ---
 
 !!! Note "Examples of Useful Uploads"
-    This section can be used to attach: Payments receipts, Additional project information, updates or changes to registrations, proof documents, etc.
+    This section can be used to attach: Payments receipts, Additional program information, updates or changes to registrations, proof documents, etc.
     To keep the list easy to read, you can name the files as YEAR_MONTH_BRANCH_CATEGORY_Name. For example, 202602_Akana_Finance_Proof of payment. or 202602_Akana_CVA_Registration list approved.
 
 

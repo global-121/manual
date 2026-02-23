@@ -26,13 +26,13 @@ hide:
 
 ### Delivery methods
 
-| Category         | Description |
+| Category | Description |
 | ---------------- | ----------- |
-| FSP Portal       | Manual export of payment instructions from 121 to upload into FSP Portal. Manual reconciliation of payment confirmation into 121 platform to update payment status. |
-| Bank Wire        | Direct bank transfers issued with 121 platform to beneficiaries (integrated FSP) |
-| VISA debit card  | |
-| Mobile money     | |
-| Digital cash     | |
+| FSP Portal | Manual export of payment instructions from 121 to upload into FSP Portal. Manual reconciliation of payment confirmation into 121 platform to update payment status. |
+| Bank Wire | Direct bank transfers issued with 121 platform to registrations (integrated FSP) |
+| VISA debit card | |
+| Mobile money | |
+| Digital cash | |
 | Digital vouchers | |
 
 ### Request for new integration

@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-The **Monitoring page** allows users to keep an overview for all data changes done in the whole project (e.g. personal information edited, status changes, payments done, data import, etc.).
+The **Monitoring page** allows users to keep an overview for all data changes done in the whole program (e.g. personal information edited, status changes, payments done, data import, etc.).
 
 !!! Important "Who can perform actions in this page?"
     All users, except View users, can perform this action. Deletion is however restricted to Program Admin, CVA Manager and Finance Manager.  
@@ -14,7 +14,7 @@ The **Monitoring page** allows users to keep an overview for all data changes do
 
 ## Accessing the Data changes Section
 
-- Go to the **Project**.
+- Go to the **Program**.
 - Navigate to the **Monitoring page**.
 - Select the **Data changes tab**.
 - The table will show a number of information for each record: Field changed, Reg. #, Old value, New value, Changed by, Date and time and Change reason.

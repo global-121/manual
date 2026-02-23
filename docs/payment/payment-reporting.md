@@ -18,7 +18,7 @@ To export a general financial report:
 2. On the top right, click on **Export**
 3. Select the file for which you would like to export the payment data ![Payment Export Report](../assets/img/PaymentsPage.png)
 4. Click on **Export Report** button
-5. A pop-up window will request a confirmation.**This will download an Excel file with all beneficiaries included in this payment** ![Confirm Export](../assets/img/ApprovePaymentExport.png)
+5. A pop-up window will request a confirmation.**This will download an Excel file with all registrations included in this payment** ![Confirm Export](../assets/img/ApprovePaymentExport.png)
   The file will be exported into the download folder as an excel file.
 
 !!! Info "TIPS: Only download excel files when required and delete after exporting / using"
@@ -41,12 +41,12 @@ To export a specific financial report based on a specific date:
 
 ## Oversee the Activity Overview in Payment Page
 
-Detailed payment information can be found in each separate installments and for each beneficiary. To access the Individual overview:
+Detailed payment information can be found in each separate installments and for each registrations. To access the Individual overview:
 
 1. Go to **Payments** page;
 2. Click on one of the installments you would like to read further details
-   The included list of beneficiaries with detailed information about the transfer value, the payment statuses, FSP and dates will be shown.
-3. For further details per individual, you can click on the hyperlink **reg. #** on the beneficiary profile. You can read the activity overview from different phases (registration, inclusion, payments).
+   The included list of registrations with detailed information about the transfer value, the payment statuses, FSP and dates will be shown.
+3. For further details per individual, you can click on the hyperlink **reg. #** on the registration profile. You can read the activity overview from different phases (registration, inclusion, payments).
 4. In the Activity Overview, any changes or activities will be automatically logged, including payment details.
 
 **How to read the logs in the Activity Overview?**
