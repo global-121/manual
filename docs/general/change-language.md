@@ -5,7 +5,7 @@ hide:
 ---
 
 !!! Important "Who can perform actions on this page ?"
-    All users can change their instance language.
+    All users can select the language for the platform.
 
 ### Change the language
 

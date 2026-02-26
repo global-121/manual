@@ -6,7 +6,7 @@ hide:
 
 **Kobo Toolbox is directly integrated with 121 platform**. Registrations are automatically added to the 121 Platform in real-time. To set-up this integration our support Team needs to access to your Kobo form to create the link between Kobo and the 121 Platform. After this integration is finalized you may remove access for our support Team if preferred.
 
-*Do you prefer to import your list via excel? Follow the instructions on [how to import registrations HERE.](../registration/registration-import-list.md)*
+*Do you prefer to import your list via excel? Follow the instructions on [how to import registrations.](../registration/registration-import-list.md)*
 
 !!! Important "Who can perform actions on this page ?"
     Program Admin, CVA Officer and CVA Manager can perform actions.  

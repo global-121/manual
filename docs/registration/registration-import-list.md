@@ -21,7 +21,7 @@ For example, the program registration form may include selection criteria such a
 
 - **Select the Program** you will be uploading registrations for;
 - Go to the **Registrations** page; ![Registration Page](../assets/img/RegistrationsPageImport.png)
-- Click on the **Import Registrations** button on the left side of the screen; ![Import Registration pop-up](../assets/img/ImportRegistrationTemplate.png)
+- Click on the **Import new registrations** button on the right side of the screen; ![Import Registration pop-up](../assets/img/ImportRegistrationTemplate.png)
 - Select **Download template CSV-file**;
 - Open the downloaded CSV template in Excel;
 - Copy the registration data you have in excel into the .csv file to match this format, making sure each piece of information goes into the correct column with the right labels.
@@ -29,7 +29,7 @@ For example, the program registration form may include selection criteria such a
 ### Import a registration list
 
 - Go back to the **registrations** page of your **selected Program**, which you will be uploading registrations for;
-- Click on the **Import new Registrations** button on the right side of the screen;
+- Click on the **Import new registrations** button on the right side of the screen;
 - Click to chose the CSV file from your computer that you have **already matched to the format required by 121**; ![Import Registration pop-up](../assets/img/ImportRegistrationTemplate.png)
 - After uploading the file, click **Import file** to apply the action;
 - Another pop up will appear with confirmation that the import was successful. *Please note this can take some time depending on the number of registrations that are being uploaded.*

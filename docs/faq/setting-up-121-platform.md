@@ -11,20 +11,20 @@ hide:
 
      121 offers **flexibility with two payment processing options**.**The manual process** allows for issuing payments anytime, even without integration with a Financial Service Provider (FSP). We can configure the instance so that payment instructions are pre-formatted for easy upload or sending to the FSP, ensuring they can be shared at any time, regardless of integration status. This flexibility is ideal for **emergency response operations**, helping to provide timely support when it’s needed most.
 
-     The second option is **integrating with a local FSP**, which makes the platform even more robust. We usually consider this integration as part of a long-term plan, such as localization, preparedness, or ongoing processes within aid agencies. This approach allows the 121 Platform to serve as the central management tool, streamlining and centralizing processes effectively from registration to payments phases.
+     The second option is **integrating with a local FSP**, which makes the platform even more robust. We usually consider this integration as part of a long-term plan, such as localization, preparedness, or ongoing wider digitalization processes. This approach allows the 121 Platform to serve as the central management tool, streamlining and centralizing processes effectively from registration to payments phases.
 
      It's important to note that the **121 Platform is designed for digital payments**. We focus on mobile money, bank transfers, mobile transfers, and prepaid card solutions rather than physical cash. However, if the FSP supports cash payments, the platform can manage those payment instructions as well.
 
 
 ??? "2. How much support do I need to use 121?"
 
-     The 121 Platform is **designed by humanitarian workers with extensive experience in operational Cash and Voucher Assistance (CVA) programs**, both in the office and the field, across various response settings. Its primary strength lies in its ability to be instantly deployable and user-friendly, making it particularly valuable in emergency situations. The platform's learning curve is intentionally quick, allowing users at all levels of digital literacy to adapt without needing technical skills. This ensures the platform is scalable and can be rapidly implemented when needed.
+     The 121 Platform is **designed by humanitarian workers with extensive experience in operational Cash and Voucher Assistance (CVA) programs**, both in the office and on site, across various response settings. Its primary strength lies in its ability to be instantly deployable and user-friendly, making it particularly valuable in emergency situations. The platform's learning curve is intentionally quick, allowing users at all levels of digital literacy to adapt without needing technical skills. This ensures the platform is scalable and can be rapidly implemented when needed.
 
      To further clarify, the support required to use the 121 Platform can be divided into four distinct phases:
 
      - **Initial Setup**: The platform is designed for quick deployment with minimal support needed. It can be operational within 7 business days upon request, which includes validating and creating the KOBO form, setting up the instance, creating user accounts, and adding programs. If specific integrations are required, the timeline may vary based on their complexity.
 
-     - **User Onboarding and Training**: New users can quickly learn to navigate the platform, regardless of their digital literacy. We provide 2 days of training for the CVA, IT, and finance teams, along with an online user manual for all team members, from field workers to office staff.
+     - **User Onboarding and Training**: New users can quickly learn to navigate the platform, regardless of their digital literacy. We provide 2 days of training for the CVA, IT, Finance and PMER teams, along with an online user manual for all team members, from on site workers to office staff.
 
      - **Operational Support**: Ongoing support is available for any operational challenges or questions, ensuring the platform remains effective throughout its use.
 
@@ -51,14 +51,14 @@ hide:
      The 121 Platform has four main cost categories:
 
      1. **Platform Service & Transaction Fees**
-     These fees cover platform usage, including user accounts, cloud hosting, maintenance, operational support, and transaction processing. A sliding transaction fee applies, starting at a percentage based on total annual funds disbursed by National Societies or INGOs. A detailed financial proposal will be shared before your 121 instance is created. Note that these fees do not include third-party or FSP costs.
+     These fees cover platform usage, including user accounts, cloud hosting, maintenance, operational support, and transaction processing. A sliding transaction fee applies and a detailed financial proposal will be shared before your 121 instance is created. Note that these fees do not include third-party or FSP costs.
 
      2. **Third-Party Costs**
      These fees are charged by external services used alongside the 121 Platform, including:
 
          - **Financial Service Providers (FSP)**: Transaction fees vary by country; the 121 Platform does not negotiate these rates.
 
-        - **Data Collection Tools (Kobo Toolbox)**: Free for National Societies, but partners outside the IFRC may incur costs. Partners should check directly with Kobo.
+        - **Data Collection Tools (Kobo Toolbox)**: Free for National Societies, but partners outside the RCRC Movement may incur costs. Partners should check directly with Kobo.
 
         - **Messaging Services (Twilio)**: Integrated for SMS or WhatsApp messages, with rates depending on the type of communication and country. Partners need to set up their own Twilio accounts, which may offer special rates for INGOs. Alternative messaging providers may incur additional integration fees.
 
@@ -70,7 +70,7 @@ hide:
 
 ??? "5. Where does this money go?"
 
-     The 121 Platform is a **non-profit product**. The NLRC (Netherlands Red Cross) focuses on cost recovery to cover expenses for developing, maintaining, and managing the platform. These contributions help keep usage costs low and aim to reduce them as much as possible in the future, ensuring that funds are fully allocated to delivering aid to beneficiaries.
+     The 121 Platform is a **non-profit product**. The NLRC (Netherlands Red Cross) focuses on cost recovery to cover expenses for developing, maintaining, and managing the platform. These contributions help keep usage costs low and aim to reduce them as much as possible in the future, ensuring that funds are fully allocated to delivering aid to communities.
 
      Costs from external or third-party providers (e.g., FSPs, tools) are billed directly by those providers, not by NLRC. Therefore, NLRC does not make a profit or handle these transactions.
 
@@ -83,14 +83,14 @@ hide:
 
 ??? "7. How quickly can 121 platform be implemented?"
 
-     Your 121 platform can be ready **within 7 business days** upon confirmation of the program, signature of the contract and SLA agreement. **This timeline includes the platform setup**, i.e creating your instance, activating the users credentials, designing your programs, adding a KOBO form (or alternative registration App). This does not take into account time required for contract negotiations, planning travel to destination and on-site training (1 day), which can extend the timeline. *Kindly note that this timeline is subject to change and that the program details and registration form are prepared and confirmed from your organization' program team.*
+     Your 121 platform can be ready **within 7 business days** upon confirmation of the program, signature of the contract and LSA agreement. **This timeline includes the platform setup**, i.e creating your instance, activating the users credentials, designing your programs, adding a KOBO form (or alternative registration App). This does not take into account time required for contract negotiations, planning travel to destination and on-site training, which can extend the timeline. *Kindly note that this timeline is subject to change and that the program details and registration form are prepared and confirmed from your organization' program team.*
 
      On average, the 121 platform implementation takes between 2 to 4 weeks upon agreement, considering all above components.
      
 
 ??? "8. How long does the integration with an Financial Service Provider (FSP) take?"
 
-     The 121 platform has **integrated with a number of Financial Serivce Provider (FSP) in different countries, allowing to instantly integrate the platform with your local FSP**. If an FSP integration is already in place, **our timeline is 7 business days**. We can also integrate with additional local FSPs upon request. In this case, the integration timeline can vary, depending on the level of technical complexity and the FSP response time.
+     The 121 platform has **integrated with a number of Financial Service Provider (FSP) in different countries, allowing to instantly integrate the platform with your local FSP**. If an FSP integration is already in place, **our timeline is 7 business days**. We can also integrate with additional local FSPs upon request. In this case, the integration timeline can vary, depending on the level of technical complexity and the FSP response time.
 
      **Without an FSP integration, we offer a soft integration so you can start using 121 platform immediately**, while the integration is being processed. This works through exporting excel files including the payment information from 121 and uploading these file in the FSP portal. You will later reconcile the payments into the 121 platform. 
      
@@ -98,7 +98,7 @@ hide:
 
 ??? "9. Can 121 platform be integrated with other third-party tool?"
 
-     Depending on the design of your Cash and Vouchers Aid program, you may require to integrate with additional third-party tool to facilitate your operations. The 121 platform can be integrated with third-party tool, if an API is offered by the third-party provider and a framework agreement with your National Society or NGO has been contracted. 
+     Depending on the design of your Cash and Vouchers Assiatance program, you may require to integrate with additional third-party tool to facilitate your operations. The 121 platform can be integrated with third-party tools, if an API is offered by the third-party provider and a framework agreement with your National Society or organization has been signed. 
 
      **The timeline can only be confirmed once our technical team has discussed with the third-party tool provider.** 
 
@@ -107,7 +107,7 @@ hide:
      
      - **KOBO Toolbox** for registering beneficiaries, allowing the automatic upload of beneficiaries into your 121 registration list ([see the description page](../registration/registration-automatic-import-kobo.md)). Alternative registration form tool can be integrated (API).
      - An integration with **Espo CRM** is available. Our Cash IM and technical team have experiences with Espo CRM in combination with 121 platform, particularly for complex case management. Additional requirements on hosting servers and maintenance may be discussed.
-     - **A number of Financial Service Provider (FSP) in different countries** has been integrated. Further information are available [on this page](../faq/financial-service-provider.md)
+     - **A number of Financial Service Providers (FSP) in different countries** has been integrated. Further information is available [on this page](../faq/financial-service-provider.md)
      - **Redline**, the Community Engagement Hub developed by 510 unit, that allows multichannel communication and scalable engagement and
      accountability.
 

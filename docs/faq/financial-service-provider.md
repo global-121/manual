@@ -6,26 +6,26 @@ hide:
 
 ??? "1. Do you have FSPs directly integrated to the 121 platform?"
 
-     The 121 platform has **integrated with a number of Financial Serivce Provider (FSP) in different countries, allowing to instantly integrate the platform with your local FSP**. We aim at integrating with local Financial Service Providers (FSP), either contracted with our 121 system, your organization or having new providers. We currently have successful integrations  with local FSPs across Kenya, Ethiopia, the Netherlands and other countries. We are working on integrating with a payment aggregator that will enable us to expand coverage across 36 more African countries in the short term. 
+     The 121 platform has **integrated with a number of Financial Service Provider (FSP) in different countries, allowing to instantly integrate the platform with your local FSP**. We currently have successful integrations  with local FSPs across Kenya, Ethiopia, the Netherlands and other countries. We are working on integrating with a payment aggregator that will enable us to expand coverage across 36 more African countries in the short term. 
    
-     Our team is continuously working to expand our global network to include new regional aggregators, to deliver a fast and reliable service across the world.
+     Our team is continuously working to expand our global network to include new local FSPs and regional aggregators, to deliver a fast and reliable service across the world.
 
 ??? "2. What are the delivery mechanisms the 121 platform offers?"
 
      **121 platform focuses on digital cash distribution, mainly mobile money and bank transfers**. If the Financial Service Provider (FSP) supports digital vouchers and/or physical cash distribution, we will be able to activate these payment methods in the 121 platform.
 
-     Delivery methods enabled in 121 platform are: mobile money, bank transfers, digital vouchers, VISA debit cards and FSP Portal (manual reconciliation). In cases physical cash payment may be a better approach, we can discuss supporting these programs on a case-by-case basis, but the National Society or NGO implementing the program would need to have a way of distributing the cash directly. 
+     Delivery methods enabled in 121 platform are: mobile money, bank transfers, digital vouchers, VISA debit cards and FSP Portal (manual reconciliation). In cases where physical cash payment may be a better approach, we can discuss supporting these programs on a case-by-case basis, but the National Society or organization implementing the program would need to have a way of distributing the cash directly. 
 
 ??? "3. What is the list of available integrated FSPs and countries?"
 
      The list of integrated Financial Service Providers (FSP) per country and related delivery methods is available [on this page](../payment/integration-fsp.md). 
-     Kindly note this list is non-exhaustive, and is contineously updated as 121 platform keeps integrated with new local FSP following both our partners requirements and the IFRC recommendations.
+     Kindly note this list is non-exhaustive, and is continuously updated as 121 platform keeps integrating with new local FSPs following both our partners requirements and the IFRC recommendations.
 
-     If you would like to request for upcoming integration, and request for integrating your local FSP, please contact our team so we can discuss about your case and understand your approach. 
+     If you would like to know our upcoming integrations or have a request for integrating your local FSP, please contact our team so we can discuss about your case and understand your approach. 
 
 ??? "4. How long does the integration with an FSP take?"
 
-     The 121 platform has **integrated with a number of Financial Serivce Provider (FSP) in different countries, allowing to instantly integrate the platform with your local FSP**. If an FSP integration is already in place, **our timeline to implement 121 platform with an existing integrated FSP is 7 business days**. 
+     The 121 platform has **integrated with a number of Financial Service Providers (FSP) in different countries**. If an FSP integration is already in place, our timeline to implement 121 platform is **7 business days**. 
      
      We can also integrate with additional local FSPs upon request. In this case, the integration timeline can vary, depending on the level of technical complexity and the FSP response time (between 2 weeks to 2 months depending on the local FSP).
 
@@ -35,10 +35,10 @@ hide:
 
 ??? "5. What banks or FSP do qualify to be integrated in the platform?"
 
-     The (local) National Society or NGO needs to have a framework agreement with the FSP, unless the FSP is already integrated with 121 platform. The 121 Team will handle the technical aspects of the integration. 
+     The (local) National Society or organization needs to have a framework agreement with the FSP, unless the FSP is already integrated with 121 platform. The 121 Team will handle the technical aspects of the integration. 
      
-     We strongly recommend including in this agreement provisions detailing how the FSP will handle and protect personal data. Additionally, the National Society or NGO is responsible for verifying the FSP’s trustworthiness, which will include the existence of a privacy policy compliant with applicable (inter-)national legislation.
+     We strongly recommend including in this agreement provisions detailing how the FSP will handle and protect personal data. Additionally, the National Society or organization is responsible for verifying the FSP’s trustworthiness, which will include the existence of a privacy policy compliant with applicable (inter-)national legislation.
 
-     To enable the integration with 121 platform, the FSPs must have an API (Application programming interfaces) as sets of protocols and tools that allow software programs to communicate with each other.
+     To enable the integration with 121 platform, the FSPs must have an API (Application programming interface) as sets of protocols and tools that allow software programs to communicate with each other.
 
 -8<- "docs/_snippets/contact-support.md"

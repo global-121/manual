@@ -20,30 +20,30 @@ Failed payments occur due to an error in data. Depending on how the payment is p
 To filter the registrations with failed payments:
 
 - Navigate to the specific payment;
-- In the registration list beneath the graph, click on **Transfer status** column filter and select **Failed**;
+- In the registration list beneath the graph, click on **Transaction status** column filter and select **Failed**;
 - The table will display all failed payments;
-- You can view the reason in the column **Fail reason**
+- You can view the reason in the column **Reason**
 
 ![Failed Payment](../assets/img/FailedPaymentstatus.png)
 
 
-**1. Incorrect payment details**
+**1. Incorrect payment details**.
     For both manual and automatic payments, The KYC required may be incorrect and cannot match the information required by the FSP to process the payment. The incorrect details can be as follows: Full name, Phone numbers, Bank account number, Id number and/or Location.
 
 Once you have identified the incorrect data, you can **request your CVA manager or CVA officer to correct the information within the registration's profile**. To further read on the instructions, visit [this page.](../registration/edit-pa-profile.md)
 
 
-**2. Wrong format of the reconciliation file**
+**2. Wrong format of the reconciliation file**.
     For manual payment, the imported reconciliation file may not be formatted correctly. The data cannot match within the platform. Check the instructions on formatting your [manual reconciliation file.](./manual-payment-reconciliation.md)
 
 
-**3. Registration changed their payment details**
+**3. Registration changed their payment details**.
     If a failed payment occurs despite the registration having successfully received payments in the past, it may be due to a change in their payment details or phone number. As a result, the Financial Service Provider (FSP) may be unable to match and process the payment.
 
 Once you have identified the incorrect data, you can **request your CVA manager or CVA officer to correct the information within the registration's profile**. To further read on the instructions, visit [this page.](../registration/edit-pa-profile.md)
 
 
-**4. Updating payment between FSP-121 is failing**
+**4. Updating payment between FSP-121 is failing**.
     If your instance is integrated with an FSP, the integration may encounter issues. Please contact the 121 Support Team to verify if this can be due to an integration error.
 
 ---
