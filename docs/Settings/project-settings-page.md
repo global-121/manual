@@ -24,6 +24,6 @@ If you have the correct permission assigned, you can:
 
 - [**Manage** your program team](../team/add-team-members.md)
 - [**Change** basic program information](../Settings/project-info.md)
-- [**Change** budget and payment-related information](../settings/payment-budget-settings.md)
+- [**Change** budget and payment-related information](../Settings/payment-budget-settings.md)
 
 -8<- "docs/_snippets/contact-support.md"

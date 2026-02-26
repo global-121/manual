@@ -5,7 +5,7 @@ hide:
 ---
 In the 121 Platform, payments can be processed in two different methods: with a **manual payment via a FSP portal** or with **a direct FSP integration**. Below, you will find the step-by-step instructions to import the **manual reconciliation data** into the program, once you have received the payment instructions back from the FSP.
 
-*For payments instructions with an integrated Financial Service Provider, please refer to the instructions on the [Payment with an integrated FSP page](../payment-integrated-fsp.md)*
+*For payments instructions with an integrated Financial Service Provider, please refer to the instructions on the [Payment with an integrated FSP page](../payment/payment-integrated-fsp.md).*
 
 !!! Important "Who can perform actions in this page?"
     Finance Manager and Finance Officer roles can perform actions in the Payments page.  
@@ -19,19 +19,19 @@ Before downloading the reconciliation file into the 121 platform, there are a fe
 
 Go to the Payments page, and enter the specific payment round you would like to update.
 
-- On the top right, click on **Import Reconciliation data** ![Import Reconciliation data](../assets/img/IndividualExportReport.png)
-- In the pop-up window, you can read in the first sentence *Import the file sent by the FSP to see the transfer status of the registrations included in this payment. Download the template .*
-- Click on the **Download the template** ![Download Reconciliation template](../assets/img/ReconciliationImport.png)
+- On the top right, click on **Import Reconciliation data**. ![Import Reconciliation data](../assets/img/IndividualExportReport.png)
+- In the pop-up window, you can read in the first sentence *Import the file sent by the FSP to see the transfer status of the registrations included in this payment. Download the template.*
+- Click on the **Download template**. ![Download Reconciliation template](../assets/img/ReconciliationImport.png)
 - You can now start editing this file with the requested value, as follows.
 
 ## Check the reconciliation data file
 
-A few labels that must be adjusted according to the 121 platform. This relates to the payment statuses.
-The below table indicate the correct label names that must be filled in the payment status of your reconciliation data. The FSP may write the statuses differently than the 121 Platform. Therefore, you should overwrite the status with the data indicated in the below table, column **121 Data status**, in your reconciliation data file (excel):
+A few labels must be adjusted according to the 121 platform. This relates to the payment statuses.
+The below table indicates the correct label names that must be filled in the payment status of your reconciliation data. The FSP may write the statuses differently than the 121 Platform. Therefore, you should overwrite the status with the data indicated in the below table, column **121 Data status**, in your reconciliation data file (excel):
 
 | 121 Data Status | Description |
 | :---- | :---- |
-| **success** | Successful, completed or confirmed payments |
+| **success** | Successful, completed or confirmed payments. |
 | **waiting** | Payments is pending. It is not distributed yet or cannot be sent yet. |
 | **error** | Failed payments, not received by registrations due to wrong data shared or error at the FSP. |
 

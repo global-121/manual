@@ -27,13 +27,13 @@ To initiate a new payment request:
     - Or do a **bulk selection** by clicking on the :material-checkbox-multiple-marked-outline: on the upper table line **Select**
 - On the bottom right, click **Add to payment**; ![Add to Payment](../assets/img/StartPayment.png)
 - Confirm the payment information;
-- Click on **Start payment**.
+- Click on **Create payment**.
 
 !!! Important "No change possible in the payment list"
     Once a payment is created, its details cannot be changed. This includes the list of people in the payment and the transfer value.
     Before creating a payment, make sure to carefully review the transfer value, budget, and selected registrations. If needed, apply filters such as location or FSP and confirm your selection before proceeding.
 
-    To change the transfer value before creating a payment, please refer to [Program settings & Budget](./settings/payment-budget-settings.md)
+    To change the transfer value before creating a payment, please refer to [Program settings & Budget](../Settings\payment-budget-settings.md)
 
 ## 2. Approve payments
 
@@ -59,7 +59,7 @@ Once the payment request has been created, it must be approved by an approver.
 Once the payment has been approved by all approvers in the list, the finance manager can **start the payment**.
 
 - Enter the **approved** payment card,
-- Click the **start payment** on the top right, ![Start Payment](./img/StartPaymentApproved.png)
+- Click the **start payment** on the top right, ![Start Payment](../assets/img/StartPaymentApproved.png)
 - The payment will start,
 - All payments status will change from **Approved** to **Processing**.
 
@@ -80,7 +80,7 @@ Below, the different payment statuses.
 | :------ | :----------- | :---------------- |
 | **PENDING APPROVAL** | The payment request has been created but is still awaiting approval from all approvers. | Approvers must approve the payment to continue. |
 | **APPROVED** | The payment request has been approved by all approvers. | The payment must be started to continue. |
-| **SUCCESSFUL** | The payment have been sent to the Registrations and they can now use it. | None. |
+| **SUCCESSFUL** | The payment has been sent to the Registrations and they can now use it. | None. |
 | **PROCESSING** | The payment is waiting for confirmation of one or more financial officers. The transfer is not yet sent to the Registrations selected for this payment round or the reconciliation file has not been imported yet. | Import the reconciliation file into 121 Platform to update the status. |
 | **FAILED** | The transaction has failed. The registrations have not received any payments. | Please check the error message provided by your bank. Failed payment can be due to wrong bank details, phone number or ID number depending on the chosen payment methods. You can try again. Contact our 121 Support Team if this remains unsolved. |
 

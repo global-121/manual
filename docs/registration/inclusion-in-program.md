@@ -1,5 +1,5 @@
 ---
-title: Registrations - beneficiaries inclusion in program
+title: Registrations - Inclusion in program
 hide:
   - toc
 ---
@@ -18,7 +18,7 @@ The **Registrations table** shows all of the registered households or individual
 To mark the registrations as **included**:
 
 - go to the **Registrations Page**;
-- Filter the list of registrations on **status**, select **New** and **Apply**. *This action is to make sure you select only **New** status;* ![Filter Status Register](./assets/img/RegisteredStatusFilter.png)
+- Filter the list of registrations on **status**, select **New** and **Apply**. *This action is to make sure you select only **New** status;* ![Filter Status Register](../assets/img/RegisteredStatusFilter.png)
 - You can:
     - Make an **individual selection** by clicking on the :material-checkbox-outline: on the PA line;
     - Make a **bulk selection** by clicking on the :material-checkbox-multiple-marked-outline: on the upper line **Select**;
@@ -39,7 +39,7 @@ You can follow the instructions on this [page](./registration-reject-pa.md)
 
 ### Send a message to the registrations
 
-There is an option to send a message to registered household or individuals for each action you perform in the instance, such as Including, Declining, or Sending payments. If you would like to communicate program progress to the registrations, you can click the button to **Send a message to registrations** and enable messaging through the 121 Platform.
+There is an option to send a message to registered households or individuals for each action you perform in the instance, such as Including, Declining, or Sending payments. If you would like to communicate program progress to the registrations, you can click the button to **Send a message to registrations** and enable messaging through the 121 Platform.
 
 To enable messaging services, you must create a Twilio account and ensure there are sufficient messaging credits. Contact our support team to set this up.
 

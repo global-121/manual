@@ -4,17 +4,17 @@ hide:
   - toc
 ---
 
-Audit trail can be performed in 121 for financial reporting and data changes overview at a general or individual level. The Payment page in your program will display information about any completed installments or payment rounds. If no payments have been made yet, no details will appear. However, if some installments are already in progress, you will see each individual installment.
+Audit trail can be performed in 121 for financial reporting and data changes overview at a general or individual level. The Payments page in your program will display information about any completed installments or payment rounds. If no payments have been made yet, no details will appear. However, if some installments are already in progress, you will see each individual installment.
 
 !!! Important "Who can perform actions in this page?"
-    Finance Manager and Finance Officer roles can perform actions in the Payment page.  
+    Finance Manager and Finance Officer roles can perform actions in the Payments page.  
     Additional users may be granted only **View** permission on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
 
 ## Download the General financial reporting
 
 To export a general financial report:
 
-1. Go to **Payment page**
+1. Go to **Payments page**
 2. On the top right, click on **Export**
 3. Select the file for which you would like to export the payment data ![Payment Export Report](../assets/img/PaymentsPage.png)
 4. Click on **Export Report** button
@@ -34,30 +34,30 @@ To export a specific financial report based on a specific date:
 2. Enter the specific payment round you are looking for;
 3. On the top right, click on **Export** ![Individual Export Report](../assets/img/IndividualExportReport.png)
 4. Select **Payment Report**;
-5. A pop-up window will request a confirmation.**This will download an Excel file with all People Affected included in this payment**;
+5. A pop-up window will request confirmation to proceed.**You're about to download an Excel file with all of the registrations included in this payment.**;
   The file will be exported into the download folder as an excel file.
 
 ---
 
-## Oversee the Activity Overview in Payment Page
+## Oversee the Activity Log in Payments Page
 
 Detailed payment information can be found in each separate installments and for each registrations. To access the Individual overview:
 
 1. Go to **Payments** page;
 2. Click on one of the installments you would like to read further details
    The included list of registrations with detailed information about the transfer value, the payment statuses, FSP and dates will be shown.
-3. For further details per individual, you can click on the hyperlink **reg. #** on the registration profile. You can read the activity overview from different phases (registration, inclusion, payments).
-4. In the Activity Overview, any changes or activities will be automatically logged, including payment details.
+3. For further details per individual, you can click on the hyperlink **reg. #** on the registration profile. You can read the activity log from different phases (registration, inclusion, payments).
+4. In the Activity Log, any changes or activities will be automatically logged, including payment details.
 
-**How to read the logs in the Activity Overview?**
+**How to read the logs in the Activity Log?**
 
 | Category | Description |
 | ---- | ---- |
-| **Data changes** | the log will show **Data Changes-** followed by the value or field name that was edited, the **old value** and the **new value**, as well as the 121 user account performing the change. |
-| **Transfer** | the log will show the **payment#** followed with the payment status (successful, waiting, failed) and the 121 user account executing the payment. In the dropdown, the transaction date, FSP name and amount transfers will be indicated. |
-| **Messages** | the log will show the **message template title**, the type of message (SMS, Whatsapp), the sending date, the message content and the 121 user account performing the action. |
-| **Status Update** | the log will show the **Status update**, the date and time, the **old** and **new status** and the 121 user account performing the status update. |
-| **Notes** | the log will show the **notes** history, the date and time, the content and the 121 user account adding the notes into the PA profile. A note can be added manually by clicking on **Add notes** button (right side) |
+| **Data change** | The log will show **Data Changes** followed by the value or field name that was edited, the **old status** and the **new status**, as well as the 121 user account performing the change. |
+| **Transaction** | The log will show the **payment date and time**, the **payment status** (successful, approved, pending approval, failed) and the 121 user account executing the payment. In the dropdown, the transaction date, approver details, transfer value, and FSP name will be indicated. |
+| **Message** | The log will show the **message template title**, the sending date, the sending status, the message content and the 121 user account performing the action. |
+| **Status Update** | The log will show the **Status update**, the date and time, the **old** and **new status** and the 121 user account performing the status update. |
+| **Notes** | The log will show the **notes** history, the date and time, the content and the 121 user account adding the notes into the Registration profile. A note can be added manually by clicking on **Actions** and then **Add notes** (right side). |
 
 ---
 
