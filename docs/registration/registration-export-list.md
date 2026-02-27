@@ -8,12 +8,12 @@ You can export custom-selected files from the **Registrations page**. The export
 
 !!! Important "Who can perform actions on this page ?"
     Program Admin, CVA Officer and CVA Manager can perform actions.  
-    Additional users may only have View permissions on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
+    Additional users may only have View permissions on this page. [Learn more about Users & Roles.](../users/users-roles-page.md)
 
 ### Adding Columns to Your Table View
 
-- On the **Registrations page**, go to the **table management :material-cog:**;
-- In the side window, Select the columns you can to display;
+- On the **Registrations page**, go to the **Settings :material-cog:**;
+- In the side window, select the columns you can to display;
 - Click **Apply**.
 
 **Note**. If you want to remove a column, repeat the same action:
@@ -36,7 +36,7 @@ Once your table shows the columns you need, all of them will be available for ex
 
 ### Import Data Changes
 
-You may need to import changes for a certain number of registrations. You can easily import changes following the instructions on how to [import data changes page.](./import-data-changes.md). Make sure to **include the ReferenceID** (UUID) column in your export so to reconcile the data easily.
+You may need to import changes for a certain number of registrations. You can easily import changes following the instructions on how to [import data changes page.](./import-data-changes.md) Make sure to **include the ReferenceID** (UUID) column in your export so to reconcile the data easily.
 
 ---
 

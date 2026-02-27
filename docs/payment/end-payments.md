@@ -35,7 +35,7 @@ You can also change the status by right-clicking the registration in the table a
 
 The **Declined** status can be applied temporarily. You can restore a registration's status to **Included** by following the same steps and selecting **Include** instead.
 
-!!! Important "Completed status cannot be changed"
+!!! Important "Completed status cannot be changed."
 
     It is not possible to change the status of registrations whose payments have been completed. Their status will show **Completed**.
 

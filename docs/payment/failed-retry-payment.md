@@ -22,13 +22,13 @@ To filter the registrations with failed payments:
 - Navigate to the specific payment;
 - In the registration list beneath the graph, click on **Transaction status** column filter and select **Failed**;
 - The table will display all failed payments;
-- You can view the reason in the column **Reason**
+- You can view the reason in the column **Reason**.
 
 ![Failed Payment](../assets/img/FailedPaymentstatus.png)
 
 
 **1. Incorrect payment details**.
-    For both manual and automatic payments, The KYC required may be incorrect and cannot match the information required by the FSP to process the payment. The incorrect details can be as follows: Full name, Phone numbers, Bank account number, Id number and/or Location.
+    For both manual and automatic payments, the KYC required may be incorrect and cannot match the information required by the FSP to process the payment. The incorrect details can be as follows: Full name, Phone numbers, Bank account number, ID number and/or Location.
 
 Once you have identified the incorrect data, you can **request your CVA manager or CVA officer to correct the information within the registration's profile**. To further read on the instructions, visit [this page.](../registration/edit-pa-profile.md)
 
@@ -48,26 +48,27 @@ Once you have identified the incorrect data, you can **request your CVA manager 
 
 ---
 
-## Retry failed transfers
+## Retry failed transactions
 
 Once you have identified the reason, you can proceed with retrying the payments:
 
 - Go to the **Payments** page and enter the specific payment round;
-- Click on the button :material-refresh: **Retry failed transfers** highlighted on the top right of your registrations' list;
+- Select the registrations in your transaction list for whom you want to retry the payment;
+- Click on the button :material-refresh: **Retry failed transaction(s)** highlighted on the top right of your transaction list;
 
   ![Retry Payment button](../assets/img/RetryPaiementbutton.png)
 
-- **Approve** the action.
+- **Approve** the action by clicking on **Retry transactions**.
 
 ![Approve the payment retry](../assets/img/RetryPaymentConfirm.png)
 
-- The transaction will be automatically retried for registrations identified with a **failed payment** status;
+- The transaction will be automatically retried for the selected registrations identified with a **failed payment** status;
 - The payment status will be updated.
 
 !!! import "Retry based on your payment methods"
     If you are processing the payment with an integrated FSP, the payment request and reconciliation will be done automatically.
 
-    However, **if you are processing the payments with a manual export-import**, please follow the same steps again. Further instructions can be read on [the manual payment page](../payment/issue-payment-fsp-portal.md)
+    However, **if you are processing the payments with a manual export-import**, please follow the same steps again. Further instructions can be read on [the manual payment page.](../payment/issue-payment-fsp-portal.md)
 
 ---
 
