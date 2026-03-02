@@ -5,11 +5,11 @@ hide:
 ---
 In the 121 Platform, payments can be processed in two different methods: with a **manual payment via a FSP portal** or with **a direct FSP integration**. Below, you will find the step-by-step instructions to import the **manual reconciliation data** into the program, once you have received the payment instructions back from the FSP.
 
-*For payments instructions with an integrated Financial Service Provider, please refer to the instructions on the [Payment with an integrated FSP page](../payment/payment-integrated-fsp.md).*
+*For payments instructions with an integrated Financial Service Provider, please refer to the instructions on the [Payment with an integrated FSP page.](../payment/payment-integrated-fsp.md).*
 
 !!! Important "Who can perform actions in this page?"
     Finance Manager and Finance Officer roles can perform actions in the Payments page.  
-    Additional users may be granted only **View** permission on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
+    Additional users may be granted only **View** permission on this page. [Learn more about Users & Roles.](../users/users-roles-page.md)
 
 Before downloading the reconciliation file into the 121 platform, there are a few steps you should follow so to adjust the file to the 121 platform.
 
@@ -65,6 +65,6 @@ Once your updated file is ready and saved as a .csv format, you can import the p
 - Click on **Import file** ![Import reconciliation file](../assets/img/ReconciliationImport.png)
 
 !!! info "Payment statuses"
-    All registrations payment statuses will be updated in the specific payment round. You can then overview the number of successful, waiting and failed payments within the registrations list. Read more about the payment statuses in [this page](./list-status-payment-page.md)
+    All registrations payment statuses will be updated in the specific payment round. You can then overview the number of successful, waiting and failed payments within the registrations list. Read more about the payment statuses in [this page.](./list-status-payment-page.md)
 
 -8<- "docs/_snippets/contact-support.md"

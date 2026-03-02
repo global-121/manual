@@ -8,7 +8,7 @@ The program information can be read and changed within the Program **Settings** 
 
 !!! Important "Who can perform actions on this page ?"
     Program Admin and users with Program Update permissions can perform actions in this page.
-    Additional users may only have View permissions on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
+    Additional users may only have View permissions on this page. [Learn more about Users & Roles.](../users/users-roles-page.md)
 
 ## View your basic program information
 
@@ -16,7 +16,7 @@ You can read Program Basic Information and Budget details in the **Settings** Pa
 
 - Enter the desired program;
 - On the top right of your program menu, **go to :material-cog-outline: Settings** page;
-- Select the first tab on the left side menu **:octicons-info-24: Program Information**
+- Select the first tab on the left side menu **:octicons-info-24: Program Information**.
 
 ![Settings Program Information](../assets/img/SettingsProjectInformation.png)
 

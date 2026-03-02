@@ -106,7 +106,7 @@ nav:
         - "Import Registrations with excel": "registration/registration-import-list.md"
         - "Registration with KOBO form": "registration/registration-automatic-import-kobo.md"
         - "Deduplication": "registration/registration-deduplication.md"
-        - "Edit beneficiaries profiles": "registration/edit-pa-profile.md"
+        - "Edit registration details": "registration/edit-pa-profile.md"
         - "Validate registrations": "registration/registration-validate-pa.md"
         - "Decline registrations": "registration/registration-reject-pa.md"
         - "Include registrations": "registration/inclusion-in-program.md"

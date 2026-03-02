@@ -6,11 +6,11 @@ hide:
 
 In the 121 Platform, payments can be processed in two different methods: with a **manual payment via a FSP portal** or with a **direct FSP integration**. Below, you will find the step-by-step instructions to **process the manual payment via a FSP portal**, to export the payment instructions and reconcile payments into your program.
 
-*For payments instructions with an integrated Financial Service Provider, please refer to the instructions on the [Payment with an integrated FSP page](./payment-integrated-fsp.md)*
+*For payments instructions with an integrated Financial Service Provider, please refer to the instructions on the [Payment with an integrated FSP page.](./payment-integrated-fsp.md)*
 
 !!! Important "Who can perform actions in this page?"
     Finance Manager and Finance Officer roles can perform actions in the Payments page.  
-    Additional users may be granted only **View** permission on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
+    Additional users may be granted only **View** permission on this page. [Learn more about Users & Roles.](../users/users-roles-page.md)
 
 ## Payments Overview
 
@@ -20,7 +20,7 @@ The Payments page in your program will display information about any completed i
 
 To initiate a new payment:
 
-- On the top right, click **Create new payment**
+- On the top right, click **Create new payment**.
 
 ![Create new payment button](../assets/img/PaymentsPage.png)
 
@@ -31,14 +31,14 @@ To initiate a new payment:
 
 - **Select the list of registrations to be added** to the payment round as follows.
     - Make an **individual selection** by clicking on the :material-checkbox-outline: on the individual registration line;
-    - Or do a **bulk selection** by clicking on the :material-checkbox-multiple-marked-outline: on the upper table line **Select**
+    - Or do a **bulk selection** by clicking on the :material-checkbox-multiple-marked-outline: on the upper table line **Select**;
 - On the bottom right, click **Add to payment**;
 
 ![Add to Payment](../assets/img/StartPayment.png)
 
 - A window appears to confirm the number of registrations included and the total amount to be transferred;
-- The portal will display guidelines on the left side of your screen for exporting the FSP payment instructions (as shown below).
-- Click on **Start payment**. **This action will NOT automatically process or send the payment request to the FSP. However, it will prepare the payment instructions, including the list of registrations set to receive payments.**
+- The portal will display guidelines on the left side of your screen for exporting the FSP payment instructions (as shown below);
+- Click on **Create payment**. **This action will NOT automatically process or send the payment request to the FSP. However, it will prepare the payment instructions, including the list of registrations set to receive payments.**
 
 Once the payment has been processed, **remain on the payment page you just worked on**. From there, you can download the payment instructions. You will see all pending payments for registrations that have opted to receive cash aid through the FSP via manual import-export (Excel).
 
@@ -48,8 +48,7 @@ Once the payment has been processed, **remain on the payment page you just worke
 
 The file will provide the necessary instructions for the FSP to issue the payments.
 
-- On the top right of your **page**, go into the **Payment data** dropdown list;
-- Click on **Export** and select the **Export FSP payment list**;
+- On the top right of your **page**, click on **Export** and select the **Export FSP payment list**;
 - The file will be available in your downloaded folder;
 - Review the file if required. *Based on your agreement with the FSP, share the file to your FSP or import it into the FSP portal (if available).*
 
@@ -73,7 +72,7 @@ Once the FSP shared the reconciliation data file to you, you can reconcile payme
       - **Failed** → error
       - **Pending** → waiting
 
-    The file must be in .csv format. Follow the instructions [in this page](./manual-payment-reconciliation.md)
+    The file must be in .csv format. Follow the instructions [in this page.](./manual-payment-reconciliation.md)
 
 To update the payment statuses:
 
@@ -98,12 +97,12 @@ Below, the different payment statuses.
 
 | Status | Description | Actions required |
 | :------ | :----------- | :---------------- |
-| **SUCCESSFUL** | The transfer have been sent to the Registrations and they can now use it. | None. |
-| **PENDING** | The payment is waiting for approval of one or more financial officers. The transfer is not yet sent to the Registrations selected for this payment round. | Import the reconciliation file into 121 Platform to update the status |
+| **SUCCESSFUL** | The transfer has been sent to the Registrations and they can now use it. | None. |
+| **PENDING** | The payment is waiting for approval of one or more financial officers. The transfer is not yet sent to the Registrations selected for this payment round. | Import the reconciliation file into 121 Platform to update the status. |
 | **FAILED** | The transaction has failed. The registrations have not received any payments. | Please check the error message provided by your bank. Failed payment can be due to wrong bank details, phone number or ID number depending on the chosen payment methods. You can try again. Contact our 121 Support Team if this remains unsolved. |
 
 !!! info "Manual payment reconciliation"
-    Once the FSP share back the payment data, you can process the manual payment reconciliation in the 121 platform.
-    Follow the instructions on [this page](./manual-payment-reconciliation.md)
+    Once the FSP shares back the payment data, you can process the manual payment reconciliation in the 121 platform.
+    Follow the instructions on [this page.](./manual-payment-reconciliation.md)
 
 -8<- "docs/_snippets/contact-support.md"

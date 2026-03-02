@@ -7,7 +7,7 @@ hide:
 The **Monitoring page** can feature a Power BI dashboard, either the 121 template version or a custom version, if you have requested it to be embedded.
 
 !!! Important "Who can perform actions in this page?"
-    All users. [Learn more about Users & Roles](../users/users-roles-page.md)
+    All users. [Learn more about Users & Roles.](../users/users-roles-page.md)
 
 ## Accessing the PowerBI section
 
@@ -26,7 +26,7 @@ A **standard Power BI dashboard template** has been added to all 121 instances p
 
 *The dashboard is refreshed on an hourly basis.*
 
-![PowerBI dashboard](./assets/img/PowerBI.png)
+![PowerBI dashboard](../assets/img/PowerBI.png)
 
 !!! Question "Building Your Own Dashboard"
     If you would like to create your own dashboard but have limited experience with Power BI, you can schedule a call with our team to discuss your specific requirements and explore available options.

@@ -11,16 +11,16 @@ The Payment page provides an overview of all payments made and disbursed to regi
 
 ![Payments page](../assets/img/PaymentsPage.png)
 
-## Create new payment requests and Approve
+## Create new payment requests
 
-You can create new payment requests and assign approvers to each program by clicking **Create new payment** in the top-right corner. This allows you to begin sending cash assistance to registrations included in the program. [To start creating payment, you can follow the guidelines on this page](./create-approve-payment.md)
+You can create new payment requests by clicking **Create new payment** in the top-right corner. This allows you to begin sending cash assistance to registrations included in the program. [To start creating payment, you can follow the guidelines on this page.](./create-approve-payment.md)
 
 ## Proceed with payments
 
 The 121 Platform offers **two different methods for processing payments**:
 
 - **Send and Reconcile manual payments by exporting a payment instructions file**. You pre-process the payment within 121 by including the selected registration list in the payment round, then download the payment instructions to share to the FSP and later reconcile the payment data. Further instructions on the [manual payment page](./issue-payment-fsp-portal.md) and [manual reconciliation page.](./manual-payment-reconciliation.md)
-- Process an **instant payment** directly within the 121 Platform. A direct integration with the FSP automates the payment and reconciliation. Further instructions on [this page](./payment-integrated-fsp.md)
+- Process an **instant payment** directly within the 121 Platform. A direct integration with the FSP automates the payment and reconciliation. Further instructions on [this page.](./payment-integrated-fsp.md)
 
 
 ## Overview of payment status
@@ -29,10 +29,10 @@ You can view a summary of all payments made in the course of your program and to
 
 - Having clear insights of all disbursements made along the program up to date.
 - Finance Manager and Finance Officer to keep track of payment statuses, including successful, pending and failed ones.
-- CVA Manager and CVA Officer to keep informed and follow wether or not a registration is receiving cash aid support.
+- CVA Manager and CVA Officer to keep informed and follow whether or not a registration is receiving cash aid support.
 - For donors that may want to view the ongoing payment processes and deadlines as required.
 
-Find out more about the payment and registration's statuses on [this page](./list-status-payment-page.md)
+Find out more about the payment and registration's statuses on [this page.](./list-status-payment-page.md)
 
 ---
 
@@ -40,7 +40,7 @@ Find out more about the payment and registration's statuses on [this page](./lis
 
 For **financial audit**, financial and payment reporting for all transactions can be exported as an excel file. You can track and trace any successful, pending and failed payments, and also share the reporting to donors that may require additional information about the running Cash Program.
 
-Find out more about the payment reporting and activity on [this page](./payment-reporting.md)
+Find out more about the payment reporting and activity on [this page.](./payment-reporting.md)
 
 !!! Info "TIPS: Only download excel files when required and delete after exporting / using"
     Excel files should only be downloaded when required to ensure personal data is kept secure. After use, excel files should be deleted from your computer to keep personal data secure and prevent mistakes using old files. This way, you will always have the latest updated data in 121.
@@ -67,7 +67,7 @@ You will be able to process payments with one or multiple delivery mechanisms de
 !!! info "Integration with local FSP"
     The 121 Platform has integrated with a certain number of local FSP and aggregators. Additional local FSP can be integrated upon evaluation. Please, share your request with our team.
 
-    Not all FSP can be integrated with third tool software such as the 121 Platform. This can be due to **lack of compatible technology** or for **security reasons**, which case the bank refuses to integrate with any platform providers so to protect the financial data. Therefore, if you would like to consider integrating your Financial Service Provider with the 121 Platform:
+    Not all FSP can be integrated with third tool software such as the 121 Platform. This can be due to **lack of compatible technology** or for **security reasons**, in which case the bank refuses to integrate with any platform providers so to protect the financial data. Therefore, if you would like to consider integrating your Financial Service Provider with the 121 Platform:
 
     - Check that your FSP or the bank allow integrating with third party tool or external service provider platform;
     - the FSP or the bank support API protocols. An application programming interface (API) is a way for two or more computer programs or components to communicate with each other;
