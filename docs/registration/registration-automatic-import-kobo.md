@@ -47,13 +47,13 @@ Do you see an empty list when you are in the registrations page? The registratio
 
 !!! warning "Blank page"
     In case the page is fully blank and does not show the registration table, there may be a technical issue with the link connecting with your KOBO form.
-    Please contact your dedicated Account Manager or our [support team](mailto:support@121.global) to help fixing the issue.
+    Please contact our [support team](mailto:support@121.global) to help fixing the issue.
 
 ---
 
 ### Deduplication
 
-Double entries can occur while doing registrations on-site. Deduplication can be made within 121 Platform. You can follow the steps on [this page.](./registration-deduplication.md) If you need additional explanations, contact your dedicated Account Manager or our support team via email.
+Double entries can occur while doing registrations on-site. Deduplication can be made within 121 Platform. You can follow the steps on [this page.](./registration-deduplication.md)
 
 ---
 
