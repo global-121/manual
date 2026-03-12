@@ -39,4 +39,4 @@ hide:
 
      You can discuss further details about third-party tool integration with our support team by contacting us on our [support team email](mailto:support@121.global).
 
--8<- "docs/\_snippets/contact-support.md"
+-8<- "docs/_snippets/contact-support.md"

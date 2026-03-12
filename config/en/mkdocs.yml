@@ -26,7 +26,6 @@ markdown_extensions:
   - pymdownx.snippets:
       base_path: ['.', '../../']
       check_paths: true
-
   - pymdownx.superfences
   - pymdownx.betterem
 
