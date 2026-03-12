@@ -4,16 +4,16 @@ hide:
   - toc
 ---
 
-If you lost or do not remember your password, you can contact the organisational admin of your 121 platform. They can reset your password via the Users Page as below.
+If you lost or do not remember your password, you can contact your 121 User Manager. They can reset your password via the Users Page as below.
 
 !!! Important "Who can perform actions on this page ?"
-    Organisational Admin can view and perform actions in this page.
+    User Manager can view and perform actions in this page.
 
 ---
 
 ### Reset User Password
 
-The Organisational Admin can reset users'passwords directly from the **Users page**.
+The User Manager can reset users'passwords directly from the **Users page**.
 
 - On the end of the user row, click on the **:material-dots-horizontal: three dots**,
 - Select **Reset Password**,
@@ -25,7 +25,7 @@ The Organisational Admin can reset users'passwords directly from the **Users pag
 
 ---
 
-If you are still not able to log in, contact directly your dedicated Account Manager or our support team via <support@121.global>
+If you are still not able to log in, contact our support team via <support@121.global>
 
 !!! question "Change your current password"
     You can change your current password within your 121 user profile.  

@@ -16,6 +16,7 @@ No single user can take all actions in the 121 platform. The 121 platform follow
 | **Finance Officer** | Officer for Finance operations and audit. |
 | **Finance Manager** | Manager for Finance operations, payment instructions. |
 | **View** | Portal Users who are allowed to view only and cannot perform actions. |
+| **User Manager** | The user manager can create user accounts, reset passwords and add users to program teams. |
 
 ### Permissions per role
 
@@ -60,7 +61,7 @@ No single user can take all actions in the 121 platform. The 121 platform follow
 
 ### Additional roles
 
-Additional roles and permissions can be configured upon request. Contact your dedicated Account Manager or reach out to our [support team via email](mailto:support@121.global).
+Additional roles and permissions can be configured upon request. Contact our [support team via email](mailto:support@121.global).
 
 ---
 

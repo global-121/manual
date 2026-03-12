@@ -9,7 +9,7 @@ The format to include a snippet is: (Its a pair of scissors on a line!)
 
 In any Markdon-file you can include a commonly used snippet of text.
 
--8<- "docs/_snippets/<filename-of-snippet>.md"
+\-8<- "docs/_snippets/<filename-of-snippet>.md"
 
 ```
 
