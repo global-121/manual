@@ -86,18 +86,18 @@ nav:
         - "Change current password": "general/change-current-password.md"
         - "Reset password": "general/reset-password.md"
         - "Change Language": "general/change-language.md"
-    - "Step-by-Step Guide - Prepare your CVA Project": "general/prepare-your-project.md"
+    - "Step-by-Step Guide - Prepare your CVA Program": "general/prepare-your-project.md"
     - "Users and Roles":
         - "Users page": "users/users-roles-page.md"
         - "Add User to 121": "users/add-users.md"
         - "Roles and permissions": "users/description-roles.md"
-    - "Project Settings":
-        - "Project Settings page": "Settings/project-settings-page.md"
-        - "Project Info & Settings": "Settings/project-info.md"
+    - "Program Settings":
+        - "Program Settings page": "Settings/project-settings-page.md"
+        - "Program Info & Settings": "Settings/project-info.md"
         - "Budget & Payment settings": "Settings/payment-budget-settings.md"
-        - "Manage your project team": "team/team-page.md"
+        - "Manage your program team": "team/team-page.md"
     - "Team":
-        - "Project Team page": "team/team-page.md"
+        - "Program Team page": "team/team-page.md"
         - "Add team members": "team/add-team-members.md"
         - "Change team members roles": "team/change-team-roles-program.md"
         - "Remove team members": "team/remove-team-members-program.md"

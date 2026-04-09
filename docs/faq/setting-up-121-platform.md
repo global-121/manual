@@ -113,6 +113,21 @@ hide:
 
      You can discuss further details about third-party tool integration with our technical team by contacting us on our [support team email](mailto:support@121.global).
 
+??? "10. Can we run the 121 Platform ourselves? (on-premise)"
+
+     While it is possible to run the 121 Platform on-premise (independently of NLRC 510), you must have the required experience, specific knowledge and continuous maintenance to safely run the platform. Our technical team will perform an assessment before a handover can be confirmed. In case of a positive outcome, we will be able to provide support with setting up the 121 Platform.
+    
+      There are two ways of running the 121 Platform: the NLRC 510 setup, which is on Microsoft Azure, or in another setup that can run containers.
+
+      The NLRC 510 setup requires experience with the Microsoft Azure platform, specifically in Azure App Services, Azure Static Web Apps, Azure Database for PostgreSQL, Azure Monitor, Azure Keyvault and Azure Application Insights.
+
+      The setup using containers can be done in many ways, either using a platform like Azure (so Amazon Web Services, Google Cloud, etc.) or using virtual or bare metal machines that can run containers. Choosing this latter option may require custom code modifications to the 121 Platform on which NLRC 510 can only give limited support.
+
+      Whichever way the 121 Platform is running, the following will hold: Correctly configuring and testing the connections with Financial Service Providers needs to be done independently. If FSPs or other integrations require specific network configurations (like VPNs), they will need to be configured too. Running the 121 Platform independently will also require monitoring, continued backups and alerting in case of errors. 
+
+      It is good to be aware that NLRC 510 will have no insight into the 121 Platform instance running outside of our infrastructure. This means we can only provide limited support in case of problems (errors, misconfiguration, etc.).
+
+      When choosing to run the 121 Platform on-premise, we recommend sticking close to the release schedule of the 121 Platform and deploying the latest version within at most a few days of release. Regular check-ins with the NLRC 510 are advised to ensure smooth coordination.
 ---
 
 Need further assistance? Contact your dedicated Account Manager or reach our [support team via email](mailto:support@121.global).
