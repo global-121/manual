@@ -17,7 +17,7 @@ The **Program Details metrics** translates your program requirements. The detail
 | :----------------------------------- | :-------------------------------------------------------------------------- |
 | **Title Portal**                     | Title of the program. For instance, "Multipurpose Cash" or "Joint-Response" |
 | **Start and End date**               | Information about the start and the end of your cash program                |
-| **Location**                         | Country or region in which the program takes place​                         |
+| **Location**                         | Country or region in which the program takes place​                          |
 | **Financial Service Provider (FSP)** | Number of FSP integrated or registered in your instance                     |
 | **Distribution Frequency**           | Frequency of payment emission (daily, weekly, monthly, quarterly, yearly)   |
 | **Distribution Duration**            | Number of payment rounds that will be issued over the program duration      |

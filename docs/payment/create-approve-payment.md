@@ -67,9 +67,10 @@ Once the payment has been approved by all approvers in the list, the finance man
 
 ## 4. Delete payment
 
--	You can delete payments that are pending approval. Click the :material-dots-horizontal: next to the export button at the top right of the page.
--	Deleting a payment does not affect the registrations’ status (included) or their received number of payments.
--	Users who can create payments also have permission to delete.
+- You can delete payments that are pending approval. Click the :material-dots-horizontal: next to the export button at the top right of the page.
+- Deleting a payment does not affect the registrations’ status (included) or their received number of payments.
+- Users who can create payments also have permission to delete.
+
 ---
 
 ## 5. Payment Instructions

@@ -5,5 +5,6 @@ no-hard-tabs:
   spaces_per_tab: 2
 no-multiple-blanks:
   maximum: 2
-MD007:
+ul-indent:
   indent: 4
+heading-increment: false
