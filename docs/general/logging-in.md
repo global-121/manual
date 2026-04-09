@@ -5,7 +5,7 @@ hide:
 ---
 
 !!! Note
-    Due to security reasons, you are automatically logged out of the platform after 33 hours. You can log in again with your user email and password. 
+    Due to security reasons, you are automatically logged out of the platform after 33 hours. You can log in again with your user email and password.
 
 You can log in to the 121 Platform using the link provided via email together with the credentials. This link is specific to your organisation and should be used each time you log in to the 121 Platform.
 
