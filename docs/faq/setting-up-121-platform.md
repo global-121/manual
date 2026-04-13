@@ -108,7 +108,7 @@ hide:
      - **KOBO Toolbox** for registering beneficiaries, allowing the automatic upload of beneficiaries into your 121 registration list ([see the description page](../registration/registration-automatic-import-kobo.md)). Alternative registration form tool can be integrated (API).
      - An integration with **Espo CRM** is available. Our Cash IM and technical team have experiences with Espo CRM in combination with 121 platform, particularly for complex case management. Additional requirements on hosting servers and maintenance may be discussed.
      - **A number of Financial Service Providers (FSP) in different countries** has been integrated. Further information is available [on this page](../faq/financial-service-provider.md)
-     - **Redline**, the Community Engagement Hub developed by 510 unit, that allows multichannel communication and scalable engagement and
+     - **DEH**, the Digital Engagement Hub for Community Engagement developed by 510 unit, that allows multichannel communication and scalable engagement and
      accountability.
 
      You can discuss further details about third-party tool integration with our technical team by contacting us on our [support team email](mailto:support@121.global).

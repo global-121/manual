@@ -15,13 +15,13 @@ The **first step** is to prepare **Kobo for offline verification**. It includes 
 
 ### Get the Verification Form Ready and Approved
 
-Before starting verification, you need to **tell the 121 account manager** or support team what information you need to check during verification.
+Before starting verification, you need to **tell the support team** what information you need to check during verification.
 
-The 121 support team will reach out to you to **determine the requirements for the offline verification**. Then, our support team will setup a Kobo form and share with you so that you can approve the form.
+The 121 support team will reach out to you to **determine the requirements for the offline verification**, setup a Kobo form and share with you so that you can approve the form.
 
 ### Upload 121 Data & Get ready for training
 
-Once the **form is approved**, the 121 support team will **upload all the verification data** into Kobo. After that the 121 support team will do a training of trainers session, so that you can train your volunteers or enumerators to use the form.
+Once the **form is approved**, the 121 support team will **upload all the verification data** into Kobo. After that, we will do a training of trainers session, so that you can train your volunteers or enumerators to use the form.
 
 ### Final Checks
 

@@ -44,7 +44,7 @@ For example, the program registration form may include selection criteria such a
 
 Double entries can occur while doing registration on-site. Duplicate registrations can be checked in the 121 Platform. You can follow the steps on [this page.](./registration-deduplication.md)  
 
-If you need additional explanations, contact your dedicated Account Manager or our support team via email.
+If you need additional explanations, contact our [support team via email](mailto:support@121.global).
 
 ---
 

@@ -23,7 +23,9 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.details
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      base_path: ['.', '../../']
+      check_paths: true
   - pymdownx.superfences
   - pymdownx.betterem
 
@@ -139,6 +141,7 @@ nav:
         - "Data Protection": "faq/data-protection.md"
         - "Financial Service Providers (FSP)": "faq/financial-service-provider.md"
         - "Setting-up 121 Platform": "faq/setting-up-121-platform.md"
+        - "Timeline": "faq/timeline-121-integration.md"
   - "🇳🇱 NLRC":
     - "Logging in via 2FA (2 Factor Authentication)": "nlrc/en/log-in-2fa.md"
     - "Change the language": "nlrc/en/change-language.md"

@@ -19,6 +19,3 @@ To use quick search, click the search icon (:octicons-search-16:) in the top-rig
 ## Column filtering
 
 You can filter each column in the table by clicking the filter icon (:material-filter-outline:) next to the column header.
-
-!!! info
-    To show or hide certain columns, see [Changing default columns](../pa-table/#changing-default-columns).

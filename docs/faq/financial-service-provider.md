@@ -18,10 +18,10 @@ hide:
 
 ??? "3. What is the list of available integrated FSPs and countries?"
 
-     The list of integrated Financial Service Providers (FSP) per country and related delivery methods is available [on this page](../payment/integration-fsp.md). 
-     Kindly note this list is non-exhaustive, and is continuously updated as 121 platform keeps integrating with new local FSPs following both our partners requirements and the IFRC recommendations.
+     The list of integrated Financial Service Providers (FSP) per country and related delivery methods is available upon request.
+     The 121 platform keeps integrating with new local FSPs following both our partners requirements and the IFRC recommendations.
 
-     If you would like to know our upcoming integrations or have a request for integrating your local FSP, please contact our team so we can discuss about your case and understand your approach. 
+     If you would like to know our upcoming integrations or have a request for integrating your local FSP, please contact our team.
 
 ??? "4. How long does the integration with an FSP take?"
 

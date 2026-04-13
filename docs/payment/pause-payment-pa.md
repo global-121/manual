@@ -12,6 +12,10 @@ In the course of a program, registrations status may change. You can decide to e
 
 ## Search for a registration
 
+!!! Important "These statuses cannot be changed to **Paused**"
+
+    You cannot change **Completed**, **Declined** and **Validated** status into **Paused** status.
+
 In the **Registration** page:
 
 - Go to the table view
@@ -26,7 +30,7 @@ In the **Registration** page:
 - Click on **:material-pause: Pause** status on the top of the table,
 - In the pop up window, **Approve**, and *optionally, send a message to the registration*. ![Approve Pause Status](../assets/img/PausePANotification.png)
 - The status has been changed to **Paused** ![Pause Status](../assets/img/PauseStatus.png)
-- The registration will no longer receive cash aid, unless you revert the status to **Included**
+- From **Paused** status, The registration will longer receive cash aid.
 
 You can also change the status by right-clicking the registration in the table and clicking **:material-pause: Pause** ![DropDownListStatus](../assets/img/RegistationsStatusRighList.png)
 
@@ -34,11 +38,8 @@ You can also change the status by right-clicking the registration in the table a
 
 ## Undo the action and revert the status
 
-The **Paused** status can be applied temporarily. You can restore a registration's status to **Included** by following the same steps and selecting **Include** instead.
-
-!!! Important "Completed status cannot be changed"
-
-    It is not possible to change the status of registrations whose payments have been completed. Their status will show **Completed**.
+The **Paused** status can be applied temporarily. You can restore a registration's status to multiple statuses: **Included**, **Validated** and **Declined**.
+It is not possible to restore the **Paused** status to **New** status.
 
 ---
 

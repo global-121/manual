@@ -31,6 +31,6 @@ There may be some filters applied to the table that might mean the registrations
 
 !!! warning "Blank page"
     In case the page is fully blank and does not show the registration column, there may be a technical issue.
-    Please contact your Account Manager or our [support team](mailto:support@121.global) to help fixing the issue.
+    Please contact our [support team](mailto:support@121.global) to help fixing the issue.
 
 -8<- "docs/_snippets/contact-support.md"

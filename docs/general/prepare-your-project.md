@@ -129,7 +129,7 @@ You are now fully prepared to launch your program and successfully distribute ca
 
 ## Need Support?  
 
-Please reach out to our support team at any time if you need assistance or further clarification.  
+Please reach out to our [support team via email](mailto:support@121.global) at any time if you need assistance or further clarification.  
 
 ---
 
