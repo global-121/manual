@@ -35,25 +35,19 @@ The **Monitoring page** allows users to upload attachments or files that provide
 
 To view a file:
 
-- Click on the **3 dots menu** at the end of the row,
+- Click on :material-dots-horizontal: at the end of the row,
 - Select **Download**
-
-![Delete Download Files](../assets/img/DeleteDownloadFiles.png)
 
 ---
 
-## Editing or Changing a File
+## Renaming or Deleting a File
 
-Replacing an uploaded file is not possible. If a change is required:
+- The program admin can rename an uploaded file by clicking on :material-dots-horizontal: in the Actions column and selecting ‘Change name’.
+- The program admin can delete an uploaded file by clicking on :material-dots-horizontal: in the Actions column and selecting ‘Delete’.
 
-- **Upload the updated file** as a new upload.
-- **Request** one of the following managers **to delete the old file**: Program Admin, CVA Manager, Finance Manager
-- To **delete** the file, click on the **3 dots menu** at the end of the row,
-- Select **Delete**.
+![Delete Download Files](../assets/img/RenameDeleteAttachment.png)
 
-![Delete Download Files](../assets/img/DeleteDownloadFiles.png)
-
-*No other user roles are authorized to delete files.*
+*No other user roles are authorized to rename and delete files.*
 
 ---
 

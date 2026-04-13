@@ -6,7 +6,7 @@ hide:
 
 ??? "1. Do you have FSPs directly integrated to the 121 platform?"
 
-     The 121 platform has **integrated with a number of Financial Service Provider (FSP) in different countries, allowing to instantly integrate the platform with your local FSP**. We currently have successful integrations  with local FSPs across Kenya, Ethiopia, the Netherlands and other countries. We are working on integrating with a payment aggregator that will enable us to expand coverage across 36 more African countries in the short term. 
+     The 121 platform has **integrated with a number of Financial Service Provider (FSP) in different countries, allowing to instantly integrate the platform with your local FSP**. We currently have successful integrations  with local FSPs across Kenya, Ethiopia, Zambia, the Netherlands and other countries. We have also integrated with Onafriq, a payment aggregator that enables us to expand coverage across 36 more African countries.
    
      Our team is continuously working to expand our global network to include new local FSPs and regional aggregators, to deliver a fast and reliable service across the world.
 
