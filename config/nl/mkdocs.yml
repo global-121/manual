@@ -89,3 +89,5 @@ nav:
     - "Betalingen Pauzeren": "pause-payments.md"
     - "Betalingen Beeindigen": "end-payments.md"
     - "Toegang": "access.md"
+    - "Visa kaart": "visa.md"
+
