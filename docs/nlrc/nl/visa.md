@@ -37,7 +37,6 @@ Om de VISA kaart te kunnen uitgeven moeten de volgende stappen worden doorlopen:
 ![Kaart is gekoppeld](../assets/img/nlrc/nl/Reg115Testvisakaart.png)
 
 
-
 ## VISA kaart activeren
 
 De VISA kaart moet eerst nog geactiveerd worden. Doe dat samen met de hulpvrager. Dat kan via [deze pagina](https://pages.intersolve.nl/RedCross/visa/activate).
@@ -49,6 +48,7 @@ Instructievideo’s vindt u [hier](https://www.rodekruis.nl/wat-doen-wij/hulp-in
 Lukt het niet om de kaart te koppelen? Dat kan twee redenen hebben: Het kaartnummer is al aan een andere hulpvrager gekoppeld of het kaartnummer bestaat niet.
 
 ## Het kaartnummer is al gekoppeld
+
 1. Controleer het kaartnummer.
 2. Klopt het nummer maar krijg je nog steeds een foutmelding? Pak dan een andere kaart en probeer het opnieuw.
 3. Geef ook door aan je contactpersoon van het Rode Kruis dat het kaartnummer al gebruikt is. Zij kunnen dan controleren aan welke hulpvrager de kaart is gekoppeld.
@@ -56,6 +56,7 @@ Lukt het niet om de kaart te koppelen? Dat kan twee redenen hebben: Het kaartnum
 ![Foutmelding kaart](../assets/img/nlrc/nl/FoutVisacard.png)
 
 ## Het kaartnummer wordt niet herkend
+
 1. Controleer het kaartnummer.
 2. Klopt het nummer maar krijg je nog steeds een foutmelding? Pak dan een andere kaart en probeer het opnieuw.
 3. Geef ook door aan je contactpersoon van het Rode Kruis dat de kaart een foutmelding geeft tijdens het koppelen.
