@@ -18,6 +18,7 @@
   - icon tokens like `:material-...:`
   - snippet includes like `-8<- "docs/.../_snippets/..."`
 - Keep relative links valid for the target language folder.
+- Ensure the language specific mkdocs config file in ./config is updated with any new pages or renamed files.
 
 ## Field-specific terminology and glossary
 
