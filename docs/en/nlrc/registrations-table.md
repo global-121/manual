@@ -11,12 +11,12 @@ After logging into 121, you will see data of people registered through your orga
 - **Reg. #:** Unique number per person
 - **Name:** The person's name as entered in the Kobo form
 - **Registration Status:**
-    - **New:** Person is signed up, but registration is not yet validated or rejected
-    - **Validated:** Registration is confirmed but not yet activated for payments
-    - **Declined:** No assistance granted
-    - **Included:** Registration is validated and activated; weekly grocery vouchers are sent
-    - **Paused:** Temporary stop on payments
-    - **Completed:** Assistance has ended
+  - **New:** Person is signed up, but registration is not yet validated or rejected
+  - **Validated:** Registration is confirmed but not yet activated for payments
+  - **Declined:** No assistance granted
+  - **Included:** Registration is validated and activated; weekly grocery vouchers are sent
+  - **Paused:** Temporary stop on payments
+  - **Completed:** Assistance has ended
 - **Phone Number:** As entered in the Kobo form
 - **Number of Payments:** Number of payments the person has received
 - **Maximum Payments:** Total number of grocery vouchers the person can receive

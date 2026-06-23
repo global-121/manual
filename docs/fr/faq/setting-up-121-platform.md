@@ -22,13 +22,13 @@ hide:
 
      Pour clarifier davantage, le soutien requis pour utiliser la plateforme 121 peut être divisé en quatre phases distinctes :
 
-     - **Configuration initiale** : La plateforme est conçue pour un déploiement rapide avec un soutien minimal nécessaire. Elle peut être opérationnelle dans 7 jours ouvrables à la demande, ce qui comprend la validation et la création du formulaire KOBO, la configuration de l'instance, la création de comptes d'utilisateur et l'ajout de programmes. Si des intégrations spécifiques sont requises, le délai peut varier en fonction de leur complexité.
+    - **Configuration initiale** : La plateforme est conçue pour un déploiement rapide avec un soutien minimal nécessaire. Elle peut être opérationnelle dans 7 jours ouvrables à la demande, ce qui comprend la validation et la création du formulaire KOBO, la configuration de l'instance, la création de comptes d'utilisateur et l'ajout de programmes. Si des intégrations spécifiques sont requises, le délai peut varier en fonction de leur complexité.
 
-     - **Intégration des utilisateurs et formation** : Les nouveaux utilisateurs peuvent rapidement apprendre à naviguer dans la plateforme, indépendamment de leur littératie numérique. Nous offrons 2 jours de formation pour les équipes CVA, IT, Finance et PMER, ainsi qu'un manuel utilisateur en ligne pour tous les membres de l'équipe, des travailleurs sur le terrain au personnel de bureau.
+    - **Intégration des utilisateurs et formation** : Les nouveaux utilisateurs peuvent rapidement apprendre à naviguer dans la plateforme, indépendamment de leur culture numérique. Nous offrons 2 jours de formation pour les équipes CVA, IT, Finance et PMER, ainsi qu'un manuel utilisateur en ligne pour tous les membres de l'équipe, des travailleurs sur le terrain au personnel de bureau.
 
-     - **Support opérationnel** : Un support continu est disponible pour tout défi opérationnel ou question, garantissant que la plateforme reste efficace tout au long de son utilisation.
+    - **Support opérationnel** : Un support continu est disponible pour tout défi opérationnel ou question, garantissant que la plateforme reste efficace tout au long de son utilisation.
 
-     - **Scalabilité et adaptation** : Au fur et à mesure que la plateforme s'étend ou s'adapte à de nouveaux contextes, une assistance peut être nécessaire pour ajuster les paramètres ou élargir l'utilisation, garantissant qu'elle continue de répondre aux besoins des utilisateurs à mesure que les programmes se développent ou changent.
+    - **Évolutivité et adaptation** : Au fur et à mesure que la plateforme s'étend ou s'adapte à de nouveaux contextes, une assistance peut être nécessaire pour ajuster les paramètres ou élargir l'utilisation, garantissant qu'elle continue de répondre aux besoins des utilisateurs à mesure que les programmes se développent ou changent.
 
 
 ??? "3. Quelles sont les exigences minimales pour utiliser 121 ?"
@@ -56,7 +56,7 @@ hide:
      2. **Coûts de tiers**
      Ces frais sont facturés par des services externes utilisés aux côtés de la plateforme 121, y compris :
 
-         - **Prestataires de services financiers (PSF)** : Les frais de transaction varient selon le pays ; la plateforme 121 ne négocie pas ces tarifs.
+        - **Prestataires de services financiers (PSF)** : Les frais de transaction varient selon le pays ; la plateforme 121 ne négocie pas ces tarifs.
 
         - **Outils de collecte de données (Kobo Toolbox)** : Gratuit pour les Sociétés nationales, mais les partenaires en dehors du Mouvement RCRC peuvent encourir des coûts. Les partenaires doivent vérifier directement auprès de Kobo.
 
@@ -105,10 +105,10 @@ hide:
 
      La plateforme 121 s'est déjà intégrée à un certain nombre d'outils les plus utilisés dans le secteur humanitaire. 
      
-     - **KOBO Toolbox** pour enregistrer les bénéficiaires, permettant le téléchargement automatique des bénéficiaires dans votre liste d'enregistrement 121 ([voir la page de description](../registration/registration-automatic-import-kobo.md)). L'outil alternatif de formulaire d'enregistrement peut être intégré (API).
-     - Une intégration avec **Espo CRM** est disponible. Notre équipe CVA IM et technique a de l'expérience avec Espo CRM en combinaison avec la plateforme 121, particulièrement pour la gestion de cas complexes. Des exigences supplémentaires sur les serveurs d'hébergement et la maintenance peuvent être discutées.
-     - **Un certain nombre de prestataires de services financiers (PSF) dans différents pays** a été intégré. Plus d'informations sont disponibles [sur cette page](../faq/financial-service-provider.md)
-     - **DEH**, le hub numérique d'engagement communautaire pour l'engagement communautaire développé par l'unité 510, qui permet la communication multicanal et l'engagement et l'accountability scalables.
+    - **KOBO Toolbox** pour enregistrer les bénéficiaires, permettant le téléchargement automatique des bénéficiaires dans votre liste d'enregistrement 121 ([voir la page de description](../registration/registration-automatic-import-kobo.md)). L'outil alternatif de formulaire d'enregistrement peut être intégré (API).
+    - Une intégration avec **Espo CRM** est disponible. Notre équipe CVA IM et technique a de l'expérience avec Espo CRM en combinaison avec la plateforme 121, particulièrement pour la gestion de cas complexes. Des exigences supplémentaires sur les serveurs d'hébergement et la maintenance peuvent être discutées.
+    - **Un certain nombre de prestataires de services financiers (PSF) dans différents pays** a été intégré. Plus d'informations sont disponibles [sur cette page](../faq/financial-service-provider.md)
+    - **DEH**, le hub numérique d'engagement communautaire pour l'engagement communautaire développé par l'unité 510, qui permet la communication multicanal et engagement et responsabilisation évolutives.
 
      Vous pouvez discuter de plus amples détails sur l'intégration d'outils tiers avec notre équipe technique en nous contactant sur notre [adresse e-mail de l'équipe d'assistance](mailto:support@121.global).
 

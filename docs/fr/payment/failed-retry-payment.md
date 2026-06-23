@@ -62,7 +62,7 @@ Une fois que vous avez identifié la raison, vous pouvez procéder au retry des 
 
 ![Approuver le retry du paiement](../assets/img/RetryPaymentConfirm.png)
 
-- La transaction sera automatiquement reessayée pour les enregistrements sélectionnés identifiés avec un statut de **paiement échoué** ;
+- La transaction sera automatiquement réessayée pour les enregistrements sélectionnés identifiés avec un statut de **paiement échoué** ;
 - Le statut de paiement sera mis à jour.
 
 !!! import "Retry basé sur vos méthodes de paiement"

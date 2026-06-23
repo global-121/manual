@@ -52,6 +52,7 @@ Une fois que vous avez calculé les coûts totaux, vous pouvez recharger votre c
 ---
 
 <a id="formatage-des-num%C3%A9ros-de-t%C3%A9l%C3%A9phone-dans-kobo"></a>
+
 ### Formatage des numéros de téléphone dans Kobo
 
 Les numéros de téléphone doivent être entrés au format international. Cela signifie commencer par l'indicatif régional, suivi du reste du numéro sans le zéro initial. Par exemple, un numéro de téléphone en République démocratique du Congo (RDC) comme 0900887766 devrait être écrit comme 243900887766 — où 243 est l'indicatif régional et le 0 initial est supprimé.
@@ -66,11 +67,13 @@ Les numéros de téléphone doivent être entrés au format international. Cela 
 ---
 
 <a id="envoyer-un-message-aux-individus-enregistr%C3%A9s"></a>
+
 ### Envoyer un message aux individus enregistrés
 
 Vous pouvez choisir d'envoyer un message à un seul ou plusieurs enregistrements sélectionnés. Vous pouvez utiliser soit un message personnalisé, soit un modèle prédéfini. Voir ci-dessous pour les différences et les directives d'utilisation recommandées.
 
 <a id="message-personnalis%C3%A9"></a>
+
 ### Message personnalisé
 
 Sur la **page d'enregistrement**:
@@ -90,6 +93,7 @@ Sur la **page d'enregistrement**:
     *Les variables correspondent à vos champs kobo et peuvent différer par programme.*
 
 <a id="messages-mod%C3%A8les-pr%C3%A9d%C3%A9finis"></a>
+
 ### Messages modèles prédéfinis
 
 Si vous avez l'intention d'envoyer des messages à différents stades du programme, vous pouvez ajouter des modèles de messages à votre instance. Pour ce faire, fournissez le contenu du message avec un titre et spécifiez quand le message doit être déclenché. Notre équipe d'assistance les configurera. Il y a 2 options pour envoyer des messages modèles:

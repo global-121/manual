@@ -17,6 +17,7 @@ Les paiements sont créés et lancés à partir de la **page Paiements**. Chaque
     Les utilisateurs supplémentaires peuvent ne recevoir que la permission **Affichage** sur cette page. [En savoir plus sur Utilisateurs et rôles](../users/users-roles-page.md)
 
 <a id="1-cr%C3%A9er-une-demande-de-paiement"></a>
+
 ## 1. Créer une demande de paiement
 
 Pour lancer une nouvelle demande de paiement :
@@ -25,8 +26,8 @@ Pour lancer une nouvelle demande de paiement :
 - Une page s'affichera avec une liste d'enregistrements **inclus** dans le programme.
   *Seuls les enregistrements avec le statut **Inclus** qui n'ont pas encore reçu tous leurs versements apparaîtront dans la liste. Les enregistrements qui ont reçu et complété tous leurs paiements ne seront pas affichés.* ![Liste de sélection](../assets/img/CreateNewpaymentSelect.png)
 - **Sélectionnez la liste des enregistrements à ajouter** au tour de paiement comme suit.
-    - Faites une **sélection individuelle** en cliquant sur la :material-checkbox-outline: sur la ligne d'enregistrement individuelle ;
-    - Ou faites une **sélection en masse** en cliquant sur la :material-checkbox-multiple-marked-outline: sur la ligne du tableau supérieur **Sélectionner**
+  - Faites une **sélection individuelle** en cliquant sur la :material-checkbox-outline: sur la ligne d'enregistrement individuelle ;
+  - Ou faites une **sélection en masse** en cliquant sur la :material-checkbox-multiple-marked-outline: sur la ligne du tableau supérieur **Sélectionner**
 - En bas à droite, cliquez sur **Ajouter au paiement** ; ![Ajouter au paiement](../assets/img/StartPayment.png)
 - Confirmez les informations de paiement ;
 - Cliquez sur **Créer un paiement**.

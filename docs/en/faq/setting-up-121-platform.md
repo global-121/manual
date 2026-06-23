@@ -22,13 +22,13 @@ hide:
 
      To further clarify, the support required to use the 121 Platform can be divided into four distinct phases:
 
-     - **Initial Setup**: The platform is designed for quick deployment with minimal support needed. It can be operational within 7 business days upon request, which includes validating and creating the KOBO form, setting up the instance, creating user accounts, and adding programs. If specific integrations are required, the timeline may vary based on their complexity.
+    - **Initial Setup**: The platform is designed for quick deployment with minimal support needed. It can be operational within 7 business days upon request, which includes validating and creating the KOBO form, setting up the instance, creating user accounts, and adding programs. If specific integrations are required, the timeline may vary based on their complexity.
 
-     - **User Onboarding and Training**: New users can quickly learn to navigate the platform, regardless of their digital literacy. We provide 2 days of training for the CVA, IT, Finance and PMER teams, along with an online user manual for all team members, from on site workers to office staff.
+    - **User Onboarding and Training**: New users can quickly learn to navigate the platform, regardless of their digital literacy. We provide 2 days of training for the CVA, IT, Finance and PMER teams, along with an online user manual for all team members, from on site workers to office staff.
 
-     - **Operational Support**: Ongoing support is available for any operational challenges or questions, ensuring the platform remains effective throughout its use.
+    - **Operational Support**: Ongoing support is available for any operational challenges or questions, ensuring the platform remains effective throughout its use.
 
-     - **Scalability and Adaptation**: As the platform scales or adapts to new contexts, support may be needed to adjust settings or expand usage, ensuring it continues to meet user needs as programs grow or change.
+    - **Scalability and Adaptation**: As the platform scales or adapts to new contexts, support may be needed to adjust settings or expand usage, ensuring it continues to meet user needs as programs grow or change.
 
 
 ??? "3. What are the minimum requirements for using 121?"
@@ -56,7 +56,7 @@ hide:
      2. **Third-Party Costs**
      These fees are charged by external services used alongside the 121 Platform, including:
 
-         - **Financial Service Providers (FSP)**: Transaction fees vary by country; the 121 Platform does not negotiate these rates.
+        - **Financial Service Providers (FSP)**: Transaction fees vary by country; the 121 Platform does not negotiate these rates.
 
         - **Data Collection Tools (Kobo Toolbox)**: Free for National Societies, but partners outside the RCRC Movement may incur costs. Partners should check directly with Kobo.
 
@@ -105,11 +105,10 @@ hide:
 
      121 platform has already integrated with a certain number of most used tools in the humanitarian sector. 
      
-     - **KOBO Toolbox** for registering beneficiaries, allowing the automatic upload of beneficiaries into your 121 registration list ([see the description page](../registration/registration-automatic-import-kobo.md)). Alternative registration form tool can be integrated (API).
-     - An integration with **Espo CRM** is available. Our Cash IM and technical team have experiences with Espo CRM in combination with 121 platform, particularly for complex case management. Additional requirements on hosting servers and maintenance may be discussed.
-     - **A number of Financial Service Providers (FSP) in different countries** has been integrated. Further information is available [on this page](../faq/financial-service-provider.md)
-     - **DEH**, the Digital Engagement Hub for Community Engagement developed by 510 unit, that allows multichannel communication and scalable engagement and
-     accountability.
+    - **KOBO Toolbox** for registering beneficiaries, allowing the automatic upload of beneficiaries into your 121 registration list ([see the description page](../registration/registration-automatic-import-kobo.md)). Alternative registration form tool can be integrated (API).
+    - An integration with **Espo CRM** is available. Our Cash IM and technical team have experiences with Espo CRM in combination with 121 platform, particularly for complex case management. Additional requirements on hosting servers and maintenance may be discussed.
+    - **A number of Financial Service Providers (FSP) in different countries** has been integrated. Further information is available [on this page](../faq/financial-service-provider.md)
+    - **DEH**, the Digital Engagement Hub for Community Engagement developed by 510 unit, that allows multichannel communication and scalable engagement and accountability.
 
      You can discuss further details about third-party tool integration with our technical team by contacting us on our [support team email](mailto:support@121.global).
 

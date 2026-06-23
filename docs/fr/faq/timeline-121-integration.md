@@ -31,10 +31,10 @@ hide:
 
      La plateforme 121 s'est déjà intégrée à un certain nombre d'outils les plus utilisés dans le secteur humanitaire.
 
-     - **KOBO Toolbox** pour enregistrer les bénéficiaires, permettant le téléchargement automatique des bénéficiaires dans votre liste d'enregistrement 121 ([voir la page de description](../registration/registration-automatic-import-kobo.md)). L'outil alternatif de formulaire d'enregistrement peut être intégré (API).
-     - Une intégration avec **Espo CRM** est disponible. Notre équipe CVA IM et technique a de l'expérience avec Espo CRM en combinaison avec la plateforme 121, particulièrement pour la gestion de cas complexes. Des exigences supplémentaires sur les serveurs d'hébergement et la maintenance peuvent être discutées.
-     - **Un certain nombre de prestataires de services financiers (PSF) dans différents pays** a été intégré. Plus d'informations sont disponibles [sur cette page](../faq/financial-service-provider.md)
-     - **DEH**, le hub numérique d'engagement communautaire pour l'engagement communautaire développé par l'unité 510, qui permet la communication multicanal et l'engagement et l'accountability scalables.
+    - **KOBO Toolbox** pour enregistrer les bénéficiaires, permettant le téléchargement automatique des bénéficiaires dans votre liste d'enregistrement 121 ([voir la page de description](../registration/registration-automatic-import-kobo.md)). L'outil alternatif de formulaire d'enregistrement peut être intégré (API).
+    - Une intégration avec **Espo CRM** est disponible. Notre équipe CVA IM et technique a de l'expérience avec Espo CRM en combinaison avec la plateforme 121, particulièrement pour la gestion de cas complexes. Des exigences supplémentaires sur les serveurs d'hébergement et la maintenance peuvent être discutées.
+    - **Un certain nombre de prestataires de services financiers (PSF) dans différents pays** a été intégré. Plus d'informations sont disponibles [sur cette page](../faq/financial-service-provider.md)
+    - **DEH**, le hub numérique d'engagement communautaire pour l'engagement communautaire développé par l'unité 510, qui permet la communication multicanal et engagement et responsabilisation évolutives.
 
      Vous pouvez discuter de plus amples détails sur l'intégration d'outils tiers avec notre équipe d'assistance en nous contactant sur notre [adresse e-mail de l'équipe d'assistance](mailto:support@121.global).
 

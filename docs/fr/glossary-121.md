@@ -16,6 +16,7 @@ Une liste des termes clés utilisés dans la plateforme 121.
   - [Cartes de débit (spécifique à Visa)](#cartes-de-d%C3%A9bit-sp%C3%A9cifique-%C3%A0-visa)
 
 <a id="termes-g%C3%A9n%C3%A9raux"></a>
+
 ## Termes généraux
 
 | Terme | Définition |
@@ -39,6 +40,7 @@ Une liste des termes clés utilisés dans la plateforme 121.
 | **Se déconnecter** | Comment un utilisateur peut conclure son utilisation de la plateforme. |
 
 <a id="pages"></a>
+
 ### Pages
 
 | Terme | Définition |
@@ -56,6 +58,7 @@ Une liste des termes clés utilisés dans la plateforme 121.
 
 
 <a id="cartes-du-programme"></a>
+
 ### Cartes du programme
 
 | Terme | Définition |
@@ -69,6 +72,7 @@ Une liste des termes clés utilisés dans la plateforme 121.
 | **Archivé** | Au lieu de supprimer, l'utilisateur peut archiver un programme, il n'est pas actif mais ses détails sont toujours disponibles pour être visualisés et peuvent être copiés. |
 
 <a id="cr%C3%A9er-un-nouveau-programme"></a>
+
 ### Créer un nouveau programme
 
 | Terme | Définition |
@@ -78,6 +82,7 @@ Une liste des termes clés utilisés dans la plateforme 121.
 | **Mappage de données** | Synchroniser le fichier kobo/csv dans la table de données sur laquelle vous exécuterez le programme. |
 
 <a id="statut-d%27enregistrement"></a>
+
 ### Statut d'enregistrement
 
 | Terme | Définition |
@@ -91,6 +96,7 @@ Une liste des termes clés utilisés dans la plateforme 121.
 | **En pause** | L'enregistrement n'est actuellement pas inclus dans les paiements mais fait toujours partie du programme. |
 
 <a id="paiements"></a>
+
 ### Paiements
 
 | Terme | Définition |
@@ -105,6 +111,7 @@ Une liste des termes clés utilisés dans la plateforme 121.
 
 
 <a id="statuts-de-transfert"></a>
+
 ### Statuts de transfert
 
 | Terme | Définition |
@@ -115,6 +122,7 @@ Une liste des termes clés utilisés dans la plateforme 121.
 
 
 <a id="cartes-de-d%C3%A9bit-sp%C3%A9cifique-%C3%A0-visa"></a>
+
 ### Cartes de débit (spécifique à Visa)
 
 | Terme | Définition |

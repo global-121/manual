@@ -24,8 +24,8 @@ To initiate a new payment request:
 - A page will open displaying a list of registrations **included** in the program.
   *Only registrations with **Included** status who have not yet received all their installments will appear in the list. Registrations who have received and completed all their payments will not be shown.* ![Select List](../assets/img/CreateNewpaymentSelect.png)
 - **Select the list of registrations to be added** to the payment round as follows.
-    - Make an **individual selection** by clicking on the :material-checkbox-outline: on the individual registration line;
-    - Or do a **bulk selection** by clicking on the :material-checkbox-multiple-marked-outline: on the upper table line **Select**
+  - Make an **individual selection** by clicking on the :material-checkbox-outline: on the individual registration line;
+  - Or do a **bulk selection** by clicking on the :material-checkbox-multiple-marked-outline: on the upper table line **Select**
 - On the bottom right, click **Add to payment**; ![Add to Payment](../assets/img/StartPayment.png)
 - Confirm the payment information;
 - Click on **Create payment**.

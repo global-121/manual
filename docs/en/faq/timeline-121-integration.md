@@ -31,11 +31,10 @@ hide:
 
      121 platform has already integrated with a certain number of most used tools in the humanitarian sector.
 
-     - **KOBO Toolbox** for registering beneficiaries, allowing the automatic upload of beneficiaries into your 121 registration list ([see the description page](../registration/registration-automatic-import-kobo.md)). Alternative registration form tool can be integrated (API).
-     - An integration with **Espo CRM** is available. Our Cash IM and technical team have experiences with Espo CRM in combination with 121 platform, particularly for complex case management. Additional requirements on hosting servers and maintenance may be discussed.
-     - **A number of Financial Service Provider (FSP) in different countries** has been integrated. Further information are available [on this page](../faq/financial-service-provider.md)
-     - **DEH**, the Digital Community Engagement Hub developed by 510 unit, that allows multichannel communication and scalable engagement and
-     accountability.
+    - **KOBO Toolbox** for registering beneficiaries, allowing the automatic upload of beneficiaries into your 121 registration list ([see the description page](../registration/registration-automatic-import-kobo.md)). Alternative registration form tool can be integrated (API).
+    - An integration with **Espo CRM** is available. Our Cash IM and technical team have experiences with Espo CRM in combination with 121 platform, particularly for complex case management. Additional requirements on hosting servers and maintenance may be discussed.
+    - **A number of Financial Service Provider (FSP) in different countries** has been integrated. Further information are available [on this page](../faq/financial-service-provider.md)
+    - **DEH**, the Digital Community Engagement Hub developed by 510 unit, that allows multichannel communication and scalable engagement and accountability.
 
      You can discuss further details about third-party tool integration with our support team by contacting us on our [support team email](mailto:support@121.global).
 
