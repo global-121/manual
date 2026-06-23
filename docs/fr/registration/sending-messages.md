@@ -21,6 +21,7 @@ Il existe une option pour envoyer des **messages sortants** via SMS ou WhatsApp 
 ---
 
 <a id="cr%C3%A9er-un-compte-twilio"></a>
+
 ### Créer un compte Twilio
 
 L'équipe 121 vous aidera à créer votre compte. Si vous n'avez pas de compte, veuillez contacter notre équipe pour obtenir du soutien. Twilio vous demandera d'ajouter une méthode de paiement afin que les fonds puissent être automatiquement rechargés ou ajoutés selon les besoins.
@@ -32,6 +33,7 @@ Une fois que votre compte Twilio est actif, l'équipe d'assistance 121 le liera 
 ---
 
 <a id="recharger-avant-d%27envoyer-des-messages"></a>
+
 ### Recharger avant d'envoyer des messages
 
 Vous pouvez vous connecter à votre compte Twilio chaque fois que vous avez besoin de recharger votre compte.

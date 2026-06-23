@@ -13,18 +13,18 @@ Les **Métriques des détails du programme** traduisent vos exigences de program
 
 ![Détails du programme](https://raw.githubusercontent.com/global-121/121-platform/main/e2e/tests/__screenshots__/UserManualScreenshots/userManualScreenshots.spec.ts/ProgramDetails.png)
 
-| Type                                 | Description                                                                 |
-| :----------------------------------- | :-------------------------------------------------------------------------- |
-| **Titre Portal**                     | Titre du programme. Par exemple, "Aide en espèces polyvalente" ou "Réponse conjointe" |
-| **Date de début et de fin**               | Information sur le début et la fin de votre programme d'aide en espèces                |
-| **Emplacement**                         | Pays ou région dans lequel le programme se déroule​                          |
-| **Fournisseur de services financiers (FSP)** | Nombre de FSP intégrés ou enregistrés dans votre instance                     |
-| **Fréquence de distribution**           | Fréquence d'émission des paiements (quotidienne, hebdomadaire, mensuelle, trimestrielle, annuelle)   |
-| **Durée de distribution**            | Nombre de cycles de paiement qui seront émis pendant la durée du programme      |
-| **Valeur de transfert**                   | Nombre de FSP intégrés ou enregistrés dans votre instance                     |
-| **Budget total du projet**             | Nombre de FSP intégrés ou enregistrés dans votre instance                     |
-| **PA ciblées**                      | Nombre total de bénéficiaires ciblés par ce programme             |
-| **Dernière mise à jour + Date**              | Date et heure de la dernière mise à jour du tableau                              |
+| Type                                         | Description                                                                                           |
+| :------------------------------------------- | :---------------------------------------------------------------------------------------------------- |
+| **Titre Portal**                             | Titre du programme. Par exemple, "Aide en espèces polyvalente" ou "Réponse conjointe"                 |
+| **Date de début et de fin**                  | Information sur le début et la fin de votre programme d'aide en espèces                               |
+| **Emplacement**                              | Pays ou région dans lequel le programme se déroule                                                    |
+| **Fournisseur de services financiers (FSP)** | Nombre de FSP intégrés ou enregistrés dans votre instance                                             |
+| **Fréquence de distribution**                | Fréquence d'émission des paiements (quotidienne, hebdomadaire, mensuelle, trimestrielle, annuelle)    |
+| **Durée de distribution**                    | Nombre de cycles de paiement qui seront émis pendant la durée du programme                            |
+| **Valeur de transfert**                      | Nombre de FSP intégrés ou enregistrés dans votre instance                                             |
+| **Budget total du projet**                   | Nombre de FSP intégrés ou enregistrés dans votre instance                                             |
+| **PA ciblées**                               | Nombre total de bénéficiaires ciblés par ce programme                                                 |
+| **Dernière mise à jour + Date**              | Date et heure de la dernière mise à jour du tableau                                                   |
 
 ### Modifier les métriques des détails du programme
 

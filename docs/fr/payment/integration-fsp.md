@@ -10,14 +10,14 @@ hide:
 
 ### Liste des PSF locaux intégrés à la plateforme 121
 
-| Pays                      | Nom du PSF                    | Méthodes de livraison activées    |
-| :--------------------------- | :-------------------------- | :-------------------------- |
-| Kenya                        | MPESA Safaricom             | Monnaie mobile                |
-| Éthiopie                     | Banque commerciale d'Éthiopie | Virement bancaire               |
-| Pays-Bas              | Intersolve                  | Cartes de débit VISA, eVouchers |
-| Afrique du Sud                     | MTN                         | Portail PSF                  |
-| Zambie                       | MTN                         | Portail PSF                  |
-| République Démocratique du Congo | VodaCash                    | Portail PSF                  |
+| Pays                            | Nom du PSF                    | Méthodes de livraison activées    |
+| :------------------------------ | :---------------------------- | :-------------------------------- |
+| Kenya                           | MPESA Safaricom               | Monnaie mobile                    |
+| Éthiopie                        | Banque commerciale d'Éthiopie | Virement bancaire                 |
+| Pays-Bas                        | Intersolve                    | Cartes de débit VISA, eVouchers.  |
+| Afrique du Sud                  | MTN                           | Portail PSF                       |
+| Zambie                          | MTN                           | Portail PSF                       |
+| République Démocratique du Congo| VodaCash                      | Portail PSF                       |
 
 
 !!! info "Agrégateur"

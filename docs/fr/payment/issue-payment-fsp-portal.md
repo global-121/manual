@@ -30,8 +30,8 @@ Pour lancer un nouveau paiement :
 ![Liste de sélection](../assets/img/CreateNewpaymentSelect.png)
 
 - **Sélectionnez la liste des enregistrements à ajouter** au tour de paiement comme suit.
-    - Faites une **sélection individuelle** en cliquant sur la :material-checkbox-outline: sur la ligne d'enregistrement individuelle ;
-    - Ou faites une **sélection en masse** en cliquant sur la :material-checkbox-multiple-marked-outline: sur la ligne du tableau supérieur **Sélectionner** ;
+  - Faites une **sélection individuelle** en cliquant sur la :material-checkbox-outline: sur la ligne d'enregistrement individuelle ;
+  - Ou faites une **sélection en masse** en cliquant sur la :material-checkbox-multiple-marked-outline: sur la ligne du tableau supérieur **Sélectionner** ;
 - En bas à droite, cliquez sur **Ajouter au paiement** ;
 
 ![Ajouter au paiement](../assets/img/StartPayment.png)

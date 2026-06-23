@@ -21,8 +21,8 @@ Pour marquer les enregistrements comme **refusés**:
 - Allez à la **page d'enregistrements**;
 - Filtrez la liste d'enregistrements sur **l'état**, sélectionnez **Nouveau** et **Appliquez**. *cette action est pour s'assurer que vous sélectionnez uniquement l'état **enregistré**;* ![Filtre d'état d'enregistrement](../assets/img/RegisteredStatusFilter.png)
 - Vous pouvez:
-    - Faire une **sélection individuelle** en cliquant sur la case à cocher :material-checkbox-outline: sur la ligne d'enregistrement;
-    - Faire une **sélection en masse** en cliquant sur :material-checkbox-multiple-marked-outline: sur la ligne supérieure **Sélectionner**;
+  - Faire une **sélection individuelle** en cliquant sur la case à cocher :material-checkbox-outline: sur la ligne d'enregistrement;
+  - Faire une **sélection en masse** en cliquant sur :material-checkbox-multiple-marked-outline: sur la ligne supérieure **Sélectionner**;
 - En haut du tableau, cliquez sur le bouton **:fontawesome-solid-ban: Refuser**;
 - Une fenêtre contextuelle apparaît pour confirmer votre action **Vous êtes sur le point de refuser X enregistrements. Cela signifie qu'ils ne seront pas inclus dans les paiements;**
 - Cliquez sur **Approuver**. Un message indique la fin de l'action.

@@ -20,8 +20,8 @@ To mark the registrations as **included**:
 - go to the **Registrations Page**;
 - Filter the list of registrations on **status**, select **New** and **Apply**. *This action is to make sure you select only **New** status;* ![Filter Status Register](../assets/img/RegisteredStatusFilter.png)
 - You can:
-    - Make an **individual selection** by clicking on the :material-checkbox-outline: on the PA line;
-    - Make a **bulk selection** by clicking on the :material-checkbox-multiple-marked-outline: on the upper line **Select**;
+  - Make an **individual selection** by clicking on the :material-checkbox-outline: on the PA line;
+  - Make a **bulk selection** by clicking on the :material-checkbox-multiple-marked-outline: on the upper line **Select**;
 - On the top of the table, click **:octicons-check-16: Include** button;
 - A pop-up appears to confirm your action **You're about to include X registrations. This means that they can be included in payments;**
 - Click on **Approve**. A message indicates the completion of the action;

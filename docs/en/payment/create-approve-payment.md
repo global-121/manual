@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-Payments are created and initiated from the **Payments** page. Each payment must first be approved by an approver before it can be started. Below are the three main steps to create, approve, and start a payment in your progam, before payment instructions are shared to the FSP.
+Payments are created and initiated from the **Payments** page. Each payment must first be approved by an approver before it can be started. Below are the three main steps to create, approve, and start a payment in your program, before payment instructions are shared to the FSP.
 
 - [1. Create a payment request](#1-create-a-payment-request)
 - [2. Approve payments](#2-approve-payments)

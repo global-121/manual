@@ -11,12 +11,12 @@ Na het [inloggen](../log-in-2fa), zie je gegevens van mensen die via jouw organi
 - **Reg. #:** Uniek nummer per persoon
 - **Naam:** De naam van de persoon, zoals ingevuld in het Kobo-formulier
 - **Registratiestatus:**
-    - **Geregistreerd:** Persoon is aangemeld, maar de registratie is nog niet goedgekeurd of afgewezen
-    - **Goedgekeurd:** Aanmelding is bevestigd, maar de registratie moet nog worden geactiveerd om te kunnen betalen
-    - **Afgewezen:** Geen hulp toegekend
-    - **Actief:** Registratie is goedgekeurd en geactiveerd; er wordt wekelijks hulp verstuurd
-    - **Gepauzeerd:** Tijdelijke stop op betalingen
-    - **Voltooid:** Hulp is afgerond
+  - **Geregistreerd:** Persoon is aangemeld, maar de registratie is nog niet goedgekeurd of afgewezen
+  - **Goedgekeurd:** Aanmelding is bevestigd, maar de registratie moet nog worden geactiveerd om te kunnen betalen
+  - **Afgewezen:** Geen hulp toegekend
+  - **Actief:** Registratie is goedgekeurd en geactiveerd; er wordt wekelijks hulp verstuurd
+  - **Gepauzeerd:** Tijdelijke stop op betalingen
+  - **Voltooid:** Hulp is afgerond
 - **Telefoonnummer:** Zoals ingevuld in het Kobo-formulier
 - **Aantal betalingen:** Het aantal betalingen dat de persoon heeft ontvangen
 - **Maximale betalingen:** Het totaal aantal betalingen dat de persoon kan ontvangen

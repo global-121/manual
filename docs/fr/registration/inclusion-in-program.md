@@ -20,8 +20,8 @@ Pour marquer les enregistrements comme **inclus**:
 - allez à la **page d'enregistrements**;
 - Filtrez la liste d'enregistrements sur **l'état**, sélectionnez **Nouveau** et **Appliquez**. *Cette action est pour s'assurer que vous sélectionnez uniquement l'état **Nouveau**;* ![Filtre d'état d'enregistrement](../assets/img/RegisteredStatusFilter.png)
 - Vous pouvez:
-    - Faire une **sélection individuelle** en cliquant sur la case à cocher :material-checkbox-outline: sur la ligne du bénéficiaire;
-    - Faire une **sélection en masse** en cliquant sur :material-checkbox-multiple-marked-outline: sur la ligne supérieure **Sélectionner**;
+  - Faire une **sélection individuelle** en cliquant sur la case à cocher :material-checkbox-outline: sur la ligne du bénéficiaire;
+  - Faire une **sélection en masse** en cliquant sur :material-checkbox-multiple-marked-outline: sur la ligne supérieure **Sélectionner**;
 - En haut du tableau, cliquez sur le bouton **:octicons-check-16: Inclure**;
 - Une fenêtre contextuelle apparaît pour confirmer votre action **Vous êtes sur le point d'inclure X enregistrements. Cela signifie qu'ils peuvent être inclus dans les paiements;**
 - Cliquez sur **Approuver**. Un message indique la fin de l'action;

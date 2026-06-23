@@ -53,12 +53,12 @@ Nous opérons un système d'assistance structuré pour assurer que chaque probl�
 
 Nous visons à résoudre les problèmes rapidement, en fonction de l'urgence de la situation.
 
-| **Catégorie** | **Délai de réponse** | **Délai de résolution cible**  | **Description**                                     |
+| **Catégorie** | **Délai de réponse** | **Délai de résolution cible** | **Description** |
 | :----------- | :---------------- | :-------------------------- | :-------------------------------------------------- |
-| **Critique** | 15 minutes        | 2 heures                     | Service inutilisable : impossible d'accéder à la plateforme 121 |
-| **Élevée**     | 1 heure            | 4 heures                     | Service gravement entravé : impossible d'envoyer des paiements  |
-| **Moyen**   | 2 heures           | 12 heures                    | Service partiellement entravé : problèmes d'envoi de SMS |
-| **Bas**              | 3 heures           | En consultation avec le client | Service utilisable mais avec des problèmes mineurs                |
+| **Critique** | 15 minutes | 2 heures | Service inutilisable : impossible d'accéder à la plateforme 121 |
+| **Élevée** | 1 heure | 4 heures | Service gravement entravé : impossible d'envoyer des paiements |
+| **Moyen** | 2 heures | 12 heures | Service partiellement entravé : problèmes d'envoi de SMS |
+| **Bas** | 3 heures | En consultation avec le client | Service utilisable mais avec des problèmes mineurs |
 
 ### Assistance après les heures de bureau
 

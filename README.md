@@ -23,19 +23,19 @@
   ```
 
 - Build the documentation (for each language separately):
-    - For English, preview at: <http://localhost:8000>
+  - For English, preview at: <http://localhost:8000>
 
     ```sh
     mkdocs serve --config-file config/en/mkdocs.yml --dev-addr localhost:8000
     ```
 
-    - For Dutch, preview at: <http://localhost:8080>
+  - For Dutch, preview at: <http://localhost:8080>
 
     ```sh
     mkdocs serve --config-file config/nl/mkdocs.yml --dev-addr localhost:8080
     ```
 
-    - For French, preview at: <http://localhost:8003>
+  - For French, preview at: <http://localhost:8003>
 
     ```sh
     mkdocs serve --config-file config/fr/mkdocs.yml --dev-addr localhost:8003
