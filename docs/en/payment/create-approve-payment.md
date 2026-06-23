@@ -34,7 +34,7 @@ To initiate a new payment request:
     Once a payment is created, its details cannot be changed. This includes the list of people in the payment and the transfer value.
     Before creating a payment, make sure to carefully review the transfer value, budget, and selected registrations. If needed, apply filters such as location or FSP and confirm your selection before proceeding.
 
-    To change the transfer value before creating a payment, please refer to [Program settings & Budget](../Settings\payment-budget-settings.md)
+    To change the transfer value before creating a payment, please refer to [Program settings & Budget](../Settings/payment-budget-settings.md)
 
 ## 2. Approve payments
 

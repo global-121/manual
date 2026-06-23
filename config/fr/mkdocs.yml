@@ -124,7 +124,7 @@ nav:
         - "Enregistrements - Importer les modifications de données": "registration/import-data-changes.md"
         - "Enregistrements - Tableau vide": "registration/registration-list-empty.md"
     - "Vérification":
-        - "Vérification hors ligne avec 121 et Kobo Toolbox": "_snippets/verification/offline-verification.md"
+        - "Vérification hors ligne avec 121 et Kobo Toolbox": "verification/offline-verification.md"
     - "Paiements":
         - "Paiements": "payment/payment.md"
         - "Créer, approuver et démarrer les paiements": "payment/create-approve-payment.md"

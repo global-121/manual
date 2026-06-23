@@ -6,14 +6,14 @@ hide:
 
 Une liste des termes clés utilisés dans la plateforme 121.
 
-- [Termes généraux](#termes-généraux)
+- [Termes généraux](#termes-generaux)
   - [Pages](#pages)
   - [Cartes du programme](#cartes-du-programme)
-  - [Créer un nouveau programme](#créer-un-nouveau-programme)
+  - [Créer un nouveau programme](#creer-un-nouveau-programme)
   - [Statut d'enregistrement](#statut-denregistrement)
   - [Paiements](#paiements)
   - [Statuts de transfert](#statuts-de-transfert)
-  - [Cartes de débit (spécifique à Visa)](#cartes-de-débit-spécifique-à-visa)
+  - [Cartes de débit (spécifique à Visa)](#cartes-de-debit-specifique-a-visa)
 
 ## Termes généraux
 
@@ -96,3 +96,22 @@ Une liste des termes clés utilisés dans la plateforme 121.
 | **En attente d'approbation** | Un nouveau paiement a été créé et il doit être approuvé par un agent financier. |
 | **En cours** | Le paiement est en cours de création et d'envoi aux enregistrements inclus. |
 | **Terminé** | Tous les enregistrements inclus ont reçu leurs transferts. |
+
+
+### Statuts de transfert
+
+| Terme | Définition |
+| :------------------ | :------------------------------------------------------------------- |
+| **En attente** | Le transfert est en cours d'envoi à l'enregistrement. Le statut peut rester « en attente » si l'enregistrement n'a pas encore reçu le transfert, ou si le transfert a été reçu mais que les données dans 121 n'ont pas encore été rapprochées. |
+| **Réussi** | Le transfert est arrivé à l'enregistrement et peut maintenant être utilisé. |
+| **Échoué** | Le transfert n'est pas arrivé à l'enregistrement. Cela peut se produire pour différentes raisons. |
+
+
+### Cartes de débit (spécifique à Visa)
+
+| Terme | Définition |
+| :------------------ | :------------------------------------------------------------------- |
+| **Carte(s) de débit** | Une carte physique ou numérique rechargeable envoyée à l'enregistrement, qu'il peut utiliser pour effectuer des achats. |
+| **Solde** | Le montant d'argent actuellement disponible dans le portefeuille. |
+| **Dépensé ce mois-ci (max X)** | Dans certains programmes, le montant qu'un enregistrement peut dépenser en un seul mois est plafonné. C'est une mesure de précaution pour éviter une mauvaise utilisation des cartes. |
+| **Numéro de carte** | Dans certains programmes, le montant qu'un enregistrement peut dépenser en un seul mois est plafonné. C'est une mesure de précaution pour éviter une mauvaise utilisation des cartes et une exigence KYC. |

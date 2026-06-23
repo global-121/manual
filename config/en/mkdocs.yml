@@ -124,7 +124,7 @@ nav:
         - "Import Mass Data Changes": "registration/import-data-changes.md"
         - "What if I see empty page": "registration/registration-list-empty.md"
     - "Verification":
-      - "Offline Verification with 121 and Kobo Toolbox": "_snippets/verification/offline-verification.md"
+      - "Offline Verification with 121 and Kobo Toolbox": "verification/offline-verification.md"
     - "Payments":
         - "Payments page": "payment/payment.md"
         - "Create and Approve payments": "payment/create-approve-payment.md"

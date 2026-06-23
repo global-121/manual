@@ -57,3 +57,8 @@
 ### Tools in use
 
 - Material for MkDocs: <https://squidfunk.github.io/mkdocs-material/>
+
+## Deployment notes
+
+- The Azure Static Web App config includes explicit CORS rules for `en/faq/*` and `fr/faq/*`.
+- Reason: FAQ pages from this manual are embedded in a 510.global context (iframe), so `Access-Control-Allow-Origin: https://510.global` must remain in `staticwebapp.config.json` for those routes.

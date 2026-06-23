@@ -6,12 +6,12 @@ hide:
 
 Il existe une option pour envoyer des **messages sortants** via SMS ou WhatsApp aux enregistrements pour chaque action que vous effectuez dans l'instance, telle que l'inclusion, le refus ou l'envoi de paiements. Si vous souhaitez communiquer la progression du programme aux individus enregistrés, vous pouvez cliquer sur le bouton **Envoyer un message aux enregistrements** et activer la messagerie via la plateforme 121. Pour activer les services de messagerie, vous devez créer un compte Twilio et vous assurer qu'il y a suffisamment de crédits de messagerie. Contactez notre équipe pour configurer cela. Voici les étapes à suivre:
 
-- [Créer un compte Twilio](#create-a-twilio-account)
-- [Recharger avant d'envoyer des messages](#top-up-before-sending-messages)
-- [Formatage des numéros de téléphone dans Kobo](#formatting-phone-numbers-in-kobo)
-- [Envoyer un message aux individus enregistrés](#send-a-message-to-the-registered-individuals)
-- [Message personnalisé](#custom-message)
-- [Messages modèles prédéfinis](#predefined-template-messages)
+- [Créer un compte Twilio](#creer-un-compte-twilio)
+- [Recharger avant d'envoyer des messages](#recharger-avant-denvoyer-des-messages)
+- [Formatage des numéros de téléphone dans Kobo](#formatage-des-numeros-de-telephone-dans-kobo)
+- [Envoyer un message aux individus enregistrés](#envoyer-un-message-aux-individus-enregistres)
+- [Message personnalisé](#message-personnalise)
+- [Messages modèles prédéfinis](#messages-modeles-predefinis)
 
 
 !!! Important "Qui peut effectuer des actions sur cette page?"

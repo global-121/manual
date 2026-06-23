@@ -34,7 +34,7 @@ Pour lancer une nouvelle demande de paiement :
     Une fois qu'un paiement est créé, ses détails ne peuvent pas être modifiés. Cela inclut la liste des personnes dans le paiement et la valeur du transfert.
     Avant de créer un paiement, assurez-vous d'examiner attentivement la valeur du transfert, le budget et les enregistrements sélectionnés. Si nécessaire, appliquez des filtres tels que l'emplacement ou le PSF et confirmez votre sélection avant de continuer.
 
-    Pour modifier la valeur du transfert avant de créer un paiement, veuillez vous référer à [Paramètres du programme et budget](../Settings\payment-budget-settings.md)
+    Pour modifier la valeur du transfert avant de créer un paiement, veuillez vous référer à [Paramètres du programme et budget](../Settings/payment-budget-settings.md)
 
 ## 2. Approuver les paiements
 
