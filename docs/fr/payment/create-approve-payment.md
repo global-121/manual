@@ -6,7 +6,7 @@ hide:
 
 Les paiements sont créés et lancés à partir de la **page Paiements**. Chaque paiement doit d'abord être approuvé par un approbateur avant de pouvoir être lancé. Voici les trois étapes principales pour créer, approuver et lancer un paiement dans votre programme, avant que les instructions de paiement ne soient partagées avec le PSF.
 
-- [1. Créer une demande de paiement](#1-créer-une-demande-de-paiement)
+- [1. Créer une demande de paiement](#1-cr%C3%A9er-une-demande-de-paiement)
 - [2. Approuver les paiements](#2-approuver-les-paiements)
 - [3. Lancer le paiement](#3-lancer-le-paiement)
 - [4. Supprimer le paiement](#4-supprimer-le-paiement)
@@ -16,6 +16,7 @@ Les paiements sont créés et lancés à partir de la **page Paiements**. Chaque
     Les rôles de gestionnaire financier et agent financier peuvent créer et lancer des paiements. Les approbateurs doivent être sélectionnés et ajoutés à chaque programme.
     Les utilisateurs supplémentaires peuvent ne recevoir que la permission **Affichage** sur cette page. [En savoir plus sur Utilisateurs et rôles](../users/users-roles-page.md)
 
+<a id="1-cr%C3%A9er-une-demande-de-paiement"></a>
 ## 1. Créer une demande de paiement
 
 Pour lancer une nouvelle demande de paiement :

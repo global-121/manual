@@ -6,12 +6,12 @@ hide:
 
 Il existe une option pour envoyer des **messages sortants** via SMS ou WhatsApp aux enregistrements pour chaque action que vous effectuez dans l'instance, telle que l'inclusion, le refus ou l'envoi de paiements. Si vous souhaitez communiquer la progression du programme aux individus enregistrés, vous pouvez cliquer sur le bouton **Envoyer un message aux enregistrements** et activer la messagerie via la plateforme 121. Pour activer les services de messagerie, vous devez créer un compte Twilio et vous assurer qu'il y a suffisamment de crédits de messagerie. Contactez notre équipe pour configurer cela. Voici les étapes à suivre:
 
-- [Créer un compte Twilio](#creer-un-compte-twilio)
+- [Créer un compte Twilio](#cr%C3%A9er-un-compte-twilio)
 - [Recharger avant d'envoyer des messages](#recharger-avant-denvoyer-des-messages)
-- [Formatage des numéros de téléphone dans Kobo](#formatage-des-numeros-de-telephone-dans-kobo)
-- [Envoyer un message aux individus enregistrés](#envoyer-un-message-aux-individus-enregistres)
-- [Message personnalisé](#message-personnalise)
-- [Messages modèles prédéfinis](#messages-modeles-predefinis)
+- [Formatage des numéros de téléphone dans Kobo](#formatage-des-num%C3%A9ros-de-t%C3%A9l%C3%A9phone-dans-kobo)
+- [Envoyer un message aux individus enregistrés](#envoyer-un-message-aux-individus-enregistr%C3%A9s)
+- [Message personnalisé](#message-personnalis%C3%A9)
+- [Messages modèles prédéfinis](#messages-mod%C3%A8les-pr%C3%A9d%C3%A9finis)
 
 
 !!! Important "Qui peut effectuer des actions sur cette page?"
@@ -20,6 +20,7 @@ Il existe une option pour envoyer des **messages sortants** via SMS ou WhatsApp 
 
 ---
 
+<a id="cr%C3%A9er-un-compte-twilio"></a>
 ### Créer un compte Twilio
 
 L'équipe 121 vous aidera à créer votre compte. Si vous n'avez pas de compte, veuillez contacter notre équipe pour obtenir du soutien. Twilio vous demandera d'ajouter une méthode de paiement afin que les fonds puissent être automatiquement rechargés ou ajoutés selon les besoins.
@@ -30,6 +31,7 @@ Une fois que votre compte Twilio est actif, l'équipe d'assistance 121 le liera 
 
 ---
 
+<a id="recharger-avant-d%27envoyer-des-messages"></a>
 ### Recharger avant d'envoyer des messages
 
 Vous pouvez vous connecter à votre compte Twilio chaque fois que vous avez besoin de recharger votre compte.
@@ -49,6 +51,7 @@ Une fois que vous avez calculé les coûts totaux, vous pouvez recharger votre c
 
 ---
 
+<a id="formatage-des-num%C3%A9ros-de-t%C3%A9l%C3%A9phone-dans-kobo"></a>
 ### Formatage des numéros de téléphone dans Kobo
 
 Les numéros de téléphone doivent être entrés au format international. Cela signifie commencer par l'indicatif régional, suivi du reste du numéro sans le zéro initial. Par exemple, un numéro de téléphone en République démocratique du Congo (RDC) comme 0900887766 devrait être écrit comme 243900887766 — où 243 est l'indicatif régional et le 0 initial est supprimé.
@@ -56,16 +59,18 @@ Les numéros de téléphone doivent être entrés au format international. Cela 
 **Lors de la création de votre formulaire Kobo, vous pouvez appliquer le format de numéro de téléphone international à l'aide d'une contrainte ou d'un calcul. Ni Kobo ni la plateforme 121 ne reformateront automatiquement les numéros, il est donc important de configurer cette logique dans votre formulaire pour assurer la cohérence.**
 
 | type | name label | constraint | constraint_message |
-| :-------  | :------- | :-----n| :------ |
-| text_phone |Entrer le numéro de téléphone | regex(., '^243[0-9]{9}$') | Le téléphone doit commencer par 243 et avoir 12 chiffres. |
+| :------- | :------- | :--------- | :------ |
+| text_phone | Entrer le numéro de téléphone | regex(., '^243[0-9]{9}$') | Le téléphone doit commencer par 243 et avoir 12 chiffres. |
 
 
 ---
 
+<a id="envoyer-un-message-aux-individus-enregistr%C3%A9s"></a>
 ### Envoyer un message aux individus enregistrés
 
 Vous pouvez choisir d'envoyer un message à un seul ou plusieurs enregistrements sélectionnés. Vous pouvez utiliser soit un message personnalisé, soit un modèle prédéfini. Voir ci-dessous pour les différences et les directives d'utilisation recommandées.
 
+<a id="message-personnalis%C3%A9"></a>
 ### Message personnalisé
 
 Sur la **page d'enregistrement**:
@@ -84,6 +89,7 @@ Sur la **page d'enregistrement**:
 
     *Les variables correspondent à vos champs kobo et peuvent différer par programme.*
 
+<a id="messages-mod%C3%A8les-pr%C3%A9d%C3%A9finis"></a>
 ### Messages modèles prédéfinis
 
 Si vous avez l'intention d'envoyer des messages à différents stades du programme, vous pouvez ajouter des modèles de messages à votre instance. Pour ce faire, fournissez le contenu du message avec un titre et spécifiez quand le message doit être déclenché. Notre équipe d'assistance les configurera. Il y a 2 options pour envoyer des messages modèles:

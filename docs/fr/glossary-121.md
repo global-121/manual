@@ -6,15 +6,16 @@ hide:
 
 Une liste des termes clés utilisés dans la plateforme 121.
 
-- [Termes généraux](#termes-generaux)
+- [Termes généraux](#termes-g%C3%A9n%C3%A9raux)
   - [Pages](#pages)
   - [Cartes du programme](#cartes-du-programme)
-  - [Créer un nouveau programme](#creer-un-nouveau-programme)
+  - [Créer un nouveau programme](#cr%C3%A9er-un-nouveau-programme)
   - [Statut d'enregistrement](#statut-denregistrement)
   - [Paiements](#paiements)
   - [Statuts de transfert](#statuts-de-transfert)
-  - [Cartes de débit (spécifique à Visa)](#cartes-de-debit-specifique-a-visa)
+  - [Cartes de débit (spécifique à Visa)](#cartes-de-d%C3%A9bit-sp%C3%A9cifique-%C3%A0-visa)
 
+<a id="termes-g%C3%A9n%C3%A9raux"></a>
 ## Termes généraux
 
 | Terme | Définition |
@@ -37,6 +38,7 @@ Une liste des termes clés utilisés dans la plateforme 121.
 | **Se connecter** | Comment un utilisateur peut accéder à son compte. |
 | **Se déconnecter** | Comment un utilisateur peut conclure son utilisation de la plateforme. |
 
+<a id="pages"></a>
 ### Pages
 
 | Terme | Définition |
@@ -53,6 +55,7 @@ Une liste des termes clés utilisés dans la plateforme 121.
 | **Paiements** | La page où les utilisateurs peuvent voir les paiements qui ont été effectués, créer de nouveaux paiements et surveiller les paiements en cours. |
 
 
+<a id="cartes-du-programme"></a>
 ### Cartes du programme
 
 | Terme | Définition |
@@ -65,6 +68,7 @@ Une liste des termes clés utilisés dans la plateforme 121.
 | **Actif** | Les programmes en cours de création ou déjà en cours. |
 | **Archivé** | Au lieu de supprimer, l'utilisateur peut archiver un programme, il n'est pas actif mais ses détails sont toujours disponibles pour être visualisés et peuvent être copiés. |
 
+<a id="cr%C3%A9er-un-nouveau-programme"></a>
 ### Créer un nouveau programme
 
 | Terme | Définition |
@@ -73,6 +77,7 @@ Une liste des termes clés utilisés dans la plateforme 121.
 | **Titre du programme** | Où les utilisateurs peuvent renommer le programme. |
 | **Mappage de données** | Synchroniser le fichier kobo/csv dans la table de données sur laquelle vous exécuterez le programme. |
 
+<a id="statut-d%27enregistrement"></a>
 ### Statut d'enregistrement
 
 | Terme | Définition |
@@ -85,19 +90,21 @@ Une liste des termes clés utilisés dans la plateforme 121.
 | **Supprimé** | L'enregistrement a été supprimé, ses détails personnels ont été supprimés - seuls certains détails sont toujours disponibles pour les rapports. |
 | **En pause** | L'enregistrement n'est actuellement pas inclus dans les paiements mais fait toujours partie du programme. |
 
+<a id="paiements"></a>
 ### Paiements
 
 | Terme | Définition |
 | :------------------ | :------------------------------------------------------------------- |
 | **Paiement ou transactions** | Un ensemble de transferts à un ou plusieurs enregistrement(s). |
 | **Valeur du transfert** | Le montant d'argent qu'un enregistrement est censé recevoir dans un seul paiement. |
-| **Transfert** | Un seul transfert de transfert à un enregistrement. Un enregistrement recevra le nombre de transferts préréconfigurés dans le programme. Si enregistré tardivement, le premier transfert à un enregistrement peut faire partie d'une tranche de paiement ultérieure. |
+| **Transfert** | Un seul transfert de transfert à un enregistrement. Un enregistrement recevra le nombre de transferts préconfigurés dans le programme. Si enregistré tardivement, le premier transfert à un enregistrement peut faire partie d'une tranche de paiement ultérieure. |
 | **Montant total du paiement** | La valeur de somme ajoutant les valeurs de transfert de chaque enregistrement inclus ajouté au paiement. |
 | **En attente d'approbation** | Un nouveau paiement a été créé et il doit être approuvé par un agent financier. |
 | **En cours** | Le paiement est en cours de création et d'envoi aux enregistrements inclus. |
 | **Terminé** | Tous les enregistrements inclus ont reçu leurs transferts. |
 
 
+<a id="statuts-de-transfert"></a>
 ### Statuts de transfert
 
 | Terme | Définition |
@@ -107,6 +114,7 @@ Une liste des termes clés utilisés dans la plateforme 121.
 | **Échoué** | Le transfert n'est pas arrivé à l'enregistrement. Cela peut se produire pour différentes raisons. |
 
 
+<a id="cartes-de-d%C3%A9bit-sp%C3%A9cifique-%C3%A0-visa"></a>
 ### Cartes de débit (spécifique à Visa)
 
 | Terme | Définition |

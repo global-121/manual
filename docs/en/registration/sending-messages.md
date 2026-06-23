@@ -32,7 +32,7 @@ Once your Twilio account is active, the 121 support team will link it to your 12
 
 ### Top-up before sending messages
 
-You can log in to your Twilio account everytime you need to top-up your account.
+You can log in to your Twilio account every time you need to top-up your account.
 
 **Sending SMS**
 Fees per SMS differ per destination and number of characters sent per messaging. Check Twilio website for the fees applied to your destination on this website for [SMS.](https://www.twilio.com/en-us/sms/pricing/ma)
@@ -56,8 +56,8 @@ Phone numbers must be entered in international format. This means starting with 
 **When building your Kobo form, you can enforce the international phone number format using a constraint or calculation. Neither Kobo or the 121 Platform will automatically reformat numbers, so it's important to configure this logic in your form to ensure consistency.**
 
 | type | name label | constraint | constraint_message |
-| :-------  | :------- | :-----n| :------ |
-| text_phone |Enter phone number | regex(., '^243[0-9]{9}$') | Phone must start with 243 and be 12 digits long. |
+| :------- | :------- | :--------- | :------ |
+| text_phone | Enter phone number | regex(., '^243[0-9]{9}$') | Phone must start with 243 and be 12 digits long. |
 
 
 ---
@@ -86,7 +86,7 @@ In the **registration page**:
 
 ### Predefined template messages
 
-If you intend to send messages at various stages of the program, you can add message templates to your instance. To do this, provide the message content along with a title and specify when the message should be triggered. Our support team will set them up. There are 2 options to send templated mesages:
+If you intend to send messages at various stages of the program, you can add message templates to your instance. To do this, provide the message content along with a title and specify when the message should be triggered. Our support team will set them up. There are 2 options to send templated messages:
 
   1. Templates can be linked to key stages such as Registration, Validation, Inclusion, Declining, and Payment(s). This means the message will be automatically sent when the corresponding action is performed — for example, by clicking a specific button.
 

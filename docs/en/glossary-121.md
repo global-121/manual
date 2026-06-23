@@ -50,7 +50,7 @@ A list of key terms used in the 121 platform.
 | **Monitoring** | The detailed information of a program and powerBI dashboard with information of the program's statistics. (if applicable). |
 | **Team** | 121 users that will be working on this program and their roles. |
 | **Registrations** | The page within a program where all registrations who have registered are listed in a table. Each "Registration" represents the data submitted by individuals or households to enroll in the program. Users can perform various actions on these registrations, such as selecting them to include in the program. |
-| **Payments** | The page where users can see the payments that have been made, create new payments and monitor ongion payments. |
+| **Payments** | The page where users can see the payments that have been made, create new payments and monitor ongoing payments. |
 
 
 ### Program Cards
@@ -91,7 +91,7 @@ A list of key terms used in the 121 platform.
 | :------------------ | :------------------------------------------------------------------- |
 | **Payment or transactions** | A collection of transfers to one or multiple registration(s). |
 | **Transfer value** | The amount of money a registration is meant to receive in single a payment. |
-| **Transfer** | A single transfer of transfers to a registration. A registration will receive the number of transfers pre-configured in the program. If registered late, the first transfer to a registration might be part of a later payment tranch. |
+| **Transfer** | A single transfer of transfers to a registration. A registration will receive the number of transfers pre-configured in the program. If registered late, the first transfer to a registration might be part of a later payment tranche. |
 | **Total payment amount** | The sum value of adding up the transfer values of each included registration added to the payment. |
 | **Waiting for approval** | A new payment has been created and it needs to be approved by a financial officer. |
 | **In progress** | The payment is being created and sent to the included registrations. |
@@ -114,6 +114,6 @@ A list of key terms used in the 121 platform.
 | **Debit card(s)** | A rechargeable physical or digital card which is sent to the registration which they can use to purchase with. |
 | **Balance** | The amount of money currently in the wallet. |
 | **Spent this month (max X)** | In some programs the amount of money a registration can spend in a single month is capped. This is a precaution measure to avoid miss use of the cards. |
-| **Card number** | In some programs the amount of money a registration can spend in a single month is capped. This is a precaution measure to avoid missuse of the cards and is a KYC requirement. |
+| **Card number** | In some programs the amount of money a registration can spend in a single month is capped. This is a precaution measure to avoid misuse of the cards and is a KYC requirement. |
 
 -8<- "docs/en/_snippets/contact-support.md"

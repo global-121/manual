@@ -35,6 +35,12 @@
     mkdocs serve --config-file config/nl/mkdocs.yml --dev-addr localhost:8080
     ```
 
+    - For French, preview at: <http://localhost:8003>
+
+    ```sh
+    mkdocs serve --config-file config/fr/mkdocs.yml --dev-addr localhost:8003
+    ```
+
 <!-- NOTE: The Docker-way to serve/build is not compatible with the multi-lingual setup currently in use. -->
 <!-- 
 #### With Docker
@@ -62,3 +68,8 @@
 
 - The Azure Static Web App config includes explicit CORS rules for `en/faq/*` and `fr/faq/*`.
 - Reason: FAQ pages from this manual are embedded in a 510.global context (iframe), so `Access-Control-Allow-Origin: https://510.global` must remain in `staticwebapp.config.json` for those routes.
+
+## Copilot and PR guidance
+
+- Repository-wide Copilot instructions for translation and ToC-anchor safety are in `.github/copilot-instructions.md`.
+- Pull request guidance and translation/ToC checklists are in `.github/pull_request_template.md`.
