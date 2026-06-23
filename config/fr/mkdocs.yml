@@ -1,0 +1,160 @@
+# See: https://squidfunk.github.io/mkdocs-material/creating-your-site/#configuration
+# See: https://www.mkdocs.org/user-guide/configuration/
+
+site_name: 121 Platform User Manual
+site_url: https://manual.121.global/
+docs_dir: '../../docs/fr'
+site_dir: '../../www/fr'
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+markdown_extensions:
+  - attr_list
+  - def_list
+  - md_in_html
+  - toc:
+      toc_depth: "1-1"
+      permalink: true
+      permalink_title: Specific link to this section
+  - admonition
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.details
+  - pymdownx.snippets:
+      base_path: ['.', '../../']
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.betterem
+
+plugins:
+  - privacy:
+      assets: false
+  - search
+  - glightbox
+
+theme:
+  name: material
+  custom_dir: ../../overrides
+  language: fr
+  palette:
+    primary: custom
+    accent: custom
+  logo: assets/img/121Logo.svg
+  favicon: assets/img/favicon.ico
+  font: false # To comply with GDPR
+  features:
+    - navigation.top
+    - navigation.tabs
+    - navigation.instant
+    - navigation.instant.progress
+
+extra:
+  generator: false
+  alternate:
+  - name: Français
+    link: /fr/
+    lang: fr
+  - name: English
+    link: /en/
+    lang: en
+  - name: Nederlands
+    link: /nl/
+    lang: nl
+  analytics:
+    provider: custom
+    matomoUrl: "510global.matomo.cloud"
+    siteId: "12"
+    feedback:
+      title: Cette page vous a-t-elle été utile?
+      ratings:
+        - icon: material/thumb-up-outline
+          name: Oui, cette page m'a été utile
+          data: 1
+          note: >-
+            Merci pour votre retour !
+        - icon: material/thumb-down-outline
+          name: Non, cette page pourrait être améliorée
+          data: 0
+          note: >-
+            Merci pour votre retour ! Aidez-nous à améliorer cette page,
+            <a href="mailto:support@121.global?subject=Feedback%20on%20121-Manual:%20{url}" rel="noopener">faites-nous savoir ce que vous en pensez</a>.
+
+extra_javascript:
+  - assets/javascripts/feedback.js
+
+nav:
+  - "Général":
+    - "Accueil": "index.md"
+    - "Contacter notre équipe d'assistance": "general/support-contact.md"
+    - "Général":
+        - "Se connecter": "general/logging-in.md"
+        - "Modifier le mot de passe existant": "general/change-current-password.md"
+        - "Réinitialiser le mot de passe": "general/reset-password.md"
+        - "Modifier la langue": "general/change-language.md"
+    - "Guide étape par étape Préparer votre projet CVA": "general/prepare-your-project.md"
+    - "Utilisateurs et rôles":
+        - "Aperçu des utilisateurs et des rôles": "users/users-roles-page.md"
+        - "Ajouter et créer des comptes utilisateurs": "users/add-users.md"
+        - "Description des permissions basées sur les rôles": "users/description-roles.md"
+    - "Paramètres du programme":
+        - "Page des paramètres du programme": "Settings/project-settings-page.md"
+        - "Paramètres - Informations et paramètres du programme": "Settings/project-info.md"
+        - "Paramètres - Budgets et paramètres de paiement": "Settings/payment-budget-settings.md"
+        - "Page de l'équipe": "team/team-page.md"
+    - "Équipe":
+        - "Page de l'équipe": "team/team-page.md"
+        - "Ajouter des membres de l'équipe": "team/add-team-members.md"
+        - "Modifier et attribuer des rôles aux utilisateurs": "team/change-team-roles-program.md"
+        - "Supprimer les utilisateurs de l'équipe du programme": "team/remove-team-members-program.md"
+    - "Enregistrements":
+        - "Enregistrements - Description de la page": "registration/registrations-page.md"
+        - "Enregistrements - Importer une liste d'enregistrement à partir d'Excel": "registration/registration-import-list.md"
+        - "Enregistrements - Importation automatique d'enregistrement à partir du formulaire KOBO": "registration/registration-automatic-import-kobo.md"
+        - "Enregistrements - Dédoublement V1": "registration/registration-deduplication.md"
+        - "Enregistrements - Modifier les détails d'enregistrement": "registration/edit-pa-profile.md"
+        - "Enregistrements - Modification des détails et validation des enregistrements": "registration/registration-validate-pa.md"
+        - "Enregistrements - Refuser les enregistrements": "registration/registration-reject-pa.md"
+        - "Enregistrements - Inclusion dans le programme": "registration/inclusion-in-program.md"
+        - "Paiement - Mettre en pause les paiements pour un enregistrement dans le programme": "payment/pause-payment-pa.md"
+        - "Paiements - Fin de l'assistance": "payment/end-payments.md"
+        - "Enregistrements - Liste d'exportation d'enregistrement": "registration/registration-export-list.md"
+        - "Enregistrements - Envoi de messages": "registration/sending-messages.md"
+        - "Enregistrements - Importer les modifications de données": "registration/import-data-changes.md"
+        - "Enregistrements - Tableau vide": "registration/registration-list-empty.md"
+    - "Vérification":
+        - "Vérification hors ligne avec 121 et Kobo Toolbox": "_snippets/verification/offline-verification.md"
+    - "Paiements":
+        - "Paiements": "payment/payment.md"
+        - "Créer, approuver et démarrer les paiements": "payment/create-approve-payment.md"
+        - "Paiements - Paiement instantané avec un PSF local intégré": "payment/payment-integrated-fsp.md"
+        - "Paiements - Paiement manuel via le portail PSF (export excel)": "payment/issue-payment-fsp-portal.md"
+        - "Paiement - Réconciliation manuelle des paiements": "payment/manual-payment-reconciliation.md"
+        - "Paiement - Paiements échoués et retry": "payment/failed-retry-payment.md"
+        - "Paiement - Mettre en pause les paiements pour un enregistrement dans le programme": "payment/pause-payment-pa.md"
+        - "Paiements - Fin de l'assistance": "payment/end-payments.md"
+        - "Paiement - Messages de paiement et statuts dans 121": "payment/list-status-payment-page.md"
+        - "Paiement - Rapports financiers et activité": "payment/payment-reporting.md"
+    - "Suivi":
+        - "Suivi": "monitoring/monitoring.md"
+        - "Suivi - Télécharger des fichiers ou des pièces jointes": "monitoring/upload-files.md"
+        - "Suivi - Modifications des données": "monitoring/data-changes.md"
+        - "Suivi - PowerBI": "monitoring/powerbi.md"
+        - "Suivi - Tableau de bord": "monitoring/dashboard.md"
+    - "FAQ":
+        - "Protection des données": "faq/data-protection.md"
+        - "Prestataire de services financiers (PSF)": "faq/financial-service-provider.md"
+        - "Configuration de la plateforme 121": "faq/setting-up-121-platform.md"
+        - "Calendrier et intégration de la plateforme 121": "faq/timeline-121-integration.md"
+  - "🇳🇱 NLRC":
+    - "Se connecter avec 2FA": "nlrc/log-in-2fa.md"
+    - "Modifier la langue": "nlrc/change-language.md"
+    - "Tableau des enregistrements": "nlrc/registrations-table.md"
+    - "Évaluer (les nouvelles) inscriptions": "nlrc/assess-new-registrations.md"
+    - "Recherche d'inscriptions": "nlrc/filter-registrations.md"
+    - "Modifier les inscriptions": "nlrc/edit-registration.md"
+    - "Imprimer un bon d'épicerie papier": "nlrc/print-paper-voucher.md"
+    - "Suspendre les paiements": "nlrc/pause-payments.md"
+    - "Terminer l'assistance": "nlrc/end-payments.md"
+    - "Accès": "nlrc/access.md"

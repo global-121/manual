@@ -3,9 +3,8 @@
 
 site_name: 121 Platform User Manual
 site_url: https://manual.121.global/
-docs_dir: '../../docs'
+docs_dir: '../../docs/en'
 site_dir: '../../www/en'
-exclude_docs: 'nlrc/nl/*'
 
 extra_css:
   - assets/stylesheets/extra.css
@@ -54,9 +53,15 @@ theme:
 extra:
   generator: false
   alternate:
+  - name: English
+    link: /en/
+    lang: en
   - name: Nederlands
     link: /nl/
     lang: nl
+  - name: Français
+    link: /fr/
+    lang: fr
   analytics:
     provider: custom
     matomoUrl: "510global.matomo.cloud"
@@ -119,7 +124,7 @@ nav:
         - "Import Mass Data Changes": "registration/import-data-changes.md"
         - "What if I see empty page": "registration/registration-list-empty.md"
     - "Verification":
-        - "Offline Verification with 121 and Kobo Toolbox": "verification/offline-verification.md"
+      - "Offline Verification with 121 and Kobo Toolbox": "_snippets/verification/offline-verification.md"
     - "Payments":
         - "Payments page": "payment/payment.md"
         - "Create and Approve payments": "payment/create-approve-payment.md"
@@ -143,13 +148,13 @@ nav:
         - "Setting-up 121 Platform": "faq/setting-up-121-platform.md"
         - "Timeline": "faq/timeline-121-integration.md"
   - "🇳🇱 NLRC":
-    - "Logging in via 2FA (2 Factor Authentication)": "nlrc/en/log-in-2fa.md"
-    - "Change the language": "nlrc/en/change-language.md"
-    - "Registrations Table": "nlrc/en/registrations-table.md"
-    - "Assess (new) Registrations": "nlrc/en/assess-new-registrations.md"
-    - "Finding registrations": "nlrc/en/filter-registrations.md"
-    - "Edit Registrations": "nlrc/en/edit-registration.md"
-    - "Print a paper voucher": "nlrc/en/print-paper-voucher.md"
-    - "Pause payments": "nlrc/en/pause-payments.md"
-    - "End payments": "nlrc/en/end-payments.md"
-    - "Access": "nlrc/en/access.md"
+    - "Logging in via 2FA (2 Factor Authentication)": "nlrc/log-in-2fa.md"
+    - "Change the language": "nlrc/change-language.md"
+    - "Registrations Table": "nlrc/registrations-table.md"
+    - "Assess (new) Registrations": "nlrc/assess-new-registrations.md"
+    - "Finding registrations": "nlrc/filter-registrations.md"
+    - "Edit Registrations": "nlrc/edit-registration.md"
+    - "Print a paper voucher": "nlrc/print-paper-voucher.md"
+    - "Pause payments": "nlrc/pause-payments.md"
+    - "End payments": "nlrc/end-payments.md"
+    - "Access": "nlrc/access.md"

@@ -46,6 +46,10 @@ jobs:
         working-directory: config/nl
         run: |
           mkdocs build
+      - name: Build FR
+        working-directory: config/fr
+        run: |
+          mkdocs build
 
       - name: 'Create redirect `/`'
         run: |-
