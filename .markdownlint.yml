@@ -6,5 +6,8 @@ no-hard-tabs:
 no-multiple-blanks:
   maximum: 2
 ul-indent:
-  indent: 4
+  indent: 2
 heading-increment: false
+no-inline-html:
+  allowed_elements:
+    - a

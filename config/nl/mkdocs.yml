@@ -3,7 +3,7 @@
 
 site_name: 121 Platform User Manual
 site_url: https://manual.121.global/
-docs_dir: '../../docs/nlrc/nl'
+docs_dir: '../../docs/nl/nlrc'
 site_dir: '../../www/nl'
 
 extra_css:
@@ -23,7 +23,7 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.details
   - pymdownx.snippets:
-      base_path: ['.', '../../']
+      base_path: ['../../docs/nl']
       check_paths: true
   - pymdownx.superfences
 
@@ -51,6 +51,12 @@ theme:
 extra:
   generator: false
   alternate:
+  - name: Nederlands
+    link: /nl/
+    lang: nl
+  - name: Français
+    link: /fr/
+    lang: fr
   - name: English
     link: /en/
     lang: en

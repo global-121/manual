@@ -9,15 +9,14 @@ feedback.addEventListener("submit", function (ev) {
 
   console.info(`Feedback provided on: ${page}, value: ${data}`);
 
-  // Send feedback to AppInsights, if available
-  if (appInsights) {
-    appInsights.trackEvent({
-      name: "feedback",
-      properties: {
-        page: page,
-        value: data,
-      },
-    });
+  if (window._paq) {
+    window._paq.push([
+      'trackEvent',
+      'Feedback', // The category of the event
+      page, // The page-URL the feedback was provided on
+      data.toString() === '1' ? 'Y' : 'N', // The feedback value (in human-readable form)
+      data, // The quantifiable value (to accumulate all the feedback values)
+    ]);
   }
 
   // Disable/hide the UI
