@@ -27,9 +27,9 @@ Vous pouvez filtrer n'importe quelle colonne en cliquant sur l'icône de filtre 
 
 Pour afficher ou masquer certaines colonnes, cliquez sur l'icône des paramètres (:material-cog-outline:) pour ajuster les colonnes par défaut.
 
-Exemple : Vous pouvez rechercher par numéro d'enregistrement, nom complet, statut d'enregistrement, FSP, numéro de téléphone et date d'enregistrement.
+Exemple : Vous pouvez rechercher par numéro d'enregistrement, nom complet, statut d'enregistrement, PSF, numéro de téléphone et date d'enregistrement.
 
-FSP (type d'assistance) :
+PSF (type d'assistance) :
 
 - Albert Heijn (numérique)
 - Albert Heijn (imprimé)

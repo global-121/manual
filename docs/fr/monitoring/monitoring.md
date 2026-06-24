@@ -22,7 +22,7 @@ Les métriques du programme traduisent vos exigences et paramètres de programme
 | **Description du programme** | Titre et description du programme. Par exemple, "Aide en espèces polyvalente" ou "Réponse conjointe" pour soutenir le traitement médical des familles touchées dans les zones éloignées. |
 | **Date de début et de fin** | Information sur le début et la fin de votre programme d'aide en espèces |
 | **Emplacement** | Pays ou région dans lequel le programme se déroule.​ |
-| **Fournisseur de services financiers (FSP)** | Nombre de FSP intégrés ou enregistrés dans votre instance et leurs noms |
+| **Prestataires de services financiers (PSF)** | Nombre de PSF intégrés ou enregistrés dans votre instance et leurs noms |
 | **Budget** | Budget initial défini pour être envoyé aux enregistrements pour cette distribution de programme. |
 | **Fréquence de paiement** | Fréquence d'émission des paiements (quotidienne, hebdomadaire, mensuelle, trimestrielle, annuelle) |
 | **Durée** | Nombre de cycles de paiement qui seront émis pendant la durée du programme |

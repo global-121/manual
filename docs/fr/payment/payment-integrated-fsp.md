@@ -6,7 +6,7 @@ hide:
 
 Dans la plateforme 121, les paiements peuvent être traités de deux façons différentes : avec un **paiement manuel via un portail PSF** ou avec une **intégration PSF directe**. Vous trouverez ci-dessous les instructions étape par étape pour **traiter un paiement instantané à la liste des enregistrements inclus avec une intégration PSF directe**.
 
-*Pour les instructions de paiements manuels via un portail PSF, veuillez vous référer aux instructions sur la [page Instructions de paiement manuel (portail PSF).](./issue-payment-fsp-portal.md)*
+*Pour les instructions de paiements manuels via un portail PSF, veuillez vous référer aux instructions sur la [page Instructions de paiement manuel (portail PSF).](./issue-payment-PSF-portal.md)*
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
     Les rôles de gestionnaire financier et agent financier peuvent effectuer des actions sur la page Paiements.  

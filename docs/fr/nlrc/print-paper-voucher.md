@@ -5,7 +5,7 @@ hide:
 ---
 
 1. Cliquez sur Enregistrements en haut à gauche de la page pour voir la liste d'enregistrement.
-2. Cliquez sur l'icône de filtre (:material-filter-outline:) à côté de la colonne « FSP » (type d'assistance).
+2. Cliquez sur l'icône de filtre (:material-filter-outline:) à côté de la colonne « PSF » (type d'assistance).
 
    *Si la colonne type d'assistance n'est pas visible, veuillez consulter la page sur la façon d'afficher/masquer les colonnes.*
 

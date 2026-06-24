@@ -45,8 +45,8 @@ Aucun utilisateur unique ne peut effectuer toutes les actions dans la plateforme
 | Afficher les journaux d'activité dans le profil des enregistrements | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} |
 | Créer de nouveaux paiements aux enregistrements | | | | | :octicons-check-circle-fill-24:{.yes} |
 | Envoyer des paiements aux enregistrements | | | | | :octicons-check-circle-fill-24:{.yes} |
-| Exporter les instructions de paiement (fonction d'exportation-importation manuelle FSP) | | | | | :octicons-check-circle-fill-24:{.yes} |
-| Réconcilier les paiements (fonction d'exportation-importation manuelle FSP) | | | | | :octicons-check-circle-fill-24:{.yes} |
+| Exporter les instructions de paiement (fonction d'exportation-importation manuelle PSF) | | | | | :octicons-check-circle-fill-24:{.yes} |
+| Réconcilier les paiements (fonction d'exportation-importation manuelle PSF) | | | | | :octicons-check-circle-fill-24:{.yes} |
 | Exporter les rapports sur l'enregistrement (liste complète) | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} |
 | Exporter les rapports sur les modifications de données | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} |
 | Exporter les rapports de paiement | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} |

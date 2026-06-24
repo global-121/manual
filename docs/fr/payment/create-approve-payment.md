@@ -79,8 +79,8 @@ Une fois que le paiement a été approuvé par tous les approbateurs de la liste
 
 Dans la plateforme 121, les paiements peuvent être traités de deux façons différentes : avec un **paiement manuel via un portail PSF** ou avec une **intégration PSF directe**.
 
-- Pour les instructions de paiement avec une fonction d'export-import manuel, veuillez vous référer à la [page Instructions de paiement manuel](./issue-payment-fsp-portal.md). *Le statut de paiement restera sur **traitement** jusqu'à ce que la réconciliation ait été importée*,
-- ou les instructions de paiement avec un prestataire de services financiers intégré, veuillez vous référer aux instructions sur la [page Paiement avec un PSF intégré](./payment-integrated-fsp.md)
+- Pour les instructions de paiement avec une fonction d'export-import manuel, veuillez vous référer à la [page Instructions de paiement manuel](./issue-payment-PSF-portal.md). *Le statut de paiement restera sur **traitement** jusqu'à ce que la réconciliation ait été importée*,
+- ou les instructions de paiement avec un prestataire de services financiers intégré, veuillez vous référer aux instructions sur la [page Paiement avec un PSF intégré](./payment-integrated-PSF.md)
 
 ---
 

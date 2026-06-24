@@ -68,7 +68,7 @@ Une fois que vous avez identifié la raison, vous pouvez procéder au retry des 
 !!! import "Retry basé sur vos méthodes de paiement"
     Si vous traitez le paiement avec un PSF intégré, la demande de paiement et la réconciliation seront effectuées automatiquement.
 
-    Cependant, **si vous traitez les paiements avec une export-import manuel**, veuillez suivre les mêmes étapes à nouveau. Les instructions supplémentaires peuvent être lues sur [la page de paiement manuel.](../payment/issue-payment-fsp-portal.md)
+    Cependant, **si vous traitez les paiements avec une export-import manuel**, veuillez suivre les mêmes étapes à nouveau. Les instructions supplémentaires peuvent être lues sur [la page de paiement manuel.](../payment/issue-payment-PSF-portal.md)
 
 ---
 

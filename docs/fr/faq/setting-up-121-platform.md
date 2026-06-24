@@ -70,9 +70,9 @@ hide:
 
 ??? "5. Où cet argent va-t-il ?"
 
-     La plateforme 121 est un **produit à but non lucratif**. La NLRC (Croix-Rouge néerlandaise) se concentre sur la récupération des coûts pour couvrir les dépenses de développement, de maintenance et de gestion de la plateforme. Ces contributions aident à maintenir les coûts d'utilisation bas et visent à les réduire autant que possible à l'avenir, garantissant que les fonds sont entièrement alloués à la fourniture d'aide aux communautés.
+     La plateforme 121 est un **produit à but non lucratif**. La CRNL (Croix-Rouge néerlandaise) se concentre sur la récupération des coûts pour couvrir les dépenses de développement, de maintenance et de gestion de la plateforme. Ces contributions aident à maintenir les coûts d'utilisation bas et visent à les réduire autant que possible à l'avenir, garantissant que les fonds sont entièrement alloués à la fourniture d'aide aux communautés.
 
-     Les coûts des fournisseurs externes ou tiers (par exemple, PSF, outils) sont facturés directement par ces fournisseurs, non par la NLRC. Par conséquent, la NLRC ne réalise pas de profit ni ne gère ces transactions.
+     Les coûts des fournisseurs externes ou tiers (par exemple, PSF, outils) sont facturés directement par ces fournisseurs, non par la CRNL. Par conséquent, la CRNL ne réalise pas de profit ni ne gère ces transactions.
 
 ??? "6. Combien de personnes puis-je soutenir avec 121 ?"
 
@@ -114,19 +114,19 @@ hide:
 
 ??? "10. Pouvons-nous exécuter la plateforme 121 nous-mêmes ? (sur site)"
 
-     Bien qu'il soit possible d'exécuter la plateforme 121 sur site (indépendamment de la NLRC 510), vous devez avoir l'expérience requise, les connaissances spécifiques et la maintenance continue pour exécuter la plateforme en toute sécurité. Notre équipe technique effectuera une évaluation avant qu'un transfert puisse être confirmé. En cas d'issue positive, nous serons en mesure de fournir une assistance pour configurer la plateforme 121.
+     Bien qu'il soit possible d'exécuter la plateforme 121 sur site (indépendamment de la CRNL 510), vous devez avoir l'expérience requise, les connaissances spécifiques et la maintenance continue pour exécuter la plateforme en toute sécurité. Notre équipe technique effectuera une évaluation avant qu'un transfert puisse être confirmé. En cas d'issue positive, nous serons en mesure de fournir une assistance pour configurer la plateforme 121.
     
-      Il y a deux façons d'exécuter la plateforme 121 : la configuration de la NLRC 510, qui est sur Microsoft Azure, ou une autre configuration qui peut exécuter des conteneurs.
+      Il y a deux façons d'exécuter la plateforme 121 : la configuration de la CRNL 510, qui est sur Microsoft Azure, ou une autre configuration qui peut exécuter des conteneurs.
 
-      La configuration NLRC 510 nécessite de l'expérience avec la plateforme Microsoft Azure, spécifiquement avec Azure App Services, Azure Static Web Apps, Azure Database for PostgreSQL, Azure Monitor, Azure Keyvault et Azure Application Insights.
+      La configuration CRNL 510 nécessite de l'expérience avec la plateforme Microsoft Azure, spécifiquement avec Azure App Services, Azure Static Web Apps, Azure Database for PostgreSQL, Azure Monitor, Azure Keyvault et Azure Application Insights.
 
-      La configuration utilisant des conteneurs peut être effectuée de plusieurs façons, soit en utilisant une plateforme comme Azure (ainsi qu'Amazon Web Services, Google Cloud, etc.), soit en utilisant des machines virtuelles ou des machines métal qui peuvent exécuter des conteneurs. Le choix de cette dernière option peut nécessiter des modifications de code personnalisé apportées à la plateforme 121, sur laquelle la NLRC 510 ne peut fournir qu'un support limité.
+      La configuration utilisant des conteneurs peut être effectuée de plusieurs façons, soit en utilisant une plateforme comme Azure (ainsi qu'Amazon Web Services, Google Cloud, etc.), soit en utilisant des machines virtuelles ou des machines métal qui peuvent exécuter des conteneurs. Le choix de cette dernière option peut nécessiter des modifications de code personnalisé apportées à la plateforme 121, sur laquelle la CRNL 510 ne peut fournir qu'un support limité.
 
       Quelle que soit la façon dont la plateforme 121 s'exécute, ce qui suit s'appliquera : la configuration et le test corrects des connexions avec les prestataires de services financiers doivent être effectués indépendamment. Si les PSF ou d'autres intégrations nécessitent des configurations réseau spécifiques (comme les VPN), elles doivent être configurées également. L'exécution indépendante de la plateforme 121 nécessitera également la surveillance, les sauvegardes continues et les alertes en cas d'erreurs. 
 
-      Il est bon de savoir que la NLRC 510 n'aura aucune visibilité sur l'instance de la plateforme 121 s'exécutant en dehors de notre infrastructure. Cela signifie que nous ne pouvons fournir qu'un support limité en cas de problèmes (erreurs, configurations incorrectes, etc.).
+      Il est bon de savoir que la CRNL 510 n'aura aucune visibilité sur l'instance de la plateforme 121 s'exécutant en dehors de notre infrastructure. Cela signifie que nous ne pouvons fournir qu'un support limité en cas de problèmes (erreurs, configurations incorrectes, etc.).
 
-      Lorsque vous choisissez d'exécuter la plateforme 121 sur site, nous recommandons de rester proche du calendrier de libération de la plateforme 121 et de déployer la dernière version dans au maximum quelques jours après la libération. Des enregistrements réguliers avec la NLRC 510 sont recommandés pour assurer une coordination fluide.
+      Lorsque vous choisissez d'exécuter la plateforme 121 sur site, nous recommandons de rester proche du calendrier de libération de la plateforme 121 et de déployer la dernière version dans au maximum quelques jours après la libération. Des enregistrements réguliers avec la CRNL 510 sont recommandés pour assurer une coordination fluide.
 ---
 
 Besoin d'une assistance supplémentaire ? Contactez votre gestionnaire de compte dédié ou contactez notre [équipe d'assistance par e-mail](mailto:support@121.global).
