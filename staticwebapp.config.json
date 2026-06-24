@@ -31,6 +31,12 @@
       "headers": {
         "Access-Control-Allow-Origin": "https://510.global"
       }
+    },
+    {
+      "route": "fr/faq/*",
+      "headers": {
+        "Access-Control-Allow-Origin": "https://510.global"
+      }
     }
   ],
   "trailingSlash": "auto",
