@@ -14,6 +14,7 @@ Une liste des termes clés utilisés dans la plateforme 121.
   - [Paiements](#paiements)
   - [Statuts de transfert](#statuts-de-transfert)
   - [Cartes de débit (spécifique à Visa)](#cartes-de-d%C3%A9bit-sp%C3%A9cifique-%C3%A0-visa)
+  - [Rôles](#r%C3%B4les)
 
 <a id="termes-g%C3%A9n%C3%A9raux"></a>
 
@@ -24,7 +25,7 @@ Une liste des termes clés utilisés dans la plateforme 121.
 | **Plateforme 121** | (« un à un ») est une plateforme qui aide les gestionnaires de programmes en augmentant l'efficacité de la mise en place et de l'exécution d'un système de gestion de l'information (IM) d'un programme de transfert d'argent. |
 | **CVA** | Assistance en espèces et bons d'achat, se référant à la programmation de transfert d'argent (CTP). |
 | **Programme** | Un programme créé par les utilisateurs dans la plateforme. |
-| **PSF** | Prestataire de services financiers - une entité qui fournit des services financiers, qui peuvent inclure des services de paiement numérique. |
+| **PSF** | Prestataire de services financiers - une entité qui fournit des services financiers, qui peuvent inclure des services de paiement numérique. Vous pourrez parfois trouver le terme anglais « SFP » dans les menus de l'application. |
 | **Budget** | Montant d'argent du projet qui sera versé aux personnes/ménages inclus. |
 | **Enregistrements** | Personnes ou ménages qui se sont enregistrés, inscrits à un programme. |
 | **Importer** | Ajouter ou télécharger des données à partir d'un fichier excel ou de formulaires d'entrevue, par ex. « importer les enregistrements ». |
@@ -131,3 +132,18 @@ Une liste des termes clés utilisés dans la plateforme 121.
 | **Solde** | Le montant d'argent actuellement disponible dans le portefeuille. |
 | **Dépensé ce mois-ci (max X)** | Dans certains programmes, le montant qu'un enregistrement peut dépenser en un seul mois est plafonné. C'est une mesure de précaution pour éviter une mauvaise utilisation des cartes. |
 | **Numéro de carte** | Dans certains programmes, le montant qu'un enregistrement peut dépenser en un seul mois est plafonné. C'est une mesure de précaution pour éviter une mauvaise utilisation des cartes et une exigence KYC. |
+
+<a id="r%C3%B4les"></a>
+
+### Rôles
+
+| Terme | Définition |
+| -- | -- |
+| Program Admin | Administrateur de programme |
+| Only view data, including Personally Identifiable Information | Lecteur - compris IPI |
+| Only view data, not including Personally Identifiable Information | Lecteur - excluant IPI |
+| Finance Manager | Gestionnaire Financier |
+| Finance Officer | Responsable Financier |
+| CVA Manager | Gestionnaire CVA |
+| CVA Officer | Responsable CVA |
+| User Manager | Gestionnaire Utilisateurs |
