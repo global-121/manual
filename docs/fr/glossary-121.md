@@ -88,12 +88,12 @@ Une liste des termes clés utilisés dans la plateforme 121.
 | Terme | Définition |
 | :------------------ | :------------------------------------------------------------------- |
 | **Nouveau** | Personnes/ménage ayant complété l'enregistrement dans le formulaire KOBO. |
-| **Vérifié** | L'identité de l'enregistrement a été confirmée par un utilisateur 121. |
-| **Inclus** | L'identité de l'enregistrement a été confirmée par un utilisateur 121. |
-| **Refusé** | L'enregistrement s'est avéré être mal enregistré (duplication, score d'inclusion faible, etc.) et ne sera pas inclus dans le programme. |
-| **Complété** | L'enregistrement a reçu le montant complet des transferts. |
-| **Supprimé** | L'enregistrement a été supprimé, ses détails personnels ont été supprimés - seuls certains détails sont toujours disponibles pour les rapports. |
-| **En pause** | L'enregistrement n'est actuellement pas inclus dans les paiements mais fait toujours partie du programme. |
+| **Validé(e)** | L'identité de l'enregistrement a été confirmée par un utilisateur 121. |
+| **Inclus(e)** | L'identité de l'enregistrement a été confirmée par un utilisateur 121. |
+| **Décliné(e)** | L'enregistrement s'est avéré être mal enregistré (duplication, score d'inclusion faible, etc.) et ne sera pas inclus dans le programme. |
+| **Complété(e)** | L'enregistrement a reçu le montant complet des transferts. |
+| **Supprimé(e)** | L'enregistrement a été supprimé, ses détails personnels ont été supprimés - seuls certains détails sont toujours disponibles pour les rapports. |
+| **Mis(e) en pause** | L'enregistrement n'est actuellement pas inclus dans les paiements mais fait toujours partie du programme. |
 
 <a id="paiements"></a>
 

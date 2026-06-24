@@ -13,9 +13,9 @@ En fonction des procédures d'exploitation normalisées que vous suivez pour vot
 
 ### Inclusion des enregistrements dans le programme
 
-Le **tableau d'enregistrements** affiche tous les ménages ou individus enregistrés pour votre programme. Leur statut initial doit être **Nouveau**. Ou, si vos procédures d'exploitation normalisées incluent une étape de validation, le statut peut afficher **Validé**.
+Le **tableau d'enregistrements** affiche tous les ménages ou individus enregistrés pour votre programme. Leur statut initial doit être **Nouveau**. Ou, si vos procédures d'exploitation normalisées incluent une étape de validation, le statut peut afficher **Validé(e)**.
 
-Pour marquer les enregistrements comme **inclus**:
+Pour marquer les enregistrements comme **Inclus(e)**:
 
 - allez à la **page d'enregistrements**;
 - Filtrez la liste d'enregistrements sur **l'état**, sélectionnez **Nouveau** et **Appliquez**. *Cette action est pour s'assurer que vous sélectionnez uniquement l'état **Nouveau**;* ![Filtre d'état d'enregistrement](../assets/img/RegisteredStatusFilter.png)
@@ -25,7 +25,7 @@ Pour marquer les enregistrements comme **inclus**:
 - En haut du tableau, cliquez sur le bouton **:octicons-check-16: Inclure**;
 - Une fenêtre contextuelle apparaît pour confirmer votre action **Vous êtes sur le point d'inclure X enregistrements. Cela signifie qu'ils peuvent être inclus dans les paiements;**
 - Cliquez sur **Approuver**. Un message indique la fin de l'action;
-- Le statut est maintenant mis à jour à **Inclus**.
+- Le statut est maintenant mis à jour à **Inclus(e)**.
 
 !!! info "Processus de dédoublement"
     Les procédures d'exploitation normalisées peuvent inclure un processus de dédoublement avant de lancer la phase d'inclusion. Suivez les instructions pour [vérifier votre liste d'enregistrements et dédoublonner les enregistrements avant de déplacer la liste vers la phase d'inclusion](./registration-deduplication.md).

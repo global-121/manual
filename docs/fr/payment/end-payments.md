@@ -33,11 +33,11 @@ Vous pouvez également modifier le statut en cliquant avec le bouton droit sur l
 
 ## Annuler l'action et rétablir le statut
 
-Le statut **Refusé** peut être appliqué temporairement. Vous pouvez rétablir le statut d'un enregistrement à **Inclus** en suivant les mêmes étapes et en sélectionnant **Inclure** à la place.
+Le statut **Décliné(e)** peut être appliqué temporairement. Vous pouvez rétablir le statut d'un enregistrement à **Inclus(e)** en suivant les mêmes étapes et en sélectionnant **Inclure** à la place.
 
-!!! Important "Le statut Complété ne peut pas être modifié."
+!!! Important "Le statut Complété(e) ne peut pas être modifié."
 
-    Il n'est pas possible de modifier le statut des enregistrements dont les paiements ont été complétés. Leur statut affichera **Complété**.
+    Il n'est pas possible de modifier le statut des enregistrements dont les paiements ont été complétés. Leur statut affichera **Complété(e)**.
 
 ---
 

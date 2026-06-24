@@ -12,9 +12,9 @@ Au cours d'un programme, le statut des enregistrements peut changer. Vous pouvez
 
 ## Chercher un enregistrement
 
-!!! Important "Ces statuts ne peuvent pas être modifiés en **En pause**"
+!!! Important "Ces statuts ne peuvent pas être modifiés en **Mis(e) en pause**"
 
-    Vous ne pouvez pas modifier les statuts **Complété**, **Refusé** et **Validé** en statut **En pause**.
+    Vous ne pouvez pas modifier les statuts **Complété(e)**, **Décliné(e)** et **Validé(e)** en statut **Mis(e) en pause**.
 
 Dans la **page Enregistrement** :
 
@@ -29,8 +29,8 @@ Dans la **page Enregistrement** :
 
 - Cliquez sur le statut **:material-pause: Pause** en haut du tableau,
 - Dans la fenêtre pop-up, **Approuvez**, et *éventuellement, envoyez un message à l'enregistrement*. ![Approuver le statut de pause](../assets/img/PausePANotification.png)
-- Le statut a été modifié en **En pause** ![Statut de pause](../assets/img/PauseStatus.png)
-- À partir du statut **En pause**, l'enregistrement ne recevra plus l'aide en espèces.
+- Le statut a été modifié en **Mis(e) en pause** ![Statut de pause](../assets/img/PauseStatus.png)
+- À partir du statut **Mis(e) en pause**, l'enregistrement ne recevra plus l'aide en espèces.
 
 Vous pouvez également modifier le statut en cliquant avec le bouton droit sur l'enregistrement dans le tableau et en cliquant sur **:material-pause: Pause** ![Liste déroulante du statut](../assets/img/RegistationsStatusRighList.png)
 
@@ -38,8 +38,8 @@ Vous pouvez également modifier le statut en cliquant avec le bouton droit sur l
 
 ## Annuler l'action et rétablir le statut
 
-Le statut **En pause** peut être appliqué temporairement. Vous pouvez rétablir le statut d'un enregistrement à plusieurs statuts : **Inclus**, **Validé** et **Refusé**.
-Il n'est pas possible de rétablir le statut **En pause** au statut **Nouveau**.
+Le statut **Mis(e) en pause** peut être appliqué temporairement. Vous pouvez rétablir le statut d'un enregistrement à plusieurs statuts : **Inclus(e)**, **Validé(e)** et **Décliné(e)**.
+Il n'est pas possible de rétablir le statut **Mis(e) en pause** au statut **Nouveau**.
 
 ---
 

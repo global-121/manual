@@ -30,7 +30,7 @@ Sur la page **Enregistrement**, et suivant les procédures d'exploitation normal
 - Sélectionnez **Doublons** et cliquez sur **Appliquer** pour afficher la colonne de doublons dans le tableau;
 - Dans la colonne **Doublons**, sélectionnez l'icône de filtre et filtrez sur **Doublon**;
 - La liste filtrée affichera uniquement les enregistrements marqués comme **Doublon**;
-- Cliquez sur **Num d'enreg** ou **Nom** pour ouvrir le profil d'enregistrement personnel. Une bannière rouge en haut de la page intitulée **Dupliqué avec** montrera avec qui cette personne est dupliquée et le **champ correspondant**;
+- Cliquez sur **Enreg. #** ou **Nom** pour ouvrir le profil d'enregistrement personnel. Une bannière rouge en haut de la page intitulée **Dupliqué avec** montrera avec qui cette personne est dupliquée et le **champ correspondant**;
 - Pour résoudre ce doublon, vous pouvez décider d'ignorer, de refuser ou de mettre à jour. Voir la description ci-dessous.
 
 ![Gérer le tableau](../assets/img/ShowDuplicateColumn.png)
@@ -58,8 +58,8 @@ Ci-dessous, la solution basée sur l'une de ces 3 options:
 
 ### Modifiez la valeur dans le profil d'enregistrement
 
-- Recherchez le numéro d'enregistrement en filtrant la colonne **Num d'enreg.**;
-- Ouvrez le profil en cliquant sur **Num d'enreg.** sur le côté gauche. Vous verrez maintenant l'aperçu de l'enregistrement;
+- Recherchez le numéro d'enregistrement en filtrant la colonne **Enreg. #**;
+- Ouvrez le profil en cliquant sur **Enreg. #** sur le côté gauche. Vous verrez maintenant l'aperçu de l'enregistrement;
 - Cliquez sur l'onglet **Informations personnelles**, puis sur le bouton **Modifier** et recherchez la valeur à modifier; ![Modifier la valeur](../assets/img/EditInformationDuplicate.png)
 - **Modifiez** la valeur. Cliquez sur **Enregistrer** et donnez une raison;
 - La nouvelle valeur est maintenant enregistrée;
@@ -71,7 +71,7 @@ Ci-dessous, la solution basée sur l'une de ces 3 options:
 
 ## Refuser l'enregistrement
 
-- Recherchez le numéro d'enregistrement en filtrant la colonne **Num d'enreg.**;
+- Recherchez le numéro d'enregistrement en filtrant la colonne **Enreg. #**;
 - Une fois que vous avez trouvé l'enregistrement, **entrez le profil d'enregistrement**;
 - En haut à gauche de la page, cliquez sur **Action** puis sur le bouton **Refuser**;
 - **Approuvez** l'action. *Confirmez uniquement si vous êtes sûr de refuser cet enregistrement, sinon annulez.*
@@ -79,7 +79,7 @@ Ci-dessous, la solution basée sur l'une de ces 3 options:
 
 ![Refuser l'enregistrement](../assets/img/DeclineIgnoreDuplicate.png)
 
-*Avez-vous accidentellement marqué un enregistrement comme refusé? Pas de problème, c'est une action réversible. Vous pouvez toujours modifier le statut en **Inclus**.*
+*Avez-vous accidentellement marqué un enregistrement comme refusé? Pas de problème, c'est une action réversible. Vous pouvez toujours modifier le statut en **Inclus(e)**.*
 
 ---
 

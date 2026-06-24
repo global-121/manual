@@ -23,8 +23,8 @@ Les paiements sont créés et lancés à partir de la **page Paiements**. Chaque
 Pour lancer une nouvelle demande de paiement :
 
 - En haut à droite, cliquez sur **Créer un nouveau paiement** ![Bouton Créer un nouveau paiement](../assets/img/PaymentsPage.png)
-- Une page s'affichera avec une liste d'enregistrements **inclus** dans le programme.
-  *Seuls les enregistrements avec le statut **Inclus** qui n'ont pas encore reçu tous leurs versements apparaîtront dans la liste. Les enregistrements qui ont reçu et complété tous leurs paiements ne seront pas affichés.* ![Liste de sélection](../assets/img/CreateNewpaymentSelect.png)
+- Une page s'affichera avec une liste d'enregistrements inclus dans le programme.
+  *Seuls les enregistrements avec le statut **Inclus(e)** qui n'ont pas encore reçu tous leurs versements apparaîtront dans la liste. Les enregistrements qui ont reçu et complété tous leurs paiements ne seront pas affichés.* ![Liste de sélection](../assets/img/CreateNewpaymentSelect.png)
 - **Sélectionnez la liste des enregistrements à ajouter** au tour de paiement comme suit.
   - Faites une **sélection individuelle** en cliquant sur la :material-checkbox-outline: sur la ligne d'enregistrement individuelle ;
   - Ou faites une **sélection en masse** en cliquant sur la :material-checkbox-multiple-marked-outline: sur la ligne du tableau supérieur **Sélectionner**

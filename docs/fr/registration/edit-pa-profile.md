@@ -12,14 +12,14 @@ Des fautes de frappe ou des entrées en double peuvent se produire lors de la ph
 
 ### Modification des détails d'enregistrement
 
-- **Entrez le profil d'enregistrement** en cliquant sur le lien **num d'enreg** sur le côté gauche; ![Page d'enregistrement](../assets/img/RegistrationsPage.png)
+- **Entrez le profil d'enregistrement** en cliquant sur le lien **Enreg. #** sur le côté gauche; ![Page d'enregistrement](../assets/img/RegistrationsPage.png)
 - Une fois dans l'aperçu du profil, cliquez sur l'onglet **Informations personnelles**; ![Informations personnelles](../assets/img/PersonalInformationPA.png)
 - Cliquez sur le bouton **Modifier les informations** en haut à droite et recherchez le champ à modifier;
 - Tapez la nouvelle valeur directement dans le champ et cliquez sur **Enregistrer**. *L'ancienne valeur sera automatiquement remplacée;*
 - Une demande de pop-up **Mettre à jour les informations** vous demande de fournir la raison de ce changement; ![Mettre à jour les informations](../assets/img/UpdateInformationPopUp.png)
 - Ajoutez une raison, puis **Enregistrez**.
 
-Lorsque les détails sont entièrement examinés et corrects, vous pouvez ensuite marquer le profil comme **validé**. Suivez les instructions pour [valider un profil d'enregistrement](./registration-validate-pa.md).
+Lorsque les détails sont entièrement examinés et corrects, vous pouvez ensuite marquer le profil comme **Validé(e)**. Suivez les instructions pour [valider un profil d'enregistrement](./registration-validate-pa.md).
 
 !!! info "Raison de la mise à jour"
     Pour des raisons d'audit et de responsabilité, les modifications du profil d'enregistrement ne peuvent pas être effectuées sans indiquer une raison. Toutes les modifications de données sont enregistrées dans la plateforme 121 avec l'ancienne valeur, la nouvelle valeur, les raisons de la mise à jour et sont liées à l'adresse e-mail de l'utilisateur effectuant la modification.

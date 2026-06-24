@@ -23,7 +23,7 @@ La page Paiements de votre programme affichera des informations sur tous les ver
 ![Bouton Créer un nouveau paiement](../assets/img/PaymentsPage.png)
 
 - Une page s'affichera avec une liste d'enregistrements inclus dans le programme.
-  *Seuls les enregistrements avec le statut **Inclus** qui n'ont pas encore reçu tous leurs versements apparaîtront dans la liste. Les enregistrements qui ont reçu et complété tous leurs paiements ne seront pas affichés.*
+  *Seuls les enregistrements avec le statut **Inclus(e)** qui n'ont pas encore reçu tous leurs versements apparaîtront dans la liste. Les enregistrements qui ont reçu et complété tous leurs paiements ne seront pas affichés.*
 
 ![Liste de sélection](../assets/img/CreateNewpaymentSelect.png)
 

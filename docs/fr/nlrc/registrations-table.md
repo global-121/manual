@@ -12,11 +12,11 @@ Après vous être connecté à 121, vous verrez les données des personnes enreg
 - **Nom:** Le nom de la personne tel qu'entré dans le formulaire Kobo
 - **Statut d'enregistrement:**
   - **Nouveau:** La personne s'est inscrite, mais l'enregistrement n'a pas encore été validé ou rejeté
-  - **Validé:** L'enregistrement est confirmé mais pas encore activé pour les paiements
-  - **Declined:** Aucune assistance accordée
-  - **Inclus:** L'enregistrement est validé et activé; les bons d'épicerie hebdomadaires sont envoyés
-  - **Suspendu:** Arrêt temporaire des paiements
-  - **Complété:** L'assistance a pris fin
+  - **Validé(e):** L'enregistrement est confirmé mais pas encore activé pour les paiements
+  - **Décliné(e):** Aucune assistance accordée
+  - **Inclus(e):** L'enregistrement est validé et activé; les bons d'épicerie hebdomadaires sont envoyés
+  - **Mis(e) en pause:** Arrêt temporaire des paiements
+  - **Complété(e):** L'assistance a pris fin
 - **Numéro de téléphone:** Tel qu'entré dans le formulaire Kobo
 - **Nombre de paiements:** Nombre de paiements que la personne a reçus
 - **Paiements maxima:** Nombre total de bons d'épicerie que la personne peut recevoir

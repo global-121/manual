@@ -13,7 +13,7 @@ La page **Enregistrements** vous permet de vérifier et, si nécessaire, de mett
 
 ### Aperçu des listes d'enregistrement
 
-Superviser tous les nouveaux **enregistrements**. Le statut initial d'un enregistrement est affiché comme **Enregistré** et restera ainsi jusqu'à ce que le gestionnaire ou l'agent d'assistance d'assistance alimentaire et financière l'**inclue** (inclus) dans ou le **refuse** (refusé) de l'enregistrement du programme.
+Superviser tous les nouveaux **enregistrements**. Le statut initial d'un enregistrement est affiché comme **Nouveau** et restera ainsi jusqu'à ce que le gestionnaire ou l'agent d'assistance d'assistance alimentaire et financière l'inclue (**Inclus(e)**) dans ou le refuse (**Décliné(e)**) de l'enregistrement du programme.
 
 ![Page d'enregistrements](../assets/img/RegistrationsPage.png)
 

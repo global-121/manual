@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-La phase de validation est facultative, selon les procédures d'exploitation normalisées que vous suivez pour votre programme d'aide alimentaire et financière. La validation peut être utilisée pour marquer les enregistrements dont les informations ont été vérifiées et vérifiées, avant de prendre l'étape d'inclusion dans le programme. En validant les enregistrements, vous mettez à jour leur statut dans la plateforme 121 de Enregistré à Validé, ce qui vous permet de garder une trace de ceux dont les informations ont été vérifiées.
+La phase de validation est facultative, selon les procédures d'exploitation normalisées que vous suivez pour votre programme d'aide alimentaire et financière. La validation peut être utilisée pour marquer les enregistrements dont les informations ont été vérifiées et vérifiées, avant de prendre l'étape d'inclusion dans le programme. En validant les enregistrements, vous mettez à jour leur statut dans la plateforme 121 de Nouveau à Validé(e), ce qui vous permet de garder une trace de ceux dont les informations ont été vérifiées.
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
     L'administrateur du programme, l'agent d'assistance et le gestionnaire d'assistance peuvent effectuer des actions.
@@ -12,7 +12,7 @@ La phase de validation est facultative, selon les procédures d'exploitation nor
 
 ### Validation des enregistrements dans le programme
 
-Le **tableau d'enregistrements** affiche tous les ménages enregistrés pour votre programme. Leur statut initial doit être **Enregistré**. Pour marquer les enregistrements comme **validés**:
+Le **tableau d'enregistrements** affiche tous les ménages enregistrés pour votre programme. Leur statut initial doit être **Nouveau**. Pour marquer les enregistrements comme **validés**:
 
 - Filtrez la liste d'enregistrements sur **l'état**, sélectionnez **Nouveau** et **Appliquez**. *Cette action est pour s'assurer que vous sélectionnez uniquement l'état **Nouveau**.*![Filtre d'état d'enregistrement](../assets/img/RegisteredStatusFilter.png)
 - Vous pouvez:
@@ -21,7 +21,7 @@ Le **tableau d'enregistrements** affiche tous les ménages enregistrés pour vot
 - En haut du tableau, cliquez sur le bouton **Valider**;
 - Une fenêtre contextuelle apparaît pour confirmer votre action **Vous êtes sur le point de valider X enregistrements;**
 - Cliquez sur **Approuver**. Un message indique la fin de l'action;
-- Le statut d'enregistrement est maintenant mis à jour à **Validé**.
+- Le statut d'enregistrement est maintenant mis à jour à **Validé(e)**.
 
 ---
 
