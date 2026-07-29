@@ -7,8 +7,7 @@ hide:
 The **Monitoring page** allows users to keep an overview for all data changes done in the whole program (e.g. personal information edited, status changes, payments done, data import, etc.).
 
 !!! Important "Who can perform actions in this page?"
-    All users, except View users, can perform this action. Deletion is however restricted to Program Admin, CVA Manager and Finance Manager.  
-    Additional users may be granted only **View** permission on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
+    All users can view and export data changes on this page. [Learn more about Roles & Permissions](../users/description-roles.md)
 
 ---
 
@@ -29,7 +28,7 @@ In the **Data changes** tab, you can view all modifications made across the enti
 
 - On the table, you can read all columns names;
 - Columns with the **filter symbol :material-filter:** can be filtered by selecting the value;
-- The other columns can be reorganised by clicking on the column name.
+- The other columns can be reorganized by clicking on the column name.
 
 ![Upload Files Information](../assets/img/DataChangestab.png)
 

@@ -12,7 +12,7 @@ On the left you can find a navigation overview, or find the information you need
 
 ### CVA Program flow
 
-The 121 Platform is following the CVA workflow step-by-step. Find out the instructions for each phase you are working on.
+The 121 platform is following the CVA workflow step-by-step. Find out the instructions for each phase you are working on.
 
 <!-- markdownlint-disable-next-line no-inline-html -->
 <div class="grid cards" markdown>
@@ -21,32 +21,32 @@ The 121 Platform is following the CVA workflow step-by-step. Find out the instru
 
     ---
 
-    Understand how to add users, the roles available and distribution of permissions within the 121 Platform.
+    Understand how to add users, the roles available and distribution of permissions within the 121 platform.
 
-- :material-account-multiple-plus:{ .lg .middle } [Create your Team](./team/team-page.md)
+- :material-account-multiple-plus:{ .lg .middle } [Manage your Program Team](./Settings/create-new-program.md)
 
     ---
 
-    Add team members into your project teams and assign a role to each of the users.
+    Set up and manage the different parts of your program: program information, FSP configuration, registration data, program team and payment approval.
 
 
 - :fontawesome-solid-people-roof:{ .lg .middle } [Manage Registrations](./registration/registrations-page.md)
 
     ---
 
-    Oversee the list of registered beneficiaries, verify their details, include or decline their participation in a project in this section.
+    Oversee the list of registered beneficiaries, verify their details, and include or decline their participation in a program.
 
 - :fontawesome-solid-money-bill-transfer:{ .lg .middle } [Process the payment](./payment/payment.md)
 
     ---
 
-    Create new payments, reconcile payments and export transaction reports for financial audit.
+    Create, approve and reconcile payments, and export reports for the FSP and audit.
 
-- :octicons-graph-16:{ .lg .middle } [Monitor your CVA project](./monitoring/monitoring.md)
+- :octicons-graph-16:{ .lg .middle } [Monitor your CVA program](./monitoring/monitoring.md)
 
     ---
 
-    Stay up to date with the latest updates and track the project through the table overview or the Power BI dashboard.
+    Monitor your progress, track changes in the platform, and add files.
 
 </div>
 
@@ -70,7 +70,7 @@ The 121 Platform is following the CVA workflow step-by-step. Find out the instru
 
     ---
 
-    Read through the details about data security, financial service providers and integration with third-tool party.
+    Read through the details about data security, financial service providers and integration with third-party tools.
 
 </div>
 

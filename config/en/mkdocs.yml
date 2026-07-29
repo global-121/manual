@@ -23,6 +23,8 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.snippets:
       base_path: ['.', '../../']
       check_paths: true
@@ -84,63 +86,57 @@ nav:
     - "Home": "index.md"
     - "Support": "general/support-contact.md"
     - "General":
-        - "Log In": "general/logging-in.md"
+        - "Log in": "general/logging-in.md"
         - "Change current password": "general/change-current-password.md"
         - "Reset password": "general/reset-password.md"
-        - "Change Language": "general/change-language.md"
+        - "Change language": "general/change-language.md"
     - "Step-by-Step Guide - Prepare your CVA Program": "general/prepare-your-project.md"
     - "Users and Roles":
-        - "Users page": "users/users-roles-page.md"
-        - "Add User to 121": "users/add-users.md"
+        - "View and add users": "users/add-users.md"
         - "Roles and permissions": "users/description-roles.md"
-    - "Program Settings":
-        - "Program Settings page": "Settings/project-settings-page.md"
-        - "Program Info & Settings": "Settings/project-info.md"
-        - "Budget & Payment settings": "Settings/payment-budget-settings.md"
-        - "Manage your program team": "team/team-page.md"
-    - "Team":
-        - "Program Team page": "team/team-page.md"
-        - "Add team members": "team/add-team-members.md"
-        - "Change team members roles": "team/change-team-roles-program.md"
-        - "Remove team members": "team/remove-team-members-program.md"
+    - "Create and Manage your Program":
+        - "Settings page": "Settings/settings-overview.md"
+        - "Create new program": "Settings/create-new-program.md"
+        - "Program information": "Settings/program-information.md"
+        - "Registration data integration": "Settings/registration-data.md"
+        - "FSP configuration": "Settings/fsp-integration.md"
+        - "Program team": "Settings/programteam.md"
+        - "Payment approval": "Settings/payment-approval.md"
     - "Registrations":
         - "Registrations page": "registration/registrations-page.md"
-        - "Import Registrations with excel": "registration/registration-import-list.md"
-        - "Registration with KOBO form": "registration/registration-automatic-import-kobo.md"
+        - "Import registrations with Excel": "registration/registration-import-list.md"
         - "Deduplication": "registration/registration-deduplication.md"
+        - "Finding registrations": "registration/filter-registrations.md"
         - "Edit registration details": "registration/edit-pa-profile.md"
         - "Validate registrations": "registration/registration-validate-pa.md"
         - "Decline registrations": "registration/registration-reject-pa.md"
         - "Include registrations": "registration/inclusion-in-program.md"
         - "Pause a registration": "payment/pause-payment-pa.md"
-        - "End payments": "payment/end-payments.md"
         - "Export registration lists" : "registration/registration-export-list.md"
         - "Sending messages" : "registration/sending-messages.md"
-        - "Import Mass Data Changes": "registration/import-data-changes.md"
+        - "Import mass data changes": "registration/import-data-changes.md"
         - "What if I see empty page": "registration/registration-list-empty.md"
-    - "Verification":
-        - "Offline Verification with 121 and Kobo Toolbox": "verification/offline-verification.md"
+        - "Offline verification with 121 and KoboToolbox": "registration/offline-verification.md"
     - "Payments":
         - "Payments page": "payment/payment.md"
-        - "Create and Approve payments": "payment/create-approve-payment.md"
+        - "Create and approve payments": "payment/create-approve-payment.md"
         - "Payments with integrated FSP": "payment/payment-integrated-fsp.md"
-        - "Manual payment instructions (excel export)": "payment/issue-payment-fsp-portal.md"
+        - "Manual payment instructions (Excel export)": "payment/issue-payment-fsp-portal.md"
         - "Reconcile manual payments": "payment/manual-payment-reconciliation.md"
-        - "Failed and Retry payments": "payment/failed-retry-payment.md"
-        - "Pause payments": "payment/pause-payment-pa.md"
+        - "Failed and retry payments": "payment/failed-retry-payment.md"
         - "End payments": "payment/end-payments.md"
         - "Payment statuses in 121": "payment/list-status-payment-page.md"
-        - "Payment reporting and activty": "payment/payment-reporting.md"
+        - "Payment reporting and activity": "payment/payment-reporting.md"
     - "Monitoring":
         - "Monitoring page": "monitoring/monitoring.md"
-        - "Upload files or attachments" : "monitoring/upload-files.md"
-        - "Data Changes Overview": "monitoring/data-changes.md"
-        - "PowerBI dashboard" : "monitoring/powerbi.md"
-        - "Base Dashboard": "monitoring/dashboard.md"
+        - "Upload files" : "monitoring/upload-files.md"
+        - "Data changes overview": "monitoring/data-changes.md"
+        - "Power BI dashboard" : "monitoring/powerbi.md"
+        - "Base dashboard": "monitoring/dashboard.md"
     - "F.A.Q":
         - "Data Protection": "faq/data-protection.md"
         - "Financial Service Providers (FSP)": "faq/financial-service-provider.md"
-        - "Setting-up 121 Platform": "faq/setting-up-121-platform.md"
+        - "Setting up 121 platform": "faq/setting-up-121-platform.md"
         - "Timeline": "faq/timeline-121-integration.md"
   - "🇳🇱 NLRC":
     - "Logging in via 2FA (2 Factor Authentication)": "nlrc/en/log-in-2fa.md"

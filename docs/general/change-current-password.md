@@ -8,9 +8,9 @@ hide:
     All users can change their own passwords.
 
 
-Once you are logged in to the 121 Platform, click on your email address under "Logged in as" in the top right corner.
+Once you are logged in to the 121 platform, click on your email address under "Logged in as" in the top right corner.
 
-- **Log in to the 121 Platform**,
+- **Log in to the 121 platform**,
 - Click on **:material-account-outline: Account** on the top right corner and select **Change Password**,
 - Enter your **current password**,
 - **Enter your new password**, then **Confirm** your new password.
@@ -22,9 +22,9 @@ Once you are logged in to the 121 Platform, click on your email address under "L
 
 ---
 
-If you lost or do not remember your password, you can contact your User Manager, so he/she will reset your password [by following the instructions on the Reset password page.](../general/reset-password.md). Once you have logged in with you new password, we kindly recommend you to change your new password for additional security.
+If you lost or do not remember your password, you can contact your User Manager, so he/she will reset your password [by following the instructions on the Reset password page](../general/reset-password.md). Once you have logged in with your new password, we kindly recommend you to change your new password for additional security.
 
-If you are still not able to log in the 121 Platform, contact our support team via <support@121.global>
+If you are still not able to log in to the 121 platform, contact our support team via <support@121.global>
 
 ---
 

@@ -7,13 +7,12 @@ hide:
 The **Registrations** page lets you review and, if necessary, update the registrations list and details before including them in the program to start receiving cash assistance.
 
 !!! Important "Who can perform actions on this page ?"
-    Program Admin, CVA Officer and CVA Manager can perform actions.  
-    Additional users may only have View permissions on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
+    All users can view the Registrations page. Editing, validating, declining, and including registrations is limited to CVA Manager and CVA Officer — see the relevant pages for details. [Learn more about Roles & Permissions](../users/description-roles.md)
 
 
 ### Overview of registration lists
 
-Oversee all new **registrations**. The initial status for a registration is shown as **Registered** and will remain as it until the CVA manager or officer **include** (included) into, or **decline** (declined) the registration from the program.
+Oversee all new **registrations**. The initial status for a registration is shown as **Registered** and will remain as is until a CVA Manager **includes** (included) the registration in, or a CVA Manager or CVA Officer **declines** (declined) it from, the program.
 
 ![Registrations page](../assets/img/RegistrationsPage.png)
 
@@ -21,10 +20,10 @@ Oversee all new **registrations**. The initial status for a registration is show
 
 ### Import a registration list
 
-Registration lists can be imported in two ways into the 121 Platform:
+Registration lists can be imported in two ways into the 121 platform:
 
-- **Automatically**, by integrating your registrations with your KOBO form, or equivalent data collection form, with the 121 Platform. Learn more on the [automatic import of registration page;](../registration/registration-automatic-import-kobo.md)
-- **Manually**, by importing a registration list from an excel file (.CSV format). Learn more on the [registration import list page.](../registration/registration-import-list.md)
+- **Automatically**, by integrating your registrations with your Kobo form, or equivalent data collection form, with the 121 platform. Learn more on the [automatic import of registration page;](../Settings/registration-data.md)
+- **Manually**, by importing a registration list from an Excel file (.CSV format). Learn more on the [registration import list page.](../registration/registration-import-list.md)
 
 ---
 
@@ -44,7 +43,7 @@ Follow the instructions on how to:
 
 ### Deduplicate registration
 
-Check for duplicates in the registration list before including the registrations in your program. This validation process prevents double payments and reduces fraud risks so we strongly recommend including deduplication in your validation process.
+Check for duplicates in the registration list before including the registrations in your program. This validation process prevents double payments and reduces fraud risks, so we strongly recommend including deduplication in your validation process.
 
 Follow the instructions on the [Deduplication page](../registration/registration-deduplication.md)
 

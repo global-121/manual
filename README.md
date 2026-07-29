@@ -57,3 +57,7 @@
 ### Tools in use
 
 - Material for MkDocs: <https://squidfunk.github.io/mkdocs-material/>
+
+## Notes
+
+- Do not edit or modify content under `docs/nlrc/`. This content is managed separately.

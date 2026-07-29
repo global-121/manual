@@ -4,10 +4,10 @@ hide:
   - toc
 ---
 
-The **Monitoring page** features a standard dashboard with baseline indicators and gives a first overview on the program progresses.
+The **Monitoring page** features a standard dashboard with baseline indicators and gives a first overview of the program's progress.
 
 !!! Important "Who can perform actions in this page?"
-    All users. [Learn more about Users & Roles.](../users/users-roles-page.md)
+    All users. [Learn more about Roles & Permissions.](../users/description-roles.md)
 
 ## Accessing the Dashboard section
 
