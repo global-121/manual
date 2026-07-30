@@ -1,135 +1,131 @@
 ---
-title: Step-by-Step Guide Prepare your CVA Project
+title: Step-by-Step Guide Prepare your CVA program
 hide:
   - toc
 ---
 
-
-This guide provides the essential steps to prepare and launch your Cash and Voucher Assistance (CVA) program through the 121 Platform. Please review each step carefully before getting started. You can also print or save this page to use as a checklist throughout the process.
-
----
-
-## 1. Finalize Your Data Collection Form  
-
-Prepare your registration form in Kobo (or another supported tool). The form can only be integrated into 121 once finalized by your organization team.
-
- [ ] Registration form is finalized (Kobo or other tool).  
- [ ] Form has been reviewed with the 121 CVA IM team (optional but recommended).  
- [ ] Form shared with 121 Kobo user for integration.
-
-**Important:** Once the form is integrated and registration has started, no further changes can be made.  
-
-Our CVA IM team is available to review and advise on your form before integration — feel free to contact us for a quick review session.
-To share your form, please send it to our Kobo user (contact our support team to get the appropriate details).  
+This guide provides the essential steps to prepare and launch your Cash and Voucher Assistance (CVA) program through the 121 platform. Please review each step carefully before getting started. You can also print or save this page to use as a checklist throughout the process.
 
 ---
 
-## 2. Share Your Program Details  
+## 1. Define Your Program Details
 
-To set up your program in 121, please provide the following information:  
+To set up your program, you need to know your basic program information.
 
-  [ ] Program title and location(s) provided.  
-  [ ] Total budget defined.  
-  [ ] Number of transfers specified.  
-  [ ] Transfer value per household set.  
-  [ ] Number of households targeted confirmed.  
-  [ ] Financial Service Provider (FSP) identified.  
-  [ ] Currency to be used is specified.  
+You may want to add a validation step in your cash flow. This functionality in the 121 platform allows you to use the ‘Validation’ status for registrations before including them in the payment. When making use of the Kobo Offline Validation Form, submitting the form automatically moves the beneficiary registration to Validated.
 
----
+You may want to add scope to your 121 program. This functionality allows you to control which team members have access to specific registrations based on the scope they are assigned to.
 
-## 3. Define Deduplication and Verification Processes  
+Prepare your registration form in Kobo (or another supported tool). The form can only be integrated into 121 once finalized by your team.
 
-Let us know which fields should be checked for duplicate registrations. If the system identifies matching entries based on these fields, they will be flagged for review.  
-Please share with our team which specific fields you would like to check so we can configure this for your program.  
+- [ ] Program name
+- [ ] Target registrations
+- [ ] Transfer value
+- [ ] Financial Service Provider(s) (FSP)
+- [ ] Currency
+- [ ] Timeline for registration, data cleaning and payment shared with 121 team
+- [ ] Decision whether to enable scope in 121 (enables limited access to team members)
+- [ ] Decision whether to enable validation in 121 (enables the status 'Validate')
+- [ ] Fields to be checked for duplicates shared with 121 team
 
-  [ ] Fields to be checked for duplicates (e.g., name, phone number, ID) identified.
-  
-  [ ] Deduplication criteria shared with the 121 team for configuration.
-
----
-
-## 4. Share Your FSP Template  
-
-If your FSP is not directly integrated with 121, we will need the payment instruction Excel template used by the FSP. This allows us to configure the platform so you can easily export the payment lists. Please share this template with our team.
-
-  [ ] Payment instruction template received from FSP (if not directly integrated).
-  
-  [ ] Template shared with 121 team for platform configuration.
+Find specific instructions to set up your program information [**here**](../Settings/program-information.md).
 
 ---
 
-## 5. Create and Manage Your Team  
+## 2a. Collaborate with your FSP(s)
 
-Once your form and program are integrated, and project team members identified, you can add users to the project and assign them a role.
-  
-  [ ] User accounts created for new team members.
-  
-  [ ] Roles assigned to team members within the project in the 121 Platform. Follow [the instructions on how to add team members to the project](../team/add-team-members.md)
+Make agreements with your FSP on the upcoming program. If you work with an FSP integrated to your instance, request the credentials and configure this in 121. If you work with an FSP that is not integrated with 121, ensure you know which payment instructions are required. This is required to export your payment lists from 121.
+
+- [ ] Contract FSP / verify if contract with the FSP(s) is still valid
+- [ ] Inform FSP on program specifics (e.g., timeline and modality)
+- [ ] Credentials entered in 121 for configuration – if FSP is integrated
+- [ ] Payment instruction template received from FSP – if FSP is not integrated
+
+Find specific instructions to set up your FSP(s) [**here**](../Settings/fsp-integration.md).
+
+---
+
+## 2b. Finalize Your Registration Data Collection Form
+
+Prepare your registration form in Kobo (or another supported tool). Ideally use one harmonized form in your organization that you adapt to the specific program. Our team is available to review and advise on your form. We will also ensure its compatibility with 121. To share your form, please send it to our Kobo account: `nlrc121platform` for the RCRC Movement | `cva121_510` for others.
+
+- [ ] Consent question included in the form
+- [ ] Targeted localities included in the form
+- [ ] Required beneficiary information by FSP included in the form
+- [ ] If choice of FSP is offered (also through Onafriq), question about FSP preference included in the form
+- [ ] Restrictions to limit errors included in the form (e.g., specific format for ID number, phone number, Full Name)
+- [ ] Check if data collection is minimized to what is necessary
+- [ ] Form reviewed by the 121 support team (mandatory 121 compatibility check, optional general review)
+- [ ] Form linked to 121 program
+
+Find specific instructions to set up your registration form [**here**](../Settings/registration-data.md).
+
+---
+
+## 3. Create Your Team
+
+Identify the members of your program team. Once their user accounts are created (only to be done once) you can add them to the program team and assign them a role. The roles in 121 do not have to match with the actual positions of the team members. Rather, the respective permissions should match the actions that the user will perform in the platform. You can give someone one or more roles.
+
+- [ ] User accounts created for new team members
+- [ ] Users added to the program with an assigned role
+- [ ] Scope defined for users (optional)
+
+Find specific instructions to set up your program team [**here**](../Settings/programteam.md).
 
 The user has not been created yet? Refer to the [user creation guide](../users/add-users.md).
 
 ---
 
-## 6. Set Up Messaging Services (Optional)  
+## 4. Set Up Messaging Services (Optional)
 
-If you plan to send SMS via the 121 Platform:  
-
-- The platform uses **Twilio** for messaging.  
-- You will need to create a **Twilio account** and ensure sufficient funds are available to send messages.  
-
-**Note:** Without funds in Twilio, SMS or WhatsApp messages will fail. Contact our team if you need help setting up your Twilio account.  
+The 121 platform offers a technical integration to use Twilio for messaging. If you plan to send WhatsApp and/or SMS to your beneficiaries, it might be interesting to open a Twilio account. You can check the fees on their website. **Note:** When using Twilio for your program, ensure you have sufficient funds in your account, otherwise the messages will fail. If you plan to send messages at different stages of the program, templates can be added to your instance.
 
 !!! Important "Number of characters per SMS"
-  Please note that one SMS is limited to 160 characters — messages longer than this will be split into multiple SMS and charged accordingly. For example, a message between 161 and 320 characters will be counted and billed as two SMS.
+    One SMS is limited to 160 characters — messages longer than this will be split into multiple SMS and charged accordingly. For example, a message between 161 and 320 characters will be counted and billed as two SMS.
 
-If you plan to send messages at different stages of the program, templates can be added to your instance. Reach out to our [support team to help you set them up.](../general/support-contact.md)
-
----
-
-## 7. Start Registration  
-
-Once your form, program, team, deduplication and verification process, payment setup, and messaging service (if needed) are all in place, registration can begin.
-
-  [ ] All previous steps completed (form, program, team, deduplication, payment setup, messaging).
-  
-  [ ] Registration officially launched.
+- [ ] Decision on whether to use Twilio
+- [ ] Create a Twilio account
+- [ ] Inform 121 team
+- [ ] Request support from the 121 team to create messaging templates (optional)
+- [ ] Top up funding in your account
 
 ---
 
-## 8. Plan Offline Validation (Optional)  
+## 5. Set Up Offline Validation Form (Optional)
 
-If your verification process includes validating lists in the field, we can support you in setting up a special validation form. This can be prepared once registration and data cleaning are completed. Contact our team to organize this process and let us know the verification criteria and fields you want to use.
+If you validate beneficiaries in the field, we can support you in setting up a validation form in Kobo. This can be prepared once registration and data cleaning are completed. By entering a unique identifier (e.g., ID number), the form pulls the personal information of the beneficiary. This can be used to verify the person. Once the form is submitted and the device is synced to the internet, the status of the beneficiary automatically moves to Validated.
 
-  [ ] Decision made if field verification is needed.
-  
-  [ ] Post-registration data cleaned and prepared.
-  
-  [ ] Validation form requested and co-designed with the 121 team.
-  
-  [ ] Verification criteria defined.
+The form can also be used to update beneficiary information when in the field. For instance, a phone number. Once the form is submitted and the device is synced to the internet, the 121 profile of the beneficiary automatically updates.
+
+Contact our team to organize this process and let us know the verification criteria and fields you want to use.
+
+- [ ] Decision on use of form for field validation
+- [ ] Validation form requested and co-designed with the 121 team
+- [ ] Training on how to use the form provided
+
+Find specific instructions to set up your offline validation form [**here**](../verification/offline-verification.md).
 
 ---
 
-## 9. SIM Card Distribution (Optional)  
+## 6. Set Up Offline Form for SIM Card distribution or Mass Update (Optional)
 
-If you are planning to distribute SIM cards, we can support you in updating your database accordingly. To ensure proper matching in the system, key fields such as names, ID numbers, or registration numbers must exactly match the records already registered in 121. It is crucial to align the data between 121 and the provider managing the SIM card distribution to ensure a smooth update of the database.
+If you are planning to distribute SIM cards, we can support you in updating your database in 121 accordingly. There are two options:
 
-Please contact us to set up a dedicated form and discuss how to align the data before starting the distribution.
+- [ ] Create a Kobo form to use during the distribution in which the phone number of the SIM card is added to the 121 beneficiary profile
+- [ ] Mass update the 121 beneficiary profiles with the list of phone numbers
 
-  [ ] Decision made on SIM card distribution and process discussed with 121 Team.
-  
-  [ ] Key fields for matching (name, ID number, registration number) identified and verified.
-  
-  [ ] Form for SIM card update co-designed with the 121 team.
+- [ ] Decision made on SIM card distribution and process discussed with 121 team
+- [ ] Key fields for matching SIM to person (e.g., name, ID number, registration number) identified and verified
+- [ ] Ensure data between 121 and the provider managing the SIM card distribution aligns
+- [ ] Form for SIM card update co-designed with the 121 team
 
 ---
 
 You are now fully prepared to launch your program and successfully distribute cash assistance to those in need!
 
-## Need Support?  
+## Need Support?
 
-Please reach out to our [support team via email](mailto:support@121.global) at any time if you need assistance or further clarification.  
+Please reach out to our [support team via email](mailto:support@121.global) if you need assistance or further clarification.
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Payment - Financial reporting and activity
+title: Payments - Financial reporting and activity
 hide:
   - toc
 ---
@@ -7,8 +7,7 @@ hide:
 Audit trail can be performed in 121 for financial reporting and data changes overview at a general or individual level. The Payments page in your program will display information about any completed installments or payment rounds. If no payments have been made yet, no details will appear. However, if some installments are already in progress, you will see each individual installment.
 
 !!! Important "Who can perform actions in this page?"
-    Finance Manager and Finance Officer roles can perform actions in the Payments page.  
-    Additional users may be granted only **View** permission on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
+    Finance Manager can export payment reports. Other users can view payment reporting and activity. [Learn more about Roles & Permissions](../users/description-roles.md)
 
 ## Download the General financial reporting
 
@@ -19,10 +18,10 @@ To export a general financial report:
 3. Select the file for which you would like to export the payment data ![Payment Export Report](../assets/img/PaymentsPage.png)
 4. Click on **Export Report** button
 5. A pop-up window will request a confirmation.**This will download an Excel file with all registrations included in this payment** ![Confirm Export](../assets/img/ApprovePaymentExport.png)
-  The file will be exported into the download folder as an excel file.
+  The file will be exported into the download folder as an Excel file.
 
-!!! Info "TIPS: Only download excel files when required and delete after exporting / using"
-    Excel files should only be downloaded when required to ensure personal data is kept secure. After use, excel files should be deleted from your computer to keep personal data secure and prevent mistakes using old files. This way, you will always have the latest updated data in 121.
+!!! Info "TIPS: Only download Excel files when required and delete after exporting / using"
+    Excel files should only be downloaded when required to ensure personal data is kept secure. After use, Excel files should be deleted from your computer to keep personal data secure and prevent mistakes using old files. This way, you will always have the latest updated data in 121.
 
 ---
 
@@ -35,16 +34,16 @@ To export a specific financial report based on a specific date:
 3. On the top right, click on **Export** ![Individual Export Report](../assets/img/IndividualExportReport.png)
 4. Select **Payment Report**;
 5. A pop-up window will request confirmation to proceed.**You're about to download an Excel file with all of the registrations included in this payment.**;
-  The file will be exported into the download folder as an excel file.
+  The file will be exported into the download folder as an Excel file.
 
 ---
 
 ## Oversee the Activity Log in Payments Page
 
-Detailed payment information can be found in each separate installments and for each registrations. To access the Individual overview:
+Detailed payment information can be found in each separate installment and for each registration. To access the Individual overview:
 
 1. Go to **Payments** page;
-2. Click on one of the installments you would like to read further details
+2. Click on one of the installments you would like to read further details.
    The included list of registrations with detailed information about the transfer value, the payment statuses, FSP and dates will be shown.
 3. For further details per individual, you can click on the hyperlink **reg. #** on the registration profile. You can read the activity log from different phases (registration, inclusion, payments).
 4. In the Activity Log, any changes or activities will be automatically logged, including payment details.

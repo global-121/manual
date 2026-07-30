@@ -13,7 +13,7 @@ If you lost or do not remember your password, you can contact your 121 User Mana
 
 ### Reset User Password
 
-The User Manager can reset users'passwords directly from the **Users page**.
+The User Manager can reset users' passwords directly from the **Users page**.
 
 - On the end of the user row, click on the **:material-dots-horizontal: three dots**,
 - Select **Reset Password**,

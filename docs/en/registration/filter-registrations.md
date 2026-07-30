@@ -1,5 +1,5 @@
 ---
-title: Finding registrations
+title: Registrations - Finding registrations
 hide:
   - toc
 ---

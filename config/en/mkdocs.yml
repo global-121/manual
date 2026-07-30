@@ -99,6 +99,13 @@ nav:
         - "Add User to 121": "users/add-users.md"
         - "Roles and permissions": "users/description-roles.md"
     - "Program Settings":
+        - "Create new program": "Settings/create-new-program.md"
+        - "Settings overview": "Settings/settings-overview.md"
+        - "Program information": "Settings/program-information.md"
+        - "FSP configuration": "Settings/fsp-integration.md"
+        - "Registration data": "Settings/registration-data.md"
+        - "Payment approval": "Settings/payment-approval.md"
+        - "Program team": "Settings/programteam.md"
         - "Program Settings page": "Settings/project-settings-page.md"
         - "Program Info & Settings": "Settings/project-info.md"
         - "Budget & Payment settings": "Settings/payment-budget-settings.md"

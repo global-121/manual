@@ -1,14 +1,13 @@
 ---
-title: Monitoring - Upload files or attachments
+title: Monitoring - Upload files
 hide:
   - toc
 ---
 
-The **Monitoring page** allows users to upload attachments or files that provide additional information for the program (e.g. payment receipts, program updates, registration changes, proofs).
+The **Monitoring page** allows users to upload files that provide additional information for the program (e.g. payment receipts, program updates, registration changes, proofs).
 
 !!! Important "Who can perform actions in this page?"
-    All users, except View users, can perform this action. Deletion is however restricted to Program Admin, CVA Manager and Finance Manager.  
-    Additional users may be granted only **View** permission on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
+    Program Admin, CVA Manager, and Finance Manager can upload files. Renaming and deleting files is limited to Program Admin and CVA Manager. [Learn more about Roles & Permissions](../users/description-roles.md)
 
 ---
 
@@ -31,7 +30,7 @@ The **Monitoring page** allows users to upload attachments or files that provide
 
 ![Upload Files Information](../assets/img/UploadFilesInfo.png)
 
-*The files will be visible to all users, except View users.*
+*Only Program Admin, CVA Manager, and Finance Manager can upload files. The files will be visible to all users, except View users. Users with an assigned scope can only access files that fall under their scope. E.g., documents relevant for 1 branch are not accessible for users that have a scope for another branch.*
 
 To view a file:
 
@@ -42,18 +41,18 @@ To view a file:
 
 ## Renaming or Deleting a File
 
-- The program admin can rename an uploaded file by clicking on :material-dots-horizontal: in the Actions column and selecting ‘Change name’.
-- The program admin can delete an uploaded file by clicking on :material-dots-horizontal: in the Actions column and selecting ‘Delete’.
+- Program Admin and CVA Manager can rename an uploaded file by clicking on :material-dots-horizontal: in the Actions column and selecting ‘Change name’.
+- Program Admin and CVA Manager can delete an uploaded file by clicking on :material-dots-horizontal: in the Actions column and selecting ‘Delete’.
 
 ![Delete Download Files](../assets/img/RenameDeleteAttachment.png)
 
-*No other user roles are authorized to rename and delete files.*
+*Finance Manager can upload files but cannot rename or delete them. No other user roles are authorized to rename or delete files.*
 
 ---
 
 !!! Note "Examples of Useful Uploads"
-    This section can be used to attach: Payments receipts, Additional program information, updates or changes to registrations, proof documents, etc.
-    To keep the list easy to read, you can name the files as YEAR_MONTH_BRANCH_CATEGORY_Name. For example, 202602_Akana_Finance_Proof of payment. or 202602_Akana_CVA_Registration list approved.
+    This section can be used to attach: Payment receipts, Additional program information, updates or changes to registrations, proof documents, etc.
+    To keep the list easy to read, you can name the files as YEAR_MONTH_BRANCH_CATEGORY_Name. For example, 202602_Akana_Finance_Proof of payment, or 202602_Akana_CVA_Registration list approved.
 
 
 ---
