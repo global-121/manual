@@ -86,7 +86,7 @@ hide:
      On average, the 121 platform implementation takes between 2 to 4 weeks upon agreement, considering all above components.
      
 
-??? 8. How long does the integration with a Financial Service Provider (FSP) take?"
+??? "8. How long does the integration with a Financial Service Provider (FSP) take?"
 
      The 121 platform has **integrated with a number of Financial Service Providers (FSP) in different countries, allowing us to instantly integrate the platform with your local FSP**. If an FSP configuration is already in place, **our timeline is 7 business days**. We can also integrate with additional local FSPs upon request. In this case, the integration timeline can vary, depending on the level of technical complexity and the FSP response time.
 

@@ -25,7 +25,7 @@ A list of key terms used in the 121 platform.
 | **FSP** | Financial Service Provider - an entity that provides financial services, which may include digital payment services. |
 | **Budget** | Amount of money in the project that will be disbursed to included people/households. |
 | **Registrations** | People or households that registered, subscribed to a program. |
-| **Import** | Adding or uploading data from excel file or interview forms e.g. "import registrations". |
+| **Import** | Adding or uploading data from Excel file or interview forms e.g. "import registrations". |
 | **Export** | Downloading content from the 121 Platform. |
 | **Actions** | Indicates something a user can do that affects one or multiple registrations, e.g. sending a message, adding a note, or updating the information. |
 | **Filter by** | Users can use this to find a group of registrations or a single registration that they are looking to perform an action on e.g. filter registrations that received 2 payment and include in a new payment. |
@@ -47,7 +47,7 @@ A list of key terms used in the 121 platform.
 | **Permissions** | Each role has different authorization to preform different actions. e.g. only a Financial officer can approve a payment. You can see which permissions are related to which role on the "Roles and permissions" page. |
 | **Settings** | Where users can make changes to the platform to adjust it to their needs e.g. change language, time zone etc. |
 | **Manual** | The place in which users can find instructions for how to use the platform. |
-| **Monitoring** | The detailed information of a program and powerBI dashboard with information of the program's statistics. (if applicable). |
+| **Monitoring** | The detailed information of a program and Power BI dashboard with information of the program's statistics. (if applicable). |
 | **Team** | 121 users that will be working on this program and their roles. |
 | **Registrations** | The page within a program where all registrations who have registered are listed in a table. Each "Registration" represents the data submitted by individuals or households to enroll in the program. Users can perform various actions on these registrations, such as selecting them to include in the program. |
 | **Payments** | The page where users can see the payments that have been made, create new payments and monitor ongoing payments. |
@@ -77,7 +77,7 @@ A list of key terms used in the 121 platform.
 
 | Term | Definition |
 | :------------------ | :------------------------------------------------------------------- |
-| **New** | People/household completed the registration in KOBO form. |
+| **New** | People/household completed the registration in Kobo form. |
 | **Verified** | Registration's identity was confirmed by a 121 user. |
 | **Included** | Registration's identity was confirmed by a 121 user. |
 | **Declined** | The registration was found to be incorrectly registered (duplication, low inclusion score etc.) and will not be included in the program. |
@@ -93,7 +93,7 @@ A list of key terms used in the 121 platform.
 | **Transfer value** | The amount of money a registration is meant to receive in single a payment. |
 | **Transfer** | A single transfer of transfers to a registration. A registration will receive the number of transfers pre-configured in the program. If registered late, the first transfer to a registration might be part of a later payment tranche. |
 | **Total payment amount** | The sum value of adding up the transfer values of each included registration added to the payment. |
-| **Waiting for approval** | A new payment has been created and it needs to be approved by a financial officer. |
+| **Waiting for approval** | A new payment has been created and it needs to be approved by a Financial Officer. |
 | **In progress** | The payment is being created and sent to the included registrations. |
 | **Completed** | All included registrations have received their transfers. |
 
@@ -113,7 +113,7 @@ A list of key terms used in the 121 platform.
 | :------------------ | :------------------------------------------------------------------- |
 | **Debit card(s)** | A rechargeable physical or digital card which is sent to the registration which they can use to purchase with. |
 | **Balance** | The amount of money currently in the wallet. |
-| **Spent this month (max X)** | In some programs the amount of money a registration can spend in a single month is capped. This is a precaution measure to avoid miss use of the cards. |
+| **Spent this month (max X)** | In some programs the amount of money a registration can spend in a single month is capped. This is a precaution measure to avoid misuse of the cards. |
 | **Card number** | In some programs the amount of money a registration can spend in a single month is capped. This is a precaution measure to avoid misuse of the cards and is a KYC requirement. |
 
 -8<- "docs/en/_snippets/contact-support.md"

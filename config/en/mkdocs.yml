@@ -119,6 +119,8 @@ nav:
         - "Sending messages" : "registration/sending-messages.md"
         - "Import Mass Data Changes": "registration/import-data-changes.md"
         - "What if I see empty page": "registration/registration-list-empty.md"
+    - "Verification":
+        - "Offline verification with 121 and KoboToolbox": "registration/offline-verification.md"
     - "Payments":
         - "Payments page": "payment/payment.md"
         - "Create and Approve payments": "payment/create-approve-payment.md"

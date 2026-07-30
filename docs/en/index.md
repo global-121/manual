@@ -23,7 +23,7 @@ The 121 Platform is following the CVA workflow step-by-step. Find out the instru
 
     Understand how to add users, the roles available and distribution of permissions within the 121 Platform.
 
-- :material-account-multiple-plus:{ .lg .middle } [Create your Team](./Settings/programteam.md)
+- :material-account-multiple-plus:{ .lg .middle } [Manage your Program Team](./Settings/create-new-program.md)
 
     ---
 
