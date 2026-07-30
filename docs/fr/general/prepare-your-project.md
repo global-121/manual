@@ -65,7 +65,7 @@ Une fois que votre formulaire et votre programme sont intégrés, et que les mem
   
   [ ] Comptes d'utilisateur créés pour les nouveaux membres de l'équipe.
   
-  [ ] Rôles attribués aux membres de l'équipe au sein du projet dans la plateforme 121. Suivez [les instructions sur comment ajouter des membres de l'équipe au projet](../team/add-team-members.md)
+  [ ] Rôles attribués aux membres de l'équipe au sein du projet dans la plateforme 121. Suivez [les instructions sur comment ajouter des membres de l'équipe au projet](../Settings/programteam.md)
 
 L'utilisateur n'a pas encore été créé ? Reportez-vous au [guide de création d'utilisateur](../users/add-users.md).
 

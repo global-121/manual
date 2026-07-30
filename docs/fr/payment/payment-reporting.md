@@ -8,7 +8,7 @@ L'audit trail peut être effectué dans 121 pour les rapports financiers et l'ap
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
     Les rôles de gestionnaire financier et agent financier peuvent effectuer des actions sur la page Paiements.  
-    Les utilisateurs supplémentaires peuvent ne recevoir que la permission **Affichage**. [En savoir plus sur Utilisateurs et rôles](../users/users-roles-page.md)
+    Les utilisateurs supplémentaires peuvent ne recevoir que la permission **Affichage**. [En savoir plus sur Utilisateurs et rôles](../users/description-roles.md)
 
 ## Télécharger le rapport financier général
 

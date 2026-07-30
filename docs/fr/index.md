@@ -21,32 +21,31 @@ La plateforme 121 suit le flux de travail CVA étape par étape. Trouvez les ins
 
     ---
 
-    Comprenez comment ajouter des utilisateurs, les rôles disponibles et la distribution des autorisations au sein de la plateforme 121.
+    Comprenez comment ajouter des utilisateurs, les rôles disponibles et les autorisations dans la plateforme 121.
 
-- :material-account-multiple-plus:{ .lg .middle } [Créer votre équipe](./team/team-page.md)
+- :material-account-multiple-plus:{ .lg .middle } [Créer un nouveau programme](./Settings/create-new-program.md)
 
     ---
 
-    Ajoutez des membres de l'équipe à vos équipes de projet et attribuez un rôle à chacun des utilisateurs.
-
+    Créez votre programme CVA, configurez les PSF et préparez votre équipe.
 
 - :fontawesome-solid-people-roof:{ .lg .middle } [Gérer les enregistrements](./registration/registrations-page.md)
 
     ---
 
-    Supervisez la liste des bénéficiaires enregistrés, vérifiez leurs détails, incluez ou refusez leur participation à un projet dans cette section.
+    Supervisez la liste des bénéficiaires enregistrés, vérifiez leurs détails, incluez ou refusez leur participation à un projet.
 
 - :fontawesome-solid-money-bill-transfer:{ .lg .middle } [Traiter le paiement](./payment/payment.md)
 
     ---
 
-    Créez de nouveaux paiements, réconciliez les paiements et exportez des rapports de transactions pour audit financier.
+    Créez des paiements, réconciliez les transactions et exportez des rapports financiers.
 
 - :octicons-graph-16:{ .lg .middle } [Surveillez votre projet CVA](./monitoring/monitoring.md)
 
     ---
 
-    Restez informé des dernières mises à jour et suivez le projet par l'aperçu du tableau ou le tableau de bord Power BI.
+    Restez informé des dernières mises à jour et suivez le projet via le tableau de bord Power BI.
 
 </div>
 

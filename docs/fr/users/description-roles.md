@@ -66,6 +66,6 @@ Des rôles et permissions supplémentaires peuvent être configurés sur demande
 ---
 
 !!! note "Ajouter des utilisateurs à un programme"
-    Vous pouvez suivre ces instructions pour [ajouter des membres de l'équipe à un programme et assigner un rôle](../team/add-team-members.md).
+    Vous pouvez suivre ces instructions pour [ajouter des membres de l'équipe à un programme et assigner un rôle](../Settings/programteam.md).
 
 -8<- "docs/fr/_snippets/contact-support.md"

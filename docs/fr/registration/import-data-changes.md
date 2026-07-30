@@ -8,7 +8,7 @@ La fonction d'importation des modifications de données vous permet d'importer o
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
     Le gestionnaire d'assistance peut effectuer cette action par défaut. La permission de modification des données peut également être attribuée en plus de votre rôle existant.
-    [En savoir plus sur les utilisateurs et les rôles](../users/users-roles-page.md)
+    [En savoir plus sur les utilisateurs et les rôles](../users/description-roles.md)
 
 !!! warning "Les numéros de téléphone ne peuvent pas être mis à jour en masse"
 

@@ -11,7 +11,7 @@ Vous trouverez ci-dessous les instructions étape par étape pour comprendre les
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
     Les rôles de gestionnaire financier et agent financier peuvent effectuer des actions sur la page Paiements.  
-    Les utilisateurs supplémentaires peuvent ne recevoir que la permission **Affichage**. [En savoir plus sur Utilisateurs et rôles](../users/users-roles-page.md)
+    Les utilisateurs supplémentaires peuvent ne recevoir que la permission **Affichage**. [En savoir plus sur Utilisateurs et rôles](../users/description-roles.md)
 
 ## Raisons des paiements échoués
 
@@ -68,7 +68,7 @@ Une fois que vous avez identifié la raison, vous pouvez procéder au retry des 
 !!! import "Retry basé sur vos méthodes de paiement"
     Si vous traitez le paiement avec un PSF intégré, la demande de paiement et la réconciliation seront effectuées automatiquement.
 
-    Cependant, **si vous traitez les paiements avec une export-import manuel**, veuillez suivre les mêmes étapes à nouveau. Les instructions supplémentaires peuvent être lues sur [la page de paiement manuel.](../payment/issue-payment-PSF-portal.md)
+    Cependant, **si vous traitez les paiements avec une export-import manuel**, veuillez suivre les mêmes étapes à nouveau. Les instructions supplémentaires peuvent être lues sur [la page de paiement manuel.](../payment/issue-payment-fsp-portal.md)
 
 ---
 

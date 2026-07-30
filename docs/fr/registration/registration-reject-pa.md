@@ -10,7 +10,7 @@ Vous utilisez la page **Enregistrements** pour choisir les prochaines actions ap
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
     L'administrateur du programme, l'agent d'assistance et le gestionnaire d'assistance peuvent effectuer des actions.
-    Des utilisateurs supplémentaires peuvent uniquement avoir des permissions d'affichage sur cette page. [En savoir plus sur les utilisateurs et les rôles](../users/users-roles-page.md)
+    Des utilisateurs supplémentaires peuvent uniquement avoir des permissions d'affichage sur cette page. [En savoir plus sur les utilisateurs et les rôles](../users/description-roles.md)
 
 ### Refuser les enregistrements du programme
 

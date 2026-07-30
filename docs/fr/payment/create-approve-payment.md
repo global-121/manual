@@ -14,7 +14,7 @@ Les paiements sont créés et lancés à partir de la **page Paiements**. Chaque
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
     Les rôles de gestionnaire financier et agent financier peuvent créer et lancer des paiements. Les approbateurs doivent être sélectionnés et ajoutés à chaque programme.
-    Les utilisateurs supplémentaires peuvent ne recevoir que la permission **Affichage** sur cette page. [En savoir plus sur Utilisateurs et rôles](../users/users-roles-page.md)
+    Les utilisateurs supplémentaires peuvent ne recevoir que la permission **Affichage** sur cette page. [En savoir plus sur Utilisateurs et rôles](../users/description-roles.md)
 
 <a id="1-cr%C3%A9er-une-demande-de-paiement"></a>
 
@@ -36,7 +36,7 @@ Pour lancer une nouvelle demande de paiement :
     Une fois qu'un paiement est créé, ses détails ne peuvent pas être modifiés. Cela inclut la liste des personnes dans le paiement et la valeur du transfert.
     Avant de créer un paiement, assurez-vous d'examiner attentivement la valeur du transfert, le budget et les enregistrements sélectionnés. Si nécessaire, appliquez des filtres tels que l'emplacement ou le PSF et confirmez votre sélection avant de continuer.
 
-    Pour modifier la valeur du transfert avant de créer un paiement, veuillez vous référer à [Paramètres du programme et budget](../Settings/payment-budget-settings.md)
+    Pour modifier la valeur du transfert avant de créer un paiement, veuillez vous référer à [Paramètres du programme et budget](../Settings/program-information.md)
 
 ## 2. Approuver les paiements
 
@@ -79,8 +79,8 @@ Une fois que le paiement a été approuvé par tous les approbateurs de la liste
 
 Dans la plateforme 121, les paiements peuvent être traités de deux façons différentes : avec un **paiement manuel via un portail PSF** ou avec une **intégration PSF directe**.
 
-- Pour les instructions de paiement avec une fonction d'export-import manuel, veuillez vous référer à la [page Instructions de paiement manuel](./issue-payment-PSF-portal.md). *Le statut de paiement restera sur **traitement** jusqu'à ce que la réconciliation ait été importée*,
-- ou les instructions de paiement avec un prestataire de services financiers intégré, veuillez vous référer aux instructions sur la [page Paiement avec un PSF intégré](./payment-integrated-PSF.md)
+- Pour les instructions de paiement avec une fonction d'export-import manuel, veuillez vous référer à la [page Instructions de paiement manuel](./issue-payment-fsp-portal.md). *Le statut de paiement restera sur **traitement** jusqu'à ce que la réconciliation ait été importée*,
+- ou les instructions de paiement avec un prestataire de services financiers intégré, veuillez vous référer aux instructions sur la [page Paiement avec un PSF intégré](./payment-integrated-fsp.md)
 
 ---
 

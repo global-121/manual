@@ -7,7 +7,7 @@ hide:
 La **page Suivi** peut comporter un tableau de bord Power BI, soit la version de modèle 121, soit une version personnalisée, si vous l'avez demandée.
 
 !!! Important "Qui peut effectuer des actions sur cette page?"
-    Tous les utilisateurs. [En savoir plus sur les rôles utilisateur.](../users/users-roles-page.md)
+    Tous les utilisateurs. [En savoir plus sur les rôles utilisateur.](../users/description-roles.md)
 
 ## Accès à la section PowerBI
 

@@ -25,7 +25,7 @@ Sur le côté gauche de votre écran, ouvrez le **:material-menu: menu** et sél
 !!! warning "Ajouter des utilisateurs à un programme"
     La création et l'ajout d'un nouvel utilisateur sur la page des utilisateurs lui accorde l'accès à la plateforme 121. Cependant, cela n'attribue pas automatiquement aucun programme. En conséquence, ils peuvent voir une page vierge lors de leur première connexion sauf s'ils ont déjà été ajoutés à un programme.
 
-    Chaque utilisateur doit être manuellement ajouté aux programmes spécifiques auxquels il est assigné. Vous pouvez lui assigner un rôle spécifique au sein du programme. Suivez les instructions sur [cette page pour ajouter des membres de l'équipe à un programme.](../team/add-team-members.md)
+    Chaque utilisateur doit être manuellement ajouté aux programmes spécifiques auxquels il est assigné. Vous pouvez lui assigner un rôle spécifique au sein du programme. Suivez les instructions sur [cette page pour ajouter des membres de l'équipe à un programme.](../Settings/programteam.md)
 
 ---
 

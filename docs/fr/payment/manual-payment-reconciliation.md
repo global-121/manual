@@ -5,11 +5,11 @@ hide:
 ---
 Dans la plateforme 121, les paiements peuvent être traités de deux façons différentes : avec un **paiement manuel via un portail PSF** ou avec une **intégration PSF directe**. Vous trouverez ci-dessous les instructions étape par étape pour importer les **données de réconciliation manuelles** dans le programme, une fois que vous avez reçu les instructions de paiement de retour du PSF.
 
-*Pour les instructions de paiement avec un prestataire de services financiers intégré, veuillez vous référer aux instructions sur la [page Paiement avec un PSF intégré.](../payment/payment-integrated-PSF.md)*
+*Pour les instructions de paiement avec un prestataire de services financiers intégré, veuillez vous référer aux instructions sur la [page Paiement avec un PSF intégré.](../payment/payment-integrated-fsp.md)*
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
     Les rôles de gestionnaire financier et agent financier peuvent effectuer des actions sur la page Paiements.  
-    Les utilisateurs supplémentaires peuvent ne recevoir que la permission **Affichage**. [En savoir plus sur Utilisateurs et rôles.](../users/users-roles-page.md)
+    Les utilisateurs supplémentaires peuvent ne recevoir que la permission **Affichage**. [En savoir plus sur Utilisateurs et rôles.](../users/description-roles.md)
 
 Avant de télécharger le fichier de réconciliation dans la plateforme 121, il y a quelques étapes que vous devez suivre pour adapter le fichier à la plateforme 121.
 

@@ -8,11 +8,11 @@ Si vous ne collectez pas d'enregistrements avec un formulaire Kobo ou équivalen
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
     L'administrateur du programme, l'agent d'assistance et le gestionnaire d'assistance peuvent effectuer des actions.
-    Des utilisateurs supplémentaires peuvent uniquement avoir des permissions d'affichage sur cette page. [En savoir plus sur les utilisateurs et les rôles](../users/users-roles-page.md)
+    Des utilisateurs supplémentaires peuvent uniquement avoir des permissions d'affichage sur cette page. [En savoir plus sur les utilisateurs et les rôles](../users/description-roles.md)
 
 Si vous souhaitez importer votre liste d'enregistrement à l'aide d'un fichier Excel (format .csv), vous devez d'abord vous assurer que ce fichier correspond au format accepté par 121. Pour ce faire, téléchargez d'abord le fichier modèle .csv à partir de la plateforme 121, puis vous pouvez télécharger votre fichier correspondant avec les informations d'enregistrement vers 121.
 
-*Pour l'importation de nouveaux enregistrements via l'application Kobo Toolbox, suivez les instructions sur [cette page](../registration/registration-automatic-import-kobo.md). Voulez-vous intégrer votre formulaire KOBO ou une application d'enregistrement alternative avec la plateforme 121? Veuillez contacter notre équipe.*
+*Pour l'importation de nouveaux enregistrements via l'application Kobo Toolbox, suivez les instructions sur [cette page](../Settings/registration-data.md). Voulez-vous intégrer votre formulaire KOBO ou une application d'enregistrement alternative avec la plateforme 121? Veuillez contacter notre équipe.*
 
 ### Téléchargez le fichier modèle d'enregistrement
 

@@ -7,7 +7,7 @@ hide:
 La **page Suivi** dispose d'un tableau de bord standard avec des indicateurs de base et donne un premier aperçu de la progression du programme.
 
 !!! Important "Qui peut effectuer des actions sur cette page?"
-    Tous les utilisateurs. [En savoir plus sur les rôles utilisateur.](../users/users-roles-page.md)
+    Tous les utilisateurs. [En savoir plus sur les rôles utilisateur.](../users/description-roles.md)
 
 ## Accès à la section Tableau de bord
 

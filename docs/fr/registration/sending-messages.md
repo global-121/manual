@@ -16,7 +16,7 @@ Il existe une option pour envoyer des **messages sortants** via SMS ou WhatsApp 
 
 !!! Important "Qui peut effectuer des actions sur cette page?"
     Les rôles de gestionnaire d'assistance et d'agent d'assistance peuvent effectuer des actions sur la page Enregistrements.
-    Des utilisateurs supplémentaires peuvent se voir accorder uniquement la permission d'affichage sur cette page. [En savoir plus sur les utilisateurs et les rôles](../users/users-roles-page.md)
+    Des utilisateurs supplémentaires peuvent se voir accorder uniquement la permission d'affichage sur cette page. [En savoir plus sur les utilisateurs et les rôles](../users/description-roles.md)
 
 ---
 

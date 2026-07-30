@@ -8,7 +8,7 @@ La page Paiements fournit un aperçu de tous les paiements effectués et distrib
 
 !!! Important "Qui peut effectuer des actions dans cette page ?"
     Les rôles de gestionnaire financier et officier financier peuvent effectuer des actions dans la page Paiements.  
-    D'autres utilisateurs peuvent se voir accorder uniquement la permission de **consultation**. [En savoir plus sur les utilisateurs et les rôles](../users/users-roles-page.md)
+    D'autres utilisateurs peuvent se voir accorder uniquement la permission de **consultation**. [En savoir plus sur les utilisateurs et les rôles](../users/description-roles.md)
 
 ![Page Paiements](../assets/img/PaymentsPage.png)
 
@@ -20,8 +20,8 @@ Vous pouvez créer de nouvelles demandes de paiement en cliquant sur **Créer un
 
 La plateforme 121 offre **deux méthodes différentes pour traiter les paiements** :
 
-- **Envoyer et rapprocher les paiements manuels en exportant un fichier d'instructions de paiement**. Vous pré-traitez le paiement dans 121 en incluant la liste d'enregistrement sélectionnée dans la ronde de paiement, puis téléchargez les instructions de paiement à partager au PSF et rapprochez ultérieurement les données de paiement. Des instructions supplémentaires sur la [page de paiement manuel](./issue-payment-PSF-portal.md) et la [page de rapprochement manuel.](./manual-payment-reconciliation.md)
-- Traiter un **paiement instantané** directement dans la plateforme 121. Une intégration directe avec le PSF automatise le paiement et le rapprochement. Des instructions supplémentaires sur [cette page.](./payment-integrated-PSF.md)
+- **Envoyer et rapprocher les paiements manuels en exportant un fichier d'instructions de paiement**. Vous pré-traitez le paiement dans 121 en incluant la liste d'enregistrement sélectionnée dans la ronde de paiement, puis téléchargez les instructions de paiement à partager au PSF et rapprochez ultérieurement les données de paiement. Des instructions supplémentaires sur la [page de paiement manuel](./issue-payment-fsp-portal.md) et la [page de rapprochement manuel.](./manual-payment-reconciliation.md)
+- Traiter un **paiement instantané** directement dans la plateforme 121. Une intégration directe avec le PSF automatise le paiement et le rapprochement. Des instructions supplémentaires sur [cette page.](./payment-integrated-fsp.md)
 
 
 ## Aperçu du statut de paiement
