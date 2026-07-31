@@ -91,4 +91,4 @@ If you intend to send messages at various stages of the program, you can add mes
 
 ---
 
--8<- "docs/en/\_snippets/contact-support.md"
+-8<- "docs/en/_snippets/contact-support.md"
