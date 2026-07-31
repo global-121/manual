@@ -26,7 +26,7 @@ To mark the registrations as **included**:
 - Click on **Approve**. A message indicates the completion of the action;
 - The status is now updated to **Included**.
 
-!!! info "Deduplication process"
+!!! Info "Deduplication process"
     The SOPs may include a deduplication process before initiating the inclusion phase. Follow the instructions to [check your registration list and deduplicate registrations before moving the list to the inclusion phase](./registration-deduplication.md).
 
 ### Decline registrations from the program

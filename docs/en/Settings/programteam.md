@@ -36,7 +36,7 @@ After creating the program, you must set up your program team.
 ![Program Team](../assets/img/settings-programteampng.png)
 
 !!! Note
-     You can add, remove, and edit users at any time while managing your program. The program's status and action history will remain unchanged, continuing to track users who made changes, even after they have been removed.
+    You can add, remove, and edit users at any time while managing your program. The program's status and action history will remain unchanged, continuing to track users who made changes, even after they have been removed.
 
 !!! warning "Review regularly your Team access"
     We recommend that the **Program Admin** reviews the program team on a regular basis to ensure that it is up to date and that only those who are working in the program have access. Any users who no longer work with the program or who have left the organization should be removed from the program team to ensure data protection.
@@ -50,7 +50,7 @@ After creating the program, you must set up your program team.
 - Select the assigned role;
 - Add to team.
 
-!!! info "This user is already a team member"
+!!! Info "This user is already a team member"
     If you get an error message *"This user is already a team member"*, they are already part of the team. If you want to update their role, check the section [Change assigned roles and permissions](#change-assigned-roles-and-permissions).
 
 !!! warning "Users must be added to each individual program they are assigned to"

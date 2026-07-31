@@ -64,7 +64,7 @@ Once you have identified the reason, you can proceed with retrying the payments:
 - The transaction will be automatically retried for the selected registrations identified with a **failed payment** status;
 - The payment status will be updated.
 
-!!! important "Retry based on your payment methods"
+!!! Important "Retry based on your payment methods"
     If you are processing the payment with an integrated FSP, the payment request and reconciliation will be done automatically.
 
     However, **if you are processing the payments with a manual export-import**, please follow the same steps again. Further instructions can be read on [the manual payment page.](../payment/issue-payment-fsp-portal.md)

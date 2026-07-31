@@ -63,7 +63,7 @@ Once your updated file is ready and saved as a .csv format, you can import the p
 - **Drag and drop** or **choose a file**
 - Click on **Import file** ![Import reconciliation file](../assets/img/ReconciliationImport.png)
 
-!!! info "Payment statuses"
+!!! Info "Payment statuses"
     All registrations payment statuses will be updated in the specific payment round. You can then overview the number of successful, waiting and failed payments within the registrations list. Read more about the payment statuses in [this page.](./list-status-payment-page.md)
 
 -8<- "docs/en/_snippets/contact-support.md"

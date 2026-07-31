@@ -49,6 +49,10 @@ The agent helps with:
   - Legal or regulatory terms may require non-literal translation per jurisdiction.
   - Always flag non-literal choices in PR comments for review.
 
+## Markdown syntax and structure
+
+- The layout of warnings, notes and notifications are marked with `!!! Important`, `!!! Note`, `!!! Info`, and `!!! Question`. Make sure the text following the title is preceded by exactly four spaces, as otherwise the markdown parser will not render it correctly inside the notification box. Please note though that hard tabs are not allowed by the markdown linter, so make sure to use spaces instead of tabs.
+
 ## ToC and anchor safety
 
 - Do not add inline heading IDs like `{ #my-id }` to headings in this repo.

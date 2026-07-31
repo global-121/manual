@@ -64,7 +64,7 @@ Une fois que votre fichier mis à jour est prêt et enregistré au format .csv, 
 - **Déposez et déposez** ou **choisissez un fichier**
 - Cliquez sur **Importer un fichier** ![Importer le fichier de réconciliation](../assets/img/ReconciliationImport.png)
 
-!!! info "Statuts de paiement"
+!!! Info "Statuts de paiement"
     Tous les statuts de paiement d'enregistrement seront mis à jour dans le tour de paiement spécifique. Vous pouvez ensuite afficher le nombre de paiements réussis, en attente et échoués au sein de la liste d'enregistrement. Lisez-en plus sur les statuts de paiement sur [cette page.](./list-status-payment-page.md)
 
 -8<- "docs/fr/_snippets/contact-support.md"

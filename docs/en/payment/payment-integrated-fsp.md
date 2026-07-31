@@ -42,7 +42,7 @@ The Payments page in your program will display information about any completed i
 
 ![Payment Board](../assets/img/PaymentReportBoard.png)
 
-!!! info "Payment process timeframe"
+!!! Info "Payment process timeframe"
     Once the payment has been processed in the 121 platform, payment status with integrated FSP are updated instantly. In some cases, it can take a few minutes for the status to be updated (up to 1 hour) as the information needs to be processed from the FSP back to the 121 platform. Updated payment reports will be available only then.
     Because the payment data is being processed on the server, you can keep using the 121 platform after initiating a payment round.
 
@@ -64,7 +64,7 @@ The status will be updated automatically for integrated FSP.
 
 For financial audit and donor requirements, you can export the payment reports once this is completed. Follow the instructions on [this page.](../payment/payment-reporting.md)
 
-!!! info "Payment Frequency"
+!!! Info "Payment Frequency"
     Disbursements can be executed at a certain frequency (daily, weekly, monthly or one-off payment). All payments in the 121 platform must be triggered manually.
 
     Transfers are not sent automatically at a specific date. This allows the Finance Manager to review the availability of funds before a payment is issued to the registrations.

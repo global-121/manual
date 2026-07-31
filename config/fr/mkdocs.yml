@@ -97,7 +97,7 @@ nav:
     - "Utilisateurs et rôles":
         - "Ajouter et créer des comptes utilisateurs": "users/add-users.md"
         - "Description des permissions basées sur les rôles": "users/description-roles.md"
-    - "Paramètres du programme":
+    - "Créer et gérer des programmes":
         - "Créer un nouveau programme": "Settings/create-new-program.md"
         - "Aperçu des paramètres": "Settings/settings-overview.md"
         - "Informations sur le programme": "Settings/program-information.md"

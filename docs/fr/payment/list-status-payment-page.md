@@ -31,7 +31,7 @@ Le statut sera mis à jour automatiquement pour les PSF intégrés, ou après r�
 | **Mis(e) en pause** | Les enregistrements ne sont actuellement pas inclus dans la distribution (les paiements sont en pause) mais font toujours partie du programme. | Les enregistrements peuvent être inclus ou refusés du programme selon les SOP. Un gestionnaire CVA ou un agent CVA peut décider de la mise à jour du statut. |
 | **Complété(e)** | Les enregistrements ont reçu le montant complet des transferts. Aucun autre paiement ne peut être envoyé. | Aucun. Ce statut est automatiquement généré par le système. Sauf si des tours de paiement supplémentaires ont été ajoutés au programme, ce statut restera inchangé. |
 
-!!! important "Mises à jour des statuts"
+!!! Important "Mises à jour des statuts"
     Les rôles de gestionnaire CVA et d'agent CVA ont les autorisations de mettre à jour les statuts des enregistrements au sein de leur programme attribué. Si vous remarquez que le statut d'un enregistrement doit être mis à jour, veuillez contacter votre gestionnaire CVA ou agent CVA pour discuter des prochaines étapes.
 
     Seul le statut **Complété(e)** est automatiquement généré par le système une fois que tous les paiements ont été traités pour les enregistrements inclus dans le programme.

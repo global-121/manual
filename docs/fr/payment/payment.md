@@ -65,7 +65,7 @@ Vous serez en mesure de traiter les paiements avec un ou plusieurs modes de livr
 *Dans les cas où le paiement en espèces physiques peut être une meilleure approche, ces options peuvent être discutées au cas par cas avec notre équipe 121.*
 
 
-!!! info "Intégration avec PSF local"
+!!! Info "Intégration avec PSF local"
     La plateforme 121 a intégré un certain nombre de PSF et d'agrégateurs locaux. Les PSF locaux supplémentaires peuvent être intégrés après évaluation. Veuillez partager votre demande avec notre équipe.
 
     Tous les PSF ne peuvent pas être intégrés avec des logiciels tiers comme la plateforme 121. Cela peut être dû à un **manque de technologie compatible** ou pour des **raisons de sécurité**, auquel cas la banque refuse d'intégrer tout fournisseur de plateforme afin de protéger les données financières. Par conséquent, si vous souhaitez envisager d'intégrer votre prestataire de services financiers à la plateforme 121 :

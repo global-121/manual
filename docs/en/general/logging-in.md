@@ -28,7 +28,7 @@ If Single Sign-On (SSO) is enabled in your organization’s system, users will b
 
 ---
 
-!!! question "Haven't received your login credentials?"
+!!! Question "Haven't received your login credentials?"
     You can ask your User Manager to verify if an invitation was sent to your email and if your user account was created in the 121 platform within the [**Users** page.](../users/add-users.md)
 
     If your account has not been set up yet, the Organizational Admin can send you an invitation by [following the instructions on the Add Users page.](../users/add-users.md)

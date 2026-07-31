@@ -5,7 +5,7 @@
 
 On the left you can find a navigation overview, or find the information you need by using the search bar on the top right.
 
-!!! note ""
+!!! Note ""
     You can **change the language** of this user manual by clicking the **language icon :material-translate:** on the top right (next to the search bar), and selecting a different language.
 
 ---

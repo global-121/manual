@@ -20,7 +20,7 @@ Misspelling or double entries may occur during the registration phase. Collected
 
 When the details are fully reviewed and correct, you can then mark the profile as **validated**. Follow the instructions to [validate a registration profile](./registration-validate-pa.md).
 
-!!! info "Reason for update"
+!!! Info "Reason for update"
     For auditing and accountability reasons, changes in the registration's profile cannot be performed without indicating a reason. All data changes are logged into 121 platform with the old value, new value, reasons for update and are linked to the user's email address performing the change.
     To enhance the audit trail, you can download the data changes report by clicking on **Export** and selecting **Export status & data changes**. You can also overview the changes in the Activity Log within the registration's profiles.
 

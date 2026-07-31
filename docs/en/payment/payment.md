@@ -63,7 +63,7 @@ You will be able to process payments with one or multiple delivery mechanisms de
 *In cases physical cash payment may be a better approach, these options can be discussed on a case-by-case basis with our 121 Team.*
 
 
-!!! info "Integration with local FSP"
+!!! Info "Integration with local FSP"
     The 121 platform has integrated with a certain number of local FSP and aggregators. Additional local FSP can be integrated upon evaluation. Please, share your request with our team.
 
     Not all FSP can be integrated with third tool software such as the 121 platform. This can be due to **lack of compatible technology** or for **security reasons**, in which case the bank refuses to integrate with any platform providers so to protect the financial data. Therefore, if you would like to consider integrating your Financial Service Provider with the 121 platform:

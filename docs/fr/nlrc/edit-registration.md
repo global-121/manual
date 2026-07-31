@@ -12,5 +12,5 @@ hide:
 5. Cliquez sur Enregistrer.
 6. Entrez la raison du changement et cliquez à nouveau sur Enregistrer.
 
-!!! info
+!!! Info
     Le nombre de paiements hebdomadaires ne peut pas être modifié dans 121. Pour une assistance supplémentaire, contactez la Croix-Rouge.

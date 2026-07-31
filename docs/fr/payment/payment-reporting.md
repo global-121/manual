@@ -22,7 +22,7 @@ Pour exporter un rapport financier général :
   Le fichier sera exporté dans le dossier de téléchargement en tant que fichier Excel.
 
 !!! Info "CONSEILS : Téléchargez uniquement les fichiers Excel si nécessaire et supprimez-les après exportation / utilisation"
-  Les fichiers Excel ne doivent être téléchargés que si nécessaire pour assurer la sécurité des données personnelles. Après utilisation, les fichiers Excel doivent être supprimés de votre ordinateur pour maintenir les données personnelles sécurisées et prévenir les erreurs utilisant les anciens fichiers. De cette façon, vous aurez toujours les dernières données mises à jour dans 121.
+    Les fichiers Excel ne doivent être téléchargés que si nécessaire pour assurer la sécurité des données personnelles. Après utilisation, les fichiers Excel doivent être supprimés de votre ordinateur pour maintenir les données personnelles sécurisées et prévenir les erreurs utilisant les anciens fichiers. De cette façon, vous aurez toujours les dernières données mises à jour dans 121.
 
 ---
 

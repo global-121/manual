@@ -43,7 +43,7 @@ La page Paiements de votre programme affichera des informations sur tous les ver
 
 ![Tableau de bord de paiement](../assets/img/PaymentReportBoard.png)
 
-!!! info "Calendrier du processus de paiement"
+!!! Info "Calendrier du processus de paiement"
     Une fois que le paiement a été traité dans la plateforme 121, le statut de paiement avec PSF intégré est mis à jour instantanément. Dans certains cas, cela peut prendre quelques minutes pour que le statut soit mis à jour (jusqu'à 1 heure) car l'information doit être traitée du PSF revient à la plateforme 121. Les rapports de paiement mis à jour ne seront disponibles qu'ensuite.
     Parce que les données de paiement sont traitées sur le serveur, vous pouvez continuer à utiliser la plateforme 121 après avoir lancé un tour de paiement.
 
@@ -65,7 +65,7 @@ Le statut sera mis à jour automatiquement pour les PSF intégrés.
 
 Pour audit financier et exigences des donateurs, vous pouvez exporter les rapports de paiement une fois terminé. Suivez les instructions sur [cette page.](../payment/payment-reporting.md)
 
-!!! info "Fréquence des paiements"
+!!! Info "Fréquence des paiements"
     Les décaissements peuvent être exécutés à une certaine fréquence (quotidienne, hebdomadaire, mensuelle ou paiement unique). Tous les paiements dans la plateforme 121 doivent être déclenchés manuellement.
 
     Les transferts ne sont pas envoyés automatiquement à une date spécifique. Cela permet au gestionnaire financier d'examiner la disponibilité des fonds avant qu'un paiement ne soit émis aux enregistrements.

@@ -14,5 +14,5 @@ hide:
 6. Klik op Opslaan.
 7. Vul de reden voor de wijziging in en klik nogmaals op Opslaan.
 
-!!! info
+!!! Info
     Het **aantal wekelijkse betalingen** kan niet worden aangepast in 121. Voor extra hulp neem contact op met het **Rode Kruis**.

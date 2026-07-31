@@ -18,7 +18,7 @@ There are two ways to find a registration:
 
 The person will appear.
 
-!!! info
+!!! Info
     Quick search works for most, but not all columns. If you can't find what you're looking for, use column filtering.
 
 ## Column Filtering

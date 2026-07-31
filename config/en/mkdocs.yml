@@ -97,7 +97,7 @@ nav:
     - "Users and Roles":
         - "Add User to 121": "users/add-users.md"
         - "Roles and permissions": "users/description-roles.md"
-    - "Program Settings":
+    - "Create and Manage Programs":
         - "Create new program": "Settings/create-new-program.md"
         - "Settings overview": "Settings/settings-overview.md"
         - "Program information": "Settings/program-information.md"

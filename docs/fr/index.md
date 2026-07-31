@@ -5,7 +5,7 @@
 
 Sur la gauche, vous pouvez trouver un aperçu de la navigation, ou trouver les informations dont vous avez besoin en utilisant la barre de recherche en haut à droite.
 
-!!! note ""
+!!! Note ""
     Vous pouvez **modifier la langue** de ce manuel utilisateur en cliquant sur l'**icône de langue :material-translate:** en haut à droite (à côté de la barre de recherche), et en sélectionnant une langue différente.
 
 ---

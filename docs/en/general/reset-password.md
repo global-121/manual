@@ -27,7 +27,7 @@ The User Manager can reset users' passwords directly from the **Users page**.
 
 If you are still not able to log in, contact our support team via <support@121.global>
 
-!!! question "Change your current password"
+!!! Question "Change your current password"
     You can change your current password within your 121 user profile.  
     Follow the instructions: [Change current password](./change-current-password.md).
 

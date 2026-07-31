@@ -7,7 +7,7 @@ hide:
 Follow the instructions on this page, if you wish to import registrations in 121 collected with another data collection tool than KoboToolbox. If you use KoboToolbox, please refer to this [page](../Settings/registration-data.md).
 
 !!! Important "Who can perform actions on this page ?"
-CVA Manager and CVA Officer can perform actions on this page. [Learn more about Roles & Permissions](../users/description-roles.md)
+    CVA Manager and CVA Officer can perform actions on this page. [Learn more about Roles & Permissions](../users/description-roles.md)
 
 The format used to import registrations in 121 is **Excel CSV**. You first download the .csv template file from the 121 platform, populate it with your registration data, and upload this file to 121.
 
@@ -32,7 +32,7 @@ For example, the program registration form may include selection criteria such a
 - Another pop up will appear with confirmation that the import was successful. _Please note this can take some time depending on the number of registrations that are being uploaded._
 
 !!! warning "Unsuccessful import"
-In case the import is unsuccessful or shows an error message, kindly check your Excel file is correctly formatted and saved as a .CSV file.
+    In case the import is unsuccessful or shows an error message, kindly check your Excel file is correctly formatted and saved as a .CSV file.
 Should you need further guidance or support, please do not hesitate to contact our [support team](mailto:support@121.global).
 
 ---
@@ -46,6 +46,6 @@ If you need additional explanations, contact our [support team via email](mailto
 ---
 
 !!! Info "TIP: do not save old Excel record"
-To prevent mistakes and keep personal data secure, Excel files should be deleted from your computer once your database is cleaned and updated in 121 platform. This way, you will always have your latest updated list of registered beneficiaries in 121.
+    To prevent mistakes and keep personal data secure, Excel files should be deleted from your computer once your database is cleaned and updated in 121 platform. This way, you will always have your latest updated list of registered beneficiaries in 121.
 
 -8<- "docs/en/_snippets/contact-support.md"

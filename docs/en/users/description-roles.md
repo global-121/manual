@@ -82,7 +82,7 @@ Additional roles and permissions can be configured upon request. Contact our [su
 
 ---
 
-!!! note "Add users to a program"
+!!! Note "Add users to a program"
     You can follow these instructions to [add team members to a program and assign a role](../Settings/programteam.md).
 
 -8<- "docs/en/_snippets/contact-support.md"

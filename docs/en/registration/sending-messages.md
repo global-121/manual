@@ -14,7 +14,7 @@ There is an option to send **outbound messages** via SMS or WhatsApp to registra
 - [Predefined template messages](#predefined-template-messages)
 
 !!! Important "Who can perform actions in this page?"
-CVA Manager and CVA Officer roles can perform actions in the Registrations page. [Learn more about Roles & Permissions](../users/description-roles.md)
+    CVA Manager and CVA Officer roles can perform actions in the Registrations page. [Learn more about Roles & Permissions](../users/description-roles.md)
 
 ---
 
@@ -43,7 +43,7 @@ WhatsApp messages follow a different scheme. You can find the fees description o
 Once you have calculated the total costs, you can top up your account via the Twilio Portal and add the necessary funds.
 
 !!! Important "Add sufficient funds on your Twilio account"
-Without funds available in your Twilio account, SMS or WhatsApp messages will fail. Contact our team if you need help setting up your Twilio account.
+    Without funds available in your Twilio account, SMS or WhatsApp messages will fail. Contact our team if you need help setting up your Twilio account.
 
 ---
 
@@ -73,7 +73,7 @@ In the **Registrations page**:
 - You can use a variable by using **@** and **selecting the field** you want to insert. Variables allow you to pull information directly from the registration form and insert it automatically, without having to fill it in manually for each person. The content will adjust automatically based on the data provided by each individual during registration.
 
 !!! Note "What is a variable and how does it work?"
-A variable is a placeholder that automatically pulls and inserts specific information from your registration form — like a name, email address, phone number, or any other field collected during sign-up.
+    A variable is a placeholder that automatically pulls and inserts specific information from your registration form — like a name, email address, phone number, or any other field collected during sign-up.
 
     You can use a variable by typing @ and selecting the field you want to insert. For example, typing @name will automatically insert each person's name into the message. This means you don’t need to manually customize the message for every individual. The variable will dynamically adjust for each registration, based on the information submitted by that person.
 
