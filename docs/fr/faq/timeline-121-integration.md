@@ -20,7 +20,7 @@ hide:
 
      La plateforme 121 s'est **intégrée à un certain nombre de prestataires de services financiers (PSF) dans différents pays, permettant d'intégrer instantanément la plateforme avec votre PSF local**. Si une intégration PSF est déjà en place, **notre délai est de 7 jours ouvrables**. Nous pouvons également intégrer des PSF locaux supplémentaires sur demande. Dans ce cas, le délai d'intégration peut varier en fonction du niveau de complexité technique et du délai de réponse du PSF.
 
-     **Sans intégration PSF, nous offrons une intégration logicielle pour que vous puissiez commencer à utiliser la plateforme 121 immédiatement**, tandis que l'intégration est en cours de traitement. Cela fonctionne en exécutant les fichiers excel incluant les informations de paiement de 121 et en les téléchargeant dans le portail PSF. Vous concilierez ensuite les paiements dans la plateforme 121.
+     **Sans intégration PSF, nous offrons une intégration logicielle pour que vous puissiez commencer à utiliser la plateforme 121 immédiatement**, tandis que l'intégration est en cours de traitement. Cela fonctionne en exportant des fichiers Excel incluant les informations de paiement de 121 et en les téléchargeant dans le portail PSF. Vous concilierez ensuite les paiements dans la plateforme 121.
 
 ??? "4. La plateforme 121 peut-elle être intégrée à d'autres outils tiers ?"
 

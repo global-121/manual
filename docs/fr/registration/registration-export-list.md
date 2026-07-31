@@ -40,7 +40,7 @@ Vous devrez peut-être importer des modifications pour un certain nombre d'enreg
 
 ---
 
-!!! Info "CONSEIL: ne pas enregistrer les anciens dossiers Excel"
+!!! Info "CONSEIL: ne pas enregistrer les anciens fichiers Excel"
     Pour éviter les erreurs et garder les données personnelles sécurisées, les fichiers Excel doivent être supprimés de votre ordinateur une fois que votre base de données est nettoyée et mise à jour dans la plateforme 121. De cette façon, vous aurez toujours votre dernière liste d'enregistrements mise à jour dans 121.
 
 -8<- "docs/fr/_snippets/contact-support.md"

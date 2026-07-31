@@ -13,9 +13,8 @@ There is an option to send **outbound messages** via SMS or WhatsApp to registra
 - [Custom message](#custom-message)
 - [Predefined template messages](#predefined-template-messages)
 
-
 !!! Important "Who can perform actions in this page?"
-    CVA Manager and CVA Officer roles can perform actions in the Registrations page. [Learn more about Roles & Permissions](../users/description-roles.md)
+CVA Manager and CVA Officer roles can perform actions in the Registrations page. [Learn more about Roles & Permissions](../users/description-roles.md)
 
 ---
 
@@ -25,7 +24,7 @@ The 121 Team will assist you in creating your account. If you don't have an acco
 
 Once your Twilio account is active, the 121 support team will link it to your 121 platform, enabling the messaging feature.
 
-*Please note that neither 121 nor the Netherlands Red Cross will charge any fees on behalf of Twilio. Our team is solely responsible for the technical integration between the two systems to facilitate message sending.*
+_Please note that neither 121 nor the Netherlands Red Cross will charge any fees on behalf of Twilio. Our team is solely responsible for the technical integration between the two systems to facilitate message sending._
 
 ---
 
@@ -44,7 +43,7 @@ WhatsApp messages follow a different scheme. You can find the fees description o
 Once you have calculated the total costs, you can top up your account via the Twilio Portal and add the necessary funds.
 
 !!! Important "Add sufficient funds on your Twilio account"
-    Without funds available in your Twilio account, SMS or WhatsApp messages will fail. Contact our team if you need help setting up your Twilio account.
+Without funds available in your Twilio account, SMS or WhatsApp messages will fail. Contact our team if you need help setting up your Twilio account.
 
 ---
 
@@ -54,10 +53,9 @@ Phone numbers must be entered in international format. This means starting with 
 
 **When building your Kobo form, you can enforce the international phone number format using a constraint or calculation. Neither Kobo nor the 121 platform will automatically reformat numbers, so it's important to configure this logic in your form to ensure consistency.**
 
-| type | name label | constraint | constraint_message |
-| :-------  | :------- | :-------- | :------ |
+| type       | name label         | constraint                | constraint_message                               |
+| :--------- | :----------------- | :------------------------ | :----------------------------------------------- |
 | text_phone | Enter phone number | regex(., '^243[0-9]{9}$') | Phone must start with 243 and be 12 digits long. |
-
 
 ---
 
@@ -75,7 +73,7 @@ In the **Registrations page**:
 - You can use a variable by using **@** and **selecting the field** you want to insert. Variables allow you to pull information directly from the registration form and insert it automatically, without having to fill it in manually for each person. The content will adjust automatically based on the data provided by each individual during registration.
 
 !!! Note "What is a variable and how does it work?"
-    A variable is a placeholder that automatically pulls and inserts specific information from your registration form — like a name, email address, phone number, or any other field collected during sign-up.
+A variable is a placeholder that automatically pulls and inserts specific information from your registration form — like a name, email address, phone number, or any other field collected during sign-up.
 
     You can use a variable by typing @ and selecting the field you want to insert. For example, typing @name will automatically insert each person's name into the message. This means you don’t need to manually customize the message for every individual. The variable will dynamically adjust for each registration, based on the information submitted by that person.
 
@@ -87,10 +85,10 @@ In the **Registrations page**:
 
 If you intend to send messages at various stages of the program, you can add message templates to your instance. To do this, provide the message content along with a title and specify when the message should be triggered. Our support team will set them up. There are 2 options to send templated messages:
 
-  1. Templates can be linked to key stages such as Registration, Validation, Inclusion, Declining, and Payment(s). This means the message will be automatically sent when the corresponding action is performed — for example, by clicking a specific button.
+1. Templates can be linked to key stages such as Registration, Validation, Inclusion, Declining, and Payment(s). This means the message will be automatically sent when the corresponding action is performed — for example, by clicking a specific button.
 
-  2. Templated messages will be available in the dropdown menu when you click on the **Message** button. You can choose to send them whenever you want, independently of a specific action or stage in the program — unlike the first option, where messages are triggered automatically by actions such as registration or validation.
+2. Templated messages will be available in the dropdown menu when you click on the **Message** button. You can choose to send them whenever you want, independently of a specific action or stage in the program — unlike the first option, where messages are triggered automatically by actions such as registration or validation.
 
 ---
 
--8<- "docs/en/_snippets/contact-support.md"
+-8<- "docs/en/\_snippets/contact-support.md"

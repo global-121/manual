@@ -36,10 +36,10 @@ Le tableau est mis à jour automatiquement.
 
 ---
 
-## En bas, vous pouvez voir 4 onglets : Tableau de bord, PowerBi, Modifications des données et Fichiers
+## En bas, vous pouvez voir 4 onglets : Tableau de bord, Power BI, Modifications des données et Fichiers
 
 - **Tableau de bord** fournit des mises à jour du programme en temps réel avec des indicateurs de base correspondants. [En savoir plus](./dashboard.md)
-- **PowerBI** affiche un tableau de bord de modèle en temps réel, mais un tableau de bord personnalisé peut être intégré. [En savoir plus](powerbi.md)
+- **Power BI** affiche un tableau de bord de modèle en temps réel, mais un tableau de bord personnalisé peut être intégré. [En savoir plus](powerbi.md)
 - **Modifications des données** répertorie l'historique de toutes les modifications apportées aux programmes. [En savoir plus](./data-changes.md)
 - **Fichiers** est utilisé pour télécharger les fichiers utiles à votre programme. [En savoir plus](./upload-files.md)
 

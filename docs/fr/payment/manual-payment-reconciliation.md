@@ -27,7 +27,7 @@ Allez à la page des paiements et entrez le tour de paiement spécifique que vou
 ## Vérifier le fichier de données de réconciliation
 
 Quelques étiquettes doivent être ajustées selon la plateforme 121. Cela se rapporte aux statuts de paiement.
-Le tableau ci-dessous indique les noms d'étiquettes corrects qui doivent être remplis dans le statut de paiement de vos données de réconciliation. Le PSF peut écrire les statuts différemment que la plateforme 121. Par conséquent, vous devez remplacer le statut par les données indiquées dans le tableau ci-dessous, colonne **Statut de données 121**, dans votre fichier de données de réconciliation (excel) :
+Le tableau ci-dessous indique les noms d'étiquettes corrects qui doivent être remplis dans le statut de paiement de vos données de réconciliation. Le PSF peut écrire les statuts différemment que la plateforme 121. Par conséquent, vous devez remplacer le statut par les données indiquées dans le tableau ci-dessous, colonne **Statut de données 121**, dans votre fichier de données de réconciliation (Excel) :
 
 | Statut des données 121 | Description |
 | :---- | :---- |

@@ -53,7 +53,7 @@ Le **PSF** est requis pour 121. Assurez-vous que le formulaire contient une réf
 - **Utilisation de plusieurs PSF sans choix pour le bénéficiaire** : créez un champ calculate et ajoutez les noms des PSF dans le calcul déterminant le PSF. Les champs calculate sont toujours cachés.
 - **Utilisation de plusieurs PSF avec choix pour le bénéficiaire** : créez une question de type select one ouverte et ajoutez les noms des PSF comme options.
 
-Assurez-vous que le(s) PSF mentionné(s) dans votre formulaire Kobo correspondent aux noms des PSF configurés dans votre programme. Si vous utilisez l'option Excel manuelle, votre formulaire doit correspondre au « Nom d'affichage » indiqué dans la configuration PSF. Utilisez uniquement des lettres minuscules et des tirets « - » au lieu d'espaces.
+Assurez-vous que le(s) PSF mentionné(s) dans votre formulaire Kobo correspondent aux noms des PSF configurés dans votre programme. Si vous utilisez l'option manuelle via Excel, votre formulaire doit correspondre au « Nom d'affichage » indiqué dans la configuration PSF. Utilisez uniquement des lettres minuscules et des tirets « - » au lieu d'espaces.
 
 ### 4. Exigences des PSF
 

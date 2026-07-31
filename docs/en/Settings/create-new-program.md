@@ -16,7 +16,7 @@ Every time a new program starts, the Program Admin can create a program in the i
 
 **Step 1**: Add a program name and an optional program description.
 
-**Step 2**: Add general information to define your program details. You also decide if you wish to make use of "scope" and "validation" in this program. More information on scope and validation can be found [here](../Settings/program-information.md).
+**Step 2**: Add general information to define your program details. You also decide if you wish to make use of "scope" and "validation" in this program. More information on scope and validation can be found on the [program information page](../Settings/program-information.md).
 
 **Step 3**: Specify the financial details, such as your currency, fixed transfer value and FSP(s).
 

@@ -6,19 +6,23 @@ hide:
 
 La page **Équipe du programme** se trouve dans chacun de vos programmes actifs sous **Paramètres** - **Utilisateurs**. Vous pouvez configurer une équipe différente par programme. Cette page explique quatre actions :
 
-- [Voir votre équipe de programme](#voir-votre-equipe-de-programme)
-- [Configurer votre équipe de programme](#configurer-votre-equipe-de-programme)
-- [Ajouter un membre à l'équipe](#ajouter-un-membre-a-lequipe)
-- [Retirer un membre de l'équipe](#retirer-un-membre-de-l-equipe)
-- [Modifier les rôles et permissions assignés](#modifier-les-roles-et-permissions-assignes)
+- [Voir votre équipe de programme](#voir-votre-%C3%A9quipe-de-programme)
+- [Configurer votre équipe de programme](#configurer-votre-%C3%A9quipe-de-programme)
+- [Ajouter un membre à l'équipe](#ajouter-un-membre-%C3%A0-l%C3%A9quipe)
+- [Retirer un membre de l'équipe](#retirer-un-membre-de-l%C3%A9quipe)
+- [Modifier les rôles et permissions assignés](#modifier-les-r%C3%B4les-et-permissions-assign%C3%A9s)
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
-    L'administrateur du programme peut effectuer des actions sur cette page. [En savoir plus sur les rôles et permissions](../users/description-roles.md)
+L'administrateur du programme peut effectuer des actions sur cette page. [En savoir plus sur les rôles et permissions](../users/description-roles.md)
+
+<a id="voir-votre-%C3%A9quipe-de-programme"></a>
 
 ### Voir votre équipe de programme
 
 - Entrez dans le programme souhaité et **allez à la page :material-cog-outline: Paramètres** ;
 - Sélectionnez l'onglet **:octicons-people-24: Équipe du programme**.
+
+<a id="configurer-votre-%C3%A9quipe-de-programme"></a>
 
 ### Configurer votre équipe de programme
 
@@ -36,10 +40,12 @@ Après la création du programme, vous devez configurer votre équipe de program
 ![Équipe du programme](../assets/img/settings-programteampng.png)
 
 !!! Note
-     Vous pouvez ajouter, supprimer et modifier des utilisateurs à tout moment pendant la gestion de votre programme. L'historique des actions reste inchangé et continue de suivre les utilisateurs qui ont effectué des modifications, même après leur suppression.
+Vous pouvez ajouter, supprimer et modifier des utilisateurs à tout moment pendant la gestion de votre programme. L'historique des actions reste inchangé et continue de suivre les utilisateurs qui ont effectué des modifications, même après leur suppression.
 
 !!! warning "Examinez régulièrement l'accès à votre équipe"
-    Nous recommandons que l'**Administrateur du programme** révise régulièrement l'équipe du programme pour s'assurer qu'elle est à jour et que seules les personnes travaillant sur le programme ont accès. Les utilisateurs qui ne travaillent plus sur le programme ou qui ont quitté l'organisation doivent être retirés de l'équipe du programme pour garantir la protection des données.
+Nous recommandons que l'**Administrateur du programme** révise régulièrement l'équipe du programme pour s'assurer qu'elle est à jour et que seules les personnes travaillant sur le programme ont accès. Les utilisateurs qui ne travaillent plus sur le programme ou qui ont quitté l'organisation doivent être retirés de l'équipe du programme pour garantir la protection des données.
+
+<a id="ajouter-un-membre-%C3%A0-l%C3%A9quipe"></a>
 
 ### Ajouter un membre à l'équipe
 
@@ -51,12 +57,13 @@ Après la création du programme, vous devez configurer votre équipe de program
 - Ajoutez à l'équipe.
 
 !!! info "Cet utilisateur est déjà membre de l'équipe"
-    Si vous recevez l'erreur *"Cet utilisateur est déjà un membre de l'équipe"*, il fait déjà partie de l'équipe. Si vous souhaitez mettre à jour son rôle, consultez la section [Modifier les rôles et permissions assignés](#modifier-les-roles-et-permissions-assignes).
+Si vous recevez l'erreur _"Cet utilisateur est déjà un membre de l'équipe"_, il fait déjà partie de l'équipe. Si vous souhaitez mettre à jour son rôle, consultez la section [Modifier les rôles et permissions assignés](#modifier-les-r%C3%B4les-et-permissions-assign%C3%A9s).
 
 !!! warning "Les utilisateurs doivent être ajoutés à chaque programme individuel"
-    L'ajout d'un utilisateur à l'équipe du programme lui donne accès à ce programme spécifique, mais ne l'ajoute pas automatiquement à tous les programmes. Chaque utilisateur doit être assigné manuellement à chaque programme par l'Administrateur du programme. Sans affectation de programme, il peut voir une page vide lors de la connexion. De plus, vous pouvez attribuer à chaque utilisateur un rôle spécifique dans les programmes auxquels il est ajouté.
+L'ajout d'un utilisateur à l'équipe du programme lui donne accès à ce programme spécifique, mais ne l'ajoute pas automatiquement à tous les programmes. Chaque utilisateur doit être assigné manuellement à chaque programme par l'Administrateur du programme. Sans affectation de programme, il peut voir une page vide lors de la connexion. De plus, vous pouvez attribuer à chaque utilisateur un rôle spécifique dans les programmes auxquels il est ajouté.
 
-<a id="retirer-un-membre-de-l-equipe"></a>
+<a id="retirer-un-membre-de-l%C3%A9quipe"></a>
+
 ### Retirer un membre de l'équipe
 
 Les membres de l'équipe doivent être retirés du programme s'ils ne travaillent plus dans le programme ou s'ils ont quitté l'organisation pour assurer la protection des données.
@@ -70,7 +77,9 @@ Les membres de l'équipe doivent être retirés du programme s'ils ne travaillen
 ![Retirer un utilisateur](../assets/img/settings-programteamremove.png)
 
 !!! Note
-    Un utilisateur a été retiré par erreur ? Pas d'inquiétude ! L'historique des actions et les journaux restent inchangés. Si vous avez la permission, vous pouvez ajouter à nouveau l'utilisateur à l'équipe. Sinon, contactez votre Administrateur du programme.
+Un utilisateur a été retiré par erreur ? Pas d'inquiétude ! L'historique des actions et les journaux restent inchangés. Si vous avez la permission, vous pouvez ajouter à nouveau l'utilisateur à l'équipe. Sinon, contactez votre Administrateur du programme.
+
+<a id="modifier-les-r%C3%B4les-et-permissions-assign%C3%A9s"></a>
 
 ### Modifier les rôles et permissions assignés
 

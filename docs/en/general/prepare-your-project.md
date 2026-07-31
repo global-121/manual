@@ -28,7 +28,7 @@ Prepare your registration form in Kobo (or another supported tool). The form can
 - [ ] Decision whether to enable validation in 121 (enables the status 'Validate')
 - [ ] Fields to be checked for duplicates shared with 121 team
 
-Find specific instructions to set up your program information [**here**](../Settings/program-information.md).
+Find specific instructions to set up your program information on the [**Program information page**](../Settings/program-information.md).
 
 ---
 
@@ -41,7 +41,7 @@ Make agreements with your FSP on the upcoming program. If you work with an FSP i
 - [ ] Credentials entered in 121 for configuration – if FSP is integrated
 - [ ] Payment instruction template received from FSP – if FSP is not integrated
 
-Find specific instructions to set up your FSP(s) [**here**](../Settings/fsp-integration.md).
+Find specific instructions to set up your FSP on the [**FSP configuration page**](../Settings/fsp-integration.md).
 
 ---
 
@@ -58,7 +58,7 @@ Prepare your registration form in Kobo (or another supported tool). Ideally use 
 - [ ] Form reviewed by the 121 support team (mandatory 121 compatibility check, optional general review)
 - [ ] Form linked to 121 program
 
-Find specific instructions to set up your registration form [**here**](../Settings/registration-data.md).
+Find specific instructions to set up your registration data collection form on the [**registration data collection form page**](../Settings/registration-data.md).
 
 ---
 
@@ -70,7 +70,7 @@ Identify the members of your program team. Once their user accounts are created 
 - [ ] Users added to the program with an assigned role
 - [ ] Scope defined for users (optional)
 
-Find specific instructions to set up your program team [**here**](../Settings/programteam.md).
+Find specific instructions to set up your program team on the [**program team page**](../Settings/programteam.md).
 
 The user has not been created yet? Refer to the [user creation guide](../users/add-users.md).
 
@@ -103,7 +103,7 @@ Contact our team to organize this process and let us know the verification crite
 - [ ] Validation form requested and co-designed with the 121 team
 - [ ] Training on how to use the form provided
 
-Find specific instructions to set up your offline validation form [**here**](../verification/offline-verification.md).
+Find specific instructions to set up your offline validation form on the [**offline validation form page**](../registration/offline-verification.md).
 
 ---
 

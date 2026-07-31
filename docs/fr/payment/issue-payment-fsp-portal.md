@@ -1,5 +1,5 @@
 ---
-title: Paiements - Paiement manuel via le portail PSF (export excel)
+title: Paiements - Paiement manuel via le portail PSF (export Excel)
 hide:
   - toc
 ---
@@ -54,7 +54,7 @@ Le fichier fournira les instructions nécessaires pour que le PSF émette les pa
 
 Le statut de paiement affiché sur la page des paiements sera mis à jour en fonction de la phase de paiement. Pour le paiement manuel, le message par défaut sera **EN ATTENTE** jusqu'à ce que la réconciliation des paiements ait été traitée.
 ![Exporter la liste de paiement PSF](../assets/img/IndividualExportReport.png)
-!!! info "Modèle d'instructions de paiement excel"
+!!! info "Modèle d'instructions de paiement Excel"
     Chaque programme peut nécessiter un modèle différent selon le PSF avec lequel vous travaillez dans la région de vos opérations. Notre équipe créera un modèle spécifiquement adapté au téléchargement dans chaque portail PSF.
 
     Le fichier d'instructions de paiement ne doit contenir que les critères nécessaires au PSF pour confirmer l'identité des enregistrements et émettre les paiements, tels que les noms, les numéros de téléphone et les numéros d'ID ou tout autre critère selon vos SOP du programme. Pour la confidentialité des données, nous recommandons de n'exporter que les critères minimaux pour vérifier l'identité d'enregistrement. Toutes les autres données non pertinentes pour le processus de paiement doivent être refusées du fichier d'instructions de paiement. Après utilisation, les données exportées doivent être supprimées pour assurer la sécurité des données personnelles.

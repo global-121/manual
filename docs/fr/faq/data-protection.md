@@ -99,14 +99,14 @@ hide:
 
     - Règlement général sur la protection des données (RGPD)
 
-    - Module 3 (Responsabilité des données et des données numériques) du cours d'introduction à la littératie des données et des données numériques
+    - Module 3 (Responsabilité des données et des données numériques) du Cours d'initiation à la culture numérique
 
     Recommandations supplémentaires :
 
     - Ne collectez pas plus de données que nécessaire pour l'objectif du programme spécifique.
     - Ne gardez pas les données plus longtemps que nécessaire.
     - Effectuez un examen d'accès mensuel/bimensuel.
-    - Gérez de manière responsable tous les fichiers excel exportés de 121.
+    - Gérez de manière responsable tous les fichiers Excel exportés de 121.
     - Suivez une formation sur la protection des données.
     - Utilisez un gestionnaire de mots de passe numérique (par exemple, Bitwarden).
     

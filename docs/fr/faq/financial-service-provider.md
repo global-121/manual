@@ -29,7 +29,7 @@ hide:
      
      Nous pouvons également intégrer des PSF locaux supplémentaires sur demande. Dans ce cas, le délai d'intégration peut varier en fonction du niveau de complexité technique et du délai de réponse du PSF (entre 2 semaines à 2 mois selon le PSF local).
 
-     **Sans intégration PSF, nous offrons une intégration logicielle pour que vous puissiez commencer à utiliser la plateforme 121 immédiatement**, tandis que l'intégration est en cours de traitement. Cela fonctionne en exécutant les fichiers excel incluant les informations de paiement de 121 et en les téléchargeant dans le portail PSF. Vous concilierez ensuite les paiements dans la plateforme 121. 
+     **Sans intégration PSF, nous offrons une intégration logicielle pour que vous puissiez commencer à utiliser la plateforme 121 immédiatement**, tandis que l'intégration est en cours de traitement. Cela fonctionne en exportant des fichiers Excel incluant les informations de paiement de 121 et en les téléchargeant dans le portail PSF. Vous concilierez ensuite les paiements dans la plateforme 121. 
      
      Contactez notre équipe pour discuter des alternatives proposées dans votre situation et votre pays d'opération à <info@121.global>.
 
