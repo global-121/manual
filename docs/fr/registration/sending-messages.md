@@ -16,7 +16,7 @@ Il existe une option pour envoyer des **messages sortants** via SMS ou WhatsApp 
 
 !!! Important "Qui peut effectuer des actions sur cette page?"
     Les rôles de gestionnaire d'assistance et d'agent d'assistance peuvent effectuer des actions sur la page Enregistrements.
-    Des utilisateurs supplémentaires peuvent se voir accorder uniquement la permission d'affichage sur cette page. [En savoir plus sur les utilisateurs et les rôles](../users/users-roles-page.md)
+    Des utilisateurs supplémentaires peuvent se voir accorder uniquement la permission d'affichage sur cette page. [En savoir plus sur les utilisateurs et les rôles](../users/description-roles.md)
 
 ---
 
@@ -39,12 +39,12 @@ Une fois que votre compte Twilio est actif, l'équipe d'assistance 121 le liera 
 Vous pouvez vous connecter à votre compte Twilio chaque fois que vous avez besoin de recharger votre compte.
 
 **Envoi de SMS**
-Les frais par SMS varient selon la destination et le nombre de caractères envoyés par message. Vérifiez le site Web de Twilio pour les frais appliqués à votre destination sur ce site Web pour [SMS.](https://www.twilio.com/en-us/sms/pricing/ma)
+Les frais par SMS varient selon la destination et le nombre de caractères envoyés par message. Vérifiez le site Web de Twilio pour les frais appliqués à votre destination sur ce site Web pour [SMS.](https://www.twilio.com/fr-fr/sms/pricing/ma)
 
 Notez qu'un **SMS est limité à 160 caractères** — les messages plus longs que cela seront divisés en plusieurs SMS et facturés en conséquence. Par exemple, un message entre 161 et 320 caractères sera compté et facturé comme deux SMS. Un message entre 321 et 481 comme trois messages, etc. Vous pouvez utiliser cette base pour calculer combien votre compte Twilio devrait être rechargé. Le calcul comprendra: nombre de SMS envoyés x nombre d'enregistrements x prix par SMS pour la destination.
 
 **Messages WhatsApp**
-Les messages WhatsApp suivent un schéma différent. Vous pouvez trouver la description des frais sur [le site Web de Twilio.](https://www.twilio.com/en-us/whatsapp/pricing)
+Les messages WhatsApp suivent un schéma différent. Vous pouvez trouver la description des frais sur [le site Web de Twilio.](https://www.twilio.com/fr-fr/whatsapp/pricing)
 
 Une fois que vous avez calculé les coûts totaux, vous pouvez recharger votre compte via le portail Twilio et ajouter les fonds nécessaires.
 

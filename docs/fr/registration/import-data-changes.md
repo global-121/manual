@@ -8,7 +8,7 @@ La fonction d'importation des modifications de données vous permet d'importer o
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
     Le gestionnaire d'assistance peut effectuer cette action par défaut. La permission de modification des données peut également être attribuée en plus de votre rôle existant.
-    [En savoir plus sur les utilisateurs et les rôles](../users/users-roles-page.md)
+    [En savoir plus sur les utilisateurs et les rôles](../users/description-roles.md)
 
 !!! warning "Les numéros de téléphone ne peuvent pas être mis à jour en masse"
 
@@ -29,7 +29,7 @@ Allez à la page **Enregistrements**. Vous pouvez éventuellement télécharger 
 
 !!! Important "Colonnes à toujours inclure"
     Votre fichier doit toujours inclure l'ID de référence pour faire correspondre les enregistrements sélectionnés. La fonction de modification des données ne peut pas correspondre sur les noms ou autres valeurs.
-    Les noms de colonne doivent toujours correspondre aux noms de colonne 121 - tels qu'écrits dans le modèle csv.
+    Les noms de colonne doivent toujours correspondre aux noms de colonne 121 - tels qu'écrits dans le modèle CSV.
     Votre fichier doit être formaté en .csv
 
 
@@ -40,7 +40,7 @@ Une fois que vous avez formaté votre fichier, vous pouvez maintenant importer l
 !!! Warning "Incluez uniquement les enregistrements à mettre à jour"
     Importez uniquement les enregistrements pour lesquels vous souhaitez mettre à jour les informations. Si vous laissez une cellule vide dans votre fichier importé, cela supprimera les informations. Assurez-vous de refuser les enregistrements que vous n'avez pas besoin de mettre à jour.
 
-- Cliquez sur **Choisir le fichier** et déposez le fichier csv que vous avez créé pour les modifications de données;
+- Cliquez sur **Choisir le fichier** et déposez le fichier CSV que vous avez créé pour les modifications de données;
 - **Écrivez une raison** pour cette mise à jour;
 - Cochez la case pour confirmer que vous comprenez l'impact des modifications de données;
 - Cliquez sur **Importer le fichier**.

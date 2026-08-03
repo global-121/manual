@@ -27,7 +27,7 @@ Le gestionnaire d'utilisateurs peut réinitialiser directement les mots de passe
 
 Si vous ne pouvez toujours pas vous connecter, veuillez contacter notre équipe d'assistance via <support@121.global>
 
-!!! question "Modifier votre mot de passe actuel"
+!!! Question "Modifier votre mot de passe actuel"
     Vous pouvez modifier votre mot de passe actuel dans votre profil utilisateur 121.  
     Suivez les instructions : [Modifier le mot de passe actuel](./change-current-password.md).
 

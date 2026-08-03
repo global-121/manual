@@ -8,7 +8,7 @@ Ci-dessous, vous trouverez les étapes pour vérifier les enregistrements dupliq
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
     L'administrateur du programme, l'agent d'assistance et le gestionnaire d'assistance peuvent effectuer des actions.
-    Des utilisateurs supplémentaires peuvent uniquement avoir des permissions d'affichage sur cette page. [En savoir plus sur les utilisateurs et les rôles](../users/users-roles-page.md)
+    Des utilisateurs supplémentaires peuvent uniquement avoir des permissions d'affichage sur cette page. [En savoir plus sur les utilisateurs et les rôles](../users/description-roles.md)
 
 ---
 

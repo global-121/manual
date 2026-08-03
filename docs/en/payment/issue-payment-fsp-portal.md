@@ -1,16 +1,15 @@
 ---
-title: Payments - Manual payment via the FSP portal (excel export)
+title: Payments - Manual payment via the FSP portal (Excel export)
 hide:
   - toc
 ---
 
-In the 121 Platform, payments can be processed in two different methods: with a **manual payment via a FSP portal** or with a **direct FSP integration**. Below, you will find the step-by-step instructions to **process the manual payment via a FSP portal**, to export the payment instructions and reconcile payments into your program.
+In the 121 platform, payments can be processed in two different methods: with a **manual payment via an FSP portal** or with an **FSP configuration**. Below, you will find the step-by-step instructions to **process the manual payment via an FSP portal**, to export the payment instructions and reconcile payments into your program.
 
 *For payments instructions with an integrated Financial Service Provider, please refer to the instructions on the [Payment with an integrated FSP page.](./payment-integrated-fsp.md)*
 
 !!! Important "Who can perform actions in this page?"
-    Finance Manager and Finance Officer roles can perform actions in the Payments page.  
-    Additional users may be granted only **View** permission on this page. [Learn more about Users & Roles.](../users/users-roles-page.md)
+    Finance Manager and Finance Officer roles can perform actions in the Payments page. [Learn more about Roles & Permissions.](../users/description-roles.md)
 
 ## Payments Overview
 
@@ -54,18 +53,18 @@ The file will provide the necessary instructions for the FSP to issue the paymen
 
 The payment status displayed in the payment page will be updated depending on the payment phase. For Manual Payment, the default message will be **PENDING** until the payment reconciliation has been processed.
 ![Export FSP payment list](../assets/img/IndividualExportReport.png)
-!!! info "Payment instructions excel template"
+!!! Info "Payment instructions Excel template"
     Each program may require a different template depending on the FSP you work with in the region of your operations. Our Team will create a template specifically adapted to upload into each FSP portal.
 
-    The payment instructions excel file should only contain the criteria needed for the FSP to confirm the registrations' identity and issue the payments, such as names, phone number and ID number or any other criteria based on your program SOPs. For data privacy, we recommend to only export the minimum criteria to verify the registration identity. All other irrelevant data for the payment process should be declined from the payment instructions file. After usage the exported data should be deleted to ensure personal data is kept secure.
+    The payment instructions Excel file should only contain the criteria needed for the FSP to confirm the registrations' identity and issue the payments, such as names, phone number and ID number or any other criteria based on your program SOPs. For data privacy, we recommend to only export the minimum criteria to verify the registration identity. All other irrelevant data for the payment process should be declined from the payment instructions file. After usage the exported data should be deleted to ensure personal data is kept secure.
 
 ---
 
 ### Reconcile payments in 121 platform
 
-Once the FSP shared the reconciliation data file to you, you can reconcile payments in the 121 Platform. This will update the payment status by uploading the file in the **specific payment page**.
+Once the FSP shared the reconciliation data file to you, you can reconcile payments in the 121 platform. This will update the payment status by uploading the file in the **specific payment page**.
 
-!!! important "Format the reconciliation file"
+!!! Important "Format the reconciliation file"
     Before importing the reconciliation file, ensure it meets the required format. You can download the template by clicking Import reconciliation data and selecting the template. Make sure all required columns are included, and adjust the statuses as follows:
 
       - **Completed** → success
@@ -98,10 +97,10 @@ Below, the different payment statuses.
 | Status | Description | Actions required |
 | :------ | :----------- | :---------------- |
 | **SUCCESSFUL** | The transfer has been sent to the Registrations and they can now use it. | None. |
-| **PENDING** | The payment is waiting for approval of one or more financial officers. The transfer is not yet sent to the Registrations selected for this payment round. | Import the reconciliation file into 121 Platform to update the status. |
+| **PENDING** | The payment is waiting for approval of one or more financial officers. The transfer is not yet sent to the Registrations selected for this payment round. | Import the reconciliation file into the 121 platform to update the status. |
 | **FAILED** | The transaction has failed. The registrations have not received any payments. | Please check the error message provided by your bank. Failed payment can be due to wrong bank details, phone number or ID number depending on the chosen payment methods. You can try again. Contact our 121 Support Team if this remains unsolved. |
 
-!!! info "Manual payment reconciliation"
+!!! Info "Manual payment reconciliation"
     Once the FSP shares back the payment data, you can process the manual payment reconciliation in the 121 platform.
     Follow the instructions on [this page.](./manual-payment-reconciliation.md)
 

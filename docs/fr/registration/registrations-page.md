@@ -8,7 +8,7 @@ La page **Enregistrements** vous permet de vérifier et, si nécessaire, de mett
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
     L'administrateur du programme, l'agent d'assistance et le gestionnaire d'assistance peuvent effectuer des actions.
-    Des utilisateurs supplémentaires peuvent uniquement avoir des permissions d'affichage sur cette page. [En savoir plus sur les utilisateurs et les rôles](../users/users-roles-page.md)
+    Des utilisateurs supplémentaires peuvent uniquement avoir des permissions d'affichage sur cette page. [En savoir plus sur les utilisateurs et les rôles](../users/description-roles.md)
 
 
 ### Aperçu des listes d'enregistrement
@@ -23,7 +23,7 @@ Superviser tous les nouveaux **enregistrements**. Le statut initial d'un enregis
 
 Les listes d'enregistrements peuvent être importées de deux façons dans la plateforme 121:
 
-- **Automatiquement**, en intégrant vos enregistrements avec votre formulaire KOBO, ou un formulaire de collecte de données équivalent, à la plateforme 121. En savoir plus sur la [page d'importation automatique d'enregistrement;](../registration/registration-automatic-import-kobo.md)
+- **Automatiquement**, en intégrant vos enregistrements avec votre formulaire KOBO, ou un formulaire de collecte de données équivalent, à la plateforme 121. En savoir plus sur la [page d'importation automatique d'enregistrement;](../Settings/registration-data.md)
 - **Manuellement**, en important une liste d'enregistrement à partir d'un fichier Excel (format .CSV). En savoir plus sur la [page de liste d'importation d'enregistrement.](../registration/registration-import-list.md)
 
 ---

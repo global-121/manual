@@ -12,5 +12,5 @@ hide:
 5. Click Save.
 6. Enter the reason for the change and click Save again.
 
-!!! info
+!!! Info
     The number of weekly payments cannot be changed in 121. For extra assistance, contact the Red Cross.

@@ -8,7 +8,7 @@ Des fautes de frappe ou des entrées en double peuvent se produire lors de la ph
 
 !!! Important "Qui peut effectuer des actions sur cette page?"
     Les rôles de gestionnaire d'assistance et d'agent d'assistance peuvent effectuer des actions sur la page Enregistrements.
-    Des utilisateurs supplémentaires peuvent se voir accorder uniquement la permission d'affichage sur cette page. [En savoir plus sur les utilisateurs et les rôles](../users/users-roles-page.md)
+    Des utilisateurs supplémentaires peuvent se voir accorder uniquement la permission d'affichage sur cette page. [En savoir plus sur les utilisateurs et les rôles](../users/description-roles.md)
 
 ### Modification des détails d'enregistrement
 
@@ -21,7 +21,7 @@ Des fautes de frappe ou des entrées en double peuvent se produire lors de la ph
 
 Lorsque les détails sont entièrement examinés et corrects, vous pouvez ensuite marquer le profil comme **Validé(e)**. Suivez les instructions pour [valider un profil d'enregistrement](./registration-validate-pa.md).
 
-!!! info "Raison de la mise à jour"
+!!! Info "Raison de la mise à jour"
     Pour des raisons d'audit et de responsabilité, les modifications du profil d'enregistrement ne peuvent pas être effectuées sans indiquer une raison. Toutes les modifications de données sont enregistrées dans la plateforme 121 avec l'ancienne valeur, la nouvelle valeur, les raisons de la mise à jour et sont liées à l'adresse e-mail de l'utilisateur effectuant la modification.
     Pour améliorer la piste d'audit, vous pouvez télécharger le rapport de modifications de données en cliquant sur **Exporter** et en sélectionnant **Exporter l'état et les modifications de données**. Vous pouvez également consulter les modifications dans le journal d'activité du profil d'enregistrement.
 

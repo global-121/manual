@@ -8,7 +8,7 @@ Vous pouvez exporter des fichiers sélectionnés à personnaliser à partir de l
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
     L'administrateur du programme, l'agent d'assistance et le gestionnaire d'assistance peuvent effectuer des actions.
-    Des utilisateurs supplémentaires peuvent uniquement avoir des permissions d'affichage sur cette page. [En savoir plus sur les utilisateurs et les rôles.](../users/users-roles-page.md)
+    Des utilisateurs supplémentaires peuvent uniquement avoir des permissions d'affichage sur cette page. [En savoir plus sur les utilisateurs et les rôles.](../users/description-roles.md)
 
 ### Ajout de colonnes à votre vue de tableau
 
@@ -40,7 +40,7 @@ Vous devrez peut-être importer des modifications pour un certain nombre d'enreg
 
 ---
 
-!!! Info "CONSEIL: ne pas enregistrer les anciens dossiers Excel"
+!!! Info "CONSEIL: ne pas enregistrer les anciens fichiers Excel"
     Pour éviter les erreurs et garder les données personnelles sécurisées, les fichiers Excel doivent être supprimés de votre ordinateur une fois que votre base de données est nettoyée et mise à jour dans la plateforme 121. De cette façon, vous aurez toujours votre dernière liste d'enregistrements mise à jour dans 121.
 
 -8<- "docs/fr/_snippets/contact-support.md"

@@ -1,5 +1,5 @@
 ---
-title: Payment - Pause payments for a registration in the program
+title: Payments - Pause payments for a registration in the program
 hide:
   - toc
 ---
@@ -8,7 +8,7 @@ In the course of a program, registrations status may change. You can decide to e
 
 !!! Important "Who can perform actions in this page?"
     CVA Manager and CVA Officer roles can perform actions in the Registration page. Finance users should consult the CVA Manager or CVA Officer users assigned to this program.
-    [Learn more about Users & Roles](../users/users-roles-page.md)
+    [Learn more about Roles & Permissions](../users/description-roles.md)
 
 ## Search for a registration
 
@@ -30,7 +30,7 @@ In the **Registration** page:
 - Click on **:material-pause: Pause** status on the top of the table,
 - In the pop up window, **Approve**, and *optionally, send a message to the registration*. ![Approve Pause Status](../assets/img/PausePANotification.png)
 - The status has been changed to **Paused** ![Pause Status](../assets/img/PauseStatus.png)
-- From **Paused** status, The registration will longer receive cash aid.
+- From **Paused** status, the registration will no longer receive cash aid.
 
 You can also change the status by right-clicking the registration in the table and clicking **:material-pause: Pause** ![DropDownListStatus](../assets/img/RegistationsStatusRighList.png)
 

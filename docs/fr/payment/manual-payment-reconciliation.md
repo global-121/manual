@@ -5,11 +5,11 @@ hide:
 ---
 Dans la plateforme 121, les paiements peuvent être traités de deux façons différentes : avec un **paiement manuel via un portail PSF** ou avec une **intégration PSF directe**. Vous trouverez ci-dessous les instructions étape par étape pour importer les **données de réconciliation manuelles** dans le programme, une fois que vous avez reçu les instructions de paiement de retour du PSF.
 
-*Pour les instructions de paiement avec un prestataire de services financiers intégré, veuillez vous référer aux instructions sur la [page Paiement avec un PSF intégré.](../payment/payment-integrated-PSF.md)*
+*Pour les instructions de paiement avec un prestataire de services financiers intégré, veuillez vous référer aux instructions sur la [page Paiement avec un PSF intégré.](../payment/payment-integrated-fsp.md)*
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
     Les rôles de gestionnaire financier et agent financier peuvent effectuer des actions sur la page Paiements.  
-    Les utilisateurs supplémentaires peuvent ne recevoir que la permission **Affichage**. [En savoir plus sur Utilisateurs et rôles.](../users/users-roles-page.md)
+    Les utilisateurs supplémentaires peuvent ne recevoir que la permission **Affichage**. [En savoir plus sur Utilisateurs et rôles.](../users/description-roles.md)
 
 Avant de télécharger le fichier de réconciliation dans la plateforme 121, il y a quelques étapes que vous devez suivre pour adapter le fichier à la plateforme 121.
 
@@ -27,7 +27,7 @@ Allez à la page des paiements et entrez le tour de paiement spécifique que vou
 ## Vérifier le fichier de données de réconciliation
 
 Quelques étiquettes doivent être ajustées selon la plateforme 121. Cela se rapporte aux statuts de paiement.
-Le tableau ci-dessous indique les noms d'étiquettes corrects qui doivent être remplis dans le statut de paiement de vos données de réconciliation. Le PSF peut écrire les statuts différemment que la plateforme 121. Par conséquent, vous devez remplacer le statut par les données indiquées dans le tableau ci-dessous, colonne **Statut de données 121**, dans votre fichier de données de réconciliation (excel) :
+Le tableau ci-dessous indique les noms d'étiquettes corrects qui doivent être remplis dans le statut de paiement de vos données de réconciliation. Le PSF peut écrire les statuts différemment que la plateforme 121. Par conséquent, vous devez remplacer le statut par les données indiquées dans le tableau ci-dessous, colonne **Statut de données 121**, dans votre fichier de données de réconciliation (Excel) :
 
 | Statut des données 121 | Description |
 | :---- | :---- |
@@ -64,7 +64,7 @@ Une fois que votre fichier mis à jour est prêt et enregistré au format .csv, 
 - **Déposez et déposez** ou **choisissez un fichier**
 - Cliquez sur **Importer un fichier** ![Importer le fichier de réconciliation](../assets/img/ReconciliationImport.png)
 
-!!! info "Statuts de paiement"
+!!! Info "Statuts de paiement"
     Tous les statuts de paiement d'enregistrement seront mis à jour dans le tour de paiement spécifique. Vous pouvez ensuite afficher le nombre de paiements réussis, en attente et échoués au sein de la liste d'enregistrement. Lisez-en plus sur les statuts de paiement sur [cette page.](./list-status-payment-page.md)
 
 -8<- "docs/fr/_snippets/contact-support.md"

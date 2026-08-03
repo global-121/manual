@@ -9,7 +9,7 @@ En fonction des procédures d'exploitation normalisées que vous suivez pour vot
 
 !!! Important "Qui peut effectuer des actions sur cette page?"
     Les rôles de gestionnaire d'assistance et d'agent d'assistance peuvent effectuer des actions sur la page Enregistrements.
-    Des utilisateurs supplémentaires peuvent se voir accorder uniquement la permission d'affichage sur cette page. [En savoir plus sur les utilisateurs et les rôles](../users/users-roles-page.md)
+    Des utilisateurs supplémentaires peuvent se voir accorder uniquement la permission d'affichage sur cette page. [En savoir plus sur les utilisateurs et les rôles](../users/description-roles.md)
 
 ### Inclusion des enregistrements dans le programme
 
@@ -27,7 +27,7 @@ Pour marquer les enregistrements comme **Inclus(e)**:
 - Cliquez sur **Approuver**. Un message indique la fin de l'action;
 - Le statut est maintenant mis à jour à **Inclus(e)**.
 
-!!! info "Processus de dédoublement"
+!!! Info "Processus de dédoublement"
     Les procédures d'exploitation normalisées peuvent inclure un processus de dédoublement avant de lancer la phase d'inclusion. Suivez les instructions pour [vérifier votre liste d'enregistrements et dédoublonner les enregistrements avant de déplacer la liste vers la phase d'inclusion](./registration-deduplication.md).
 
 ### Refuser les enregistrements du programme

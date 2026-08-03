@@ -1,5 +1,5 @@
 ---
-title: Finding registrations
+title: Registrations - Finding registrations
 hide:
   - toc
 ---
@@ -13,7 +13,7 @@ hide:
 
 To use quick search, click the search icon (:octicons-search-16:) in the top-right corner of the table. You can now search through most columns.
 
-!!! info
+!!! Info
     Quick search works for most, but **not** all columns. If you cannot find what you need, use column filtering.
 
 ## Column filtering

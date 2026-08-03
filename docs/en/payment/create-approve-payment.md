@@ -1,10 +1,10 @@
 ---
-title: Create Approve and Start payments
+title: Payments - Create Approve and Start payments
 hide:
   - toc
 ---
 
-Payments are created and initiated from the **Payments** page. Each payment must first be approved by an approver before it can be started. Below are the three main steps to create, approve, and start a payment in your program, before payment instructions are shared to the FSP.
+Payments are created and initiated from the **Payments** page. Each payment must first be approved by an approver before it can be started. Below are the main steps to create, approve, and start a payment in your program. This page also explains how to process a payment, interpret the payment statuses and how to delete a payment.
 
 - [1. Create a payment request](#1-create-a-payment-request)
 - [2. Approve payments](#2-approve-payments)
@@ -13,8 +13,7 @@ Payments are created and initiated from the **Payments** page. Each payment must
 - [5. Payment Instructions](#5-payment-instructions)
 
 !!! Important "Who can perform actions in this page?"
-    Finance Manager and Finance Officer roles can create and start payments. Approvers must be selected and added to each programs.
-    Additional users may be granted only **View** permission on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
+    CVA Manager and Finance Manager can create payments. Approvers must be selected and added to each program. Finance Manager can start payments. [Learn more about Roles & Permissions](../users/description-roles.md)
 
 ## 1. Create a payment request
 
@@ -34,8 +33,6 @@ To initiate a new payment request:
     Once a payment is created, its details cannot be changed. This includes the list of people in the payment and the transfer value.
     Before creating a payment, make sure to carefully review the transfer value, budget, and selected registrations. If needed, apply filters such as location or FSP and confirm your selection before proceeding.
 
-    To change the transfer value before creating a payment, please refer to [Program settings & Budget](../Settings/payment-budget-settings.md)
-
 ## 2. Approve payments
 
 Once the payment request has been created, it must be approved by an approver.
@@ -51,12 +48,12 @@ Once the payment request has been created, it must be approved by an approver.
 !!! Note "Approvers flow"
     Approvals are based on thresholds. This is the minimum amount at which this approval is required. At least one approver with threshold 0 is needed to ensure all payments are approved. You can assign multiple users to the same threshold and require only one of them to approve (e.g., the first to log in). Approvers must be assigned to the program without a scope. Email notifications to the approver(s) and payment creator are automated and include a link to the payment page.
 
-    Currently, approvers and their respective thresholds are set per program by the 121 team. If no user has been assigned yet or you want to change the setup, please share the names, order, and amounts with the support@121.global.
+    If no user has been assigned yet or you want to change the setup, please refer to the instructions on [Payment approval](../Settings/payment-approval.md)
 
 
 ## 3. Start payment
 
-Once the payment has been approved by all approvers in the list, the finance manager can **start the payment**.
+Once the payment has been approved by all approvers in the list, the Finance Manager can **start the payment**.
 
 - Enter the **approved** payment card,
 - Click the **start payment** on the top right, ![Start Payment](../assets/img/StartPaymentApproved.png)
@@ -75,7 +72,7 @@ Once the payment has been approved by all approvers in the list, the finance man
 
 ## 5. Payment Instructions
 
-In the 121 Platform, payments can be processed in two different methods: with a **manual payment via a FSP portal** or with a **direct FSP integration**.
+In the 121 platform, payments can be processed in two different methods: with a **manual payment via an FSP portal** or with an **FSP configuration**.
 
 - For payment instructions with a manual export - import function, refer to the [Manual Payment instructions page](./issue-payment-fsp-portal.md). *Payment status will remain on **processing** until the reconciliation has been imported*,
 - or payment instructions with an integrated Financial Service Provider, refer to the instructions on the [Payment with an integrated FSP page](./payment-integrated-fsp.md)
@@ -89,7 +86,7 @@ Below, the different payment statuses.
 | **PENDING APPROVAL** | The payment request has been created but is still awaiting approval from all approvers. | Approvers must approve the payment to continue. |
 | **APPROVED** | The payment request has been approved by all approvers. | The payment must be started to continue. |
 | **SUCCESSFUL** | The payment has been sent to the Registrations and they can now use it. | None. |
-| **PROCESSING** | The payment is waiting for confirmation of one or more financial officers. The transfer is not yet sent to the Registrations selected for this payment round or the reconciliation file has not been imported yet. | Import the reconciliation file into 121 Platform to update the status. |
+| **PROCESSING** | The payment is waiting for confirmation of one or more financial officers. The transfer is not yet sent to the Registrations selected for this payment round or the reconciliation file has not been imported yet. | Import the reconciliation file into the 121 platform to update the status. |
 | **FAILED** | The transaction has failed. The registrations have not received any payments. | Please check the error message provided by your bank. Failed payment can be due to wrong bank details, phone number or ID number depending on the chosen payment methods. You can try again. Contact our 121 Support Team if this remains unsolved. |
 
 -8<- "docs/en/_snippets/contact-support.md"

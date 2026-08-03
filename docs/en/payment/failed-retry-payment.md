@@ -1,17 +1,16 @@
 ---
-title: Payment - Failed and retry payments
+title: Payments - Failed and retry payments
 hide:
   - toc
 ---
 
 When processing the payments, the statuses will be updated with **Successful**, **Pending** and **Failed**.
-Below, you will find the step-by-step instructions to understand the reasons of **failed payments** and retry payments.
+Below, you will find the step-by-step instructions to understand the reasons for **failed payments** and retry payments.
 
 *For payment statuses description, please refer to this [page listing the statuses.](./list-status-payment-page.md)*
 
 !!! Important "Who can perform actions in this page?"
-    Finance Manager and Finance Officer roles can perform actions in the Payments page.  
-    Additional users may be granted only **View** permission on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
+    Finance Manager can perform actions in the Payments page. [Learn more about Roles & Permissions](../users/description-roles.md)
 
 ## Reasons for failed payments
 
@@ -30,7 +29,7 @@ To filter the registrations with failed payments:
 **1. Incorrect payment details**.
     For both manual and automatic payments, the KYC required may be incorrect and cannot match the information required by the FSP to process the payment. The incorrect details can be as follows: Full name, Phone numbers, Bank account number, ID number and/or Location.
 
-Once you have identified the incorrect data, you can **request your CVA manager or CVA officer to correct the information within the registration's profile**. To further read on the instructions, visit [this page.](../registration/edit-pa-profile.md)
+Once you have identified the incorrect data, you can **request your CVA Manager or CVA Officer to correct the information within the registration's profile**. To further read on the instructions, visit [this page.](../registration/edit-pa-profile.md)
 
 
 **2. Wrong format of the reconciliation file**.
@@ -40,7 +39,7 @@ Once you have identified the incorrect data, you can **request your CVA manager 
 **3. Registration changed their payment details**.
     If a failed payment occurs despite the registration having successfully received payments in the past, it may be due to a change in their payment details or phone number. As a result, the Financial Service Provider (FSP) may be unable to match and process the payment.
 
-Once you have identified the incorrect data, you can **request your CVA manager or CVA officer to correct the information within the registration's profile**. To further read on the instructions, visit [this page.](../registration/edit-pa-profile.md)
+Once you have identified the incorrect data, you can **request your CVA Manager or CVA Officer to correct the information within the registration's profile**. To further read on the instructions, visit [this page.](../registration/edit-pa-profile.md)
 
 
 **4. Updating payment between FSP-121 is failing**.
@@ -65,7 +64,7 @@ Once you have identified the reason, you can proceed with retrying the payments:
 - The transaction will be automatically retried for the selected registrations identified with a **failed payment** status;
 - The payment status will be updated.
 
-!!! import "Retry based on your payment methods"
+!!! Important "Retry based on your payment methods"
     If you are processing the payment with an integrated FSP, the payment request and reconciliation will be done automatically.
 
     However, **if you are processing the payments with a manual export-import**, please follow the same steps again. Further instructions can be read on [the manual payment page.](../payment/issue-payment-fsp-portal.md)
@@ -74,6 +73,6 @@ Once you have identified the reason, you can proceed with retrying the payments:
 
 **What if payments remain failing?**
 
-We recommend getting in contact with our support team to verify the reasons of payment failing together with your finance team. We will provide guidance in the next steps.
+We recommend getting in contact with our support team to verify the reasons for the payment failing together with your finance team. We will provide guidance in the next steps.
 
 -8<- "docs/en/_snippets/contact-support.md"

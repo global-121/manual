@@ -5,7 +5,7 @@
 
 On the left you can find a navigation overview, or find the information you need by using the search bar on the top right.
 
-!!! note ""
+!!! Note ""
     You can **change the language** of this user manual by clicking the **language icon :material-translate:** on the top right (next to the search bar), and selecting a different language.
 
 ---
@@ -23,7 +23,7 @@ The 121 Platform is following the CVA workflow step-by-step. Find out the instru
 
     Understand how to add users, the roles available and distribution of permissions within the 121 Platform.
 
-- :material-account-multiple-plus:{ .lg .middle } [Create your Team](./team/team-page.md)
+- :material-account-multiple-plus:{ .lg .middle } [Manage your Program Team](./Settings/create-new-program.md)
 
     ---
 

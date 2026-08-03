@@ -5,6 +5,19 @@
 - This repository contains a multilingual MkDocs manual (`docs/en`, `docs/fr`, `docs/nl`).
 - Primary goal: help contributors translate and maintain parity across languages without breaking links, headings, or structure.
 
+## Overall way of work
+
+Contributors to this repo are content experts, but not necessarily skilled with git and other tools used in this project. When making changes, the suggested division of tasks would be:
+
+The contributor updates the docs and assets, usually in English.
+
+The agent helps with:
+
+- Creating a change plan splitting the work into discrete commits. Take time to mirror each sub-task in the French and Dutch versions, and ensure that the contributor is aware of the scope of work.
+- Basic git tasks such as git fetch, branch, pull, push, and PR creation. Ensure that the contributor is working on the correct branch and that the PR is created against the correct target branch.
+- Ensuring that the contributor's changes do not break the structure of the manual, including links, headings, and anchors. The agent can run the validation commands below to check for errors.
+- Translate English content to French. Only check for changes in Dutch when the files in the docs/en/nlrc folder are updated. The agent should ensure that the translation is accurate and consistent with the source page intent, and that it follows the glossary and terminology rules below.
+
 ## Translation workflow
 
 - Treat English pages in `docs/en` as source unless stated otherwise.
@@ -29,12 +42,16 @@
   - If a term appears frequently and has a non-literal or field-specific translation, add it to the glossary with:
     - English term and definition
     - Target language term and definition
-  - Document *why* a non-literal translation was chosen (e.g., industry convention, clarity for end-users, legal accuracy).
+  - Document _why_ a non-literal translation was chosen (e.g., industry convention, clarity for end-users, legal accuracy).
 - **When to deviate from literal translation**:
   - Domain-specific acronyms (FSP, CVA, KOBO) remain unchanged.
   - Role/permission names should match the glossary to avoid user confusion in the UI.
   - Legal or regulatory terms may require non-literal translation per jurisdiction.
   - Always flag non-literal choices in PR comments for review.
+
+## Markdown syntax and structure
+
+- The layout of warnings, notes and notifications are marked with `!!! Important`, `!!! Note`, `!!! Info`, and `!!! Question`. Make sure the text following the title is preceded by exactly four spaces, as otherwise the markdown parser will not render it correctly inside the notification box. Please note though that hard tabs are not allowed by the markdown linter, so make sure to use spaces instead of tabs.
 
 ## ToC and anchor safety
 

@@ -8,7 +8,7 @@ La **page Suivi** permet aux utilisateurs de garder un aperçu de toutes les mod
 
 !!! Important "Qui peut effectuer des actions sur cette page?"
     Tous les utilisateurs, sauf les utilisateurs d'affichage, peuvent effectuer cette action. La suppression est cependant limitée à l'administrateur du programme, au gestionnaire CVA et au gestionnaire des finances.  
-    Les utilisateurs supplémentaires ne peuvent bénéficier que de l'autorisation d'**affichage** sur cette page. [En savoir plus sur les rôles utilisateur](../users/users-roles-page.md)
+    Les utilisateurs supplémentaires ne peuvent bénéficier que de l'autorisation d'**affichage** sur cette page. [En savoir plus sur les rôles utilisateur](../users/description-roles.md)
 
 ---
 

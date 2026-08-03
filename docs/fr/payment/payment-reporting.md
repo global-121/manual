@@ -8,7 +8,7 @@ L'audit trail peut être effectué dans 121 pour les rapports financiers et l'ap
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
     Les rôles de gestionnaire financier et agent financier peuvent effectuer des actions sur la page Paiements.  
-    Les utilisateurs supplémentaires peuvent ne recevoir que la permission **Affichage**. [En savoir plus sur Utilisateurs et rôles](../users/users-roles-page.md)
+    Les utilisateurs supplémentaires peuvent ne recevoir que la permission **Affichage**. [En savoir plus sur Utilisateurs et rôles](../users/description-roles.md)
 
 ## Télécharger le rapport financier général
 
@@ -19,10 +19,10 @@ Pour exporter un rapport financier général :
 3. Sélectionnez le fichier pour lequel vous souhaiteriez exporter les données de paiement ![Rapport d'export de paiement](../assets/img/PaymentsPage.png)
 4. Cliquez sur le bouton **Rapport d'export**
 5. Une fenêtre pop-up demandera une confirmation.**Cela téléchargera un fichier Excel avec tous les enregistrements inclus dans ce paiement** ![Confirmer l'export](../assets/img/ApprovePaymentExport.png)
-  Le fichier sera exporté dans le dossier de téléchargement en tant que fichier excel.
+  Le fichier sera exporté dans le dossier de téléchargement en tant que fichier Excel.
 
-!!! Info "CONSEILS : Téléchargez uniquement les fichiers excel si nécessaire et supprimez-les après exportation / utilisation"
-    Les fichiers Excel ne doivent être téléchargés que si nécessaire pour assurer la sécurité des données personnelles. Après utilisation, les fichiers excel doivent être supprimés de votre ordinateur pour maintenir les données personnelles sécurisées et prévenir les erreurs utilisant les anciens fichiers. De cette façon, vous aurez toujours les dernières données mises à jour dans 121.
+!!! Info "CONSEILS : Téléchargez uniquement les fichiers Excel si nécessaire et supprimez-les après exportation / utilisation"
+    Les fichiers Excel ne doivent être téléchargés que si nécessaire pour assurer la sécurité des données personnelles. Après utilisation, les fichiers Excel doivent être supprimés de votre ordinateur pour maintenir les données personnelles sécurisées et prévenir les erreurs utilisant les anciens fichiers. De cette façon, vous aurez toujours les dernières données mises à jour dans 121.
 
 ---
 
@@ -35,7 +35,7 @@ Pour exporter un rapport financier spécifique basé sur une date spécifique :
 3. En haut à droite, cliquez sur **Exporter** ![Rapport d'export individuel](../assets/img/IndividualExportReport.png)
 4. Sélectionnez **Rapport de paiement** ;
 5. Une fenêtre pop-up demandera confirmation pour procéder.**Vous êtes sur le point de télécharger un fichier Excel avec tous les enregistrements inclus dans ce paiement.** ;
-  Le fichier sera exporté dans le dossier de téléchargement en tant que fichier excel.
+  Le fichier sera exporté dans le dossier de téléchargement en tant que fichier Excel.
 
 ---
 

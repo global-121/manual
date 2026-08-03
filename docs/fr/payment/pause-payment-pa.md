@@ -8,7 +8,7 @@ Au cours d'un programme, le statut des enregistrements peut changer. Vous pouvez
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
     Les rôles de gestionnaire CVA et agent CVA peuvent effectuer des actions sur la page d'enregistrement. Les utilisateurs financiers doivent consulter les utilisateurs gestionnaire CVA ou agent CVA affectés à ce programme.
-    [En savoir plus sur Utilisateurs et rôles](../users/users-roles-page.md)
+    [En savoir plus sur Utilisateurs et rôles](../users/description-roles.md)
 
 ## Chercher un enregistrement
 

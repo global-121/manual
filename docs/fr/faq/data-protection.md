@@ -61,13 +61,13 @@ hide:
 
     L'utilisateur peut trouver plus d'informations sur les tiers (sous-traitants) impliqués dans 121 et examiner leurs addendums de protection des données via les liens fournis ci-dessous :
 
-      - **Informations légales Microsoft Azure** [https://azure.microsoft.com/en-us/support/legal/](https://azure.microsoft.com/en-us/support/legal/)
+      - **Informations légales Microsoft Azure** [https://azure.microsoft.com/fr-fr/support/legal/](https://azure.microsoft.com/fr-fr/support/legal/)
 
         Et le cas échéant :
 
     - **Twilio Flex** [https://www.twilio.com/en-us/legal/online-terms-updates](https://www.twilio.com/en-us/legal/online-terms-updates)
 
-      - **KoboToolbox** [https://www.ifrc.org/ifrc-kobo](https://www.ifrc.org/ifrc-kobo)
+      - **KoboToolbox** [https://www.ifrc.org/fr/boite-outil-kobo-lifrc-kobotoolbox](https://www.ifrc.org/fr/boite-outil-kobo-lifrc-kobotoolbox)
 
     121 peut également utiliser EspoCRM, un logiciel open-source auto-hébergé par le partenaire sur un serveur à un emplacement choisi par le partenaire  [https://www.espocrm.com/tos/](https://www.espocrm.com/tos/)
 
@@ -99,14 +99,14 @@ hide:
 
     - Règlement général sur la protection des données (RGPD)
 
-    - Module 3 (Responsabilité des données et des données numériques) du cours d'introduction à la littératie des données et des données numériques
+    - Module 3 (Responsabilité des données et des données numériques) du Cours d'initiation à la culture numérique
 
     Recommandations supplémentaires :
 
     - Ne collectez pas plus de données que nécessaire pour l'objectif du programme spécifique.
     - Ne gardez pas les données plus longtemps que nécessaire.
     - Effectuez un examen d'accès mensuel/bimensuel.
-    - Gérez de manière responsable tous les fichiers excel exportés de 121.
+    - Gérez de manière responsable tous les fichiers Excel exportés de 121.
     - Suivez une formation sur la protection des données.
     - Utilisez un gestionnaire de mots de passe numérique (par exemple, Bitwarden).
     

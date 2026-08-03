@@ -1,5 +1,5 @@
 ---
-title: Registrations- Export registration list
+title: Registrations - Export registration list
 hide:
   - toc
 ---
@@ -7,13 +7,12 @@ hide:
 You can export custom-selected files from the **Registrations page**. The exported file will **only include the columns you have added to your table view**. If a column is not visible in the table, it will not be included in the export.
 
 !!! Important "Who can perform actions on this page ?"
-    Program Admin, CVA Officer and CVA Manager can perform actions.  
-    Additional users may only have View permissions on this page. [Learn more about Users & Roles.](../users/users-roles-page.md)
+    CVA Manager can perform actions on this page. [Learn more about Roles & Permissions.](../users/description-roles.md)
 
 ### Adding Columns to Your Table View
 
 - On the **Registrations page**, go to the **Settings :material-cog:**;
-- In the side window, select the columns you can to display;
+- In the side window, select the columns you want to display;
 - Click **Apply**.
 
 **Note**. If you want to remove a column, repeat the same action:
@@ -36,11 +35,11 @@ Once your table shows the columns you need, all of them will be available for ex
 
 ### Import Data Changes
 
-You may need to import changes for a certain number of registrations. You can easily import changes following the instructions on how to [import data changes page.](./import-data-changes.md) Make sure to **include the ReferenceID** (UUID) column in your export so to reconcile the data easily.
+You may need to import changes for a certain number of registrations. You can easily import changes by following the instructions on the [import data changes page](./import-data-changes.md). Make sure to **include the ReferenceID** (UUID) column in your export to reconcile the data easily.
 
 ---
 
-!!! Info "TIP: do not save old excel record"
-    To prevent mistakes and keep personal data secure, excel files should be deleted from your computer once your database is cleaned and updated in 121 platform. This way, you will always have your latest updated registration list in 121.
+!!! Info "TIP: do not save old Excel record"
+    To prevent mistakes and keep personal data secure, Excel files should be deleted from your computer once your database is cleaned and updated in 121 platform. This way, you will always have your latest updated registration list in 121.
 
 -8<- "docs/en/_snippets/contact-support.md"

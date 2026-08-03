@@ -18,7 +18,7 @@ Il y a deux façons de trouver une inscription :
 
 La personne apparaîtra.
 
-!!! info
+!!! Info
     La recherche rapide fonctionne pour la plupart, mais pas toutes les colonnes. Si vous ne trouvez pas ce que vous cherchez, utilisez le filtrage des colonnes.
 
 ## Filtrage des colonnes

@@ -1,5 +1,5 @@
 ---
 
-Besoin d'une assistance supplémentaire? Contactez votre gestionnaire de compte dédié ou contactez notre [équipe d'assistance par e-mail](mailto:support@121.global).
+Besoin d'aide ? Contactez votre gestionnaire de compte dédié ou envoyez un e-mail à notre [équipe d'assistance](mailto:support@121.global).
 
 ---

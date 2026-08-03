@@ -8,7 +8,7 @@ La phase de validation est facultative, selon les procédures d'exploitation nor
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
     L'administrateur du programme, l'agent d'assistance et le gestionnaire d'assistance peuvent effectuer des actions.
-    Des utilisateurs supplémentaires peuvent uniquement avoir des permissions d'affichage sur cette page. [En savoir plus sur les utilisateurs et les rôles](../users/users-roles-page.md)
+    Des utilisateurs supplémentaires peuvent uniquement avoir des permissions d'affichage sur cette page. [En savoir plus sur les utilisateurs et les rôles](../users/description-roles.md)
 
 ### Validation des enregistrements dans le programme
 
@@ -36,7 +36,7 @@ En raison d'une faute de frappe ou d'une double entrée, vous devrez peut-être 
 - Une fenêtre contextuelle **Raison de la mise à jour** demande de fournir la raison de ce changement;
 - Ajoutez une raison, puis **Enregistrez**.
 
-!!! info "Raison de la mise à jour"
+!!! Info "Raison de la mise à jour"
     Pour des raisons d'audit et de responsabilité, les modifications du profil d'enregistrement ne peuvent pas être effectuées sans indiquer une raison. Toutes les modifications de données sont enregistrées dans la plateforme 121 avec l'ancienne valeur, la nouvelle valeur, les raisons de la mise à jour et sont liées à l'adresse e-mail de l'utilisateur effectuant la modification.
     Pour améliorer la piste d'audit, vous pouvez télécharger le rapport de modifications de données en cliquant sur **Exporter** et en sélectionnant **Exporter les modifications de données**
 

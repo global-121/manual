@@ -1,5 +1,5 @@
 ---
-title: Registrations - Deduplication V1
+title: Registrations - Deduplication
 hide:
   - toc
 ---
@@ -7,8 +7,7 @@ hide:
 Below you will find the steps to check duplicated registrations and deduplicate as needed. Note that duplicates can only be checked within a single project and there is no way to check duplicates across different programs in 121.
 
 !!! Important "Who can perform actions on this page ?"
-    Program Admin, CVA Officer and CVA Manager can perform actions.  
-    Additional users may only have View permissions on this page. [Learn more about Users & Roles](../users/users-roles-page.md)
+    CVA Manager can perform actions on this page. [Learn more about Roles & Permissions](../users/description-roles.md)
 
 ---
 
@@ -16,21 +15,21 @@ Below you will find the steps to check duplicated registrations and deduplicate 
 
 **The criteria for detecting duplicates have been configured in your Kobo form.**
 
-**Duplicates are identified based on specific unique criteria** such as phone number or ID number. This criteria is flexible and can be chosen by the organization and changed depending on the program requirements. We recommend avoiding criteria that can easily match across registrations (like name).
+**Duplicates are identified based on specific unique criteria** such as phone number or ID number. These criteria are flexible and can be chosen by the organization and changed depending on the program requirements. We recommend avoiding criteria that can easily match across registrations (like name).
 
-The criteria can be set up directly in your Kobo, marking the question as **+dedup** in your form. The 121 Platform will then recognize the value as the duplicate criteria. Request our team to adjust the criteria based on your program.
+The criteria can be set up directly in your Kobo, marking the question as **+dedup** in your form. The 121 platform will then recognize the value as the duplicate criteria. Request our team to adjust the criteria based on your program.
 
 ---
 
-### Filter the duplicated Registrations
+### Filter the duplicated registrations
 
-In the **Registration** page, and following your organization's SOPs, all duplicated entries will be listed based on the selected unique criteria.
+In the **Registrations** page, and following your organization's SOPs, all duplicated entries will be listed based on the selected unique criteria.
 
 - Click on :material-cog: icon to **manage the table**;
 - Select **Duplicates** and click **Apply** to show duplicate column in the table;
 - In the **Duplicates** column, select the filter icon and filter on **Duplicate**;
 - The filtered list will only show the registrations marked as **Duplicate**;
-- Click on **Reg #** or **Name** to open the personal registration profile. A red banner at the top of the page labelled **Duplicated with** will show who this person is duplicated with and the **matching field**;
+- Click on **Reg #** or **Name** to open the personal registration profile. A red banner at the top of the page labeled **Duplicated with** will show who this person is duplicated with and the **matching field**;
 - To resolve this duplicate you can decide to ignore, decline or update. See the description below.
 
 ![Manage Table](../assets/img/ShowDuplicateColumn.png)
@@ -38,14 +37,14 @@ In the **Registration** page, and following your organization's SOPs, all duplic
 ![Filter Duplicate](../assets/img/FilterDuplicate.png)
 
 !!! Note "Setting up your duplicates criteria in Kobo"
-    **Duplicates are identified based on specific unique criteria** such as phone number or ID number. This criteria is flexible and can be chosen by the organization and changed depending on the program requirements. We recommend unique criteria so to ease the duplicate check.
+    **Duplicates are identified based on specific unique criteria** such as phone number or ID number. These criteria are flexible and can be chosen by the organization and changed depending on the program requirements. We recommend unique criteria to ease the duplicate check.
 
-    The criteria can be set up directly in your Kobo, marking the question as **+dedup** in your form. The 121 Platform will then recognize the value as the duplicate criteria. Request our team to adjust the criteria based on your program.
+    The criteria can be set up directly in your Kobo, marking the question as **+dedup** in your form. The 121 platform will then recognize the value as the duplicate criteria. Request our team to adjust the criteria based on your program.
 
 
 ## Update the list of registrations
 
-Once you have identified the duplicate, you can either decide to update the registration list in the 121 platform as follows:
+Once you have identified the duplicate, you can decide to update the registration list in the 121 platform as follows:
 You can perform 3 actions in the **Registrations** page:
 
 - **Edit the value directly in the registration profile;**
@@ -64,8 +63,6 @@ Below, the solution based on either of these 3 options:
 - **Edit** the value. Click on **Save** and give a reason;
 - The new value is now saved;
 - The registration will automatically be updated and marked as **Unique**.
-
-![Edit Information](../assets/img/EditInformationDuplicate.png)
 
 ---
 

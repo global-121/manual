@@ -92,7 +92,7 @@ hide:
 
      La plateforme 121 s'est **intégrée à un certain nombre de prestataires de services financiers (PSF) dans différents pays, permettant d'intégrer instantanément la plateforme avec votre PSF local**. Si une intégration PSF est déjà en place, **notre délai est de 7 jours ouvrables**. Nous pouvons également intégrer des PSF locaux supplémentaires sur demande. Dans ce cas, le délai d'intégration peut varier en fonction du niveau de complexité technique et du délai de réponse du PSF.
 
-     **Sans intégration PSF, nous offrons une intégration logicielle pour que vous puissiez commencer à utiliser la plateforme 121 immédiatement**, tandis que l'intégration est en cours de traitement. Cela fonctionne en exécutant les fichiers excel incluant les informations de paiement de 121 et en les téléchargeant dans le portail PSF. Vous concilierez ensuite les paiements dans la plateforme 121. 
+     **Sans intégration PSF, nous offrons une intégration logicielle pour que vous puissiez commencer à utiliser la plateforme 121 immédiatement**, tandis que l'intégration est en cours de traitement. Cela fonctionne en exportant des fichiers Excel incluant les informations de paiement de 121 et en les téléchargeant dans le portail PSF. Vous concilierez ensuite les paiements dans la plateforme 121. 
      
      Lisez-en plus sur nos **prestataires de services financiers (PSF)** [sur cette page](../faq/financial-service-provider.md). Ou, contactez notre équipe pour discuter des alternatives proposées dans votre situation et votre pays d'opération à <info@121.global>.
 
@@ -105,7 +105,7 @@ hide:
 
      La plateforme 121 s'est déjà intégrée à un certain nombre d'outils les plus utilisés dans le secteur humanitaire. 
      
-    - **KOBO Toolbox** pour enregistrer les bénéficiaires, permettant le téléchargement automatique des bénéficiaires dans votre liste d'enregistrement 121 ([voir la page de description](../registration/registration-automatic-import-kobo.md)). L'outil alternatif de formulaire d'enregistrement peut être intégré (API).
+    - **KOBO Toolbox** pour enregistrer les bénéficiaires, permettant le téléchargement automatique des bénéficiaires dans votre liste d'enregistrement 121 ([voir la page de description](../Settings/registration-data.md)). L'outil alternatif de formulaire d'enregistrement peut être intégré (API).
     - Une intégration avec **Espo CRM** est disponible. Notre équipe CVA IM et technique a de l'expérience avec Espo CRM en combinaison avec la plateforme 121, particulièrement pour la gestion de cas complexes. Des exigences supplémentaires sur les serveurs d'hébergement et la maintenance peuvent être discutées.
     - **Un certain nombre de prestataires de services financiers (PSF) dans différents pays** a été intégré. Plus d'informations sont disponibles [sur cette page](../faq/financial-service-provider.md)
     - **DEH**, le hub numérique d'engagement communautaire pour l'engagement communautaire développé par l'unité 510, qui permet la communication multicanal et engagement et responsabilisation évolutives.

@@ -95,23 +95,19 @@ nav:
         - "Change Language": "general/change-language.md"
     - "Step-by-Step Guide - Prepare your CVA Program": "general/prepare-your-project.md"
     - "Users and Roles":
-        - "Users page": "users/users-roles-page.md"
         - "Add User to 121": "users/add-users.md"
         - "Roles and permissions": "users/description-roles.md"
-    - "Program Settings":
-        - "Program Settings page": "Settings/project-settings-page.md"
-        - "Program Info & Settings": "Settings/project-info.md"
-        - "Budget & Payment settings": "Settings/payment-budget-settings.md"
-        - "Manage your program team": "team/team-page.md"
-    - "Team":
-        - "Program Team page": "team/team-page.md"
-        - "Add team members": "team/add-team-members.md"
-        - "Change team members roles": "team/change-team-roles-program.md"
-        - "Remove team members": "team/remove-team-members-program.md"
+    - "Create and Manage Programs":
+        - "Create new program": "Settings/create-new-program.md"
+        - "Settings overview": "Settings/settings-overview.md"
+        - "Program information": "Settings/program-information.md"
+        - "FSP configuration": "Settings/fsp-integration.md"
+        - "Registration data": "Settings/registration-data.md"
+        - "Payment approval": "Settings/payment-approval.md"
+        - "Program team": "Settings/programteam.md"
     - "Registrations":
         - "Registrations page": "registration/registrations-page.md"
         - "Import Registrations with excel": "registration/registration-import-list.md"
-        - "Registration with KOBO form": "registration/registration-automatic-import-kobo.md"
         - "Deduplication": "registration/registration-deduplication.md"
         - "Edit registration details": "registration/edit-pa-profile.md"
         - "Validate registrations": "registration/registration-validate-pa.md"
@@ -123,8 +119,8 @@ nav:
         - "Sending messages" : "registration/sending-messages.md"
         - "Import Mass Data Changes": "registration/import-data-changes.md"
         - "What if I see empty page": "registration/registration-list-empty.md"
-    - "Verification":
-      - "Offline Verification with 121 and Kobo Toolbox": "verification/offline-verification.md"
+        - "Offline verification with 121 and KoboToolbox": "registration/offline-verification.md"
+        - "Finding registrations": "registration/filter-registrations.md"
     - "Payments":
         - "Payments page": "payment/payment.md"
         - "Create and Approve payments": "payment/create-approve-payment.md"

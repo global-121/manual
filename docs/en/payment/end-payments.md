@@ -8,7 +8,7 @@ If a registration no longer needs assistance, you can stop the assistance at any
 
 !!! Important "Who can perform actions in this page?"
     CVA Manager and CVA Officer roles can perform actions in the Registration page. Finance users should consult the CVA Manager or CVA Officer users assigned to this program.
-    [Learn more about Users & Roles](../users/users-roles-page.md)
+    [Learn more about Roles & Permissions](../users/description-roles.md)
 
 
 ## Search for a registration
@@ -22,7 +22,7 @@ In the **Registration** page:
 
 ### Change status
 
-- Select individually the registration(s) that you want to end the assistance for ticking the box :material-checkbox-multiple-marked-outline:
+- Select individually the registration(s) that you want to end the assistance for by ticking the box :material-checkbox-multiple-marked-outline:
 - Click on **:fontawesome-solid-ban: Decline** on the top of the table;
 - In the popup window, **Approve** the action.
 - The registration will no longer receive assistance. ![DeclinedRegistration](../assets/img/RegistrationDeclined.png)

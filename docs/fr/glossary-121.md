@@ -28,7 +28,7 @@ Une liste des termes clés utilisés dans la plateforme 121.
 | **PSF** | Prestataire de services financiers - une entité qui fournit des services financiers, qui peuvent inclure des services de paiement numérique. Vous pourrez parfois trouver le terme anglais « SFP » dans les menus de l'application. |
 | **Budget** | Montant d'argent du projet qui sera versé aux personnes/ménages inclus. |
 | **Enregistrements** | Personnes ou ménages qui se sont enregistrés, inscrits à un programme. |
-| **Importer** | Ajouter ou télécharger des données à partir d'un fichier excel ou de formulaires d'entrevue, par ex. « importer les enregistrements ». |
+| **Importer** | Ajouter ou télécharger des données à partir d'un fichier Excel ou de formulaires d'entrevue, par ex. « importer les enregistrements ». |
 | **Exporter** | Télécharger le contenu de la plateforme 121. |
 | **Actions** | Indique quelque chose qu'un utilisateur peut faire qui affecte un ou plusieurs enregistrements, par exemple, envoyer un message, ajouter une note ou mettre à jour les informations. |
 | **Filtrer par** | Les utilisateurs peuvent utiliser ceci pour trouver un groupe d'enregistrements ou un seul enregistrement sur lequel ils souhaitent effectuer une action, par ex. filtrer les enregistrements qui ont reçu 2 paiements et inclure dans un nouveau paiement. |
@@ -88,7 +88,7 @@ Une liste des termes clés utilisés dans la plateforme 121.
 
 | Terme | Définition |
 | :------------------ | :------------------------------------------------------------------- |
-| **Nouveau** | Personnes/ménage ayant complété l'enregistrement dans le formulaire KOBO. |
+| **Nouveau** | Personnes/ménage ayant complété l'enregistrement dans le formulaire Kobo. |
 | **Validé(e)** | L'identité de l'enregistrement a été confirmée par un utilisateur 121. |
 | **Inclus(e)** | L'identité de l'enregistrement a été confirmée par un utilisateur 121. |
 | **Décliné(e)** | L'enregistrement s'est avéré être mal enregistré (duplication, score d'inclusion faible, etc.) et ne sera pas inclus dans le programme. |
@@ -106,7 +106,7 @@ Une liste des termes clés utilisés dans la plateforme 121.
 | **Valeur du transfert** | Le montant d'argent qu'un enregistrement est censé recevoir dans un seul paiement. |
 | **Transfert** | Un seul transfert de transfert à un enregistrement. Un enregistrement recevra le nombre de transferts préconfigurés dans le programme. Si enregistré tardivement, le premier transfert à un enregistrement peut faire partie d'une tranche de paiement ultérieure. |
 | **Montant total du paiement** | La valeur de somme ajoutant les valeurs de transfert de chaque enregistrement inclus ajouté au paiement. |
-| **En attente d'approbation** | Un nouveau paiement a été créé et il doit être approuvé par un agent financier. |
+| **En attente d'approbation** | Un nouveau paiement a été créé et il doit être approuvé par un Agent Financier. |
 | **En cours** | Le paiement est en cours de création et d'envoi aux enregistrements inclus. |
 | **Terminé** | Tous les enregistrements inclus ont reçu leurs transferts. |
 

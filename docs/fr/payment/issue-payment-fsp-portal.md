@@ -1,16 +1,16 @@
 ---
-title: Paiements - Paiement manuel via le portail PSF (export excel)
+title: Paiements - Paiement manuel via le portail PSF (export Excel)
 hide:
   - toc
 ---
 
 Dans la plateforme 121, les paiements peuvent être traités de deux façons différentes : avec un **paiement manuel via un portail PSF** ou avec une **intégration PSF directe**. Vous trouverez ci-dessous les instructions étape par étape pour **traiter le paiement manuel via un portail PSF**, exporter les instructions de paiement et concilier les paiements dans votre programme.
 
-*Pour les instructions de paiement avec un prestataire de services financiers intégré, veuillez vous référer aux instructions sur la [page Paiement avec un PSF intégré.](./payment-integrated-PSF.md)*
+*Pour les instructions de paiement avec un prestataire de services financiers intégré, veuillez vous référer aux instructions sur la [page Paiement avec un PSF intégré.](./payment-integrated-fsp.md)*
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
     Les rôles de gestionnaire financier et agent financier peuvent effectuer des actions sur la page Paiements.  
-    Les utilisateurs supplémentaires peuvent ne recevoir que la permission **Affichage**. [En savoir plus sur Utilisateurs et rôles.](../users/users-roles-page.md)
+    Les utilisateurs supplémentaires peuvent ne recevoir que la permission **Affichage**. [En savoir plus sur Utilisateurs et rôles.](../users/description-roles.md)
 
 ## Aperçu des paiements
 
@@ -54,7 +54,7 @@ Le fichier fournira les instructions nécessaires pour que le PSF émette les pa
 
 Le statut de paiement affiché sur la page des paiements sera mis à jour en fonction de la phase de paiement. Pour le paiement manuel, le message par défaut sera **EN ATTENTE** jusqu'à ce que la réconciliation des paiements ait été traitée.
 ![Exporter la liste de paiement PSF](../assets/img/IndividualExportReport.png)
-!!! info "Modèle d'instructions de paiement excel"
+!!! Info "Modèle d'instructions de paiement Excel"
     Chaque programme peut nécessiter un modèle différent selon le PSF avec lequel vous travaillez dans la région de vos opérations. Notre équipe créera un modèle spécifiquement adapté au téléchargement dans chaque portail PSF.
 
     Le fichier d'instructions de paiement ne doit contenir que les critères nécessaires au PSF pour confirmer l'identité des enregistrements et émettre les paiements, tels que les noms, les numéros de téléphone et les numéros d'ID ou tout autre critère selon vos SOP du programme. Pour la confidentialité des données, nous recommandons de n'exporter que les critères minimaux pour vérifier l'identité d'enregistrement. Toutes les autres données non pertinentes pour le processus de paiement doivent être refusées du fichier d'instructions de paiement. Après utilisation, les données exportées doivent être supprimées pour assurer la sécurité des données personnelles.
@@ -65,7 +65,7 @@ Le statut de paiement affiché sur la page des paiements sera mis à jour en fon
 
 Une fois que le PSF a partagé le fichier de données de réconciliation, vous pouvez concilier les paiements dans la plateforme 121. Cela mettra à jour le statut de paiement en téléchargeant le fichier sur la **page de paiement spécifique**.
 
-!!! important "Formater le fichier de réconciliation"
+!!! Important "Formater le fichier de réconciliation"
     Avant d'importer le fichier de réconciliation, assurez-vous qu'il répond au format requis. Vous pouvez télécharger le modèle en cliquant sur Importer les données de réconciliation et en sélectionnant le modèle. Assurez-vous que toutes les colonnes requises sont incluses et ajustez les statuts comme suit :
 
       - **Complété** → succès
@@ -101,7 +101,7 @@ Vous trouverez ci-dessous les différents statuts de paiement.
 | **EN ATTENTE** | Le paiement attend l'approbation d'un ou plusieurs agents financiers. Le transfert n'a pas encore été envoyé aux enregistrements sélectionnés pour ce tour de paiement. | Importez le fichier de réconciliation dans la plateforme 121 pour mettre à jour le statut. |
 | **ÉCHOUÉ** | La transaction a échoué. Les enregistrements n'ont pas reçu de paiements. | Veuillez vérifier le message d'erreur fourni par votre banque. L'échec du paiement peut être dû à des détails bancaires incorrects, un numéro de téléphone ou un numéro d'ID selon les méthodes de paiement choisies. Vous pouvez réessayer. Contactez notre équipe de soutien 121 si cela reste non résolu. |
 
-!!! info "Réconciliation manuelle des paiements"
+!!! Info "Réconciliation manuelle des paiements"
     Une fois que le PSF revient avec les données de paiement, vous pouvez traiter la réconciliation manuelle des paiements dans la plateforme 121.
     Suivez les instructions sur [cette page.](./manual-payment-reconciliation.md)
 

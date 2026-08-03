@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-The Registration table can be empty for the following reasons:
+The Registrations table can be empty for the following reasons:
 
 ### No new registration imported
 
@@ -13,13 +13,13 @@ The table will show **No data**
 
 ### No Internet Connection
 
-If you are using KOBO Toolbox form or an alternative registration form but do not have access to the internet, the list may still need to be updated.
-Although the registration tool can be used offline, an internet connection is required to start importing the registration list into the 121 Platform.
+If you are using a KoboToolbox form or an alternative registration form but do not have access to the internet, the list may still need to be updated.
+Although the registration tool can be used offline, an internet connection is required to start importing the registration list into the 121 platform.
 
 To start importing the registration list:
 
 - Connect to an internet network;
-- Start the upload with KOBO form;
+- Start the upload with the Kobo form;
 - Once done, refresh the registration page in your program.
 
 ### Filters may be applied to the list
@@ -31,6 +31,6 @@ There may be some filters applied to the table that might mean the registrations
 
 !!! warning "Blank page"
     In case the page is fully blank and does not show the registration column, there may be a technical issue.
-    Please contact our [support team](mailto:support@121.global) to help fixing the issue.
+    Please contact our [support team](mailto:support@121.global) to help fix the issue.
 
 -8<- "docs/en/_snippets/contact-support.md"

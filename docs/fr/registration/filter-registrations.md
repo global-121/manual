@@ -13,7 +13,7 @@ hide:
 
 Pour utiliser la recherche rapide, cliquez sur l'icône de recherche (:octicons-search-16:) en haut à droite du tableau. Vous pouvez maintenant rechercher dans la plupart des colonnes.
 
-!!! info
+!!! Info
     La recherche rapide fonctionne pour la plupart, mais **pas** toutes les colonnes. Si vous ne trouvez pas ce que vous cherchez, utilisez le filtrage par colonne.
 
 ## Filtrage par colonne
