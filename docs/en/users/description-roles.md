@@ -43,7 +43,7 @@ There might be additional roles available on your 121 platform. We advise you no
 | Overview Users and Roles | :material-progress-question:{.req} | | | | |
 | Add new 121 users | :material-progress-question:{.req} | | | | |
 | Reset 121 users' password | :material-progress-question:{.req} | | | | |
-| Create new programs | :octicons-check-circle-fill-24:{.yes} | | | | |
+| Create new programs* | :octicons-check-circle-fill-24:{.yes} | | | | |
 | Manage program team and assign roles | :octicons-check-circle-fill-24:{.yes} | | | | |
 | Edit program information (basic details and budget) | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | | | |
 | Overview registration list | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} |
@@ -73,6 +73,8 @@ There might be additional roles available on your 121 platform. We advise you no
 +:octicons-check-circle-fill-24:{.yes} Feature available.
 
 +:material-progress-question:{.req} Feature upon request to 121 support team.
+
+\* This action requires Organisational Admin rights, which is enabled by the 121 support team. If you are a Program Admin and you cannot create programs, please reach out to the 121 support team to set this up.
 
 ---
 

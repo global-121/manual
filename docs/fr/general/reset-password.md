@@ -4,16 +4,16 @@ hide:
   - toc
 ---
 
-Si vous avez perdu ou oublié votre mot de passe, vous pouvez contacter votre gestionnaire d'utilisateurs 121. Il peut réinitialiser votre mot de passe via la page Utilisateurs comme suit.
+Si vous avez perdu ou oublié votre mot de passe, vous pouvez contacter votre responsable d'utilisateurs 121. Il peut réinitialiser votre mot de passe via la page Utilisateurs comme suit.
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
-    Le gestionnaire d'utilisateurs peut consulter et effectuer des actions sur cette page.
+    Le responsable d'utilisateurs peut consulter et effectuer des actions sur cette page.
 
 ---
 
 ### Réinitialiser le mot de passe d'un utilisateur
 
-Le gestionnaire d'utilisateurs peut réinitialiser directement les mots de passe des utilisateurs à partir de la **page Utilisateurs**.
+Le responsable d'utilisateurs peut réinitialiser directement les mots de passe des utilisateurs à partir de la **page Utilisateurs**.
 
 - À la fin de la ligne de l'utilisateur, cliquez sur les **:material-dots-horizontal: trois points**,
 - Sélectionnez **Réinitialiser le mot de passe**,

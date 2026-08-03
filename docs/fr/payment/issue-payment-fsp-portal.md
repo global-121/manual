@@ -9,8 +9,7 @@ Dans la plateforme 121, les paiements peuvent être traités de deux façons dif
 *Pour les instructions de paiement avec un prestataire de services financiers intégré, veuillez vous référer aux instructions sur la [page Paiement avec un PSF intégré.](./payment-integrated-fsp.md)*
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
-    Les rôles de gestionnaire financier et agent financier peuvent effectuer des actions sur la page Paiements.  
-    Les utilisateurs supplémentaires peuvent ne recevoir que la permission **Affichage**. [En savoir plus sur Utilisateurs et rôles.](../users/description-roles.md)
+    Les rôles de responsable financier et gestionnaire financier peuvent effectuer des actions sur la page Paiements. [En savoir plus sur Utilisateurs et rôles.](../users/description-roles.md)
 
 ## Aperçu des paiements
 
@@ -98,7 +97,7 @@ Vous trouverez ci-dessous les différents statuts de paiement.
 | Statut | Description | Actions requises |
 | :------ | :----------- | :---------------- |
 | **RÉUSSI** | Le transfert a été envoyé aux enregistrements et ils peuvent maintenant l'utiliser. | Aucun. |
-| **EN ATTENTE** | Le paiement attend l'approbation d'un ou plusieurs agents financiers. Le transfert n'a pas encore été envoyé aux enregistrements sélectionnés pour ce tour de paiement. | Importez le fichier de réconciliation dans la plateforme 121 pour mettre à jour le statut. |
+| **EN ATTENTE** | Le paiement attend l'approbation d'un ou plusieurs gestionnaires financiers. Le transfert n'a pas encore été envoyé aux enregistrements sélectionnés pour ce tour de paiement. | Importez le fichier de réconciliation dans la plateforme 121 pour mettre à jour le statut. |
 | **ÉCHOUÉ** | La transaction a échoué. Les enregistrements n'ont pas reçu de paiements. | Veuillez vérifier le message d'erreur fourni par votre banque. L'échec du paiement peut être dû à des détails bancaires incorrects, un numéro de téléphone ou un numéro d'ID selon les méthodes de paiement choisies. Vous pouvez réessayer. Contactez notre équipe de soutien 121 si cela reste non résolu. |
 
 !!! Info "Réconciliation manuelle des paiements"

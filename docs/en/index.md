@@ -27,14 +27,14 @@ The 121 Platform is following the CVA workflow step-by-step. Find out the instru
 
     ---
 
-    Add team members into your project teams and assign a role to each of the users.
+    Add team members into your program teams and assign a role to each of the users.
 
 
 - :fontawesome-solid-people-roof:{ .lg .middle } [Manage Registrations](./registration/registrations-page.md)
 
     ---
 
-    Oversee the list of registered beneficiaries, verify their details, include or decline their participation in a project in this section.
+    Oversee the list of registered beneficiaries, verify their details, include or decline their participation in a program in this section.
 
 - :fontawesome-solid-money-bill-transfer:{ .lg .middle } [Process the payment](./payment/payment.md)
 
@@ -42,11 +42,11 @@ The 121 Platform is following the CVA workflow step-by-step. Find out the instru
 
     Create new payments, reconcile payments and export transaction reports for financial audit.
 
-- :octicons-graph-16:{ .lg .middle } [Monitor your CVA project](./monitoring/monitoring.md)
+- :octicons-graph-16:{ .lg .middle } [Monitor your CVA program](./monitoring/monitoring.md)
 
     ---
 
-    Stay up to date with the latest updates and track the project through the table overview or the Power BI dashboard.
+    Stay up to date with the latest updates and track the program through the table overview or the Power BI dashboard.
 
 </div>
 

@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-Il existe une option pour envoyer des **messages sortants** via SMS ou WhatsApp aux enregistrements pour chaque action que vous effectuez dans l'instance, telle que l'inclusion, le refus ou l'envoi de paiements. Si vous souhaitez communiquer la progression du programme aux individus enregistrés, vous pouvez cliquer sur le bouton **Envoyer un message aux enregistrements** et activer la messagerie via la plateforme 121. Pour activer les services de messagerie, vous devez créer un compte Twilio et vous assurer qu'il y a suffisamment de crédits de messagerie. Contactez notre équipe pour configurer cela. Voici les étapes à suivre:
+Il existe une option pour envoyer des **messages sortants** via SMS ou WhatsApp aux enregistrements pour chaque action que vous effectuez dans l'instance, telle que l'inclusion, le fait de décliner ou l'envoi de paiements. Si vous souhaitez communiquer la progression du programme aux individus enregistrés, vous pouvez cliquer sur le bouton **Envoyer un message aux enregistrements** et activer la messagerie via la plateforme 121. Pour activer les services de messagerie, vous devez créer un compte Twilio et vous assurer qu'il y a suffisamment de crédits de messagerie. Contactez notre équipe pour configurer cela. Voici les étapes à suivre:
 
 - [Créer un compte Twilio](#cr%C3%A9er-un-compte-twilio)
 - [Recharger avant d'envoyer des messages](#recharger-avant-denvoyer-des-messages)
@@ -15,8 +15,7 @@ Il existe une option pour envoyer des **messages sortants** via SMS ou WhatsApp 
 
 
 !!! Important "Qui peut effectuer des actions sur cette page?"
-    Les rôles de gestionnaire d'assistance et d'agent d'assistance peuvent effectuer des actions sur la page Enregistrements.
-    Des utilisateurs supplémentaires peuvent se voir accorder uniquement la permission d'affichage sur cette page. [En savoir plus sur les utilisateurs et les rôles](../users/description-roles.md)
+    Les rôles de responsable CVA et gestionnaire CVA peuvent effectuer des actions sur la page Enregistrements. [En savoir plus sur les utilisateurs et les rôles](../users/description-roles.md)
 
 ---
 
@@ -100,7 +99,7 @@ Sur la **page d'enregistrement**:
 
 Si vous avez l'intention d'envoyer des messages à différents stades du programme, vous pouvez ajouter des modèles de messages à votre instance. Pour ce faire, fournissez le contenu du message avec un titre et spécifiez quand le message doit être déclenché. Notre équipe d'assistance les configurera. Il y a 2 options pour envoyer des messages modèles:
 
-  1. Les modèles peuvent être liés à des étapes clés telles que l'enregistrement, la validation, l'inclusion, le refus et le paiement. Cela signifie que le message sera automatiquement envoyé lorsque l'action correspondante est effectuée — par exemple, en cliquant sur un bouton spécifique.
+  1. Les modèles peuvent être liés à des étapes clés telles que l'enregistrement, la validation, l'inclusion, le fait de décliner et le paiement. Cela signifie que le message sera automatiquement envoyé lorsque l'action correspondante est effectuée — par exemple, en cliquant sur un bouton spécifique.
 
   2. Les messages modèles seront disponibles dans le menu déroulant lorsque vous cliquez sur le bouton **Message**. Vous pouvez choisir de les envoyer quand vous le souhaitez, indépendamment d'une action ou d'une étape spécifique du programme — contrairement à la première option, où les messages sont déclenchés automatiquement par des actions telles que l'enregistrement ou la validation.
 

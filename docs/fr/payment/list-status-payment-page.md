@@ -15,7 +15,7 @@ Le statut sera mis à jour automatiquement pour les PSF intégrés, ou après r�
 | **EN ATTENTE D'APPROBATION** | La demande de paiement a été créée mais attend toujours l'approbation de tous les approbateurs. | Les approbateurs doivent approuver le paiement pour continuer. |
 | **APPROUVÉ** | La demande de paiement a été approuvée par tous les approbateurs. | Le paiement doit être lancé pour continuer. |
 | **RÉUSSI** | Le paiement a été envoyé aux enregistrements et ils peuvent maintenant l'utiliser. | Aucun. |
-| **EN COURS DE TRAITEMENT** | Le paiement attend la confirmation d'un ou plusieurs agents financiers. Le transfert n'a pas encore été envoyé aux enregistrements sélectionnés pour ce tour de paiement ou le fichier de réconciliation n'a pas encore été importé. | Importez le fichier de réconciliation dans la plateforme 121 pour mettre à jour le statut. |
+| **EN COURS DE TRAITEMENT** | Le paiement attend la confirmation d'un ou plusieurs gestionnaires financiers. Le transfert n'a pas encore été envoyé aux enregistrements sélectionnés pour ce tour de paiement ou le fichier de réconciliation n'a pas encore été importé. | Importez le fichier de réconciliation dans la plateforme 121 pour mettre à jour le statut. |
 | **ÉCHOUÉ** | La transaction a échoué. Les enregistrements n'ont pas reçu de paiements. | Veuillez vérifier le message d'erreur fourni par votre banque. L'échec du paiement peut être dû à des détails bancaires incorrects, un numéro de téléphone ou un numéro d'ID selon les méthodes de paiement choisies. Vous pouvez réessayer. Contactez notre équipe de soutien 121 si cela reste non résolu. |
 
 ---
@@ -24,15 +24,15 @@ Le statut sera mis à jour automatiquement pour les PSF intégrés, ou après r�
 
 | Type | Description | Actions requises |
 | :---- | :----------- | :---------- |
-| **Nouveau** | Les enregistrements ont été ajoutés au programme mais ne sont pas encore inclus. | Un gestionnaire CVA ou un agent CVA peut les valider ; seul un gestionnaire CVA peut les inclure dans le programme. |
-| **Validé(e)** | Les détails des enregistrements ont été vérifiés. L'enregistrement a été validé par un gestionnaire CVA ou un agent CVA. Ils ne sont pas encore inclus dans le programme et ne peuvent pas recevoir de paiements. | Un gestionnaire CVA peut inclure les enregistrements dans le programme, ou un gestionnaire CVA ou un agent CVA peut les refuser. |
-| **Inclus(e)** | Les enregistrements ont été inclus dans le programme et peuvent commencer à recevoir des transferts de paiement via le portail 121. | Un gestionnaire CVA ou un gestionnaire financier peut sélectionner les enregistrements pour les prochains tours de paiement. |
-| **Décliné(e)** | Les enregistrements se sont avérés être mal enregistrés ou ne répondaient pas aux critères d'inclusion du programme. Les enregistrements ne recevront aucun paiement. | Aucune action requise, sauf si l'enregistrement a été refusé à tort. Les enregistrements peuvent être réinclus si nécessaire. |
-| **Mis(e) en pause** | Les enregistrements ne sont actuellement pas inclus dans la distribution (les paiements sont en pause) mais font toujours partie du programme. | Les enregistrements peuvent être inclus ou refusés du programme selon les SOP. Un gestionnaire CVA ou un agent CVA peut décider de la mise à jour du statut. |
+| **Nouveau** | Les enregistrements ont été ajoutés au programme mais ne sont pas encore inclus. | Un responsable CVA ou un gestionnaire CVA peut les valider ; seul un responsable CVA peut les inclure dans le programme. |
+| **Validé(e)** | Les détails des enregistrements ont été vérifiés. L'enregistrement a été validé par un responsable CVA ou un gestionnaire CVA. Ils ne sont pas encore inclus dans le programme et ne peuvent pas recevoir de paiements. | Un responsable CVA peut inclure les enregistrements dans le programme, ou un responsable CVA ou un gestionnaire CVA peut les décliner. |
+| **Inclus(e)** | Les enregistrements ont été inclus dans le programme et peuvent commencer à recevoir des transferts de paiement via le portail 121. | Un responsable CVA ou un responsable financier peut sélectionner les enregistrements pour les prochains tours de paiement. |
+| **Décliné(e)** | Les enregistrements se sont avérés être mal enregistrés ou ne répondaient pas aux critères d'inclusion du programme. Les enregistrements ne recevront aucun paiement. | Aucune action requise, sauf si l'enregistrement a été décliné à tort. Les enregistrements peuvent être réinclus si nécessaire. |
+| **Mis(e) en pause** | Les enregistrements ne sont actuellement pas inclus dans la distribution (les paiements sont en pause) mais font toujours partie du programme. | Les enregistrements peuvent être inclus ou déclinés du programme selon les SOP. Un responsable CVA ou un gestionnaire CVA peut décider de la mise à jour du statut. |
 | **Complété(e)** | Les enregistrements ont reçu le montant complet des transferts. Aucun autre paiement ne peut être envoyé. | Aucun. Ce statut est automatiquement généré par le système. Sauf si des tours de paiement supplémentaires ont été ajoutés au programme, ce statut restera inchangé. |
 
 !!! Important "Mises à jour des statuts"
-    Les rôles de gestionnaire CVA et d'agent CVA ont les autorisations de mettre à jour les statuts des enregistrements au sein de leur programme attribué. Si vous remarquez que le statut d'un enregistrement doit être mis à jour, veuillez contacter votre gestionnaire CVA ou agent CVA pour discuter des prochaines étapes.
+    Les rôles de responsable CVA et de gestionnaire CVA ont les autorisations de mettre à jour les statuts des enregistrements au sein de leur programme attribué. Si vous remarquez que le statut d'un enregistrement doit être mis à jour, veuillez contacter votre responsable CVA ou gestionnaire CVA pour discuter des prochaines étapes.
 
     Seul le statut **Complété(e)** est automatiquement généré par le système une fois que tous les paiements ont été traités pour les enregistrements inclus dans le programme.
 

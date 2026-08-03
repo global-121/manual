@@ -23,12 +23,12 @@ Sur cette page, vous configurez un processus d'approbation pour les paiements du
 
 ![Approbation des paiements](../assets/img/settings-paymentapproval2.png)
 
-- **:material-check: Enregistrez** vos modifications.
+- **:material-check: Sauvegardez** vos modifications.
 
 !!! Note
     Un scénario réel d'approbation des paiements pourrait être :
 
-    - Le gestionnaire financier doit approuver tous les paiements. Cet utilisateur est défini comme premier approbateur.
+    - Le responsable financier doit approuver tous les paiements. Cet utilisateur est défini comme premier approbateur.
     - Le secrétaire général ou le responsable DM doit approuver tous les paiements supérieurs à 500 000 EUR. Ces utilisateurs sont définis comme deuxième approbateurs avec le même montant seuil.
 
 ### Mettre à jour l'approbation des paiements

@@ -89,7 +89,7 @@ Les membres de l'équipe doivent être retirés du programme s'ils ne travaillen
 - Cliquez sur les 3 points **:material-dots-horizontal:** à l'extrémité droite de la ligne de l'utilisateur ;
 - Sélectionnez **Modifier** ;
 - Dans le champ **Attribuer des rôles**, **sélectionnez ou désélectionnez** les rôles que vous souhaitez attribuer à l'utilisateur ;
-- Cliquez sur **Enregistrer les modifications** pour confirmer.
+- Cliquez sur **Sauvegarder les modifications** pour confirmer.
 
 ![Modifier un utilisateur](../assets/img/settings-programteameditpng.png)
 

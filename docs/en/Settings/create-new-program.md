@@ -5,7 +5,7 @@ hide:
 ---
 
 !!! Important "Who can perform actions on this page ?"
-    Program Admin can create a program.
+    Program Admin can create a program. This does require **Organisational Admin rights**, which is enabled by the 121 support team. If you are a Program Admin and you cannot create new programs while you are required to do this, **please reach out to the 121 support team** so we can set this up for you.
 
 ### Create new program
 

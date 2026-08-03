@@ -10,11 +10,11 @@ hide:
 
       Le partenaire reste le contrôleur de données et est donc responsable de toutes les données saisies dans la plateforme. Le partenaire doit donc être informé et en conformité avec sa législation sur la protection des données.
 
-      Veuillez contacter notre équipe de gestionnaires de compte pour **discuter de toute exigence et question** concernant nos responsabilités RGPD à <info@121.global>.
+      Veuillez contacter notre équipe de gestionnaires de compte pour **discuter de toute exigence et question** concernant nos responsabilités RGPD à <support@121.global>.
 
 ??? "2. Quel est votre serveur cloud et votre fournisseur d'hébergement ?"
 
-    La plateforme 121 s'exécute dans le cloud Microsoft Azure. Par défaut, l'emplacement de toutes les ressources est Europe occidentale. Éventuellement, et sur demande à notre équipe, il peut être possible d'héberger et de stocker les données dans une région différente. Veuillez contacter notre équipe pour plus d'informations <info@121.global>.
+    La plateforme 121 s'exécute dans le cloud Microsoft Azure. Par défaut, l'emplacement de toutes les ressources est Europe occidentale. Éventuellement, et sur demande à notre équipe, il peut être possible d'héberger et de stocker les données dans une région différente. Veuillez contacter notre équipe pour plus d'informations <support@121.global>.
 
     Il peut être possible d'héberger la plateforme 121 dans le pays où le stockage et le traitement des données se produisent, mais cela dépend de la disponibilité des centres de données Azure.
 
@@ -25,7 +25,7 @@ hide:
    
     Notez que l'hébergement des données sur des serveurs sur site, ou sur des serveurs tiers pour lesquels nous n'avons pas d'accord contractuel, peut affecter la maintenance de la plateforme 121. Il peut être nécessaire que votre équipe soutienne la maintenance de votre instance 121.
     
-    Veuillez nous contacter pour discuter des meilleures alternatives et solutions à <info@121.global>.
+    Veuillez nous contacter pour discuter des meilleures alternatives et solutions à <support@121.global>.
 
 
 ??? "4. Dans quels emplacements géographiques stockez-vous ou traitez-vous les données ?"
@@ -62,11 +62,7 @@ hide:
     L'utilisateur peut trouver plus d'informations sur les tiers (sous-traitants) impliqués dans 121 et examiner leurs addendums de protection des données via les liens fournis ci-dessous :
 
       - **Informations légales Microsoft Azure** [https://azure.microsoft.com/fr-fr/support/legal/](https://azure.microsoft.com/fr-fr/support/legal/)
-
-        Et le cas échéant :
-
-    - **Twilio Flex** [https://www.twilio.com/en-us/legal/online-terms-updates](https://www.twilio.com/en-us/legal/online-terms-updates)
-
+      - **Twilio Flex** [https://www.twilio.com/en-us/legal/online-terms-updates](https://www.twilio.com/en-us/legal/online-terms-updates) (le cas échéant)
       - **KoboToolbox** [https://www.ifrc.org/fr/boite-outil-kobo-lifrc-kobotoolbox](https://www.ifrc.org/fr/boite-outil-kobo-lifrc-kobotoolbox)
 
     121 peut également utiliser EspoCRM, un logiciel open-source auto-hébergé par le partenaire sur un serveur à un emplacement choisi par le partenaire  [https://www.espocrm.com/tos/](https://www.espocrm.com/tos/)
@@ -110,7 +106,7 @@ hide:
     - Suivez une formation sur la protection des données.
     - Utilisez un gestionnaire de mots de passe numérique (par exemple, Bitwarden).
     
-    En général, il est fortement conseillé de supprimer les fichiers après avoir effectué le contrôle de duplication afin qu'ils ne puissent pas être facilement récupérés. L'utilisateur peut appliquer des mesures supplémentaires telles que la protection du classeur avec un mot de passe. Dans Microsoft Excel, cela peut être fait en suivant ces étapes :
+    En général, il est fortement conseillé de supprimer les fichiers après avoir effectué le contrôle des doublons afin qu'ils ne puissent pas être facilement récupérés. L'utilisateur peut appliquer des mesures supplémentaires telles que la protection du classeur avec un mot de passe. Dans Microsoft Excel, cela peut être fait en suivant ces étapes :
 
       - Sélectionnez Fichier > Infos.
       - Sélectionnez la zone Protéger le classeur et choisissez Chiffrer avec un mot de passe.

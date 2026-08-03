@@ -8,8 +8,7 @@ Dans la plateforme 121, les paiements peuvent être traités de deux façons dif
 *Pour les instructions de paiement avec un prestataire de services financiers intégré, veuillez vous référer aux instructions sur la [page Paiement avec un PSF intégré.](../payment/payment-integrated-fsp.md)*
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
-    Les rôles de gestionnaire financier et agent financier peuvent effectuer des actions sur la page Paiements.  
-    Les utilisateurs supplémentaires peuvent ne recevoir que la permission **Affichage**. [En savoir plus sur Utilisateurs et rôles.](../users/description-roles.md)
+    Le responsable financier peut effectuer des actions sur la page Paiements. [En savoir plus sur Utilisateurs et rôles.](../users/description-roles.md)
 
 Avant de télécharger le fichier de réconciliation dans la plateforme 121, il y a quelques étapes que vous devez suivre pour adapter le fichier à la plateforme 121.
 
@@ -22,7 +21,7 @@ Allez à la page des paiements et entrez le tour de paiement spécifique que vou
 - En haut à droite, cliquez sur **Importer les données de réconciliation**. ![Importer les données de réconciliation](../assets/img/IndividualExportReport.png)
 - Dans la fenêtre pop-up, vous pouvez lire dans la première phrase *Importez le fichier envoyé par le PSF pour voir le statut de transfert des enregistrements inclus dans ce paiement. Téléchargez le modèle.*
 - Cliquez sur **Télécharger le modèle**. ![Télécharger le modèle de réconciliation](../assets/img/ReconciliationImport.png)
-- Vous pouvez maintenant commencer à éditer ce fichier avec la valeur demandée, comme suit.
+- Vous pouvez maintenant commencer à modifier ce fichier avec la valeur demandée, comme suit.
 
 ## Vérifier le fichier de données de réconciliation
 
@@ -38,7 +37,7 @@ Le tableau ci-dessous indique les noms d'étiquettes corrects qui doivent être 
 
 Si ces étiquettes ne correspondent pas correctement, trois erreurs peuvent se produire dans la plateforme 121 :
 
-- Un *message d'erreur** s'affiche pour avertir que les données ne peuvent pas être téléchargées ;
+- Un **message d'erreur** s'affiche pour avertir que les données ne peuvent pas être téléchargées ;
 - **Les statuts de paiement ne sont pas correctement mis à jour**, affichant plus de paiements échoués ou en attente car le système ne peut pas faire correspondre le statut au fichier importé ;
 - Le **format n'est pas reconnu** dans la plateforme et affiche une page d'erreur.
 
@@ -48,12 +47,12 @@ Si ces étiquettes ne correspondent pas correctement, trois erreurs peuvent se p
 
 ## Formater votre fichier en .csv
 
-Une fois vos étiquettes mises à jour, vous pouvez enregistrer le fichier au format .csv :
+Une fois vos étiquettes mises à jour, vous pouvez sauvegarder le fichier au format .csv :
 
-- Cliquez sur **Enregistrer le fichier** dans votre fichier ;
+- Cliquez sur **Sauvegarder le fichier** dans votre fichier ;
 - Ajoutez un nom de fichier, si nécessaire ;
 - Sélectionnez le format **.csv** dans la liste déroulante ;
-- **Enregistrez**
+- **Sauvegardez**
 
 ## Importer le fichier de réconciliation
 

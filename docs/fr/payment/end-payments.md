@@ -7,7 +7,7 @@ hide:
 Si un enregistrement n'a plus besoin d'assistance, vous pouvez arrêter l'assistance à tout moment pendant le programme. Cela peut être fait de la manière suivante.
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
-    Les rôles de gestionnaire CVA et agent CVA peuvent effectuer des actions sur la page d'enregistrement. Les utilisateurs financiers doivent consulter les utilisateurs gestionnaire CVA ou agent CVA affectés à ce programme.
+    Les rôles de responsable CVA et gestionnaire CVA peuvent effectuer des actions sur la page d'enregistrement. Les utilisateurs financiers doivent consulter les utilisateurs responsable CVA ou gestionnaire CVA affectés à ce programme.
     [En savoir plus sur Utilisateurs et rôles](../users/description-roles.md)
 
 
@@ -23,11 +23,11 @@ Dans la **page Enregistrement** :
 ### Modifier le statut
 
 - Sélectionnez individuellement les enregistrement(s) pour lesquels vous souhaitez mettre fin à l'assistance en cochant la boîte :material-checkbox-multiple-marked-outline:
-- Cliquez sur **:fontawesome-solid-ban: Refuser** en haut du tableau ;
+- Cliquez sur **:fontawesome-solid-ban: Décliner** en haut du tableau ;
 - Dans la fenêtre pop-up, **Approuvez** l'action.
-- L'enregistrement ne recevra plus d'assistance. ![Enregistrement refusé](../assets/img/RegistrationDeclined.png)
+- L'enregistrement ne recevra plus d'assistance. ![Enregistrement décliné](../assets/img/RegistrationDeclined.png)
 
-Vous pouvez également modifier le statut en cliquant avec le bouton droit sur l'enregistrement dans le tableau et en cliquant sur **:fontawesome-solid-ban: Refuser** ![Liste déroulante du statut](../assets/img/RegistationsStatusRighList.png)
+Vous pouvez également modifier le statut en cliquant avec le bouton droit sur l'enregistrement dans le tableau et en cliquant sur **:fontawesome-solid-ban: Décliner** ![Liste déroulante du statut](../assets/img/RegistationsStatusRighList.png)
 
 ---
 

@@ -7,17 +7,16 @@ hide:
 Des fautes de frappe ou des entrées en double peuvent se produire lors de la phase d'enregistrement. Les informations collectées, telles que le numéro de téléphone, peuvent changer au cours du programme. Vous pouvez modifier et vérifier les détails à tout moment pendant le programme, en suivant les instructions ci-dessous.
 
 !!! Important "Qui peut effectuer des actions sur cette page?"
-    Les rôles de gestionnaire d'assistance et d'agent d'assistance peuvent effectuer des actions sur la page Enregistrements.
-    Des utilisateurs supplémentaires peuvent se voir accorder uniquement la permission d'affichage sur cette page. [En savoir plus sur les utilisateurs et les rôles](../users/description-roles.md)
+    Les rôles de responsable CVA et gestionnaire CVA peuvent effectuer des actions sur la page Enregistrements. [En savoir plus sur les utilisateurs et les rôles](../users/description-roles.md)
 
 ### Modification des détails d'enregistrement
 
 - **Entrez le profil d'enregistrement** en cliquant sur le lien **Enreg. #** sur le côté gauche; ![Page d'enregistrement](../assets/img/RegistrationsPage.png)
 - Une fois dans l'aperçu du profil, cliquez sur l'onglet **Informations personnelles**; ![Informations personnelles](../assets/img/PersonalInformationPA.png)
 - Cliquez sur le bouton **Modifier les informations** en haut à droite et recherchez le champ à modifier;
-- Tapez la nouvelle valeur directement dans le champ et cliquez sur **Enregistrer**. *L'ancienne valeur sera automatiquement remplacée;*
+- Tapez la nouvelle valeur directement dans le champ et cliquez sur **Sauvegarder**. *L'ancienne valeur sera automatiquement remplacée;*
 - Une demande de pop-up **Mettre à jour les informations** vous demande de fournir la raison de ce changement; ![Mettre à jour les informations](../assets/img/UpdateInformationPopUp.png)
-- Ajoutez une raison, puis **Enregistrez**.
+- Ajoutez une raison, puis **Sauvegardez**.
 
 Lorsque les détails sont entièrement examinés et corrects, vous pouvez ensuite marquer le profil comme **Validé(e)**. Suivez les instructions pour [valider un profil d'enregistrement](./registration-validate-pa.md).
 

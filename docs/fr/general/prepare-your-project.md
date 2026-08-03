@@ -1,10 +1,10 @@
 ---
-title: Guide étape par étape Préparer votre programme CVA
+title: Guide étape par étape : Préparer votre programme CVA
 hide:
   - toc
 ---
 
-Ce guide présente les étapes essentielles pour préparer et lancer votre programme d'assistance en espèces et bons d'achat (CVA) via la plateforme 121. Veuillez examiner attentivement chaque étape avant de commencer. Vous pouvez également imprimer ou enregistrer cette page afin de l'utiliser comme liste de contrôle tout au long du processus.
+Ce guide présente les étapes essentielles pour préparer et lancer votre programme d'assistance en espèces et bons d'achat (CVA) via la plateforme 121. Veuillez examiner attentivement chaque étape avant de commencer. Vous pouvez également imprimer ou sauvegarder cette page afin de l'utiliser comme liste de contrôle tout au long du processus.
 
 ---
 
@@ -28,7 +28,7 @@ Préparez votre formulaire d'enregistrement dans Kobo (ou un autre outil pris en
 - [ ] Décision de permettre ou non l'utilisation de la validation dans 121 (active le statut « Validation »)
 - [ ] Champs à vérifier pour les doublons partagés avec l'équipe 121
 
-Vous trouverez des instructions spécifiques pour configurer les informations de votre programme [**ici**](../Settings/program-information.md).
+Vous trouverez des instructions spécifiques pour configurer les informations de votre programme sur la [**page Informations sur le programme**](../Settings/program-information.md).
 
 ---
 
@@ -41,7 +41,7 @@ Concluez des accords avec votre PSF sur le programme à venir. Si vous travaille
 - [ ] Identifiants saisis dans 121 pour la configuration si le PSF est intégré
 - [ ] Modèle d'instruction de paiement reçu du PSF si le PSF n'est pas intégré
 
-Vous trouverez des instructions spécifiques pour configurer votre ou vos PSF [**ici**](../Settings/fsp-integration.md).
+Vous trouverez des instructions spécifiques pour configurer votre ou vos PSF sur la [**page Configuration PSF**](../Settings/fsp-integration.md).
 
 ---
 
@@ -58,7 +58,7 @@ Préparez votre formulaire d'enregistrement dans Kobo (ou un autre outil pris en
 - [ ] Formulaire relu par l'équipe d'assistance 121 (contrôle obligatoire de compatibilité 121, relecture générale facultative)
 - [ ] Formulaire lié au programme 121
 
-Vous trouverez des instructions spécifiques pour configurer votre formulaire d'enregistrement [**ici**](../Settings/registration-data.md).
+Vous trouverez des instructions spécifiques pour configurer votre formulaire d'enregistrement sur la [**page Données d'enregistrement**](../Settings/registration-data.md).
 
 ---
 
@@ -70,7 +70,7 @@ Identifiez les membres de l'équipe de votre programme. Une fois leurs comptes u
 - [ ] Utilisateurs ajoutés au programme avec un rôle attribué
 - [ ] Scope défini pour les utilisateurs (facultatif)
 
-Vous trouverez des instructions spécifiques pour configurer l'équipe de votre programme [**ici**](../Settings/programteam.md).
+Vous trouverez des instructions spécifiques pour configurer l'équipe de votre programme sur la [**page Équipe du programme**](../Settings/programteam.md).
 
 L'utilisateur n'a pas encore été créé ? Reportez-vous au [guide de création d'utilisateur](../users/add-users.md).
 
@@ -103,7 +103,7 @@ Contactez notre équipe pour organiser ce processus et indiquez-nous les critèr
 - [ ] Formulaire de validation demandé et co-conçu avec l'équipe 121
 - [ ] Formation à l'utilisation du formulaire assurée
 
-Vous trouverez des instructions spécifiques pour configurer votre formulaire de validation hors ligne [**ici**](../registration/offline-verification.md).
+Vous trouverez des instructions spécifiques pour configurer votre formulaire de validation hors ligne sur la [**page du formulaire de validation hors ligne**](../registration/offline-verification.md).
 
 ---
 

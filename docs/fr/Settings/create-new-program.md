@@ -5,7 +5,7 @@ hide:
 ---
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
-    L'administrateur du programme peut créer un programme.
+    L'administrateur du programme peut créer un programme. Cela nécessite les **droits d'administrateur de l'organisation**, activés par l'équipe d'assistance 121. Si vous êtes administrateur de programme et que vous ne parvenez pas à créer de nouveaux programmes alors que cela est requis pour votre rôle, **veuillez contacter l'équipe d'assistance 121** afin que nous puissions configurer cela pour vous.
 
 ### Créer un nouveau programme
 

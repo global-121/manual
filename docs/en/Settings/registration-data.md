@@ -11,6 +11,14 @@ The 121 platform has an integration with KoboToolbox. If you use this tool for d
 
 You set up and manage the integration between your Kobo form and 121 on the **Registration data** page under **Settings**.
 
+- [Set up your Kobo form integration](#set-up-your-kobo-form-integration)
+- [Check compatibility between your form, 121 and FSP](#check-compatibility-between-your-form-121-and-fsp)
+- [Link your form to 121](#link-your-form-to-121)
+- [Import existing registrations](#import-existing-registrations)
+- [Manage your Kobo form integration](#manage-your-kobo-form-integration)
+- [Simplify question labels](#simplify-question-labels)
+- [View your registrations](#view-your-registrations)
+
 ## Set up your Kobo form integration
 
 Setting up your integration consists of two steps:
@@ -144,11 +152,14 @@ If you wish to **replace your form** you can click **Reconfigure** under the thr
 
 If you edited the form set up, it automatically syncs when a new registration is made. If there will be no new registrations, you can use the **Refresh link** under the three dots **:material-dots-vertical:** next to the KoboToolbox link.
 
+## Simplify question labels
+
 If you wish to simplify the questions as displayed in the 121 profiles and registration table, follow these steps:
 
 - Click **:octicons-pencil-24: Edit**;
 - Go to the field you wish to change;
 - Update the text for the question label;
+- Click Save.
 
 ![Registration data link](../assets/img/settings-registrationdata10.png)
 

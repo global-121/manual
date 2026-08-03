@@ -26,7 +26,7 @@ Une liste des termes clés utilisés dans la plateforme 121.
 | **CVA** | Assistance en espèces et bons d'achat, se référant à la programmation de transfert d'argent (CTP). |
 | **Programme** | Un programme créé par les utilisateurs dans la plateforme. |
 | **PSF** | Prestataire de services financiers - une entité qui fournit des services financiers, qui peuvent inclure des services de paiement numérique. Vous pourrez parfois trouver le terme anglais « SFP » dans les menus de l'application. |
-| **Budget** | Montant d'argent du projet qui sera versé aux personnes/ménages inclus. |
+| **Budget** | Montant d'argent du programme qui sera versé aux personnes/ménages inclus. |
 | **Enregistrements** | Personnes ou ménages qui se sont enregistrés, inscrits à un programme. |
 | **Importer** | Ajouter ou télécharger des données à partir d'un fichier Excel ou de formulaires d'entrevue, par ex. « importer les enregistrements ». |
 | **Exporter** | Télécharger le contenu de la plateforme 121. |
@@ -47,9 +47,9 @@ Une liste des termes clés utilisés dans la plateforme 121.
 | Terme | Définition |
 | :------------------ | :------------------------------------------------------------------- |
 | **Tous les programmes** | La page d'accueil de 121, contient tous les programmes, en cours et archivés, auxquels les utilisateurs sont affectés. |
-| **Utilisateurs** | Tous les individus qui ont accès à la plateforme 121 et qui y travaillent, par exemple agent CVA, bénévoles, agents financiers, etc. Un utilisateur peut avoir différents rôles dans différents programmes. |
-| **Rôles** | Chaque utilisateur se verra attribuer un poste pour un programme spécifique (par exemple, agent CVA, bénévole, agent financier, etc.). Ceci est fait sur la page « Équipe » des détails du programme. Chaque rôle a 1 ou plusieurs autorisations. |
-| **Autorisations** | Chaque rôle a une autorisation différente pour effectuer différentes actions. par exemple, seul un agent financier peut approuver un paiement. Vous pouvez voir quelles autorisations sont liées à quel rôle sur la page « Rôles et autorisations ». |
+| **Utilisateurs** | Tous les individus qui ont accès à la plateforme 121 et qui y travaillent, par exemple gestionnaire CVA, bénévoles, gestionnaires financiers, etc. Un utilisateur peut avoir différents rôles dans différents programmes. |
+| **Rôles** | Chaque utilisateur se verra attribuer un poste pour un programme spécifique (par exemple, gestionnaire CVA, bénévole, gestionnaire financier, etc.). Ceci est fait sur la page « Équipe » des détails du programme. Chaque rôle a 1 ou plusieurs autorisations. |
+| **Autorisations** | Chaque rôle a une autorisation différente pour effectuer différentes actions. par exemple, seul un gestionnaire financier peut approuver un paiement. Vous pouvez voir quelles autorisations sont liées à quel rôle sur la page « Rôles et autorisations ». |
 | **Paramètres** | Où les utilisateurs peuvent apporter des modifications à la plateforme pour l'adapter à leurs besoins, par exemple modifier la langue, le fuseau horaire, etc. |
 | **Manuel** | L'endroit où les utilisateurs peuvent trouver des instructions sur comment utiliser la plateforme. |
 | **Surveillance** | Les informations détaillées d'un programme et le tableau de bord Power BI avec les informations des statistiques du programme. (le cas échéant). |
@@ -91,7 +91,7 @@ Une liste des termes clés utilisés dans la plateforme 121.
 | **Nouveau** | Personnes/ménage ayant complété l'enregistrement dans le formulaire Kobo. |
 | **Validé(e)** | L'identité de l'enregistrement a été confirmée par un utilisateur 121. |
 | **Inclus(e)** | L'identité de l'enregistrement a été confirmée par un utilisateur 121. |
-| **Décliné(e)** | L'enregistrement s'est avéré être mal enregistré (duplication, score d'inclusion faible, etc.) et ne sera pas inclus dans le programme. |
+| **Décliné(e)** | L'enregistrement s'est avéré être mal enregistré (doublon, score d'inclusion faible, etc.) et ne sera pas inclus dans le programme. |
 | **Complété(e)** | L'enregistrement a reçu le montant complet des transferts. |
 | **Supprimé(e)** | L'enregistrement a été supprimé, ses détails personnels ont été supprimés - seuls certains détails sont toujours disponibles pour les rapports. |
 | **Mis(e) en pause** | L'enregistrement n'est actuellement pas inclus dans les paiements mais fait toujours partie du programme. |
@@ -106,7 +106,7 @@ Une liste des termes clés utilisés dans la plateforme 121.
 | **Valeur du transfert** | Le montant d'argent qu'un enregistrement est censé recevoir dans un seul paiement. |
 | **Transfert** | Un seul transfert de transfert à un enregistrement. Un enregistrement recevra le nombre de transferts préconfigurés dans le programme. Si enregistré tardivement, le premier transfert à un enregistrement peut faire partie d'une tranche de paiement ultérieure. |
 | **Montant total du paiement** | La valeur de somme ajoutant les valeurs de transfert de chaque enregistrement inclus ajouté au paiement. |
-| **En attente d'approbation** | Un nouveau paiement a été créé et il doit être approuvé par un Agent Financier. |
+| **En attente d'approbation** | Un nouveau paiement a été créé et il doit être approuvé par un Gestionnaire Financier. |
 | **En cours** | Le paiement est en cours de création et d'envoi aux enregistrements inclus. |
 | **Terminé** | Tous les enregistrements inclus ont reçu leurs transferts. |
 
@@ -142,8 +142,8 @@ Une liste des termes clés utilisés dans la plateforme 121.
 | Program Admin | Administrateur de programme |
 | Only view data, including Personally Identifiable Information | Lecteur - compris IPI |
 | Only view data, not including Personally Identifiable Information | Lecteur - excluant IPI |
-| Finance Manager | Gestionnaire Financier |
-| Finance Officer | Responsable Financier |
-| CVA Manager | Gestionnaire CVA |
-| CVA Officer | Responsable CVA |
-| User Manager | Gestionnaire Utilisateurs |
+| Finance Manager | Responsable Financier |
+| Finance Officer | Gestionnaire Financier |
+| CVA Manager | Responsable CVA |
+| CVA Officer | Gestionnaire CVA |
+| User Manager | Responsable Utilisateurs |

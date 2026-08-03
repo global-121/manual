@@ -5,7 +5,7 @@ hide:
 ---
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
-    L'administrateur du programme et le gestionnaire des utilisateurs peuvent afficher cette page et y effectuer des actions.
+    L'administrateur du programme et le responsable des utilisateurs peuvent afficher cette page et y effectuer des actions.
 
 Sur la page **Utilisateurs**, vous pouvez :
 

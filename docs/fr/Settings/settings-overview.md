@@ -5,7 +5,7 @@ hide:
 ---
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
-    L'administrateur du programme et le gestionnaire CVA peuvent effectuer des actions. [En savoir plus sur les rôles et permissions](../users/description-roles.md)
+    L'administrateur du programme et le responsable CVA peuvent effectuer des actions. [En savoir plus sur les rôles et permissions](../users/description-roles.md)
 
 La page **Paramètres** vous permet de consulter et, si nécessaire, de mettre à jour votre programme. Il y a 5 sections :
 
