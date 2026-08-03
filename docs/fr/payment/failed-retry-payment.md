@@ -10,8 +10,7 @@ Vous trouverez ci-dessous les instructions étape par étape pour comprendre les
 *Pour la description des statuts de paiement, veuillez vous référer à cette [page listant les statuts.](./list-status-payment-page.md)*
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
-    Les rôles de gestionnaire financier et agent financier peuvent effectuer des actions sur la page Paiements.  
-    Les utilisateurs supplémentaires peuvent ne recevoir que la permission **Affichage**. [En savoir plus sur Utilisateurs et rôles](../users/description-roles.md)
+    Le responsable financier peut effectuer des actions sur la page Paiements. [En savoir plus sur Utilisateurs et rôles](../users/description-roles.md)
 
 ## Raisons des paiements échoués
 
@@ -30,7 +29,7 @@ Pour filtrer les enregistrements avec paiements échoués :
 **1. Détails de paiement incorrects**.
     Pour les paiements manuels et automatiques, le KYC requis peut être incorrect et ne peut pas correspondre aux informations requises par le PSF pour traiter le paiement. Les détails incorrects peuvent être les suivants : Nom complet, Numéros de téléphone, Numéro de compte bancaire, Numéro d'ID et/ou Emplacement.
 
-Une fois que vous avez identifié les données incorrectes, vous pouvez **demander à votre gestionnaire CVA ou agent CVA de corriger les informations dans le profil d'enregistrement**. Pour lire davantage sur les instructions, visitez [cette page.](../registration/edit-pa-profile.md)
+Une fois que vous avez identifié les données incorrectes, vous pouvez **demander à votre responsable CVA ou gestionnaire CVA de corriger les informations dans le profil d'enregistrement**. Pour lire davantage sur les instructions, visitez [cette page.](../registration/edit-pa-profile.md)
 
 
 **2. Format incorrect du fichier de réconciliation**.
@@ -40,7 +39,7 @@ Une fois que vous avez identifié les données incorrectes, vous pouvez **demand
 **3. L'enregistrement a modifié ses détails de paiement**.
     Si un paiement échoué se produit malgré l'enregistrement ayant reçu avec succès des paiements dans le passé, cela peut être dû à une modification de ses détails de paiement ou de numéro de téléphone. En conséquence, le prestataire de services financier (PSF) peut ne pas être en mesure de faire correspondre et traiter le paiement.
 
-Une fois que vous avez identifié les données incorrectes, vous pouvez **demander à votre gestionnaire CVA ou agent CVA de corriger les informations dans le profil d'enregistrement**. Pour lire davantage sur les instructions, visitez [cette page.](../registration/edit-pa-profile.md)
+Une fois que vous avez identifié les données incorrectes, vous pouvez **demander à votre responsable CVA ou gestionnaire CVA de corriger les informations dans le profil d'enregistrement**. Pour lire davantage sur les instructions, visitez [cette page.](../registration/edit-pa-profile.md)
 
 
 **4. La mise à jour du paiement entre PSF-121 échoue**.
@@ -65,7 +64,7 @@ Une fois que vous avez identifié la raison, vous pouvez procéder au retry des 
 - La transaction sera automatiquement réessayée pour les enregistrements sélectionnés identifiés avec un statut de **paiement échoué** ;
 - Le statut de paiement sera mis à jour.
 
-!!! import "Retry basé sur vos méthodes de paiement"
+!!! Important "Retry basé sur vos méthodes de paiement"
     Si vous traitez le paiement avec un PSF intégré, la demande de paiement et la réconciliation seront effectuées automatiquement.
 
     Cependant, **si vous traitez les paiements avec une export-import manuel**, veuillez suivre les mêmes étapes à nouveau. Les instructions supplémentaires peuvent être lues sur [la page de paiement manuel.](../payment/issue-payment-fsp-portal.md)

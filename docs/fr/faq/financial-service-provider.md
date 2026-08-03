@@ -31,7 +31,7 @@ hide:
 
      **Sans intégration PSF, nous offrons une intégration logicielle pour que vous puissiez commencer à utiliser la plateforme 121 immédiatement**, tandis que l'intégration est en cours de traitement. Cela fonctionne en exportant des fichiers Excel incluant les informations de paiement de 121 et en les téléchargeant dans le portail PSF. Vous concilierez ensuite les paiements dans la plateforme 121. 
      
-     Contactez notre équipe pour discuter des alternatives proposées dans votre situation et votre pays d'opération à <info@121.global>.
+     Contactez notre équipe pour discuter des alternatives proposées dans votre situation et votre pays d'opération à <support@121.global>.
 
 ??? "5. Quelles banques ou PSF se qualifient pour être intégrés dans la plateforme ?"
 

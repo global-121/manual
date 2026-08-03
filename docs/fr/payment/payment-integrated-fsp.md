@@ -9,8 +9,7 @@ Dans la plateforme 121, les paiements peuvent être traités de deux façons dif
 *Pour les instructions de paiements manuels via un portail PSF, veuillez vous référer aux instructions sur la [page Instructions de paiement manuel (portail PSF).](./issue-payment-fsp-portal.md)*
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
-    Les rôles de gestionnaire financier et agent financier peuvent effectuer des actions sur la page Paiements.  
-    Les utilisateurs supplémentaires peuvent ne recevoir que la permission **Affichage**. [En savoir plus sur Utilisateurs et rôles](../users/description-roles.md)
+    Le responsable financier peut traiter les paiements via un PSF intégré. [En savoir plus sur Utilisateurs et rôles](../users/description-roles.md)
 
 ## Aperçu des paiements
 
@@ -68,7 +67,7 @@ Pour audit financier et exigences des donateurs, vous pouvez exporter les rappor
 !!! Info "Fréquence des paiements"
     Les décaissements peuvent être exécutés à une certaine fréquence (quotidienne, hebdomadaire, mensuelle ou paiement unique). Tous les paiements dans la plateforme 121 doivent être déclenchés manuellement.
 
-    Les transferts ne sont pas envoyés automatiquement à une date spécifique. Cela permet au gestionnaire financier d'examiner la disponibilité des fonds avant qu'un paiement ne soit émis aux enregistrements.
+    Les transferts ne sont pas envoyés automatiquement à une date spécifique. Cela permet au responsable financier d'examiner la disponibilité des fonds avant qu'un paiement ne soit émis aux enregistrements.
 
 
 -8<- "docs/fr/_snippets/contact-support.md"

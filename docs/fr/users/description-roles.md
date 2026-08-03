@@ -28,22 +28,22 @@ Sur la page **Rôles utilisateur**, vous pouvez :
 | Type | Description |
 | :------------------ | :------------------------------------------------------------------- |
 | **Administrateur du programme** | Supervise la création et la gestion du programme. |
-| **Gestionnaire CVA** | Gère les enregistrements avec les permissions de mise à jour en masse, de dédoublonnage, d'inclusion et de création des paiements. |
-| **Agent CVA** | Gère les enregistrements sans les permissions spécifiques réservées au gestionnaire CVA. |
-| **Gestionnaire financier** | Crée, envoie et réconcilie les paiements, et exporte les instructions de paiement ainsi que les rapports. |
-| **Agent financier** | Exporte les instructions de paiement pour le PSF et consulte les données de paiement. Il ne peut pas créer ni traiter les paiements. |
-| **Affichage** | Peut uniquement consulter et ne peut effectuer aucune action. |
+| **Responsable CVA** | Gère les enregistrements avec les permissions de mise à jour en masse, de dédoublonnage, d'inclusion et de création des paiements. |
+| **Gestionnaire CVA** | Gère les enregistrements sans les permissions spécifiques réservées au responsable CVA. |
+| **Responsable financier** | Crée, envoie et réconcilie les paiements, et exporte les instructions de paiement ainsi que les rapports. |
+| **Gestionnaire financier** | Exporte les instructions de paiement pour le PSF et consulte les données de paiement. Il ne peut pas créer ni traiter les paiements. |
+| **Lecteur** | Peut uniquement consulter et ne peut effectuer aucune action. |
 
 Il peut y avoir des rôles supplémentaires disponibles sur votre plateforme 121. Nous vous conseillons de ne pas les utiliser. Si vous avez des questions sur la configuration des rôles et des permissions dans votre plateforme 121, contactez l'équipe d'assistance 121. Dans vos programmes, vous verrez également l'équipe 121 ajoutée avec le rôle Admin. Ce rôle nous permet de fournir l'assistance nécessaire. Nous n'apportons jamais de modifications à votre programme sans votre autorisation explicite.
 
 ### Permissions par rôle
 
-| Permissions | **Administrateur du programme** | **Gestionnaire CVA** | **Agent CVA** | **Gestionnaire financier** | **Agent financier** |
+| Permissions | **Administrateur du programme** | **Responsable CVA** | **Gestionnaire CVA** | **Responsable financier** | **Gestionnaire financier** |
 | :-------------------------------------------------------------- | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: |
 | Aperçu des utilisateurs et des rôles | :material-progress-question:{.req} | | | | |
 | Ajouter de nouveaux utilisateurs 121 | :material-progress-question:{.req} | | | | |
 | Réinitialiser le mot de passe des utilisateurs 121 | :material-progress-question:{.req} | | | | |
-| Créer de nouveaux programmes | :octicons-check-circle-fill-24:{.yes} | | | | |
+| Créer de nouveaux programmes* | :octicons-check-circle-fill-24:{.yes} | | | | |
 | Gérer l'équipe du programme et attribuer les rôles | :octicons-check-circle-fill-24:{.yes} | | | | |
 | Modifier les informations du programme (détails de base et budget) | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | | | |
 | Aperçu de la liste d'enregistrement | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} |
@@ -52,7 +52,7 @@ Il peut y avoir des rôles supplémentaires disponibles sur votre plateforme 121
 | Modifier les détails d'enregistrement | | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | | |
 | Inclure les enregistrements | | :octicons-check-circle-fill-24:{.yes} | | | |
 | Valider les enregistrements | | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | | |
-| Refuser les enregistrements | | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | | |
+| Décliner les enregistrements | | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | | |
 | Suspendre les enregistrements (réception des paiements) | | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | | |
 | Mettre à jour les enregistrements en masse via un import Excel | | :octicons-check-circle-fill-24:{.yes} | | | |
 | Envoyer des SMS aux enregistrements (si Twilio est activé) | | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | | |
@@ -70,9 +70,11 @@ Il peut y avoir des rôles supplémentaires disponibles sur votre plateforme 121
 | Afficher le tableau de bord Power BI | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} |
 | Afficher la page Paiements | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} |
 
-:octicons-check-circle-fill-24:{.yes} Fonction disponible.
++:octicons-check-circle-fill-24:{.yes} Fonction disponible.
 
-:material-progress-question:{.req} Fonction disponible sur demande auprès de l'équipe d'assistance 121.
++:material-progress-question:{.req} Fonction disponible sur demande auprès de l'équipe d'assistance 121.
+
+\* Cette action nécessite les droits d'administrateur de l'organisation, activés par l'équipe d'assistance 121. Si vous êtes administrateur de programme et que vous ne pouvez pas créer de programmes, veuillez contacter l'équipe d'assistance 121 pour mettre cela en place.
 
 ---
 

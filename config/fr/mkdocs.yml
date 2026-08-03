@@ -93,7 +93,7 @@ nav:
         - "Modifier le mot de passe existant": "general/change-current-password.md"
         - "Réinitialiser le mot de passe": "general/reset-password.md"
         - "Modifier la langue": "general/change-language.md"
-    - "Guide étape par étape Préparer votre projet CVA": "general/prepare-your-project.md"
+    - "Guide étape par étape : Préparer votre programme CVA": "general/prepare-your-project.md"
     - "Utilisateurs et rôles":
         - "Ajouter et créer des comptes utilisateurs": "users/add-users.md"
         - "Description des permissions basées sur les rôles": "users/description-roles.md"

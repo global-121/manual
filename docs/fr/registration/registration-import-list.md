@@ -4,15 +4,12 @@ hide:
   - toc
 ---
 
-Si vous ne collectez pas d'enregistrements avec un formulaire Kobo ou équivalent, qui transfère automatiquement les enregistrements dans la plateforme 121, une liste d'enregistrement peut être importée manuellement à partir d'un fichier Excel (format .csv).
+Suivez les instructions sur cette page si vous souhaitez importer dans 121 des enregistrements collectés avec un autre outil de collecte de données que KoboToolbox. Si vous utilisez KoboToolbox, veuillez vous référer à cette [page](../Settings/registration-data.md).
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
-    L'administrateur du programme, l'agent d'assistance et le gestionnaire d'assistance peuvent effectuer des actions.
-    Des utilisateurs supplémentaires peuvent uniquement avoir des permissions d'affichage sur cette page. [En savoir plus sur les utilisateurs et les rôles](../users/description-roles.md)
+    Le responsable CVA et le gestionnaire CVA peuvent effectuer des actions sur cette page. [En savoir plus sur les utilisateurs et les rôles](../users/description-roles.md)
 
-Si vous souhaitez importer votre liste d'enregistrement à l'aide d'un fichier Excel (format .csv), vous devez d'abord vous assurer que ce fichier correspond au format accepté par 121. Pour ce faire, téléchargez d'abord le fichier modèle .csv à partir de la plateforme 121, puis vous pouvez télécharger votre fichier correspondant avec les informations d'enregistrement vers 121.
-
-*Pour l'importation de nouveaux enregistrements via l'application Kobo Toolbox, suivez les instructions sur [cette page](../Settings/registration-data.md). Voulez-vous intégrer votre formulaire KOBO ou une application d'enregistrement alternative avec la plateforme 121? Veuillez contacter notre équipe.*
+Le format utilisé pour importer des enregistrements dans 121 est **Excel CSV**. Vous téléchargez d'abord le fichier modèle .csv depuis la plateforme 121, vous le remplissez avec vos données d'enregistrement, puis vous téléchargez ce fichier vers 121.
 
 ### Téléchargez le fichier modèle d'enregistrement
 
@@ -36,11 +33,11 @@ Par exemple, le formulaire d'enregistrement du programme peut inclure des critè
 
 !!! warning "Importation infructueuse"
     Si l'importation est infructueuse ou affiche un message d'erreur, vérifiez que votre fichier Excel est correctement formaté et enregistré en tant que fichier .CSV.
-    Si vous avez besoin d'aide supplémentaire, veuillez ne pas hésiter à contacter notre [équipe d'assistance](mailto:support@121.global).
+Si vous avez besoin d'aide supplémentaire, veuillez ne pas hésiter à contacter notre [équipe d'assistance](mailto:support@121.global).
 
 ---
 
-### Dédoublement
+### Dédoublonnage
 
 Les entrées en double peuvent se produire lors de l'enregistrement sur le terrain. Les enregistrements en double peuvent être vérifiés dans la plateforme 121. Vous pouvez suivre les étapes sur [cette page.](./registration-deduplication.md)
 
@@ -48,7 +45,7 @@ Si vous avez besoin d'explications supplémentaires, contactez notre [équipe d'
 
 ---
 
-!!! Info "CONSEIL: ne pas enregistrer les anciens fichiers Excel"
+!!! Info "CONSEIL: ne pas sauvegarder les anciens fichiers Excel"
     Pour éviter les erreurs et garder les données personnelles sécurisées, les fichiers Excel doivent être supprimés de votre ordinateur une fois que votre base de données est nettoyée et mise à jour dans la plateforme 121. De cette façon, vous aurez toujours votre dernière liste à jour des bénéficiaires enregistrés dans 121.
 
 -8<- "docs/fr/_snippets/contact-support.md"

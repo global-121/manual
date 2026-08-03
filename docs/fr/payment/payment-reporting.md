@@ -7,8 +7,7 @@ hide:
 L'audit trail peut être effectué dans 121 pour les rapports financiers et l'aperçu des changements de données à un niveau général ou individuel. La page Paiements de votre programme affichera des informations sur tous les versements ou tours de paiement effectués. Si aucun paiement n'a été effectué, aucun détail n'apparaîtra. Cependant, si certains versements sont déjà en cours, vous verrez chaque versement individuel.
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
-    Les rôles de gestionnaire financier et agent financier peuvent effectuer des actions sur la page Paiements.  
-    Les utilisateurs supplémentaires peuvent ne recevoir que la permission **Affichage**. [En savoir plus sur Utilisateurs et rôles](../users/description-roles.md)
+    Le responsable financier peut exporter les rapports de paiement. Les autres utilisateurs peuvent consulter les rapports de paiement et l'activité. [En savoir plus sur Utilisateurs et rôles](../users/description-roles.md)
 
 ## Télécharger le rapport financier général
 

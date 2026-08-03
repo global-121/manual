@@ -7,7 +7,7 @@ hide:
 Au cours d'un programme, le statut des enregistrements peut changer. Vous pouvez décider de mettre fin ou de mettre en pause l'assistance à un enregistrement à tout moment pendant le programme. Ils cessent de recevoir une aide en espèces par le biais de ce programme.
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
-    Les rôles de gestionnaire CVA et agent CVA peuvent effectuer des actions sur la page d'enregistrement. Les utilisateurs financiers doivent consulter les utilisateurs gestionnaire CVA ou agent CVA affectés à ce programme.
+    Les rôles de responsable CVA et gestionnaire CVA peuvent effectuer des actions sur la page d'enregistrement. Les utilisateurs financiers doivent consulter les utilisateurs responsable CVA ou gestionnaire CVA affectés à ce programme.
     [En savoir plus sur Utilisateurs et rôles](../users/description-roles.md)
 
 ## Chercher un enregistrement

@@ -1,14 +1,13 @@
 ---
-title: Enregistrements - Dédoublement V1
+title: Enregistrements - Dédoublonnage V1
 hide:
   - toc
 ---
 
-Ci-dessous, vous trouverez les étapes pour vérifier les enregistrements dupliqués et dédoublonner si nécessaire. Notez que les doublons ne peuvent être vérifiés que dans un seul projet et qu'il n'y a aucun moyen de vérifier les doublons entre différents programmes dans 121.
+Ci-dessous, vous trouverez les étapes pour vérifier les enregistrements dupliqués et dédoublonner si nécessaire. Notez que les doublons ne peuvent être vérifiés que dans un seul programme et qu'il n'y a aucun moyen de vérifier les doublons entre différents programmes dans 121.
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
-    L'administrateur du programme, l'agent d'assistance et le gestionnaire d'assistance peuvent effectuer des actions.
-    Des utilisateurs supplémentaires peuvent uniquement avoir des permissions d'affichage sur cette page. [En savoir plus sur les utilisateurs et les rôles](../users/description-roles.md)
+    Le responsable CVA peut effectuer des actions sur cette page. [En savoir plus sur les utilisateurs et les rôles](../users/description-roles.md)
 
 ---
 
@@ -31,7 +30,7 @@ Sur la page **Enregistrement**, et suivant les procédures d'exploitation normal
 - Dans la colonne **Doublons**, sélectionnez l'icône de filtre et filtrez sur **Doublon**;
 - La liste filtrée affichera uniquement les enregistrements marqués comme **Doublon**;
 - Cliquez sur **Enreg. #** ou **Nom** pour ouvrir le profil d'enregistrement personnel. Une bannière rouge en haut de la page intitulée **Dupliqué avec** montrera avec qui cette personne est dupliquée et le **champ correspondant**;
-- Pour résoudre ce doublon, vous pouvez décider d'ignorer, de refuser ou de mettre à jour. Voir la description ci-dessous.
+- Pour résoudre ce doublon, vous pouvez décider d'ignorer, de décliner ou de mettre à jour. Voir la description ci-dessous.
 
 ![Gérer le tableau](../assets/img/ShowDuplicateColumn.png)
 
@@ -49,7 +48,7 @@ Une fois que vous avez identifié le doublon, vous pouvez décider de mettre à 
 Vous pouvez effectuer 3 actions sur la page **Enregistrements**:
 
 - **Modifiez la valeur directement dans le profil d'enregistrement;**
-- **Refusez l'enregistrement**, en cas de double entrée pour le même enregistrement;
+- **Déclinez l'enregistrement**, en cas de double entrée pour le même enregistrement;
 - **Ignorez le doublon**, en cas vos procédures d'exploitation normalisées permettent aux enregistrements de partager la même valeur - telle que le numéro de téléphone, qui peut être utilisé par plusieurs enregistrements dans la même communauté.
 
 Ci-dessous, la solution basée sur l'une de ces 3 options:
@@ -61,25 +60,23 @@ Ci-dessous, la solution basée sur l'une de ces 3 options:
 - Recherchez le numéro d'enregistrement en filtrant la colonne **Enreg. #**;
 - Ouvrez le profil en cliquant sur **Enreg. #** sur le côté gauche. Vous verrez maintenant l'aperçu de l'enregistrement;
 - Cliquez sur l'onglet **Informations personnelles**, puis sur le bouton **Modifier** et recherchez la valeur à modifier; ![Modifier la valeur](../assets/img/EditInformationDuplicate.png)
-- **Modifiez** la valeur. Cliquez sur **Enregistrer** et donnez une raison;
+- **Modifiez** la valeur. Cliquez sur **Sauvegarder** et donnez une raison;
 - La nouvelle valeur est maintenant enregistrée;
 - L'enregistrement sera automatiquement mis à jour et marqué comme **Unique**.
 
-![Modifier les informations](../assets/img/EditInformationDuplicate.png)
-
 ---
 
-## Refuser l'enregistrement
+## Décliner l'enregistrement
 
 - Recherchez le numéro d'enregistrement en filtrant la colonne **Enreg. #**;
 - Une fois que vous avez trouvé l'enregistrement, **entrez le profil d'enregistrement**;
-- En haut à gauche de la page, cliquez sur **Action** puis sur le bouton **Refuser**;
-- **Approuvez** l'action. *Confirmez uniquement si vous êtes sûr de refuser cet enregistrement, sinon annulez.*
-- Vous devrez entrer une raison pour refuser le bénéficiaire.
+- En haut à gauche de la page, cliquez sur **Action** puis sur le bouton **Décliner**;
+- **Approuvez** l'action. *Confirmez uniquement si vous êtes sûr de décliner cet enregistrement, sinon annulez.*
+- Vous devrez entrer une raison pour décliner le bénéficiaire.
 
-![Refuser l'enregistrement](../assets/img/DeclineIgnoreDuplicate.png)
+![Décliner l'enregistrement](../assets/img/DeclineIgnoreDuplicate.png)
 
-*Avez-vous accidentellement marqué un enregistrement comme refusé? Pas de problème, c'est une action réversible. Vous pouvez toujours modifier le statut en **Inclus(e)**.*
+*Avez-vous accidentellement marqué un enregistrement comme décliné? Pas de problème, c'est une action réversible. Vous pouvez toujours modifier le statut en **Inclus(e)**.*
 
 ---
 

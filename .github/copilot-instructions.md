@@ -48,6 +48,26 @@ The agent helps with:
   - Role/permission names should match the glossary to avoid user confusion in the UI.
   - Legal or regulatory terms may require non-literal translation per jurisdiction.
   - Always flag non-literal choices in PR comments for review.
+- **Mandatory French terminology (set 2026-08-03)**: these translations override any other rendering. Apply the same root word across all inflected/conjugated forms (e.g. "Save"/"Saving" both use the root `sauvegarder`).
+
+  | English | French |
+  | :--- | :--- |
+  | Manager (role suffix, e.g. CVA Manager) | Responsable (e.g. Responsable CVA) |
+  | Officer (role suffix, e.g. CVA Officer) | Gestionnaire (e.g. Gestionnaire CVA) |
+  | Decline | Décliner / Décliné(e) |
+  | Save | Sauvegarder |
+  | Edit | Modifier |
+  | Registrations | Enregistrements |
+  | Project / Program | Programme (never "projet") |
+  | View (only when naming the View role) | Lecteur |
+  | Include | Inclure / Inclus(e) |
+  | Validate | Valider / Validé(e) |
+  | Pause | Pause / Mis(e) en pause |
+  | New | Nouveau |
+  | Duplication | Doublon |
+  | Deduplication | Dédoublonnage |
+
+  Note: this reverses the "Manager"/"Officer" mapping used on some older pages (which had `Gestionnaire` for Manager and `Agent`/`Officier` for Officer) — as of 2026-08-03, Manager and Officer are swapped to the mapping above.
 
 ## Markdown syntax and structure
 

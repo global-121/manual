@@ -10,7 +10,8 @@ Payments are created and initiated from the **Payments** page. Each payment must
 - [2. Approve payments](#2-approve-payments)
 - [3. Start payment](#3-start-payment)
 - [4. Delete payment](#4-delete-payment)
-- [5. Payment Instructions](#5-payment-instructions)
+- [5. Rename payment](#5-rename-payment)
+- [6. Payment Instructions](#6-payment-instructions)
 
 !!! Important "Who can perform actions in this page?"
     CVA Manager and Finance Manager can create payments. Approvers must be selected and added to each program. Finance Manager can start payments. [Learn more about Roles & Permissions](../users/description-roles.md)
@@ -64,13 +65,25 @@ Once the payment has been approved by all approvers in the list, the Finance Man
 
 ## 4. Delete payment
 
-- You can delete payments that are pending approval. Click the :material-dots-horizontal: next to the export button at the top right of the page.
+The CVA Manager and the Finance Manager can delete payments. You can delete payments that are pending approval.
+
+- Click the :material-dots-horizontal: next to the export button at the top right of the page,
 - Deleting a payment does not affect the registrations’ status (included) or their received number of payments.
-- Users who can create payments also have permission to delete.
 
 ---
 
-## 5. Payment Instructions
+## 5. Rename payment
+
+The CVA Manager and the Finance Manager can rename payments. You can rename the payment at any time.
+
+- Navigate to the Payments page,
+- Select the payment you wish to rename,
+- Click the :material-dots-horizontal: next to the export button at the top right of the page,
+- Click 'Rename payment'.
+
+---
+
+## 6. Payment Instructions
 
 In the 121 platform, payments can be processed in two different methods: with a **manual payment via an FSP portal** or with an **FSP configuration**.
 

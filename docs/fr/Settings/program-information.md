@@ -10,7 +10,7 @@ La **page Informations sur le programme** se trouve dans les **Paramètres**. La
 - [Budget du programme](#budget-du-programme)
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
-    L'administrateur du programme et le gestionnaire CVA peuvent effectuer des actions sur cette page. [En savoir plus sur les rôles et permissions.](../users/description-roles.md)
+    L'administrateur du programme et le responsable CVA peuvent effectuer des actions sur cette page. [En savoir plus sur les rôles et permissions.](../users/description-roles.md)
 
 ### Informations de base sur le programme
 
@@ -18,7 +18,7 @@ Dans le premier tableau **:octicons-info-24: Informations sur le programme**, vo
 
 - Cliquez sur le **:octicons-pencil-24: crayon** en haut à droite du tableau Informations de base ;
 - Modifiez les informations nécessaires ;
-- **:material-check: Enregistrez** vos modifications ;
+- **:material-check: Sauvegardez** vos modifications ;
 - Tous les champs marqués d'une étoile (*) sont obligatoires.
 
 ![Informations de base sur le programme](../assets/img/settings-programinformation-updatebasicinformation.png)
@@ -51,7 +51,7 @@ Dans le second tableau **:octicons-info-24: Budget**, vous trouverez les détail
 
 - Cliquez sur le **:octicons-pencil-24: crayon** en haut à droite du tableau Budget ;
 - Modifiez les informations nécessaires, telles que la devise, la valeur de transfert fixe et le PSF ;
-- **:material-check: Enregistrez** vos modifications ;
+- **:material-check: Sauvegardez** vos modifications ;
 - Tous les champs marqués d'une étoile (*) sont obligatoires.
 
 ---

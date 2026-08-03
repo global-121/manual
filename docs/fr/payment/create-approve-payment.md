@@ -4,17 +4,17 @@ hide:
   - toc
 ---
 
-Les paiements sont créés et lancés à partir de la **page Paiements**. Chaque paiement doit d'abord être approuvé par un approbateur avant de pouvoir être lancé. Voici les trois étapes principales pour créer, approuver et lancer un paiement dans votre programme, avant que les instructions de paiement ne soient partagées avec le PSF.
+Les paiements sont créés et lancés à partir de la **page Paiements**. Chaque paiement doit d'abord être approuvé par un approbateur avant de pouvoir être lancé. Voici les principales étapes pour créer, approuver et lancer un paiement dans votre programme. Cette page explique également comment traiter un paiement, interpréter les statuts de paiement et comment supprimer un paiement.
 
 - [1. Créer une demande de paiement](#1-cr%C3%A9er-une-demande-de-paiement)
 - [2. Approuver les paiements](#2-approuver-les-paiements)
 - [3. Lancer le paiement](#3-lancer-le-paiement)
 - [4. Supprimer le paiement](#4-supprimer-le-paiement)
-- [5. Instructions de paiement](#5-instructions-de-paiement)
+- [5. Renommer le paiement](#5-renommer-le-paiement)
+- [6. Instructions de paiement](#6-instructions-de-paiement)
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
-    Les rôles de gestionnaire financier et agent financier peuvent créer et lancer des paiements. Les approbateurs doivent être sélectionnés et ajoutés à chaque programme.
-    Les utilisateurs supplémentaires peuvent ne recevoir que la permission **Affichage** sur cette page. [En savoir plus sur Utilisateurs et rôles](../users/description-roles.md)
+    Le responsable CVA et le responsable financier peuvent créer des paiements. Les approbateurs doivent être sélectionnés et ajoutés à chaque programme. Le responsable financier peut lancer les paiements. [En savoir plus sur Utilisateurs et rôles](../users/description-roles.md)
 
 <a id="1-cr%C3%A9er-une-demande-de-paiement"></a>
 
@@ -36,8 +36,6 @@ Pour lancer une nouvelle demande de paiement :
     Une fois qu'un paiement est créé, ses détails ne peuvent pas être modifiés. Cela inclut la liste des personnes dans le paiement et la valeur du transfert.
     Avant de créer un paiement, assurez-vous d'examiner attentivement la valeur du transfert, le budget et les enregistrements sélectionnés. Si nécessaire, appliquez des filtres tels que l'emplacement ou le PSF et confirmez votre sélection avant de continuer.
 
-    Pour modifier la valeur du transfert avant de créer un paiement, veuillez vous référer à [Paramètres du programme et budget](../Settings/program-information.md)
-
 ## 2. Approuver les paiements
 
 Une fois la demande de paiement créée, elle doit être approuvée par un approbateur.
@@ -53,12 +51,12 @@ Une fois la demande de paiement créée, elle doit être approuvée par un appro
 !!! Note "Flux d'approbateurs"
     Les approbations sont basées sur des seuils. C'est le montant minimum auquel cette approbation est requise. Au moins un approbateur avec seuil 0 est nécessaire pour assurer l'approbation de tous les paiements. Vous pouvez affecter plusieurs utilisateurs au même seuil et n'exiger que l'approbation de l'un d'eux (par exemple, le premier à se connecter). Les approbateurs doivent être affectés au programme sans portée. Les notifications par e-mail aux approbateur(s) et créateur de paiement sont automatiques et incluent un lien vers la page de paiement.
 
-    Actuellement, les approbateurs et leurs seuils respectifs sont définis par programme par l'équipe 121. Si aucun utilisateur n'a été affecté jusqu'à présent ou si vous souhaitez modifier la configuration, veuillez partager les noms, l'ordre et les montants avec support@121.global.
+    Si aucun utilisateur n'a été affecté jusqu'à présent ou si vous souhaitez modifier la configuration, veuillez vous référer aux instructions sur [Approbation des paiements](../Settings/payment-approval.md)
 
 
 ## 3. Lancer le paiement
 
-Une fois que le paiement a été approuvé par tous les approbateurs de la liste, le gestionnaire financier peut **lancer le paiement**.
+Une fois que le paiement a été approuvé par tous les approbateurs de la liste, le responsable financier peut **lancer le paiement**.
 
 - Entrez la carte de paiement **approuvée**,
 - Cliquez sur **lancer le paiement** en haut à droite, ![Lancer le paiement](../assets/img/StartPaymentApproved.png)
@@ -69,13 +67,25 @@ Une fois que le paiement a été approuvé par tous les approbateurs de la liste
 
 ## 4. Supprimer le paiement
 
-- Vous pouvez supprimer les paiements qui sont en attente d'approbation. Cliquez sur :material-dots-horizontal: à côté du bouton d'export en haut à droite de la page.
+Le responsable CVA et le responsable financier peuvent supprimer des paiements. Vous pouvez supprimer les paiements qui sont en attente d'approbation.
+
+- Cliquez sur :material-dots-horizontal: à côté du bouton d'export en haut à droite de la page,
 - La suppression d'un paiement n'affecte pas le statut des enregistrements (inclus) ou le nombre de paiements reçus.
-- Les utilisateurs qui peuvent créer des paiements ont également la permission de supprimer.
 
 ---
 
-## 5. Instructions de paiement
+## 5. Renommer le paiement
+
+Le responsable CVA et le responsable financier peuvent renommer des paiements. Vous pouvez renommer le paiement à tout moment.
+
+- Accédez à la page Paiements,
+- Sélectionnez le paiement que vous souhaitez renommer,
+- Cliquez sur :material-dots-horizontal: à côté du bouton d'export en haut à droite de la page,
+- Cliquez sur « Renommer le paiement ».
+
+---
+
+## 6. Instructions de paiement
 
 Dans la plateforme 121, les paiements peuvent être traités de deux façons différentes : avec un **paiement manuel via un portail PSF** ou avec une **intégration PSF directe**.
 
@@ -91,7 +101,7 @@ Vous trouverez ci-dessous les différents statuts de paiement.
 | **EN ATTENTE D'APPROBATION** | La demande de paiement a été créée mais attend toujours l'approbation de tous les approbateurs. | Les approbateurs doivent approuver le paiement pour continuer. |
 | **APPROUVÉ** | La demande de paiement a été approuvée par tous les approbateurs. | Le paiement doit être lancé pour continuer. |
 | **RÉUSSI** | Le paiement a été envoyé aux enregistrements et ils peuvent maintenant l'utiliser. | Aucun. |
-| **EN COURS DE TRAITEMENT** | Le paiement attend la confirmation d'un ou plusieurs agents financiers. Le transfert n'a pas encore été envoyé aux enregistrements sélectionnés pour ce tour de paiement ou le fichier de réconciliation n'a pas encore été importé. | Importez le fichier de réconciliation dans la plateforme 121 pour mettre à jour le statut. |
+| **EN COURS DE TRAITEMENT** | Le paiement attend la confirmation d'un ou plusieurs gestionnaires financiers. Le transfert n'a pas encore été envoyé aux enregistrements sélectionnés pour ce tour de paiement ou le fichier de réconciliation n'a pas encore été importé. | Importez le fichier de réconciliation dans la plateforme 121 pour mettre à jour le statut. |
 | **ÉCHOUÉ** | La transaction a échoué. Les enregistrements n'ont pas reçu de paiements. | Veuillez vérifier le message d'erreur fourni par votre banque. L'échec du paiement peut être dû à des détails bancaires incorrects, un numéro de téléphone ou un numéro d'ID selon les méthodes de paiement choisies. Vous pouvez réessayer. Contactez notre équipe de soutien 121 si cela reste non résolu. |
 
 -8<- "docs/fr/_snippets/contact-support.md"

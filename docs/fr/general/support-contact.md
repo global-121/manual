@@ -42,7 +42,7 @@ Nous opérons un système d'assistance structuré pour assurer que chaque probl�
 <!-- markdownlint-disable no-inline-html -->
 | **Niveau** | **Point de contact** | **Type d'assistance** |
 | :----- | :----- | :----- |
-| **Niveau 1** | Premier soutien (Soutien technique) | - Dépannage basique<br>- Paramètres du programme<br>- Problèmes de configuration<br>- Problèmes de connexion<br>- Explication des fonctionnalités de la plateforme (par exemple, paramètres du programme, ajout d'utilisateurs, édition de profils, export de rapports)<br>- Collecte d'informations pour escalader les problèmes complexes<br> |
+| **Niveau 1** | Premier soutien (Soutien technique) | - Dépannage basique<br>- Paramètres du programme<br>- Problèmes de configuration<br>- Problèmes de connexion<br>- Explication des fonctionnalités de la plateforme (par exemple, paramètres du programme, ajout d'utilisateurs, modification de profils, export de rapports)<br>- Collecte d'informations pour escalader les problèmes complexes<br> |
 | **Niveau 2** | Gestionnaire d'information (CVA IM) | - Escalade du Niveau 1<br>- Assistance IM (par exemple, mises à jour de bases de données)<br>- Assistance Power BI<br>- Escalade au Niveau 3 |
 | **Niveau 3** | Équipe de développement | - Escalade du Niveau 2<br>- Corrections de bogues et dépannage avancé |
 <!-- markdownlint-enable no-inline-html -->

@@ -7,8 +7,7 @@ hide:
 La phase de validation est facultative, selon les procédures d'exploitation normalisées que vous suivez pour votre programme d'aide alimentaire et financière. La validation peut être utilisée pour marquer les enregistrements dont les informations ont été vérifiées et vérifiées, avant de prendre l'étape d'inclusion dans le programme. En validant les enregistrements, vous mettez à jour leur statut dans la plateforme 121 de Nouveau à Validé(e), ce qui vous permet de garder une trace de ceux dont les informations ont été vérifiées.
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
-    L'administrateur du programme, l'agent d'assistance et le gestionnaire d'assistance peuvent effectuer des actions.
-    Des utilisateurs supplémentaires peuvent uniquement avoir des permissions d'affichage sur cette page. [En savoir plus sur les utilisateurs et les rôles](../users/description-roles.md)
+    Le responsable CVA et le gestionnaire CVA peuvent effectuer des actions sur cette page. [En savoir plus sur les utilisateurs et les rôles](../users/description-roles.md)
 
 ### Validation des enregistrements dans le programme
 
@@ -32,9 +31,9 @@ En raison d'une faute de frappe ou d'une double entrée, vous devrez peut-être 
 - **Entrez le profil d'enregistrement** en cliquant sur le lien **Enreg. #** sur le côté gauche;
 - Une fois dans l'aperçu du profil, allez à l'onglet **Informations personnelles**;
 - En haut à gauche, cliquez sur **Modifier**. Les champs deviennent maintenant modifiables;
-- Recherchez le champ à modifier, tapez la nouvelle valeur et cliquez sur **Enregistrer**;
+- Recherchez le champ à modifier, tapez la nouvelle valeur et cliquez sur **Sauvegarder**;
 - Une fenêtre contextuelle **Raison de la mise à jour** demande de fournir la raison de ce changement;
-- Ajoutez une raison, puis **Enregistrez**.
+- Ajoutez une raison, puis **Sauvegardez**.
 
 !!! Info "Raison de la mise à jour"
     Pour des raisons d'audit et de responsabilité, les modifications du profil d'enregistrement ne peuvent pas être effectuées sans indiquer une raison. Toutes les modifications de données sont enregistrées dans la plateforme 121 avec l'ancienne valeur, la nouvelle valeur, les raisons de la mise à jour et sont liées à l'adresse e-mail de l'utilisateur effectuant la modification.

@@ -11,12 +11,24 @@ La plateforme 121 propose une intégration avec KoboToolbox. Si vous utilisez ce
 
 Vous configurez et gérez l'intégration entre votre formulaire Kobo et 121 sur la page **Données d'enregistrement** sous **Paramètres**.
 
+- [Configurer l'intégration de votre formulaire Kobo](#configurer-lint%C3%A9gration-de-votre-formulaire-kobo)
+- [Vérifier la compatibilité entre votre formulaire, 121 et votre PSF](#v%C3%A9rifier-la-compatibilit%C3%A9-entre-votre-formulaire-121-et-votre-psf)
+- [Lier votre formulaire à 121](#lier-votre-formulaire-%C3%A0-121)
+- [Importer des enregistrements existants](#importer-des-enregistrements-existants)
+- [Gérer votre intégration Kobo](#g%C3%A9rer-votre-int%C3%A9gration-kobo)
+- [Simplifier les libellés des questions](#simplifier-les-libell%C3%A9s-des-questions)
+- [Voir vos enregistrements](#voir-vos-enregistrements)
+
+<a id="configurer-lint%C3%A9gration-de-votre-formulaire-kobo"></a>
+
 ## Configurer l'intégration de votre formulaire Kobo
 
 La configuration de votre intégration consiste en deux étapes :
 
 - Vérifier la compatibilité entre votre formulaire, 121 et votre PSF ;
 - Lier votre formulaire à 121.
+
+<a id="v%C3%A9rifier-la-compatibilit%C3%A9-entre-votre-formulaire-121-et-votre-psf"></a>
 
 ## Vérifier la compatibilité entre votre formulaire, 121 et votre PSF
 
@@ -83,6 +95,8 @@ Une fois fait, contactez l'équipe 121 pour activer cela de leur côté.
 
 Si vous souhaitez utiliser le **Multiplicateur** pour autoriser différentes valeurs de transfert dans un même programme, créez un champ calculate qui se réfère à la question déterminant la valeur du transfert (par exemple emplacement ou score total).
 
+<a id="lier-votre-formulaire-%C3%A0-121"></a>
+
 ## Lier votre formulaire à 121
 
 1. Assurez-vous que la version finale de votre formulaire est déployée dans Kobo (dans Formulaire, cliquez sur (Re)deploy) ;
@@ -102,9 +116,15 @@ Si vous souhaitez utiliser le **Multiplicateur** pour autoriser différentes val
 
 6. Cliquez sur **Continuer**.
 
-7. Si des problèmes sont détectés, un message d'erreur apparaît. Suivez les instructions, enregistrez le formulaire dans Kobo, redéployez dans Kobo, puis reprenez les étapes 4-5-6.
+    ![Lien d'intégration](../assets/img/settings-registrationdata5.png)
+
+7. Si des problèmes sont détectés, un message d'erreur apparaît. Suivez les instructions, sauvegardez le formulaire dans Kobo, redéployez dans Kobo, puis reprenez les étapes 4-5-6.
 
 8. L'intégration doit maintenant fonctionner et vous pouvez commencer les enregistrements. Assurez-vous que les enquêteurs reçoivent le **lien Kobo correct**.
+
+    Si vous ne parvenez pas à résoudre les problèmes vous-même, veuillez **contacter l'équipe 121**.
+
+    ![Lien d'intégration](../assets/img/settings-registrationdata6.png)
 
 !!! Note
     Essayez d'attendre que votre formulaire Kobo soit finalisé et intégré à la plateforme 121 avant de lancer les enregistrements. Cela garantit que **tous les collecteurs utilisent le bon lien et évite les écarts dans les réponses**. Si vous devez modifier votre formulaire Kobo après l'intégration, cela peut être fait dans Kobo. Aucune action n'est requise dans la plateforme 121. Les colonnes sont automatiquement mises à jour dans 121 lorsqu'un nouvel enregistrement arrive. Notez que cette consigne s'applique uniquement aux modifications de la configuration du formulaire. Les modifications dans les réponses doivent être effectuées directement dans la plateforme 121.
@@ -119,6 +139,8 @@ Si vous avez déjà effectué des enregistrements avec le formulaire Kobo avant 
 - Cliquez sur **Importer des enregistrements**. Notez qu'il y a un maximum de 1 000 enregistrements par importation. Si vous en avez plus, divisez-les en plusieurs fichiers.
 
 ![Lien d'intégration](../assets/img/settings-registrationdata7.png)
+
+<a id="g%C3%A9rer-votre-int%C3%A9gration-kobo"></a>
 
 ## Gérer votre intégration Kobo
 
@@ -138,11 +160,16 @@ Si vous souhaitez **remplacer votre formulaire**, cliquez sur **Reconfigurer** s
 
 Si vous avez modifié la configuration du formulaire, elle se synchronise automatiquement lorsqu'un nouvel enregistrement est effectué. S'il n'y a pas de nouveaux enregistrements, vous pouvez utiliser **Actualiser le lien** sous les trois points :material-dots-vertical: à côté du lien KoboToolbox.
 
+<a id="simplifier-les-libell%C3%A9s-des-questions"></a>
+
+## Simplifier les libellés des questions
+
 Si vous souhaitez simplifier les libellés affichés dans les profils 121 et dans le tableau des enregistrements, procédez comme suit :
 
 - Cliquez sur **:octicons-pencil-24: Modifier** ;
 - Allez sur le champ que vous souhaitez modifier ;
 - Mettez à jour le texte de l'étiquette de la question ;
+- Cliquez sur Sauvegarder.
 
 ![Lien d'intégration](../assets/img/settings-registrationdata10.png)
 

@@ -20,7 +20,7 @@ Pour commencer à importer la liste d'enregistrement:
 
 - Connectez-vous à un réseau Internet;
 - Démarrez le téléchargement avec le formulaire KOBO;
-- Une fois terminer, actualisez la page d'enregistrement dans votre programme.
+- Une fois terminé, actualisez la page d'enregistrement dans votre programme.
 
 ### Des filtres peuvent être appliqués à la liste
 

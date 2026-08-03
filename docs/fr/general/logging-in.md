@@ -29,7 +29,7 @@ Si l'authentification unique (SSO) est activée dans le système de votre organi
 ---
 
 !!! Question "Vous n'avez pas reçu vos identifiants de connexion ?"
-    Vous pouvez demander à votre gestionnaire d'utilisateurs de vérifier si une invitation a été envoyée à votre e-mail et si votre compte utilisateur a été créé sur la plateforme 121 dans la [**page Utilisateurs**](../users/description-roles.md).
+    Vous pouvez demander à votre responsable d'utilisateurs de vérifier si une invitation a été envoyée à votre e-mail et si votre compte utilisateur a été créé sur la plateforme 121 dans la [**page Utilisateurs**](../users/add-users.md).
 
     Si votre compte n'a pas encore été configuré, l'administrateur organisationnel peut vous envoyer une invitation en [suivant les instructions de la page Ajouter des utilisateurs](../users/add-users.md).
 
