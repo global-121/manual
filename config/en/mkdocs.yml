@@ -98,13 +98,13 @@ nav:
         - "Add User to 121": "users/add-users.md"
         - "Roles and permissions": "users/description-roles.md"
     - "Create and Manage Programs":
-          - "Create new program": "settings/create-new-program.md"
-          - "Settings overview": "settings/settings-overview.md"
-          - "Program information": "settings/program-information.md"
-          - "FSP configuration": "settings/fsp-integration.md"
-          - "Registration data": "settings/registration-data.md"
-          - "Payment approval": "settings/payment-approval.md"
-          - "Program team": "settings/programteam.md"
+        - "Create new program": "Settings/create-new-program.md"
+        - "Settings overview": "Settings/settings-overview.md"
+        - "Program information": "Settings/program-information.md"
+        - "FSP configuration": "Settings/fsp-integration.md"
+        - "Registration data": "Settings/registration-data.md"
+        - "Payment approval": "Settings/payment-approval.md"
+        - "Program team": "Settings/programteam.md"
     - "Registrations":
         - "Registrations page": "registration/registrations-page.md"
         - "Import Registrations with excel": "registration/registration-import-list.md"
@@ -143,6 +143,10 @@ nav:
         - "Financial Service Providers (FSP)": "faq/financial-service-provider.md"
         - "Setting-up 121 Platform": "faq/setting-up-121-platform.md"
         - "Timeline": "faq/timeline-121-integration.md"
+    - "121 Scan":
+        - "General Information": "121scan/general-information.md"
+        - "Distribution Staff Portal": "121scan/distribution-staff-portal.md"
+        - "Administrator Portal": "121scan/administrator-portal.md"
   - "🇳🇱 NLRC":
     - "Logging in via 2FA (2 Factor Authentication)": "nlrc/log-in-2fa.md"
     - "Change the language": "nlrc/change-language.md"

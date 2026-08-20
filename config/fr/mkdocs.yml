@@ -98,13 +98,13 @@ nav:
         - "Ajouter et créer des comptes utilisateurs": "users/add-users.md"
         - "Description des permissions basées sur les rôles": "users/description-roles.md"
     - "Créer et gérer des programmes":
-        - "Créer un nouveau programme": "settings/create-new-program.md"
-        - "Aperçu des paramètres": "settings/settings-overview.md"
-        - "Informations sur le programme": "settings/program-information.md"
-        - "Configuration PSF": "settings/fsp-integration.md"
-        - "Données d'enregistrement": "settings/registration-data.md"
-        - "Approbation des paiements": "settings/payment-approval.md"
-        - "Équipe du programme": "settings/programteam.md"
+        - "Créer un nouveau programme": "Settings/create-new-program.md"
+        - "Aperçu des paramètres": "Settings/settings-overview.md"
+        - "Informations sur le programme": "Settings/program-information.md"
+        - "Configuration PSF": "Settings/fsp-integration.md"
+        - "Données d'enregistrement": "Settings/registration-data.md"
+        - "Approbation des paiements": "Settings/payment-approval.md"
+        - "Équipe du programme": "Settings/programteam.md"
     - "Enregistrements":
         - "Description de la page": "registration/registrations-page.md"
         - "Importer une liste d'enregistrement à partir d'Excel": "registration/registration-import-list.md"
@@ -143,6 +143,10 @@ nav:
         - "Prestataire de services financiers (PSF)": "faq/financial-service-provider.md"
         - "Configuration de la plateforme 121": "faq/setting-up-121-platform.md"
         - "Calendrier et intégration de la plateforme 121": "faq/timeline-121-integration.md"
+    - "121 Scan":
+        - "Informations générales": "121scan/general-information.md"
+        - "Portail du personnel de distribution": "121scan/distribution-staff-portal.md"
+        - "Portail de l'administrateur": "121scan/administrator-portal.md"
   - "🇳🇱 NLRC":
     - "Se connecter avec 2FA": "nlrc/log-in-2fa.md"
     - "Modifier la langue": "nlrc/change-language.md"
