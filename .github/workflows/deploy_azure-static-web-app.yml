@@ -59,6 +59,14 @@ jobs:
           <meta http-equiv="refresh" content="1;url=/en/">
           EOF
 
+      - name: 'Create redirects for "Settings" to "settings"'
+        run: |-
+          cat <<EOF > www/Settings-to-settings.html
+          <!doctype html>
+          <title>Redirecting...</title>
+          <script>window.location = window.location.pathname.replace('/Settings/', '/settings/');</script>
+          EOF
+
       # More information on Static Web App workflow configurations,
       # See: https://aka.ms/swaworkflowconfig
       - name: Deploy to Azure Static Web App
