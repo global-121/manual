@@ -37,6 +37,14 @@
       "headers": {
         "Access-Control-Allow-Origin": "https://510.global"
       }
+    },
+    {
+      "route": "en/Settings*",
+      "rewrite": "Settings-to-settings.html"
+    },
+    {
+      "route": "fr/Settings*",
+      "rewrite": "Settings-to-settings.html"
     }
   ],
   "trailingSlash": "auto",

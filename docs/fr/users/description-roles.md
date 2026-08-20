@@ -21,7 +21,7 @@ Sur la page **Utilisateurs**, vous pouvez :
 Sur la page **Rôles utilisateur**, vous pouvez :
 
 - Voir la liste des rôles disponibles dans votre instance. Il n'est pas possible de créer de nouveaux rôles ni de nouvelles permissions.
-- Pour attribuer un rôle à un utilisateur, allez dans la page Paramètres de votre programme et [suivez les instructions sur cette page](../Settings/programteam.md#modifier-les-roles-et-permissions-assignes).
+- Pour attribuer un rôle à un utilisateur, allez dans la page Paramètres de votre programme et [suivez les instructions sur cette page](../settings/programteam.md#modifier-les-roles-et-permissions-assignes).
 
 ### Rôles utilisateur standard 121
 
@@ -85,6 +85,7 @@ Des rôles et permissions supplémentaires peuvent être configurés sur demande
 ---
 
 !!! Note "Ajouter des utilisateurs à un programme"
-    Vous pouvez suivre ces instructions pour [ajouter des membres de l'équipe à un programme et attribuer un rôle](../Settings/programteam.md).
+    Vous pouvez suivre ces instructions pour [ajouter des membres de l'équipe à un programme et attribuer un rôle](../settings/programteam.md).
 
 -8<- "docs/fr/_snippets/contact-support.md"
+

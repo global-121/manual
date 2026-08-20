@@ -23,7 +23,7 @@ La plateforme 121 suit le flux de travail CVA étape par étape. Trouvez les ins
 
     Comprenez comment ajouter des utilisateurs, les rôles disponibles et les autorisations dans la plateforme 121.
 
-- :material-account-multiple-plus:{ .lg .middle } [Gérer l'équipe de votre programme](./Settings/create-new-program.md)
+- :material-account-multiple-plus:{ .lg .middle } [Gérer l'équipe de votre programme](./settings/create-new-program.md)
 
     ---
 
@@ -71,3 +71,4 @@ La plateforme 121 suit le flux de travail CVA étape par étape. Trouvez les ins
 </div>
 
 -8<- "docs/fr/_snippets/contact-support.md"
+

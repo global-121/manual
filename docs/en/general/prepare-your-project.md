@@ -28,7 +28,7 @@ Prepare your registration form in Kobo (or another supported tool). The form can
 - [ ] Decision whether to enable validation in 121 (enables the status 'Validate')
 - [ ] Fields to be checked for duplicates shared with 121 team
 
-Find specific instructions to set up your program information on the [**Program information page**](../Settings/program-information.md).
+Find specific instructions to set up your program information on the [**Program information page**](../settings/program-information.md).
 
 ---
 
@@ -41,7 +41,7 @@ Make agreements with your FSP on the upcoming program. If you work with an FSP i
 - [ ] Credentials entered in 121 for configuration – if FSP is integrated
 - [ ] Payment instruction template received from FSP – if FSP is not integrated
 
-Find specific instructions to set up your FSP on the [**FSP configuration page**](../Settings/fsp-integration.md).
+Find specific instructions to set up your FSP on the [**FSP configuration page**](../settings/fsp-integration.md).
 
 ---
 
@@ -58,7 +58,7 @@ Prepare your registration form in Kobo (or another supported tool). Ideally use 
 - [ ] Form reviewed by the 121 support team (mandatory 121 compatibility check, optional general review)
 - [ ] Form linked to 121 program
 
-Find specific instructions to set up your registration data collection form on the [**registration data collection form page**](../Settings/registration-data.md).
+Find specific instructions to set up your registration data collection form on the [**registration data collection form page**](../settings/registration-data.md).
 
 ---
 
@@ -70,7 +70,7 @@ Identify the members of your program team. Once their user accounts are created 
 - [ ] Users added to the program with an assigned role
 - [ ] Scope defined for users (optional)
 
-Find specific instructions to set up your program team on the [**program team page**](../Settings/programteam.md).
+Find specific instructions to set up your program team on the [**program team page**](../settings/programteam.md).
 
 The user has not been created yet? Refer to the [user creation guide](../users/add-users.md).
 
@@ -130,3 +130,4 @@ Please reach out to our [support team via email](mailto:support@121.global) if y
 ---
 
 -8<- "docs/en/_snippets/contact-support.md"
+

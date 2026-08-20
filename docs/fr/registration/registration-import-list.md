@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-Suivez les instructions sur cette page si vous souhaitez importer dans 121 des enregistrements collectés avec un autre outil de collecte de données que KoboToolbox. Si vous utilisez KoboToolbox, veuillez vous référer à cette [page](../Settings/registration-data.md).
+Suivez les instructions sur cette page si vous souhaitez importer dans 121 des enregistrements collectés avec un autre outil de collecte de données que KoboToolbox. Si vous utilisez KoboToolbox, veuillez vous référer à cette [page](../settings/registration-data.md).
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
     Le responsable CVA et le gestionnaire CVA peuvent effectuer des actions sur cette page. [En savoir plus sur les utilisateurs et les rôles](../users/description-roles.md)
@@ -49,3 +49,4 @@ Si vous avez besoin d'explications supplémentaires, contactez notre [équipe d'
     Pour éviter les erreurs et garder les données personnelles sécurisées, les fichiers Excel doivent être supprimés de votre ordinateur une fois que votre base de données est nettoyée et mise à jour dans la plateforme 121. De cette façon, vous aurez toujours votre dernière liste à jour des bénéficiaires enregistrés dans 121.
 
 -8<- "docs/fr/_snippets/contact-support.md"
+

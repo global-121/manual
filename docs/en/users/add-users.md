@@ -33,7 +33,7 @@ An email will be automatically sent to the specified address. Ensure the email i
 !!! warning "Add users to a program"
     Creating and adding a new user on the Users page grants them access to the 121 platform. However, this does not automatically assign them to any programs. As a result, they may see a blank page upon their first login unless they have already been added to a program.
 
-    Each user must be manually added to the specific programs they are assigned to. You can assign them a specific role within the program. Follow the instructions on [this page to add team members to a program.](../Settings/programteam.md#add-a-team-member)
+    Each user must be manually added to the specific programs they are assigned to. You can assign them a specific role within the program. Follow the instructions on [this page to add team members to a program.](../settings/programteam.md#add-a-team-member)
 
 ---
 
@@ -52,3 +52,4 @@ An email will be automatically sent to the user so that they can reset their pas
 ---
 
 -8<- "docs/en/_snippets/contact-support.md"
+
