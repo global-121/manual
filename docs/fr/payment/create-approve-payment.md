@@ -51,7 +51,7 @@ Une fois la demande de paiement créée, elle doit être approuvée par un appro
 !!! Note "Flux d'approbateurs"
     Les approbations sont basées sur des seuils. C'est le montant minimum auquel cette approbation est requise. Au moins un approbateur avec seuil 0 est nécessaire pour assurer l'approbation de tous les paiements. Vous pouvez affecter plusieurs utilisateurs au même seuil et n'exiger que l'approbation de l'un d'eux (par exemple, le premier à se connecter). Les approbateurs doivent être affectés au programme sans portée. Les notifications par e-mail aux approbateur(s) et créateur de paiement sont automatiques et incluent un lien vers la page de paiement.
 
-    Si aucun utilisateur n'a été affecté jusqu'à présent ou si vous souhaitez modifier la configuration, veuillez vous référer aux instructions sur [Approbation des paiements](../Settings/payment-approval.md)
+    Si aucun utilisateur n'a été affecté jusqu'à présent ou si vous souhaitez modifier la configuration, veuillez vous référer aux instructions sur [Approbation des paiements](../settings/payment-approval.md)
 
 
 ## 3. Lancer le paiement
@@ -105,3 +105,4 @@ Vous trouverez ci-dessous les différents statuts de paiement.
 | **ÉCHOUÉ** | La transaction a échoué. Les enregistrements n'ont pas reçu de paiements. | Veuillez vérifier le message d'erreur fourni par votre banque. L'échec du paiement peut être dû à des détails bancaires incorrects, un numéro de téléphone ou un numéro d'ID selon les méthodes de paiement choisies. Vous pouvez réessayer. Contactez notre équipe de soutien 121 si cela reste non résolu. |
 
 -8<- "docs/fr/_snippets/contact-support.md"
+

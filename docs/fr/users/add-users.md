@@ -33,7 +33,7 @@ Un e-mail sera automatiquement envoyé à l'adresse indiquée. Assurez-vous que 
 !!! warning "Ajouter des utilisateurs à un programme"
     La création et l'ajout d'un nouvel utilisateur sur la page Utilisateurs lui donnent accès à la plateforme 121. Cependant, cela ne l'assigne pas automatiquement à un programme. Il peut donc voir une page vide lors de sa première connexion s'il n'a pas déjà été ajouté à un programme.
 
-    Chaque utilisateur doit être ajouté manuellement aux programmes spécifiques auxquels il est affecté. Vous pouvez lui attribuer un rôle spécifique dans le programme. Suivez les instructions sur [cette page pour ajouter des membres à l'équipe d'un programme](../Settings/programteam.md#ajouter-un-membre-a-lequipe).
+    Chaque utilisateur doit être ajouté manuellement aux programmes spécifiques auxquels il est affecté. Vous pouvez lui attribuer un rôle spécifique dans le programme. Suivez les instructions sur [cette page pour ajouter des membres à l'équipe d'un programme](../settings/programteam.md#ajouter-un-membre-a-lequipe).
 
 ---
 
@@ -52,3 +52,4 @@ Un e-mail sera automatiquement envoyé à l'utilisateur afin qu'il puisse réini
 ---
 
 -8<- "docs/fr/_snippets/contact-support.md"
+

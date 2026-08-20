@@ -31,7 +31,7 @@ hide:
 
      The 121 platform has already integrated with a certain number of most commonly used tools in the humanitarian sector.
 
-    - **KoboToolbox** for registering beneficiaries, allowing the automatic upload of beneficiaries into your 121 registration list ([see the description page](../Settings/registration-data.md)). An alternative registration form tool can be integrated (API).
+    - **KoboToolbox** for registering beneficiaries, allowing the automatic upload of beneficiaries into your 121 registration list ([see the description page](../settings/registration-data.md)). An alternative registration form tool can be integrated (API).
      - An integration with **Espo CRM** is available. Our Cash IM and technical team have experience with Espo CRM in combination with 121 platform, particularly for complex case management. Additional requirements on hosting servers and maintenance may be discussed.
      - **A number of Financial Service Providers (FSP) in different countries** have been integrated. Further information is available [on this page](../faq/financial-service-provider.md).
      - **DEH**, the Digital Community Engagement Hub developed by the 510 unit, that allows multichannel communication and scalable engagement and accountability.
@@ -39,3 +39,4 @@ hide:
      You can discuss further details about third-party tool integration with our support team by contacting us on our [support team email](mailto:support@121.global).
 
 -8<- "docs/en/_snippets/contact-support.md"
+

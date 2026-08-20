@@ -49,7 +49,7 @@ Once the payment request has been created, it must be approved by an approver.
 !!! Note "Approvers flow"
     Approvals are based on thresholds. This is the minimum amount at which this approval is required. At least one approver with threshold 0 is needed to ensure all payments are approved. You can assign multiple users to the same threshold and require only one of them to approve (e.g., the first to log in). Approvers must be assigned to the program without a scope. Email notifications to the approver(s) and payment creator are automated and include a link to the payment page.
 
-    If no user has been assigned yet or you want to change the setup, please refer to the instructions on [Payment approval](../Settings/payment-approval.md)
+    If no user has been assigned yet or you want to change the setup, please refer to the instructions on [Payment approval](../settings/payment-approval.md)
 
 
 ## 3. Start payment
@@ -103,3 +103,4 @@ Below, the different payment statuses.
 | **FAILED** | The transaction has failed. The registrations have not received any payments. | Please check the error message provided by your bank. Failed payment can be due to wrong bank details, phone number or ID number depending on the chosen payment methods. You can try again. Contact our 121 Support Team if this remains unsolved. |
 
 -8<- "docs/en/_snippets/contact-support.md"
+

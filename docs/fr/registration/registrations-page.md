@@ -22,7 +22,7 @@ Superviser tous les nouveaux **enregistrements**. Le statut initial d'un enregis
 
 Les listes d'enregistrements peuvent être importées de deux façons dans la plateforme 121:
 
-- **Automatiquement**, en intégrant vos enregistrements avec votre formulaire KOBO, ou un formulaire de collecte de données équivalent, à la plateforme 121. En savoir plus sur la [page d'importation automatique d'enregistrement;](../Settings/registration-data.md)
+- **Automatiquement**, en intégrant vos enregistrements avec votre formulaire KOBO, ou un formulaire de collecte de données équivalent, à la plateforme 121. En savoir plus sur la [page d'importation automatique d'enregistrement;](../settings/registration-data.md)
 - **Manuellement**, en important une liste d'enregistrement à partir d'un fichier Excel (format .CSV). En savoir plus sur la [page de liste d'importation d'enregistrement.](../registration/registration-import-list.md)
 
 ---
@@ -50,3 +50,4 @@ Suivez les instructions sur la [page de dédoublonnage](../registration/registra
 ---
 
 -8<- "docs/fr/_snippets/contact-support.md"
+

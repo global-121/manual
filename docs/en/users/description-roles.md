@@ -21,7 +21,7 @@ On the **Users** page, you can:
 On the **User Roles** page, you can:
 
 - View the list of available roles set in your instance. It is not possible to create new roles and permissions.
-- To assign a role to a user, move to the Settings page of your program and [follow the instructions on this page.](../Settings/programteam.md#change-assigned-roles-and-permissions)
+- To assign a role to a user, move to the Settings page of your program and [follow the instructions on this page.](../settings/programteam.md#change-assigned-roles-and-permissions)
 
 ### Standard 121 user Roles
 
@@ -85,6 +85,7 @@ Additional roles and permissions can be configured upon request. Contact our [su
 ---
 
 !!! Note "Add users to a program"
-    You can follow these instructions to [add team members to a program and assign a role](../Settings/programteam.md).
+    You can follow these instructions to [add team members to a program and assign a role](../settings/programteam.md).
 
 -8<- "docs/en/_snippets/contact-support.md"
+

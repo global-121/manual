@@ -28,7 +28,7 @@ Préparez votre formulaire d'enregistrement dans Kobo (ou un autre outil pris en
 - [ ] Décision de permettre ou non l'utilisation de la validation dans 121 (active le statut « Validation »)
 - [ ] Champs à vérifier pour les doublons partagés avec l'équipe 121
 
-Vous trouverez des instructions spécifiques pour configurer les informations de votre programme sur la [**page Informations sur le programme**](../Settings/program-information.md).
+Vous trouverez des instructions spécifiques pour configurer les informations de votre programme sur la [**page Informations sur le programme**](../settings/program-information.md).
 
 ---
 
@@ -41,7 +41,7 @@ Concluez des accords avec votre PSF sur le programme à venir. Si vous travaille
 - [ ] Identifiants saisis dans 121 pour la configuration si le PSF est intégré
 - [ ] Modèle d'instruction de paiement reçu du PSF si le PSF n'est pas intégré
 
-Vous trouverez des instructions spécifiques pour configurer votre ou vos PSF sur la [**page Configuration PSF**](../Settings/fsp-integration.md).
+Vous trouverez des instructions spécifiques pour configurer votre ou vos PSF sur la [**page Configuration PSF**](../settings/fsp-integration.md).
 
 ---
 
@@ -58,7 +58,7 @@ Préparez votre formulaire d'enregistrement dans Kobo (ou un autre outil pris en
 - [ ] Formulaire relu par l'équipe d'assistance 121 (contrôle obligatoire de compatibilité 121, relecture générale facultative)
 - [ ] Formulaire lié au programme 121
 
-Vous trouverez des instructions spécifiques pour configurer votre formulaire d'enregistrement sur la [**page Données d'enregistrement**](../Settings/registration-data.md).
+Vous trouverez des instructions spécifiques pour configurer votre formulaire d'enregistrement sur la [**page Données d'enregistrement**](../settings/registration-data.md).
 
 ---
 
@@ -70,7 +70,7 @@ Identifiez les membres de l'équipe de votre programme. Une fois leurs comptes u
 - [ ] Utilisateurs ajoutés au programme avec un rôle attribué
 - [ ] Scope défini pour les utilisateurs (facultatif)
 
-Vous trouverez des instructions spécifiques pour configurer l'équipe de votre programme sur la [**page Équipe du programme**](../Settings/programteam.md).
+Vous trouverez des instructions spécifiques pour configurer l'équipe de votre programme sur la [**page Équipe du programme**](../settings/programteam.md).
 
 L'utilisateur n'a pas encore été créé ? Reportez-vous au [guide de création d'utilisateur](../users/add-users.md).
 
@@ -130,3 +130,4 @@ Veuillez contacter notre [équipe d'assistance par e-mail](mailto:support@121.gl
 ---
 
 -8<- "docs/fr/_snippets/contact-support.md"
+

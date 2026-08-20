@@ -22,7 +22,7 @@ Oversee all new **registrations**. The initial status for a registration is show
 
 Registration lists can be imported in two ways into the 121 platform:
 
-- **Automatically**, by integrating your registrations with your Kobo form, or equivalent data collection form, with the 121 platform. Learn more on the [automatic import of registration page;](../Settings/registration-data.md)
+- **Automatically**, by integrating your registrations with your Kobo form, or equivalent data collection form, with the 121 platform. Learn more on the [automatic import of registration page;](../settings/registration-data.md)
 - **Manually**, by importing a registration list from an Excel file (.CSV format). Learn more on the [registration import list page.](../registration/registration-import-list.md)
 
 ---
@@ -50,3 +50,4 @@ Follow the instructions on the [Deduplication page](../registration/registration
 ---
 
 -8<- "docs/en/_snippets/contact-support.md"
+
