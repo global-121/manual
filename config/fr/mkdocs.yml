@@ -143,6 +143,10 @@ nav:
         - "Prestataire de services financiers (PSF)": "faq/financial-service-provider.md"
         - "Configuration de la plateforme 121": "faq/setting-up-121-platform.md"
         - "Calendrier et intégration de la plateforme 121": "faq/timeline-121-integration.md"
+    - "121 Scan":
+        - "Informations générales": "121scan/general-information.md"
+        - "Portail du personnel de distribution": "121scan/distribution-staff-portal.md"
+        - "Portail de l'administrateur": "121scan/administrator-portal.md"
   - "🇳🇱 NLRC":
     - "Se connecter avec 2FA": "nlrc/log-in-2fa.md"
     - "Modifier la langue": "nlrc/change-language.md"
