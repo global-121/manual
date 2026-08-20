@@ -18,7 +18,7 @@ hide:
 121 Scan does **not** replace the 121 platform; it works alongside 121. Think of it as a field tool that talks to 121 in the background, so that staff working at a distribution site, who may not have their own 121 account or a reliable internet connection, can still perform verification and payment actions. The 121 Scan application later synchronizes with the 121 platform, using an internet connection.
 
 !!! Info "121 Scan is a tool that keeps evolving"
-    It was built to solve specific problems in the field while a permanent solution is developed inside 121 itself. It is currently only used in a small number of pilot contexts. If you want to know more, talk to your Account Manager and see [**Onboarding & Support**](./distribution-staff-portal.md#onboarding-support) on the Distribution Staff Portal page.
+    It was built to solve specific problems in the field while a permanent solution is developed inside 121 itself. It is currently only used in a small number of pilot contexts. If you want to know more, talk to your Account Manager and see [**Onboarding and Support**](./distribution-staff-portal.md#onboarding-and-support) on the Distribution Staff Portal page.
 
 ---
 

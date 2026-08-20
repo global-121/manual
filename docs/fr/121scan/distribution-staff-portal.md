@@ -5,7 +5,7 @@ hide:
 ---
 
 - [Utiliser 121 Scan pour la mise à jour des statuts de paiement et la réconciliation](#utiliser-121-scan-pour-la-mise-%C3%A0-jour-des-statuts-de-paiement-et-la-r%C3%A9conciliation)
-- [Qui peut utiliser 121 Scan ?](#qui-peut-utiliser-121-scan)
+- [Qui peut utiliser 121 Scan ?](#qui-peut-utiliser-121-scan)
 - [Autoriser l'accès à la caméra sur votre appareil](#autoriser-lacc%C3%A8s-%C3%A0-la-cam%C3%A9ra-sur-votre-appareil)
 - [Résolution des problèmes avec 121 Scan](#r%C3%A9solution-des-probl%C3%A8mes-avec-121-scan)
 - [Le code QR ne peut pas être scanné, ou un message d'erreur apparaît](#le-code-qr-ne-peut-pas-%C3%AAtre-scann%C3%A9-ou-un-message-derreur-appara%C3%AEt)
@@ -31,13 +31,13 @@ hide:
 
 ---
 
-## Qui peut utiliser 121 Scan ?
+## Qui peut utiliser 121 Scan&nbsp;?
 
-**Personnel et volontaires de la Croix-Rouge**
+### Personnel et volontaires de la Croix-Rouge
 
 Lors d'une distribution en espèces, 121 Scan facilite les phases de vérification et de réconciliation des bénéficiaires. Le personnel de la Croix-Rouge et du PSF n'a ainsi pas besoin de comparer manuellement une liste papier ou un tableau avec 121 par la suite, bien qu'un processus de réconciliation clair et convenu avec le PSF reste nécessaire, en particulier pour les cas où un code ne peut pas être retrouvé ou un paiement est rejeté.
 
-**Agents PSF**
+### Agents PSF
 
 Les agents PSF peuvent utiliser 121 Scan pour faciliter les phases de vérification et de réconciliation des bénéficiaires. Cela permet à l'équipe du programme de la Croix-Rouge d'obtenir les mises à jour de paiement bien plus rapidement, tout en évitant les échanges de données par différents e-mails et tableaux Excel. Le PSF est responsable de l'enregistrement précis des résultats de paiement et de leur envoi rapide vers 121. C'est pourquoi un processus de réconciliation convenu avec le PSF, ainsi qu'un accès internet fiable pour synchroniser, sont tous deux nécessaires pour utiliser 121 Scan.
 

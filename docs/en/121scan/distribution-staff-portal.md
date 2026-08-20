@@ -9,7 +9,7 @@ hide:
 - [Allowing camera access on your device](#allowing-camera-access-on-your-device)
 - [Troubleshooting 121 Scan](#troubleshooting-121-scan)
 - [QR code cannot be scanned, or an error message appears](#qr-code-cannot-be-scanned-or-an-error-message-appears)
-- [Onboarding & Support](#onboarding-support)
+- [Onboarding and Support](#onboarding-and-support)
 
 ---
 
@@ -31,11 +31,11 @@ hide:
 
 ## Who can use 121 Scan?
 
-**Red Cross staff and volunteers**
+### Red Cross staff and volunteers
 
 During a cash distribution, 121 Scan is useful to support beneficiaries' verification and reconciliation phases. This means Red Cross and FSP staff don't need to manually compare a paper list or spreadsheet against 121 afterwards, although a clear, agreed reconciliation process with the FSP is still needed, especially for cases where a code can't be matched or a payment is rejected.
 
-**FSP Agents**
+### FSP Agents
 
 The FSP agents can use 121 Scan to support beneficiaries' verification and reconciliation phases. This will help the Red Cross program team get the payment updates in a much shorter time, while also avoiding the exchange of data through different emails and Excel spreadsheets. The FSP is responsible for recording accurate payment outcomes and sending them back to 121 promptly. This is why an agreed reconciliation process with the FSP, and reliable access to the internet to sync, are both conditions for using 121 Scan.
 
@@ -91,7 +91,7 @@ We recommend closing all tabs and applications if your device struggles with dow
 
 ---
 
-## Onboarding & Support
+## Onboarding and Support
 
 121 Scan is under active development and is currently only used in a small number of pilot contexts. If you have questions about whether 121 Scan is right for your program, or need support using it, contact [**support@121.global**](mailto:support@121.global).
 

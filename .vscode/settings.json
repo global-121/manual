@@ -28,5 +28,6 @@
     "tag:yaml.org,2002:python/name:material.extensions.emoji.twemoji",
     "tag:yaml.org,2002:python/name:pymdownx.superfences.fence_code_format"
   ],
-  "markdown.extension.toc.slugifyMode": "vscode"
+  "markdown.extension.toc.slugifyMode": "vscode",
+  "markdown.extension.toc.levels": "1..2"
 }

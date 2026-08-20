@@ -5,7 +5,7 @@ hide:
 ---
 
 - [À quoi 121 Scan peut-il servir ?](#%C3%A0-quoi-121-scan-peut-il-servir)
-- [Comment 121 Scan fonctionne-t-il avec la plateforme 121 ?](#comment-121-scan-fonctionne-t-il-avec-la-plateforme-121)
+- [Comment 121 Scan fonctionne-t-il avec la plateforme 121 ?](#comment-121-scan-fonctionne-t-il-avec-la-plateforme-121)
 - [Sécurité des données](#s%C3%A9curit%C3%A9-des-donn%C3%A9es)
 - [Prérequis pour utiliser 121 Scan](#pr%C3%A9requis-pour-utiliser-121-scan)
 - [Utiliser 121 Scan pour la vérification d'identité](#utiliser-121-scan-pour-la-v%C3%A9rification-didentit%C3%A9)
@@ -35,7 +35,7 @@ hide:
 
 ---
 
-## Comment 121 Scan fonctionne-t-il avec la plateforme 121 ?
+## Comment 121 Scan fonctionne-t-il avec la plateforme 121&nbsp;?
 
 121 Scan se situe entre 121 et le terrain. Il ne stocke ni ne conserve aucune donnée de façon permanente sur l'appareil : il emprunte des informations à 121 (et parfois à Kobo) pour la durée nécessaire sur le terrain, puis renvoie les résultats à 121 dès que l'utilisateur clique sur **Send (Envoyer)**, lorsqu'une connexion internet est disponible.
 
