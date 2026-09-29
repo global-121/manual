@@ -116,23 +116,31 @@ def open_dialog(page: Page, title: str) -> Locator:
     return Portal.clip_around(dialog)
 
 
-def payment_ids(portal: Portal) -> list[int]:
-    ids = sorted(p["paymentId"] for p in portal.api("GET", "program:/payments"))
-    if len(ids) < 2:
-        raise LookupError("demo program needs a started and a pending payment (seed needs an approver, see README)")
-    return ids
+def payment_state(summary: dict) -> str:
+    if not summary["isPaymentApproved"]:
+        return "pending"
+    if not summary["hasBeenStarted"]:
+        return "approved"
+    return "processing" if summary["aggregationsPerStatus"]["waiting"]["count"] else "reconciled"
+
+
+def payment_id(portal: Portal, state: str) -> int:
+    for p in sorted(portal.api("GET", "program:/payments"), key=lambda p: p["paymentId"]):
+        if payment_state(portal.api("GET", f"program:/payments/{p['paymentId']}")) == state:
+            return p["paymentId"]
+    raise LookupError(f"demo program has no {state} payment (seed needs an approver, see README)")
 
 
 def payments(portal: Portal) -> Page:
-    payment_ids(portal)
+    payment_id(portal, "processing")
     page = portal.open("program:/payments")
     block_writes(page, dry_run=True)
     page.get_by_test_id("card-with-link").last.wait_for()
     return page
 
 
-def started_payment(portal: Portal) -> Page:
-    page = portal.open(f"program:/payments/{payment_ids(portal)[0]}")
+def started_payment(portal: Portal, state: str = "reconciled") -> Page:
+    page = portal.open(f"program:/payments/{payment_id(portal, state)}")
     block_writes(page)
     reset_table(portal, page)
     page.wait_for_timeout(1000)
@@ -420,7 +428,13 @@ def monitoring_page(portal: Portal) -> Locator:
 
 
 def dashboard(portal: Portal) -> Locator:
-    return Portal.clip_around(tabs_card(dashboard_charts(portal)))
+    page = dashboard_charts(portal)
+    # At 1280px the five-status payment legends wrap and squash the payment charts.
+    page.set_viewport_size({"width": 1920, "height": page.viewport_size["height"]})
+    page.wait_for_timeout(1000)
+    page.set_viewport_size({"width": 1920, "height": page.evaluate("document.documentElement.scrollHeight")})
+    page.wait_for_timeout(1000)
+    return Portal.clip_around(tabs_card(page))
 
 
 def monitoring_tab(tab: str) -> Callable[[Portal], Page]:
@@ -505,7 +519,7 @@ def approve_dialog(portal: Portal) -> Locator:
     approver = Portal(ctx, portal.portal_url, portal.api_url)
     approver.program_id = portal.program_id
     approver.login(username, password)
-    page = approver.open(f"program:/payments/{payment_ids(portal)[-1]}")
+    page = approver.open(f"program:/payments/{payment_id(portal, 'pending')}")
     block_writes(page)
     page.get_by_role("button", name="Approve payment").click()
     dialog = page.get_by_role("alertdialog").filter(visible=True)
@@ -515,8 +529,19 @@ def approve_dialog(portal: Portal) -> Locator:
     return Portal.clip_around(dialog, padding=24)
 
 
-def payment_page(portal: Portal) -> Locator:
-    page = full_height(started_payment(portal))
+def start_payment_button(portal: Portal) -> Page:
+    page = portal.open(f"program:/payments/{payment_id(portal, 'approved')}")
+    block_writes(page)
+    button = page.get_by_role("button", name="Start payment")
+    button.wait_for()
+    page.wait_for_timeout(1000)
+    unfocus(page)
+    Portal.highlight(button)
+    return page
+
+
+def payment_page(portal: Portal, state: str = "reconciled") -> Locator:
+    page = full_height(started_payment(portal, state))
     return Portal.clip_around(page.get_by_test_id("sidebar-toggle"), transactions_card(page), full_width=True)
 
 
@@ -794,7 +819,13 @@ SCENARIOS = [
     Scenario("CreateNewpaymentSelect.png", "Create payment, registration selection", create_payment_select),
     Scenario("StartPayment.png", "Create payment summary", create_payment_summary),
     Scenario("ApprovePaymentFinal.png", "Approve payment dialog (as the approver)", approve_dialog),
+    Scenario("StartPaymentApproved.png", "Approved payment, 'Start payment' highlighted", start_payment_button, top(424)),
     Scenario("PaymentReportBoard.png", "Payment page with transaction list", payment_page),
+    Scenario(
+        "PendingStatusExcel.png",
+        "Started Excel payment waiting for reconciliation",
+        lambda portal: payment_page(portal, "processing"),
+    ),
     Scenario("IndividualExportReport.png", "Payment page, Export menu", payment_export_menu),
     Scenario("ReconciliationImport.png", "Import reconciliation data dialog", reconciliation_dialog),
     Scenario("ApprovePaymentExport.png", "Payments export dialog", payments_export_dialog),

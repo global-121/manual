@@ -226,31 +226,37 @@ def _attachment(portal: Portal) -> None:
 
 
 def _payments(portal: Portal, approver: APIRequestContext) -> None:
-    payments = portal.api("GET", "program:/payments")
     included = [ref for ref, s in TARGET_STATUS.items() if s == "included"]
-    now = datetime.now(timezone.utc).strftime("%d/%m/%Y, %H:%M")
-    if len(payments) == 0:
-        pay = portal.api(
-            "POST",
-            "program:/payments",
-            params={"filter.referenceId": "$in:" + ",".join(included)},
-            data={"name": f"Payment {now}", "transferValue": 50, "note": ""},
-        )
-        portal.api("POST", f"program:/payments/{pay['id']}/approve", session=approver, data={})
-        portal.api("POST", f"program:/payments/{pay['id']}/start")
-        portal.wait_for(
-            lambda: not portal.api("GET", "program:/payments/status")["inProgress"], "payment to finish"
-        )
-        print(f"seed: created, approved and started payment {pay['id']}")
-        payments = portal.api("GET", "program:/payments")
-    if len(payments) == 1:
-        pay = portal.api(
-            "POST",
-            "program:/payments",
-            params={"filter.referenceId": "$in:" + ",".join(included[:2])},
-            data={"name": f"Payment {now}", "transferValue": 50, "note": ""},
-        )
-        print(f"seed: created payment {pay['id']} (pending approval)")
+    # In creation order: (registrations, approve, start). The first is reconciled later, the last never.
+    plan = [
+        (included, True, True),
+        (included[:2], False, False),
+        (included[2:], True, False),
+        (included, True, True),
+    ]
+    for i, (refs, approve, start) in enumerate(plan):
+        ids = sorted(p["paymentId"] for p in portal.api("GET", "program:/payments"))
+        if len(ids) > i:
+            pay_id = ids[i]
+        else:
+            now = datetime.now(timezone.utc).strftime("%d/%m/%Y, %H:%M")
+            pay_id = portal.api(
+                "POST",
+                "program:/payments",
+                params={"filter.referenceId": "$in:" + ",".join(refs)},
+                data={"name": f"Payment {now}", "transferValue": 50, "note": ""},
+            )["id"]
+            print(f"seed: created payment {pay_id}")
+        summary = portal.api("GET", f"program:/payments/{pay_id}")
+        if approve and not summary["isPaymentApproved"]:
+            portal.api("POST", f"program:/payments/{pay_id}/approve", session=approver, data={})
+            print(f"seed: approved payment {pay_id}")
+        if start and not summary["hasBeenStarted"]:
+            portal.api("POST", f"program:/payments/{pay_id}/start")
+            portal.wait_for(
+                lambda: not portal.api("GET", "program:/payments/status")["inProgress"], "payment to finish"
+            )
+            print(f"seed: started payment {pay_id}")
 
 
 def _reconciliation(portal: Portal) -> None:
