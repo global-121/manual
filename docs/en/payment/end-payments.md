@@ -24,7 +24,7 @@ In the **Registration** page:
 
 - Select individually the registration(s) that you want to end the assistance for by ticking the box :material-checkbox-multiple-marked-outline:
 - Click on **:fontawesome-solid-ban: Decline** on the top of the table;
-- In the popup window, **Approve** the action.
+- In the **Decline registration(s)** pop-up window, enter a reason and click **Decline registration**. *Optionally, send a message to the registration.*
 - The registration will no longer receive assistance. ![DeclinedRegistration](../assets/img/RegistrationDeclined.png)
 
 You can also change the status by right-clicking the registration in the table and clicking **:fontawesome-solid-ban: Decline** ![DropDownListStatus](../assets/img/RegistationsStatusRighList.png)

@@ -28,7 +28,7 @@ In the **Registration** page:
   Click on the :material-checkbox-outline: to add the registration in the selection,
 
 - Click on **:material-pause: Pause** status on the top of the table,
-- In the pop up window, **Approve**, and *optionally, send a message to the registration*. ![Approve Pause Status](../assets/img/PausePANotification.png)
+- In the **Pause registration(s)** pop-up window, enter a reason and click **Pause registration**. *Optionally, send a message to the registration.* ![Approve Pause Status](../assets/img/PausePANotification.png)
 - The status has been changed to **Paused** ![Pause Status](../assets/img/PauseStatus.png)
 - From **Paused** status, the registration will no longer receive cash aid.
 

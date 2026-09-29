@@ -24,7 +24,7 @@ Dans la **page Enregistrement** :
 
 - Sélectionnez individuellement les enregistrement(s) pour lesquels vous souhaitez mettre fin à l'assistance en cochant la boîte :material-checkbox-multiple-marked-outline:
 - Cliquez sur **:fontawesome-solid-ban: Décliner** en haut du tableau ;
-- Dans la fenêtre pop-up, **Approuvez** l'action.
+- Dans la fenêtre pop-up **Décliner Enregistrements**, indiquez une raison et cliquez sur **Décliner l'enregistrement**. *Éventuellement, envoyez un message à l'enregistrement.*
 - L'enregistrement ne recevra plus d'assistance. ![Enregistrement décliné](../assets/img/RegistrationDeclined.png)
 
 Vous pouvez également modifier le statut en cliquant avec le bouton droit sur l'enregistrement dans le tableau et en cliquant sur **:fontawesome-solid-ban: Décliner** ![Liste déroulante du statut](../assets/img/RegistationsStatusRighList.png)

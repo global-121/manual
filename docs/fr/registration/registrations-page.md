@@ -36,7 +36,7 @@ Suivez les instructions sur comment:
 - [Dédoublonner votre liste d'enregistrement dans la plateforme 121;](../registration/registration-deduplication.md)
 - [Inclure un enregistrement dans un programme;](../registration/inclusion-in-program.md)
 - [Décliner un enregistrement d'un programme;](../registration/registration-reject-pa.md)
-- [Suspendre un enregistrement dans un programme;](../payment/pause-payment-pa.md)
+- [Mettre en pause un enregistrement dans un programme;](../payment/pause-payment-pa.md)
 - [Mettre fin à la participation d'un enregistrement dans un programme.](../payment/end-payments.md)
 
 ---
