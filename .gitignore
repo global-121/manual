@@ -8,5 +8,7 @@ site
 www
 
 # Secrets and local tooling
+.env
 .venv
+screenshots/output/
 __pycache__/
