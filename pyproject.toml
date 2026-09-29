@@ -1,0 +1,16 @@
+[project]
+name = "manual-121"
+version = "0.0.0"
+requires-python = ">=3.12"
+dependencies = [
+    "mkdocs-material>=9.7.7",
+    "mkdocs-glightbox>=0.5.2",
+]
+
+[dependency-groups]
+screenshots = [
+    "playwright>=1.55",
+]
+
+[tool.uv]
+package = false

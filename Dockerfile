@@ -1,5 +1,7 @@
 FROM squidfunk/mkdocs-material
 
-ADD requirements.txt .
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /bin/uv
 
-RUN pip install -r requirements.txt
+COPY pyproject.toml .
+
+RUN uv pip install --system --no-cache -r pyproject.toml

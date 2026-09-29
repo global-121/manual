@@ -9,36 +9,31 @@
 
 #### With Python
 
-- Install a [Python virtual environment](https://realpython.com/python-virtual-environments-a-primer/) (On Linux/macOS):
-
-  ```sh
-  python3 -m venv venv
-  source venv/bin/activate
-  ```
+- Install [uv](https://docs.astral.sh/uv/getting-started/installation/)
 
 - Install dependencies
 
   ```sh
-  pip install -r requirements.txt
+  uv sync
   ```
 
 - Build the documentation (for each language separately):
   - For English, preview at: <http://localhost:8000>
 
     ```sh
-    mkdocs serve --config-file config/en/mkdocs.yml --dev-addr localhost:8000
+    uv run python -m mkdocs serve --config-file config/en/mkdocs.yml --dev-addr localhost:8000
     ```
 
   - For Dutch, preview at: <http://localhost:8080>
 
     ```sh
-    mkdocs serve --config-file config/nl/mkdocs.yml --dev-addr localhost:8080
+    uv run python -m mkdocs serve --config-file config/nl/mkdocs.yml --dev-addr localhost:8080
     ```
 
   - For French, preview at: <http://localhost:8003>
 
     ```sh
-    mkdocs serve --config-file config/fr/mkdocs.yml --dev-addr localhost:8003
+    uv run python -m mkdocs serve --config-file config/fr/mkdocs.yml --dev-addr localhost:8003
     ```
 
 <!-- NOTE: The Docker-way to serve/build is not compatible with the multi-lingual setup currently in use. -->
