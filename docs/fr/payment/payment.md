@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-La page Paiements fournit un aperçu de tous les paiements effectués et distribués aux enregistrements du programme. Elle vous permet de suivre le statut de paiement pour chaque enregistrement, y compris les transactions complétées, en attente ou échouées, et de traiter les nouveaux paiements.
+La page Paiements fournit un aperçu de tous les paiements effectués et distribués aux enregistrements du programme. Elle vous permet de suivre le statut de paiement pour chaque enregistrement, y compris les transactions complétées, en cours de traitement ou échouées, et de traiter les nouveaux paiements.
 
 !!! Important "Qui peut effectuer des actions dans cette page ?"
     Tous les utilisateurs peuvent consulter la page Paiements. La création et l'envoi des paiements sont réservés au responsable CVA et au responsable financier — voir [Créer et approuver les paiements](./create-approve-payment.md) pour plus de détails. [En savoir plus sur les utilisateurs et les rôles](../users/description-roles.md)
@@ -28,7 +28,7 @@ La plateforme 121 offre **deux méthodes différentes pour traiter les paiements
 Vous pouvez afficher un résumé de tous les paiements effectués au cours de votre programme et aux enregistrements inclus dans le programme. Cet aperçu est particulièrement utile pour :
 
 - Avoir une vision claire de tous les décaissements effectués le long du programme jusqu'à présent.
-- Que le responsable financier et le gestionnaire financier suivi des statuts de paiement, y compris les paiements réussis, en attente et échoués.
+- Que le responsable financier et le gestionnaire financier suivi des statuts de paiement, y compris les paiements réussis, en cours de traitement et échoués.
 - Que le responsable CVA et le gestionnaire CVA soient informés et suivent si un enregistrement reçoit ou non une aide monétaire.
 - Pour les bailleurs de fonds qui peuvent vouloir voir les processus de paiement en cours et les délais selon les besoins.
 
@@ -38,7 +38,7 @@ En savoir plus sur les statuts de paiement et d'enregistrement sur [cette page.]
 
 ## Exporter les rapports de paiement
 
-Pour l'**audit financier**, les rapports financiers et de paiement pour toutes les transactions peuvent être exportés en tant que fichier Excel. Vous pouvez suivre et retracer les paiements réussis, en attente et échoués, et aussi partager les rapports aux bailleurs de fonds qui peuvent nécessiter des informations supplémentaires sur le programme de trésorerie en cours.
+Pour l'**audit financier**, les rapports financiers et de paiement pour toutes les transactions peuvent être exportés en tant que fichier Excel. Vous pouvez suivre et retracer les paiements réussis, en cours de traitement et échoués, et aussi partager les rapports aux bailleurs de fonds qui peuvent nécessiter des informations supplémentaires sur le programme de trésorerie en cours.
 
 En savoir plus sur les rapports de paiement et l'activité sur [cette page.](./payment-reporting.md)
 

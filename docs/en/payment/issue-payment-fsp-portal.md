@@ -23,6 +23,7 @@ To initiate a new payment:
 
 ![Create new payment button](../assets/img/PaymentsPage.png)
 
+- Enter a name for the payment. A name is prefilled (*Payment dd/mm/yyyy, hh:mm*); you can change it if needed. Click **Continue to registration**.
 - A page will open displaying a list of registrations included in the program.
   *Only registrations with **Included** status who have not yet received all their installments will appear in the list. Registrations who have received and completed all their payments will not be shown.*
 
@@ -35,7 +36,7 @@ To initiate a new payment:
 
 ![Add to Payment](../assets/img/StartPayment.png)
 
-- A window appears to confirm the number of registrations included and the total amount to be transferred;
+- A summary appears showing the Financial Service Provider(s), the number of registrations and the total payment amount; you can add a note if needed;
 - The portal will display guidelines on the left side of your screen for exporting the FSP payment instructions (as shown below);
 - Click on **Create payment**. **This action will NOT automatically process or send the payment request to the FSP. However, it will prepare the payment instructions, including the list of registrations set to receive payments.**
 
@@ -51,7 +52,7 @@ The file will provide the necessary instructions for the FSP to issue the paymen
 - The file will be available in your downloaded folder;
 - Review the file if required. *Based on your agreement with the FSP, share the file to your FSP or import it into the FSP portal (if available).*
 
-The payment status displayed in the payment page will be updated depending on the payment phase. For Manual Payment, the default message will be **PENDING** until the payment reconciliation has been processed.
+The payment status displayed in the payment page will be updated depending on the payment phase. For Manual Payment, the default message will be **Processing** until the payment reconciliation has been processed.
 ![Export FSP payment list](../assets/img/IndividualExportReport.png)
 !!! Info "Payment instructions Excel template"
     Each program may require a different template depending on the FSP you work with in the region of your operations. Our Team will create a template specifically adapted to upload into each FSP portal.
@@ -65,11 +66,10 @@ The payment status displayed in the payment page will be updated depending on th
 Once the FSP shared the reconciliation data file to you, you can reconcile payments in the 121 platform. This will update the payment status by uploading the file in the **specific payment page**.
 
 !!! Important "Format the reconciliation file"
-    Before importing the reconciliation file, ensure it meets the required format. You can download the template by clicking Import reconciliation data and selecting the template. Make sure all required columns are included, and adjust the statuses as follows:
+    Before importing the reconciliation file, ensure it meets the required format. You can download the template by clicking **Import reconciliation data** and then **Download the template**. Make sure all required columns are included, and adjust the statuses as follows:
 
       - **Completed** → success
       - **Failed** → error
-      - **Pending** → waiting
 
     The file must be in .csv format. Follow the instructions [in this page.](./manual-payment-reconciliation.md)
 
@@ -82,7 +82,7 @@ To update the payment statuses:
 
 - Click on the import button to upload the FSP file, *the file must be in .csv format*;
 - **Drag and drop** the file; or use the **Choose file** function;
-- Click on **Proceed**. The registrations status will be updated according to whether the transfer was marked as Successful, Pending or Failed by the FSP.
+- Click on **Import file**. The registrations status will be updated according to whether the transfer was marked as Successful or Failed by the FSP.
 ![Export FSP payment list](../assets/img/IndividualExportReport.png)
 
 ---
@@ -90,14 +90,14 @@ To update the payment statuses:
 ### Payment status
 
 ![Reconciliation Data Import](../assets/img/ReconciliationImport.png)
-The payment status displayed in the payment page will be updated depending on the payment phase. For Manual Payment, the default message will be **PENDING** until the payment reconciliation has been processed.
+The payment status displayed in the payment page will be updated depending on the payment phase. For Manual Payment, the default message will be **Processing** until the payment reconciliation has been processed.
 
 Below, the different payment statuses.
 
 | Status | Description | Actions required |
 | :------ | :----------- | :---------------- |
 | **SUCCESSFUL** | The transfer has been sent to the Registrations and they can now use it. | None. |
-| **PENDING** | The payment is waiting for approval of one or more financial officers. The transfer is not yet sent to the Registrations selected for this payment round. | Import the reconciliation file into the 121 platform to update the status. |
+| **PROCESSING** | The transfer has not yet been confirmed for the Registrations selected for this payment round, as the reconciliation file has not been imported yet. | Import the reconciliation file into the 121 platform to update the status. |
 | **FAILED** | The transaction has failed. The registrations have not received any payments. | Please check the error message provided by your bank. Failed payment can be due to wrong bank details, phone number or ID number depending on the chosen payment methods. You can try again. Contact our 121 Support Team if this remains unsolved. |
 
 !!! Info "Manual payment reconciliation"

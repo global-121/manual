@@ -15,9 +15,9 @@ To export a general financial report:
 
 1. Go to **Payments page**
 2. On the top right, click on **Export**
-3. Select the file for which you would like to export the payment data ![Payment Export Report](../assets/img/PaymentsPage.png)
-4. Click on **Export Report** button
-5. A pop-up window will request a confirmation.**This will download an Excel file with all registrations included in this payment** ![Confirm Export](../assets/img/ApprovePaymentExport.png)
+3. Select **Payments** ![Payment Export Report](../assets/img/PaymentsPage.png)
+4. In the **Export payments** pop-up window, optionally select a **Start Date** and/or an **End Date** to filter the payments
+5. Click on **Proceed**. **This will download an Excel file with all of the registrations included in payments** ![Confirm Export](../assets/img/ApprovePaymentExport.png)
   The file will be exported into the download folder as an Excel file.
 
 !!! Info "TIPS: Only download Excel files when required and delete after exporting / using"
@@ -32,7 +32,7 @@ To export a specific financial report based on a specific date:
 1. Go to **Payments page**;
 2. Enter the specific payment round you are looking for;
 3. On the top right, click on **Export** ![Individual Export Report](../assets/img/IndividualExportReport.png)
-4. Select **Payment Report**;
+4. Select **Payment report**;
 5. A pop-up window will request confirmation to proceed.**You're about to download an Excel file with all of the registrations included in this payment.**;
   The file will be exported into the download folder as an Excel file.
 

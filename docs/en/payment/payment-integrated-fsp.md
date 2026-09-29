@@ -21,6 +21,7 @@ The Payments page in your program will display information about any completed i
 
 ![Create new payment button](../assets/img/PaymentsPage.png)
 
+- Enter a name for the payment. A name is prefilled (*Payment dd/mm/yyyy, hh:mm*); you can change it if needed. Click **Continue to registration**.
 - A page will open displaying a list of registrations included in the program.
   *Only registrations with **Included** status who have not yet received all their installments will appear in the list. Registrations who have received and completed all their payments will not be shown.*
 
@@ -33,8 +34,8 @@ The Payments page in your program will display information about any completed i
 
 ![Add to Payment](../assets/img/StartPayment.png)
 
-- A window appears to confirm the number of registrations included and the total amount to be transferred;
-- Click on **Start payment**. **This action will automatically process and send the payment request to the FSP after the approval flow.**
+- A summary appears showing the Financial Service Provider(s), the number of registrations and the total payment amount; you can add a note if needed;
+- Click on **Create payment**. Once the payment has been approved, click **Start payment** on the payment page (see [Create, approve and start payments](./create-approve-payment.md)). **Starting the payment will automatically process and send the payment request to the FSP.**
 
 ![Start Payment](../assets/img/StartPayment.png)
 
@@ -55,7 +56,7 @@ The status will be updated automatically for integrated FSP.
 | Type | Description | Actions required |
 | :---- | :----------- | :---------- |
 | **SUCCESSFUL** | The transaction has been sent to the registrations on the preferred payment method. The Bank approved the transaction. | None. |
-| **PENDING** | The transaction is being processed by the bank. Pending payment reconciliation. The status will be updated automatically by the integrated FSP (successful or failed). | This can sometimes take a few hours. If this remains unchanged after 24 hours, please request an update to your FSP. Contact our 121 Support Team if this remains unsolved. |
+| **PROCESSING** | The transaction is being processed by the bank. Pending payment reconciliation. The status will be updated automatically by the integrated FSP (successful or failed). | This can sometimes take a few hours. If this remains unchanged after 24 hours, please request an update to your FSP. Contact our 121 Support Team if this remains unsolved. |
 | **FAILED** | The transaction has failed. The registrations have not received any payments. | Please check the error message provided by your bank. Failed payment can be due to wrong bank details, phone number or ID number depending on the chosen payment methods. Contact our 121 Support Team if this remains unsolved. |
 
 ---

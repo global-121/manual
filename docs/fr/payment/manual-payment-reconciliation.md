@@ -19,7 +19,7 @@ Avant de télécharger le fichier de réconciliation dans la plateforme 121, il 
 Allez à la page des paiements et entrez le tour de paiement spécifique que vous souhaiteriez mettre à jour.
 
 - En haut à droite, cliquez sur **Importer les données de réconciliation**. ![Importer les données de réconciliation](../assets/img/IndividualExportReport.png)
-- Dans la fenêtre pop-up, vous pouvez lire dans la première phrase *Importez le fichier envoyé par le PSF pour voir le statut de transfert des enregistrements inclus dans ce paiement. Téléchargez le modèle.*
+- Dans la fenêtre pop-up, vous pouvez lire dans la première phrase *Importer le fichier envoyé par le PSF pour voir le statut des transactions des enregistrements inclus dans ce paiement. Télécharger le modèle.*
 - Cliquez sur **Télécharger le modèle**. ![Télécharger le modèle de réconciliation](../assets/img/ReconciliationImport.png)
 - Vous pouvez maintenant commencer à modifier ce fichier avec la valeur demandée, comme suit.
 
@@ -30,15 +30,14 @@ Le tableau ci-dessous indique les noms d'étiquettes corrects qui doivent être 
 
 | Statut des données 121 | Description |
 | :---- | :---- |
-| **succès** | Paiements réussis, terminés ou confirmés. |
-| **attente** | Le paiement est en attente. Il n'est pas distribué ou ne peut pas être envoyé. |
-| **erreur** | Paiements échoués, non reçus par les enregistrements en raison de données incorrectes partagées ou erreur au PSF. |
+| **success** | Paiements réussis, terminés ou confirmés. |
+| **error** | Paiements échoués, non reçus par les enregistrements en raison de données incorrectes partagées ou erreur au PSF. |
 
 
 Si ces étiquettes ne correspondent pas correctement, trois erreurs peuvent se produire dans la plateforme 121 :
 
 - Un **message d'erreur** s'affiche pour avertir que les données ne peuvent pas être téléchargées ;
-- **Les statuts de paiement ne sont pas correctement mis à jour**, affichant plus de paiements échoués ou en attente car le système ne peut pas faire correspondre le statut au fichier importé ;
+- **Les statuts de paiement ne sont pas correctement mis à jour**, affichant plus de paiements échoués ou en cours de traitement car le système ne peut pas faire correspondre le statut au fichier importé ;
 - Le **format n'est pas reconnu** dans la plateforme et affiche une page d'erreur.
 
 *Certaines données peuvent être spécifiques à votre PSF, notre équipe vous conseillera lors de la mise en œuvre de votre instance 121.*
@@ -60,10 +59,10 @@ Une fois que votre fichier mis à jour est prêt et enregistré au format .csv, 
 
 - Allez à **Paiements** et sélectionnez le paiement spécifique à concilier.
 - Cliquez sur **Importer les données de réconciliation** ![Importer les données de réconciliation](../assets/img/IndividualExportReport.png)
-- **Déposez et déposez** ou **choisissez un fichier**
-- Cliquez sur **Importer un fichier** ![Importer le fichier de réconciliation](../assets/img/ReconciliationImport.png)
+- **Glissez-déposez** ou cliquez sur **Choisir le fichier**
+- Cliquez sur **Importer le fichier** ![Importer le fichier de réconciliation](../assets/img/ReconciliationImport.png)
 
 !!! Info "Statuts de paiement"
-    Tous les statuts de paiement d'enregistrement seront mis à jour dans le tour de paiement spécifique. Vous pouvez ensuite afficher le nombre de paiements réussis, en attente et échoués au sein de la liste d'enregistrement. Lisez-en plus sur les statuts de paiement sur [cette page.](./list-status-payment-page.md)
+    Tous les statuts de paiement d'enregistrement seront mis à jour dans le tour de paiement spécifique. Vous pouvez ensuite afficher le nombre de paiements réussis, en cours de traitement et échoués au sein de la liste d'enregistrement. Lisez-en plus sur les statuts de paiement sur [cette page.](./list-status-payment-page.md)
 
 -8<- "docs/fr/_snippets/contact-support.md"

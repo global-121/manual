@@ -15,9 +15,9 @@ Pour exporter un rapport financier général :
 
 1. Allez à la **page Paiements**
 2. En haut à droite, cliquez sur **Exporter**
-3. Sélectionnez le fichier pour lequel vous souhaiteriez exporter les données de paiement ![Rapport d'export de paiement](../assets/img/PaymentsPage.png)
-4. Cliquez sur le bouton **Rapport d'export**
-5. Une fenêtre pop-up demandera une confirmation.**Cela téléchargera un fichier Excel avec tous les enregistrements inclus dans ce paiement** ![Confirmer l'export](../assets/img/ApprovePaymentExport.png)
+3. Sélectionnez **Paiements** ![Rapport d'export de paiement](../assets/img/PaymentsPage.png)
+4. Dans la fenêtre pop-up **Exporter les paiements**, sélectionnez si vous le souhaitez une **Date de début** et/ou une **Date de fin** pour filtrer les paiements
+5. Cliquez sur **Continuer**. **Cela téléchargera un fichier Excel avec tous les enregistrements inclus dans les paiements** ![Confirmer l'export](../assets/img/ApprovePaymentExport.png)
   Le fichier sera exporté dans le dossier de téléchargement en tant que fichier Excel.
 
 !!! Info "CONSEILS : Téléchargez uniquement les fichiers Excel si nécessaire et supprimez-les après exportation / utilisation"
@@ -32,7 +32,7 @@ Pour exporter un rapport financier spécifique basé sur une date spécifique :
 1. Allez à la **page Paiements** ;
 2. Entrez le tour de paiement spécifique que vous recherchez ;
 3. En haut à droite, cliquez sur **Exporter** ![Rapport d'export individuel](../assets/img/IndividualExportReport.png)
-4. Sélectionnez **Rapport de paiement** ;
+4. Sélectionnez **Rapport de paiements** ;
 5. Une fenêtre pop-up demandera confirmation pour procéder.**Vous êtes sur le point de télécharger un fichier Excel avec tous les enregistrements inclus dans ce paiement.** ;
   Le fichier sera exporté dans le dossier de téléchargement en tant que fichier Excel.
 
@@ -45,7 +45,7 @@ Des informations de paiement détaillées peuvent être trouvées dans chaque ve
 1. Allez à la **page Paiements** ;
 2. Cliquez sur l'un des versements dont vous souhaiteriez lire les détails supplémentaires
    La liste incluse des enregistrements avec des informations détaillées sur la valeur de transfert, les statuts de paiement, le PSF et les dates s'affichera.
-3. Pour plus de détails par individu, vous pouvez cliquer sur le lien hypertexte **reg. #** sur le profil d'enregistrement. Vous pouvez lire le journal d'activité à partir de différentes phases (enregistrement, inclusion, paiements).
+3. Pour plus de détails par individu, vous pouvez cliquer sur le lien hypertexte **Enreg. #** sur le profil d'enregistrement. Vous pouvez lire le journal d'activité à partir de différentes phases (enregistrement, inclusion, paiements).
 4. Dans le journal d'activité, tous les changements ou activités seront automatiquement enregistrés, y compris les détails de paiement.
 
 **Comment lire les journaux dans le journal d'activité ?**
