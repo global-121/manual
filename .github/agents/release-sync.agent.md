@@ -66,7 +66,7 @@ First keep the demo data seed (`screenshots/seed.py`) working. It creates the de
 - Check whether the release changes an endpoint or payload that `seed.py` uses (programs, registrations and their statuses, FSP configurations, program users, approval thresholds, attachments, payments, reconciliation): `git -C /tmp/121-platform diff <since> <tag> -- 'services/121-service/src/**/*.controller.ts' 'services/121-service/src/**/*.dto.ts'`.
 - The platform's own demo programs in `services/121-service/src/seed-data/program/` (e.g. `demo-program-excel.json`) show the current program payload; compare them with `PROGRAM` and `FSP_CONFIG` in `seed.py` when new fields become required.
 - Update `seed.py` (and `portal.py` for login or request changes) to match. Keep the seed idempotent: a second run must not create anything twice.
-- If the test portal is available, run `uv run python -m screenshots --seed --only LoginPage.png` to check the seed. If the test environment does not run this release yet, make the change anyway and list it under **To verify** in the PR.
+- Run `uv run python -m screenshots --seed --only LoginPage.png` to check the seed.
 
 Then update the images:
 
