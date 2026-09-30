@@ -13,7 +13,7 @@ The issue body lists the release range, release notes, commits and changed porta
 ## Hard rules
 
 - Never edit `docs/*/nlrc/` and do not edit `docs/nl/` (managed separately).
-- Only change files in `docs/en/`, `docs/fr/`, `overrides/assets/img/`, `config/en/mkdocs.yml`, `config/fr/mkdocs.yml` and `screenshots/scenarios.py` (to fix locators or add scenarios for new images).
+- Only change files in `docs/en/`, `docs/fr/`, `overrides/assets/img/`, `config/en/mkdocs.yml`, `config/fr/mkdocs.yml`, `screenshots/scenarios.py` (to fix locators or add scenarios for new images) and `screenshots/seed.py` / `screenshots/portal.py` (to follow API changes, see step 5).
 - Only run `python -m screenshots --seed` when the demo data is missing (see step 5). It only touches the "Multipurpose cash" demo program, but it writes to the environment in `PORTAL_URL_121`, which must be a test environment such as staging.
 - Never reference an image that does not exist; the build and readers will break.
 - If you are not sure a statement is correct, write it anyway and put `<!-- VERIFY: what to check -->` right after it. List every VERIFY in the PR.
@@ -60,6 +60,15 @@ When in doubt, read the diff before deciding.
 ## 5. Screenshots
 
 Images live in `overrides/assets/img/`. `uv run python -m screenshots --list` shows the images that a scenario can regenerate.
+
+First keep the demo data seed (`screenshots/seed.py`) working. It creates the demo program through the 121 API, so API changes can break it:
+
+- Check whether the release changes an endpoint or payload that `seed.py` uses (programs, registrations and their statuses, FSP configurations, program users, approval thresholds, attachments, payments, reconciliation): `git -C /tmp/121-platform diff <since> <tag> -- 'services/121-service/src/**/*.controller.ts' 'services/121-service/src/**/*.dto.ts'`.
+- The platform's own demo programs in `services/121-service/src/seed-data/program/` (e.g. `demo-program-excel.json`) show the current program payload; compare them with `PROGRAM` and `FSP_CONFIG` in `seed.py` when new fields become required.
+- Update `seed.py` (and `portal.py` for login or request changes) to match. Keep the seed idempotent: a second run must not create anything twice.
+- If the test portal is available, run `uv run python -m screenshots --seed --only LoginPage.png` to check the seed. If the test environment does not run this release yet, make the change anyway and list it under **To verify** in the PR.
+
+Then update the images:
 
 - For every image that shows changed UI: if `PORTAL_URL_121`, `API_URL_121`, `USERNAME_121` and `PASSWORD_121` are set, run `uv run python -m screenshots --only <name>.png` and inspect `screenshots/output/<name>.png`.
   - If the run reports that the demo program, a registration or a payment is missing ("run once with --seed", "run with --seed", "seed needs an approver"), the test environment was probably reset. Run `uv run python -m screenshots --seed --only <name>.png` once, then retry.
