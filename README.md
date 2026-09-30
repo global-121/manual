@@ -92,11 +92,9 @@ Each image has a scenario in `screenshots/scenarios.py` that drives the 121 Port
 - The Azure Static Web App config includes explicit CORS rules for `en/faq/*` and `fr/faq/*`.
 - Reason: FAQ pages from this manual are embedded in a 510.global context (Using in-page JS, using `fetch()`.), so `Access-Control-Allow-Origin: https://510.global` must remain in `staticwebapp.config.json` for those routes.
 
-## Copilot and PR guidance
+## Automation
 
-- Repository-wide Copilot instructions for translation and ToC-anchor safety are in `.github/copilot-instructions.md`.
-
-### Release sync
+Repository-wide Copilot instructions for translation and ToC-anchor safety are in `.github/copilot-instructions.md`.
 
 For every new [121 Platform release](https://github.com/global-121/121-platform/releases), Copilot drafts the manual update:
 
@@ -104,6 +102,14 @@ For every new [121 Platform release](https://github.com/global-121/121-platform/
 2. The issue is assigned to Copilot cloud agent with the custom agent `.github/agents/release-sync.agent.md`. Copilot reviews every commit, updates the EN and FR pages (and screenshots where possible), and opens a pull request with a table of all release items and their manual impact.
 3. Review the pull request and check the `<!-- VERIFY -->` items. To have something changed, comment on the pull request and mention `@copilot` (e.g. "@copilot also update the glossary"); Copilot pushes the changes to the same pull request. Collect several remarks in one review (**Start a review** > **Submit review**) so they are handled in one run. Comments on the issue are not picked up.
 4. Merge when it is right.
+
+## AI Disclaimer
+
+Parts of the code in this repository were written and reviewed with the assistance of AI tools, including large language models (LLMs).
+
+All AI-generated code has been reviewed by human contributors before being merged. The humans involved take responsibility for the correctness and quality of the code.
+
+If you have questions or concerns, please contact the maintainers.
 
 <!-- One-time setup (repository admin):
 
