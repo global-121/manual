@@ -324,7 +324,8 @@ def _payments(portal: Portal, approver: APIRequestContext) -> None:
     """Create four payments in the states the payment screenshots need."""
     included = [ref for ref, s in TARGET_STATUS.items() if s == "included"]
     # In creation order: (registrations, approve, start).
-    # The first is reconciled later; the third is approved but never started; the fourth stays unreconciled.
+    # The first is reconciled later; the third is approved but not started;
+    # the fourth stays unreconciled.
     plan = [
         (included, True, True),
         (included[:2], False, False),
