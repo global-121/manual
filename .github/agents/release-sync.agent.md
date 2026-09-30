@@ -70,7 +70,7 @@ First keep the demo data seed (`screenshots/seed.py`) working. It creates the de
 
 Then update the images:
 
-- For every image that shows changed UI: if `PORTAL_URL_121`, `API_URL_121`, `USERNAME_121` and `PASSWORD_121` are set, run `uv run python -m screenshots --only <name>.png` and inspect `screenshots/output/<name>.png`.
+- For every image that shows changed UI: run `uv run python -m screenshots --only <name>.png` and inspect `screenshots/output/<name>.png`.
   - If the run reports that the demo program, a registration or a payment is missing ("run once with --seed", "run with --seed", "seed needs an approver"), the test environment was probably reset. Run `uv run python -m screenshots --seed --only <name>.png` once, then retry.
   - Copy it over the old image only if it shows the new UI and the state the text describes. The test environment may not run this release yet.
   - If a scenario fails because the UI changed, fix the locator in `screenshots/scenarios.py`. The locators mirror the e2e page objects in `/tmp/121-platform/e2e/portal/pages/`.
