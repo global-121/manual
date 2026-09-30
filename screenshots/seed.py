@@ -106,6 +106,9 @@ FAILED_TRANSACTION = ("manual-screenshots-08", "Incorrect phone number")
 # Status changes go through "included" first where the platform requires it.
 STATUS_PATH = {"new": [], "validated": ["validated"], "included": ["included"], "paused": ["included", "paused"], "declined": ["declined"]}
 
+# Extra team member: a 2nd eligible approver and a user to edit (you cannot edit your own roles).
+TEAM_MEMBER = ("cva-officer@example.org", "cva-officer")
+
 MINIMAL_PDF = (
     b"%PDF-1.4\n1 0 obj<</Type/Catalog/Pages 2 0 R>>endobj\n"
     b"2 0 obj<</Type/Pages/Kids[3 0 R]/Count 1>>endobj\n"
@@ -126,6 +129,7 @@ def seed(portal: Portal, approver: APIRequestContext | None) -> int:
 
     _program(portal)
     _fsp(portal)
+    _team(portal)
     _registrations(portal)
     _statuses(portal)
     _data_change(portal)
@@ -149,6 +153,17 @@ def _approval_threshold(portal: Portal, approver: APIRequestContext) -> None:
     portal.api("PUT", f"program:/users/{approver_id}", data={"roles": ["approver"], "scope": ""})
     portal.api("PUT", "program:/approval-thresholds", data=[{"thresholdAmount": 0, "userIds": [approver_id]}])
     print(f"seed: set approval threshold (approver user {approver_id})")
+
+
+def _team(portal: Portal) -> None:
+    username, role = TEAM_MEMBER
+    if any(u.get("username") == username for u in portal.api("GET", "program:/users")):
+        return
+    user = next((u for u in portal.api("GET", "/users") if u.get("username") == username), None)
+    if user is None:
+        raise LookupError(f"user {username} not found on this environment")
+    portal.api("PUT", f"program:/users/{user['id']}", data={"roles": [role], "scope": ""})
+    print(f"seed: added {username} to the program team")
 
 
 def _program(portal: Portal) -> None:

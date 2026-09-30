@@ -13,7 +13,7 @@ from dataclasses import dataclass
 from playwright.sync_api import Locator, Page
 
 from .portal import LOCALE, Portal
-from .seed import PEOPLE
+from .seed import PEOPLE, TEAM_MEMBER
 
 
 @dataclass
@@ -276,25 +276,21 @@ def status_filter_new(portal: Portal) -> Page:
     return page
 
 
-def search_registration(portal: Portal) -> Page:
+def search_registration(portal: Portal) -> Locator:
     page = registrations(portal)
     Portal.column_filter_button(page, "Name").click()
     dialog = page.get_by_role("dialog").filter(visible=True)
     dialog.get_by_role("textbox").fill(INCLUDED)
-    dialog.get_by_role("button", name="Apply").click()
-    dialog.wait_for(state="hidden")
-    page.get_by_text("Showing 1 to 1 of 1 records").wait_for()
-    unfocus(page)
-    return page
+    page.mouse.move(640, 600)
+    page.wait_for_timeout(400)
+    return Portal.clip_around(page.get_by_test_id("sidebar-toggle"), dialog, full_width=True)
 
 
 def row_menu(portal: Portal) -> Locator:
     page = registrations(portal)
-    Portal.row(page, INCLUDED).click(button="right")
-    item = page.get_by_role("menuitem", name="Pause")
-    item.wait_for()
+    Portal.table(page).locator("tbody tr").first.click(button="right")
+    page.get_by_role("menuitem", name="Pause").wait_for()
     page.wait_for_timeout(400)
-    Portal.highlight(item)
     return Portal.clip_around(page.get_by_test_id("sidebar-toggle"), page.get_by_role("menu"), full_width=True)
 
 
@@ -306,11 +302,16 @@ def pause_dialog(portal: Portal) -> Locator:
     return open_dialog(page, "Pause registration")
 
 
-def paused_status(portal: Portal) -> Page:
+def paused_status(portal: Portal) -> Locator:
     page = registrations(portal)
     search(page, PAUSED)
     unfocus(page)
-    return page
+    return Portal.clip_around(
+        page.get_by_role("heading", name="Registrations", level=1),
+        page.get_by_role("button", name="Delete").first,
+        page.get_by_text("Showing 1 to 1 of 1 records"),
+        padding=24,
+    )
 
 
 def decline_dialog(portal: Portal) -> Locator:
@@ -337,20 +338,29 @@ def personal_information(portal: Portal) -> Locator:
     return registration_details(personal_information_tab(portal, UNIQUE))
 
 
-def update_information_dialog(portal: Portal) -> Page:
+def update_information_dialog(portal: Portal) -> Locator:
     page = personal_information_tab(portal, UNIQUE)
     page.get_by_role("button", name="Edit information").click()
     page.get_by_label("village").fill("Sarville")
     page.get_by_role("button", name="Save").click()
-    page.get_by_test_id("form-dialog-submit-button").wait_for()
-    return page
+    submit = page.get_by_test_id("form-dialog-submit-button")
+    submit.wait_for()
+    page.wait_for_timeout(400)
+    dialog = page.locator("[role=dialog], [role=alertdialog]").filter(has=submit)
+    return Portal.clip_around(dialog, padding=48)
 
 
 def edit_duplicate(portal: Portal) -> Locator:
-    page = personal_information_tab(portal, DUPLICATE)
+    page = full_height(personal_information_tab(portal, DUPLICATE))
     page.get_by_role("button", name="Edit information").click()
     page.get_by_role("button", name="Save").wait_for()
-    return registration_details(page)
+    unfocus(page)
+    # First visible select is the FSP field in the second form row.
+    return Portal.clip_around(
+        page.get_by_role("link", name="All Registrations"),
+        page.locator("p-select").filter(visible=True).first,
+        full_width=True,
+    )
 
 
 def manage_table(portal: Portal) -> Page:
@@ -473,6 +483,8 @@ def upload_file_dialog(portal: Portal) -> Locator:
 
 def attachment_menu(portal: Portal) -> Locator:
     page = monitoring_tab("Files")(portal)
+    # Extra height moves the footer away from the open menu.
+    page.set_viewport_size({"width": 1280, "height": page.viewport_size["height"] + 150})
     Portal.table(page).locator("tbody tr").first.locator("button").last.click()
     page.get_by_role("menuitem").first.wait_for()
     page.wait_for_timeout(400)
@@ -578,7 +590,14 @@ def payments_export_dialog(portal: Portal) -> Locator:
 def failed_status(portal: Portal) -> Locator:
     page = started_payment(portal)
     filter_failed(page)
-    return Portal.clip_around(transactions_card(page), page.get_by_role("listbox"), full_width=True)
+    page.get_by_role("heading", level=1).click()
+    page.get_by_role("dialog").filter(visible=True).wait_for(state="hidden")
+    unfocus(page)
+    table = Portal.table(page)
+    headers = table.locator("thead th").all_inner_texts()
+    reason = next(i for i, h in enumerate(headers) if h.strip().startswith("Reason"))
+    Portal.highlight(table.locator("tbody tr").first.locator("td").nth(reason))
+    return Portal.clip_around(transactions_card(page), full_width=True)
 
 
 def retry_button(page: Page) -> Locator:
@@ -710,11 +729,14 @@ def add_user_to_team(portal: Portal) -> Locator:
     return Portal.clip_around(dialog)
 
 
+def team_row(page: Page) -> Locator:
+    return Portal.table(page).locator("tbody tr").filter(has_text=TEAM_MEMBER[0])
+
+
 def team_row_menu(portal: Portal) -> Page:
     page = settings("users/team")(portal)
-    table = portal.wait_for_table(page)
-    more = table.locator("tbody tr").first.locator("button").last
-    more.click()
+    portal.wait_for_table(page)
+    team_row(page).locator("button").last.click()
     page.get_by_role("menuitem").first.wait_for()
     page.wait_for_timeout(400)
     return page
@@ -722,7 +744,7 @@ def team_row_menu(portal: Portal) -> Page:
 
 def team_remove(portal: Portal) -> Locator:
     page = team_row_menu(portal)
-    Portal.highlight(Portal.table(page).locator("tbody tr").first.locator("button").last)
+    Portal.highlight(team_row(page).locator("button").last)
     Portal.highlight(page.get_by_role("menuitem", name="Remove user"))
     return Portal.clip_around(card(page, "Program team"), page.get_by_role("menu"))
 
@@ -735,6 +757,7 @@ def team_edit(portal: Portal) -> Locator:
     button.wait_for()
     page.wait_for_timeout(400)
     unfocus(page)
+    Portal.highlight(dialog.locator("p-multiselect").first)
     Portal.highlight(button)
     return Portal.clip_around(dialog)
 
@@ -749,13 +772,24 @@ def edit_payment_approval(portal: Portal) -> tuple[Page, Locator]:
 
 def payment_approval_users(portal: Portal) -> Locator:
     page, approval = edit_payment_approval(portal)
-    unfocus(page)
-    Portal.highlight(approval.locator("p-multiselect").first)
-    return Portal.clip_around(approval)
+    approval.locator("p-multiselect").first.click()
+    listbox = page.get_by_role("listbox")
+    option = listbox.get_by_role("option", selected=True).first
+    option.wait_for()
+    page.mouse.move(1270, 10)
+    page.wait_for_timeout(400)
+    Portal.highlight(option)
+    return Portal.clip_around(approval, listbox)
 
 
 def payment_approval_steps(page: Page, approval: Locator) -> Locator:
     approval.get_by_role("button", name="Add approval step").click()
+    first_step = approval.locator("p-multiselect").first.inner_text().strip()
+    approval.get_by_text("Select 1 or more users from your program team").click()
+    options = page.get_by_role("listbox").get_by_role("option", selected=False)
+    options.filter(has_not_text=first_step).first.click()
+    approval.get_by_text("Payment approval", exact=True).click()
+    page.get_by_role("listbox").wait_for(state="hidden")
     approval.get_by_role("spinbutton").last.fill("1000")
     unfocus(page)
     page.wait_for_timeout(400)
@@ -794,10 +828,10 @@ SCENARIOS = [
     Scenario("ImportRegistrationTemplate.png", "Import new registrations dialog", import_dialog),
     Scenario("ClearFilterButton.png", "Filtered table, 'Clear filters' highlighted", clear_filters, top(540)),
     Scenario("RegisteredStatusFilter.png", "Status column filter with 'New' selected", status_filter_new, top(570)),
-    Scenario("SearchReg.png", "Registrations table filtered by name", search_registration, top(440)),
+    Scenario("SearchReg.png", "Name column filter with a name typed in", search_registration),
     Scenario("RegistationsStatusRighList.png", "Right-click menu on a registration row", row_menu),
     Scenario("PausePANotification.png", "Pause registration dialog", pause_dialog),
-    Scenario("PauseStatus.png", "Registration with status Paused", paused_status, top(444)),
+    Scenario("PauseStatus.png", "Registration with status Paused", paused_status),
     Scenario("RegistrationDeclined.png", "Decline registration(s) dialog", decline_dialog),
     Scenario("PersonalInformationPA.png", "Registration page, Personal information tab", personal_information),
     Scenario("UpdateInformationPopUp.png", "Reason dialog after editing personal information", update_information_dialog),
@@ -829,7 +863,7 @@ SCENARIOS = [
     Scenario("IndividualExportReport.png", "Payment page, Export menu", payment_export_menu),
     Scenario("ReconciliationImport.png", "Import reconciliation data dialog", reconciliation_dialog),
     Scenario("ApprovePaymentExport.png", "Payments export dialog", payments_export_dialog),
-    Scenario("FailedPaymentstatus.png", "Transaction status filter with 'Failed' selected", failed_status),
+    Scenario("FailedPaymentstatus.png", "Transactions filtered on 'Failed', reason highlighted", failed_status),
     Scenario("RetryPaiementbutton.png", "Failed transaction selected, 'Retry failed' highlighted", retry_failed_button),
     Scenario("RetryPaymentConfirm.png", "Retry failed transactions dialog", retry_failed_confirm),
     # settings
