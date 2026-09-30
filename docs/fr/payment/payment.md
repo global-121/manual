@@ -28,7 +28,7 @@ La plateforme 121 offre **deux méthodes différentes pour traiter les paiements
 Vous pouvez afficher un résumé de tous les paiements effectués au cours de votre programme et aux enregistrements inclus dans le programme. Cet aperçu est particulièrement utile pour :
 
 - Avoir une vision claire de tous les décaissements effectués le long du programme jusqu'à présent.
-- Que le responsable financier et le gestionnaire financier suivi des statuts de paiement, y compris les paiements réussis, en cours de traitement et échoués.
+|- Que le responsable financier et le gestionnaire financier suivent les statuts de paiement, y compris les paiements réussis, en cours de traitement et échoués.
 - Que le responsable CVA et le gestionnaire CVA soient informés et suivent si un enregistrement reçoit ou non une aide monétaire.
 - Pour les bailleurs de fonds qui peuvent vouloir voir les processus de paiement en cours et les délais selon les besoins.
 
