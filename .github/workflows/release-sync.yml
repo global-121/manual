@@ -35,6 +35,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
           COPILOT_ASSIGN_TOKEN: ${{ secrets.COPILOT_ASSIGN_TOKEN }}
+          COPILOT_MODEL: ${{ vars.COPILOT_MODEL }}
           INPUT_RELEASE: ${{ inputs.release }}
           INPUT_SINCE: ${{ inputs.since }}
         run: python3 .github/scripts/release_sync_issue.py
