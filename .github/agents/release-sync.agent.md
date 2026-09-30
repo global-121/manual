@@ -66,7 +66,7 @@ Images live in `overrides/assets/img/`. `uv run python -m screenshots --list` sh
   - Copy it over the old image only if it shows the new UI and the state the text describes. The test environment may not run this release yet.
   - If a scenario fails because the UI changed, fix the locator in `screenshots/scenarios.py`. The locators mirror the e2e page objects in `/tmp/121-platform/e2e/portal/pages/`.
 - Otherwise, list it under "Screenshots to refresh" in the PR with the page and what it should show. This includes images without a scenario (GIFs, Kobo, Excel, Power BI and other hand-made images).
-- New features usually deserve a new image. If the test portal is available, add a scenario to `screenshots/scenarios.py` (same pattern as the existing ones, with a descriptive file name that will not change), run it with `--only`, check the result, add it to `overrides/assets/img/` and reference it in both the EN and FR page. If the portal is not available or the scenario cannot reach the right state, list the image under "Screenshots to refresh" with a suggested file name, the page and what it should show, and do not reference it in the docs yet.
+- New features usually deserve a new image. If the test portal is available, add a scenario to `screenshots/scenarios.py` (same pattern as the existing ones, with a descriptive file name that will not change), run it with `--only`, check the result, add it to `overrides/assets/img/` and reference it in both the EN and FR page. If the scenario cannot reach the right state, list the image under "Screenshots to refresh" with a suggested file name, the page and what it should show, and do not reference it in the docs yet.
 
 ## 6. Validate
 
