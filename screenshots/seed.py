@@ -223,9 +223,37 @@ def _fsp(portal: Portal) -> None:
 
 
 def _registrations(portal: Portal) -> None:
-    """Import the demo registrations that do not exist yet."""
-    existing = {r["referenceId"] for r in portal.registrations()}
-    missing = [r for r in REGISTRATIONS if r["referenceId"] not in existing]
+    """Import the missing demo registrations, and re-create those that should be New but are not.
+
+    The platform cannot move a registration back to New, so such a registration is deleted
+    and imported again, under its seeded referenceId plus a `.<timestamp>` suffix (a deleted
+    referenceId cannot be reused).
+    """
+    live = {r["referenceId"].split(".")[0]: r for r in portal.registrations()}
+    stale = [
+        live[ref]["referenceId"]
+        for ref, target in TARGET_STATUS.items()
+        if target == "new" and ref in live and live[ref]["status"] != "new"
+    ]
+    if stale:
+        portal.api(
+            "DELETE",
+            "program:/registrations",
+            params={"filter.referenceId": "$in:" + ",".join(stale)},
+            data={"reason": "Manual screenshots seed: reset to New"},
+        )
+        portal.wait_for(
+            lambda: not any(r["referenceId"] in stale for r in portal.registrations()),
+            "registrations to be deleted",
+        )
+        logger.info("seed: deleted %d registrations to re-create them as New", len(stale))
+    suffix = datetime.now(UTC).strftime(".%Y%m%d%H%M%S")
+    stale_refs = {ref.split(".")[0] for ref in stale}
+    missing = [r for r in REGISTRATIONS if r["referenceId"] not in live] + [
+        {**r, "referenceId": r["referenceId"] + suffix}
+        for r in REGISTRATIONS
+        if r["referenceId"] in stale_refs
+    ]
     if missing:
         portal.api("POST", "program:/registrations", data=missing)
         logger.info("seed: imported %d registrations", len(missing))
