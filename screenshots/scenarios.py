@@ -42,9 +42,11 @@ UNIQUE = "Lara Schmitt"
 def block_writes(page: Page, dry_run: bool = False) -> None:
     page.route(
         "**/api/**",
-        lambda r: r.continue_()
-        if r.request.method == "GET" or (dry_run and "dryRun=true" in r.request.url)
-        else r.abort(),
+        lambda r: (
+            r.continue_()
+            if r.request.method == "GET" or (dry_run and "dryRun=true" in r.request.url)
+            else r.abort()
+        ),
     )
 
 
@@ -105,7 +107,9 @@ def unfocus(page: Page) -> None:
 
 def full_height(page: Page) -> Page:
     unfocus(page)
-    page.set_viewport_size({"width": 1280, "height": page.evaluate("document.documentElement.scrollHeight")})
+    page.set_viewport_size(
+        {"width": 1280, "height": page.evaluate("document.documentElement.scrollHeight")}
+    )
     return page
 
 
@@ -168,7 +172,10 @@ def login_page(portal: Portal) -> Page:
     page = ctx.new_page()
     page.goto(f"{portal.portal_url}/{LOCALE}/login")
     page.get_by_label("E-mail").wait_for()
-    page.evaluate("['blur', 'focusout'].forEach(t => window.addEventListener(t, e => e.stopImmediatePropagation(), true))")
+    page.evaluate(
+        "['blur', 'focusout'].forEach(t => "
+        "window.addEventListener(t, e => e.stopImmediatePropagation(), true))"
+    )
     page.get_by_test_id("locale-dropdown").click()
     page.get_by_role("option", name="Français").wait_for()
     return page
@@ -234,7 +241,9 @@ def reset_password(portal: Portal) -> Locator:
     item = page.get_by_role("menuitem", name="Reset password")
     item.wait_for()
     Portal.highlight(item)
-    return Portal.clip_around(page.get_by_test_id("sidebar-toggle"), page.get_by_role("menu"), full_width=True)
+    return Portal.clip_around(
+        page.get_by_test_id("sidebar-toggle"), page.get_by_role("menu"), full_width=True
+    )
 
 
 # --- registrations -----------------------------------------------------------------
@@ -291,7 +300,9 @@ def row_menu(portal: Portal) -> Locator:
     Portal.table(page).locator("tbody tr").first.click(button="right")
     page.get_by_role("menuitem", name="Pause").wait_for()
     page.wait_for_timeout(400)
-    return Portal.clip_around(page.get_by_test_id("sidebar-toggle"), page.get_by_role("menu"), full_width=True)
+    return Portal.clip_around(
+        page.get_by_test_id("sidebar-toggle"), page.get_by_role("menu"), full_width=True
+    )
 
 
 def pause_dialog(portal: Portal) -> Locator:
@@ -331,7 +342,9 @@ def personal_information_tab(portal: Portal, name: str) -> Page:
 def registration_details(page: Page) -> Locator:
     full_height(page)
     card = page.locator("p-card").filter(has=page.get_by_test_id("registration-menu"))
-    return Portal.clip_around(page.get_by_role("link", name="All Registrations"), card, full_width=True)
+    return Portal.clip_around(
+        page.get_by_role("link", name="All Registrations"), card, full_width=True
+    )
 
 
 def personal_information(portal: Portal) -> Locator:
@@ -385,7 +398,9 @@ def duplicate_actions(portal: Portal) -> Locator:
     page.get_by_role("menuitem", name="Ignore duplication").wait_for()
     page.wait_for_timeout(400)
     return Portal.clip_around(
-        page.get_by_role("link", name="All Registrations"), page.get_by_role("menu"), full_width=True
+        page.get_by_role("link", name="All Registrations"),
+        page.get_by_role("menu"),
+        full_width=True,
     )
 
 
@@ -442,7 +457,9 @@ def dashboard(portal: Portal) -> Locator:
     # At 1280px the five-status payment legends wrap and squash the payment charts.
     page.set_viewport_size({"width": 1920, "height": page.viewport_size["height"]})
     page.wait_for_timeout(1000)
-    page.set_viewport_size({"width": 1920, "height": page.evaluate("document.documentElement.scrollHeight")})
+    page.set_viewport_size(
+        {"width": 1920, "height": page.evaluate("document.documentElement.scrollHeight")}
+    )
     page.wait_for_timeout(1000)
     return Portal.clip_around(tabs_card(page))
 
@@ -471,7 +488,11 @@ def upload_file_dialog(portal: Portal) -> Locator:
     dialog.wait_for()
     page.wait_for_timeout(800)
     dialog.locator("input[type=file]").first.set_input_files(
-        {"name": "distribution-plan.pdf", "mimeType": "application/pdf", "buffer": b"%PDF-1.4\n%%EOF\n"}
+        {
+            "name": "distribution-plan.pdf",
+            "mimeType": "application/pdf",
+            "buffer": b"%PDF-1.4\n%%EOF\n",
+        }
     )
     dialog.get_by_placeholder("Name the file for easy identification").fill("Distribution plan")
     unfocus(page)
@@ -497,7 +518,9 @@ def attachment_menu(portal: Portal) -> Locator:
 def payments_page(portal: Portal) -> Locator:
     page = payments(portal)
     return Portal.clip_around(
-        page.get_by_test_id("sidebar-toggle"), page.get_by_test_id("card-with-link").last, full_width=True
+        page.get_by_test_id("sidebar-toggle"),
+        page.get_by_test_id("card-with-link").last,
+        full_width=True,
     )
 
 
@@ -521,9 +544,14 @@ def create_payment_summary(portal: Portal) -> Page:
 
 
 def approve_dialog(portal: Portal) -> Locator:
-    username, password = os.environ.get("APPROVER_USERNAME_121"), os.environ.get("APPROVER_PASSWORD_121")
+    username, password = (
+        os.environ.get("APPROVER_USERNAME_121"),
+        os.environ.get("APPROVER_PASSWORD_121"),
+    )
     if not (username and password):
-        raise LookupError("set APPROVER_USERNAME_121/APPROVER_PASSWORD_121 to open the page as the approver")
+        raise LookupError(
+            "set APPROVER_USERNAME_121/APPROVER_PASSWORD_121 to open the page as the approver"
+        )
     ctx = portal.ctx.browser.new_context(
         viewport={"width": 1280, "height": 720}, locale="en-GB", timezone_id="Europe/Amsterdam"
     )
@@ -554,7 +582,9 @@ def start_payment_button(portal: Portal) -> Page:
 
 def payment_page(portal: Portal, state: str = "reconciled") -> Locator:
     page = full_height(started_payment(portal, state))
-    return Portal.clip_around(page.get_by_test_id("sidebar-toggle"), transactions_card(page), full_width=True)
+    return Portal.clip_around(
+        page.get_by_test_id("sidebar-toggle"), transactions_card(page), full_width=True
+    )
 
 
 def payment_export_menu(portal: Portal) -> Locator:
@@ -682,7 +712,9 @@ def expand_form_requirements(page: Page) -> None:
 
 def fsp_required_fields(portal: Portal) -> Locator:
     page = fsps(portal)
-    Portal.highlight(page.locator("p-accordion-header [data-pc-section=toggleicon]").first, padding=8)
+    Portal.highlight(
+        page.locator("p-accordion-header [data-pc-section=toggleicon]").first, padding=8
+    )
     return Portal.clip_around(card(page, "Financial Service Providers"))
 
 
@@ -701,7 +733,11 @@ def fsp_reconfigure(portal: Portal) -> Page:
     item = page.get_by_role("menuitem", name="Reconfigure")
     item.wait_for()
     page.wait_for_timeout(400)
-    for target in (page.get_by_role("tab", name="Settings"), page.get_by_role("link", name="FSP integration"), item):
+    for target in (
+        page.get_by_role("tab", name="Settings"),
+        page.get_by_role("link", name="FSP integration"),
+        item,
+    ):
         Portal.highlight(target)
     return page
 
@@ -800,7 +836,9 @@ def payment_approval_step(portal: Portal) -> Locator:
     page, approval = edit_payment_approval(portal)
     delete = payment_approval_steps(page, approval)
     Portal.highlight(
-        Portal.clip_around(approval.get_by_text("Select users for this approval step"), delete, padding=6)
+        Portal.clip_around(
+            approval.get_by_text("Select users for this approval step"), delete, padding=6
+        )
     )
     return Portal.clip_around(approval)
 
@@ -814,46 +852,97 @@ def payment_approval_delete_step(portal: Portal) -> Locator:
 SCENARIOS = [
     # general
     Scenario("LoginPage.png", "Login page with language dropdown open", login_page),
-    Scenario("ChangeLanguage.png", "Sidebar with language dropdown open", sidebar_language, (0, 0, 728, 720)),
+    Scenario(
+        "ChangeLanguage.png",
+        "Sidebar with language dropdown open",
+        sidebar_language,
+        (0, 0, 728, 720),
+    ),
     Scenario("AccountUser.png", "Account menu open", account_menu, (844, 0, 436, 352)),
     Scenario("ChangePassword.png", "Change password page", change_password, (0, 0, 672, 520)),
     # users
     Scenario("UserMenu.png", "Sidebar open on the users page", user_menu),
     Scenario("AddUser.png", "Users page, 'Add new user' highlighted", add_user_button, top(609)),
     Scenario("AddingNewUser.png", "Add new user dialog", add_user_dialog),
-    Scenario("ResetPasswordUser.png", "User row menu, 'Reset password' highlighted", reset_password),
+    Scenario(
+        "ResetPasswordUser.png", "User row menu, 'Reset password' highlighted", reset_password
+    ),
     # registrations
     Scenario("RegistrationsPage.png", "Registrations page", registrations_page),
-    Scenario("RegistrationsPageImport.png", "Registrations page, 'Import' highlighted", import_button),
+    Scenario(
+        "RegistrationsPageImport.png", "Registrations page, 'Import' highlighted", import_button
+    ),
     Scenario("ImportRegistrationTemplate.png", "Import new registrations dialog", import_dialog),
-    Scenario("ClearFilterButton.png", "Filtered table, 'Clear filters' highlighted", clear_filters, top(540)),
-    Scenario("RegisteredStatusFilter.png", "Status column filter with 'New' selected", status_filter_new, top(570)),
+    Scenario(
+        "ClearFilterButton.png",
+        "Filtered table, 'Clear filters' highlighted",
+        clear_filters,
+        top(540),
+    ),
+    Scenario(
+        "RegisteredStatusFilter.png",
+        "Status column filter with 'New' selected",
+        status_filter_new,
+        top(570),
+    ),
     Scenario("SearchReg.png", "Name column filter with a name typed in", search_registration),
     Scenario("RegistationsStatusRighList.png", "Right-click menu on a registration row", row_menu),
     Scenario("PausePANotification.png", "Pause registration dialog", pause_dialog),
     Scenario("PauseStatus.png", "Registration with status Paused", paused_status),
     Scenario("RegistrationDeclined.png", "Decline registration(s) dialog", decline_dialog),
-    Scenario("PersonalInformationPA.png", "Registration page, Personal information tab", personal_information),
-    Scenario("UpdateInformationPopUp.png", "Reason dialog after editing personal information", update_information_dialog),
-    Scenario("EditInformationDuplicate.png", "Editing personal information of a duplicate", edit_duplicate),
+    Scenario(
+        "PersonalInformationPA.png",
+        "Registration page, Personal information tab",
+        personal_information,
+    ),
+    Scenario(
+        "UpdateInformationPopUp.png",
+        "Reason dialog after editing personal information",
+        update_information_dialog,
+    ),
+    Scenario(
+        "EditInformationDuplicate.png",
+        "Editing personal information of a duplicate",
+        edit_duplicate,
+    ),
     Scenario("ShowDuplicateColumn.png", "Manage table sidebar", manage_table, (498, 0, 782, 720)),
     Scenario("FilterDuplicate.png", "Duplicates column filter", filter_duplicates, top(520)),
-    Scenario("DeclineIgnoreDuplicate.png", "Duplicate registration with Actions menu open", duplicate_actions),
-    Scenario("MassUpdateButton.png", "Import menu with 'Update selected registrations'", mass_update_button, top(420)),
+    Scenario(
+        "DeclineIgnoreDuplicate.png",
+        "Duplicate registration with Actions menu open",
+        duplicate_actions,
+    ),
+    Scenario(
+        "MassUpdateButton.png",
+        "Import menu with 'Update selected registrations'",
+        mass_update_button,
+        top(420),
+    ),
     Scenario("MassUpdateWindow.png", "Update selected registrations dialog", mass_update_dialog),
     # monitoring
     Scenario("MonitoringPage.png", "Monitoring page with the first row of charts", monitoring_page),
     Scenario("Dashboard.png", "Monitoring, Dashboard tab with charts", dashboard),
-    Scenario("DataChangestab.png", "Monitoring, Data changes tab", monitoring_tab_card("Data changes")),
+    Scenario(
+        "DataChangestab.png", "Monitoring, Data changes tab", monitoring_tab_card("Data changes")
+    ),
     Scenario("MonitoringPageFilestab.png", "Monitoring, Files tab", monitoring_tab_card("Files")),
     Scenario("UploadFilesInfo.png", "Upload file dialog", upload_file_dialog),
     Scenario("RenameDeleteAttachment.png", "Attachment row menu", attachment_menu),
     # payments
     Scenario("PaymentsPage.png", "Payments page with payment cards", payments_page),
-    Scenario("CreateNewpaymentSelect.png", "Create payment, registration selection", create_payment_select),
+    Scenario(
+        "CreateNewpaymentSelect.png",
+        "Create payment, registration selection",
+        create_payment_select,
+    ),
     Scenario("StartPayment.png", "Create payment summary", create_payment_summary),
     Scenario("ApprovePaymentFinal.png", "Approve payment dialog (as the approver)", approve_dialog),
-    Scenario("StartPaymentApproved.png", "Approved payment, 'Start payment' highlighted", start_payment_button, top(424)),
+    Scenario(
+        "StartPaymentApproved.png",
+        "Approved payment, 'Start payment' highlighted",
+        start_payment_button,
+        top(424),
+    ),
     Scenario("PaymentReportBoard.png", "Payment page with transaction list", payment_page),
     Scenario(
         "PendingStatusExcel.png",
@@ -861,22 +950,68 @@ SCENARIOS = [
         lambda portal: payment_page(portal, "processing"),
     ),
     Scenario("IndividualExportReport.png", "Payment page, Export menu", payment_export_menu),
-    Scenario("ReconciliationImport.png", "Import reconciliation data dialog", reconciliation_dialog),
+    Scenario(
+        "ReconciliationImport.png", "Import reconciliation data dialog", reconciliation_dialog
+    ),
     Scenario("ApprovePaymentExport.png", "Payments export dialog", payments_export_dialog),
-    Scenario("FailedPaymentstatus.png", "Transactions filtered on 'Failed', reason highlighted", failed_status),
-    Scenario("RetryPaiementbutton.png", "Failed transaction selected, 'Retry failed' highlighted", retry_failed_button),
+    Scenario(
+        "FailedPaymentstatus.png",
+        "Transactions filtered on 'Failed', reason highlighted",
+        failed_status,
+    ),
+    Scenario(
+        "RetryPaiementbutton.png",
+        "Failed transaction selected, 'Retry failed' highlighted",
+        retry_failed_button,
+    ),
     Scenario("RetryPaymentConfirm.png", "Retry failed transactions dialog", retry_failed_confirm),
     # settings
-    Scenario("settings-programinformation-updatebasicinformation.png", "Basic information card", basic_information),
-    Scenario("settings-programinformation-updatebasicinformation2.png", "Basic information in edit mode", edit_basic_information),
-    Scenario("settings-fspintegration-requiredfields.png", "FSP card, 'Form requirements' chevron highlighted", fsp_required_fields),
-    Scenario("settings-fspintegration-requiredfields2.png", "FSP form requirements expanded", fsp_required_fields_expanded),
-    Scenario("settings-fspintegration-reconfigure2.png", "FSP menu, 'Reconfigure' highlighted", fsp_reconfigure),
+    Scenario(
+        "settings-programinformation-updatebasicinformation.png",
+        "Basic information card",
+        basic_information,
+    ),
+    Scenario(
+        "settings-programinformation-updatebasicinformation2.png",
+        "Basic information in edit mode",
+        edit_basic_information,
+    ),
+    Scenario(
+        "settings-fspintegration-requiredfields.png",
+        "FSP card, 'Form requirements' chevron highlighted",
+        fsp_required_fields,
+    ),
+    Scenario(
+        "settings-fspintegration-requiredfields2.png",
+        "FSP form requirements expanded",
+        fsp_required_fields_expanded,
+    ),
+    Scenario(
+        "settings-fspintegration-reconfigure2.png",
+        "FSP menu, 'Reconfigure' highlighted",
+        fsp_reconfigure,
+    ),
     Scenario("settings-registrationdata4.png", "Link with KoboToolbox dialog", link_kobo_dialog),
     Scenario("settings-programteampng.png", "Add user to team dialog", add_user_to_team),
-    Scenario("settings-programteamremove.png", "Program team row menu, 'Remove user' highlighted", team_remove),
+    Scenario(
+        "settings-programteamremove.png",
+        "Program team row menu, 'Remove user' highlighted",
+        team_remove,
+    ),
     Scenario("settings-programteameditpng.png", "Edit user dialog", team_edit),
-    Scenario("settings-paymentapproval1.png", "Payment approval, first step users", payment_approval_users),
-    Scenario("settings-paymentapproval2.png", "Payment approval with a second step", payment_approval_step),
-    Scenario("settings-paymentapproval3.png", "Payment approval, delete step highlighted", payment_approval_delete_step),
+    Scenario(
+        "settings-paymentapproval1.png",
+        "Payment approval, first step users",
+        payment_approval_users,
+    ),
+    Scenario(
+        "settings-paymentapproval2.png",
+        "Payment approval with a second step",
+        payment_approval_step,
+    ),
+    Scenario(
+        "settings-paymentapproval3.png",
+        "Payment approval, delete step highlighted",
+        payment_approval_delete_step,
+    ),
 ]

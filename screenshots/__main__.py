@@ -4,6 +4,7 @@ Usage: uv run --env-file .env python -m screenshots [--seed] [--only NAME ...] [
 """
 
 import argparse
+import logging
 import os
 import sys
 from pathlib import Path
@@ -14,6 +15,8 @@ from playwright.sync_api import Page, sync_playwright
 from .portal import PROGRAM_TITLE, Portal
 from .scenarios import SCENARIOS
 from .seed import seed
+
+logger = logging.getLogger(__name__)
 
 VIEWPORT = {"width": 1280, "height": 720}
 HIDE_CSS = """
@@ -27,7 +30,9 @@ MASK_EMAILS_JS = """() => {
         const v = n.nodeValue.replace(re, 'user@example.org');
         if (v !== n.nodeValue) n.nodeValue = v;
     }
-    document.querySelectorAll('input').forEach((i) => { i.value = i.value.replace(re, 'user@example.org'); });
+    document.querySelectorAll('input').forEach((i) => {
+        i.value = i.value.replace(re, 'user@example.org');
+    });
 }"""
 
 
@@ -45,10 +50,11 @@ def main() -> int:
     ap.add_argument("--headed", action="store_true")
     ap.add_argument("--list", action="store_true", help="list scenarios and exit")
     args = ap.parse_args()
+    logging.basicConfig(level=logging.INFO, format="%(message)s", stream=sys.stdout, force=True)
 
     if args.list:
         for s in SCENARIOS:
-            print(f"{s.name:50} {s.shows}")
+            print(f"{s.name:50} {s.shows}")  # noqa: T201
         return 0
     if not (args.portal_url and args.api_url):
         ap.error("set PORTAL_URL_121 and API_URL_121 (or pass --portal-url/--api-url)")
@@ -81,7 +87,7 @@ def main() -> int:
         else:
             portal.program_id = portal.find_program()
             if portal.program_id is None:
-                print(f"Program '{PROGRAM_TITLE}' not found; run once with --seed.", file=sys.stderr)
+                logger.error("Program '%s' not found; run once with --seed.", PROGRAM_TITLE)
                 return 1
 
         for s in selected:
@@ -98,10 +104,10 @@ def main() -> int:
                     page.screenshot(path=path, animations="disabled", clip=clip)
                 else:
                     target.screenshot(path=path, animations="disabled")
-                print(f"ok      {s.name}")
+                logger.info("ok      %s", s.name)
             except (PlaywrightError, LookupError, RuntimeError, TimeoutError) as e:
                 failed += 1
-                print(f"FAILED  {s.name}: {str(e).splitlines()[0]}")
+                logger.error("FAILED  %s: %s", s.name, str(e).splitlines()[0])
             finally:
                 for c in browser.contexts:
                     if c is not ctx:
@@ -110,7 +116,9 @@ def main() -> int:
                     pg.close()
         browser.close()
 
-    print(f"\n{len(selected) - failed}/{len(selected)} screenshots written to {args.out}")
+    logger.info(
+        "\n%d/%d screenshots written to %s", len(selected) - failed, len(selected), args.out
+    )
     return 1 if failed else 0
 
 

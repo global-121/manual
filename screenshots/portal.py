@@ -56,7 +56,7 @@ class Portal:
         session: APIRequestContext | None = None,
         **kwargs,
     ):
-        """Call the 121 API as the logged-in portal user, or as another `session` (see api_login)."""
+        """Call the 121 API as the portal user, or as another `session` (see api_login)."""
         if path.startswith("program:"):
             path = f"/programs/{self.program_id}{path.removeprefix('program:')}"
         url = f"{self.api_url}{path}"
@@ -70,13 +70,20 @@ class Portal:
 
     def api_login(self, playwright: Playwright, username: str, password: str) -> APIRequestContext:
         session = playwright.request.new_context()
-        self.api("POST", "/users/login", session=session, data={"username": username, "password": password})
+        self.api(
+            "POST",
+            "/users/login",
+            session=session,
+            data={"username": username, "password": password},
+        )
         return session
 
     def find_program(self) -> int | None:
         for pid in sorted(self.permissions, key=int):
             p = self.api("GET", f"/programs/{pid}")
-            if (p.get("titlePortal") or {}).get("en") == PROGRAM_TITLE and p.get("ngo") == PROGRAM_NGO:
+            if (p.get("titlePortal") or {}).get("en") == PROGRAM_TITLE and p.get(
+                "ngo"
+            ) == PROGRAM_NGO:
                 return int(pid)
         return None
 
@@ -105,8 +112,10 @@ class Portal:
 
     @staticmethod
     def row(page: Page, name: str) -> Locator:
-        return page.get_by_test_id("query-table").locator("tbody tr").filter(
-            has=page.get_by_role("link", name=name, exact=True)
+        return (
+            page.get_by_test_id("query-table")
+            .locator("tbody tr")
+            .filter(has=page.get_by_role("link", name=name, exact=True))
         )
 
     @staticmethod
@@ -119,7 +128,7 @@ class Portal:
 
     @staticmethod
     def clip_around(*targets: Locator, padding: int = 16, full_width: bool = False) -> Locator:
-        """Return an invisible element covering the union of targets plus padding, to screenshot that region."""
+        """Return an invisible element covering the targets plus padding, to screenshot it."""
         boxes = [t.bounding_box() for t in targets]
         if None in boxes:
             raise LookupError("clip target not visible")

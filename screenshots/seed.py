@@ -3,11 +3,14 @@
 Every run converges to the same state; nothing is created twice.
 """
 
-from datetime import datetime, timezone
+import logging
+from datetime import UTC, datetime
 
 from playwright.sync_api import APIRequestContext
 
 from .portal import PROGRAM_NGO, PROGRAM_TITLE, Portal
+
+logger = logging.getLogger(__name__)
 
 FSP = "Excel"
 FSP_CONFIG = {
@@ -42,7 +45,11 @@ def _attr(name: str, label: str, type_: str = "text", **extra) -> dict:
 PROGRAM = {
     "location": "Netherlands",
     "ngo": PROGRAM_NGO,
-    "titlePortal": {"en": PROGRAM_TITLE, "fr": "Espèces à usages multiples", "nl": "Multipurpose cash"},
+    "titlePortal": {
+        "en": PROGRAM_TITLE,
+        "fr": "Espèces à usages multiples",
+        "nl": "Multipurpose cash",
+    },
     "description": {"en": "Multipurpose cash assistance for households affected by the floods."},
     "validation": True,
     "startDate": "2025-01-01T00:00:00.000Z",
@@ -62,7 +69,13 @@ PROGRAM = {
     "monitoringDashboardUrl": "",
     "programRegistrationAttributes": [
         _attr("fullName", "Name"),
-        _attr("phoneNumber", "Phone Number", isRequired=True, showInPeopleAffectedTable=True, duplicateCheck=True),
+        _attr(
+            "phoneNumber",
+            "Phone Number",
+            isRequired=True,
+            showInPeopleAffectedTable=True,
+            duplicateCheck=True,
+        ),
         _attr("village", "village", showInPeopleAffectedTable=True),
         _attr("idNumber", "idNumber", showInPeopleAffectedTable=True),
     ],
@@ -78,7 +91,8 @@ PEOPLE = [
     ("Aspen Bradley", "0845663217", "Sarville", "234569675", "paused"),
     ("Alia Knapp", "0812442251", "Sarville", "234569676", "declined"),
     ("Omar Haddad", "0798112233", "Sarville", "234569677", "included"),
-    ("Nadia Rahman", "0755869424", "Molinos", "346987723", "new"),  # duplicate phone of Alvin Callahan
+    # Same phone number as Alvin Callahan, so both are flagged as duplicates.
+    ("Nadia Rahman", "0755869424", "Molinos", "346987723", "new"),
     ("Pieter de Vries", "0611223344", "Molinos", "346987724", "included"),
 ]
 
@@ -97,14 +111,20 @@ REGISTRATIONS = [
     }
     for i, (name, phone, village, id_number, _) in enumerate(PEOPLE, start=1)
 ]
-TARGET_STATUS = {r["referenceId"]: p[4] for r, p in zip(REGISTRATIONS, PEOPLE)}
+TARGET_STATUS = {r["referenceId"]: p[4] for r, p in zip(REGISTRATIONS, PEOPLE, strict=True)}
 # Edited once after import so the Data changes tab has a row.
 DATA_CHANGE = ("manual-screenshots-10", "village", "Sarville")
 # Reconciled once: this transaction of the first payment fails, the others succeed.
 FAILED_TRANSACTION = ("manual-screenshots-08", "Incorrect phone number")
 
 # Status changes go through "included" first where the platform requires it.
-STATUS_PATH = {"new": [], "validated": ["validated"], "included": ["included"], "paused": ["included", "paused"], "declined": ["declined"]}
+STATUS_PATH = {
+    "new": [],
+    "validated": ["validated"],
+    "included": ["included"],
+    "paused": ["included", "paused"],
+    "declined": ["declined"],
+}
 
 # Extra team member: a 2nd eligible approver and a user to edit (you cannot edit your own roles).
 TEAM_MEMBER = ("cva-officer@example.org", "cva-officer")
@@ -122,9 +142,9 @@ def seed(portal: Portal, approver: APIRequestContext | None) -> int:
     if pid is None:
         created = portal.api("POST", "/programs", data=PROGRAM)
         pid = created["id"]
-        print(f"seed: created program {pid} '{PROGRAM_TITLE}'")
+        logger.info("seed: created program %s '%s'", pid, PROGRAM_TITLE)
     else:
-        print(f"seed: reusing program {pid} '{PROGRAM_TITLE}'")
+        logger.info("seed: reusing program %s '%s'", pid, PROGRAM_TITLE)
     portal.program_id = pid
 
     _program(portal)
@@ -136,7 +156,7 @@ def seed(portal: Portal, approver: APIRequestContext | None) -> int:
     _attachment(portal)
     if approver is None:
         # The platform does not let users assign themselves as approver.
-        print("seed: SKIPPED payments (set APPROVER_USERNAME_121/APPROVER_PASSWORD_121)")
+        logger.warning("seed: SKIPPED payments (set APPROVER_USERNAME_121/APPROVER_PASSWORD_121)")
     else:
         _approval_threshold(portal, approver)
         _payments(portal, approver)
@@ -151,8 +171,12 @@ def _approval_threshold(portal: Portal, approver: APIRequestContext) -> None:
     if any(approver_id in [a.get("userId") for a in t.get("approvers", [])] for t in thresholds):
         return
     portal.api("PUT", f"program:/users/{approver_id}", data={"roles": ["approver"], "scope": ""})
-    portal.api("PUT", "program:/approval-thresholds", data=[{"thresholdAmount": 0, "userIds": [approver_id]}])
-    print(f"seed: set approval threshold (approver user {approver_id})")
+    portal.api(
+        "PUT",
+        "program:/approval-thresholds",
+        data=[{"thresholdAmount": 0, "userIds": [approver_id]}],
+    )
+    logger.info("seed: set approval threshold (approver user %s)", approver_id)
 
 
 def _team(portal: Portal) -> None:
@@ -163,7 +187,7 @@ def _team(portal: Portal) -> None:
     if user is None:
         raise LookupError(f"user {username} not found on this environment")
     portal.api("PUT", f"program:/users/{user['id']}", data={"roles": [role], "scope": ""})
-    print(f"seed: added {username} to the program team")
+    logger.info("seed: added %s to the program team", username)
 
 
 def _program(portal: Portal) -> None:
@@ -171,14 +195,14 @@ def _program(portal: Portal) -> None:
     changed = {k: PROGRAM[k] for k in ("description", "validation") if current.get(k) != PROGRAM[k]}
     if changed:
         portal.api("PATCH", "program:", data=changed)
-        print(f"seed: updated program {', '.join(changed)}")
+        logger.info("seed: updated program %s", ", ".join(changed))
 
 
 def _fsp(portal: Portal) -> None:
     if any(c["name"] == FSP for c in portal.api("GET", "program:/fsp-configurations")):
         return
     portal.api("POST", "program:/fsp-configurations", data=FSP_CONFIG)
-    print(f"seed: configured FSP {FSP}")
+    logger.info("seed: configured FSP %s", FSP)
 
 
 def _registrations(portal: Portal) -> None:
@@ -186,15 +210,18 @@ def _registrations(portal: Portal) -> None:
     missing = [r for r in REGISTRATIONS if r["referenceId"] not in existing]
     if missing:
         portal.api("POST", "program:/registrations", data=missing)
-        print(f"seed: imported {len(missing)} registrations")
+        logger.info("seed: imported %d registrations", len(missing))
 
 
 def _statuses(portal: Portal) -> None:
     for step in ["validated", "included", "paused", "declined"]:
         current = {r["referenceId"]: r["status"] for r in portal.registrations()}
         refs = [
-            ref for ref, target in TARGET_STATUS.items()
-            if step in STATUS_PATH[target] and current.get(ref) != target and current.get(ref) != step
+            ref
+            for ref, target in TARGET_STATUS.items()
+            if step in STATUS_PATH[target]
+            and current.get(ref) != target
+            and current.get(ref) != step
         ]
         if not refs:
             continue
@@ -205,12 +232,12 @@ def _statuses(portal: Portal) -> None:
             data={"status": step, "reason": "Manual screenshots seed"},
         )
         portal.wait_for(
-            lambda: all(
+            lambda step=step, refs=refs: all(
                 r["status"] == step for r in portal.registrations() if r["referenceId"] in refs
             ),
             f"status {step}",
         )
-        print(f"seed: set {len(refs)} registrations to {step}")
+        logger.info("seed: set %d registrations to %s", len(refs), step)
 
 
 def _data_change(portal: Portal) -> None:
@@ -223,7 +250,7 @@ def _data_change(portal: Portal) -> None:
         f"program:/registrations/{ref}",
         data={"data": {field: value}, "reason": "Moved to another village"},
     )
-    print(f"seed: changed {field} of {ref}")
+    logger.info("seed: changed %s of %s", field, ref)
 
 
 def _attachment(portal: Portal) -> None:
@@ -233,16 +260,21 @@ def _attachment(portal: Portal) -> None:
         "POST",
         "program:/attachments",
         multipart={
-            "file": {"name": "distribution-plan.pdf", "mimeType": "application/pdf", "buffer": MINIMAL_PDF},
+            "file": {
+                "name": "distribution-plan.pdf",
+                "mimeType": "application/pdf",
+                "buffer": MINIMAL_PDF,
+            },
             "filename": "Distribution plan",
         },
     )
-    print("seed: uploaded attachment")
+    logger.info("seed: uploaded attachment")
 
 
 def _payments(portal: Portal, approver: APIRequestContext) -> None:
     included = [ref for ref, s in TARGET_STATUS.items() if s == "included"]
-    # In creation order: (registrations, approve, start). The first is reconciled later, the last never.
+    # In creation order: (registrations, approve, start).
+    # The first is reconciled later, the last is never started.
     plan = [
         (included, True, True),
         (included[:2], False, False),
@@ -254,24 +286,25 @@ def _payments(portal: Portal, approver: APIRequestContext) -> None:
         if len(ids) > i:
             pay_id = ids[i]
         else:
-            now = datetime.now(timezone.utc).strftime("%d/%m/%Y, %H:%M")
+            now = datetime.now(UTC).strftime("%d/%m/%Y, %H:%M")
             pay_id = portal.api(
                 "POST",
                 "program:/payments",
                 params={"filter.referenceId": "$in:" + ",".join(refs)},
                 data={"name": f"Payment {now}", "transferValue": 50, "note": ""},
             )["id"]
-            print(f"seed: created payment {pay_id}")
+            logger.info("seed: created payment %s", pay_id)
         summary = portal.api("GET", f"program:/payments/{pay_id}")
         if approve and not summary["isPaymentApproved"]:
             portal.api("POST", f"program:/payments/{pay_id}/approve", session=approver, data={})
-            print(f"seed: approved payment {pay_id}")
+            logger.info("seed: approved payment %s", pay_id)
         if start and not summary["hasBeenStarted"]:
             portal.api("POST", f"program:/payments/{pay_id}/start")
             portal.wait_for(
-                lambda: not portal.api("GET", "program:/payments/status")["inProgress"], "payment to finish"
+                lambda: not portal.api("GET", "program:/payments/status")["inProgress"],
+                "payment to finish",
             )
-            print(f"seed: started payment {pay_id}")
+            logger.info("seed: started payment %s", pay_id)
 
 
 def _reconciliation(portal: Portal) -> None:
@@ -281,7 +314,9 @@ def _reconciliation(portal: Portal) -> None:
     pay_id = payments[0]["paymentId"]
 
     def transactions() -> list[dict]:
-        return portal.api("GET", f"program:/payments/{pay_id}/transactions", params={"limit": 100})["data"]
+        return portal.api("GET", f"program:/payments/{pay_id}/transactions", params={"limit": 100})[
+            "data"
+        ]
 
     txs = transactions()
     if not txs or any(t["status"] != "waiting" for t in txs):
@@ -297,7 +332,13 @@ def _reconciliation(portal: Portal) -> None:
     portal.api(
         "POST",
         f"program:/payments/{pay_id}/excel-reconciliation",
-        multipart={"file": {"name": "reconciliation.csv", "mimeType": "text/csv", "buffer": "\n".join(rows).encode()}},
+        multipart={
+            "file": {
+                "name": "reconciliation.csv",
+                "mimeType": "text/csv",
+                "buffer": "\n".join(rows).encode(),
+            }
+        },
     )
     portal.wait_for(lambda: all(t["status"] != "waiting" for t in transactions()), "reconciliation")
-    print(f"seed: reconciled payment {pay_id} (1 failed, {len(txs) - 1} successful)")
+    logger.info("seed: reconciled payment %s (1 failed, %d successful)", pay_id, len(txs) - 1)
