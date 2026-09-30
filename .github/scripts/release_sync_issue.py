@@ -115,12 +115,22 @@ def main() -> int:
         return 1
 
     issues = [i for i in api(f"/repos/{repo}/issues?labels={LABEL}&state=all&per_page=100", token) if "pull_request" not in i]
+    # One manual update at a time, so each PR starts from a main that has the previous one.
+    still_open = [i for i in issues if i["state"] == "open"]
+    if still_open:
+        print(f"Waiting: {still_open[0]['html_url']} is still open. Merge its PR, or close it as 'not planned'.")
+        return 0
     titles = [i["title"] for i in issues]  # newest first
     if TITLE_PREFIX + release_tag in titles:
         print(f"An issue for {release_tag} already exists; nothing to do.")
         return 0
 
-    documented = [t.removeprefix(TITLE_PREFIX) for t in titles if t.startswith(TITLE_PREFIX)]
+    # Issues closed as 'not planned' were not documented, so their releases are included again.
+    documented = [
+        i["title"].removeprefix(TITLE_PREFIX)
+        for i in issues
+        if i["title"].startswith(TITLE_PREFIX) and i.get("state_reason") == "completed"
+    ]
     idx = tags.index(release_tag)
     since = args.since or next((t for t in documented if t in tags[idx + 1 :]), None)
     if since is None:
