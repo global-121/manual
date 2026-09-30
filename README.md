@@ -36,25 +36,6 @@
     uv run python -m mkdocs serve --config-file config/fr/mkdocs.yml --dev-addr localhost:8003
     ```
 
-<!-- NOTE: The Docker-way to serve/build is not compatible with the multi-lingual setup currently in use. -->
-<!-- 
-#### With Docker
-
-- Install Docker: <https://docs.docker.com/get-docker/>
-
-- Open a terminal at this folder to build a Docker-container:
-
-  ```sh
-  docker build --tag manual-121 .
-  ```
-
-- Run the Docker-container:
-
-  ```sh
-  docker run --rm -it -p 8000:8000 -v ${PWD}:/docs manual-121
-  ```
--->
-
 ### Tools in use
 
 - Material for MkDocs: <https://squidfunk.github.io/mkdocs-material/>
