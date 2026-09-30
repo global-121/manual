@@ -94,11 +94,11 @@ Each image has a scenario in `screenshots/scenarios.py` that drives the 121 Port
 
 ## Automation
 
-Copilot follows the repository-wide instructions in `.github/copilot-instructions.md`: how to translate pages, the mandatory French terminology, markdown rules, and how to keep in-page links (the `#...` links in a page's table of contents) working when headings are translated or renamed.
+The AI agent (GitHub Copilot) follows the instructions in `.github/copilot-instructions.md`: how to translate pages, the mandatory French terminology, markdown rules, and how to keep in-page links working.
 
 For every new [121 Platform release](https://github.com/global-121/121-platform/releases), Copilot drafts the manual update:
 
-1. The workflow `.github/workflows/release-sync.yml` runs every Monday morning (or by hand from the Actions tab, optionally with a `release` and `since` tag). When there is a new release, it opens a `release-sync` issue with the release notes, commits and changed portal files since the last documented release. It waits as long as a previous `release-sync` issue is still open, so there is only one manual update at a time; the next issue then covers all releases since.
+1. The workflow `.github/workflows/release-sync.yml` runs every Monday morning (or by hand from the Actions tab). When there is a new release, it opens a `release-sync` issue with the release notes, commits and changed portal files since the last documented release. It waits as long as a previous `release-sync` issue is still open, so there is only one manual update at a time; the next issue then covers all releases since.
 2. The issue is assigned to Copilot cloud agent with the custom agent `.github/agents/release-sync.agent.md`. Copilot reviews every commit, updates the EN and FR pages (and screenshots where possible), and opens a pull request with a table of all release items and their manual impact.
 3. Review the pull request and check the `<!-- VERIFY -->` items. To have something changed, comment on the pull request and mention `@copilot` (e.g. "@copilot also update the glossary"); Copilot pushes the changes to the same pull request. Collect several remarks in one review (**Start a review** > **Submit review**) so they are handled in one run. Comments on the issue are not picked up.
 4. Merge when it is right; this closes the issue as completed. To reject the update, close the pull request and close the issue as **not planned**: its releases are then included again in the next issue.
