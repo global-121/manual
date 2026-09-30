@@ -1,0 +1,40 @@
+# Opens an issue for each new 121 Platform release and assigns it to Copilot cloud agent
+# (custom agent `release-sync`), which updates the manual and opens a pull request.
+# See README.md > "Release sync" for the one-time setup.
+
+name: 'Release sync: open manual update task'
+
+on:
+  schedule:
+    - cron: '0 6 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      release:
+        description: '121 Platform release tag to document (default: latest release)'
+        required: false
+      since:
+        description: 'Last documented release tag (default: from the previous release-sync issue)'
+        required: false
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: release-sync
+
+jobs:
+  open-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          sparse-checkout: .github/scripts
+
+      - name: Open issue for the next release
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          COPILOT_ASSIGN_TOKEN: ${{ secrets.COPILOT_ASSIGN_TOKEN }}
+          INPUT_RELEASE: ${{ inputs.release }}
+          INPUT_SINCE: ${{ inputs.since }}
+        run: python3 .github/scripts/release_sync_issue.py
