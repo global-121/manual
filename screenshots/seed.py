@@ -222,14 +222,19 @@ def _fsp(portal: Portal) -> None:
     logger.info("seed: configured FSP %s", FSP)
 
 
+def _live(portal: Portal) -> dict[str, dict]:
+    """Return the live demo registrations, keyed by their seeded referenceId (without suffix)."""
+    return {r["referenceId"].split(".")[0]: r for r in portal.registrations()}
+
+
 def _registrations(portal: Portal) -> None:
     """Import the missing demo registrations, and re-create those that should be New but are not.
 
     The platform cannot move a registration back to New, so such a registration is deleted
-    and imported again, under its seeded referenceId plus a `.<timestamp>` suffix (a deleted
-    referenceId cannot be reused).
+    and imported again. Deleted registrations keep their referenceId, which is unique across
+    all programs, so every import uses the seeded referenceId plus a `.<timestamp>` suffix.
     """
-    live = {r["referenceId"].split(".")[0]: r for r in portal.registrations()}
+    live = _live(portal)
     stale = [
         live[ref]["referenceId"]
         for ref, target in TARGET_STATUS.items()
@@ -249,10 +254,10 @@ def _registrations(portal: Portal) -> None:
         logger.info("seed: deleted %d registrations to re-create them as New", len(stale))
     suffix = datetime.now(UTC).strftime(".%Y%m%d%H%M%S")
     stale_refs = {ref.split(".")[0] for ref in stale}
-    missing = [r for r in REGISTRATIONS if r["referenceId"] not in live] + [
+    missing = [
         {**r, "referenceId": r["referenceId"] + suffix}
         for r in REGISTRATIONS
-        if r["referenceId"] in stale_refs
+        if r["referenceId"] not in live or r["referenceId"] in stale_refs
     ]
     if missing:
         portal.api("POST", "program:/registrations", data=missing)
@@ -262,13 +267,13 @@ def _registrations(portal: Portal) -> None:
 def _statuses(portal: Portal) -> None:
     """Move each demo registration to its target status, step by step (see STATUS_PATH)."""
     for step in ["validated", "included", "paused", "declined"]:
-        current = {r["referenceId"]: r["status"] for r in portal.registrations()}
+        live = _live(portal)
         refs = [
-            ref
+            live[ref]["referenceId"]
             for ref, target in TARGET_STATUS.items()
             if step in STATUS_PATH[target]
-            and current.get(ref) != target
-            and current.get(ref) != step
+            and live[ref]["status"] != target
+            and live[ref]["status"] != step
         ]
         if not refs:
             continue
@@ -290,12 +295,12 @@ def _statuses(portal: Portal) -> None:
 def _data_change(portal: Portal) -> None:
     """Edit one registration once, so the Data changes tab has a row."""
     ref, field, value = DATA_CHANGE
-    reg = next(r for r in portal.registrations() if r["referenceId"] == ref)
+    reg = _live(portal)[ref]
     if reg.get(field) == value:
         return
     portal.api(
         "PATCH",
-        f"program:/registrations/{ref}",
+        f"program:/registrations/{reg['referenceId']}",
         data={"data": {field: value}, "reason": "Moved to another village"},
     )
     logger.info("seed: changed %s of %s", field, ref)
@@ -322,7 +327,8 @@ def _attachment(portal: Portal) -> None:
 
 def _payments(portal: Portal, approver: APIRequestContext) -> None:
     """Create four payments in the states the payment screenshots need."""
-    included = [ref for ref, s in TARGET_STATUS.items() if s == "included"]
+    live = _live(portal)
+    included = [live[ref]["referenceId"] for ref, s in TARGET_STATUS.items() if s == "included"]
     # In creation order: (registrations, approve, start).
     # The first is reconciled later; the third is approved but never started; the fourth stays unreconciled.
     plan = [
@@ -376,7 +382,7 @@ def _reconciliation(portal: Portal) -> None:
     failed_ref, reason = FAILED_TRANSACTION
     rows = ["phoneNumber,status,errorMessage"] + [
         f"{phones[t['registrationReferenceId']]},error,{reason}"
-        if t["registrationReferenceId"] == failed_ref
+        if t["registrationReferenceId"].split(".")[0] == failed_ref
         else f"{phones[t['registrationReferenceId']]},success,"
         for t in txs
     ]
