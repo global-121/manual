@@ -95,7 +95,6 @@ Each image has a scenario in `screenshots/scenarios.py` that drives the 121 Port
 ## Copilot and PR guidance
 
 - Repository-wide Copilot instructions for translation and ToC-anchor safety are in `.github/copilot-instructions.md`.
-- Pull request guidance and translation/ToC checklists are in `.github/pull_request_template.md`.
 
 ### Release sync
 
@@ -103,10 +102,11 @@ For every new [121 Platform release](https://github.com/global-121/121-platform/
 
 1. The workflow `.github/workflows/release-sync.yml` runs every weekday morning (or by hand from the Actions tab, optionally with a `release` and `since` tag). When there is a release without a `release-sync` issue, it opens one with the release notes, commits and changed portal files since the last documented release.
 2. The issue is assigned to Copilot cloud agent with the custom agent `.github/agents/release-sync.agent.md`. Copilot reviews every commit, updates the EN and FR pages (and screenshots where possible), and opens a pull request with a table of all release items and their manual impact.
-3. Review the pull request, check the `<!-- VERIFY -->` items, and merge.
+3. Review the pull request and check the `<!-- VERIFY -->` items. To have something changed, comment on the pull request and mention `@copilot` (e.g. "@copilot also update the glossary"); Copilot pushes the changes to the same pull request. Collect several remarks in one review (**Start a review** > **Submit review**) so they are handled in one run. Comments on the issue are not picked up.
+4. Merge when it is right.
 
-One-time setup (repository admin):
+<!-- One-time setup (repository admin):
 
 - Enable Copilot cloud agent for this repository. The agent and `.github/workflows/copilot-setup-steps.yml` only work once they are on `main`.
 - Add an Actions secret `COPILOT_ASSIGN_TOKEN`: a fine-grained personal access token of a user with a Copilot license, for this repository, with read access to metadata and read/write access to actions, contents, issues and pull requests. Without it, the issue is created unassigned; assign it to Copilot and pick the `release-sync` agent by hand.
-- Optional, to let Copilot regenerate screenshots: add `PORTAL_URL_121`, `API_URL_121`, `USERNAME_121` and `PASSWORD_121` (and `APPROVER_USERNAME_121`/`APPROVER_PASSWORD_121`, so Copilot can re-create the demo payments with `--seed` after the test environment is reset) under **Settings > Secrets and variables > Agents**, and add the portal and API hosts to the custom allowlist under **Settings > Copilot > Internet access**. Only use a test environment such as staging.
+- Optional, to let Copilot regenerate screenshots: add `PORTAL_URL_121`, `API_URL_121`, `USERNAME_121` and `PASSWORD_121` (and `APPROVER_USERNAME_121`/`APPROVER_PASSWORD_121`, so Copilot can re-create the demo payments with `--seed` after the test environment is reset) under **Settings > Secrets and variables > Agents**, and add the portal and API hosts to the custom allowlist under **Settings > Copilot > Internet access**. Only use a test environment such as staging. -->

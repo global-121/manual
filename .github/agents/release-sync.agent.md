@@ -86,3 +86,12 @@ npx --yes markdownlint-cli2 "docs/en/**/*.md" "docs/fr/**/*.md"
   4. **Screenshots**: refreshed images and images still to refresh.
   5. **French**: non-literal translation choices and new glossary terms.
 - If the release has no user-facing changes, make no file changes; say so in the summary and still fill in the release review table.
+
+## 8. Follow-up requests on the pull request
+
+Reviewers ask for changes by commenting on the pull request and mentioning `@copilot`.
+
+- Apply the requested changes to the same branch; the hard rules and steps 3–6 still apply (mirror EN changes in FR, validate).
+- Resolve a `<!-- VERIFY -->` only when the reviewer answered it; remove the comment then.
+- Update the PR description so it stays accurate: release review table, To verify, Screenshots and French sections.
+- Reply with a short summary of what you changed, per comment.
