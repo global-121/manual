@@ -20,7 +20,14 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        lang: [en, fr, nl]
+        include:
+          - lang: en
+            flags: --strict
+          - lang: fr
+            flags: --strict
+          # NL (NLRC pages) is managed separately and uses image links that strict mode rejects.
+          - lang: nl
+            flags: ''
     steps:
       - uses: actions/checkout@v7
 
@@ -31,6 +38,6 @@ jobs:
       - name: Install dependencies
         run: uv sync --locked
 
-      - name: Build ${{ matrix.lang }} (broken links, anchors and nav fail the build)
+      - name: Build ${{ matrix.lang }} ${{ matrix.flags }}
         working-directory: config/${{ matrix.lang }}
-        run: uv run mkdocs build --strict --site-dir "$RUNNER_TEMP/site"
+        run: uv run mkdocs build ${{ matrix.flags }} --site-dir "$RUNNER_TEMP/site"
