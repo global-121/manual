@@ -25,6 +25,7 @@ FSP_CONFIG = {
 
 
 def _attr(name: str, label: str, type_: str = "text", **extra) -> dict:
+    """Return a program registration attribute with defaults, overridden by `extra`."""
     return {
         "name": name,
         "label": {"en": label},
@@ -138,6 +139,18 @@ MINIMAL_PDF = (
 
 
 def seed(portal: Portal, approver: APIRequestContext | None) -> int:
+    """Create the demo program if needed and bring it to its expected state.
+
+    Only touches the demo program. Payments are skipped without an approver, because
+    the platform does not let users approve their own payments.
+
+    Args:
+        portal: Logged-in admin session.
+        approver: API session of a second user who approves the demo payments, or None.
+
+    Returns:
+        The id of the demo program.
+    """
     pid = portal.find_program()
     if pid is None:
         created = portal.api("POST", "/programs", data=PROGRAM)
@@ -165,6 +178,7 @@ def seed(portal: Portal, approver: APIRequestContext | None) -> int:
 
 
 def _approval_threshold(portal: Portal, approver: APIRequestContext) -> None:
+    """Make the approver the only approver of all payments in the demo program."""
     me = portal.api("GET", "/users/current", session=approver)
     approver_id = (me.get("user") or me)["id"]
     thresholds = portal.api("GET", "program:/approval-thresholds")
@@ -180,6 +194,7 @@ def _approval_threshold(portal: Portal, approver: APIRequestContext) -> None:
 
 
 def _team(portal: Portal) -> None:
+    """Add TEAM_MEMBER to the program team."""
     username, role = TEAM_MEMBER
     if any(u.get("username") == username for u in portal.api("GET", "program:/users")):
         return
@@ -191,6 +206,7 @@ def _team(portal: Portal) -> None:
 
 
 def _program(portal: Portal) -> None:
+    """Restore program settings that screenshots depend on."""
     current = portal.api("GET", "program:")
     changed = {k: PROGRAM[k] for k in ("description", "validation") if current.get(k) != PROGRAM[k]}
     if changed:
@@ -199,6 +215,7 @@ def _program(portal: Portal) -> None:
 
 
 def _fsp(portal: Portal) -> None:
+    """Configure the Excel FSP."""
     if any(c["name"] == FSP for c in portal.api("GET", "program:/fsp-configurations")):
         return
     portal.api("POST", "program:/fsp-configurations", data=FSP_CONFIG)
@@ -206,6 +223,7 @@ def _fsp(portal: Portal) -> None:
 
 
 def _registrations(portal: Portal) -> None:
+    """Import the demo registrations that do not exist yet."""
     existing = {r["referenceId"] for r in portal.registrations()}
     missing = [r for r in REGISTRATIONS if r["referenceId"] not in existing]
     if missing:
@@ -214,6 +232,7 @@ def _registrations(portal: Portal) -> None:
 
 
 def _statuses(portal: Portal) -> None:
+    """Move each demo registration to its target status, step by step (see STATUS_PATH)."""
     for step in ["validated", "included", "paused", "declined"]:
         current = {r["referenceId"]: r["status"] for r in portal.registrations()}
         refs = [
@@ -241,6 +260,7 @@ def _statuses(portal: Portal) -> None:
 
 
 def _data_change(portal: Portal) -> None:
+    """Edit one registration once, so the Data changes tab has a row."""
     ref, field, value = DATA_CHANGE
     reg = next(r for r in portal.registrations() if r["referenceId"] == ref)
     if reg.get(field) == value:
@@ -254,6 +274,7 @@ def _data_change(portal: Portal) -> None:
 
 
 def _attachment(portal: Portal) -> None:
+    """Upload one PDF, so the Files tab has a row."""
     if portal.api("GET", "program:/attachments"):
         return
     portal.api(
@@ -272,6 +293,7 @@ def _attachment(portal: Portal) -> None:
 
 
 def _payments(portal: Portal, approver: APIRequestContext) -> None:
+    """Create four payments in the states the payment screenshots need."""
     included = [ref for ref, s in TARGET_STATUS.items() if s == "included"]
     # In creation order: (registrations, approve, start).
     # The first is reconciled later, the last is never started.
@@ -308,6 +330,7 @@ def _payments(portal: Portal, approver: APIRequestContext) -> None:
 
 
 def _reconciliation(portal: Portal) -> None:
+    """Reconcile the first payment once: one failed transaction, the others successful."""
     payments = sorted(portal.api("GET", "program:/payments"), key=lambda p: p["paymentId"])
     if not payments:
         return

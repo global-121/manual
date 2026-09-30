@@ -36,7 +36,11 @@ select = [
     "N",    # pep8-naming
     "RET",  # return statements
     "PTH",  # pathlib
+    "D1",   # missing docstrings in public modules, classes and functions
 ]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
 
 [tool.ruff.lint.isort]
 known-first-party = ["screenshots"]

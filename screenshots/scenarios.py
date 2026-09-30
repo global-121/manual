@@ -18,6 +18,8 @@ from .seed import PEOPLE, TEAM_MEMBER
 
 @dataclass
 class Scenario:
+    """One screenshot: file name, what it shows, how to prepare it, and an optional clip."""
+
     name: str
     shows: str
     prepare: Callable[[Portal], Page | Locator]
@@ -25,6 +27,7 @@ class Scenario:
 
 
 def top(height: int) -> tuple[int, int, int, int]:
+    """Return a clip of the top `height` pixels of the full 1280px-wide viewport."""
     return (0, 0, 1280, height)
 
 
@@ -40,6 +43,7 @@ UNIQUE = "Lara Schmitt"
 
 
 def block_writes(page: Page, dry_run: bool = False) -> None:
+    """Abort every non-GET API call from the page, optionally allowing dry-run calls."""
     page.route(
         "**/api/**",
         lambda r: (
@@ -51,12 +55,14 @@ def block_writes(page: Page, dry_run: bool = False) -> None:
 
 
 def registrations(portal: Portal) -> Page:
+    """Open the registrations page with a clean table."""
     page = portal.open("program:/registrations")
     reset_table(portal, page)
     return page
 
 
 def reset_table(portal: Portal, page: Page) -> Locator:
+    """Clear the search, filters and selection that the portal remembers between pages."""
     table = portal.wait_for_table(page)
     keyword = table.get_by_placeholder("Filter by keyword")
     if keyword.is_visible() and keyword.input_value():
@@ -74,6 +80,11 @@ def reset_table(portal: Portal, page: Page) -> Locator:
 
 
 def registration(portal: Portal, name: str) -> Page:
+    """Open the page of the demo registration called `name`.
+
+    Raises:
+        LookupError: If the registration does not exist (run with --seed).
+    """
     reg = next((r for r in portal.registrations() if r.get("fullName") == name), None)
     if reg is None:
         raise LookupError(f"registration '{name}' not found (run with --seed)")
@@ -83,12 +94,14 @@ def registration(portal: Portal, name: str) -> Page:
 
 
 def filter_status(page: Page, status: str) -> None:
+    """Filter the registrations table on one registration status."""
     Portal.column_filter_button(page, "Registration Status").click()
     page.get_by_text("Choose option(s)").click()
     page.get_by_role("option", name=status, exact=True).click()
 
 
 def search(page: Page, text: str) -> None:
+    """Type `text` in the table's keyword filter and wait for the results."""
     table = Portal.table(page)
     table.get_by_title("Filter by keyword").click()
     table.get_by_placeholder("Filter by keyword").fill(text)
@@ -97,15 +110,18 @@ def search(page: Page, text: str) -> None:
 
 
 def select_row(page: Page, name: str) -> None:
+    """Tick the checkbox of the table row for registration `name`."""
     Portal.row(page, name).get_by_role("checkbox").first.click()
 
 
 def unfocus(page: Page) -> None:
+    """Remove focus rings and hover effects before taking a screenshot."""
     page.evaluate("document.activeElement.blur()")
     page.mouse.move(640, 180)
 
 
 def full_height(page: Page) -> Page:
+    """Resize the viewport to the full page height, so nothing is cut off."""
     unfocus(page)
     page.set_viewport_size(
         {"width": 1280, "height": page.evaluate("document.documentElement.scrollHeight")}
@@ -114,6 +130,7 @@ def full_height(page: Page) -> Page:
 
 
 def open_dialog(page: Page, title: str) -> Locator:
+    """Wait for the status-change dialog `title` and return a clip around it."""
     dialog = page.get_by_role("dialog").filter(has_text=title)
     dialog.get_by_role("switch").wait_for()
     page.wait_for_timeout(400)
@@ -121,6 +138,7 @@ def open_dialog(page: Page, title: str) -> Locator:
 
 
 def payment_state(summary: dict) -> str:
+    """Return 'pending', 'approved', 'processing' or 'reconciled' for a payment summary."""
     if not summary["isPaymentApproved"]:
         return "pending"
     if not summary["hasBeenStarted"]:
@@ -129,6 +147,11 @@ def payment_state(summary: dict) -> str:
 
 
 def payment_id(portal: Portal, state: str) -> int:
+    """Return the id of the first demo payment in `state` (see payment_state).
+
+    Raises:
+        LookupError: If no payment is in that state.
+    """
     for p in sorted(portal.api("GET", "program:/payments"), key=lambda p: p["paymentId"]):
         if payment_state(portal.api("GET", f"program:/payments/{p['paymentId']}")) == state:
             return p["paymentId"]
@@ -136,6 +159,7 @@ def payment_id(portal: Portal, state: str) -> int:
 
 
 def payments(portal: Portal) -> Page:
+    """Open the payments overview (writes blocked, dry runs allowed)."""
     payment_id(portal, "processing")
     page = portal.open("program:/payments")
     block_writes(page, dry_run=True)
@@ -144,6 +168,7 @@ def payments(portal: Portal) -> Page:
 
 
 def started_payment(portal: Portal, state: str = "reconciled") -> Page:
+    """Open the page of a started payment in `state`, with writes blocked."""
     page = portal.open(f"program:/payments/{payment_id(portal, state)}")
     block_writes(page)
     reset_table(portal, page)
@@ -152,10 +177,12 @@ def started_payment(portal: Portal, state: str = "reconciled") -> Page:
 
 
 def transactions_card(page: Page) -> Locator:
+    """Return the card with the transactions table on a payment page."""
     return page.locator("p-card").filter(has=page.get_by_test_id("query-table"))
 
 
 def filter_failed(page: Page) -> None:
+    """Filter the transactions table on status Failed."""
     full_height(page)
     Portal.column_filter_button(page, "Transaction status").click()
     page.get_by_role("dialog").filter(visible=True).get_by_text("Choose option(s)").click()
@@ -168,6 +195,7 @@ def filter_failed(page: Page) -> None:
 
 
 def login_page(portal: Portal) -> Page:
+    """Login page (logged out) with the language menu open."""
     ctx = portal.ctx.browser.new_context(viewport={"width": 1280, "height": 720}, locale="en-GB")
     page = ctx.new_page()
     page.goto(f"{portal.portal_url}/{LOCALE}/login")
@@ -182,6 +210,7 @@ def login_page(portal: Portal) -> Page:
 
 
 def sidebar_language(portal: Portal) -> Page:
+    """Sidebar open with the language menu open."""
     page = portal.open("/programs")
     page.get_by_test_id("sidebar-toggle").get_by_role("button", name="Menu").click()
     page.get_by_test_id("locale-dropdown").click()
@@ -190,6 +219,7 @@ def sidebar_language(portal: Portal) -> Page:
 
 
 def account_menu(portal: Portal) -> Page:
+    """Account menu open in the top bar."""
     page = portal.open("/programs")
     page.get_by_role("button", name="Account").click()
     page.get_by_role("menuitem", name="Change password").wait_for()
@@ -197,6 +227,7 @@ def account_menu(portal: Portal) -> Page:
 
 
 def change_password(portal: Portal) -> Page:
+    """Change password page."""
     page = portal.open("/change-password")
     page.get_by_label("Current Password").wait_for()
     return page
@@ -206,12 +237,14 @@ def change_password(portal: Portal) -> Page:
 
 
 def users(portal: Portal) -> Page:
+    """Open the users page and wait for its table."""
     page = portal.open("/users")
     portal.wait_for_table(page)
     return page
 
 
 def user_menu(portal: Portal) -> Page:
+    """Users page with the sidebar open."""
     page = users(portal)
     page.get_by_test_id("sidebar-toggle").get_by_role("button", name="Menu").click()
     page.get_by_test_id("sidebar").get_by_role("link", name="Users").wait_for()
@@ -219,12 +252,14 @@ def user_menu(portal: Portal) -> Page:
 
 
 def add_user_button(portal: Portal) -> Page:
+    """Users page with 'Add new user' highlighted."""
     page = users(portal)
     Portal.highlight(page.get_by_role("button", name="Add new user"))
     return page
 
 
 def add_user_dialog(portal: Portal) -> Locator:
+    """Add user dialog filled in with an example name and e-mail."""
     page = users(portal)
     page.get_by_role("button", name="Add new user").click()
     dialog = page.get_by_role("alertdialog").filter(visible=True)
@@ -235,6 +270,7 @@ def add_user_dialog(portal: Portal) -> Locator:
 
 
 def reset_password(portal: Portal) -> Locator:
+    """User row menu open with 'Reset password' highlighted."""
     page = users(portal)
     row = Portal.table(page).locator("tbody tr").filter(has_text="@example.org").first
     row.locator("button").last.click()
@@ -250,16 +286,19 @@ def reset_password(portal: Portal) -> Locator:
 
 
 def registrations_page(portal: Portal) -> Page:
+    """Full registrations page."""
     return full_height(registrations(portal))
 
 
 def import_button(portal: Portal) -> Page:
+    """Registrations page with the Import button highlighted."""
     page = registrations_page(portal)
     Portal.highlight(page.get_by_role("button", name="Import"))
     return page
 
 
 def import_dialog(portal: Portal) -> Page:
+    """Import new registrations dialog."""
     page = registrations(portal)
     page.get_by_role("button", name="Import").click()
     page.get_by_role("menuitem", name="Import new registrations").click()
@@ -268,6 +307,7 @@ def import_dialog(portal: Portal) -> Page:
 
 
 def clear_filters(portal: Portal) -> Page:
+    """Registrations filtered on New, with 'Clear filters' highlighted."""
     page = registrations(portal)
     filter_status(page, "New")
     page.get_by_role("heading", name="Registrations", level=1).click()
@@ -280,12 +320,14 @@ def clear_filters(portal: Portal) -> Page:
 
 
 def status_filter_new(portal: Portal) -> Page:
+    """Registration status filter open with New selected."""
     page = registrations(portal)
     filter_status(page, "New")
     return page
 
 
 def search_registration(portal: Portal) -> Locator:
+    """Name column filter open with a registration name typed in."""
     page = registrations(portal)
     Portal.column_filter_button(page, "Name").click()
     dialog = page.get_by_role("dialog").filter(visible=True)
@@ -296,6 +338,7 @@ def search_registration(portal: Portal) -> Locator:
 
 
 def row_menu(portal: Portal) -> Locator:
+    """Right-click menu on the first registration row."""
     page = registrations(portal)
     Portal.table(page).locator("tbody tr").first.click(button="right")
     page.get_by_role("menuitem", name="Pause").wait_for()
@@ -306,6 +349,7 @@ def row_menu(portal: Portal) -> Locator:
 
 
 def pause_dialog(portal: Portal) -> Locator:
+    """Pause registration dialog for an included registration."""
     page = registrations(portal)
     search(page, INCLUDED)
     select_row(page, INCLUDED)
@@ -314,6 +358,7 @@ def pause_dialog(portal: Portal) -> Locator:
 
 
 def paused_status(portal: Portal) -> Locator:
+    """Registrations table showing a registration with status Paused."""
     page = registrations(portal)
     search(page, PAUSED)
     unfocus(page)
@@ -326,6 +371,7 @@ def paused_status(portal: Portal) -> Locator:
 
 
 def decline_dialog(portal: Portal) -> Locator:
+    """Decline registration dialog."""
     page = registrations(portal)
     select_row(page, TO_DECLINE)
     page.get_by_role("button", name="Decline").click()
@@ -333,6 +379,7 @@ def decline_dialog(portal: Portal) -> Locator:
 
 
 def personal_information_tab(portal: Portal, name: str) -> Page:
+    """Open the Personal information tab of registration `name`."""
     page = registration(portal, name)
     page.get_by_role("tab", name="Personal information").click()
     page.get_by_role("button", name="Edit information").wait_for()
@@ -340,6 +387,7 @@ def personal_information_tab(portal: Portal, name: str) -> Page:
 
 
 def registration_details(page: Page) -> Locator:
+    """Return a clip from the breadcrumb down to the registration details card."""
     full_height(page)
     card = page.locator("p-card").filter(has=page.get_by_test_id("registration-menu"))
     return Portal.clip_around(
@@ -348,10 +396,12 @@ def registration_details(page: Page) -> Locator:
 
 
 def personal_information(portal: Portal) -> Locator:
+    """Registration page on the Personal information tab."""
     return registration_details(personal_information_tab(portal, UNIQUE))
 
 
 def update_information_dialog(portal: Portal) -> Locator:
+    """Update information dialog that asks for a reason after editing a field."""
     page = personal_information_tab(portal, UNIQUE)
     page.get_by_role("button", name="Edit information").click()
     page.get_by_label("village").fill("Sarville")
@@ -364,6 +414,7 @@ def update_information_dialog(portal: Portal) -> Locator:
 
 
 def edit_duplicate(portal: Portal) -> Locator:
+    """Duplicate registration with personal information in edit mode."""
     page = full_height(personal_information_tab(portal, DUPLICATE))
     page.get_by_role("button", name="Edit information").click()
     page.get_by_role("button", name="Save").wait_for()
@@ -377,6 +428,7 @@ def edit_duplicate(portal: Portal) -> Locator:
 
 
 def manage_table(portal: Portal) -> Page:
+    """Manage table sidebar open on the registrations page."""
     page = registrations(portal)
     page.get_by_title("Manage table").click()
     page.get_by_role("complementary").get_by_role("checkbox").first.wait_for()
@@ -384,6 +436,7 @@ def manage_table(portal: Portal) -> Page:
 
 
 def filter_duplicates(portal: Portal) -> Page:
+    """Duplicates column filter open with Duplicate selected."""
     page = registrations(portal)
     Portal.column_filter_button(page, "Duplicates").click()
     page.get_by_text("Choose option(s)").click()
@@ -393,6 +446,7 @@ def filter_duplicates(portal: Portal) -> Page:
 
 
 def duplicate_actions(portal: Portal) -> Locator:
+    """Duplicate registration page with the Actions menu open."""
     page = full_height(registration(portal, DUPLICATE))
     page.get_by_role("button", name="Actions").click()
     page.get_by_role("menuitem", name="Ignore duplication").wait_for()
@@ -405,6 +459,7 @@ def duplicate_actions(portal: Portal) -> Locator:
 
 
 def mass_update_button(portal: Portal) -> Page:
+    """Import menu with 'Update selected registrations' for one selected registration."""
     page = registrations(portal)
     search(page, NEW)
     select_row(page, NEW)
@@ -415,6 +470,7 @@ def mass_update_button(portal: Portal) -> Page:
 
 
 def mass_update_dialog(portal: Portal) -> Locator:
+    """Update selected registrations dialog with the column picker open."""
     page = mass_update_button(portal)
     page.get_by_role("menuitem", name="Update selected registrations").click()
     dialog = page.get_by_role("dialog").filter(has_text="Update selected registrations")
@@ -429,16 +485,19 @@ def mass_update_dialog(portal: Portal) -> Locator:
 
 
 def monitoring(portal: Portal) -> Page:
+    """Open the monitoring dashboard and wait for its metrics."""
     page = portal.open("program:/monitoring/dashboard")
     page.get_by_test_id("metric-people-registered").wait_for()
     return page
 
 
 def tabs_card(page: Page) -> Locator:
+    """Return the card with the monitoring tabs and their content."""
     return page.locator("p-card").filter(has=page.get_by_test_id("monitoring-menu"))
 
 
 def dashboard_charts(portal: Portal) -> Page:
+    """Open the monitoring dashboard at full height and wait for the charts."""
     page = full_height(monitoring(portal))
     page.locator("p-chart canvas").first.wait_for()
     page.wait_for_timeout(1000)
@@ -446,6 +505,7 @@ def dashboard_charts(portal: Portal) -> Page:
 
 
 def monitoring_page(portal: Portal) -> Locator:
+    """Monitoring page down to the first row of charts."""
     page = dashboard_charts(portal)
     return Portal.clip_around(
         page.get_by_test_id("sidebar-toggle"), page.locator("p-chart").first, full_width=True
@@ -453,6 +513,7 @@ def monitoring_page(portal: Portal) -> Locator:
 
 
 def dashboard(portal: Portal) -> Locator:
+    """Monitoring Dashboard tab with all charts, 1920px wide."""
     page = dashboard_charts(portal)
     # At 1280px the five-status payment legends wrap and squash the payment charts.
     page.set_viewport_size({"width": 1920, "height": page.viewport_size["height"]})
@@ -465,6 +526,8 @@ def dashboard(portal: Portal) -> Locator:
 
 
 def monitoring_tab(tab: str) -> Callable[[Portal], Page]:
+    """Return a prepare function that opens monitoring tab `tab` at full height."""
+
     def prepare(portal: Portal) -> Page:
         page = monitoring(portal)
         page.get_by_test_id("monitoring-menu").get_by_role("tab", name=tab).click()
@@ -477,10 +540,16 @@ def monitoring_tab(tab: str) -> Callable[[Portal], Page]:
 
 
 def monitoring_tab_card(tab: str) -> Callable[[Portal], Locator]:
+    """Return a prepare function that clips monitoring tab `tab` to its card."""
     return lambda portal: Portal.clip_around(tabs_card(monitoring_tab(tab)(portal)))
 
 
 def upload_file_dialog(portal: Portal) -> Locator:
+    """Upload file dialog with a file chosen and named (upload blocked).
+
+    Raises:
+        LookupError: If 'Import file' stays disabled after choosing the file.
+    """
     page = monitoring_tab("Files")(portal)
     block_writes(page)
     page.get_by_role("button", name="Upload file").click()
@@ -503,6 +572,7 @@ def upload_file_dialog(portal: Portal) -> Locator:
 
 
 def attachment_menu(portal: Portal) -> Locator:
+    """Files tab with the row menu of an attachment open."""
     page = monitoring_tab("Files")(portal)
     # Extra height moves the footer away from the open menu.
     page.set_viewport_size({"width": 1280, "height": page.viewport_size["height"] + 150})
@@ -516,6 +586,7 @@ def attachment_menu(portal: Portal) -> Locator:
 
 
 def payments_page(portal: Portal) -> Locator:
+    """Payments overview with the payment cards."""
     page = payments(portal)
     return Portal.clip_around(
         page.get_by_test_id("sidebar-toggle"),
@@ -525,6 +596,7 @@ def payments_page(portal: Portal) -> Locator:
 
 
 def create_payment_select(portal: Portal) -> Page:
+    """Create payment, step where registrations are selected."""
     page = payments(portal)
     page.get_by_role("button", name="Create new payment").click()
     page.get_by_role("button", name="Continue to registration").click()
@@ -534,6 +606,7 @@ def create_payment_select(portal: Portal) -> Page:
 
 
 def create_payment_summary(portal: Portal) -> Page:
+    """Create payment, summary step before 'Create payment'."""
     page = create_payment_select(portal)
     Portal.table(page).get_by_role("checkbox", name="All items unselected").click()
     page.get_by_role("button", name="Add to payment").click()
@@ -544,6 +617,11 @@ def create_payment_summary(portal: Portal) -> Page:
 
 
 def approve_dialog(portal: Portal) -> Locator:
+    """Approve payment dialog, opened as the approver account.
+
+    Raises:
+        LookupError: If the approver credentials are not set.
+    """
     username, password = (
         os.environ.get("APPROVER_USERNAME_121"),
         os.environ.get("APPROVER_PASSWORD_121"),
@@ -570,6 +648,7 @@ def approve_dialog(portal: Portal) -> Locator:
 
 
 def start_payment_button(portal: Portal) -> Page:
+    """Approved payment with 'Start payment' highlighted."""
     page = portal.open(f"program:/payments/{payment_id(portal, 'approved')}")
     block_writes(page)
     button = page.get_by_role("button", name="Start payment")
@@ -581,6 +660,7 @@ def start_payment_button(portal: Portal) -> Page:
 
 
 def payment_page(portal: Portal, state: str = "reconciled") -> Locator:
+    """Payment page in `state` down to the transactions table."""
     page = full_height(started_payment(portal, state))
     return Portal.clip_around(
         page.get_by_test_id("sidebar-toggle"), transactions_card(page), full_width=True
@@ -588,6 +668,7 @@ def payment_page(portal: Portal, state: str = "reconciled") -> Locator:
 
 
 def payment_export_menu(portal: Portal) -> Locator:
+    """Payment page with the Export menu open."""
     page = started_payment(portal)
     page.get_by_role("button", name="Export").click()
     page.get_by_role("menuitem", name="Payment report").wait_for()
@@ -597,6 +678,7 @@ def payment_export_menu(portal: Portal) -> Locator:
 
 
 def reconciliation_dialog(portal: Portal) -> Locator:
+    """Import reconciliation data dialog."""
     page = started_payment(portal)
     page.get_by_role("button", name="Import reconciliation data").click()
     dialog = page.get_by_role("dialog").filter(has_text="Import reconciliation data")
@@ -607,6 +689,7 @@ def reconciliation_dialog(portal: Portal) -> Locator:
 
 
 def payments_export_dialog(portal: Portal) -> Locator:
+    """Export payments dialog on the payments overview."""
     page = payments(portal)
     page.get_by_role("button", name="Export").click()
     page.get_by_role("menuitem", name="Payments").click()
@@ -618,6 +701,7 @@ def payments_export_dialog(portal: Portal) -> Locator:
 
 
 def failed_status(portal: Portal) -> Locator:
+    """Transactions filtered on Failed, with the failure reason highlighted."""
     page = started_payment(portal)
     filter_failed(page)
     page.get_by_role("heading", level=1).click()
@@ -631,10 +715,12 @@ def failed_status(portal: Portal) -> Locator:
 
 
 def retry_button(page: Page) -> Locator:
+    """Return the 'Retry failed transaction(s)' button."""
     return page.get_by_role("button", name=re.compile("Retry failed"))
 
 
 def select_failed(portal: Portal) -> Page:
+    """Open a payment with its failed transaction filtered and selected."""
     page = started_payment(portal)
     filter_failed(page)
     page.get_by_role("heading", level=1).click()
@@ -645,12 +731,14 @@ def select_failed(portal: Portal) -> Page:
 
 
 def retry_failed_button(portal: Portal) -> Locator:
+    """Failed transaction selected, with the retry button highlighted."""
     page = select_failed(portal)
     Portal.highlight(retry_button(page))
     return Portal.clip_around(transactions_card(page), full_width=True)
 
 
 def retry_failed_confirm(portal: Portal) -> Locator:
+    """Retry failed transactions confirmation dialog."""
     page = select_failed(portal)
     retry_button(page).click()
     dialog = page.get_by_role("alertdialog").filter(visible=True)
@@ -664,6 +752,8 @@ def retry_failed_confirm(portal: Portal) -> Locator:
 
 
 def settings(path: str) -> Callable[[Portal], Page]:
+    """Return a prepare function that opens program settings page `path` (writes blocked)."""
+
     def prepare(portal: Portal) -> Page:
         page = portal.open(f"program:/settings/{path}")
         block_writes(page)
@@ -674,21 +764,25 @@ def settings(path: str) -> Callable[[Portal], Page]:
 
 
 def card(page: Page, title: str) -> Locator:
+    """Return the first card that contains `title`."""
     return page.locator("p-card").filter(has_text=title).first
 
 
 def pick(page: Page, field: Locator, option: str | None = None) -> None:
+    """Open a dropdown and click the option containing `option` (or the first one)."""
     field.click()
     options = page.get_by_role("option")
     (options.filter(has_text=option) if option else options).first.click()
 
 
 def basic_information(portal: Portal) -> Locator:
+    """Basic information card in the program settings."""
     page = settings("information")(portal)
     return Portal.clip_around(card(page, "Basic information"))
 
 
 def edit_basic_information(portal: Portal) -> Locator:
+    """Basic information card in edit mode."""
     page = settings("information")(portal)
     page.get_by_role("button", name="Edit basic information").click()
     page.get_by_role("button", name="Save").wait_for()
@@ -697,12 +791,14 @@ def edit_basic_information(portal: Portal) -> Locator:
 
 
 def fsps(portal: Portal) -> Page:
+    """Open the FSP integration settings page."""
     page = settings("fsps")(portal)
     page.locator("p-accordion-header").first.wait_for()
     return page
 
 
 def expand_form_requirements(page: Page) -> None:
+    """Expand the form requirements of the first FSP."""
     header = page.locator("p-accordion-header").first
     header.click()
     page.locator("p-accordion-header[aria-expanded=true]").wait_for()
@@ -711,6 +807,7 @@ def expand_form_requirements(page: Page) -> None:
 
 
 def fsp_required_fields(portal: Portal) -> Locator:
+    """FSP card with the form requirements chevron highlighted."""
     page = fsps(portal)
     Portal.highlight(
         page.locator("p-accordion-header [data-pc-section=toggleicon]").first, padding=8
@@ -719,6 +816,7 @@ def fsp_required_fields(portal: Portal) -> Locator:
 
 
 def fsp_required_fields_expanded(portal: Portal) -> Locator:
+    """FSP form requirements expanded, with the data column names highlighted."""
     page = fsps(portal)
     expand_form_requirements(page)
     column = card(page, "Financial Service Providers").locator("tr > :nth-child(2)")
@@ -727,6 +825,7 @@ def fsp_required_fields_expanded(portal: Portal) -> Locator:
 
 
 def fsp_reconfigure(portal: Portal) -> Page:
+    """FSP menu open, with Settings, FSP integration and 'Reconfigure' highlighted."""
     page = fsps(portal)
     expand_form_requirements(page)
     card(page, "Financial Service Providers").locator("button").first.click()
@@ -743,6 +842,7 @@ def fsp_reconfigure(portal: Portal) -> Page:
 
 
 def link_kobo_dialog(portal: Portal) -> Locator:
+    """Link with KoboToolbox dialog on the registration data page."""
     page = settings("registration-data")(portal)
     page.get_by_test_id("kobo-integration-card").locator("a").first.click()
     dialog = page.get_by_role("alertdialog").filter(has_text="Link with KoboToolbox")
@@ -753,6 +853,7 @@ def link_kobo_dialog(portal: Portal) -> Locator:
 
 
 def add_user_to_team(portal: Portal) -> Locator:
+    """Add user to team dialog filled in, with 'Add to team' highlighted."""
     page = settings("users/team")(portal)
     page.get_by_role("button", name="Add user to team").click()
     dialog = page.get_by_role("alertdialog").filter(visible=True)
@@ -766,10 +867,12 @@ def add_user_to_team(portal: Portal) -> Locator:
 
 
 def team_row(page: Page) -> Locator:
+    """Return the program team row of the seeded extra team member."""
     return Portal.table(page).locator("tbody tr").filter(has_text=TEAM_MEMBER[0])
 
 
 def team_row_menu(portal: Portal) -> Page:
+    """Open the program team page with the extra team member's row menu open."""
     page = settings("users/team")(portal)
     portal.wait_for_table(page)
     team_row(page).locator("button").last.click()
@@ -779,6 +882,7 @@ def team_row_menu(portal: Portal) -> Page:
 
 
 def team_remove(portal: Portal) -> Locator:
+    """Program team row menu with 'Remove user' highlighted."""
     page = team_row_menu(portal)
     Portal.highlight(team_row(page).locator("button").last)
     Portal.highlight(page.get_by_role("menuitem", name="Remove user"))
@@ -786,6 +890,7 @@ def team_remove(portal: Portal) -> Locator:
 
 
 def team_edit(portal: Portal) -> Locator:
+    """Edit team member dialog with the roles field and 'Save changes' highlighted."""
     page = team_row_menu(portal)
     page.get_by_role("menuitem", name="Edit").click()
     dialog = page.get_by_role("alertdialog").filter(visible=True)
@@ -799,6 +904,7 @@ def team_edit(portal: Portal) -> Locator:
 
 
 def edit_payment_approval(portal: Portal) -> tuple[Page, Locator]:
+    """Open the payment approval settings in edit mode; return the page and the card."""
     page = settings("users/payment-approval")(portal)
     page.get_by_role("button", name="Edit payment approval settings").click()
     approval = card(page, "Payment approval")
@@ -807,6 +913,7 @@ def edit_payment_approval(portal: Portal) -> tuple[Page, Locator]:
 
 
 def payment_approval_users(portal: Portal) -> Locator:
+    """First approval step with the user list open and the selected user highlighted."""
     page, approval = edit_payment_approval(portal)
     approval.locator("p-multiselect").first.click()
     listbox = page.get_by_role("listbox")
@@ -819,6 +926,7 @@ def payment_approval_users(portal: Portal) -> Locator:
 
 
 def payment_approval_steps(page: Page, approval: Locator) -> Locator:
+    """Add a second approval step with a user and amount; return its delete button."""
     approval.get_by_role("button", name="Add approval step").click()
     first_step = approval.locator("p-multiselect").first.inner_text().strip()
     approval.get_by_text("Select 1 or more users from your program team").click()
@@ -833,6 +941,7 @@ def payment_approval_steps(page: Page, approval: Locator) -> Locator:
 
 
 def payment_approval_step(portal: Portal) -> Locator:
+    """Payment approval with a second step, highlighted."""
     page, approval = edit_payment_approval(portal)
     delete = payment_approval_steps(page, approval)
     Portal.highlight(
@@ -844,6 +953,7 @@ def payment_approval_step(portal: Portal) -> Locator:
 
 
 def payment_approval_delete_step(portal: Portal) -> Locator:
+    """Payment approval with a second step and its delete button highlighted."""
     page, approval = edit_payment_approval(portal)
     Portal.highlight(payment_approval_steps(page, approval))
     return Portal.clip_around(approval)

@@ -37,6 +37,11 @@ MASK_EMAILS_JS = """() => {
 
 
 def main() -> int:
+    """Parse the arguments, log in, optionally seed, and take the selected screenshots.
+
+    Returns:
+        0 if all screenshots were written, 1 otherwise.
+    """
     ap = argparse.ArgumentParser(prog="python -m screenshots", description=__doc__)
     ap.add_argument("--portal-url", default=os.environ.get("PORTAL_URL_121"))
     ap.add_argument("--api-url", default=os.environ.get("API_URL_121"))

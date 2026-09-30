@@ -31,6 +31,11 @@ PORTAL_PATH = "interfaces/portal/"
 
 
 def api(path: str, token: str | None = None, method: str = "GET", data: dict | None = None):
+    """Call the GitHub REST API and return the parsed JSON response.
+
+    Raises:
+        urllib.error.HTTPError: If the response status is not 2xx.
+    """
     req = urllib.request.Request(
         f"https://api.github.com{path}",
         method=method,
@@ -44,6 +49,7 @@ def api(path: str, token: str | None = None, method: str = "GET", data: dict | N
 
 
 def area(path: str) -> str:
+    """Return the top-level area of a file path, e.g. `interfaces/portal` or `e2e`."""
     parts = path.split("/")
     return "/".join(parts[:2]) if parts[0] in ("interfaces", "services") else parts[0]
 
@@ -55,6 +61,17 @@ def demote(markdown: str) -> str:
 
 
 def build_body(release: dict, since: str, notes: list[dict], compare: dict) -> str:
+    """Build the issue body for a release range.
+
+    Args:
+        release: The newest release in the range (GitHub release object).
+        since: The last documented release tag.
+        notes: All releases in the range, newest first.
+        compare: The GitHub compare result for `since...release`.
+
+    Returns:
+        Markdown with the release notes, commits and changed portal files.
+    """
     tag = release["tag_name"]
     repo_url = f"https://github.com/{PLATFORM}"
     commits = compare.get("commits", [])
@@ -120,6 +137,11 @@ def build_body(release: dict, since: str, notes: list[dict], compare: dict) -> s
 
 
 def main() -> int:
+    """Open the issue for the next undocumented release range, if there is one.
+
+    Returns:
+        0 when an issue was created or nothing had to be done, 1 on invalid input.
+    """
     ap = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
     )

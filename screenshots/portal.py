@@ -14,7 +14,16 @@ PROGRAM_NGO = "510 manual screenshots"
 
 
 class Portal:
+    """A logged-in 121 Portal session: opens pages, calls the API and finds common elements."""
+
     def __init__(self, ctx: BrowserContext, portal_url: str, api_url: str):
+        """Create a session in a browser context.
+
+        Args:
+            ctx: Browser context that holds the login cookies.
+            portal_url: Base URL of the portal, e.g. https://portal.staging.121.global.
+            api_url: Base URL of the API, with or without the trailing /api.
+        """
         self.ctx = ctx
         self.portal_url = portal_url.rstrip("/")
         self.api_url = api_url.rstrip("/").removesuffix("/api") + "/api"
@@ -24,6 +33,11 @@ class Portal:
     # --- session -------------------------------------------------------------
 
     def login(self, username: str, password: str) -> None:
+        """Log in through the portal login page and remember the user's program permissions.
+
+        Raises:
+            RuntimeError: If the login request fails.
+        """
         page = self.ctx.new_page()
         page.goto(f"{self.portal_url}/{LOCALE}/login")
         page.get_by_label("E-mail").fill(username)
@@ -56,7 +70,21 @@ class Portal:
         session: APIRequestContext | None = None,
         **kwargs,
     ):
-        """Call the 121 API as the portal user, or as another `session` (see api_login)."""
+        """Call the 121 API as the portal user, or as another `session` (see api_login).
+
+        Args:
+            method: HTTP method.
+            path: API path; a `program:` prefix is replaced by the demo program's path.
+            params: Query parameters.
+            session: Request context of another user; defaults to the portal session.
+            **kwargs: Passed to Playwright's `fetch` (e.g. `data`, `multipart`).
+
+        Returns:
+            The parsed JSON response, or None for an empty body.
+
+        Raises:
+            RuntimeError: If the response status is not 2xx.
+        """
         if path.startswith("program:"):
             path = f"/programs/{self.program_id}{path.removeprefix('program:')}"
         url = f"{self.api_url}{path}"
@@ -69,6 +97,7 @@ class Portal:
         return r.json() if r.body() else None
 
     def api_login(self, playwright: Playwright, username: str, password: str) -> APIRequestContext:
+        """Log in another user through the API and return their request context."""
         session = playwright.request.new_context()
         self.api(
             "POST",
@@ -79,6 +108,7 @@ class Portal:
         return session
 
     def find_program(self) -> int | None:
+        """Return the id of the demo program the user can access, or None if it does not exist."""
         for pid in sorted(self.permissions, key=int):
             p = self.api("GET", f"/programs/{pid}")
             if (p.get("titlePortal") or {}).get("en") == PROGRAM_TITLE and p.get(
@@ -88,9 +118,15 @@ class Portal:
         return None
 
     def registrations(self, **params) -> list[dict]:
+        """Return the demo program's registrations (up to 1000), filtered by `params`."""
         return self.api("GET", "program:/registrations", params={"limit": 1000, **params})["data"]
 
     def wait_for(self, check, what: str, timeout: float = 60) -> None:
+        """Poll `check()` every second until it is true.
+
+        Raises:
+            TimeoutError: If `check()` is still false after `timeout` seconds.
+        """
         end = time.monotonic() + timeout
         while not check():
             if time.monotonic() > end:
@@ -101,10 +137,12 @@ class Portal:
 
     @staticmethod
     def table(page: Page, test_id: str = "query-table") -> Locator:
+        """Return the data table of the page."""
         return page.get_by_test_id(test_id)
 
     @staticmethod
     def wait_for_table(page: Page, test_id: str = "query-table") -> Locator:
+        """Wait until the data table has rows and has finished loading, then return it."""
         table = page.get_by_test_id(test_id)
         table.locator("tbody tr").first.wait_for()
         table.get_by_test_id("query-table-loading").first.wait_for(state="detached")
@@ -112,6 +150,7 @@ class Portal:
 
     @staticmethod
     def row(page: Page, name: str) -> Locator:
+        """Return the table row whose name link is exactly `name`."""
         return (
             page.get_by_test_id("query-table")
             .locator("tbody tr")
@@ -120,6 +159,7 @@ class Portal:
 
     @staticmethod
     def column_filter_button(page: Page, column: str) -> Locator:
+        """Return the filter button in the header of table column `column`."""
         return (
             page.get_by_test_id("query-table")
             .get_by_role("columnheader", name=column)
