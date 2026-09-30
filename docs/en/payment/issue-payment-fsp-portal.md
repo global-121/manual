@@ -37,10 +37,10 @@ To initiate a new payment:
 ![Add to Payment](../assets/img/StartPayment.png)
 
 - A summary appears showing the Financial Service Provider(s), the number of registrations and the total payment amount; you can add a note if needed;
-- The portal will display guidelines on the left side of your screen for exporting the FSP payment instructions (as shown below);
+- The portal will display guidelines at the top of the summary for exporting the FSP payment instructions (as shown above);
 - Click on **Create payment**. **This action will NOT automatically process or send the payment request to the FSP. However, it will prepare the payment instructions, including the list of registrations set to receive payments.**
 
-Once the payment has been processed, **remain on the payment page you just worked on**. From there, you can download the payment instructions. You will see all pending payments for registrations that have opted to receive cash aid through the FSP via manual import-export (Excel).
+Once the payment has been processed, **remain on the payment page you just worked on**. From there, you can download the payment instructions. You will see all transactions with status **Processing** for registrations that have opted to receive cash aid through the FSP via manual import-export (Excel).
 
 ### Export the payment instructions
 

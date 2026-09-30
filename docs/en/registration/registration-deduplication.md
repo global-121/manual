@@ -70,7 +70,7 @@ Below, the solution based on either of these 3 options:
 
 - Search for the registration number by filtering the **Reg. # column**;
 - Once you have found the registration, **enter the registration profile**;
-- On the top left of the page, click on **Actions** and then, under **Status update**, on **Decline**;
+- On the top right of the page, click on **Actions** and then, under **Status update**, on **Decline**;
 - In the **Decline registration(s)** pop-up, enter a reason for declining the registration and click **Decline registration**. *Confirm only if you are sure to decline this registration, otherwise click **Cancel**.*
 
 ![Decline Registration](../assets/img/DeclineIgnoreDuplicate.png)
@@ -82,7 +82,7 @@ Below, the solution based on either of these 3 options:
 ## Ignore the duplicate
 
 - Once you have found the registration, **enter the registration profile**;
-- On the top left of the page, click on **Actions** and then, under **Duplicates**, on **Ignore duplication**;
+- On the top right of the page, click on **Actions** and then, under **Duplicates**, on **Ignore duplication**;
 - In the **Ignore duplication** pop-up, write a reason and click **Approve**. *Confirm only if you are sure to ignore this registration, otherwise click **Cancel**.*
 
 ![Ignore Duplicate](../assets/img/DeclineIgnoreDuplicate.png)

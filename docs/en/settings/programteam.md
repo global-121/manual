@@ -26,12 +26,11 @@ After creating the program, you must set up your program team.
 
 - Enter the desired program and **go to :material-cog-outline: Settings** page;
 - Select the **Program Team** tab;
-- On the right side of your screen, click **:octicons-pencil-24: the pencil**;
-- Click **:material-plus: Add user to team**;
-- A window opens, you can search for the user by typing their **email address** in **Choose user** field;
+- On the right side of your screen, click **:material-plus: Add user to team**;
+- A window opens, you can search for the user by typing their **email address** in the **Select a user** field;
 - Can't find the user? Their user account needs to be created and [added to the 121 platform first.](../users/add-users.md);
-- On the second field **Assign Roles**, you can now select and **assign one or more role(s)** by ticking the box;
-- Add to team.
+- In the second field **Select role(s)**, you can now select and **assign one or more role(s)** from the dropdown;
+- Click **Add to team**.
 
 ![Program Team](../assets/img/settings-programteampng.png)
 
@@ -45,10 +44,10 @@ After creating the program, you must set up your program team.
 
 - Enter the desired program and **go to :material-cog-outline: Settings** page;
 - Select the **Program Team** tab;
-- On the right side of your screen, click on **:octicons-pencil-24: the pencil**;
+- On the right side of your screen, click **:material-plus: Add user to team**;
 - Select a user;
-- Select the assigned role;
-- Add to team.
+- Select the assigned role(s);
+- Click **Add to team**.
 
 !!! Info "This user is already a team member"
     If you get an error message *"This user is already a team member"*, they are already part of the team. If you want to update their role, check the section [Change assigned roles and permissions](#change-assigned-roles-and-permissions).
@@ -62,7 +61,6 @@ Team members should be removed from the program team if they no longer work with
 
 - Enter the desired program and **go to :material-cog-outline: Settings** page,
 - Select the **Program Team** tab,
-- On the right side of your screen, click on **:octicons-pencil-24: the pencil**.
 - Click on the 3 dots **:material-dots-horizontal:**  on the right end of the user row,
 - Select **Remove user** and confirm.
 
@@ -75,10 +73,9 @@ Team members should be removed from the program team if they no longer work with
 
 - Enter the desired program and **go to :material-cog-outline: Settings** page,
 - Select the **Program Team** tab,
-- On the right side of your screen, click on **:octicons-pencil-24: the pencil**
 - Click on the 3 dots **:material-dots-horizontal:**  on the right end of the user row,
 - Select **Edit**
-- In **Assign Roles** field, **Select or deselect** the roles you want to assign to the user.
+- In the **Select role(s)** field, **Select or deselect** the roles you want to assign to the user.
 - Click **Save changes** to confirm.
 
 ![Edit User](../assets/img/settings-programteameditpng.png)

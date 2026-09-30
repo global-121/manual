@@ -19,7 +19,7 @@ Les paiements échoués se produisent en raison d'une erreur dans les données. 
 Pour filtrer les enregistrements avec paiements échoués :
 
 - Accédez au paiement spécifique ;
-- Dans la liste d'enregistrement sous le graphique, cliquez sur le filtre de colonne **Statut de la transaction** et sélectionnez **Échec** ;
+- Dans l'onglet **Liste des transactions** sous le graphique, cliquez sur le filtre de colonne **Statut de la transaction** et sélectionnez **Échec** ;
 - Le tableau affichera tous les paiements échoués ;
 - Vous pouvez voir la raison dans la colonne **Raison**.
 

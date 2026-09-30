@@ -37,10 +37,10 @@ Pour lancer un nouveau paiement :
 ![Ajouter au paiement](../assets/img/StartPayment.png)
 
 - Un récapitulatif s'affiche avec le(s) prestataire(s) de services financiers, le nombre d'enregistrements et le montant total du paiement ; vous pouvez ajouter une note si nécessaire ;
-- Le portail affichera des directives sur le côté gauche de votre écran pour exporter les instructions de paiement PSF (comme indiqué ci-dessous) ;
+- Le portail affichera des directives en haut du récapitulatif pour exporter les instructions de paiement PSF (comme indiqué ci-dessus) ;
 - Cliquez sur **Créer un paiement**. **Cette action n'exécutera pas automatiquement ou n'enverra pas la demande de paiement au PSF. Cependant, cela préparera les instructions de paiement, y compris la liste des enregistrements destinés à recevoir des paiements.**
 
-Une fois le paiement traité, **restez sur la page de paiement sur laquelle vous veniez de travailler**. À partir de là, vous pouvez télécharger les instructions de paiement. Vous verrez tous les paiements en attente pour les enregistrements qui ont choisi de recevoir une aide en espèces via le PSF via export-import manuel (Excel).
+Une fois le paiement traité, **restez sur la page de paiement sur laquelle vous veniez de travailler**. À partir de là, vous pouvez télécharger les instructions de paiement. Vous verrez toutes les transactions au statut **En cours** pour les enregistrements qui ont choisi de recevoir une aide en espèces via le PSF via export-import manuel (Excel).
 
 ### Exporter les instructions de paiement
 

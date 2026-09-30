@@ -30,12 +30,11 @@ Après la création du programme, vous devez configurer votre équipe de program
 
 - Entrez dans le programme souhaité et **allez à la page :material-cog-outline: Paramètres** ;
 - Sélectionnez l'onglet **Équipe du programme** ;
-- Sur le côté droit de l'écran, cliquez sur **:octicons-pencil-24: le crayon** ;
-- Cliquez sur **:material-plus: Ajouter un utilisateur à l'équipe** ;
-- Une fenêtre s'ouvre, vous pouvez rechercher l'utilisateur en tapant son **adresse e-mail** dans le champ **Choisir un utilisateur** ;
+- Sur le côté droit de l'écran, cliquez sur **:material-plus: Ajouter un utilisateur à l'équipe** ;
+- Une fenêtre s'ouvre, vous pouvez rechercher l'utilisateur en tapant son **adresse e-mail** dans le champ **Sélectionner un utilisateur** ;
 - Impossible de trouver l'utilisateur ? Son compte doit être créé et [ajouté à la plateforme 121 en premier.](../users/add-users.md) ;
-- Dans le deuxième champ **Attribuer des rôles**, vous pouvez maintenant sélectionner et **attribuer un ou plusieurs rôle(s)** en cochant la case ;
-- Ajoutez à l'équipe.
+- Dans le deuxième champ **Sélectionner le(s) rôle(s)**, vous pouvez maintenant sélectionner et **attribuer un ou plusieurs rôle(s)** dans la liste déroulante ;
+- Cliquez sur **Ajouter à l'équipe**.
 
 ![Équipe du programme](../assets/img/settings-programteampng.png)
 
@@ -51,10 +50,10 @@ Après la création du programme, vous devez configurer votre équipe de program
 
 - Entrez dans le programme souhaité et **allez à la page :material-cog-outline: Paramètres** ;
 - Sélectionnez l'onglet **Équipe du programme** ;
-- Sur le côté droit de l'écran, cliquez sur **:octicons-pencil-24: le crayon** ;
+- Sur le côté droit de l'écran, cliquez sur **:material-plus: Ajouter un utilisateur à l'équipe** ;
 - Sélectionnez un utilisateur ;
-- Sélectionnez le rôle assigné ;
-- Ajoutez à l'équipe.
+- Sélectionnez le(s) rôle(s) assigné(s) ;
+- Cliquez sur **Ajouter à l'équipe**.
 
 !!! Info "Cet utilisateur est déjà membre de l'équipe"
     Si vous recevez l'erreur _"Cet utilisateur est déjà un membre de l'équipe"_, il fait déjà partie de l'équipe. Si vous souhaitez mettre à jour son rôle, consultez la section [Modifier les rôles et permissions assignés](#modifier-les-r%C3%B4les-et-permissions-assign%C3%A9s).
@@ -70,7 +69,6 @@ Les membres de l'équipe doivent être retirés du programme s'ils ne travaillen
 
 - Entrez dans le programme souhaité et **allez à la page :material-cog-outline: Paramètres** ;
 - Sélectionnez l'onglet **Équipe du programme** ;
-- Sur le côté droit de l'écran, cliquez sur **:octicons-pencil-24: le crayon** ;
 - Cliquez sur les 3 points **:material-dots-horizontal:** à l'extrémité droite de la ligne de l'utilisateur ;
 - Sélectionnez **Retirer l'utilisateur** et confirmez.
 
@@ -85,7 +83,6 @@ Les membres de l'équipe doivent être retirés du programme s'ils ne travaillen
 
 - Entrez dans le programme souhaité et **allez à la page :material-cog-outline: Paramètres** ;
 - Sélectionnez l'onglet **Équipe du programme** ;
-- Sur le côté droit de l'écran, cliquez sur **:octicons-pencil-24: le crayon** ;
 - Cliquez sur les 3 points **:material-dots-horizontal:** à l'extrémité droite de la ligne de l'utilisateur ;
 - Sélectionnez **Modifier** ;
 - Dans le champ **Attribuer des rôles**, **sélectionnez ou désélectionnez** les rôles que vous souhaitez attribuer à l'utilisateur ;

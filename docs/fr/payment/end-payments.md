@@ -18,7 +18,7 @@ Dans la **page Enregistrement** :
 - Allez à la vue tableau
 - Cliquez sur l'icône de filtre :material-filter-outline: dans la colonne **Nom** et cherchez le **nom de l'enregistrement**, ou cherchez avec **#numéro d'enregistrement**
 
-![Sélectionner Pause](../assets/img/SearchReg.png)
+![Rechercher un enregistrement](../assets/img/SearchReg.png)
 
 ### Modifier le statut
 

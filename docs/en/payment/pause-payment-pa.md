@@ -21,7 +21,7 @@ In the **Registration** page:
 - Go to the table view
 - Click on the filter logo :material-filter-outline: in the column **Name** and search for the **registration's name**, or search with **#reg. number**
 
-![Select Pause](../assets/img/SearchReg.png)
+![Search registration](../assets/img/SearchReg.png)
 
 ## Change status
 

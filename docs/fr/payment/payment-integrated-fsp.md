@@ -35,9 +35,9 @@ La page Paiements de votre programme affichera des informations sur tous les ver
 ![Ajouter au paiement](../assets/img/StartPayment.png)
 
 - Un récapitulatif s'affiche avec le(s) prestataire(s) de services financiers, le nombre d'enregistrements et le montant total du paiement ; vous pouvez ajouter une note si nécessaire ;
-- Cliquez sur **Créer un paiement**. Une fois le paiement approuvé, cliquez sur **Lancer le paiement** sur la page du paiement (voir [Créer, approuver et lancer les paiements](./create-approve-payment.md)). **Le lancement du paiement exécutera automatiquement et enverra la demande de paiement au PSF.**
+- Cliquez sur **Créer un paiement**. Une fois le paiement approuvé, cliquez sur **Instruire les paiements** sur la page du paiement (voir [Créer, approuver et lancer les paiements](./create-approve-payment.md)). **Le lancement du paiement exécutera automatiquement et enverra la demande de paiement au PSF.**
 
-![Lancer le paiement](../assets/img/StartPayment.png)
+![Lancer le paiement](../assets/img/StartPaymentApproved.png)
 
 - Une fois le paiement traité, un tableau affichera la liste des enregistrements inclus dans le tour de paiement avec leurs statuts de paiement respectifs.
 

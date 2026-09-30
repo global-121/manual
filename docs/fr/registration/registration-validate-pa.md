@@ -32,7 +32,7 @@ En raison d'une faute de frappe ou d'une double entrée, vous devrez peut-être 
 - Une fois dans l'aperçu du profil, allez à l'onglet **Informations personnelles**;
 - En haut à gauche, cliquez sur **Modifier les informations**. Les champs deviennent maintenant modifiables;
 - Recherchez le champ à modifier, tapez la nouvelle valeur et cliquez sur **Sauvegarder**;
-- Une fenêtre contextuelle **Raison de la mise à jour** demande de fournir la raison de ce changement; <!-- VERIFY: French title of the "Update information" pop-up (EN UI: "Update information") -->
+- Une fenêtre contextuelle **Mettre à jour les informations** demande de fournir la raison de ce changement;
 - Ajoutez une raison, puis **Sauvegardez**.
 
 !!! Info "Raison de la mise à jour"

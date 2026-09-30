@@ -37,7 +37,7 @@ The Payments page in your program will display information about any completed i
 - A summary appears showing the Financial Service Provider(s), the number of registrations and the total payment amount; you can add a note if needed;
 - Click on **Create payment**. Once the payment has been approved, click **Start payment** on the payment page (see [Create, approve and start payments](./create-approve-payment.md)). **Starting the payment will automatically process and send the payment request to the FSP.**
 
-![Start Payment](../assets/img/StartPayment.png)
+![Start Payment](../assets/img/StartPaymentApproved.png)
 
 - Once the payment has been processed, a table will display the list of registrations included in the payment round with their respective payment statuses.
 

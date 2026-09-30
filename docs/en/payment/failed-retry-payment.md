@@ -19,7 +19,7 @@ Failed payments occur due to an error in data. Depending on how the payment is p
 To filter the registrations with failed payments:
 
 - Navigate to the specific payment;
-- In the registration list beneath the graph, click on **Transaction status** column filter and select **Failed**;
+- In the **Transaction list** tab beneath the graph, click on **Transaction status** column filter and select **Failed**;
 - The table will display all failed payments;
 - You can view the reason in the column **Reason**.
 

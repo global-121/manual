@@ -70,7 +70,7 @@ Ci-dessous, la solution basée sur l'une de ces 3 options:
 
 - Recherchez le numéro d'enregistrement en filtrant la colonne **Enreg. #**;
 - Une fois que vous avez trouvé l'enregistrement, **entrez le profil d'enregistrement**;
-- En haut à gauche de la page, cliquez sur **Actions** puis, sous **Mise à jour du statut**, sur **Décliner**;
+- En haut à droite de la page, cliquez sur **Actions** puis, sous **Mise à jour du statut**, sur **Décliner**;
 - Dans la fenêtre pop-up **Décliner Enregistrements**, indiquez une raison pour décliner l'enregistrement et cliquez sur **Décliner l'enregistrement**. *Confirmez uniquement si vous êtes sûr de décliner cet enregistrement, sinon cliquez sur **Annuler**.*
 
 ![Décliner l'enregistrement](../assets/img/DeclineIgnoreDuplicate.png)
@@ -82,7 +82,7 @@ Ci-dessous, la solution basée sur l'une de ces 3 options:
 ## Ignorer le doublon
 
 - Une fois que vous avez trouvé l'enregistrement, **entrez le profil d'enregistrement**;
-- En haut à gauche de la page, cliquez sur **Actions** puis, sous **Doublons**, sur **Ignorer le doublon**;
+- En haut à droite de la page, cliquez sur **Actions** puis, sous **Doublons**, sur **Ignorer le doublon**;
 - Dans la fenêtre pop-up **Ignorer le doublon**, indiquez une raison et cliquez sur **Approuver**. *Confirmez uniquement si vous êtes sûr d'ignorer cet enregistrement, sinon cliquez sur **Annuler**.*
 
 ![Ignorer le doublon](../assets/img/DeclineIgnoreDuplicate.png)

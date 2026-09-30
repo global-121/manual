@@ -60,7 +60,7 @@ Une fois la demande de paiement créée, elle doit être approuvée par un appro
 Une fois que le paiement a été approuvé par tous les approbateurs de la liste, le responsable financier peut **lancer le paiement**.
 
 - Entrez la carte de paiement **approuvée**,
-- Cliquez sur **Lancer le paiement** en haut à droite, ![Lancer le paiement](../assets/img/StartPaymentApproved.png)
+- Cliquez sur **Instruire les paiements** en haut à droite, ![Lancer le paiement](../assets/img/StartPaymentApproved.png)
 - Le paiement commencera,
 - Tous les statuts de paiement changeront de **Approuvé(e)** à **En cours**.
 
