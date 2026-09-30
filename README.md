@@ -94,7 +94,7 @@ Each image has a scenario in `screenshots/scenarios.py` that drives the 121 Port
 
 ## Automation
 
-Repository-wide Copilot instructions for translation and ToC-anchor safety are in `.github/copilot-instructions.md`.
+Copilot follows the repository-wide instructions in `.github/copilot-instructions.md`: how to translate pages, the mandatory French terminology, markdown rules, and how to keep in-page links (the `#...` links in a page's table of contents) working when headings are translated or renamed.
 
 For every new [121 Platform release](https://github.com/global-121/121-platform/releases), Copilot drafts the manual update:
 
