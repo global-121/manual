@@ -5,8 +5,10 @@ release and the new one, and assigns the issue to Copilot cloud agent (custom ag
 `release-sync`) when COPILOT_ASSIGN_TOKEN is set. Without that token the issue is created
 unassigned, so someone can assign Copilot by hand.
 
-Env: GITHUB_REPOSITORY, GITHUB_TOKEN, COPILOT_ASSIGN_TOKEN (optional),
-INPUT_RELEASE/INPUT_SINCE (optional).
+Environment (set by .github/workflows/release-sync.yml, nothing to configure by hand):
+- GITHUB_REPOSITORY, GITHUB_TOKEN: provided automatically by GitHub Actions.
+- INPUT_RELEASE, INPUT_SINCE: the optional fields of a manual run; empty on the weekly run.
+- COPILOT_ASSIGN_TOKEN (secret) and COPILOT_MODEL (variable): optional repository settings.
 Run with --dry-run to print the issue body instead of creating it.
 """
 
