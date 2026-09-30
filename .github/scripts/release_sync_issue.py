@@ -216,7 +216,6 @@ def main() -> int:
             "target_repo": repo,
             "base_branch": "main",
             "custom_agent": AGENT,
-            # Empty means Auto model selection.
             "model": os.environ.get("COPILOT_MODEL", ""),
         }
     created = api(f"/repos/{repo}/issues", assign_token or token, "POST", issue)
