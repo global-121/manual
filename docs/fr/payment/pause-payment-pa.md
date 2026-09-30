@@ -21,14 +21,14 @@ Dans la **page Enregistrement** :
 - Allez à la vue tableau
 - Cliquez sur l'icône de filtre :material-filter-outline: dans la colonne **Nom** et cherchez le **nom de l'enregistrement**, ou cherchez avec **#numéro d'enregistrement**
 
-![Sélectionner Pause](../assets/img/SearchReg.png)
+![Rechercher un enregistrement](../assets/img/SearchReg.png)
 
 ## Modifier le statut
 
   Cliquez sur :material-checkbox-outline: pour ajouter l'enregistrement à la sélection,
 
 - Cliquez sur le statut **:material-pause: Pause** en haut du tableau,
-- Dans la fenêtre pop-up, **Approuvez**, et *éventuellement, envoyez un message à l'enregistrement*. ![Approuver le statut de pause](../assets/img/PausePANotification.png)
+- Dans la fenêtre pop-up **Pause Enregistrements**, indiquez une raison et cliquez sur **Mettre en pause l'enregistrement**. *Éventuellement, envoyez un message à l'enregistrement.* ![Approuver le statut de pause](../assets/img/PausePANotification.png)
 - Le statut a été modifié en **Mis(e) en pause** ![Statut de pause](../assets/img/PauseStatus.png)
 - À partir du statut **Mis(e) en pause**, l'enregistrement ne recevra plus l'aide en espèces.
 

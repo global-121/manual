@@ -28,28 +28,27 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v7
+      - uses: astral-sh/setup-uv@v6
         with:
-          python-version-file: '.python-version'
-          cache: 'pip'
+          enable-cache: true
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
+          uv sync --locked
 
       - name: Build EN
         working-directory: config/en
         run: |
-          mkdocs build
+          uv run mkdocs build
 
       - name: Build NL
         working-directory: config/nl
         run: |
-          mkdocs build
+          uv run mkdocs build
       - name: Build FR
         working-directory: config/fr
         run: |
-          mkdocs build
+          uv run mkdocs build
 
       - name: 'Create redirect `/`'
         run: |-

@@ -6,3 +6,9 @@ venv
 site
 .DS_Store
 www
+
+# Secrets and local tooling
+.env
+.venv
+screenshots/output/
+__pycache__/

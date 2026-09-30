@@ -117,9 +117,13 @@ Une liste des termes clés utilisés dans la plateforme 121.
 
 | Terme | Définition |
 | :------------------ | :------------------------------------------------------------------- |
-| **En attente** | Le transfert est en cours d'envoi à l'enregistrement. Le statut peut rester « en attente » si l'enregistrement n'a pas encore reçu le transfert, ou si le transfert a été reçu mais que les données dans 121 n'ont pas encore été rapprochées. |
+| **En attente d'approbation** | Le transfert fait partie d'un paiement qui doit encore être approuvé par tous les approbateurs. |
+| **Approuvé(e)** | Le transfert fait partie d'un paiement approuvé par tous les approbateurs ; il sera envoyé une fois le paiement lancé. |
+| **En cours** | Le transfert est en cours d'envoi à l'enregistrement. Le statut peut rester « en cours » si l'enregistrement n'a pas encore reçu le transfert, ou si le transfert a été reçu mais que les données dans 121 n'ont pas encore été rapprochées. |
 | **Réussi** | Le transfert est arrivé à l'enregistrement et peut maintenant être utilisé. |
-| **Échoué** | Le transfert n'est pas arrivé à l'enregistrement. Cela peut se produire pour différentes raisons. |
+| **Échec** | Le transfert n'est pas arrivé à l'enregistrement. Cela peut se produire pour différentes raisons. |
+
+Dans le fichier de réconciliation, les valeurs de statut restent toujours `success` ou `error`.
 
 
 <a id="cartes-de-d%C3%A9bit-sp%C3%A9cifique-%C3%A0-visa"></a>

@@ -18,7 +18,7 @@ La **page Suivi** permet aux utilisateurs de garder un aperçu de toutes les mod
 - Sélectionnez l'onglet **Modifications des données**.
 - Le tableau affichera un certain nombre d'informations pour chaque enregistrement : Champ modifié, N° d'enregistrement, Ancienne valeur, Nouvelle valeur, Modifié par, Date et heure et Motif du changement.
 
-![Onglet Modifications des données](../assets/img/MonitoringPage.png)
+![Page Suivi](../assets/img/MonitoringPage.png)
 
 ---
 
@@ -30,7 +30,7 @@ Dans l'onglet **Modifications des données**, vous pouvez afficher toutes les mo
 - Les colonnes avec le **symbole de filtre :material-filter:** peuvent être filtrées en sélectionnant la valeur;
 - Les autres colonnes peuvent être réorganisées en cliquant sur le nom de la colonne.
 
-![Informations de téléchargement de fichiers](../assets/img/DataChangestab.png)
+![Onglet Modifications des données](../assets/img/DataChangestab.png)
 
 **Pour afficher d'autres détails**:
 

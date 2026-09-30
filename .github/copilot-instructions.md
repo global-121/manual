@@ -73,6 +73,28 @@ The agent helps with:
 
 - The layout of warnings, notes and notifications are marked with `!!! Important`, `!!! Note`, `!!! Info`, and `!!! Question`. Make sure the text following the title is preceded by exactly four spaces, as otherwise the markdown parser will not render it correctly inside the notification box. Please note though that hard tabs are not allowed by the markdown linter, so make sure to use spaces instead of tabs.
 
+## Page layout
+
+New and updated pages follow this layout, based on pages like `docs/en/payment/pause-payment-pa.md`. Some pages (e.g. FAQ, glossary, overview pages) deviate for good reasons: keep their layout and do not force them into this one. When editing an existing page, keep its structure; do not restructure it only to match the template.
+
+1. **Front matter**, with the title as `<Section> - <Topic>` and the in-page ToC hidden:
+
+    ```markdown
+    ---
+    title: Payments - Pause payments for a registration in the program
+    hide:
+      - toc
+    ---
+    ```
+
+2. **Introduction**: one to three sentences on what the page is for.
+3. **Who can do this**: an `!!! Important "Who can perform actions on this page?"` block (FR: `"Qui peut effectuer des actions sur cette page ?"`) naming the roles as in the glossary, ending with a link to `../users/description-roles.md`.
+4. **Sections**: one `##` heading per task (or `###` if the page already uses that level), in the order users perform them. Separate major sections with `---`.
+5. **Steps**: bullet lists, one action per bullet, starting with a verb. UI labels in **bold**, exactly as in the portal, with the icon token before the label where the portal shows one (e.g. `**:material-pause: Pause**`).
+6. **Images**: directly after the step they illustrate, as `![Descriptive alt text](../assets/img/Name.png)`; the alt text says what the image shows.
+7. **Notes and warnings**: in admonitions (`!!! Important`, `!!! Note`, `!!! Info`, `!!! Question`), not in bold or italic body text.
+8. **End of page**: `---` followed by the contact snippet, `-8<- "docs/<lang>/_snippets/contact-support.md"`, as the last line.
+
 ## ToC and anchor safety
 
 - Do not add inline heading IDs like `{ #my-id }` to headings in this repo.

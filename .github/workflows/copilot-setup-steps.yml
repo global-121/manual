@@ -1,0 +1,35 @@
+# Prepares the environment of Copilot cloud agent (see .github/agents/release-sync.agent.md).
+# See: https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/customize-the-agent-environment
+
+name: 'Copilot Setup Steps'
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/copilot-setup-steps.yml
+  pull_request:
+    paths:
+      - .github/workflows/copilot-setup-steps.yml
+
+jobs:
+  # The job MUST be called `copilot-setup-steps`.
+  copilot-setup-steps:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      - name: Install MkDocs and screenshot dependencies
+        run: |
+          uv sync --locked --group screenshots
+          uv run python -m playwright install --with-deps chromium
+
+      - name: Clone the 121 Platform source (to diff releases)
+        run: git clone --filter=blob:none https://github.com/global-121/121-platform.git /tmp/121-platform

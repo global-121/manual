@@ -18,8 +18,8 @@ Le **tableau d'enregistrements** affiche tous les ménages enregistrés pour vot
   - Faire une **sélection individuelle** en cliquant sur la case à cocher :material-checkbox-outline: sur la ligne d'enregistrement;
   - Faire une **sélection en masse** en cliquant sur :material-checkbox-multiple-marked-outline: sur la ligne supérieure **Sélectionner**;
 - En haut du tableau, cliquez sur le bouton **Valider**;
-- Une fenêtre contextuelle apparaît pour confirmer votre action **Vous êtes sur le point de valider X enregistrements;**
-- Cliquez sur **Approuver**. Un message indique la fin de l'action;
+- La fenêtre contextuelle **Valider Enregistrements** apparaît pour confirmer votre action **Vous êtes sur le point de valider X enregistrements.**
+- Cliquez sur **Valider l'enregistrement**. Un message indique la fin de l'action;
 - Le statut d'enregistrement est maintenant mis à jour à **Validé(e)**.
 
 ---
@@ -30,9 +30,9 @@ En raison d'une faute de frappe ou d'une double entrée, vous devrez peut-être 
 
 - **Entrez le profil d'enregistrement** en cliquant sur le lien **Enreg. #** sur le côté gauche;
 - Une fois dans l'aperçu du profil, allez à l'onglet **Informations personnelles**;
-- En haut à gauche, cliquez sur **Modifier**. Les champs deviennent maintenant modifiables;
+- En haut à gauche, cliquez sur **Modifier les informations**. Les champs deviennent maintenant modifiables;
 - Recherchez le champ à modifier, tapez la nouvelle valeur et cliquez sur **Sauvegarder**;
-- Une fenêtre contextuelle **Raison de la mise à jour** demande de fournir la raison de ce changement;
+- Une fenêtre contextuelle **Mettre à jour les informations** demande de fournir la raison de ce changement;
 - Ajoutez une raison, puis **Sauvegardez**.
 
 !!! Info "Raison de la mise à jour"

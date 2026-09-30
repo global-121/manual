@@ -14,9 +14,9 @@ La **page Informations sur le programme** se trouve dans les **Paramètres**. La
 
 ### Informations de base sur le programme
 
-Dans le premier tableau **:octicons-info-24: Informations sur le programme**, vous trouverez les détails liés à votre programme. Pendant le programme, vous pouvez modifier des informations telles que le nom du programme, la description, les dates, le lieu et le nombre de personnes ciblées. Ces paramètres peuvent être modifiés à tout moment. **Toutes les modifications effectuées sur la page Informations sur le programme prennent effet immédiatement**.
+Dans le premier tableau **:octicons-info-24: Informations de base**, vous trouverez les détails liés à votre programme. Pendant le programme, vous pouvez modifier des informations telles que le nom du programme, la description, les dates, le lieu et le nombre de personnes ciblées. Ces paramètres peuvent être modifiés à tout moment. **Toutes les modifications effectuées sur la page Informations sur le programme prennent effet immédiatement**.
 
-- Cliquez sur le **:octicons-pencil-24: crayon** en haut à droite du tableau Informations de base ;
+- Cliquez sur **:octicons-pencil-24: Modifier** en haut à droite du tableau Informations de base ;
 - Modifiez les informations nécessaires ;
 - **:material-check: Sauvegardez** vos modifications ;
 - Tous les champs marqués d'une étoile (*) sont obligatoires.
@@ -49,7 +49,7 @@ Si vous souhaitez configurer des portées, notre équipe de support peut vous ai
 
 Dans le second tableau **:octicons-info-24: Budget**, vous trouverez les détails concernant le budget et les paiements pour votre programme. Pendant le programme, vous pouvez ajuster le budget, la valeur de transfert de base, le nombre de paiements ou la devise du programme. Ces paramètres peuvent être modifiés à tout moment. **Toutes les modifications effectuées sur la page Budget prennent effet immédiatement et s'appliquent à l'ensemble de la liste d'enregistrements**.
 
-- Cliquez sur le **:octicons-pencil-24: crayon** en haut à droite du tableau Budget ;
+- Cliquez sur **:octicons-pencil-24: Modifier** en haut à droite du tableau Budget ;
 - Modifiez les informations nécessaires, telles que la devise, la valeur de transfert fixe et le PSF ;
 - **:material-check: Sauvegardez** vos modifications ;
 - Tous les champs marqués d'une étoile (*) sont obligatoires.

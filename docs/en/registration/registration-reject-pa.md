@@ -18,13 +18,13 @@ The **Registrations table** shows you all of the registered households or indivi
 To mark the registrations as **declined**:
 
 - Go to the **Registrations page**;
-- Filter the list of registrations on **status**, select **New** and **Apply**. *This action is to make sure you select only **registered** status;* ![Filter Status Register](../assets/img/RegisteredStatusFilter.png)
+- Filter the list of registrations on **status**, select **New** and **Apply**. *This action is to make sure you select only **New** status;* ![Filter Status Register](../assets/img/RegisteredStatusFilter.png)
 - You can:
   - Make an **individual selection** by clicking on the :material-checkbox-outline: on the registration line;
   - Make a **bulk selection** by clicking on the :material-checkbox-multiple-marked-outline: on the upper line **Select**;
 - On the top of the table, click **:fontawesome-solid-ban: Decline** button;
-- A pop-up appears to confirm your action **You're about to decline X registrations. This means that they will not be included in payments;**
-- Click on **Approve**. A message indicates the completion of the action.
+- The **Decline registration(s)** pop-up appears. Enter a reason and, *optionally*, turn on **Send a message**;
+- Click on **Decline registration**. A message indicates the completion of the action.
 
 Declined registrations remain listed in the Registrations page with the status **Declined**. Filter the list by status to have an overview of all declined registrations in this program.
 

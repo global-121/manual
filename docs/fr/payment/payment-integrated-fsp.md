@@ -21,6 +21,7 @@ La page Paiements de votre programme affichera des informations sur tous les ver
 
 ![Bouton Créer un nouveau paiement](../assets/img/PaymentsPage.png)
 
+- Saisissez un nom pour le paiement. Un nom est prérempli (*Payment jj/mm/aaaa, hh:mm*) ; vous pouvez le modifier si nécessaire. Cliquez sur **Poursuivre l'enregistrement**.
 - Une page s'affichera avec une liste d'enregistrements inclus dans le programme.
   *Seuls les enregistrements avec le statut **Inclus(e)** qui n'ont pas encore reçu tous leurs versements apparaîtront dans la liste. Les enregistrements qui ont reçu et complété tous leurs paiements ne seront pas affichés.*
 
@@ -33,10 +34,10 @@ La page Paiements de votre programme affichera des informations sur tous les ver
 
 ![Ajouter au paiement](../assets/img/StartPayment.png)
 
-- Une fenêtre s'affiche pour confirmer le nombre d'enregistrements inclus et le montant total à transférer ;
-- Cliquez sur **Lancer le paiement**. **Cette action exécutera automatiquement et enverra la demande de paiement au PSF après le flux d'approbation.**
+- Un récapitulatif s'affiche avec le(s) prestataire(s) de services financiers, le nombre d'enregistrements et le montant total du paiement ; vous pouvez ajouter une note si nécessaire ;
+- Cliquez sur **Créer un paiement**. Une fois le paiement approuvé, cliquez sur **Instruire les paiements** sur la page du paiement (voir [Créer, approuver et lancer les paiements](./create-approve-payment.md)). **Le lancement du paiement exécutera automatiquement et enverra la demande de paiement au PSF.**
 
-![Lancer le paiement](../assets/img/StartPayment.png)
+![Lancer le paiement](../assets/img/StartPaymentApproved.png)
 
 - Une fois le paiement traité, un tableau affichera la liste des enregistrements inclus dans le tour de paiement avec leurs statuts de paiement respectifs.
 
@@ -55,8 +56,8 @@ Le statut sera mis à jour automatiquement pour les PSF intégrés.
 | Type | Description | Actions requises |
 | :---- | :----------- | :---------- |
 | **RÉUSSI** | La transaction a été envoyée aux enregistrements sur la méthode de paiement préférée. La banque a approuvé la transaction. | Aucun. |
-| **EN ATTENTE** | La transaction est en cours de traitement par la banque. En attente de réconciliation de paiement. Le statut sera mis à jour automatiquement par le PSF intégré (réussi ou échoué). | Cela peut parfois prendre quelques heures. Si cela reste inchangé après 24 heures, veuillez demander une mise à jour à votre PSF. Contactez notre équipe de soutien 121 si cela reste non résolu. |
-| **ÉCHOUÉ** | La transaction a échoué. Les enregistrements n'ont pas reçu de paiements. | Veuillez vérifier le message d'erreur fourni par votre banque. L'échec du paiement peut être dû à des détails bancaires incorrects, un numéro de téléphone ou un numéro d'ID selon les méthodes de paiement choisies. Contactez notre équipe de soutien 121 si cela reste non résolu. |
+| **EN COURS** | La transaction est en cours de traitement par la banque. En attente de réconciliation de paiement. Le statut sera mis à jour automatiquement par le PSF intégré (réussi ou échoué). | Cela peut parfois prendre quelques heures. Si cela reste inchangé après 24 heures, veuillez demander une mise à jour à votre PSF. Contactez notre équipe de soutien 121 si cela reste non résolu. |
+| **ÉCHEC** | La transaction a échoué. Les enregistrements n'ont pas reçu de paiements. | Veuillez vérifier le message d'erreur fourni par votre banque. L'échec du paiement peut être dû à des détails bancaires incorrects, un numéro de téléphone ou un numéro d'ID selon les méthodes de paiement choisies. Contactez notre équipe de soutien 121 si cela reste non résolu. |
 
 ---
 

@@ -4,8 +4,8 @@ hide:
   - toc
 ---
 
-Lors du traitement des paiements, les statuts seront mis à jour avec **Réussi**, **En attente** et **Échoué**.
-Vous trouverez ci-dessous les instructions étape par étape pour comprendre les raisons des **paiements échoués** et retry les paiements.
+Lors du traitement des paiements, les statuts seront mis à jour avec **Réussi**, **En cours** et **Échec**.
+Vous trouverez ci-dessous les instructions étape par étape pour comprendre les raisons des **paiements échoués** et réessayer les paiements.
 
 *Pour la description des statuts de paiement, veuillez vous référer à cette [page listant les statuts.](./list-status-payment-page.md)*
 
@@ -19,7 +19,7 @@ Les paiements échoués se produisent en raison d'une erreur dans les données. 
 Pour filtrer les enregistrements avec paiements échoués :
 
 - Accédez au paiement spécifique ;
-- Dans la liste d'enregistrement sous le graphique, cliquez sur le filtre de colonne **Statut de transaction** et sélectionnez **Échoué** ;
+- Dans l'onglet **Liste des transactions** sous le graphique, cliquez sur le filtre de colonne **Statut de la transaction** et sélectionnez **Échec** ;
 - Le tableau affichera tous les paiements échoués ;
 - Vous pouvez voir la raison dans la colonne **Raison**.
 
@@ -53,11 +53,11 @@ Une fois que vous avez identifié la raison, vous pouvez procéder au retry des 
 
 - Allez à la **page Paiements** et entrez le tour de paiement spécifique ;
 - Sélectionnez les enregistrements dans votre liste de transactions pour lesquels vous souhaitez retry le paiement ;
-- Cliquez sur le bouton :material-refresh: **Retry les transaction(s) échouées** en haut à droite de votre liste de transactions ;
+- Cliquez sur le bouton :material-refresh: **Réessayer la ou les transactions ayant échoué** en haut à droite de votre liste de transactions ;
 
   ![Bouton Retry Paiement](../assets/img/RetryPaiementbutton.png)
 
-- **Approuvez** l'action en cliquant sur **Retry transactions**.
+- Dans la fenêtre pop-up **Réessayer la ou les transactions ayant échoué**, confirmez l'action en cliquant sur **Réessayer les transactions** (ou cliquez sur **Annuler**).
 
 ![Approuver le retry du paiement](../assets/img/RetryPaymentConfirm.png)
 

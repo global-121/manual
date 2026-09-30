@@ -21,9 +21,9 @@ On the left of your screen, open the **:material-menu: menu** and select **Users
 
 To grant login credentials and access to a new user on the 121 platform, you must add them as a 121 user.
 
-- On the top right of the **Users page**, click **:material-plus: Add new users**,
-- Add the Name(s) of the users and email address,
-- **Submit**.
+- On the top right of the **Users page**, click **:material-plus: Add new user**,
+- Enter the user's **Full name** and **E-mail** address,
+- Click **Add user**.
 
 ![Add 121 User](../assets/img/AddUser.png)
 ![Insert User Email](../assets/img/AddingNewUser.png)
@@ -42,7 +42,7 @@ An email will be automatically sent to the specified address. Ensure the email i
 You can reset a user's password directly from the user page.
 
 - At the end of the user row, click on the **:material-dots-horizontal: three dots**,
-- Select **Reset Password**,
+- Select **Reset password**,
 - Confirm the action.
 
 ![Reset User Password](../assets/img/ResetPasswordUser.png)

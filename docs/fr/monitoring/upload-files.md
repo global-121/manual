@@ -23,7 +23,7 @@ La **page Suivi** permet aux utilisateurs de télécharger des pièces jointes o
 
 ## Télécharger un fichier
 
-- En haut à droite, cliquez sur **Télécharger des fichiers**.
+- En haut à droite, cliquez sur **Télécharger le fichier**.
 - **Sélectionnez un fichier** sur votre ordinateur, ou **faites glisser et déposez** le fichier dans la fenêtre de téléchargement.
 - Vous pouvez télécharger les types de fichiers suivants : PDF, PNG, JPG, DOC.
 - **Entrez un nom de fichier** qui est clair et facile à comprendre pour tous les utilisateurs.

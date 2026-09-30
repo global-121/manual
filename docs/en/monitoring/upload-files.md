@@ -23,7 +23,7 @@ The **Monitoring page** allows users to upload files that provide additional inf
 
 ## Uploading a File
 
-- On the top right, click **Upload files**.
+- On the top right, click **Upload file**.
 - Either **Select a file** from your computer, or **Drag and drop** the file into the upload window.
 - You can upload the following file types: PDF, PNG, JPG, DOC.
 - **Enter a file name** that is clear and easy for all users to understand.
