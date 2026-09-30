@@ -13,7 +13,7 @@ The issue body lists the release range, release notes, commits and changed porta
 ## Hard rules
 
 - Never edit `docs/*/nlrc/` and do not edit `docs/nl/` (managed separately).
-- Only change files in `docs/en/`, `docs/fr/`, `overrides/assets/img/`, `config/en/mkdocs.yml`, `config/fr/mkdocs.yml` and, for broken screenshot locators only, `screenshots/`.
+- Only change files in `docs/en/`, `docs/fr/`, `overrides/assets/img/`, `config/en/mkdocs.yml`, `config/fr/mkdocs.yml` and `screenshots/scenarios.py` (to fix locators or add scenarios for new images).
 - Only run `python -m screenshots --seed` when the demo data is missing (see step 5). It only touches the "Multipurpose cash" demo program, but it writes to the environment in `PORTAL_URL_121`, which must be a test environment such as staging.
 - Never reference an image that does not exist; the build and readers will break.
 - If you are not sure a statement is correct, write it anyway and put `<!-- VERIFY: what to check -->` right after it. List every VERIFY in the PR.
@@ -54,7 +54,7 @@ When in doubt, read the diff before deciding.
 - Same headings, order, admonitions, lists, images and links as the English page.
 - Use the mandatory terminology table in `.github/copilot-instructions.md` and `docs/fr/glossary-121.md`.
 - For labels that did not change, keep the wording already used in `docs/fr`.
-- For new or changed labels: if the test portal is available (step 5), switch it to French with the language menu in the sidebar and read the label there. Otherwise translate it and add `<!-- VERIFY: FR UI label -->`.
+- For new or changed labels: switch the portal to French with the language menu in the sidebar and read the label there.
 - Keep ToC anchors valid (see "ToC and anchor safety" in the instructions).
 
 ## 5. Screenshots
@@ -66,7 +66,7 @@ Images live in `overrides/assets/img/`. `uv run python -m screenshots --list` sh
   - Copy it over the old image only if it shows the new UI and the state the text describes. The test environment may not run this release yet.
   - If a scenario fails because the UI changed, fix the locator in `screenshots/scenarios.py`. The locators mirror the e2e page objects in `/tmp/121-platform/e2e/portal/pages/`.
 - Otherwise, list it under "Screenshots to refresh" in the PR with the page and what it should show. This includes images without a scenario (GIFs, Kobo, Excel, Power BI and other hand-made images).
-- A new image is never added by you: list it under "Screenshots to refresh" with a suggested file name, the page and what it should show. Do not add a placeholder or an image reference.
+- New features usually deserve a new image. If the test portal is available, add a scenario to `screenshots/scenarios.py` (same pattern as the existing ones, with a descriptive file name that will not change), run it with `--only`, check the result, add it to `overrides/assets/img/` and reference it in both the EN and FR page. If the portal is not available or the scenario cannot reach the right state, list the image under "Screenshots to refresh" with a suggested file name, the page and what it should show, and do not reference it in the docs yet.
 
 ## 6. Validate
 
