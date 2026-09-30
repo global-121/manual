@@ -44,7 +44,7 @@ When in doubt, read the diff before deciding.
 ## 3. Update the English pages
 
 - Keep changes minimal and local; do not rewrite text that is still correct.
-- Match the house style of the page: numbered or bulleted steps, UI labels in **bold** exactly as in the portal, the `!!! Important "Who can perform actions on this page?"` block, admonition bodies indented with exactly four spaces.
+- Follow "Page layout" in `.github/copilot-instructions.md` for new pages and sections; on existing pages, keep their structure.
 - A new feature goes into the most relevant existing page. Only create a new page when nothing fits; then add it to the nav in both `config/en/mkdocs.yml` and `config/fr/mkdocs.yml`.
 - A changed screen that the manual never described: add a short description only if users need it to complete a task; otherwise list it under **Suggestions** in the PR.
 - Update the glossary only for added or renamed statuses, roles and field-specific terms (e.g. CVA, FSP concepts), not for field or button labels.
