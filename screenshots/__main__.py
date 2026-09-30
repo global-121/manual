@@ -24,7 +24,8 @@ HIDE_CSS = """
 """
 # Real e-mail addresses of staging users must not end up in the manual.
 MASK_EMAILS_JS = """() => {
-    const re = /(?<![\\w.+-])(?!support@121\\.global\\b)[\\w.+-]+@(?!example\\.org\\b)[\\w-]+(\\.[\\w-]+)+/g;
+    const re =
+        /(?<![\\w.+-])(?!support@121\\.global\\b)[\\w.+-]+@(?!example\\.org\\b)[\\w-]+(\\.[\\w-]+)+/g;
     const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
     for (let n; (n = walker.nextNode()); ) {
         const v = n.nodeValue.replace(re, 'user@example.org');
