@@ -13,23 +13,24 @@ The **Program Team** is found in each of your active programs under **Settings**
 - [Change assigned roles and permissions](#change-assigned-roles-and-permissions)
 
 !!! Important "Who can perform actions on this page ?"
-    Program Admin can perform actions in this page. [Learn more about Roles & Permissions](../users/description-roles.md)
+    Program Admin and Program Team Manager can perform actions in this page. CVA Manager can view the program team. [Learn more about Roles & Permissions](../users/description-roles.md)
 
 ### View your program team
 
 - Enter the desired program and **go to :material-cog-outline: Settings** page;
-- Select the **:octicons-people-24: Program Team** tab.
+- In the settings menu, select **:octicons-people-24: Users** > **Program team**.
 
 ### Set up your program team
 
 After creating the program, you must set up your program team.
 
 - Enter the desired program and **go to :material-cog-outline: Settings** page;
-- Select the **Program Team** tab;
+- In the settings menu, select **Users** > **Program team**;
 - On the right side of your screen, click **:material-plus: Add user to team**;
 - A window opens, you can search for the user by typing their **email address** in the **Select a user** field;
 - Can't find the user? Their user account needs to be created and [added to the 121 platform first.](../users/add-users.md);
 - In the second field **Select role(s)**, you can now select and **assign one or more role(s)** from the dropdown;
+- If scope is enabled in your program, fill in **Assign scope\***. Leave it empty to give the user access to all registrations;
 - Click **Add to team**.
 
 ![Program Team](../assets/img/settings-programteampng.png)
@@ -43,24 +44,25 @@ After creating the program, you must set up your program team.
 ### Add a team member
 
 - Enter the desired program and **go to :material-cog-outline: Settings** page;
-- Select the **Program Team** tab;
+- In the settings menu, select **Users** > **Program team**;
 - On the right side of your screen, click **:material-plus: Add user to team**;
 - Select a user;
 - Select the assigned role(s);
+- If scope is enabled in your program, fill in **Assign scope\***. Leave it empty to give the user access to all registrations;
 - Click **Add to team**.
 
-!!! Info "This user is already a team member"
-    If you get an error message *"This user is already a team member"*, they are already part of the team. If you want to update their role, check the section [Change assigned roles and permissions](#change-assigned-roles-and-permissions).
+!!! Info "Users who are already team members"
+    Users who are already part of the team are not shown in the **Select a user** list. If you want to update their role, check the section [Change assigned roles and permissions](#change-assigned-roles-and-permissions).
 
 !!! warning "Users must be added to each individual program they are assigned to"
-    Adding a user to the program team grants them access to this specific program, but it does not automatically assign them to ALL programs. Each user must be manually assigned to individual programs by the Program Admin. Without program assignments, they may see a blank page upon login. Additionally, you can assign each user a specific role within the separate programs they are added to.
+    Adding a user to the program team grants them access to this specific program, but it does not automatically assign them to ALL programs. Each user must be manually assigned to individual programs by the Program Admin or the Program Team Manager. Without program assignments, they may see a blank page upon login. Additionally, you can assign each user a specific role within the separate programs they are added to.
 
 ### Remove a team member
 
 Team members should be removed from the program team if they no longer work with the program or they have left the organization to ensure data protection.
 
 - Enter the desired program and **go to :material-cog-outline: Settings** page,
-- Select the **Program Team** tab,
+- In the settings menu, select **Users** > **Program team**,
 - Click on the 3 dots **:material-dots-horizontal:**  on the right end of the user row,
 - Select **Remove user** and confirm.
 
@@ -72,11 +74,15 @@ Team members should be removed from the program team if they no longer work with
 ### Change assigned roles and permissions
 
 - Enter the desired program and **go to :material-cog-outline: Settings** page,
-- Select the **Program Team** tab,
+- In the settings menu, select **Users** > **Program team**,
 - Click on the 3 dots **:material-dots-horizontal:**  on the right end of the user row,
 - Select **Edit**
 - In the **Select role(s)** field, **Select or deselect** the roles you want to assign to the user.
+- If scope is enabled in your program, update **Assign scope\*** if needed.
 - Click **Save changes** to confirm.
+
+!!! Note
+    You cannot change your own roles. Ask another Program Admin or Program Team Manager to do this.
 
 ![Edit User](../assets/img/settings-programteameditpng.png)
 

@@ -25,9 +25,11 @@ Dans le premier tableau **:octicons-info-24: Informations de base**, vous trouve
 
 ![Informations de base sur le programme](../assets/img/settings-programinformation-updatebasicinformation2.png)
 
-Dans le tableau **Informations de base**, vous pouvez activer soit la **Validation** (1), soit la **Portée** (2) dans le programme.
+Dans le tableau **Informations de base**, vous pouvez activer soit **Utilisez la « validation » dans ce programme** (1), soit **Utilisez « scope » dans ce programme** (2). Après la sauvegarde, ces paramètres s'affichent sous les noms **Activer la validation** et **Activer le périmètre (scope)**.
 
 #### 1. Utiliser la validation dans ce programme
+
+L'activation de la validation ajoute un statut d'enregistrement supplémentaire, **Validé(e)**, et l'action **Valider** sur la page Enregistrements.
 
 Un formulaire de validation hors ligne peut être lié à votre programme. Ce formulaire est développé en collaboration avec votre équipe IM et notre équipe de support. Il peut être utilisé après l'enregistrement, par exemple pour un échantillonnage aléatoire de validation ou dans les programmes où les enregistrements doivent être vérifiés avant certaines actions, comme la distribution de cartes SIM ou la confirmation d'identité lors de la distribution de QR code.
 
@@ -47,12 +49,15 @@ Si vous souhaitez configurer des portées, notre équipe de support peut vous ai
 
 ### Budget du programme
 
-Dans le second tableau **:octicons-info-24: Budget**, vous trouverez les détails concernant le budget et les paiements pour votre programme. Pendant le programme, vous pouvez ajuster le budget, la valeur de transfert de base, le nombre de paiements ou la devise du programme. Ces paramètres peuvent être modifiés à tout moment. **Toutes les modifications effectuées sur la page Budget prennent effet immédiatement et s'appliquent à l'ensemble de la liste d'enregistrements**.
+Dans le second tableau **:octicons-info-24: Budget**, vous trouverez les détails concernant le budget et les paiements pour votre programme. Pendant le programme, vous pouvez ajuster le budget (**Fonds disponibles**), la **Valeur de transfert fixe**, le **Nombre de transactions par enregistrement** ou la **Devise** du programme. Ces paramètres peuvent être modifiés à tout moment. **Toutes les modifications effectuées sur la page Budget prennent effet immédiatement et s'appliquent à l'ensemble de la liste d'enregistrements**.
 
 - Cliquez sur **:octicons-pencil-24: Modifier** en haut à droite du tableau Budget ;
 - Modifiez les informations nécessaires, telles que la devise, la valeur de transfert fixe et le PSF ;
 - **:material-check: Sauvegardez** vos modifications ;
 - Tous les champs marqués d'une étoile (*) sont obligatoires.
+
+!!! Note
+    Seul l'administrateur du programme peut ajouter ou retirer des PSF dans le champ **Prestataires de services financiers**. Vous ne pouvez pas retirer un PSF encore utilisé par des enregistrements.
 
 ---
 

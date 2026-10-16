@@ -101,7 +101,7 @@ nav:
         - "Créer un nouveau programme": "settings/create-new-program.md"
         - "Aperçu des paramètres": "settings/settings-overview.md"
         - "Informations sur le programme": "settings/program-information.md"
-        - "Configuration PSF": "settings/fsp-integration.md"
+        - "Intégration FSP": "settings/fsp-integration.md"
         - "Données d'enregistrement": "settings/registration-data.md"
         - "Approbation des paiements": "settings/payment-approval.md"
         - "Équipe du programme": "settings/programteam.md"

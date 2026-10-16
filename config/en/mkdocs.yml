@@ -101,7 +101,7 @@ nav:
         - "Create new program": "settings/create-new-program.md"
         - "Settings overview": "settings/settings-overview.md"
         - "Program information": "settings/program-information.md"
-        - "FSP configuration": "settings/fsp-integration.md"
+        - "FSP integration": "settings/fsp-integration.md"
         - "Registration data": "settings/registration-data.md"
         - "Payment approval": "settings/payment-approval.md"
         - "Program team": "settings/programteam.md"

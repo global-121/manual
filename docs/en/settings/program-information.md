@@ -25,9 +25,11 @@ In the first table **:octicons-info-24: Basic information**, you will find the d
 
 ![Basic Program Information](../assets/img/settings-programinformation-updatebasicinformation2.png)
 
-In the **Basic Information** table, you can either enable the **Use of validation** (1) or **Use of scope** (2) in the program.
+In the **Basic Information** table, you can either enable **Use "validation" in this program** (1) or **Use "scope" in this program** (2). After saving, these settings are shown as **Enable validation** and **Enable scope**.
 
 #### 1. Use Validation in this program
+
+Enabling validation adds an extra registration status, **Validated**, and the **Validate** action on the Registrations page.
 
 An offline validation form can be linked to your program. This form is developed in collaboration with your IM team and our support team. It can be used after registration is completed—for example, for random sampling validation or in programs where registrations must be verified before specific actions, such as SIM card distribution or identity confirmation during QR code distribution.
 
@@ -47,12 +49,15 @@ If you’d like to set up scopes, our support team can assist you with the setup
 
 ### Program Budget
 
-In the second table **:octicons-info-24: Budget**, you will find the budget and payment-related details for your program. During the program, you may need to adjust the budget, base transfer value, number of payments, or the program's currency. These settings can be modified at any time. **All changes made on the Budget page take effect immediately and apply to the entire registration list**.
+In the second table **:octicons-info-24: Budget**, you will find the budget and payment-related details for your program. During the program, you may need to adjust the budget (**Funds available**), the **Fixed transfer value**, the **Number of distributions per registration**, or the program's **Currency**. These settings can be modified at any time. **All changes made on the Budget page take effect immediately and apply to the entire registration list**.
 
 - Click on **:octicons-pencil-24: Edit** on the top right of the Budget table;
 - Edit the necessary information such as currency, fixed transfer value, and FSP;
 - **:material-check: Save** your changes;
 - All fields marked with a star (*) are compulsory.
+
+!!! Note
+    Only the Program Admin can add or remove FSPs in the **Financial service providers** field. You cannot remove an FSP that is still used by registrations.
 
 ---
 
