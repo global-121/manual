@@ -25,6 +25,12 @@ On this page, you set up an approval process for program payments by selecting o
 
 - **:material-check: Save** your changes.
 
+!!! Important "Who can be an approver?"
+    - Only team members with full program access (no scope) can be selected as approvers.
+    - You cannot select yourself.
+    - Each user can be in only one approval step.
+    - Approving payments does not depend on the user's role, but approvers need a role that lets them open payments, for example the **Approver** role. See [Roles & Permissions](../users/description-roles.md).
+
 !!! Note
     A real-life scenario of a payment approval process could be:
 

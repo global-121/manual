@@ -7,7 +7,7 @@ hide:
 The **Registrations** page lets you review and, if necessary, update the registrations list and details before including them in the program to start receiving cash assistance.
 
 !!! Important "Who can perform actions on this page ?"
-    All users can view the Registrations page. Editing, validating, declining, and including registrations is limited to CVA Manager and CVA Officer — see the relevant pages for details. [Learn more about Roles & Permissions](../users/description-roles.md)
+    All users can view the Registrations page. Validating, declining, pausing and editing registrations is limited to CVA Manager and CVA Officer. Including, exporting and bulk updating registrations is limited to CVA Manager. By default, no standard role can delete registrations — see the relevant pages for details. [Learn more about Roles & Permissions](../users/description-roles.md)
 
 
 ### Overview of registration lists
@@ -46,6 +46,23 @@ Follow the instructions on how to:
 Check for duplicates in the registration list before including the registrations in your program. This validation process prevents double payments and reduces fraud risks, so we strongly recommend including deduplication in your validation process.
 
 Follow the instructions on the [Deduplication page](../registration/registration-deduplication.md)
+
+---
+
+### Delete registrations
+
+Deleting a registration removes its personal data from the 121 platform. Only delete registrations when your SOPs or data protection rules require it.
+
+!!! Important "Who can delete registrations?"
+    Deleting registrations needs a separate permission. By default, no standard role has it. Contact our support team if you need to delete registrations.
+
+- On the **Registrations** page, select the registrations you want to delete and click **Delete** on the top of the table. Or open a registration profile, click **Actions** and, under **Status update**, click **Delete**;
+- The **Delete registration(s)** pop-up appears. Enter a reason in **Write a reason for the update**. The reason is required; ![Delete registration(s) pop-up](../assets/img/DeleteRegistration.png)
+- Tick **I understand this action can not be undone.**;
+- Click **Delete registration** (or **Delete registrations**).
+
+!!! Warning "This action cannot be undone"
+    The status of the registration changes to **Deleted**. Its personal data, notes and messages are deleted, and it no longer appears in the Registrations table. You cannot restore a deleted registration.
 
 ---
 

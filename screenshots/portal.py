@@ -135,15 +135,21 @@ class Portal:
 
     # --- locators (see e2e/portal/pages) --------------------------------------
 
-    @staticmethod
-    def table(page: Page, test_id: str = "query-table") -> Locator:
-        """Return the data table of the page."""
-        return page.get_by_test_id(test_id)
+    # Most tables use the default test id; the payment tables have their own since v26.10.
+    TABLE = ", ".join(
+        f"[data-testid='{t}']"
+        for t in ("query-table", "payment-transaction-list-table", "payment-log-table")
+    )
 
     @staticmethod
-    def wait_for_table(page: Page, test_id: str = "query-table") -> Locator:
+    def table(page: Page) -> Locator:
+        """Return the data table of the page."""
+        return page.locator(Portal.TABLE)
+
+    @staticmethod
+    def wait_for_table(page: Page) -> Locator:
         """Wait until the data table has rows and has finished loading, then return it."""
-        table = page.get_by_test_id(test_id)
+        table = Portal.table(page)
         table.locator("tbody tr").first.wait_for()
         table.get_by_test_id("query-table-loading").first.wait_for(state="detached")
         return table
@@ -152,7 +158,7 @@ class Portal:
     def row(page: Page, name: str) -> Locator:
         """Return the table row whose name link is exactly `name`."""
         return (
-            page.get_by_test_id("query-table")
+            Portal.table(page)
             .locator("tbody tr")
             .filter(has=page.get_by_role("link", name=name, exact=True))
         )
@@ -161,7 +167,7 @@ class Portal:
     def column_filter_button(page: Page, column: str) -> Locator:
         """Return the filter button in the header of table column `column`."""
         return (
-            page.get_by_test_id("query-table")
+            Portal.table(page)
             .get_by_role("columnheader", name=column)
             .get_by_label("Show Filter Menu")
         )

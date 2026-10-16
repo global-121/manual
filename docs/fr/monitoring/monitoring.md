@@ -15,7 +15,7 @@ La page Suivi peut comporter un tableau de bord Power BI, soit la version de mod
 
 ![Page Suivi](../assets/img/MonitoringPage.png)
 
-Les métriques du programme traduisent vos exigences et paramètres de programme. Les détails fournissent l'information principale sur la durée et l'emplacement de votre programme, le budget, les enregistrements ciblés, la prestation de l'aide monétaire et les fréquences de distribution. Chacun de vos programmes actifs peut afficher différentes métriques présentées dans le tableau ci-dessous. Ceux-ci peuvent être modifiés dans la page **Paramètres**.
+Les métriques du programme traduisent vos exigences et paramètres de programme. Les détails fournissent l'information principale sur la durée et l'emplacement de votre programme, le budget, les enregistrements ciblés et la prestation de l'aide monétaire. Chacun de vos programmes actifs peut afficher différentes métriques présentées dans le tableau ci-dessous. Ceux-ci peuvent être modifiés dans la page **Paramètres**.
 
 | Type | Description |
 | :----------------------------------- | :-------------------------------------------------------------------------- |
@@ -24,11 +24,11 @@ Les métriques du programme traduisent vos exigences et paramètres de programme
 | **Emplacement** | Pays ou région dans lequel le programme se déroule.​ |
 | **Prestataires de services financiers (PSF)** | Nombre de PSF intégrés ou enregistrés dans votre instance et leurs noms |
 | **Budget** | Budget initial défini pour être envoyé aux enregistrements pour cette distribution de programme. |
-| **Fréquence de paiement** | Fréquence d'émission des paiements (quotidienne, hebdomadaire, mensuelle, trimestrielle, annuelle) |
 | **Durée** | Nombre de cycles de paiement qui seront émis pendant la durée du programme |
 | **Valeur de transfert de base** | La valeur de base définie pour être transférée par enregistrement. |
 | **Aide en espèces versée** | Montant qui a été versé jusqu'à cette date. Ceci est calculé en fonction du nombre total d'enregistrements inclus dans les cycles de paiement, de la valeur de transfert de base et du multiplicateur (le cas échéant). |
 | **Personnes ciblées** | Nombre total d'enregistrements ciblés par ce programme |
+| **Personnes enregistrées** | Nombre total d'enregistrements dans ce programme, sans les enregistrements déclinés et supprimés. |
 | **Personnes incluses** | Enregistrements avec le statut inclus dans ce programme. |
 | **Budget restant** | Le budget restant est le budget initial - Aide en espèces versée. |
 
@@ -36,12 +36,13 @@ Le tableau est mis à jour automatiquement.
 
 ---
 
-## En bas, vous pouvez voir 4 onglets : Tableau de bord, Power BI, Modifications des données et Fichiers
+## En bas, vous pouvez voir les onglets : Tableau de bord, PowerBI, Modifications des données et Fichiers
 
 - **Tableau de bord** fournit des mises à jour du programme en temps réel avec des indicateurs de base correspondants. [En savoir plus](./dashboard.md)
-- **Power BI** affiche un tableau de bord de modèle en temps réel, mais un tableau de bord personnalisé peut être intégré. [En savoir plus](powerbi.md)
-- **Modifications des données** répertorie l'historique de toutes les modifications apportées aux programmes. [En savoir plus](./data-changes.md)
-- **Fichiers** est utilisé pour télécharger les fichiers utiles à votre programme. [En savoir plus](./upload-files.md)
+- **PowerBI** affiche un tableau de bord Power BI, une fois qu'il a été configuré pour votre programme. Il peut s'agir d'un tableau de bord modèle ou d'un tableau de bord personnalisé. [En savoir plus](powerbi.md)
+- **Cartes de débit** est affiché uniquement pour les programmes qui utilisent des cartes de débit Intersolve Visa, et uniquement pour les utilisateurs à qui l'équipe d'assistance 121 a donné accès à la commande de cartes. Utilisez-le pour commander des cartes de débit et voir les cartes commandées. [En savoir plus](../payment/debit-cards.md)
+- **Modifications des données** répertorie l'historique des modifications apportées aux enregistrements du programme. [En savoir plus](./data-changes.md)
+- **Fichiers** est utilisé pour télécharger les fichiers utiles à votre programme. Cet onglet est affiché uniquement pour les utilisateurs autorisés à consulter les fichiers. [En savoir plus](./upload-files.md)
 
 ---
 

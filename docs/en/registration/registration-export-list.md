@@ -11,7 +11,7 @@ You can export custom-selected files from the **Registrations page**. The export
 
 ### Adding Columns to Your Table View
 
-- On the **Registrations page**, go to the **Settings :material-cog:**;
+- On the **Registrations page**, click **Manage table** (:material-cog:);
 - In the side window, select the columns you want to display;
 - Click **Apply**.
 
@@ -27,15 +27,29 @@ Once your table shows the columns you need, all of them will be available for ex
 
 - **Select the registrations** you want to export from the list;
 - On the top right of the table, click **Export**;
-- Choose **Export selected registrations**;
-- Select the desired file format (Excel or CSV);
+- Choose **Selected registrations**;
+- Select the desired file format (**XLSX** or **CSV**);
+- Click **Proceed**;
 - The file will be generated and saved in your Downloads folder.
+
+---
+
+### Bank account verification reports
+
+If your program uses Commercial Bank of Ethiopia (CBE) or Cooperative Bank of Oromia (Coopbank) as FSP, the **Export** menu also shows **CBE verification report** or **Coopbank verification report**. These reports show, per registration, the latest result of the bank account check done with the bank.
+
+- On the top right of the table, click **Export**;
+- Choose **CBE verification report** or **Coopbank verification report**;
+- Click **Proceed**.
+
+!!! Note
+    The data in these reports is imported from the bank every night. If you changed data today, the change is not yet in the report.
 
 ---
 
 ### Import Data Changes
 
-You may need to import changes for a certain number of registrations. You can easily import changes by following the instructions on the [import data changes page](./import-data-changes.md). Make sure to **include the ReferenceID** (UUID) column in your export to reconcile the data easily.
+You may need to import changes for a certain number of registrations. You can easily import changes by following the instructions on the [import data changes page](./import-data-changes.md). Make sure to **include the Reference ID** (UUID) column in your export to reconcile the data easily.
 
 ---
 

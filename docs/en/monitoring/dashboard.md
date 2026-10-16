@@ -24,7 +24,7 @@ A **standard dashboard** displaying baseline indicators linked to the main progr
 
 ![Dashboard](../assets/img/Dashboard.png)
 
-*The dashboard is refreshed on an hourly basis.*
+*The dashboard shows the latest data in the platform when you open it. Very recent changes can take a few minutes to appear.*
 
 ---
 

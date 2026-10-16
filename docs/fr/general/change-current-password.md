@@ -5,7 +5,7 @@ hide:
 ---
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
-    Tous les utilisateurs peuvent modifier leur propre mot de passe.
+    Tous les utilisateurs qui se connectent avec leur e-mail et leur mot de passe peuvent modifier leur propre mot de passe. Ce n'est pas possible si vous vous connectez avec l'authentification unique (SSO). Votre mot de passe est alors géré par votre compte Microsoft.
 
 
 Vous pouvez modifier votre mot de passe depuis le menu **Compte** dans le coin supérieur droit.
@@ -22,7 +22,7 @@ Vous pouvez modifier votre mot de passe depuis le menu **Compte** dans le coin s
 
 ---
 
-Si vous avez perdu ou oublié votre mot de passe, vous pouvez contacter votre responsable d'utilisateurs, qui pourra réinitialiser votre mot de passe [en suivant les instructions sur la page Réinitialiser le mot de passe.](../general/reset-password.md) Une fois connecté avec votre nouveau mot de passe, nous vous recommandons vivement de modifier ce mot de passe pour plus de sécurité.
+Si vous avez perdu ou oublié votre mot de passe, vous pouvez contacter un utilisateur disposant des droits d'administrateur de l'organisation, qui pourra réinitialiser votre mot de passe [en suivant les instructions sur la page Réinitialiser le mot de passe.](../general/reset-password.md) Vous pouvez aussi cliquer sur **Demande de réinitialisation du mot de passe** sous **Mot de passe oublié ?** sur la page de connexion. Une fois connecté avec votre nouveau mot de passe, nous vous recommandons vivement de modifier ce mot de passe pour plus de sécurité.
 
 Si vous ne pouvez toujours pas vous connecter à la plateforme 121, veuillez contacter notre équipe d'assistance via <support@121.global>
 

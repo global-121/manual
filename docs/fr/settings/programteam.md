@@ -13,14 +13,14 @@ La page **Équipe du programme** se trouve dans chacun de vos programmes actifs 
 - [Modifier les rôles et permissions assignés](#modifier-les-r%C3%B4les-et-permissions-assign%C3%A9s)
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
-    L'administrateur du programme peut effectuer des actions sur cette page. [En savoir plus sur les rôles et permissions](../users/description-roles.md)
+    L'administrateur du programme et le responsable de l'équipe du programme peuvent effectuer des actions sur cette page. Le responsable CVA peut consulter l'équipe du programme. [En savoir plus sur les rôles et permissions](../users/description-roles.md)
 
 <a id="voir-votre-%C3%A9quipe-de-programme"></a>
 
 ### Voir votre équipe de programme
 
 - Entrez dans le programme souhaité et **allez à la page :material-cog-outline: Paramètres** ;
-- Sélectionnez l'onglet **:octicons-people-24: Équipe du programme**.
+- Dans le menu des paramètres, sélectionnez **:octicons-people-24: Utilisateurs** > **Équipe du programme**.
 
 <a id="configurer-votre-%C3%A9quipe-de-programme"></a>
 
@@ -29,11 +29,12 @@ La page **Équipe du programme** se trouve dans chacun de vos programmes actifs 
 Après la création du programme, vous devez configurer votre équipe de programme.
 
 - Entrez dans le programme souhaité et **allez à la page :material-cog-outline: Paramètres** ;
-- Sélectionnez l'onglet **Équipe du programme** ;
+- Dans le menu des paramètres, sélectionnez **Utilisateurs** > **Équipe du programme** ;
 - Sur le côté droit de l'écran, cliquez sur **:material-plus: Ajouter un utilisateur à l'équipe** ;
 - Une fenêtre s'ouvre, vous pouvez rechercher l'utilisateur en tapant son **adresse e-mail** dans le champ **Sélectionner un utilisateur** ;
 - Impossible de trouver l'utilisateur ? Son compte doit être créé et [ajouté à la plateforme 121 en premier.](../users/add-users.md) ;
 - Dans le deuxième champ **Sélectionner le(s) rôle(s)**, vous pouvez maintenant sélectionner et **attribuer un ou plusieurs rôle(s)** dans la liste déroulante ;
+- Si le périmètre (scope) est activé dans votre programme, remplissez le champ **Attribuer un périmètre (scope)\***. Laissez-le vide pour donner à l'utilisateur l'accès à tous les enregistrements ;
 - Cliquez sur **Ajouter à l'équipe**.
 
 ![Équipe du programme](../assets/img/settings-programteampng.png)
@@ -49,17 +50,18 @@ Après la création du programme, vous devez configurer votre équipe de program
 ### Ajouter un membre à l'équipe
 
 - Entrez dans le programme souhaité et **allez à la page :material-cog-outline: Paramètres** ;
-- Sélectionnez l'onglet **Équipe du programme** ;
+- Dans le menu des paramètres, sélectionnez **Utilisateurs** > **Équipe du programme** ;
 - Sur le côté droit de l'écran, cliquez sur **:material-plus: Ajouter un utilisateur à l'équipe** ;
 - Sélectionnez un utilisateur ;
 - Sélectionnez le(s) rôle(s) assigné(s) ;
+- Si le périmètre (scope) est activé dans votre programme, remplissez le champ **Attribuer un périmètre (scope)\***. Laissez-le vide pour donner à l'utilisateur l'accès à tous les enregistrements ;
 - Cliquez sur **Ajouter à l'équipe**.
 
-!!! Info "Cet utilisateur est déjà membre de l'équipe"
-    Si vous recevez l'erreur _"Cet utilisateur est déjà un membre de l'équipe"_, il fait déjà partie de l'équipe. Si vous souhaitez mettre à jour son rôle, consultez la section [Modifier les rôles et permissions assignés](#modifier-les-r%C3%B4les-et-permissions-assign%C3%A9s).
+!!! Info "Utilisateurs déjà membres de l'équipe"
+    Les utilisateurs qui font déjà partie de l'équipe n'apparaissent pas dans la liste **Sélectionner un utilisateur**. Si vous souhaitez mettre à jour leur rôle, consultez la section [Modifier les rôles et permissions assignés](#modifier-les-r%C3%B4les-et-permissions-assign%C3%A9s).
 
 !!! warning "Les utilisateurs doivent être ajoutés à chaque programme individuel"
-    L'ajout d'un utilisateur à l'équipe du programme lui donne accès à ce programme spécifique, mais ne l'ajoute pas automatiquement à tous les programmes. Chaque utilisateur doit être assigné manuellement à chaque programme par l'Administrateur du programme. Sans affectation de programme, il peut voir une page vide lors de la connexion. De plus, vous pouvez attribuer à chaque utilisateur un rôle spécifique dans les programmes auxquels il est ajouté.
+    L'ajout d'un utilisateur à l'équipe du programme lui donne accès à ce programme spécifique, mais ne l'ajoute pas automatiquement à tous les programmes. Chaque utilisateur doit être assigné manuellement à chaque programme par l'Administrateur du programme ou le responsable de l'équipe du programme. Sans affectation de programme, il peut voir une page vide lors de la connexion. De plus, vous pouvez attribuer à chaque utilisateur un rôle spécifique dans les programmes auxquels il est ajouté.
 
 <a id="retirer-un-membre-de-l%C3%A9quipe"></a>
 
@@ -68,9 +70,9 @@ Après la création du programme, vous devez configurer votre équipe de program
 Les membres de l'équipe doivent être retirés du programme s'ils ne travaillent plus dans le programme ou s'ils ont quitté l'organisation pour assurer la protection des données.
 
 - Entrez dans le programme souhaité et **allez à la page :material-cog-outline: Paramètres** ;
-- Sélectionnez l'onglet **Équipe du programme** ;
+- Dans le menu des paramètres, sélectionnez **Utilisateurs** > **Équipe du programme** ;
 - Cliquez sur les 3 points **:material-dots-horizontal:** à l'extrémité droite de la ligne de l'utilisateur ;
-- Sélectionnez **Retirer l'utilisateur** et confirmez.
+- Sélectionnez **Supprimer l'utilisateur** et confirmez.
 
 ![Retirer un utilisateur](../assets/img/settings-programteamremove.png)
 
@@ -82,11 +84,15 @@ Les membres de l'équipe doivent être retirés du programme s'ils ne travaillen
 ### Modifier les rôles et permissions assignés
 
 - Entrez dans le programme souhaité et **allez à la page :material-cog-outline: Paramètres** ;
-- Sélectionnez l'onglet **Équipe du programme** ;
+- Dans le menu des paramètres, sélectionnez **Utilisateurs** > **Équipe du programme** ;
 - Cliquez sur les 3 points **:material-dots-horizontal:** à l'extrémité droite de la ligne de l'utilisateur ;
 - Sélectionnez **Modifier** ;
-- Dans le champ **Attribuer des rôles**, **sélectionnez ou désélectionnez** les rôles que vous souhaitez attribuer à l'utilisateur ;
-- Cliquez sur **Sauvegarder les modifications** pour confirmer.
+- Dans le champ **Sélectionner le(s) rôle(s)**, **sélectionnez ou désélectionnez** les rôles que vous souhaitez attribuer à l'utilisateur ;
+- Si le périmètre (scope) est activé dans votre programme, mettez à jour le champ **Attribuer un périmètre (scope)\*** si nécessaire ;
+- Cliquez sur **Enregistrer les modifications** pour confirmer.
+
+!!! Note
+    Vous ne pouvez pas modifier vos propres rôles. Demandez à un autre administrateur du programme ou responsable de l'équipe du programme de le faire.
 
 ![Modifier un utilisateur](../assets/img/settings-programteameditpng.png)
 

@@ -4,24 +4,26 @@ hide:
   - toc
 ---
 
-Si vous avez perdu ou oublié votre mot de passe, vous pouvez contacter votre responsable d'utilisateurs 121. Il peut réinitialiser votre mot de passe via la page Utilisateurs comme suit.
+Si vous avez perdu ou oublié votre mot de passe, vous pouvez contacter un utilisateur disposant des droits d'administrateur de l'organisation. Il peut réinitialiser votre mot de passe via la page **Utilisateurs** comme suit.
+
+Si vous vous connectez avec votre e-mail et votre mot de passe, vous pouvez aussi cliquer sur **Demande de réinitialisation du mot de passe** sous **Mot de passe oublié ?** sur la page de connexion. Cela ouvre un e-mail à l'équipe d'assistance 121.
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
-    Le responsable d'utilisateurs peut consulter et effectuer des actions sur cette page.
+    Les utilisateurs disposant des droits d'administrateur de l'organisation peuvent consulter et effectuer des actions sur cette page. Ces droits sont activés par l'équipe d'assistance 121.
 
 ---
 
 ### Réinitialiser le mot de passe d'un utilisateur
 
-Le responsable d'utilisateurs peut réinitialiser directement les mots de passe des utilisateurs à partir de la **page Utilisateurs**.
+Les utilisateurs disposant des droits d'administrateur de l'organisation peuvent réinitialiser directement les mots de passe des utilisateurs à partir de la page **Utilisateurs**.
 
 - À la fin de la ligne de l'utilisateur, cliquez sur les **:material-dots-horizontal: trois points**,
 - Sélectionnez **Réinitialiser le mot de passe**,
-- Confirmez l'action.
+- Cliquez sur **Réinitialiser le mot de passe** pour confirmer.
 
 ![Réinitialiser le mot de passe utilisateur](../assets/img/ResetPasswordUser.png)
 
-**Un e-mail sera automatiquement envoyé à l'utilisateur pour qu'il puisse réinitialiser son mot de passe.** Une fois que les utilisateurs se sont connectés avec leurs nouveaux mots de passe, nous leur recommandons vivement de modifier et de personnaliser leur nouveau mot de passe pour plus de sécurité.
+**L'utilisateur reçoit automatiquement un e-mail avec un nouveau mot de passe.** Une fois que les utilisateurs se sont connectés avec leurs nouveaux mots de passe, nous leur recommandons vivement de modifier et de personnaliser leur nouveau mot de passe pour plus de sécurité.
 
 ---
 

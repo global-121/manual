@@ -19,8 +19,8 @@ Après vous être connecté à 121, vous verrez les données des personnes enreg
   - **Complété(e):** L'assistance a pris fin
 - **Numéro de téléphone:** Tel qu'entré dans le formulaire Kobo
 - **Nombre de paiements:** Nombre de paiements que la personne a reçus
-- **Paiements maxima:** Nombre total de bons d'épicerie que la personne peut recevoir
-- **Date d'enregistrement:** La date à laquelle la personne a été enregistrée
+- **Paiements maximums:** Nombre total de bons d'épicerie que la personne peut recevoir
+- **Enregistrement créé:** La date à laquelle la personne a été enregistrée
 
 ## Ajustement des colonnes
 
@@ -28,5 +28,5 @@ Vous voulez ajouter ou supprimer des colonnes?
 
 1. Cliquez sur l'icône des paramètres (:material-cog-outline:) en haut à droite de la page.
 2. Sélectionnez ou désélectionnez les colonnes.
-3. Cliquez sur Appliquer pour enregistrer les modifications.
-4. Pour revenir à la vue par défaut, cliquez à nouveau sur l'icône et choisissez Réinitialiser par défaut.
+3. Cliquez sur **Appliquer** pour sauvegarder les modifications.
+4. Pour revenir à la vue par défaut, cliquez à nouveau sur l'icône et choisissez **Revenir aux paramètres par défaut**.

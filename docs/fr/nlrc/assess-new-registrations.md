@@ -8,7 +8,7 @@ Il est important d'examiner les nouvelles inscriptions. Validez uniquement les i
 
 1. Allez à la page « Inscriptions ».
 2. Cliquez sur l'icône de filtre (:material-filter-outline:) à côté du « Statut d'inscription ».
-3. Cliquez sur « Choisir les options » et sélectionnez uniquement « Nouveau ». Le filtre est appliqué automatiquement.
+3. Cliquez sur « Choisir une ou plusieurs option(s) » et sélectionnez uniquement « Nouveau ». Le filtre est appliqué automatiquement.
 
 Pour chaque inscription, vous pouvez :
 

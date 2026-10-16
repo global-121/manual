@@ -8,7 +8,7 @@ It's important to review new registrations. Only validate registrations of peopl
 
 1. Go to the 'Registrations' page.
 2. Click the filter icon (:material-filter-outline:) next to 'Registration Status'.
-3. Click 'Choose options' and select only 'New'. The filter is applied automatically.
+3. Click 'Choose option(s)' and select only 'New'. The filter is applied automatically.
 
 For each registration, you can:
 

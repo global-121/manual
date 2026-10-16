@@ -9,16 +9,16 @@ hide:
 
    *Si la colonne type d'assistance n'est pas visible, veuillez consulter la page sur la façon d'afficher/masquer les colonnes.*
 
-3. Cliquez sur Choisir les options et sélectionnez « Albert Heijn (Imprimé) » dans la liste. Le filtre s'applique automatiquement.
+3. Cliquez sur « Choisir une ou plusieurs option(s) » et sélectionnez « Albert Heijn (Imprimé) » dans la liste. Le filtre s'applique automatiquement.
 
 Pour chaque enregistrement de la liste:
 
 1. Cliquez sur le nom ou le numéro d'enregistrement
-2. Faites défiler vers le bas jusqu'au journal d'activité
-3. Cliquez sur le filtre à côté des activités
-4. Sélectionnez Transfert
+2. Ouvrez l'onglet **Journal d'activité**
+3. Cliquez sur l'icône de filtre à côté de **Activité**
+4. Sélectionnez **Transaction**
 
    Vous verrez maintenant tous les bons d'épicerie envoyés.
 
-5. Choisissez le bon que vous souhaitez télécharger et cliquez sur Afficher le bon
-6. Cliquez sur Imprimer le bon
+5. Choisissez le bon que vous souhaitez télécharger et cliquez sur **Voir le bon d’achat**
+6. Cliquez sur **Imprimer le bon d’achat**

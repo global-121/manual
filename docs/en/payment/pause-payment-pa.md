@@ -34,11 +34,14 @@ In the **Registration** page:
 
 You can also change the status by right-clicking the registration in the table and clicking **:material-pause: Pause** ![DropDownListStatus](../assets/img/RegistationsStatusRighList.png)
 
+!!! Important "Registrations in a payment that is waiting for approval"
+    If a registration you pause is in a payment that is waiting for approval, the portal warns you before you confirm: *Pausing a registration that’s included in a payment will result in a failed transfer. If you include them in the future, you’ll be able to retry the failed payment.*
+
 ---
 
 ## Undo the action and revert the status
 
-The **Paused** status can be applied temporarily. You can restore a registration's status to multiple statuses: **Included**, **Validated** and **Declined**.
+The **Paused** status can be applied temporarily. You can restore a registration's status to multiple statuses: **Included**, **Validated** and **Declined**. Only a CVA Manager can include a registration again.
 It is not possible to restore the **Paused** status to **New** status.
 
 ---

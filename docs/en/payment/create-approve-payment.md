@@ -14,14 +14,14 @@ Payments are created and initiated from the **Payments** page. Each payment must
 - [6. Payment Instructions](#6-payment-instructions)
 
 !!! Important "Who can perform actions in this page?"
-    CVA Manager and Finance Manager can create payments. Approvers must be selected and added to each program. Finance Manager can start payments. [Learn more about Roles & Permissions](../users/description-roles.md)
+    CVA Manager and Finance Manager can create and delete payments. Approving does not depend on a role: only the team members set as approvers for the program can approve. Only the Finance Manager can start and rename payments. [Learn more about Roles & Permissions](../users/description-roles.md)
 
 ## 1. Create a payment request
 
 To initiate a new payment request:
 
 - On the top right, click **Create new payment** ![Create new payment button](../assets/img/PaymentsPage.png)
-- Enter a name for the payment. A name is prefilled (*Payment dd/mm/yyyy, hh:mm*); you can change it if needed. Click **Continue to registration**.
+- Enter a name for the payment. A name is prefilled (*Payment dd/mm/yy, hh:mm*); you can change it if needed. Click **Continue to registration**.
 - A page will open displaying a list of registrations **included** in the program.
   *Only registrations with **Included** status who have not yet received all their installments will appear in the list. Registrations who have received and completed all their payments will not be shown.* ![Select List](../assets/img/CreateNewpaymentSelect.png)
 - **Select the list of registrations to be added** to the payment round as follows.
@@ -34,6 +34,14 @@ To initiate a new payment request:
 !!! Important "No change possible in the payment list"
     Once a payment is created, its details cannot be changed. This includes the list of people in the payment and the transfer value.
     Before creating a payment, make sure to carefully review the transfer value, budget, and selected registrations. If needed, apply filters such as location or FSP and confirm your selection before proceeding.
+
+!!! Important "Resolve duplicates before you create, approve or start a payment"
+    Registrations marked as **Duplicate** block payments:
+
+    - You cannot create a payment if your selection contains duplicate registrations. Remove them from the selection or resolve them first.
+    - You cannot approve or start a payment that contains duplicate registrations. The portal shows an error with the number of duplicates.
+
+    On the payment page, the **Transaction list** has a **Duplicates** column that shows which registrations are duplicates. To resolve duplicates, see [Deduplication](../registration/registration-deduplication.md).
 
 ## 2. Approve payments
 
@@ -66,7 +74,7 @@ Once the payment has been approved by all approvers in the list, the Finance Man
 
 ## 4. Delete payment
 
-The CVA Manager and the Finance Manager can delete payments. You can delete payments that are pending approval.
+The CVA Manager and the Finance Manager can delete payments. You can delete a payment as long as it has not been started (status **Pending approval** or **Approved**).
 
 - Click the :material-dots-horizontal: next to the export button at the top right of the page,
 - Click **Delete payment**,
@@ -76,7 +84,7 @@ The CVA Manager and the Finance Manager can delete payments. You can delete paym
 
 ## 5. Rename payment
 
-The CVA Manager and the Finance Manager can rename payments. You can rename the payment at any time.
+Only the Finance Manager can rename payments. You can rename the payment at any time.
 
 - Navigate to the Payments page,
 - Select the payment you wish to rename,
@@ -101,7 +109,7 @@ Below, the different payment statuses.
 | **PENDING APPROVAL** | The payment request has been created but is still awaiting approval from all approvers. | Approvers must approve the payment to continue. |
 | **APPROVED** | The payment request has been approved by all approvers. | The payment must be started to continue. |
 | **SUCCESSFUL** | The payment has been sent to the Registrations and they can now use it. | None. |
-| **PROCESSING** | The payment is waiting for confirmation of one or more financial officers. The transfer is not yet sent to the Registrations selected for this payment round or the reconciliation file has not been imported yet. | Import the reconciliation file into the 121 platform to update the status. |
+| **PROCESSING** | The payment has been started and the transfer has been sent to the FSP. The 121 platform is waiting for the result from the FSP (integrated FSP) or for the reconciliation file to be imported (manual payment via an FSP portal). | For a manual payment, import the reconciliation file into the 121 platform to update the status. For an integrated FSP, the status is updated automatically. |
 | **FAILED** | The transaction has failed. The registrations have not received any payments. | Please check the error message provided by your bank. Failed payment can be due to wrong bank details, phone number or ID number depending on the chosen payment methods. You can try again. Contact our 121 Support Team if this remains unsolved. |
 
 -8<- "docs/en/_snippets/contact-support.md"

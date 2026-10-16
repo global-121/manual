@@ -31,8 +31,13 @@ For example, the program registration form may include selection criteria such a
 - After uploading the file, click **Import file** to apply the action;
 - Another pop up will appear with confirmation that the import was successful. _Please note this can take some time depending on the number of registrations that are being uploaded._
 
+The imported registrations get the status **New**.
+
+!!! Important "Maximum 1000 records per import"
+    You can import a maximum of 1000 records per file. If you have more registrations to import, split them into multiple files. The import takes about 1 minute per 100 records.
+
 !!! warning "Unsuccessful import"
-    In case the import is unsuccessful or shows an error message, kindly check your Excel file is correctly formatted and saved as a .CSV file.
+    In case the import is unsuccessful or shows an error message, kindly check your Excel file is correctly formatted and saved as a .CSV file. If some rows contain errors, the pop-up shows a table with the line number, column, value and error for each problem. Fix these errors in your file and import it again.
 Should you need further guidance or support, please do not hesitate to contact our [support team](mailto:support@121.global).
 
 ---

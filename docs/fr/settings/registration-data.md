@@ -5,7 +5,7 @@ hide:
 ---
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
-    L'administrateur du programme peut consulter, configurer et mettre à jour l'intégration entre votre formulaire Kobo et la plateforme 121.
+    L'administrateur du programme peut consulter, configurer et mettre à jour l'intégration entre votre formulaire Kobo et la plateforme 121, les questions d'enregistrement et les champs de dédoublonnage.
 
 La plateforme 121 propose une intégration avec KoboToolbox. Si vous utilisez cet outil pour la collecte de données, vous pouvez l'intégrer à votre programme dans 121. Les enregistrements sont ensuite ajoutés automatiquement à 121 en temps réel. Notez que les Sociétés nationales du Mouvement RCRC peuvent créer leur formulaire Kobo via le serveur [IFRC](https://kobo.ifrc.org/) gratuitement. Si vous utilisez un autre outil de collecte de données, vous pouvez [importer vos enregistrements via Excel](../registration/registration-import-list.md).
 
@@ -17,6 +17,7 @@ Vous configurez et gérez l'intégration entre votre formulaire Kobo et 121 sur 
 - [Importer des enregistrements existants](#importer-des-enregistrements-existants)
 - [Gérer votre intégration Kobo](#g%C3%A9rer-votre-int%C3%A9gration-kobo)
 - [Simplifier les libellés des questions](#simplifier-les-libell%C3%A9s-des-questions)
+- [Dédoublonnage](#d%C3%A9doublonnage)
 - [Voir vos enregistrements](#voir-vos-enregistrements)
 
 <a id="configurer-lint%C3%A9gration-de-votre-formulaire-kobo"></a>
@@ -65,11 +66,11 @@ Le **PSF** est requis pour 121. Assurez-vous que le formulaire contient une réf
 - **Utilisation de plusieurs PSF sans choix pour le bénéficiaire** : créez un champ calculate et ajoutez les noms des PSF dans le calcul déterminant le PSF. Les champs calculate sont toujours cachés.
 - **Utilisation de plusieurs PSF avec choix pour le bénéficiaire** : créez une question de type select one ouverte et ajoutez les noms des PSF comme options.
 
-Assurez-vous que le(s) PSF mentionné(s) dans votre formulaire Kobo correspondent aux noms des PSF configurés dans votre programme. Si vous utilisez l'option manuelle via Excel, votre formulaire doit correspondre au « Nom d'affichage » indiqué dans la configuration PSF. Utilisez uniquement des lettres minuscules et des tirets « - » au lieu d'espaces.
+Assurez-vous que le(s) PSF mentionné(s) dans votre formulaire Kobo correspondent aux noms des PSF configurés dans votre programme. Si vous utilisez l'option manuelle via Excel, votre formulaire doit correspondre au **Nom d'affichage** indiqué dans Intégration FSP. Utilisez uniquement des lettres minuscules et des tirets « - » au lieu d'espaces.
 
 ### 4. Exigences des PSF
 
-Assurez-vous que le formulaire collecte les **données requises par le PSF**. Vous pouvez trouver cet aperçu dans deux sections de 121 : dans Configuration PSF (cliquez sur :material-chevron-down: Exigences du formulaire par PSF) et dans Données d'enregistrement (cliquez sur :material-chevron-down: à côté de PSF intégrés). Chaque nom de colonne doit être correctement utilisé dans le formulaire. Si vous avez besoin d'aide, contactez l'équipe 121.
+Assurez-vous que le formulaire collecte les **données requises par le PSF**. Vous pouvez trouver cet aperçu dans deux sections de 121 : dans **Intégration FSP** (cliquez sur :material-chevron-down: **Exigences relatives au formulaire** sur chaque carte PSF) et dans **Données d'enregistrement**. Avant que votre formulaire soit lié, les champs requis sont listés directement sur la page Données d'enregistrement. Après la liaison, cliquez sur :material-chevron-down: **Exigences relatives au formulaire** sur la carte KoboToolbox. Chaque nom de colonne doit être correctement utilisé dans le formulaire. Si vous avez besoin d'aide, contactez l'équipe 121.
 
 ### 5. Numéro de téléphone
 
@@ -99,22 +100,25 @@ Si vous souhaitez utiliser le **Multiplicateur** pour autoriser différentes val
 
 ## Lier votre formulaire à 121
 
+!!! Important "Ajoutez d'abord un PSF"
+    Vous ne pouvez lier un formulaire que si au moins un PSF a été ajouté à votre programme (dans le tableau Budget de la page [Informations sur le programme](../settings/program-information.md#budget-du-programme)). Sinon, la fenêtre **Pending FSP selection** s'ouvre lorsque vous essayez de lier votre formulaire.
+
 1. Assurez-vous que la version finale de votre formulaire est déployée dans Kobo (dans Formulaire, cliquez sur (Re)deploy) ;
 2. Accédez à la page **Données d'enregistrement** sous **Paramètres** ;
-3. Cliquez sur **KoboToolbox - Cliquer pour lier** ;
+3. Sur la carte KoboToolbox, cliquez sur **Link form**. La fenêtre **Associer avec Kobotoolbox** s'ouvre.
 
     ![Lien d'intégration](../assets/img/settings-registrationdata4.png)
 
-4. Copiez l'URL complète du formulaire dans KoboToolbox. C'est le lien visible en haut du navigateur.
+4. Copiez l'URL complète du formulaire dans KoboToolbox. C'est le lien visible en haut du navigateur. Collez-la dans le champ **URL du formulaire Kobo**.
 
     ![Lien d'intégration](../assets/img/settings-registrationdata1.png)
 
-5. Copiez la **clé API**. Dans KoboToolbox, cliquez sur l'icône de votre profil (en haut à droite) et sélectionnez **Paramètres du compte**, sous-section **Sécurité**. Cliquez sur **Afficher** à côté de la clé API avant de la copier.
+5. Copiez la **clé API**. Dans KoboToolbox, cliquez sur l'icône de votre profil (en haut à droite) et sélectionnez **Paramètres du compte**, sous-section **Sécurité**. Cliquez sur **Afficher** à côté de la clé API avant de la copier. Collez-la dans le champ **Clé API**.
 
     ![Lien d'intégration](../assets/img/settings-registrationdata2.png)
     ![Lien d'intégration](../assets/img/settings-registrationdata3.png)
 
-6. Cliquez sur **Continuer**.
+6. Cliquez sur **Continuer**. Vérifiez le nom du formulaire Kobo et cliquez à nouveau sur **Continuer** pour confirmer.
 
     ![Lien d'intégration](../assets/img/settings-registrationdata5.png)
 
@@ -135,8 +139,8 @@ Si vous avez déjà effectué des enregistrements avec le formulaire Kobo avant 
 
 - Une fois votre formulaire lié, allez sur la page **Données d'enregistrement** sous **Paramètres** ;
 - Cliquez sur les trois points :material-dots-vertical: ;
-- Cliquez sur **Importer des enregistrements existants** ;
-- Cliquez sur **Importer des enregistrements**. Notez qu'il y a un maximum de 1 000 enregistrements par importation. Si vous en avez plus, divisez-les en plusieurs fichiers.
+- Cliquez sur **Importer un enregistrement existant.** ;
+- Cliquez sur **Importer le fichier d'enregistrements**. Notez qu'il y a un maximum de 1 000 enregistrements par importation. Si vous en avez plus, divisez-les en plusieurs fichiers.
 
 ![Lien d'intégration](../assets/img/settings-registrationdata7.png)
 
@@ -172,6 +176,22 @@ Si vous souhaitez simplifier les libellés affichés dans les profils 121 et dan
 - Cliquez sur Sauvegarder.
 
 ![Lien d'intégration](../assets/img/settings-registrationdata10.png)
+
+<a id="d%C3%A9doublonnage"></a>
+
+## Dédoublonnage
+
+Sur la carte **Dédoublonnage**, vous choisissez les champs que la plateforme 121 utilise pour trouver les enregistrements en doublon. Si l'un de ces champs est identique pour deux enregistrements ou plus, ces enregistrements sont marqués comme doublons. Choisissez des identifiants uniques, comme les numéros de téléphone, les numéros de compte bancaire ou les numéros d'identification. La carte est aussi disponible si vous n'utilisez pas Kobo et importez vos enregistrements via Excel.
+
+- Accédez à la page **Données d'enregistrement** sous **Paramètres** ;
+- Sur la carte **Dédoublonnage**, cliquez sur **:octicons-pencil-24: Modifier** ; ![Carte Dédoublonnage avec le bouton Modifier](../assets/img/settings-deduplication.png)
+- Dans **Champs de dédoublonnage :**, sélectionnez un ou plusieurs champs ;
+- Cliquez sur **:material-check: Sauvegarder**.
+
+Pour ne plus utiliser un champ pour la vérification des doublons, désélectionnez-le et cliquez sur **:material-check: Sauvegarder**.
+
+!!! Note
+    Seul l'administrateur du programme peut modifier les champs de dédoublonnage. Si aucun champ n'est sélectionné, la carte affiche **Sélectionner le champ à dupliquer**. Découvrez comment traiter les enregistrements en doublon sur la [page Dédoublonnage](../registration/registration-deduplication.md).
 
 ## Voir vos enregistrements
 

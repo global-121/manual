@@ -5,12 +5,13 @@ hide:
 ---
 
 !!! Important "Who can perform actions on this page?"
-    Program Admin and User Manager can view and perform actions in this page.
+    Users with **Organisational Admin rights** can view and perform actions in this page. These rights are not linked to a role: the 121 support team turns them on for you. [Learn more about Roles & Permissions](../users/description-roles.md)
 
 In the **Users** page, you can:
 
 - See the list of all registered users in your 121 instance,
 - Add new users into the 121 platform by sending them an invitation,
+- Edit a user's name,
 - Reset user's password.
 
 On the left of your screen, open the **:material-menu: menu** and select **Users**. An overview of all users in the instance is shown with their latest login date.
@@ -37,6 +38,20 @@ An email will be automatically sent to the specified address. Ensure the email i
 
 ---
 
+## Edit a user
+
+You can change the name of a user.
+
+- At the end of the user row, click on the **:material-dots-horizontal: three dots**,
+- Select **Edit**,
+- Change the **Full name**, ![Edit user dialog](../assets/img/EditUser.png)
+- Click **Save changes**.
+
+!!! Note
+    You cannot change the **E-mail** of a user. To copy a user's e-mail address, click on the **:material-dots-horizontal: three dots** and select **Copy email**.
+
+---
+
 ## Reset User Password
 
 You can reset a user's password directly from the user page.
@@ -47,7 +62,7 @@ You can reset a user's password directly from the user page.
 
 ![Reset User Password](../assets/img/ResetPasswordUser.png)
 
-An email will be automatically sent to the user so that they can reset their password.
+An email with a new password will be automatically sent to the user.
 
 ---
 

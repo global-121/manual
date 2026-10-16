@@ -9,8 +9,10 @@ Om gegevens veilig te houden, is het belangrijk te controleren wie toegang heeft
 ### Huidige Toegang Controleren
 
 1. Log in en open het **programma**.
-2. Klik rechtsboven op het tabblad **Team**.
+2. Klik bovenaan de pagina op het tabblad **Instellingen** en open **Programmateam**.
 3. Bekijk de lijst met namen en e-mails.
+
+Je ziet deze pagina alleen als je rol toegang geeft tot het programmateam.
 
 ![Control Access](../assets/img/ControlAccess.png)
 

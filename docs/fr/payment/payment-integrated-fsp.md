@@ -13,7 +13,7 @@ Dans la plateforme 121, les paiements peuvent être traités de deux façons dif
 
 ## Aperçu des paiements
 
-La page Paiements de votre programme affichera des informations sur tous les versements ou tours de paiement effectués. Si aucun paiement n'a été effectué, aucun détail n'apparaîtra. Cependant, si certains versements sont déjà en cours, vous verrez chaque versement individuel. **Tant que les paiements sont toujours en cours de traitement dans le programme actuel, vous pouvez ajouter des enregistrements aux nouveaux paiements.**
+La page Paiements de votre programme affichera des informations sur tous les versements ou tours de paiement effectués. Si aucun paiement n'a été effectué, aucun détail n'apparaîtra. Cependant, si certains versements sont déjà en cours, vous verrez chaque versement individuel. **Vous pouvez créer de nouveaux paiements même si des transactions de paiements précédents ont encore le statut En cours.** Tant que la plateforme 121 traite encore un paiement (par exemple juste après la création, le lancement ou la relance d'un paiement), la page Paiements affiche **Paiement en cours** et vous ne pouvez pas créer de nouveau paiement avant la fin du traitement.
 
 ## Créer un nouveau paiement
 
@@ -21,7 +21,7 @@ La page Paiements de votre programme affichera des informations sur tous les ver
 
 ![Bouton Créer un nouveau paiement](../assets/img/PaymentsPage.png)
 
-- Saisissez un nom pour le paiement. Un nom est prérempli (*Payment jj/mm/aaaa, hh:mm*) ; vous pouvez le modifier si nécessaire. Cliquez sur **Poursuivre l'enregistrement**.
+- Saisissez un nom pour le paiement. Un nom est prérempli (*Payment jj/mm/aa, hh:mm*) ; vous pouvez le modifier si nécessaire. Cliquez sur **Poursuivre l'enregistrement**.
 - Une page s'affichera avec une liste d'enregistrements inclus dans le programme.
   *Seuls les enregistrements avec le statut **Inclus(e)** qui n'ont pas encore reçu tous leurs versements apparaîtront dans la liste. Les enregistrements qui ont reçu et complété tous leurs paiements ne seront pas affichés.*
 
@@ -42,6 +42,9 @@ La page Paiements de votre programme affichera des informations sur tous les ver
 - Une fois le paiement traité, un tableau affichera la liste des enregistrements inclus dans le tour de paiement avec leurs statuts de paiement respectifs.
 
 ![Tableau de bord de paiement](../assets/img/PaymentReportBoard.png)
+
+!!! Important "Les doublons bloquent les paiements"
+    Vous ne pouvez pas créer, approuver ni lancer un paiement qui contient des enregistrements marqués comme **Doublon**. Résolvez d'abord les doublons. Consultez [Créer, approuver et lancer les paiements](./create-approve-payment.md).
 
 !!! Info "Calendrier du processus de paiement"
     Une fois que le paiement a été traité dans la plateforme 121, le statut de paiement avec PSF intégré est mis à jour instantanément. Dans certains cas, cela peut prendre quelques minutes pour que le statut soit mis à jour (jusqu'à 1 heure) car l'information doit être traitée du PSF revient à la plateforme 121. Les rapports de paiement mis à jour ne seront disponibles qu'ensuite.

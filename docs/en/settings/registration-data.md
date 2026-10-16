@@ -5,7 +5,7 @@ hide:
 ---
 
 !!! Important "Who can perform actions on this page ?"
-    Program Admin can view, set up and update the integration between your Kobo form and the 121 platform.
+    Program Admin can view, set up and update the integration between your Kobo form and the 121 platform, the registration questions and the de-duplication fields.
 
 The 121 platform has an integration with KoboToolbox. If you use this tool for data collection, you can proceed with integrating your form to the program in 121. Registrations are then automatically added to 121 in real-time. Note that Red Cross Red Crescent National Societies can create their Kobo form via [IFRC server](https://kobo.ifrc.org/) for free. If you use another data collection tool, you can [import your registrations via Excel](../registration/registration-import-list.md).
 
@@ -17,6 +17,7 @@ You set up and manage the integration between your Kobo form and 121 on the **Re
 - [Import existing registrations](#import-existing-registrations)
 - [Manage your Kobo form integration](#manage-your-kobo-form-integration)
 - [Simplify question labels](#simplify-question-labels)
+- [De-duplication](#de-duplication)
 - [View your registrations](#view-your-registrations)
 
 ## Set up your Kobo form integration
@@ -61,11 +62,11 @@ The **FSP** is required for 121. Make sure the form includes a reference to **wh
 - **Using multiple FSPs with no choice for beneficiary**: create a calculate field and add the names of your FSPs in the calculation that determines the FSP. Calculate fields are always hidden.
 - **Using multiple FSPs with choice for beneficiary**: create an open select one question and add the names of your FSPs as responses.
 
-Make sure that the FSP(s) mentioned in your Kobo form match the names of the FSP(s) configured in your program. If you use the Excel manual option, your form should match the 'Display Name' mentioned under FSP configuration. This is a name you provided yourself when you configured the Excel. Use only small letters and - instead of spaces.
+Make sure that the FSP(s) mentioned in your Kobo form match the names of the FSP(s) configured in your program. If you use the Excel manual option, your form should match the **Display name** mentioned under FSP integration. This is a name you provided yourself when you configured the Excel. Use only small letters and - instead of spaces.
 
 ### 4. FSP requirements
 
-Make sure the form collects the **data required by the FSP**. You can find this overview in two sections on 121: under FSP configuration (click :material-chevron-down: Form requirements per FSP) and under Registration data (click :material-chevron-down: next to Integrated FSPs). Each data column name should be correctly used in the form. If you require support, please reach out to the 121 team.
+Make sure the form collects the **data required by the FSP**. You can find this overview in two sections on 121: under **FSP integration** (click :material-chevron-down: **Form requirements** on each FSP card) and under **Registration data**. Before your form is linked, the required fields are listed directly on the Registration data page. After linking, click :material-chevron-down: **Form requirements** on the KoboToolbox card. Each data column name should be correctly used in the form. If you require support, please reach out to the 121 team.
 
 ### 5. Phone Number
 
@@ -93,22 +94,25 @@ If you wish to use the **Multiplier** to allow different transfer values in one 
 
 ## Link your form to 121
 
+!!! Important "Add an FSP first"
+    You can only link a form when at least one FSP is added to your program (in the Budget table of [Program information](../settings/program-information.md#program-budget)). Otherwise, the **Pending FSP selection** window opens when you try to link your form.
+
 1. Make sure the final version of your form is deployed in Kobo (under Form, click (Re)deploy)
 2. Navigate to the page **Registration data** under **Settings**
-3. Click **KoboToolbox- Click to link**
+3. On the KoboToolbox card, click **Link form**. The **Link with KoboToolbox** window opens.
 
     ![Registration data link](../assets/img/settings-registrationdata4.png)
 
-4. Copy the **full URL** from the form's page in KoboToolbox. This is the link that you see at the top of your browser.
+4. Copy the **full URL** from the form's page in KoboToolbox. This is the link that you see at the top of your browser. Paste it in the **Kobo form URL** field.
 
     ![Registration data link](../assets/img/settings-registrationdata1.png)
 
-5. Copy the **API key**. In KoboToolbox, click on your profile icon (top-right) and select **Account Settings**, sub-page **Security**. Make sure to click **Display** next to the API Key before copying.
+5. Copy the **API key**. In KoboToolbox, click on your profile icon (top-right) and select **Account Settings**, sub-page **Security**. Make sure to click **Display** next to the API Key before copying. Paste it in the **API key** field.
 
     ![Registration data link](../assets/img/settings-registrationdata2.png)
     ![Registration data link](../assets/img/settings-registrationdata3.png)
 
-6. Click **Continue**
+6. Click **Continue**. Check the name of the Kobo form and click **Continue** again to confirm.
 
     ![Registration data link](../assets/img/settings-registrationdata5.png)
 
@@ -162,6 +166,20 @@ If you wish to simplify the questions as displayed in the 121 profiles and regis
 - Click Save.
 
 ![Registration data link](../assets/img/settings-registrationdata10.png)
+
+## De-duplication
+
+On the **De-duplication** card, you choose the fields that the 121 platform uses to find duplicate registrations. If any of these fields match across two or more registrations, those registrations are marked as duplicates. Choose unique identifiers, like phone numbers, bank account numbers or ID numbers. The card is also available if you do not use Kobo and import your registrations with Excel.
+
+- Navigate to the page **Registration data** under **Settings**;
+- On the **De-duplication** card, click **:octicons-pencil-24: Edit**; ![De-duplication card with the Edit button](../assets/img/settings-deduplication.png)
+- In **Duplication fields:**, select one or more fields;
+- Click **:material-check: Save**.
+
+To stop using a field for the duplicate check, deselect it and click **:material-check: Save**.
+
+!!! Note
+    Only the Program Admin can change the duplication fields. If no field is selected, the card shows **Select duplication field**. Learn how to handle duplicate registrations on the [Deduplication page](../registration/registration-deduplication.md).
 
 ## View your registrations
 

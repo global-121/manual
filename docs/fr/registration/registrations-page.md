@@ -7,7 +7,7 @@ hide:
 La page **Enregistrements** vous permet de vérifier et, si nécessaire, de mettre à jour la liste d'enregistrements et les détails avant de les inclure dans le programme pour commencer à recevoir une aide alimentaire et financière.
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
-    Tous les utilisateurs peuvent consulter la page Enregistrements. La modification, la validation, le fait de décliner et l'inclusion des enregistrements sont réservés au responsable CVA et au gestionnaire CVA — voir les pages correspondantes pour plus de détails. [En savoir plus sur les utilisateurs et les rôles](../users/description-roles.md)
+    Tous les utilisateurs peuvent consulter la page Enregistrements. La validation, le fait de décliner, la mise en pause et la modification des enregistrements sont réservés au responsable CVA et au gestionnaire CVA. L'inclusion, l'exportation et la mise à jour en masse des enregistrements sont réservées au responsable CVA. Par défaut, aucun rôle standard ne peut supprimer des enregistrements — voir les pages correspondantes pour plus de détails. [En savoir plus sur les utilisateurs et les rôles](../users/description-roles.md)
 
 
 ### Aperçu des listes d'enregistrement
@@ -46,6 +46,23 @@ Suivez les instructions sur comment:
 Vérifiez les doublons dans la liste d'enregistrement avant d'inclure les enregistrements dans votre programme. Ce processus de validation prévient les doubles paiements et réduit les risques de fraude, nous recommandons fortement d'inclure le dédoublonnage dans votre processus de validation.
 
 Suivez les instructions sur la [page de dédoublonnage](../registration/registration-deduplication.md)
+
+---
+
+### Supprimer des enregistrements
+
+La suppression d'un enregistrement efface ses données personnelles de la plateforme 121. Ne supprimez des enregistrements que lorsque vos procédures d'exploitation normalisées ou vos règles de protection des données l'exigent.
+
+!!! Important "Qui peut supprimer des enregistrements ?"
+    La suppression d'enregistrements nécessite une permission spécifique. Par défaut, aucun rôle standard ne l'a. Contactez notre équipe d'assistance si vous devez supprimer des enregistrements.
+
+- Sur la page **Enregistrements**, sélectionnez les enregistrements à supprimer et cliquez sur **Supprimer** en haut du tableau. Ou ouvrez un profil d'enregistrement, cliquez sur **Actions** puis, sous **Mise à jour du statut**, sur **Supprimer** ;
+- La fenêtre contextuelle **Supprimer Enregistrements** apparaît. Indiquez une raison dans **Indiquer la raison de la mise à jour**. La raison est obligatoire ; ![Fenêtre Supprimer des enregistrements](../assets/img/DeleteRegistration.png)
+- Cochez **Je comprends que cette action est irréversible.** ;
+- Cliquez sur **Supprimer l'enregistrement** (ou **Supprimer les enregistrements**).
+
+!!! Warning "Cette action est irréversible"
+    Le statut de l'enregistrement devient **Supprimé(e)**. Ses données personnelles, ses notes et ses messages sont supprimés, et il n'apparaît plus dans le tableau Enregistrements. Vous ne pouvez pas restaurer un enregistrement supprimé.
 
 ---
 

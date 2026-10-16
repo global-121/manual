@@ -101,7 +101,7 @@ nav:
         - "Create new program": "settings/create-new-program.md"
         - "Settings overview": "settings/settings-overview.md"
         - "Program information": "settings/program-information.md"
-        - "FSP configuration": "settings/fsp-integration.md"
+        - "FSP integration": "settings/fsp-integration.md"
         - "Registration data": "settings/registration-data.md"
         - "Payment approval": "settings/payment-approval.md"
         - "Program team": "settings/programteam.md"
@@ -132,6 +132,7 @@ nav:
         - "End payments": "payment/end-payments.md"
         - "Payment statuses in 121": "payment/list-status-payment-page.md"
         - "Payment reporting and activty": "payment/payment-reporting.md"
+        - "Debit cards": "payment/debit-cards.md"
     - "Monitoring":
         - "Monitoring page": "monitoring/monitoring.md"
         - "Upload files or attachments" : "monitoring/upload-files.md"

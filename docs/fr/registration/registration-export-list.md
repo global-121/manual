@@ -11,7 +11,7 @@ Vous pouvez exporter des fichiers sélectionnés à personnaliser à partir de l
 
 ### Ajout de colonnes à votre vue de tableau
 
-- Sur la page **Enregistrements**, allez à **Paramètres :material-cog:**;
+- Sur la page **Enregistrements**, cliquez sur **Gérer le tableau** (:material-cog:);
 - Dans la fenêtre latérale, sélectionnez les colonnes que vous pouvez afficher;
 - Cliquez sur **Appliquer**.
 
@@ -27,15 +27,29 @@ Une fois que votre tableau affiche les colonnes dont vous avez besoin, toutes se
 
 - **Sélectionnez les enregistrements** que vous souhaitez exporter de la liste;
 - En haut à droite du tableau, cliquez sur **Exporter**;
-- Choisissez **Exporter les enregistrements sélectionnés**;
-- Sélectionnez le format de fichier souhaité (Excel ou CSV);
+- Choisissez **Enregistrements sélectionnés**;
+- Sélectionnez le format de fichier souhaité (**XLSX** ou **CSV**);
+- Cliquez sur **Continuer**;
 - Le fichier sera généré et sauvegardé dans votre dossier Téléchargements.
+
+---
+
+### Rapports de vérification des comptes bancaires
+
+Si votre programme utilise la Commercial Bank of Ethiopia (CBE) ou la Banque coopérative d'Oromia (Coopbank) comme PSF, le menu **Exporter** affiche aussi **Rapport de vérification CBE** ou **Rapport de vérification de Coopbank**. Ces rapports indiquent, pour chaque enregistrement, le dernier résultat de la vérification du compte bancaire effectuée auprès de la banque.
+
+- En haut à droite du tableau, cliquez sur **Exporter**;
+- Choisissez **Rapport de vérification CBE** ou **Rapport de vérification de Coopbank**;
+- Cliquez sur **Continuer**.
+
+!!! Note
+    Les données de ces rapports sont importées de la banque chaque nuit. Si vous avez modifié des données aujourd'hui, la modification n'apparaît pas encore dans le rapport.
 
 ---
 
 ### Importer les modifications de données
 
-Vous devrez peut-être importer des modifications pour un certain nombre d'enregistrements. Vous pouvez facilement importer des modifications en suivant les instructions sur la façon d'[importer la page des modifications de données.](./import-data-changes.md) Assurez-vous d'**inclure la colonne ID de référence** (UUID) dans votre exportation pour réconcilier facilement les données.
+Vous devrez peut-être importer des modifications pour un certain nombre d'enregistrements. Vous pouvez facilement importer des modifications en suivant les instructions sur la façon d'[importer la page des modifications de données.](./import-data-changes.md) Assurez-vous d'**inclure la colonne Numéro de référence** (UUID) dans votre exportation pour réconcilier facilement les données.
 
 ---
 

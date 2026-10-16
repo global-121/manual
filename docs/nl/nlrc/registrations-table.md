@@ -11,7 +11,7 @@ Na het [inloggen](../log-in-2fa), zie je gegevens van mensen die via jouw organi
 - **Reg. #:** Uniek nummer per persoon
 - **Naam:** De naam van de persoon, zoals ingevuld in het Kobo-formulier
 - **Registratiestatus:**
-  - **Geregistreerd:** Persoon is aangemeld, maar de registratie is nog niet goedgekeurd of afgewezen
+  - **Nieuw:** Persoon is aangemeld, maar de registratie is nog niet goedgekeurd of afgewezen
   - **Goedgekeurd:** Aanmelding is bevestigd, maar de registratie moet nog worden geactiveerd om te kunnen betalen
   - **Afgewezen:** Geen hulp toegekend
   - **Actief:** Registratie is goedgekeurd en geactiveerd; er wordt wekelijks hulp verstuurd
@@ -19,8 +19,8 @@ Na het [inloggen](../log-in-2fa), zie je gegevens van mensen die via jouw organi
   - **Voltooid:** Hulp is afgerond
 - **Telefoonnummer:** Zoals ingevuld in het Kobo-formulier
 - **Aantal betalingen:** Het aantal betalingen dat de persoon heeft ontvangen
-- **Maximale betalingen:** Het totaal aantal betalingen dat de persoon kan ontvangen
-- **Registratiedatum:** De datum waarop de hulpvrager is aangemeld
+- **Max aantal betalingen:** Het totaal aantal betalingen dat de persoon kan ontvangen
+- **Registratie gecreëerd:** De datum waarop de hulpvrager is aangemeld
 
 ![Overview Registrations](../assets/img/OverviewRegistrations.png)
 
@@ -31,6 +31,6 @@ Als je de kolommen die je in de tabel ziet wilt wijzigen, kun je de weergave van
 
 1. Klik op het instellingen-icoon (:material-cog-outline:) rechtsboven in de tabel.
 2. Selecteer of de-selecteer kolommen.
-3. Klik op Toepassen om de wijzigingen op te slaan.
+3. Klik op **Toepassen** om de wijzigingen op te slaan.
 
-Wil je terug naar de standaardweergave? Klik opnieuw op het icoon en kies **Terug naar standaard**.
+Wil je terug naar de standaardweergave? Klik opnieuw op het icoon en kies **Terug naar standaardinstelling**.

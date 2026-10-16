@@ -33,6 +33,18 @@ The below table indicates the correct label names that must be filled in the pay
 | **success** | Successful, completed or confirmed payments. |
 | **error** | Failed payments, not received by registrations due to wrong data shared or error at the FSP. |
 
+The template has three columns:
+
+| Column | What to fill in |
+| :---- | :---- |
+| Identifying column (the name depends on your FSP settings, for example the phone number) | The value that identifies the registration, as set in the FSP settings of the program. Each value can appear only once in the file. |
+| `status` | `success` or `error`. |
+| `errorMessage` | Optional. The reason why the payment failed. Leave it empty when the status is `success`. |
+
+!!! Important "Rules for the reconciliation file"
+    - Use only one identifying column.
+    - All rows must belong to registrations of one Excel FSP. If your program has more than one Excel FSP, **Download the template** downloads one template per Excel FSP. Import a separate file for each FSP.
+
 
 If these labels are not correctly matching, three errors can occur in the 121 platform:
 
@@ -61,6 +73,10 @@ Once your updated file is ready and saved as a .csv format, you can import the p
 - Click **Import reconciliation data** ![Import Reconciliation data](../assets/img/IndividualExportReport.png)
 - **Drag and drop** or click **Choose file**
 - Click on **Import file** ![Import reconciliation file](../assets/img/ReconciliationImport.png)
+- After the import, the portal automatically downloads a result file named `import-fsp-reconciliation-response-<date>`. It shows, for each row of your file, whether it was matched to a transaction.
+
+!!! Note "Upload the correct file"
+    The import window warns: *Make sure to upload the correct file as this will override the current file.* Check that the file belongs to this payment before you import it.
 
 !!! Info "Payment statuses"
     All registrations payment statuses will be updated in the specific payment round. You can then overview the number of successful, processing and failed payments within the registrations list. Read more about the payment statuses in [this page.](./list-status-payment-page.md)

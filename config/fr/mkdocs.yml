@@ -101,7 +101,7 @@ nav:
         - "Créer un nouveau programme": "settings/create-new-program.md"
         - "Aperçu des paramètres": "settings/settings-overview.md"
         - "Informations sur le programme": "settings/program-information.md"
-        - "Configuration PSF": "settings/fsp-integration.md"
+        - "Intégration FSP": "settings/fsp-integration.md"
         - "Données d'enregistrement": "settings/registration-data.md"
         - "Approbation des paiements": "settings/payment-approval.md"
         - "Équipe du programme": "settings/programteam.md"
@@ -132,6 +132,7 @@ nav:
         - "Fin de l'assistance": "payment/end-payments.md"
         - "Messages de paiement et statuts dans 121": "payment/list-status-payment-page.md"
         - "Rapports financiers et activité": "payment/payment-reporting.md"
+        - "Cartes de débit": "payment/debit-cards.md"
     - "Suivi":
         - "Suivi": "monitoring/monitoring.md"
         - "Télécharger des fichiers ou des pièces jointes": "monitoring/upload-files.md"

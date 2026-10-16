@@ -19,8 +19,8 @@ After logging into 121, you will see data of people registered through your orga
   - **Completed:** Assistance has ended
 - **Phone Number:** As entered in the Kobo form
 - **Number of Payments:** Number of payments the person has received
-- **Maximum Payments:** Total number of grocery vouchers the person can receive
-- **Registration Date:** The date the person was registered
+- **Max payments:** Total number of grocery vouchers the person can receive
+- **Registration created:** The date the person was registered
 
 ## Adjusting Columns
 
@@ -28,6 +28,6 @@ Want to add or remove columns?
 
 1. Click the settings icon (:material-cog-outline:) at the top right of the page.
 2. Select or deselect columns.
-3. Click Apply to save changes.
-4. To return to the default view, click the icon again and choose Reset to default.
+3. Click **Apply** to save changes.
+4. To return to the default view, click the icon again and choose **Revert to default**.
 

@@ -25,6 +25,12 @@ Sur cette page, vous configurez un processus d'approbation pour les paiements du
 
 - **:material-check: Sauvegardez** vos modifications.
 
+!!! Important "Qui peut être approbateur ?"
+    - Seuls les membres de l'équipe ayant un accès complet au programme (sans périmètre) peuvent être sélectionnés comme approbateurs.
+    - Vous ne pouvez pas vous sélectionner vous-même.
+    - Chaque utilisateur ne peut figurer que dans une seule étape d'approbation.
+    - L'approbation des paiements ne dépend pas du rôle de l'utilisateur, mais les approbateurs ont besoin d'un rôle qui leur permet d'ouvrir les paiements, par exemple le rôle **Approbateur**. Consultez [Rôles et permissions](../users/description-roles.md).
+
 !!! Note
     Un scénario réel d'approbation des paiements pourrait être :
 

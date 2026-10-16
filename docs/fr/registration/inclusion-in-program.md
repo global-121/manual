@@ -5,7 +5,7 @@ hide:
 ---
 La phase d'inclusion est une étape nécessaire pour passer une liste de bénéficiaires de la phase d'enregistrement à la phase de paiement.
 
-En fonction des procédures d'exploitation normalisées que vous suivez pour votre programme d'aide alimentaire et financière, la **validation** peut être utilisée pour identifier les enregistrements dont les informations ont été vérifiées, soit avant de les inclure dans le programme, soit pour partager la liste vérifiée avec un comité pour approbation. Vous pouvez suivre les étapes pour valider les détails du bénéficiaire sur la [page de validation](./registration-validate-pa.md/)
+En fonction des procédures d'exploitation normalisées que vous suivez pour votre programme d'aide alimentaire et financière, la **validation** peut être utilisée pour identifier les enregistrements dont les informations ont été vérifiées, soit avant de les inclure dans le programme, soit pour partager la liste vérifiée avec un comité pour approbation. La validation n'est disponible que si **Activer la validation** est activé dans les paramètres du programme. Vous pouvez suivre les étapes pour valider les détails du bénéficiaire sur la [page de validation](./registration-validate-pa.md/)
 
 !!! Important "Qui peut effectuer des actions sur cette page?"
     Le responsable CVA peut effectuer des actions sur cette page. [En savoir plus sur les utilisateurs et les rôles](../users/description-roles.md)
@@ -17,14 +17,20 @@ Le **tableau d'enregistrements** affiche tous les ménages ou individus enregist
 Pour marquer les enregistrements comme **Inclus(e)**:
 
 - allez à la **page d'enregistrements**;
-- Filtrez la liste d'enregistrements sur **l'état**, sélectionnez **Nouveau** et **Appliquez**. *Cette action est pour s'assurer que vous sélectionnez uniquement l'état **Nouveau**;* ![Filtre d'état d'enregistrement](../assets/img/RegisteredStatusFilter.png)
+- Filtrez la liste d'enregistrements sur **Statut d'enregistrement**, sélectionnez **Nouveau** (ou **Validé(e)**, si votre programme utilise la validation) et **Appliquez**. *Cette action est pour s'assurer que vous sélectionnez uniquement les enregistrements que vous souhaitez inclure;* ![Filtre d'état d'enregistrement](../assets/img/RegisteredStatusFilter.png)
 - Vous pouvez:
   - Faire une **sélection individuelle** en cliquant sur la case à cocher :material-checkbox-outline: sur la ligne du bénéficiaire;
-  - Faire une **sélection en masse** en cliquant sur :material-checkbox-multiple-marked-outline: sur la ligne supérieure **Sélectionner**;
+  - Faire une **sélection en masse** en cliquant sur la case à cocher :material-checkbox-multiple-marked-outline: dans l'en-tête du tableau;
 - En haut du tableau, cliquez sur le bouton **:octicons-check-16: Inclure**;
 - La fenêtre contextuelle **Inclure Enregistrements** apparaît pour confirmer votre action **Vous êtes sur le point d'inclure X enregistrements. Cela signifie qu'ils peuvent être inclus dans les paiements.** *Éventuellement, activez **Envoyer un message aux enregistré(e)s**;*
 - Cliquez sur **Inclure l'enregistrement**. Un message indique la fin de l'action;
 - Le statut est maintenant mis à jour à **Inclus(e)**.
+
+!!! Important "Les doublons ne peuvent pas être inclus"
+    Les enregistrements marqués comme **Doublon** ne peuvent pas être inclus. Si votre sélection contient un doublon, un message d'erreur apparaît et aucun des enregistrements sélectionnés n'est inclus. Traitez d'abord les doublons (modifiez-les, déclinez-les ou ignorez-les), puis réessayez. Suivez les instructions de la [page de dédoublonnage](./registration-deduplication.md).
+
+!!! Note "Quels enregistrements peuvent être inclus ?"
+    L'action **Inclure** fonctionne pour les enregistrements de tout statut sauf **Inclus(e)**, sauf s'ils ont déjà reçu leur nombre maximal de paiements. Par exemple, vous pouvez aussi inclure des enregistrements **Décliné(e)** ou **Mis(e) en pause**.
 
 !!! Info "Processus de dédoublonnage"
     Les procédures d'exploitation normalisées peuvent inclure un processus de dédoublonnage avant de lancer la phase d'inclusion. Suivez les instructions pour [vérifier votre liste d'enregistrements et dédoublonner les enregistrements avant de déplacer la liste vers la phase d'inclusion](./registration-deduplication.md).
@@ -38,7 +44,7 @@ Vous pouvez suivre les instructions sur cette [page](./registration-reject-pa.md
 
 ### Envoyer un message aux enregistrements
 
-Il y a une option pour envoyer un message aux ménages ou individus enregistrés pour chaque action que vous effectuez dans l'instance, telle que l'inclusion, le fait de décliner ou l'envoi de paiements. Si vous souhaitez communiquer la progression du programme aux enregistrements, vous pouvez cliquer sur le bouton **Envoyer un message aux enregistrements** et activer la messagerie via la plateforme 121.
+Il y a une option pour envoyer un message aux ménages ou individus enregistrés pour chaque action que vous effectuez dans l'instance, telle que l'inclusion, le fait de décliner ou l'envoi de paiements. Si vous souhaitez communiquer la progression du programme aux enregistrements, vous pouvez activer **Envoyer un message aux enregistré(e)s** et activer la messagerie via la plateforme 121.
 
 Pour activer les services de messagerie, vous devez créer un compte Twilio et vous assurer qu'il y a suffisamment de crédits de messagerie. Contactez notre équipe d'assistance pour configurer cela.
 

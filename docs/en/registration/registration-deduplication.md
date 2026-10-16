@@ -7,17 +7,28 @@ hide:
 Below you will find the steps to check duplicated registrations and deduplicate as needed. Note that duplicates can only be checked within a single project and there is no way to check duplicates across different programs in 121.
 
 !!! Important "Who can perform actions on this page ?"
-    CVA Manager can perform actions on this page. [Learn more about Roles & Permissions](../users/description-roles.md)
+    Program Admin can set up the duplicate check. CVA Manager can perform the other actions on this page. CVA Officer can also edit and decline registrations, but cannot ignore duplicates. [Learn more about Roles & Permissions](../users/description-roles.md)
 
 ---
 
 ### Setting up the Duplicate Check
 
-**The criteria for detecting duplicates have been configured in your Kobo form.**
-
 **Duplicates are identified based on specific unique criteria** such as phone number or ID number. These criteria are flexible and can be chosen by the organization and changed depending on the program requirements. We recommend avoiding criteria that can easily match across registrations (like name).
 
-The criteria can be set up directly in your Kobo, marking the question as **+dedup** in your form. The 121 platform will then recognize the value as the duplicate criteria. Request our team to adjust the criteria based on your program.
+You set these criteria in the program settings, on the **De-duplication** card:
+
+- Go to **Settings** and open the **Registration data** page;
+- On the **De-duplication** card, click **Edit**;
+- In **Duplication fields:**, select one or more fields;
+- Click **Save**.
+
+If any of these fields has the same value for two or more registrations, those registrations are marked as **Duplicate**. Declined registrations are not checked for duplicates. Learn more on the [Registration data page](../settings/registration-data.md#de-duplication).
+
+!!! Note "No Program Admin in your team?"
+    Only Program Admin can change the duplication fields. If no one in your team has this role, contact our support team to set up the duplication fields for your program.
+
+!!! Important "Duplicates block inclusion and payments"
+    Registrations marked as **Duplicate** cannot be included. If your selection contains a duplicate, the platform shows an error and none of the selected registrations is included. A payment that contains duplicate registrations cannot be approved or started either. Resolve all duplicates first: edit the value, decline the registration or ignore the duplicate, as described below.
 
 ---
 
@@ -25,8 +36,7 @@ The criteria can be set up directly in your Kobo, marking the question as **+ded
 
 In the **Registrations** page, and following your organization's SOPs, all duplicated entries will be listed based on the selected unique criteria.
 
-- Click on :material-cog: icon to **manage the table**;
-- Select **Duplicates** and click **Apply** to show duplicate column in the table;
+- If the **Duplicates** column is not visible, click **Manage table** (:material-cog:), select **Duplicates** and click **Apply**;
 - In the **Duplicates** column, select the filter icon and filter on **Duplicate**;
 - The filtered list will only show the registrations marked as **Duplicate**;
 - Click on **Reg #** or **Name** to open the personal registration profile. A red banner at the top of the page labeled **Duplicated with** will show who this person is duplicated with and the **matching field**;
@@ -35,12 +45,6 @@ In the **Registrations** page, and following your organization's SOPs, all dupli
 ![Manage Table](../assets/img/ShowDuplicateColumn.png)
 
 ![Filter Duplicate](../assets/img/FilterDuplicate.png)
-
-!!! Note "Setting up your duplicates criteria in Kobo"
-    **Duplicates are identified based on specific unique criteria** such as phone number or ID number. These criteria are flexible and can be chosen by the organization and changed depending on the program requirements. We recommend unique criteria to ease the duplicate check.
-
-    The criteria can be set up directly in your Kobo, marking the question as **+dedup** in your form. The 121 platform will then recognize the value as the duplicate criteria. Request our team to adjust the criteria based on your program.
-
 
 ## Update the list of registrations
 

@@ -18,4 +18,4 @@ hide:
 7. You are logged in!
 8. Click on a project to continue.
 
-You will see an overview with the total number of registrations, active help seekers and the total amount that has been paid out. Click on the name of a project to continue.
+For each project, you will see an overview with the **Target registrations**, **Included registrations**, **Budget** and **Cash disbursed**. Click on the name of a project to continue.

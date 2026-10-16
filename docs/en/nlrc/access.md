@@ -9,8 +9,10 @@ To keep data secure, it's important to check who has access to the 121 platform.
 ## Check Current Access
 
 1. Log in and open the program
-2. Click the Team tab at the top right
+2. Click the **Settings** tab at the top of the page and open **Program team**
 3. View the list of names and emails
+
+You can only see this page if your role gives access to the program team (for example Program Admin, CVA Manager or Program Team Manager).
 
 Actions:
 

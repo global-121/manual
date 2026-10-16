@@ -14,7 +14,7 @@ Les paiements sont créés et lancés à partir de la **page Paiements**. Chaque
 - [6. Instructions de paiement](#6-instructions-de-paiement)
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
-    Le responsable CVA et le responsable financier peuvent créer des paiements. Les approbateurs doivent être sélectionnés et ajoutés à chaque programme. Le responsable financier peut lancer les paiements. [En savoir plus sur Utilisateurs et rôles](../users/description-roles.md)
+    Le responsable CVA et le responsable financier peuvent créer et supprimer des paiements. L'approbation ne dépend pas d'un rôle : seuls les membres de l'équipe désignés comme approbateurs du programme peuvent approuver. Seul le responsable financier peut lancer et renommer les paiements. [En savoir plus sur Utilisateurs et rôles](../users/description-roles.md)
 
 <a id="1-cr%C3%A9er-une-demande-de-paiement"></a>
 
@@ -23,7 +23,7 @@ Les paiements sont créés et lancés à partir de la **page Paiements**. Chaque
 Pour lancer une nouvelle demande de paiement :
 
 - En haut à droite, cliquez sur **Créer un nouveau paiement** ![Bouton Créer un nouveau paiement](../assets/img/PaymentsPage.png)
-- Saisissez un nom pour le paiement. Un nom est prérempli (*Payment jj/mm/aaaa, hh:mm*) ; vous pouvez le modifier si nécessaire. Cliquez sur **Poursuivre l'enregistrement**.
+- Saisissez un nom pour le paiement. Un nom est prérempli (*Payment jj/mm/aa, hh:mm*) ; vous pouvez le modifier si nécessaire. Cliquez sur **Poursuivre l'enregistrement**.
 - Une page s'affichera avec une liste d'enregistrements inclus dans le programme.
   *Seuls les enregistrements avec le statut **Inclus(e)** qui n'ont pas encore reçu tous leurs versements apparaîtront dans la liste. Les enregistrements qui ont reçu et complété tous leurs paiements ne seront pas affichés.* ![Liste de sélection](../assets/img/CreateNewpaymentSelect.png)
 - **Sélectionnez la liste des enregistrements à ajouter** au tour de paiement comme suit.
@@ -36,6 +36,14 @@ Pour lancer une nouvelle demande de paiement :
 !!! Important "Aucun changement possible dans la liste de paiement"
     Une fois qu'un paiement est créé, ses détails ne peuvent pas être modifiés. Cela inclut la liste des personnes dans le paiement et la valeur du transfert.
     Avant de créer un paiement, assurez-vous d'examiner attentivement la valeur du transfert, le budget et les enregistrements sélectionnés. Si nécessaire, appliquez des filtres tels que l'emplacement ou le PSF et confirmez votre sélection avant de continuer.
+
+!!! Important "Résolvez les doublons avant de créer, d'approuver ou de lancer un paiement"
+    Les enregistrements marqués comme **Doublon** bloquent les paiements :
+
+    - Vous ne pouvez pas créer un paiement si votre sélection contient des doublons. Retirez-les de la sélection ou résolvez-les d'abord.
+    - Vous ne pouvez pas approuver ni lancer un paiement qui contient des doublons. Le portail affiche une erreur avec le nombre de doublons.
+
+    Sur la page du paiement, la **Liste des transactions** contient une colonne **Doublons** qui indique quels enregistrements sont des doublons. Pour résoudre les doublons, consultez [Dédoublonnage](../registration/registration-deduplication.md).
 
 ## 2. Approuver les paiements
 
@@ -68,7 +76,7 @@ Une fois que le paiement a été approuvé par tous les approbateurs de la liste
 
 ## 4. Supprimer le paiement
 
-Le responsable CVA et le responsable financier peuvent supprimer des paiements. Vous pouvez supprimer les paiements qui sont en attente d'approbation.
+Le responsable CVA et le responsable financier peuvent supprimer des paiements. Vous pouvez supprimer un paiement tant qu'il n'a pas été lancé (statut **En attente d'approbation** ou **Approuvé(e)**).
 
 - Cliquez sur :material-dots-horizontal: à côté du bouton d'export en haut à droite de la page,
 - Cliquez sur **Supprimer le paiement**,
@@ -78,7 +86,7 @@ Le responsable CVA et le responsable financier peuvent supprimer des paiements. 
 
 ## 5. Renommer le paiement
 
-Le responsable CVA et le responsable financier peuvent renommer des paiements. Vous pouvez renommer le paiement à tout moment.
+Seul le responsable financier peut renommer des paiements. Vous pouvez renommer le paiement à tout moment.
 
 - Accédez à la page Paiements,
 - Sélectionnez le paiement que vous souhaitez renommer,
@@ -103,7 +111,7 @@ Vous trouverez ci-dessous les différents statuts de paiement.
 | **EN ATTENTE D'APPROBATION** | La demande de paiement a été créée mais attend toujours l'approbation de tous les approbateurs. | Les approbateurs doivent approuver le paiement pour continuer. |
 | **APPROUVÉ(E)** | La demande de paiement a été approuvée par tous les approbateurs. | Le paiement doit être lancé pour continuer. |
 | **RÉUSSI** | Le paiement a été envoyé aux enregistrements et ils peuvent maintenant l'utiliser. | Aucun. |
-| **EN COURS** | Le paiement attend la confirmation d'un ou plusieurs gestionnaires financiers. Le transfert n'a pas encore été envoyé aux enregistrements sélectionnés pour ce tour de paiement ou le fichier de réconciliation n'a pas encore été importé. | Importez le fichier de réconciliation dans la plateforme 121 pour mettre à jour le statut. |
+| **EN COURS** | Le paiement a été lancé et le transfert a été envoyé au PSF. La plateforme 121 attend le résultat du PSF (PSF intégré) ou l'importation du fichier de réconciliation (paiement manuel via un portail PSF). | Pour un paiement manuel, importez le fichier de réconciliation dans la plateforme 121 pour mettre à jour le statut. Pour un PSF intégré, le statut est mis à jour automatiquement. |
 | **ÉCHEC** | La transaction a échoué. Les enregistrements n'ont pas reçu de paiements. | Veuillez vérifier le message d'erreur fourni par votre banque. L'échec du paiement peut être dû à des détails bancaires incorrects, un numéro de téléphone ou un numéro d'ID selon les méthodes de paiement choisies. Vous pouvez réessayer. Contactez notre équipe de soutien 121 si cela reste non résolu. |
 
 -8<- "docs/fr/_snippets/contact-support.md"
