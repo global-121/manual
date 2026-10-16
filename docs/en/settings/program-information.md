@@ -14,9 +14,9 @@ The **program information** can be read and changed under the **Settings**. The 
 
 ### Basic program information
 
-In the first table **:octicons-info-24: Program Information**, you will find the details related to your program. During the program, you may need to adjust any details, such as the program name, program description, dates, location and target registrations. These settings can be modified at any time. **All changes made on the program information page take effect immediately**.
+In the first table **:octicons-info-24: Basic information**, you will find the details related to your program. During the program, you may need to adjust any details, such as the program name, program description, dates, location and target registrations. These settings can be modified at any time. **All changes made on the program information page take effect immediately**.
 
-- Click on the **:octicons-pencil-24: pencil** on the top right of the Basic Information table;
+- Click on **:octicons-pencil-24: Edit** on the top right of the Basic information table;
 - Edit the necessary information;
 - **:material-check: Save** your changes;
 - All fields marked with a star (*) are compulsory.
@@ -49,7 +49,7 @@ If you’d like to set up scopes, our support team can assist you with the setup
 
 In the second table **:octicons-info-24: Budget**, you will find the budget and payment-related details for your program. During the program, you may need to adjust the budget, base transfer value, number of payments, or the program's currency. These settings can be modified at any time. **All changes made on the Budget page take effect immediately and apply to the entire registration list**.
 
-- Click on the **:octicons-pencil-24: pencil** on the top right of the budget table;
+- Click on **:octicons-pencil-24: Edit** on the top right of the Budget table;
 - Edit the necessary information such as currency, fixed transfer value, and FSP;
 - **:material-check: Save** your changes;
 - All fields marked with a star (*) are compulsory.

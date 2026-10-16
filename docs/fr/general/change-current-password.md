@@ -8,7 +8,7 @@ hide:
     Tous les utilisateurs peuvent modifier leur propre mot de passe.
 
 
-Une fois connecté à la plateforme 121, cliquez sur votre adresse e-mail sous « Connecté en tant que » dans le coin supérieur droit.
+Vous pouvez modifier votre mot de passe depuis le menu **Compte** dans le coin supérieur droit.
 
 - **Connectez-vous à la plateforme 121**,
 - Cliquez sur **:material-account-outline: Compte** dans le coin supérieur droit et sélectionnez **Modifier le mot de passe**,

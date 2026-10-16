@@ -12,7 +12,7 @@ The **Registrations** page lets you review and, if necessary, update the registr
 
 ### Overview of registration lists
 
-Oversee all new **registrations**. The initial status for a registration is shown as **Registered** and will remain as is until a CVA Manager **includes** (included) the registration in, or a CVA Manager or CVA Officer **declines** (declined) it from, the program.
+Oversee all new **registrations**. The initial status for a registration is shown as **New** and will remain as is until a CVA Manager **includes** (included) the registration in, or a CVA Manager or CVA Officer **declines** (declined) it from, the program.
 
 ![Registrations page](../assets/img/RegistrationsPage.png)
 

@@ -28,7 +28,7 @@ In order to use the integration, you must **complete the configuration** by ente
 
 You can update the FSPs at any time during your program.
 
-- If you wish to reconfigure an FSP, click on the 3 dots :material-dots-horizontal:
+- If you wish to reconfigure an FSP, click on the 3 dots :material-dots-vertical:
 - If you wish to delete an FSP, remove the FSP under Program information. Note that you cannot delete an FSP that is already linked to registrations.
 - If you wish to add an FSP, add the FSP under Program information and configure under FSP configuration
 

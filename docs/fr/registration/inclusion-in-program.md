@@ -22,8 +22,8 @@ Pour marquer les enregistrements comme **Inclus(e)**:
   - Faire une **sélection individuelle** en cliquant sur la case à cocher :material-checkbox-outline: sur la ligne du bénéficiaire;
   - Faire une **sélection en masse** en cliquant sur :material-checkbox-multiple-marked-outline: sur la ligne supérieure **Sélectionner**;
 - En haut du tableau, cliquez sur le bouton **:octicons-check-16: Inclure**;
-- Une fenêtre contextuelle apparaît pour confirmer votre action **Vous êtes sur le point d'inclure X enregistrements. Cela signifie qu'ils peuvent être inclus dans les paiements;**
-- Cliquez sur **Approuver**. Un message indique la fin de l'action;
+- La fenêtre contextuelle **Inclure Enregistrements** apparaît pour confirmer votre action **Vous êtes sur le point d'inclure X enregistrements. Cela signifie qu'ils peuvent être inclus dans les paiements.** *Éventuellement, activez **Envoyer un message aux enregistré(e)s**;*
+- Cliquez sur **Inclure l'enregistrement**. Un message indique la fin de l'action;
 - Le statut est maintenant mis à jour à **Inclus(e)**.
 
 !!! Info "Processus de dédoublonnage"

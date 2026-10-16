@@ -93,7 +93,7 @@ A list of key terms used in the 121 platform.
 | **Transfer value** | The amount of money a registration is meant to receive in single a payment. |
 | **Transfer** | A single transfer of transfers to a registration. A registration will receive the number of transfers pre-configured in the program. If registered late, the first transfer to a registration might be part of a later payment tranche. |
 | **Total payment amount** | The sum value of adding up the transfer values of each included registration added to the payment. |
-| **Waiting for approval** | A new payment has been created and it needs to be approved by a Financial Officer. |
+| **Pending approval** | A new payment has been created and it needs to be approved by a Financial Officer. |
 | **In progress** | The payment is being created and sent to the included registrations. |
 | **Completed** | All included registrations have received their transfers. |
 
@@ -102,9 +102,13 @@ A list of key terms used in the 121 platform.
 
 | Term | Definition |
 | :------------------ | :------------------------------------------------------------------- |
-| **Pending** | The transfer is being sent to the registration. The status might remain "pending" if the registration has not received the transfer yet, or may have received the transfer but the data in 121 is not yet reconciled. |
+| **Pending approval** | The transfer is part of a payment that still needs to be approved by all approvers. |
+| **Approved** | The transfer is part of a payment approved by all approvers; it will be sent once the payment is started. |
+| **Processing** | The transfer is being sent to the registration. The status might remain "processing" if the registration has not received the transfer yet, or may have received the transfer but the data in 121 is not yet reconciled. |
 | **Successful** | The transfer arrived to the registration and they can now use it. |
 | **Failed** | The transfer did not arrive to the registration. This could happen for a variety of reasons. |
+
+In the reconciliation file, the status values always stay `success` or `error`.
 
 
 ### Debit cards (Visa Specific)

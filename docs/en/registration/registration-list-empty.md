@@ -27,7 +27,7 @@ To start importing the registration list:
 There may be some filters applied to the table that might mean the registrations are not being shown.
 
 - Check that the filter and search bar are empty;
-- If you see a filter shown below the search bar click **Clear filters** on the top right of your table. ![Clear Filters](../assets/img/ClearFilterButton.png)
+- If a column filter is active (highlighted :material-filter: icon in the column header), click **Clear filters** on the top right of your table. ![Clear Filters](../assets/img/ClearFilterButton.png)
 
 !!! warning "Blank page"
     In case the page is fully blank and does not show the registration column, there may be a technical issue.

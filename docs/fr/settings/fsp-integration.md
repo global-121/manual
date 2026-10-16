@@ -28,7 +28,7 @@ Pour utiliser l'intégration, vous devez **compléter la configuration** en sais
 
 Vous pouvez mettre à jour les PSF à tout moment pendant votre programme.
 
-- Si vous souhaitez reconfigurer un PSF, cliquez sur les 3 points :material-dots-horizontal: ;
+- Si vous souhaitez reconfigurer un PSF, cliquez sur les 3 points :material-dots-vertical: ;
 - Si vous souhaitez supprimer un PSF, retirez le PSF dans Informations sur le programme. Notez que vous ne pouvez pas supprimer un PSF déjà lié à des enregistrements.
 - Si vous souhaitez ajouter un PSF, ajoutez le PSF dans Informations sur le programme puis configurez-le dans Configuration PSF.
 

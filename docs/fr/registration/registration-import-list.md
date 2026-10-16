@@ -18,15 +18,15 @@ Par exemple, le formulaire d'enregistrement du programme peut inclure des critè
 
 - **Sélectionnez le programme** pour lequel vous téléchargez les enregistrements;
 - Allez à la page **Enregistrements**; ![Page d'enregistrement](../assets/img/RegistrationsPageImport.png)
-- Cliquez sur le bouton **Importer de nouveaux enregistrements** sur le côté droit de l'écran; ![Pop-up d'importation d'enregistrement](../assets/img/ImportRegistrationTemplate.png)
-- Sélectionnez **Télécharger le fichier modèle CSV**;
+- Cliquez sur **Importer le fichier** sur le côté droit de l'écran et sélectionnez **Importer de nouveaux enregistrements**; ![Pop-up d'importation d'enregistrement](../assets/img/ImportRegistrationTemplate.png)
+- Sélectionnez **Télécharger le modèle**;
 - Ouvrez le modèle CSV téléchargé dans Excel;
 - Copiez les données d'enregistrement que vous avez dans Excel dans le fichier .csv pour correspondre à ce format, en vous assurant que chaque information va dans la colonne correcte avec les étiquettes appropriées.
 
 ### Importer une liste d'enregistrement
 
 - Retournez à la page **d'enregistrements** de votre **programme sélectionné**, pour lequel vous téléchargez les enregistrements;
-- Cliquez sur le bouton **Importer de nouveaux enregistrements** sur le côté droit de l'écran;
+- Cliquez sur **Importer le fichier** sur le côté droit de l'écran et sélectionnez **Importer de nouveaux enregistrements**;
 - Cliquez pour choisir le fichier CSV de votre ordinateur que vous avez **déjà fait correspondre au format requis par 121**; ![Pop-up d'importation d'enregistrement](../assets/img/ImportRegistrationTemplate.png)
 - Après avoir téléchargé le fichier, cliquez sur **Importer le fichier** pour appliquer l'action;
 - Une autre fenêtre contextuelle apparaîtra avec la confirmation que l'importation a réussi. *Veuillez noter que cela peut prendre du temps selon le nombre d'enregistrements en cours de téléchargement.*

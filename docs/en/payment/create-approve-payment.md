@@ -21,14 +21,15 @@ Payments are created and initiated from the **Payments** page. Each payment must
 To initiate a new payment request:
 
 - On the top right, click **Create new payment** ![Create new payment button](../assets/img/PaymentsPage.png)
+- Enter a name for the payment. A name is prefilled (*Payment dd/mm/yyyy, hh:mm*); you can change it if needed. Click **Continue to registration**.
 - A page will open displaying a list of registrations **included** in the program.
   *Only registrations with **Included** status who have not yet received all their installments will appear in the list. Registrations who have received and completed all their payments will not be shown.* ![Select List](../assets/img/CreateNewpaymentSelect.png)
 - **Select the list of registrations to be added** to the payment round as follows.
   - Make an **individual selection** by clicking on the :material-checkbox-outline: on the individual registration line;
   - Or do a **bulk selection** by clicking on the :material-checkbox-multiple-marked-outline: on the upper table line **Select**
 - On the bottom right, click **Add to payment**; ![Add to Payment](../assets/img/StartPayment.png)
-- Confirm the payment information;
-- Click on **Create payment**.
+- Review the summary (Financial Service Provider(s), Registrations and Total payment amount) and add a note if needed;
+- Click on **Create payment**. You will land on the payment page.
 
 !!! Important "No change possible in the payment list"
     Once a payment is created, its details cannot be changed. This includes the list of people in the payment and the transfer value.
@@ -42,7 +43,7 @@ Once the payment request has been created, it must be approved by an approver.
 - Click on payment cards with the message **XX of XX approved**
 *In the transaction, you can review the list of registrations included in the payment list, the total amount reserved and the total registrations.*
 - Based on this information, you can either approve or leave the payment. ![Approve or Cancel](../assets/img/ApprovePaymentFinal.png)
-- If you agree, click on **Approve payment**. **The payment request status will be updated.**
+- If you agree, click on **Approve payment** and confirm in the pop-up window. **The payment request status will be updated.** *Only users assigned as approver for this payment can approve it.*
 - If you disagree, click on **Cancel**. *The payment will remain pending. Based on your SOP, inform your relevant colleagues for follow-up.*
 - Once approved by all approvers, the payment request status will change from **Pending approval** to **Approved**
 
@@ -57,7 +58,7 @@ Once the payment request has been created, it must be approved by an approver.
 Once the payment has been approved by all approvers in the list, the Finance Manager can **start the payment**.
 
 - Enter the **approved** payment card,
-- Click the **start payment** on the top right, ![Start Payment](../assets/img/StartPaymentApproved.png)
+- Click **Start payment** on the top right, ![Start Payment](../assets/img/StartPaymentApproved.png)
 - The payment will start,
 - All payments status will change from **Approved** to **Processing**.
 
@@ -68,6 +69,7 @@ Once the payment has been approved by all approvers in the list, the Finance Man
 The CVA Manager and the Finance Manager can delete payments. You can delete payments that are pending approval.
 
 - Click the :material-dots-horizontal: next to the export button at the top right of the page,
+- Click **Delete payment**,
 - Deleting a payment does not affect the registrations’ status (included) or their received number of payments.
 
 ---

@@ -13,7 +13,7 @@ The **Payment approval** is found in each of your active programs under **Settin
 
 On this page, you set up an approval process for program payments by selecting one or more users for each step. Only one user must approve in each step. Steps will run in order based on the amount conditions you set (from lowest to highest).
 
-- Click on the **:octicons-pencil-24: pencil** on the top right;
+- Click on **:octicons-pencil-24: Edit** on the top right;
 - Select one or more users from your program team that must approve **all payments**;
 
 ![Payment approval](../assets/img/settings-paymentapproval1.png)
@@ -35,7 +35,7 @@ On this page, you set up an approval process for program payments by selecting o
 
 If you wish to update the payment approval process:
 
-- Click on the **:octicons-pencil-24: pencil** on the top right;
+- Click on **:octicons-pencil-24: Edit** on the top right;
 - De-select users you want to remove from the approval step and select the user(s) you want to add;
 - If you wish to remove the approval step as a whole, click :material-trash-can-outline:.
 

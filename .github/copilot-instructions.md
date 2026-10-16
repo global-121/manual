@@ -3,7 +3,7 @@
 ## Scope and goals
 
 - This repository contains a multilingual MkDocs manual (`docs/en`, `docs/fr`, `docs/nl`).
-- Primary goal: help contributors translate and maintain parity across languages without breaking links, headings, or structure.
+- Primary goal: help contributors update the manual, translate and maintain parity across languages without breaking links, headings, or structure.
 
 ## Overall way of work
 
@@ -15,8 +15,9 @@ The agent helps with:
 
 - Creating a change plan splitting the work into discrete commits. Take time to mirror each sub-task in the French and Dutch versions, and ensure that the contributor is aware of the scope of work.
 - Basic git tasks such as git fetch, branch, pull, push, and PR creation. Ensure that the contributor is working on the correct branch and that the PR is created against the correct target branch.
-- Ensuring that the contributor's changes do not break the structure of the manual, including links, headings, and anchors. The agent can run the validation commands below to check for errors.
-- Translate English content to French. Only check for changes in Dutch when the files in the docs/en/nlrc folder are updated. The agent should ensure that the translation is accurate and consistent with the source page intent, and that it follows the glossary and terminology rules below.
+- Ensuring that the contributor's changes do not break the structure of the manual, including links, headings, and anchors. Run the validation commands below to check for errors.
+- Translating English content to French. Only check for changes in Dutch when the files in the docs/en/nlrc folder are updated. Ensure that the translation is accurate and consistent with the source page intent, and that it follows the glossary and terminology rules below.
+- Keeping role information consistent. When a change adds or removes a feature or action, or changes who can do it, update the **Permissions per role** table (and the **Standard 121 user Roles** table if needed) in `docs/en/users/description-roles.md` and its French version. Check that the page's "Who can perform actions on this page?" block matches the table.
 
 ## Translation workflow
 
@@ -72,6 +73,28 @@ The agent helps with:
 ## Markdown syntax and structure
 
 - The layout of warnings, notes and notifications are marked with `!!! Important`, `!!! Note`, `!!! Info`, and `!!! Question`. Make sure the text following the title is preceded by exactly four spaces, as otherwise the markdown parser will not render it correctly inside the notification box. Please note though that hard tabs are not allowed by the markdown linter, so make sure to use spaces instead of tabs.
+
+## Page layout
+
+New and updated pages follow this layout, based on pages like `docs/en/payment/pause-payment-pa.md`. Some pages (e.g. FAQ, glossary, overview pages) deviate for good reasons: keep their layout and do not force them into this one. When editing an existing page, keep its structure; do not restructure it only to match the template.
+
+1. **Front matter**, with the title as `<Section> - <Topic>` and the in-page ToC hidden:
+
+    ```markdown
+    ---
+    title: Payments - Pause payments for a registration in the program
+    hide:
+      - toc
+    ---
+    ```
+
+2. **Introduction**: one to three sentences on what the page is for.
+3. **Who can do this**: an `!!! Important "Who can perform actions on this page?"` block (FR: `"Qui peut effectuer des actions sur cette page ?"`) naming the roles as in the glossary, ending with a link to `../users/description-roles.md`.
+4. **Sections**: one `##` heading per task (or `###` if the page already uses that level), in the order users perform them. Separate major sections with `---`.
+5. **Steps**: bullet lists, one action per bullet, starting with a verb. UI labels in **bold**, exactly as in the portal, with the icon token before the label where the portal shows one (e.g. `**:material-pause: Pause**`).
+6. **Images**: directly after the step they illustrate, as `![Descriptive alt text](../assets/img/Name.png)`; the alt text says what the image shows.
+7. **Notes and warnings**: in admonitions (`!!! Important`, `!!! Note`, `!!! Info`, `!!! Question`), not in bold or italic body text.
+8. **End of page**: `---` followed by the contact snippet, `-8<- "docs/<lang>/_snippets/contact-support.md"`, as the last line.
 
 ## ToC and anchor safety
 

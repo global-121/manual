@@ -14,7 +14,7 @@ Vous pouvez vous connecter à la plateforme 121 en utilisant le lien fourni par 
 Si vous **vous connectez pour la première fois**, vous aurez reçu vos identifiants de connexion par e-mail. **N'oubliez pas de modifier votre mot de passe la première fois que vous vous connectez**. Pour plus de détails sur la modification de votre mot de passe, consultez [cette page](../general/change-current-password.md).
 
 - Accédez à la page de connexion.
-- Entrez votre adresse e-mail dans la boîte « Adresse e-mail ». *Ceci est sensible à la casse, assurez-vous d'écrire votre adresse e-mail exactement comme elle est écrite dans l'e-mail que vous avez reçu, sans lettres majuscules ni espaces supplémentaires.*
+- Entrez votre adresse e-mail dans la boîte « E-mail ». *Ceci est sensible à la casse, assurez-vous d'écrire votre adresse e-mail exactement comme elle est écrite dans l'e-mail que vous avez reçu, sans lettres majuscules ni espaces supplémentaires.*
 - **Entrez le mot de passe qui a été partagé dans l'e-mail** dans la boîte « Mot de passe ». *Si vous souhaitez vérifier que vous avez écrit correctement votre mot de passe, vous pouvez cliquer sur l'icône de l'œil :material-eye:*
 - Cliquez sur le bouton **Se connecter**.
 

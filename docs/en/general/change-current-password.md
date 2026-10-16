@@ -8,13 +8,13 @@ hide:
     All users can change their own passwords.
 
 
-Once you are logged in to the 121 platform, click on your email address under "Logged in as" in the top right corner.
+You can change your password from the **Account** menu in the top right corner.
 
 - **Log in to the 121 platform**,
-- Click on **:material-account-outline: Account** on the top right corner and select **Change Password**,
+- Click on **:material-account-outline: Account** on the top right corner and select **Change password**,
 - Enter your **current password**,
 - **Enter your new password**, then **Confirm** your new password.
-- Click on **Change Password** to save your new password.
+- Click on **Change password** to save your new password.
 
 ![Account User](../assets/img/AccountUser.png)
 

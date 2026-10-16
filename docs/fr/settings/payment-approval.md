@@ -13,7 +13,7 @@ La page **Approbation des paiements** se trouve dans chacun de vos programmes ac
 
 Sur cette page, vous configurez un processus d'approbation pour les paiements du programme en sélectionnant un ou plusieurs utilisateurs à chaque étape. Un seul utilisateur doit approuver à chaque étape. Les étapes s'exécutent dans l'ordre en fonction des conditions de montant que vous définissez (du plus bas au plus élevé).
 
-- Cliquez sur le **:octicons-pencil-24: crayon** en haut à droite ;
+- Cliquez sur **:octicons-pencil-24: Modifier** en haut à droite ;
 - Sélectionnez un ou plusieurs utilisateurs de l'équipe de votre programme qui doivent approuver **tous les paiements** ;
 
 ![Approbation des paiements](../assets/img/settings-paymentapproval1.png)
@@ -35,7 +35,7 @@ Sur cette page, vous configurez un processus d'approbation pour les paiements du
 
 Si vous souhaitez mettre à jour le processus d'approbation des paiements :
 
-- Cliquez sur le **:octicons-pencil-24: crayon** en haut à droite ;
+- Cliquez sur **:octicons-pencil-24: Modifier** en haut à droite ;
 - Désélectionnez les utilisateurs que vous souhaitez supprimer de l'étape d'approbation et sélectionnez ceux que vous souhaitez ajouter ;
 - Si vous souhaitez supprimer entièrement l'étape d'approbation, cliquez sur :material-trash-can-outline:.
 

@@ -18,7 +18,7 @@ The **Monitoring page** allows users to keep an overview for all data changes do
 - Select the **Data changes tab**.
 - The table will show a number of information for each record: Field changed, Reg. #, Old value, New value, Changed by, Date and time and Change reason.
 
-![Data changes tab](../assets/img/MonitoringPage.png)
+![Monitoring page](../assets/img/MonitoringPage.png)
 
 ---
 
@@ -30,7 +30,7 @@ In the **Data changes** tab, you can view all modifications made across the enti
 - Columns with the **filter symbol :material-filter:** can be filtered by selecting the value;
 - The other columns can be reorganized by clicking on the column name.
 
-![Upload Files Information](../assets/img/DataChangestab.png)
+![Data changes tab](../assets/img/DataChangestab.png)
 
 **To view further details**:
 

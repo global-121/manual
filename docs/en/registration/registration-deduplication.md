@@ -59,7 +59,7 @@ Below, the solution based on either of these 3 options:
 
 - Search for the registration number by filtering the **Reg. # column**;
 - Open the profile clicking on **Reg. #** on the left side. You will now see the registration overview;
-- Click the tab **Personal Information**, then **Edit** button and search for the value to be edited; ![Edit Value](../assets/img/EditInformationDuplicate.png)
+- Click the tab **Personal information**, then **Edit information** button and search for the value to be edited; ![Edit Value](../assets/img/EditInformationDuplicate.png)
 - **Edit** the value. Click on **Save** and give a reason;
 - The new value is now saved;
 - The registration will automatically be updated and marked as **Unique**.
@@ -70,9 +70,8 @@ Below, the solution based on either of these 3 options:
 
 - Search for the registration number by filtering the **Reg. # column**;
 - Once you have found the registration, **enter the registration profile**;
-- On the top left of the page, click on **Action** and then on the **Decline** button;
-- **Approve** the action. *Confirm only if you are sure to decline this registration, otherwise cancel.*
-- You will have to enter a reason for declining the beneficiary.
+- On the top right of the page, click on **Actions** and then, under **Status update**, on **Decline**;
+- In the **Decline registration(s)** pop-up, enter a reason for declining the registration and click **Decline registration**. *Confirm only if you are sure to decline this registration, otherwise click **Cancel**.*
 
 ![Decline Registration](../assets/img/DeclineIgnoreDuplicate.png)
 
@@ -83,8 +82,8 @@ Below, the solution based on either of these 3 options:
 ## Ignore the duplicate
 
 - Once you have found the registration, **enter the registration profile**;
-- On the top left of the page, click on **Action** and then on the **Ignore the duplicate** button;
-- **Approve** the action. *Confirm only if you are sure to ignore this registration, otherwise cancel.*
+- On the top right of the page, click on **Actions** and then, under **Duplicates**, on **Ignore duplication**;
+- In the **Ignore duplication** pop-up, write a reason and click **Approve**. *Confirm only if you are sure to ignore this registration, otherwise click **Cancel**.*
 
 ![Ignore Duplicate](../assets/img/DeclineIgnoreDuplicate.png)
 

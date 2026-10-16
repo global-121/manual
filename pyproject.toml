@@ -1,0 +1,49 @@
+[project]
+name = "manual-121"
+version = "0.0.0"
+description = "User manual of the 121 Platform (MkDocs), with tooling for screenshots and release sync."
+requires-python = ">=3.12"
+dependencies = [
+    "mkdocs-material>=9.7.7",
+    "mkdocs-glightbox>=0.5.2",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.8",
+]
+screenshots = [
+    "playwright>=1.55",
+]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = [
+    "E",    # pycodestyle errors
+    "W",    # pycodestyle warnings
+    "F",    # pyflakes
+    "I",    # isort
+    "UP",   # pyupgrade
+    "B",    # bugbear
+    "SIM",  # simplify
+    "T20",  # print statements
+    "N",    # pep8-naming
+    "RET",  # return statements
+    "PTH",  # pathlib
+    "D1",   # missing docstrings in public modules, classes and functions
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.isort]
+known-first-party = ["screenshots"]
+
+[tool.ruff.format]
+quote-style = "double"

@@ -27,7 +27,7 @@ Pour commencer à importer la liste d'enregistrement:
 Il peut y avoir certains filtres appliqués au tableau qui pourraient signifier que les enregistrements ne sont pas affichés.
 
 - Vérifiez que le filtre et la barre de recherche sont vides;
-- Si vous voyez un filtre affiché sous la barre de recherche, cliquez sur **Effacer les filtres** en haut à droite de votre tableau. ![Bouton Effacer les filtres](../assets/img/ClearFilterButton.png)
+- Si un filtre de colonne est actif (icône :material-filter: en surbrillance dans l'en-tête de colonne), cliquez sur **Effacer les filtres** en haut à droite de votre tableau. ![Bouton Effacer les filtres](../assets/img/ClearFilterButton.png)
 
 !!! warning "Page vierge"
     Si la page est complètement vierge et n'affiche pas la colonne d'enregistrement, il peut y avoir un problème technique.

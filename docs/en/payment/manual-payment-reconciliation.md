@@ -18,9 +18,9 @@ Before downloading the reconciliation file into the 121 platform, there are a fe
 
 Go to the Payments page, and enter the specific payment round you would like to update.
 
-- On the top right, click on **Import Reconciliation data**. ![Import Reconciliation data](../assets/img/IndividualExportReport.png)
-- In the pop-up window, you can read in the first sentence *Import the file sent by the FSP to see the transfer status of the registrations included in this payment. Download the template.*
-- Click on the **Download template**. ![Download Reconciliation template](../assets/img/ReconciliationImport.png)
+- On the top right, click on **Import reconciliation data**. ![Import Reconciliation data](../assets/img/IndividualExportReport.png)
+- In the pop-up window, you can read in the first sentence *Import the file sent by the FSP to see the transaction status of the registrations included in this payment. Download the template.*
+- Click on **Download the template**. ![Download Reconciliation template](../assets/img/ReconciliationImport.png)
 - You can now start editing this file with the requested value, as follows.
 
 ## Check the reconciliation data file
@@ -31,14 +31,13 @@ The below table indicates the correct label names that must be filled in the pay
 | 121 Data Status | Description |
 | :---- | :---- |
 | **success** | Successful, completed or confirmed payments. |
-| **waiting** | Payments is pending. It is not distributed yet or cannot be sent yet. |
 | **error** | Failed payments, not received by registrations due to wrong data shared or error at the FSP. |
 
 
 If these labels are not correctly matching, three errors can occur in the 121 platform:
 
 - An **error message** appears to warn the data cannot be uploaded;
-- **Payment statuses are not correctly updated**, showing more failed or waiting payments as the system cannot match the status with the imported file;
+- **Payment statuses are not correctly updated**, showing more failed or processing payments as the system cannot match the status with the imported file;
 - The **format is not recognized** in the platform and shows an error page.
 
 *Some data may be specific to your FSP, our team will advise you when implementing your 121 instance.*
@@ -60,10 +59,10 @@ Once your updated file is ready and saved as a .csv format, you can import the p
 
 - Go to **Payments** and select the specific payment to be reconciled.
 - Click **Import reconciliation data** ![Import Reconciliation data](../assets/img/IndividualExportReport.png)
-- **Drag and drop** or **choose a file**
+- **Drag and drop** or click **Choose file**
 - Click on **Import file** ![Import reconciliation file](../assets/img/ReconciliationImport.png)
 
 !!! Info "Payment statuses"
-    All registrations payment statuses will be updated in the specific payment round. You can then overview the number of successful, waiting and failed payments within the registrations list. Read more about the payment statuses in [this page.](./list-status-payment-page.md)
+    All registrations payment statuses will be updated in the specific payment round. You can then overview the number of successful, processing and failed payments within the registrations list. Read more about the payment statuses in [this page.](./list-status-payment-page.md)
 
 -8<- "docs/en/_snippets/contact-support.md"

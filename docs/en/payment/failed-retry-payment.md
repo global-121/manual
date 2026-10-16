@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-When processing the payments, the statuses will be updated with **Successful**, **Pending** and **Failed**.
+When processing the payments, the statuses will be updated with **Successful**, **Processing** and **Failed**.
 Below, you will find the step-by-step instructions to understand the reasons for **failed payments** and retry payments.
 
 *For payment statuses description, please refer to this [page listing the statuses.](./list-status-payment-page.md)*
@@ -19,7 +19,7 @@ Failed payments occur due to an error in data. Depending on how the payment is p
 To filter the registrations with failed payments:
 
 - Navigate to the specific payment;
-- In the registration list beneath the graph, click on **Transaction status** column filter and select **Failed**;
+- In the **Transaction list** tab beneath the graph, click on **Transaction status** column filter and select **Failed**;
 - The table will display all failed payments;
 - You can view the reason in the column **Reason**.
 
@@ -57,7 +57,7 @@ Once you have identified the reason, you can proceed with retrying the payments:
 
   ![Retry Payment button](../assets/img/RetryPaiementbutton.png)
 
-- **Approve** the action by clicking on **Retry transactions**.
+- In the **Retry failed transaction(s)** pop-up, confirm the action by clicking on **Retry transactions** (or click **Cancel**).
 
 ![Approve the payment retry](../assets/img/RetryPaymentConfirm.png)
 

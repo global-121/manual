@@ -22,8 +22,8 @@ To mark the registrations as **included**:
   - Make an **individual selection** by clicking on the :material-checkbox-outline: on the PA line;
   - Make a **bulk selection** by clicking on the :material-checkbox-multiple-marked-outline: on the upper line **Select**;
 - On the top of the table, click **:octicons-check-16: Include** button;
-- A pop-up appears to confirm your action **You're about to include X registrations. This means that they can be included in payments;**
-- Click on **Approve**. A message indicates the completion of the action;
+- The **Include registration(s)** pop-up appears to confirm your action **You're about to include X registrations. This means that they can be included in payments.** *Optionally, turn on **Send a message to registration(s)**;*
+- Click on **Include registration**. A message indicates the completion of the action;
 - The status is now updated to **Included**.
 
 !!! Info "Deduplication process"

@@ -13,10 +13,10 @@ Le statut sera mis à jour automatiquement pour les PSF intégrés, ou après r�
 | Statut | Description | Actions requises |
 | :------ | :----------- | :---------------- |
 | **EN ATTENTE D'APPROBATION** | La demande de paiement a été créée mais attend toujours l'approbation de tous les approbateurs. | Les approbateurs doivent approuver le paiement pour continuer. |
-| **APPROUVÉ** | La demande de paiement a été approuvée par tous les approbateurs. | Le paiement doit être lancé pour continuer. |
+| **APPROUVÉ(E)** | La demande de paiement a été approuvée par tous les approbateurs. | Le paiement doit être lancé pour continuer. |
 | **RÉUSSI** | Le paiement a été envoyé aux enregistrements et ils peuvent maintenant l'utiliser. | Aucun. |
-| **EN COURS DE TRAITEMENT** | Le paiement attend la confirmation d'un ou plusieurs gestionnaires financiers. Le transfert n'a pas encore été envoyé aux enregistrements sélectionnés pour ce tour de paiement ou le fichier de réconciliation n'a pas encore été importé. | Importez le fichier de réconciliation dans la plateforme 121 pour mettre à jour le statut. |
-| **ÉCHOUÉ** | La transaction a échoué. Les enregistrements n'ont pas reçu de paiements. | Veuillez vérifier le message d'erreur fourni par votre banque. L'échec du paiement peut être dû à des détails bancaires incorrects, un numéro de téléphone ou un numéro d'ID selon les méthodes de paiement choisies. Vous pouvez réessayer. Contactez notre équipe de soutien 121 si cela reste non résolu. |
+| **EN COURS** | Le paiement attend la confirmation d'un ou plusieurs gestionnaires financiers. Le transfert n'a pas encore été envoyé aux enregistrements sélectionnés pour ce tour de paiement ou le fichier de réconciliation n'a pas encore été importé. | Importez le fichier de réconciliation dans la plateforme 121 pour mettre à jour le statut. |
+| **ÉCHEC** | La transaction a échoué. Les enregistrements n'ont pas reçu de paiements. | Veuillez vérifier le message d'erreur fourni par votre banque. L'échec du paiement peut être dû à des détails bancaires incorrects, un numéro de téléphone ou un numéro d'ID selon les méthodes de paiement choisies. Vous pouvez réessayer. Contactez notre équipe de soutien 121 si cela reste non résolu. |
 
 ---
 

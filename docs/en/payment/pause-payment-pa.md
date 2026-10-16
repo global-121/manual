@@ -21,14 +21,14 @@ In the **Registration** page:
 - Go to the table view
 - Click on the filter logo :material-filter-outline: in the column **Name** and search for the **registration's name**, or search with **#reg. number**
 
-![Select Pause](../assets/img/SearchReg.png)
+![Search registration](../assets/img/SearchReg.png)
 
 ## Change status
 
   Click on the :material-checkbox-outline: to add the registration in the selection,
 
 - Click on **:material-pause: Pause** status on the top of the table,
-- In the pop up window, **Approve**, and *optionally, send a message to the registration*. ![Approve Pause Status](../assets/img/PausePANotification.png)
+- In the **Pause registration(s)** pop-up window, enter a reason and click **Pause registration**. *Optionally, send a message to the registration.* ![Approve Pause Status](../assets/img/PausePANotification.png)
 - The status has been changed to **Paused** ![Pause Status](../assets/img/PauseStatus.png)
 - From **Paused** status, the registration will no longer receive cash aid.
 

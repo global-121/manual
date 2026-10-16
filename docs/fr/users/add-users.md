@@ -21,9 +21,9 @@ Sur le côté gauche de votre écran, ouvrez le **menu :material-menu:** et sél
 
 Pour accorder des identifiants de connexion et l'accès à un nouvel utilisateur sur la plateforme 121, vous devez l'ajouter en tant qu'utilisateur 121.
 
-- En haut à droite de la **page Utilisateurs**, cliquez sur **:material-plus: Ajouter de nouveaux utilisateurs**,
-- Ajoutez le nom des utilisateurs et l'adresse e-mail,
-- **Soumettre**.
+- En haut à droite de la **page Utilisateurs**, cliquez sur **:material-plus: Ajouter un nouvel utilisateur**,
+- Saisissez les **Nom et prénom** et l'adresse **E-mail** de l'utilisateur,
+- Cliquez sur **Ajouter un utilisateur**.
 
 ![Ajouter un utilisateur 121](../assets/img/AddUser.png)
 ![Insérer l'e-mail de l'utilisateur](../assets/img/AddingNewUser.png)

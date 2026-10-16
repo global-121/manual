@@ -3,7 +3,7 @@ title: Payments
 hide:
   - toc
 ---
-The Payment page provides an overview of all payments made and disbursed to registrations in the program. It allows you to track the payment status for each registration, including any completed, pending, or failed transactions, and processes new payments.
+The Payment page provides an overview of all payments made and disbursed to registrations in the program. It allows you to track the payment status for each registration, including any completed, processing, or failed transactions, and processes new payments.
 
 !!! Important "Who can perform actions in this page?"
     All users can view the Payments page. Creating and sending payments is limited to CVA Manager and Finance Manager — see [Create and approve payments](./create-approve-payment.md) for details. [Learn more about Roles & Permissions](../users/description-roles.md)
@@ -27,7 +27,7 @@ The 121 platform offers **two different methods for processing payments**:
 You can view a summary of all payments made in the course of your program and to registrations included in the program. This overview is especially useful for:
 
 - Having clear insights of all disbursements made along the program up to date.
-- Finance Manager and Finance Officer to keep track of payment statuses, including successful, pending and failed ones.
+- Finance Manager and Finance Officer to keep track of payment statuses, including successful, processing and failed ones.
 - CVA Manager and CVA Officer to keep informed and follow whether or not a registration is receiving cash aid support.
 - For donors that may want to view the ongoing payment processes and deadlines as required.
 
@@ -37,7 +37,7 @@ Find out more about the payment and registration's statuses on [this page.](./li
 
 ## Export payment reports
 
-For **financial audit**, financial and payment reporting for all transactions can be exported as an Excel file. You can track and trace any successful, pending and failed payments, and also share the reporting to donors that may require additional information about the running Cash Program.
+For **financial audit**, financial and payment reporting for all transactions can be exported as an Excel file. You can track and trace any successful, processing and failed payments, and also share the reporting to donors that may require additional information about the running Cash Program.
 
 Find out more about the payment reporting and activity on [this page.](./payment-reporting.md)
 
