@@ -208,7 +208,8 @@ def _team(portal: Portal) -> None:
 def _program(portal: Portal) -> None:
     """Restore program settings that screenshots depend on."""
     current = portal.api("GET", "program:")
-    changed = {k: PROGRAM[k] for k in ("description", "validation") if current.get(k) != PROGRAM[k]}
+    keys = ("description", "validation", "enableScope")
+    changed = {k: PROGRAM[k] for k in keys if current.get(k) != PROGRAM[k]}
     if changed:
         portal.api("PATCH", "program:", data=changed)
         logger.info("seed: updated program %s", ", ".join(changed))

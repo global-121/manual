@@ -178,7 +178,7 @@ def started_payment(portal: Portal, state: str = "reconciled") -> Page:
 
 def transactions_card(page: Page) -> Locator:
     """Return the card with the transactions table on a payment page."""
-    return page.locator("p-card").filter(has=page.get_by_test_id("query-table"))
+    return page.locator("p-card").filter(has=Portal.table(page))
 
 
 def filter_failed(page: Page) -> None:
@@ -282,6 +282,20 @@ def reset_password(portal: Portal) -> Locator:
     )
 
 
+def edit_user_dialog(portal: Portal) -> Locator:
+    """Edit user dialog opened from a user row menu (not saved)."""
+    page = users(portal)
+    block_writes(page)
+    row = Portal.table(page).locator("tbody tr").filter(has_text="@example.org").first
+    row.locator("button").last.click()
+    page.get_by_role("menuitem", name="Edit").click()
+    dialog = page.get_by_role("alertdialog").filter(has_text="Edit user")
+    dialog.get_by_role("button", name="Save changes").wait_for()
+    page.wait_for_timeout(400)
+    unfocus(page)
+    return Portal.clip_around(dialog)
+
+
 # --- registrations -----------------------------------------------------------------
 
 
@@ -376,6 +390,31 @@ def decline_dialog(portal: Portal) -> Locator:
     select_row(page, TO_DECLINE)
     page.get_by_role("button", name="Decline").click()
     return open_dialog(page, "Decline registration")
+
+
+def delete_dialog(portal: Portal) -> Locator:
+    """Delete registration dialog (writes blocked, so nothing is deleted)."""
+    page = registrations(portal)
+    block_writes(page, dry_run=True)
+    select_row(page, TO_DECLINE)
+    # Located by its trash icon: matching the button by name was not reliable.
+    page.locator("p-buttongroup button").filter(has=page.locator(".pi-trash")).click()
+    dialog = (
+        page.get_by_role("dialog").filter(visible=True).filter(has=page.get_by_role("checkbox"))
+    )
+    dialog.wait_for()
+    page.wait_for_timeout(400)
+    unfocus(page)
+    return Portal.clip_around(dialog)
+
+
+def activity_log(portal: Portal) -> Locator:
+    """Registration page on the Activity log tab."""
+    page = registration(portal, INCLUDED)
+    page.get_by_role("tab", name="Activity log").click()
+    portal.wait_for_table(page)
+    page.wait_for_timeout(400)
+    return registration_details(page)
 
 
 def personal_information_tab(portal: Portal, name: str) -> Page:
@@ -677,6 +716,19 @@ def payment_export_menu(portal: Portal) -> Locator:
     return Portal.clip_around(page.get_by_test_id("sidebar-toggle"), charts, full_width=True)
 
 
+def payment_log(portal: Portal) -> Locator:
+    """Payment page on the Payment log tab."""
+    page = started_payment(portal)
+    page.get_by_role("tab", name="Payment log").click()
+    page.wait_for_url(re.compile(r"/payment-log"))
+    portal.wait_for_table(page)
+    page.wait_for_timeout(400)
+    full_height(page)
+    return Portal.clip_around(
+        page.get_by_test_id("sidebar-toggle"), Portal.table(page), full_width=True
+    )
+
+
 def reconciliation_dialog(portal: Portal) -> Locator:
     """Import reconciliation data dialog."""
     page = started_payment(portal)
@@ -841,6 +893,30 @@ def fsp_reconfigure(portal: Portal) -> Page:
     return page
 
 
+def fsp_excel_menu(portal: Portal) -> Locator:
+    """Excel FSP menu open with 'Create another Excel FSP' highlighted."""
+    page = fsps(portal)
+    expand_form_requirements(page)
+    card(page, "Financial Service Providers").locator("button").first.click()
+    item = page.get_by_role("menuitem", name="Create another Excel FSP")
+    item.wait_for()
+    page.wait_for_timeout(400)
+    Portal.highlight(item)
+    return Portal.clip_around(card(page, "Financial Service Providers"), page.get_by_role("menu"))
+
+
+def deduplication_card(portal: Portal) -> Locator:
+    """De-duplication card on the registration data page, with 'Edit' highlighted."""
+    page = settings("registration-data")(portal)
+    dedup = page.get_by_test_id("deduplication-card")
+    dedup.wait_for()
+    page.wait_for_timeout(400)
+    # The card is below the fold; clip_around only covers the viewport.
+    full_height(page)
+    Portal.highlight(page.get_by_test_id("deduplication-card-edit-button"))
+    return Portal.clip_around(dedup)
+
+
 def link_kobo_dialog(portal: Portal) -> Locator:
     """Link with KoboToolbox dialog on the registration data page."""
     page = settings("registration-data")(portal)
@@ -977,6 +1053,7 @@ SCENARIOS = [
     Scenario(
         "ResetPasswordUser.png", "User row menu, 'Reset password' highlighted", reset_password
     ),
+    Scenario("EditUser.png", "Edit user dialog", edit_user_dialog),
     # registrations
     Scenario("RegistrationsPage.png", "Registrations page", registrations_page),
     Scenario(
@@ -1000,6 +1077,8 @@ SCENARIOS = [
     Scenario("PausePANotification.png", "Pause registration dialog", pause_dialog),
     Scenario("PauseStatus.png", "Registration with status Paused", paused_status),
     Scenario("RegistrationDeclined.png", "Decline registration(s) dialog", decline_dialog),
+    Scenario("DeleteRegistration.png", "Delete registration(s) dialog", delete_dialog),
+    Scenario("ActivityLog.png", "Registration page, Activity log tab", activity_log),
     Scenario(
         "PersonalInformationPA.png",
         "Registration page, Personal information tab",
@@ -1060,6 +1139,7 @@ SCENARIOS = [
         lambda portal: payment_page(portal, "processing"),
     ),
     Scenario("IndividualExportReport.png", "Payment page, Export menu", payment_export_menu),
+    Scenario("PaymentLog.png", "Payment page, Payment log tab", payment_log),
     Scenario(
         "ReconciliationImport.png", "Import reconciliation data dialog", reconciliation_dialog
     ),
@@ -1102,6 +1182,16 @@ SCENARIOS = [
         fsp_reconfigure,
     ),
     Scenario("settings-registrationdata4.png", "Link with KoboToolbox dialog", link_kobo_dialog),
+    Scenario(
+        "settings-fspintegration-excelfsp.png",
+        "Excel FSP menu, 'Create another Excel FSP' highlighted",
+        fsp_excel_menu,
+    ),
+    Scenario(
+        "settings-deduplication.png",
+        "De-duplication card, 'Edit' highlighted",
+        deduplication_card,
+    ),
     Scenario("settings-programteampng.png", "Add user to team dialog", add_user_to_team),
     Scenario(
         "settings-programteamremove.png",
