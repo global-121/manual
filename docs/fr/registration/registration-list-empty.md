@@ -9,7 +9,7 @@ Le tableau d'enregistrement peut être vide pour les raisons suivantes:
 ### Aucun nouvel enregistrement importé
 
 Il n'y a pas de nouvel enregistrement.
-Le tableau affichera **Aucune donnée**
+Le tableau affiche **Bienvenue à** suivi du nom de votre programme, et le message « Il n'y a pas encore d'enregistrements dans ce programme. »
 
 ### Pas de connexion Internet
 
@@ -24,10 +24,10 @@ Pour commencer à importer la liste d'enregistrement:
 
 ### Des filtres peuvent être appliqués à la liste
 
-Il peut y avoir certains filtres appliqués au tableau qui pourraient signifier que les enregistrements ne sont pas affichés.
+Il peut y avoir certains filtres appliqués au tableau qui pourraient signifier que les enregistrements ne sont pas affichés. Dans ce cas, le tableau affiche **Aucun résultat** et le message « Aucun enregistrement ne correspond aux filtres sélectionnés, effacez certains ou tous les filtres pour continuer. »
 
 - Vérifiez que le filtre et la barre de recherche sont vides;
-- Si un filtre de colonne est actif (icône :material-filter: en surbrillance dans l'en-tête de colonne), cliquez sur **Effacer les filtres** en haut à droite de votre tableau. ![Bouton Effacer les filtres](../assets/img/ClearFilterButton.png)
+- Si un filtre de colonne est actif (icône :material-filter: en surbrillance dans l'en-tête de colonne), cliquez sur **Effacer les filtres** en haut à droite de votre tableau ou sous le message. ![Bouton Effacer les filtres](../assets/img/ClearFilterButton.png)
 
 !!! warning "Page vierge"
     Si la page est complètement vierge et n'affiche pas la colonne d'enregistrement, il peut y avoir un problème technique.

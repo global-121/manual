@@ -18,12 +18,12 @@ The **Registrations table** shows you all of the registered households or indivi
 To mark the registrations as **declined**:
 
 - Go to the **Registrations page**;
-- Filter the list of registrations on **status**, select **New** and **Apply**. *This action is to make sure you select only **New** status;* ![Filter Status Register](../assets/img/RegisteredStatusFilter.png)
+- Filter the list of registrations on **Registration Status**, select **New** and **Apply**. *This action is to make sure you select only **New** status;* ![Filter Status Register](../assets/img/RegisteredStatusFilter.png)
 - You can:
   - Make an **individual selection** by clicking on the :material-checkbox-outline: on the registration line;
-  - Make a **bulk selection** by clicking on the :material-checkbox-multiple-marked-outline: on the upper line **Select**;
+  - Make a **bulk selection** by clicking on the :material-checkbox-multiple-marked-outline: checkbox in the table header;
 - On the top of the table, click **:fontawesome-solid-ban: Decline** button;
-- The **Decline registration(s)** pop-up appears. Enter a reason and, *optionally*, turn on **Send a message**;
+- The **Decline registration(s)** pop-up appears. Enter a reason in **Write a reason for the update** (required) and, *optionally*, turn on **Send a message to registration(s)**;
 - Click on **Decline registration**. A message indicates the completion of the action.
 
 Declined registrations remain listed in the Registrations page with the status **Declined**. Filter the list by status to have an overview of all declined registrations in this program.
@@ -36,7 +36,7 @@ Declined registrations remain listed in the Registrations page with the status *
 
 To enable messaging services, you must create a Twilio account and ensure there are sufficient messaging credits. Contact our team to set this up.
 
-There is an option to send a message to registrations for each action you perform in the platform, such as Including, Declining, or Sending payments to registrations. If you would like to communicate program progress, you can click the button to **Send a message to registrations**.
+There is an option to send a message to registrations for each action you perform in the platform, such as Including, Declining, or Sending payments to registrations. If you would like to communicate program progress, you can turn on **Send a message to registration(s)**.
 
 ---
 

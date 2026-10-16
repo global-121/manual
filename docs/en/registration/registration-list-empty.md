@@ -9,7 +9,7 @@ The Registrations table can be empty for the following reasons:
 ### No new registration imported
 
 There is no new registration.
-The table will show **No data**
+The table shows **Welcome to** followed by the name of your program, and the message "There are no registrations in this program yet."
 
 ### No Internet Connection
 
@@ -24,10 +24,10 @@ To start importing the registration list:
 
 ### Filters may be applied to the list
 
-There may be some filters applied to the table that might mean the registrations are not being shown.
+There may be some filters applied to the table that might mean the registrations are not being shown. In that case, the table shows **No results** and the message "There are no records that match the selected filters, clear some or all filters to continue."
 
 - Check that the filter and search bar are empty;
-- If a column filter is active (highlighted :material-filter: icon in the column header), click **Clear filters** on the top right of your table. ![Clear Filters](../assets/img/ClearFilterButton.png)
+- If a column filter is active (highlighted :material-filter: icon in the column header), click **Clear filters** on the top right of your table or below the message. ![Clear Filters](../assets/img/ClearFilterButton.png)
 
 !!! warning "Blank page"
     In case the page is fully blank and does not show the registration column, there may be a technical issue.

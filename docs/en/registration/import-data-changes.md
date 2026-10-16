@@ -7,7 +7,7 @@ hide:
 The Import Data Changes function allows you to import or update registration information into the platform.
 
 !!! Important "Who can perform actions on this page ?"
-    CVA Manager can perform this action by default. The Data Changes permission can also be assigned in addition to your existing role.
+    CVA Manager can perform this action by default. Other roles need the permission to bulk update registrations: ask our support team.
     [Learn more about Roles & Permissions](../users/description-roles.md)
 
 !!! warning "Phone numbers cannot be bulk updated"
@@ -19,7 +19,7 @@ The Import Data Changes function allows you to import or update registration inf
 Go to the **Registrations** page. You can optionally download a template including the columns you want to update.
 
 - **Select the registrations** to update;
-- Click on **Import** and select **update selected registrations;**
+- Click on **Import** and select **Update selected registrations**;
 - **Select the column(s)** in the dropdown list;
 - **Export the CSV**. The file will open on your device. You can now add the information into the matching columns.
 
@@ -28,17 +28,17 @@ Go to the **Registrations** page. You can optionally download a template includi
 ![Export Data Changes Template](../assets/img/MassUpdateWindow.png)
 
 !!! Important "Columns to always include"
-    Your file must always include the ReferenceID to match the selected registrations. The data change function cannot match on names or other values.
+    Your file must always include the `referenceId` column to match the selected registrations. The exported CSV adds this column automatically. The data change function cannot match on names or other values.
     Column names must always match the 121 column names - as written in the CSV template.
     Your file must be formatted as .csv
 
 
 ### How to import data changes
 
-After you have formatted your file, you can now import the file. The system will automatically match the registration based on the ReferenceID field.
+After you have formatted your file, you can now import the file. The system will automatically match the registration based on the `referenceId` column.
 
 !!! Warning "Only include registrations to update"
-    Only import registrations for which you want to update the information. If you leave a blank cell in your imported file, this will delete the information. Make sure you decline registrations you do not need to update.
+    Only import registrations for which you want to update the information. Remove the rows of registrations you do not need to update from your file. If you leave a blank cell in your imported file, this will delete the information. Required fields cannot be emptied: the import then shows an error. A file can contain a maximum of 100,000 rows.
 
 - Click on **Choose file** and drop the CSV file you created for the data changes;
 - **Write a reason** for this update;

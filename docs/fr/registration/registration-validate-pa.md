@@ -13,14 +13,17 @@ La phase de validation est facultative, selon les procédures d'exploitation nor
 
 Le **tableau d'enregistrements** affiche tous les ménages enregistrés pour votre programme. Leur statut initial doit être **Nouveau**. Pour marquer les enregistrements comme **validés**:
 
-- Filtrez la liste d'enregistrements sur **l'état**, sélectionnez **Nouveau** et **Appliquez**. *Cette action est pour s'assurer que vous sélectionnez uniquement l'état **Nouveau**.*![Filtre d'état d'enregistrement](../assets/img/RegisteredStatusFilter.png)
+- Filtrez la liste d'enregistrements sur **Statut d'enregistrement**, sélectionnez **Nouveau** et **Appliquez**. *Cette action est pour s'assurer que vous sélectionnez uniquement l'état **Nouveau**.*![Filtre d'état d'enregistrement](../assets/img/RegisteredStatusFilter.png)
 - Vous pouvez:
   - Faire une **sélection individuelle** en cliquant sur la case à cocher :material-checkbox-outline: sur la ligne d'enregistrement;
-  - Faire une **sélection en masse** en cliquant sur :material-checkbox-multiple-marked-outline: sur la ligne supérieure **Sélectionner**;
+  - Faire une **sélection en masse** en cliquant sur la case à cocher :material-checkbox-multiple-marked-outline: dans l'en-tête du tableau;
 - En haut du tableau, cliquez sur le bouton **Valider**;
 - La fenêtre contextuelle **Valider Enregistrements** apparaît pour confirmer votre action **Vous êtes sur le point de valider X enregistrements.**
 - Cliquez sur **Valider l'enregistrement**. Un message indique la fin de l'action;
 - Le statut d'enregistrement est maintenant mis à jour à **Validé(e)**.
+
+!!! Note "Vous ne voyez pas le bouton Valider ?"
+    **Valider** n'est disponible que si **Activer la validation** est activé pour votre programme. Ce paramètre se trouve sur la carte **Informations de base** de la page **Informations du programme**, dans **Paramètres**.
 
 ---
 
@@ -30,14 +33,14 @@ En raison d'une faute de frappe ou d'une double entrée, vous devrez peut-être 
 
 - **Entrez le profil d'enregistrement** en cliquant sur le lien **Enreg. #** sur le côté gauche;
 - Une fois dans l'aperçu du profil, allez à l'onglet **Informations personnelles**;
-- En haut à gauche, cliquez sur **Modifier les informations**. Les champs deviennent maintenant modifiables;
+- En haut à droite, cliquez sur **Modifier les informations**. Les champs deviennent maintenant modifiables;
 - Recherchez le champ à modifier, tapez la nouvelle valeur et cliquez sur **Sauvegarder**;
 - Une fenêtre contextuelle **Mettre à jour les informations** demande de fournir la raison de ce changement;
 - Ajoutez une raison, puis **Sauvegardez**.
 
 !!! Info "Raison de la mise à jour"
     Pour des raisons d'audit et de responsabilité, les modifications du profil d'enregistrement ne peuvent pas être effectuées sans indiquer une raison. Toutes les modifications de données sont enregistrées dans la plateforme 121 avec l'ancienne valeur, la nouvelle valeur, les raisons de la mise à jour et sont liées à l'adresse e-mail de l'utilisateur effectuant la modification.
-    Pour améliorer la piste d'audit, vous pouvez télécharger le rapport de modifications de données en cliquant sur **Exporter** et en sélectionnant **Exporter les modifications de données**
+    Pour améliorer la piste d'audit, vous pouvez télécharger le rapport de modifications de données en cliquant sur **Exporter** et en sélectionnant **Modifications des statuts et des données**. Seul le responsable CVA peut utiliser **Exporter**.
 
 ---
 

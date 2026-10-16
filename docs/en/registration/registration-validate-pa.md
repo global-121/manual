@@ -13,14 +13,17 @@ The Validation stage is optional, depending on the SOPs you follow for your CVA 
 
 The **Registrations** table shows all of the registered households for your program. Their initial status should be **New**. To mark the registrations as **validated**:
 
-- Filter the list of registrations on **status**, select **New** and **Apply**. *This action is to make sure you select only **New** status.* ![Filter Status Register](../assets/img/RegisteredStatusFilter.png)
+- Filter the list of registrations on **Registration Status**, select **New** and **Apply**. *This action is to make sure you select only **New** status.* ![Filter Status Register](../assets/img/RegisteredStatusFilter.png)
 - You can:
   - Make an **individual selection** by clicking on the :material-checkbox-outline: on the registration line;
-  - Make a **bulk selection** by clicking on the :material-checkbox-multiple-marked-outline: on the upper line **Select**;
+  - Make a **bulk selection** by clicking on the :material-checkbox-multiple-marked-outline: checkbox in the table header;
 - On the top of the table, click **Validate** button;
 - The **Validate registration(s)** pop-up appears to confirm your action **You're about to validate X registrations.**
 - Click on **Validate registration**. A message indicates the completion of the action;
 - Registration status is now updated to **Validated**.
+
+!!! Note "Don't see the Validate button?"
+    **Validate** is only available if **Enable validation** is turned on for your program. You find this setting on the **Basic information** card of the **Program information** page in **Settings**.
 
 ---
 
@@ -30,14 +33,14 @@ Due to misspelling or double entry, you may need to edit details in the registra
 
 - **Enter the registration profile** by clicking on the **Reg. #** hyperlink on the left side;
 - Once in the profile overview, go to **Personal information** tab;
-- On the top left, click on **Edit information**. The fields become now editable;
+- On the top right, click on **Edit information**. The fields become now editable;
 - Search for the field to edit, type in the new value and click **Save**;
 - A pop-up **Update information** requests to fill in the reason for this change;
 - Add a reason, then **Save**.
 
 !!! Info "Reason for update"
     For auditing and accountability reasons, changes in the registration profile cannot be performed without indicating a reason. All data changes are logged into 121 platform with the old value, new value, reasons for update and are linked to the user's email address performing the change.
-    To enhance the audit trail, you can download the data changes report by clicking on **Export** and selecting **Export data changes**
+    To enhance the audit trail, you can download the data changes report by clicking on **Export** and selecting **Status & data changes**. Only CVA Manager can use **Export**.
 
 ---
 

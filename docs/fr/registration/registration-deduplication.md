@@ -7,17 +7,28 @@ hide:
 Ci-dessous, vous trouverez les étapes pour vérifier les enregistrements dupliqués et dédoublonner si nécessaire. Notez que les doublons ne peuvent être vérifiés que dans un seul programme et qu'il n'y a aucun moyen de vérifier les doublons entre différents programmes dans 121.
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
-    Le responsable CVA peut effectuer des actions sur cette page. [En savoir plus sur les utilisateurs et les rôles](../users/description-roles.md)
+    L'administrateur du programme peut configurer la vérification des doublons. Le responsable CVA peut effectuer les autres actions sur cette page. Le gestionnaire CVA peut aussi modifier et décliner des enregistrements, mais ne peut pas ignorer les doublons. [En savoir plus sur les utilisateurs et les rôles](../users/description-roles.md)
 
 ---
 
 ### Configuration de la vérification des doublons
 
-**Les critères de détection des doublons ont été configurés dans votre formulaire Kobo.**
-
 **Les doublons sont identifiés en fonction de critères uniques spécifiques** tels que le numéro de téléphone ou le numéro d'identification. Ce critère est flexible et peut être choisi par l'organisation et modifié en fonction des exigences du programme. Nous recommandons d'éviter les critères qui peuvent facilement correspondre entre les enregistrements (comme le nom).
 
-Le critère peut être configuré directement dans votre Kobo, en marquant la question comme **+dedup** dans votre formulaire. La plateforme 121 reconnaîtra alors la valeur comme critère dupliqué. Demandez à notre équipe d'ajuster le critère en fonction de votre programme.
+Vous définissez ces critères dans les paramètres du programme, sur la carte **Dédoublonnage** :
+
+- Allez dans **Paramètres** et ouvrez la page **Données d'enregistrement** ;
+- Sur la carte **Dédoublonnage**, cliquez sur **Modifier** ;
+- Dans **Champs de dédoublonnage :**, sélectionnez un ou plusieurs champs ;
+- Cliquez sur **Sauvegarder**.
+
+Si l'un de ces champs a la même valeur pour deux enregistrements ou plus, ces enregistrements sont marqués comme **Doublon**. Les enregistrements déclinés ne sont pas pris en compte dans la vérification des doublons. Pour en savoir plus, consultez la [page Données d'enregistrement](../settings/registration-data.md#dedoublonnage).
+
+!!! Note "Pas d'administrateur du programme dans votre équipe ?"
+    Seul l'administrateur du programme peut modifier les champs de dédoublonnage. Si personne dans votre équipe n'a ce rôle, contactez notre équipe d'assistance pour configurer les champs de dédoublonnage de votre programme.
+
+!!! Important "Les doublons bloquent l'inclusion et les paiements"
+    Les enregistrements marqués comme **Doublon** ne peuvent pas être inclus. Si votre sélection contient un doublon, la plateforme affiche une erreur et aucun des enregistrements sélectionnés n'est inclus. Un paiement qui contient des doublons ne peut pas non plus être approuvé ni démarré. Traitez d'abord tous les doublons : modifiez la valeur, déclinez l'enregistrement ou ignorez le doublon, comme décrit ci-dessous.
 
 ---
 
@@ -25,8 +36,7 @@ Le critère peut être configuré directement dans votre Kobo, en marquant la qu
 
 Sur la page **Enregistrement**, et suivant les procédures d'exploitation normalisées de votre organisation, tous les enregistrements dupliqués seront listés en fonction du critère unique sélectionné.
 
-- Cliquez sur l'icône :material-cog: pour **gérer le tableau**;
-- Sélectionnez **Doublons** et cliquez sur **Appliquer** pour afficher la colonne de doublons dans le tableau;
+- Si la colonne **Doublons** n'est pas visible, cliquez sur **Gérer le tableau** (:material-cog:), sélectionnez **Doublons** et cliquez sur **Appliquer** ;
 - Dans la colonne **Doublons**, sélectionnez l'icône de filtre et filtrez sur **Doublon**;
 - La liste filtrée affichera uniquement les enregistrements marqués comme **Doublon**;
 - Cliquez sur **Enreg. #** ou **Nom** pour ouvrir le profil d'enregistrement personnel. Une bannière rouge en haut de la page intitulée **Dupliqué avec** montrera avec qui cette personne est dupliquée et le **champ correspondant**;
@@ -35,12 +45,6 @@ Sur la page **Enregistrement**, et suivant les procédures d'exploitation normal
 ![Gérer le tableau](../assets/img/ShowDuplicateColumn.png)
 
 ![Filtre doublon](../assets/img/FilterDuplicate.png)
-
-!!! Note "Configuration de votre critère de doublons dans Kobo"
-    **Les doublons sont identifiés en fonction de critères uniques spécifiques** tels que le numéro de téléphone ou le numéro d'identification. Ce critère est flexible et peut être choisi par l'organisation et modifié en fonction des exigences du programme. Nous recommandons des critères uniques pour faciliter la vérification des doublons.
-
-    Le critère peut être configuré directement dans votre Kobo, en marquant la question comme **+dedup** dans votre formulaire. La plateforme 121 reconnaîtra alors la valeur comme critère dupliqué. Demandez à notre équipe d'ajuster le critère en fonction de votre programme.
-
 
 ## Mettre à jour la liste d'enregistrements
 

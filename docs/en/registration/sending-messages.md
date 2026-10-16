@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-There is an option to send **outbound messages** via SMS or WhatsApp to registrations for each action you perform in the instance, such as Including, Declining, or Sending payments. If you would like to communicate program progress to the registered individuals, you can click the button to **Send a message to registrations** and enable messaging through the 121 platform. To enable messaging services, you must create a Twilio account and ensure there are sufficient messaging credits. Contact our team to set this up. Below the steps to follow:
+There is an option to send **outbound messages** via SMS or WhatsApp to registrations for each action you perform in the instance, such as Including, Declining, or Sending payments. If you would like to communicate program progress to the registered individuals, you can turn on **Send a message to registration(s)** and enable messaging through the 121 platform. To enable messaging services, you must create a Twilio account and ensure there are sufficient messaging credits. Contact our team to set this up. Below the steps to follow:
 
 - [Create a Twilio Account](#create-a-twilio-account)
 - [Top-up before sending messages](#top-up-before-sending-messages)
@@ -12,6 +12,7 @@ There is an option to send **outbound messages** via SMS or WhatsApp to registra
 - [Send a message to the registered individuals](#send-a-message-to-the-registered-individuals)
 - [Custom message](#custom-message)
 - [Predefined template messages](#predefined-template-messages)
+- [Check the delivery of messages](#check-the-delivery-of-messages)
 
 !!! Important "Who can perform actions in this page?"
     CVA Manager and CVA Officer roles can perform actions in the Registrations page. [Learn more about Roles & Permissions](../users/description-roles.md)
@@ -51,7 +52,7 @@ Once you have calculated the total costs, you can top up your account via the Tw
 
 Phone numbers must be entered in international format. This means starting with the country code, followed by the rest of the number without the leading zero. For example, a phone number in the Democratic Republic of Congo (DRC) like 0900887766 should be written as 243900887766 — where 243 is the country code and the initial 0 is removed.
 
-**When building your Kobo form, you can enforce the international phone number format using a constraint or calculation. Neither Kobo nor the 121 platform will automatically reformat numbers, so it's important to configure this logic in your form to ensure consistency.**
+**When building your Kobo form, you can enforce the international phone number format using a constraint or calculation. Kobo does not reformat numbers. The 121 platform removes a leading + or 00 and checks each number with Twilio, but it does not add the country code or remove the leading zero. Numbers that fail this check are rejected with an error. So it's important to configure this logic in your form to ensure consistency.**
 
 | type       | name label         | constraint                | constraint_message                               |
 | :--------- | :----------------- | :------------------------ | :----------------------------------------------- |
@@ -69,8 +70,13 @@ In the **Registrations page**:
 
 - Select the list of registrations you want to send a message to;
 - Click on the **Message** icon on the top of the page;
-- Select **Custom message** and add the message you want to send;
-- You can use a variable by using **@** and **selecting the field** you want to insert. Variables allow you to pull information directly from the registration form and insert it automatically, without having to fill it in manually for each person. The content will adjust automatically based on the data provided by each individual during registration.
+- Select **Custom message** and add the message you want to send. The message must have at least 20 characters;
+- You can use a variable by using **@** and **selecting the field** you want to insert. Variables allow you to pull information directly from the registration form and insert it automatically, without having to fill it in manually for each person. The content will adjust automatically based on the data provided by each individual during registration;
+- Click **Continue to preview** and check the message;
+- Click **Send message**. To change the message, click **Go back**.
+
+!!! Important "Custom messages are not translated"
+    Custom messages are not automatically translated to the registration's preferred language.
 
 !!! Note "What is a variable and how does it work?"
     A variable is a placeholder that automatically pulls and inserts specific information from your registration form — like a name, email address, phone number, or any other field collected during sign-up.
@@ -85,9 +91,20 @@ In the **Registrations page**:
 
 If you intend to send messages at various stages of the program, you can add message templates to your instance. To do this, provide the message content along with a title and specify when the message should be triggered. Our support team will set them up. There are 2 options to send templated messages:
 
-1. Templates can be linked to key stages such as Registration, Validation, Inclusion, Declining, and Payment(s). This means the message will be automatically sent when the corresponding action is performed — for example, by clicking a specific button.
+1. Templates can be linked to key stages of the program. Some templates are sent automatically, for example when a registration is added to the program or, for some FSPs, when a payment is sent. Templates for Inclusion, Declining and Pausing are proposed in the pop-up when you include, decline or pause registrations: they are only sent if you turn on **Send a message to registration(s)**. Validating registrations does not send a message.
 
-2. Templated messages will be available in the dropdown menu when you click on the **Message** button. You can choose to send them whenever you want, independently of a specific action or stage in the program — unlike the first option, where messages are triggered automatically by actions such as registration or validation.
+2. Templated messages will be available in the dropdown menu when you click on the **Message** button: select **Template message** and choose the message. You can choose to send them whenever you want, independently of a specific action or stage in the program — unlike the first option, where messages are linked to actions such as registration or inclusion.
+
+---
+
+### Check the delivery of messages
+
+After you send messages, you can check their status in the **Last message status** column of the **Registrations** table.
+
+- If the column is not visible, click **Manage table** (:material-cog:), select **Last message status** and click **Apply**;
+- The column shows the type and status of the latest message sent to each registration, for example `sms: delivered` or `whatsapp: failed`. If no message was sent yet, it shows `no messages yet`;
+- Filter the column to find, for example, the registrations whose message failed;
+- To see all messages of one registration, open the registration profile and go to the **Activity log** tab.
 
 ---
 

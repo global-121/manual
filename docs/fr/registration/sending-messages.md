@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-Il existe une option pour envoyer des **messages sortants** via SMS ou WhatsApp aux enregistrements pour chaque action que vous effectuez dans l'instance, telle que l'inclusion, le fait de décliner ou l'envoi de paiements. Si vous souhaitez communiquer la progression du programme aux individus enregistrés, vous pouvez cliquer sur le bouton **Envoyer un message aux enregistrements** et activer la messagerie via la plateforme 121. Pour activer les services de messagerie, vous devez créer un compte Twilio et vous assurer qu'il y a suffisamment de crédits de messagerie. Contactez notre équipe pour configurer cela. Voici les étapes à suivre:
+Il existe une option pour envoyer des **messages sortants** via SMS ou WhatsApp aux enregistrements pour chaque action que vous effectuez dans l'instance, telle que l'inclusion, le fait de décliner ou l'envoi de paiements. Si vous souhaitez communiquer la progression du programme aux individus enregistrés, vous pouvez activer **Envoyer un message aux enregistré(e)s** et activer la messagerie via la plateforme 121. Pour activer les services de messagerie, vous devez créer un compte Twilio et vous assurer qu'il y a suffisamment de crédits de messagerie. Contactez notre équipe pour configurer cela. Voici les étapes à suivre:
 
 - [Créer un compte Twilio](#cr%C3%A9er-un-compte-twilio)
 - [Recharger avant d'envoyer des messages](#recharger-avant-denvoyer-des-messages)
@@ -12,6 +12,7 @@ Il existe une option pour envoyer des **messages sortants** via SMS ou WhatsApp 
 - [Envoyer un message aux individus enregistrés](#envoyer-un-message-aux-individus-enregistr%C3%A9s)
 - [Message personnalisé](#message-personnalis%C3%A9)
 - [Messages modèles prédéfinis](#messages-mod%C3%A8les-pr%C3%A9d%C3%A9finis)
+- [Vérifier la livraison des messages](#v%C3%A9rifier-la-livraison-des-messages)
 
 
 !!! Important "Qui peut effectuer des actions sur cette page?"
@@ -58,7 +59,7 @@ Une fois que vous avez calculé les coûts totaux, vous pouvez recharger votre c
 
 Les numéros de téléphone doivent être entrés au format international. Cela signifie commencer par l'indicatif régional, suivi du reste du numéro sans le zéro initial. Par exemple, un numéro de téléphone en République démocratique du Congo (RDC) comme 0900887766 devrait être écrit comme 243900887766 — où 243 est l'indicatif régional et le 0 initial est supprimé.
 
-**Lors de la création de votre formulaire Kobo, vous pouvez appliquer le format de numéro de téléphone international à l'aide d'une contrainte ou d'un calcul. Ni Kobo ni la plateforme 121 ne reformateront automatiquement les numéros, il est donc important de configurer cette logique dans votre formulaire pour assurer la cohérence.**
+**Lors de la création de votre formulaire Kobo, vous pouvez appliquer le format de numéro de téléphone international à l'aide d'une contrainte ou d'un calcul. Kobo ne reformate pas les numéros. La plateforme 121 supprime un + ou un 00 initial et vérifie chaque numéro avec Twilio, mais elle n'ajoute pas l'indicatif du pays et ne supprime pas le zéro initial. Les numéros qui échouent à cette vérification sont refusés avec une erreur. Il est donc important de configurer cette logique dans votre formulaire pour assurer la cohérence.**
 
 | type | name label | constraint | constraint_message |
 | :------- | :------- | :--------- | :------ |
@@ -81,8 +82,13 @@ Sur la **page d'enregistrement**:
 
 - Sélectionnez la liste d'enregistrements auxquels vous souhaitez envoyer un message;
 - Cliquez sur l'icône **Message** en haut de la page;
-- Sélectionnez **Message personnalisé** et ajoutez le message que vous souhaitez envoyer;
-- Vous pouvez utiliser variable en utilisant **@** et **sélectionner le champ** que vous souhaitez insérer. Les variables vous permettent de récupérer des informations directement du formulaire d'enregistrement et de l'insérer automatiquement, sans avoir à la remplir manuellement pour chaque personne. Le contenu s'ajustera automatiquement en fonction des données fournies par chaque individu lors de l'enregistrement.
+- Sélectionnez **Message personnalisé** et ajoutez le message que vous souhaitez envoyer. Le message doit contenir au moins 20 caractères;
+- Vous pouvez utiliser variable en utilisant **@** et **sélectionner le champ** que vous souhaitez insérer. Les variables vous permettent de récupérer des informations directement du formulaire d'enregistrement et de l'insérer automatiquement, sans avoir à la remplir manuellement pour chaque personne. Le contenu s'ajustera automatiquement en fonction des données fournies par chaque individu lors de l'enregistrement;
+- Cliquez sur **Continuer vers l’aperçu** et vérifiez le message;
+- Cliquez sur **Envoyer un message**. Pour modifier le message, cliquez sur **Retourner**.
+
+!!! Important "Les messages personnalisés ne sont pas traduits"
+    Les messages personnalisés ne sont pas traduits automatiquement dans la langue préférée de l'enregistrement.
 
 !!! Note "Qu'est-ce qu'une variable et comment fonctionne-t-elle?"
     Une variable est un espace réservé qui récupère et insère automatiquement des informations spécifiques de votre formulaire d'enregistrement — comme un nom, une adresse e-mail, un numéro de téléphone ou tout autre champ collecté lors de l'inscription.
@@ -99,9 +105,22 @@ Sur la **page d'enregistrement**:
 
 Si vous avez l'intention d'envoyer des messages à différents stades du programme, vous pouvez ajouter des modèles de messages à votre instance. Pour ce faire, fournissez le contenu du message avec un titre et spécifiez quand le message doit être déclenché. Notre équipe d'assistance les configurera. Il y a 2 options pour envoyer des messages modèles:
 
-  1. Les modèles peuvent être liés à des étapes clés telles que l'enregistrement, la validation, l'inclusion, le fait de décliner et le paiement. Cela signifie que le message sera automatiquement envoyé lorsque l'action correspondante est effectuée — par exemple, en cliquant sur un bouton spécifique.
+  1. Les modèles peuvent être liés à des étapes clés du programme. Certains modèles sont envoyés automatiquement, par exemple lorsqu'un enregistrement est ajouté au programme ou, pour certains PSF, lorsqu'un paiement est envoyé. Les modèles pour l'inclusion, le fait de décliner et la mise en pause sont proposés dans la fenêtre contextuelle lorsque vous incluez, déclinez ou mettez en pause des enregistrements : ils ne sont envoyés que si vous activez **Envoyer un message aux enregistré(e)s**. La validation d'enregistrements n'envoie pas de message.
 
-  2. Les messages modèles seront disponibles dans le menu déroulant lorsque vous cliquez sur le bouton **Message**. Vous pouvez choisir de les envoyer quand vous le souhaitez, indépendamment d'une action ou d'une étape spécifique du programme — contrairement à la première option, où les messages sont déclenchés automatiquement par des actions telles que l'enregistrement ou la validation.
+  2. Les messages modèles seront disponibles dans le menu déroulant lorsque vous cliquez sur le bouton **Message** : sélectionnez **Modèle de message** et choisissez le message. Vous pouvez choisir de les envoyer quand vous le souhaitez, indépendamment d'une action ou d'une étape spécifique du programme — contrairement à la première option, où les messages sont liés à des actions telles que l'enregistrement ou l'inclusion.
+
+---
+
+<a id="v%C3%A9rifier-la-livraison-des-messages"></a>
+
+### Vérifier la livraison des messages
+
+Après avoir envoyé des messages, vous pouvez vérifier leur statut dans la colonne **Statut du dernier message** du tableau **Enregistrements**.
+
+- Si la colonne n'est pas visible, cliquez sur **Gérer le tableau** (:material-cog:), sélectionnez **Statut du dernier message** et cliquez sur **Appliquer** ;
+- La colonne affiche le type et le statut du dernier message envoyé à chaque enregistrement, par exemple `sms: delivered` ou `whatsapp: failed`. Si aucun message n'a encore été envoyé, elle affiche `no messages yet` ;
+- Filtrez la colonne pour trouver, par exemple, les enregistrements dont le message a échoué ;
+- Pour voir tous les messages d'un enregistrement, ouvrez le profil d'enregistrement et allez dans l'onglet **Journal d'activité**.
 
 ---
 

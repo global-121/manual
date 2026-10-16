@@ -31,8 +31,13 @@ Par exemple, le formulaire d'enregistrement du programme peut inclure des critè
 - Après avoir téléchargé le fichier, cliquez sur **Importer le fichier** pour appliquer l'action;
 - Une autre fenêtre contextuelle apparaîtra avec la confirmation que l'importation a réussi. *Veuillez noter que cela peut prendre du temps selon le nombre d'enregistrements en cours de téléchargement.*
 
+Les enregistrements importés reçoivent le statut **Nouveau**.
+
+!!! Important "Maximum 1 000 enregistrements par importation"
+    Vous pouvez importer au maximum 1 000 enregistrements par fichier. Si vous avez davantage d'enregistrements à importer, répartissez-les dans plusieurs fichiers. L'importation prend environ 1 minute pour 100 enregistrements.
+
 !!! warning "Importation infructueuse"
-    Si l'importation est infructueuse ou affiche un message d'erreur, vérifiez que votre fichier Excel est correctement formaté et enregistré en tant que fichier .CSV.
+    Si l'importation est infructueuse ou affiche un message d'erreur, vérifiez que votre fichier Excel est correctement formaté et enregistré en tant que fichier .CSV. Si certaines lignes contiennent des erreurs, la fenêtre contextuelle affiche un tableau avec le numéro de ligne, la colonne, la valeur et l'erreur pour chaque problème. Corrigez ces erreurs dans votre fichier et importez-le à nouveau.
 Si vous avez besoin d'aide supplémentaire, veuillez ne pas hésiter à contacter notre [équipe d'assistance](mailto:support@121.global).
 
 ---

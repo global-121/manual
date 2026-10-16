@@ -18,12 +18,12 @@ Le **tableau d'enregistrements** vous montre tous les ménages ou individus enre
 Pour marquer les enregistrements comme **déclinés**:
 
 - Allez à la **page d'enregistrements**;
-- Filtrez la liste d'enregistrements sur **l'état**, sélectionnez **Nouveau** et **Appliquez**. *Cette action est pour s'assurer que vous sélectionnez uniquement l'état **Nouveau**;* ![Filtre d'état d'enregistrement](../assets/img/RegisteredStatusFilter.png)
+- Filtrez la liste d'enregistrements sur **Statut d'enregistrement**, sélectionnez **Nouveau** et **Appliquez**. *Cette action est pour s'assurer que vous sélectionnez uniquement l'état **Nouveau**;* ![Filtre d'état d'enregistrement](../assets/img/RegisteredStatusFilter.png)
 - Vous pouvez:
   - Faire une **sélection individuelle** en cliquant sur la case à cocher :material-checkbox-outline: sur la ligne d'enregistrement;
-  - Faire une **sélection en masse** en cliquant sur :material-checkbox-multiple-marked-outline: sur la ligne supérieure **Sélectionner**;
+  - Faire une **sélection en masse** en cliquant sur la case à cocher :material-checkbox-multiple-marked-outline: dans l'en-tête du tableau;
 - En haut du tableau, cliquez sur le bouton **:fontawesome-solid-ban: Décliner**;
-- La fenêtre contextuelle **Décliner Enregistrements** apparaît. Indiquez une raison et, *éventuellement*, activez **Envoyer un message aux enregistré(e)s**;
+- La fenêtre contextuelle **Décliner Enregistrements** apparaît. Indiquez une raison dans **Indiquer la raison de la mise à jour** (obligatoire) et, *éventuellement*, activez **Envoyer un message aux enregistré(e)s**;
 - Cliquez sur **Décliner l'enregistrement**. Un message indique la fin de l'action.
 
 Les enregistrements déclinés restent listés sur la page Enregistrements avec le statut **Décliné(e)**. Filtrez la liste par statut pour avoir un aperçu de tous les enregistrements déclinés dans ce programme.
@@ -36,7 +36,7 @@ Les enregistrements déclinés restent listés sur la page Enregistrements avec 
 
 Pour activer les services de messagerie, vous devez créer un compte Twilio et vous assurer qu'il y a suffisamment de crédits de messagerie. Contactez notre équipe pour configurer cela.
 
-Il y a une option pour envoyer un message aux enregistrements pour chaque action que vous effectuez sur la plateforme, telle que l'inclusion, le fait de décliner ou l'envoi de paiements aux enregistrements. Si vous souhaitez communiquer la progression du programme, vous pouvez cliquer sur le bouton **Envoyer un message aux enregistrements**.
+Il y a une option pour envoyer un message aux enregistrements pour chaque action que vous effectuez sur la plateforme, telle que l'inclusion, le fait de décliner ou l'envoi de paiements aux enregistrements. Si vous souhaitez communiquer la progression du programme, vous pouvez activer **Envoyer un message aux enregistré(e)s**.
 
 ---
 
