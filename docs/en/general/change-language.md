@@ -14,7 +14,7 @@ You can change the language of the 121 platform:
 - Go to the **Menu**,
 - At the **bottom of the sidebar**, go to the **language switcher** and select your preferred language.
   
-The language will be changed for your account only. English, French, Spanish, Dutch and Arabic languages are available. If you use Arabic by default, the language switcher is on the left.
+Your choice is saved in this browser only. If you use another browser or device, select your language again. The portal can offer English, French, Spanish, Dutch, Arabic and Slovak. The languages available may differ per instance. If you use Arabic by default, the language switcher is on the left.
 
 ![Language switcher](../assets/img/ChangeLanguage.png)
 

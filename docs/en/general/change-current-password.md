@@ -5,7 +5,7 @@ hide:
 ---
 
 !!! Important "Who can perform actions on this page ?"
-    All users can change their own passwords.
+    All users who log in with their email and password can change their own passwords. This is not available if you log in with Single Sign-On (SSO). Your password is then managed through your Microsoft account.
 
 
 You can change your password from the **Account** menu in the top right corner.
@@ -22,7 +22,7 @@ You can change your password from the **Account** menu in the top right corner.
 
 ---
 
-If you lost or do not remember your password, you can contact your User Manager, so he/she will reset your password [by following the instructions on the Reset password page](../general/reset-password.md). Once you have logged in with your new password, we kindly recommend you to change your new password for additional security.
+If you lost or do not remember your password, you can contact a user with Organisational Admin rights in your organisation, so they can reset your password [by following the instructions on the Reset password page](../general/reset-password.md). You can also click **Request a password reset** under **Forgot your password?** on the login page. Once you have logged in with your new password, we kindly recommend you to change your new password for additional security.
 
 If you are still not able to log in to the 121 platform, contact our support team via <support@121.global>
 
