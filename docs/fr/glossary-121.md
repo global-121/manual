@@ -46,14 +46,14 @@ Une liste des termes clés utilisés dans la plateforme 121.
 
 | Terme | Définition |
 | :------------------ | :------------------------------------------------------------------- |
-| **Tous les programmes** | La page d'accueil de 121, contient tous les programmes, en cours et archivés, auxquels les utilisateurs sont affectés. |
-| **Utilisateurs** | Tous les individus qui ont accès à la plateforme 121 et qui y travaillent, par exemple gestionnaire CVA, bénévoles, gestionnaires financiers, etc. Un utilisateur peut avoir différents rôles dans différents programmes. |
-| **Rôles** | Chaque utilisateur se verra attribuer un poste pour un programme spécifique (par exemple, gestionnaire CVA, bénévole, gestionnaire financier, etc.). Ceci est fait sur la page « Équipe » des détails du programme. Chaque rôle a 1 ou plusieurs autorisations. |
-| **Autorisations** | Chaque rôle a une autorisation différente pour effectuer différentes actions. par exemple, seul un gestionnaire financier peut approuver un paiement. Vous pouvez voir quelles autorisations sont liées à quel rôle sur la page « Rôles et autorisations ». |
-| **Paramètres** | Où les utilisateurs peuvent apporter des modifications à la plateforme pour l'adapter à leurs besoins, par exemple modifier la langue, le fuseau horaire, etc. |
+| **Tous les programmes** | La page d'accueil de 121, contient tous les programmes auxquels les utilisateurs sont affectés. |
+| **Utilisateurs** | Tous les individus qui ont accès à la plateforme 121 et qui y travaillent, par exemple gestionnaires CVA, bénévoles, gestionnaires financiers, etc. Un utilisateur peut avoir différents rôles dans différents programmes. |
+| **Rôles** | Chaque utilisateur se verra attribuer un poste pour un programme spécifique (par exemple, gestionnaire CVA, gestionnaire financier, etc.). Ceci est fait sur la page **Équipe du programme** dans les paramètres du programme (**Paramètres** > **Utilisateurs** > **Équipe du programme**). Chaque rôle a 1 ou plusieurs autorisations. |
+| **Autorisations** | Chaque rôle a une autorisation différente pour effectuer différentes actions. Par exemple, seul un responsable financier peut lancer un paiement. Vous pouvez voir quelles autorisations sont liées à quel rôle sur la page [Rôles et permissions](users/description-roles.md). |
+| **Paramètres** | La page d'un programme où les utilisateurs peuvent consulter et mettre à jour la configuration du programme : informations sur le programme, intégration PSF, données d'enregistrement, équipe du programme et approbation des paiements. |
 | **Manuel** | L'endroit où les utilisateurs peuvent trouver des instructions sur comment utiliser la plateforme. |
 | **Surveillance** | Les informations détaillées d'un programme et le tableau de bord Power BI avec les informations des statistiques du programme. (le cas échéant). |
-| **Équipe** | Utilisateurs 121 qui travailleront sur ce programme et leurs rôles. |
+| **Équipe du programme** | Utilisateurs 121 qui travailleront sur ce programme et leurs rôles. |
 | **Enregistrements** | La page au sein d'un programme où tous les enregistrements qui se sont enregistrés sont listés dans un tableau. Chaque « Enregistrement » représente les données soumises par des individus ou des ménages pour s'inscrire au programme. Les utilisateurs peuvent effectuer diverses actions sur ces enregistrements, comme les sélectionner pour inclure dans le programme. |
 | **Paiements** | La page où les utilisateurs peuvent voir les paiements qui ont été effectués, créer de nouveaux paiements et surveiller les paiements en cours. |
 
@@ -64,13 +64,11 @@ Une liste des termes clés utilisés dans la plateforme 121.
 
 | Terme | Définition |
 | :------------------ | :------------------------------------------------------------------- |
-| **Cible d'enregistrements** | Le nombre de personnes/ménages qu'un programme souhaite aider. |
-| **Enregistrements atteints** | Le montant des enregistrements qui ont reçu des fonds par un programme. |
+| **Enregistrements ciblés** | Le nombre de personnes/ménages qu'un programme souhaite aider. |
+| **Enregistrements Inclus** | Le nombre d'enregistrements inclus dans le programme. |
 | **Budget** | Le montant des fonds alloués à la distribution dans un programme. |
-| **Espèces versées** | Le montant des fonds transférés aux enregistrements dans un programme. |
+| **Montant déboursé** | Le montant des fonds transférés aux enregistrements dans un programme. |
 | **Dernier paiement** | La date du dernier paiement effectué. |
-| **Actif** | Les programmes en cours de création ou déjà en cours. |
-| **Archivé** | Au lieu de supprimer, l'utilisateur peut archiver un programme, il n'est pas actif mais ses détails sont toujours disponibles pour être visualisés et peuvent être copiés. |
 
 <a id="cr%C3%A9er-un-nouveau-programme"></a>
 
@@ -79,8 +77,7 @@ Une liste des termes clés utilisés dans la plateforme 121.
 | Terme | Définition |
 | :------------------ | :------------------------------------------------------------------- |
 | **Détails du programme** | Sur cette page, les utilisateurs peuvent remplir les informations du programme, comme son nom, le nombre d'enregistrements que le programme souhaite atteindre, etc. |
-| **Titre du programme** | Où les utilisateurs peuvent renommer le programme. |
-| **Mappage de données** | Synchroniser le fichier kobo/csv dans la table de données sur laquelle vous exécuterez le programme. |
+| **Nom du programme** | Le nom du programme. Les utilisateurs peuvent le modifier plus tard sur la page **Informations sur le programme**. |
 
 <a id="statut-d%27enregistrement"></a>
 
@@ -88,9 +85,9 @@ Une liste des termes clés utilisés dans la plateforme 121.
 
 | Terme | Définition |
 | :------------------ | :------------------------------------------------------------------- |
-| **Nouveau** | Personnes/ménage ayant complété l'enregistrement dans le formulaire Kobo. |
-| **Validé(e)** | L'identité de l'enregistrement a été confirmée par un utilisateur 121. |
-| **Inclus(e)** | L'identité de l'enregistrement a été confirmée par un utilisateur 121. |
+| **Nouveau** | L'enregistrement a été ajouté au programme, via le formulaire Kobo ou un import. |
+| **Validé(e)** | L'identité de l'enregistrement a été confirmée par un utilisateur 121. Utilisé uniquement dans les programmes où la validation est activée. |
+| **Inclus(e)** | L'enregistrement est inclus dans le programme et peut recevoir des paiements. |
 | **Décliné(e)** | L'enregistrement s'est avéré être mal enregistré (doublon, score d'inclusion faible, etc.) et ne sera pas inclus dans le programme. |
 | **Complété(e)** | L'enregistrement a reçu le montant complet des transferts. |
 | **Supprimé(e)** | L'enregistrement a été supprimé, ses détails personnels ont été supprimés - seuls certains détails sont toujours disponibles pour les rapports. |
@@ -106,9 +103,9 @@ Une liste des termes clés utilisés dans la plateforme 121.
 | **Valeur du transfert** | Le montant d'argent qu'un enregistrement est censé recevoir dans un seul paiement. |
 | **Transfert** | Un seul transfert de transfert à un enregistrement. Un enregistrement recevra le nombre de transferts préconfigurés dans le programme. Si enregistré tardivement, le premier transfert à un enregistrement peut faire partie d'une tranche de paiement ultérieure. |
 | **Montant total du paiement** | La valeur de somme ajoutant les valeurs de transfert de chaque enregistrement inclus ajouté au paiement. |
-| **En attente d'approbation** | Un nouveau paiement a été créé et il doit être approuvé par un Gestionnaire Financier. |
-| **En cours** | Le paiement est en cours de création et d'envoi aux enregistrements inclus. |
-| **Terminé** | Tous les enregistrements inclus ont reçu leurs transferts. |
+| **x sur y approuvé** | Un nouveau paiement a été créé et il doit être approuvé. L'étiquette indique combien d'approbations requises ont été données. Les approbateurs sont définis sur la page **Approbation du paiement** dans les paramètres du programme. |
+| **Approuvé(e)** | Toutes les approbations requises ont été données. Le paiement peut maintenant être lancé (ou a déjà été lancé). |
+| **En cours** | Le paiement est en cours d'envoi aux enregistrements inclus. Vous ne pouvez pas créer un nouveau paiement tant qu'un autre paiement est en cours. |
 
 
 <a id="statuts-de-transfert"></a>
@@ -133,9 +130,9 @@ Dans le fichier de réconciliation, les valeurs de statut restent toujours `succ
 | Terme | Définition |
 | :------------------ | :------------------------------------------------------------------- |
 | **Carte(s) de débit** | Une carte physique ou numérique rechargeable envoyée à l'enregistrement, qu'il peut utiliser pour effectuer des achats. |
-| **Solde** | Le montant d'argent actuellement disponible dans le portefeuille. |
+| **Solde actuel** | Le montant d'argent actuellement disponible dans le portefeuille. |
 | **Dépensé ce mois-ci (max X)** | Dans certains programmes, le montant qu'un enregistrement peut dépenser en un seul mois est plafonné. C'est une mesure de précaution pour éviter une mauvaise utilisation des cartes. |
-| **Numéro de carte** | Dans certains programmes, le montant qu'un enregistrement peut dépenser en un seul mois est plafonné. C'est une mesure de précaution pour éviter une mauvaise utilisation des cartes et une exigence KYC. |
+| **Numéro de carte** | Le numéro qui identifie la carte de débit d'un enregistrement. |
 
 <a id="r%C3%B4les"></a>
 
@@ -143,11 +140,12 @@ Dans le fichier de réconciliation, les valeurs de statut restent toujours `succ
 
 | Terme | Définition |
 | -- | -- |
-| Program Admin | Administrateur de programme |
-| Only view data, including Personally Identifiable Information | Lecteur - compris IPI |
-| Only view data, not including Personally Identifiable Information | Lecteur - excluant IPI |
-| Finance Manager | Responsable Financier |
-| Finance Officer | Gestionnaire Financier |
-| CVA Manager | Responsable CVA |
-| CVA Officer | Gestionnaire CVA |
-| User Manager | Responsable Utilisateurs |
+| Program Admin | Administrateur du programme |
+| Only view data, including Personally Identifiable Information | Lecteur |
+| Only view data, not including Personally Identifiable Information | Lecteur sans données personnelles |
+| Finance Manager | Responsable financier |
+| Finance Officer | Gestionnaire financier |
+| Cash Assistance Program Manager | Responsable CVA |
+| Cash Assistance Program Officer | Gestionnaire CVA |
+| Approve payments | Approbateur |
+| Program Team Manager | Responsable de l'équipe du programme |
