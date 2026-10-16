@@ -132,6 +132,7 @@ nav:
         - "End payments": "payment/end-payments.md"
         - "Payment statuses in 121": "payment/list-status-payment-page.md"
         - "Payment reporting and activty": "payment/payment-reporting.md"
+        - "Debit cards": "payment/debit-cards.md"
     - "Monitoring":
         - "Monitoring page": "monitoring/monitoring.md"
         - "Upload files or attachments" : "monitoring/upload-files.md"

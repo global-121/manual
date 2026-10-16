@@ -33,6 +33,18 @@ Le tableau ci-dessous indique les noms d'étiquettes corrects qui doivent être 
 | **success** | Paiements réussis, terminés ou confirmés. |
 | **error** | Paiements échoués, non reçus par les enregistrements en raison de données incorrectes partagées ou erreur au PSF. |
 
+Le modèle contient trois colonnes :
+
+| Colonne | Ce qu'il faut remplir |
+| :---- | :---- |
+| Colonne d'identification (son nom dépend des paramètres de votre PSF, par exemple le numéro de téléphone) | La valeur qui identifie l'enregistrement, telle que définie dans les paramètres PSF du programme. Chaque valeur ne peut apparaître qu'une seule fois dans le fichier. |
+| `status` | `success` ou `error`. |
+| `errorMessage` | Facultatif. La raison de l'échec du paiement. Laissez-la vide lorsque le statut est `success`. |
+
+!!! Important "Règles pour le fichier de réconciliation"
+    - N'utilisez qu'une seule colonne d'identification.
+    - Toutes les lignes doivent concerner des enregistrements d'un seul PSF Excel. Si votre programme a plusieurs PSF Excel, **Télécharger le modèle** télécharge un modèle par PSF Excel. Importez un fichier distinct pour chaque PSF.
+
 
 Si ces étiquettes ne correspondent pas correctement, trois erreurs peuvent se produire dans la plateforme 121 :
 
@@ -61,6 +73,10 @@ Une fois que votre fichier mis à jour est prêt et enregistré au format .csv, 
 - Cliquez sur **Importer les données de réconciliation** ![Importer les données de réconciliation](../assets/img/IndividualExportReport.png)
 - **Glissez-déposez** ou cliquez sur **Choisir le fichier**
 - Cliquez sur **Importer le fichier** ![Importer le fichier de réconciliation](../assets/img/ReconciliationImport.png)
+- Après l'importation, le portail télécharge automatiquement un fichier de résultat nommé `import-fsp-reconciliation-response-<date>`. Il indique, pour chaque ligne de votre fichier, si elle a été associée à une transaction.
+
+!!! Note "Importez le bon fichier"
+    La fenêtre d'importation avertit : *Assurez-vous de télécharger le bon fichier, car cela remplacera le fichier actuel.* Vérifiez que le fichier correspond à ce paiement avant de l'importer.
 
 !!! Info "Statuts de paiement"
     Tous les statuts de paiement d'enregistrement seront mis à jour dans le tour de paiement spécifique. Vous pouvez ensuite afficher le nombre de paiements réussis, en cours de traitement et échoués au sein de la liste d'enregistrement. Lisez-en plus sur les statuts de paiement sur [cette page.](./list-status-payment-page.md)

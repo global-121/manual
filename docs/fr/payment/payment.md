@@ -7,7 +7,7 @@ hide:
 La page Paiements fournit un aperçu de tous les paiements effectués et distribués aux enregistrements du programme. Elle vous permet de suivre le statut de paiement pour chaque enregistrement, y compris les transactions complétées, en cours de traitement ou échouées, et de traiter les nouveaux paiements.
 
 !!! Important "Qui peut effectuer des actions dans cette page ?"
-    Tous les utilisateurs peuvent consulter la page Paiements. La création et l'envoi des paiements sont réservés au responsable CVA et au responsable financier — voir [Créer et approuver les paiements](./create-approve-payment.md) pour plus de détails. [En savoir plus sur les utilisateurs et les rôles](../users/description-roles.md)
+    Tous les rôles standard peuvent consulter la page Paiements. Le responsable CVA et le responsable financier peuvent créer des paiements. Seuls les membres de l'équipe désignés comme approbateurs du programme peuvent les approuver. Seul le responsable financier peut lancer (envoyer) les paiements. Voir [Créer et approuver les paiements](./create-approve-payment.md) pour plus de détails. [En savoir plus sur les utilisateurs et les rôles](../users/description-roles.md)
 
 ![Page Paiements](../assets/img/PaymentsPage.png)
 
@@ -28,7 +28,7 @@ La plateforme 121 offre **deux méthodes différentes pour traiter les paiements
 Vous pouvez afficher un résumé de tous les paiements effectués au cours de votre programme et aux enregistrements inclus dans le programme. Cet aperçu est particulièrement utile pour :
 
 - Avoir une vision claire de tous les décaissements effectués le long du programme jusqu'à présent.
-|- Que le responsable financier et le gestionnaire financier suivent les statuts de paiement, y compris les paiements réussis, en cours de traitement et échoués.
+- Que le responsable financier et le gestionnaire financier suivent les statuts de paiement, y compris les paiements réussis, en cours de traitement et échoués.
 - Que le responsable CVA et le gestionnaire CVA soient informés et suivent si un enregistrement reçoit ou non une aide monétaire.
 - Pour les bailleurs de fonds qui peuvent vouloir voir les processus de paiement en cours et les délais selon les besoins.
 
@@ -60,6 +60,8 @@ Vous serez en mesure de traiter les paiements avec un ou plusieurs modes de livr
 | **Carte de débit VISA** | Transferts directs et rechargement vers carte de débit VISA (PSF intégré). Permet les modalités conditionnelles et inconditionnelles. |
 | **Argent mobile** | Transferts directs aux portefeuilles mobiles. |
 | **Bons électroniques** | Il s'agit d'un document électronique avec un montant et des dates spécifiques qui soutiennent et autorisent les transactions financières dans les lieux désignés. Ceux-ci sont envoyés via WhatsApp. |
+| **Bons papier** | Des bons d'achat imprimés et remis aux enregistrements. |
+| **Bons de retrait d'espèces** | Un bon que l'enregistrement utilise pour retirer l'argent en espèces. |
 
 *Dans les cas où le paiement en espèces physiques peut être une meilleure approche, ces options peuvent être discutées au cas par cas avec notre équipe 121.*
 
@@ -72,6 +74,27 @@ Vous serez en mesure de traiter les paiements avec un ou plusieurs modes de livr
     - Vérifiez que votre PSF ou la banque autorises l'intégration avec des outils tiers ou un fournisseur de services externes ;
     - Le PSF ou la banque support les protocoles API. Une interface de programmation d'application (API) est un moyen pour deux ou plusieurs programmes informatiques ou composants de communiquer les uns avec les autres ;
     - Assurez-vous d'avoir un accord signé concernant l'utilisation de leurs services et la protection des données.
+
+---
+
+## Prestataires de services financiers dans 121
+
+Le tableau ci-dessous liste les PSF pris en charge par la plateforme 121, avec leur nom dans le portail. Les PSF disponibles dépendent de votre instance 121. L'administrateur du programme peut voir les PSF configurés pour votre programme dans **Paramètres** > **Intégration FSP**.
+
+| PSF (nom dans le portail) | Mécanisme de livraison | Type |
+| :---- | :---- | :---- |
+| **Airtel** | Argent mobile | PSF intégré |
+| **Al Fouad** | Transfert d'argent, versé à l'enregistrement par Al Fouad | PSF intégré |
+| **Albert Heijn voucher paper** | Bons papier | PSF intégré |
+| **Albert Heijn voucher WhatsApp** | Bons électroniques envoyés via WhatsApp | PSF intégré |
+| **Commercial Bank of Ethiopia** | Virement bancaire | PSF intégré |
+| **Cooperative Bank of Oromia** | Virement bancaire | PSF intégré |
+| **Excel Payment Instructions** | Tout PSF non intégré : vous exportez les instructions de paiement et importez le fichier de réconciliation | Portail PSF (manuel) |
+| **MTN** | Argent mobile | PSF intégré |
+| **Nedbank** | Bons de retrait d'espèces | PSF intégré |
+| **Onafriq** | Argent mobile | PSF intégré |
+| **Safaricom** | Argent mobile (M-Pesa) | PSF intégré |
+| **Visa debit card** | Carte de débit VISA. Voir [Cartes de débit](./debit-cards.md). | PSF intégré |
 
 ---
 

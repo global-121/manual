@@ -34,11 +34,14 @@ Dans la **page Enregistrement** :
 
 Vous pouvez également modifier le statut en cliquant avec le bouton droit sur l'enregistrement dans le tableau et en cliquant sur **:material-pause: Pause** ![Liste déroulante du statut](../assets/img/RegistationsStatusRighList.png)
 
+!!! Important "Enregistrements dans un paiement en attente d'approbation"
+    Si un enregistrement que vous mettez en pause fait partie d'un paiement en attente d'approbation, le portail vous avertit avant la confirmation : *Si vous mettez en pause un enregistrement inclus dans un paiement, le virement échouera. Si vous les incluez à l'avenir, vous pourrez réessayer d'effectuer le paiement qui a échoué.*
+
 ---
 
 ## Annuler l'action et rétablir le statut
 
-Le statut **Mis(e) en pause** peut être appliqué temporairement. Vous pouvez rétablir le statut d'un enregistrement à plusieurs statuts : **Inclus(e)**, **Validé(e)** et **Décliné(e)**.
+Le statut **Mis(e) en pause** peut être appliqué temporairement. Vous pouvez rétablir le statut d'un enregistrement à plusieurs statuts : **Inclus(e)**, **Validé(e)** et **Décliné(e)**. Seul un responsable CVA peut inclure à nouveau un enregistrement.
 Il n'est pas possible de rétablir le statut **Mis(e) en pause** au statut **Nouveau**.
 
 ---

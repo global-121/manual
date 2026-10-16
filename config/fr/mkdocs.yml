@@ -132,6 +132,7 @@ nav:
         - "Fin de l'assistance": "payment/end-payments.md"
         - "Messages de paiement et statuts dans 121": "payment/list-status-payment-page.md"
         - "Rapports financiers et activité": "payment/payment-reporting.md"
+        - "Cartes de débit": "payment/debit-cards.md"
     - "Suivi":
         - "Suivi": "monitoring/monitoring.md"
         - "Télécharger des fichiers ou des pièces jointes": "monitoring/upload-files.md"

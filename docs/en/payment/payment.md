@@ -6,7 +6,7 @@ hide:
 The Payment page provides an overview of all payments made and disbursed to registrations in the program. It allows you to track the payment status for each registration, including any completed, processing, or failed transactions, and processes new payments.
 
 !!! Important "Who can perform actions in this page?"
-    All users can view the Payments page. Creating and sending payments is limited to CVA Manager and Finance Manager — see [Create and approve payments](./create-approve-payment.md) for details. [Learn more about Roles & Permissions](../users/description-roles.md)
+    All standard roles can view the Payments page. CVA Manager and Finance Manager can create payments. Only the team members set as approvers for the program can approve them. Only the Finance Manager can start (send) payments. See [Create and approve payments](./create-approve-payment.md) for details. [Learn more about Roles & Permissions](../users/description-roles.md)
 
 ![Payments page](../assets/img/PaymentsPage.png)
 
@@ -59,6 +59,8 @@ You will be able to process payments with one or multiple delivery mechanisms de
 | **VISA debit card** | Direct transfers and top-up to VISA debit card (integrated FSP). Allows conditional and unconditional modalities. |
 | **Mobile money** | Direct transfers to mobile wallets. |
 | **E-vouchers** | This is an electronic document with a specific amount and dates that support and authorize financial transactions at designated locations. These are sent via WhatsApp. |
+| **Paper vouchers** | Vouchers that are printed and handed over to the registrations. |
+| **Cash-out vouchers** | A voucher that the registration uses to collect the money in cash. |
 
 *In cases physical cash payment may be a better approach, these options can be discussed on a case-by-case basis with our 121 Team.*
 
@@ -71,6 +73,27 @@ You will be able to process payments with one or multiple delivery mechanisms de
     - Check that your FSP or the bank allow integrating with third party tool or external service provider platform;
     - the FSP or the bank support API protocols. An application programming interface (API) is a way for two or more computer programs or components to communicate with each other;
     - Make sure to have an agreement signed regarding the use of their services and data protection.
+
+---
+
+## Financial Service Providers in 121
+
+The table below lists the FSPs that the 121 platform supports, with their name in the portal. Which FSPs are available depends on your 121 instance. The Program Admin can see the FSPs set up for your program in **Settings** > **FSP integration**.
+
+| FSP (name in the portal) | Delivery mechanism | Type |
+| :---- | :---- | :---- |
+| **Airtel** | Mobile money | Integrated FSP |
+| **Al Fouad** | Money transfer, paid out to the registration by Al Fouad | Integrated FSP |
+| **Albert Heijn voucher paper** | Paper vouchers | Integrated FSP |
+| **Albert Heijn voucher WhatsApp** | E-vouchers sent via WhatsApp | Integrated FSP |
+| **Commercial Bank of Ethiopia** | Bank transfer | Integrated FSP |
+| **Cooperative Bank of Oromia** | Bank transfer | Integrated FSP |
+| **Excel Payment Instructions** | Any FSP that is not integrated: you export the payment instructions and import the reconciliation file | FSP portal (manual) |
+| **MTN** | Mobile money | Integrated FSP |
+| **Nedbank** | Cash-out vouchers | Integrated FSP |
+| **Onafriq** | Mobile money | Integrated FSP |
+| **Safaricom** | Mobile money (M-Pesa) | Integrated FSP |
+| **Visa debit card** | VISA debit card. See [Debit cards](./debit-cards.md). | Integrated FSP |
 
 ---
 

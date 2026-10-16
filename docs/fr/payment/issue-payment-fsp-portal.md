@@ -9,11 +9,11 @@ Dans la plateforme 121, les paiements peuvent être traités de deux façons dif
 *Pour les instructions de paiement avec un prestataire de services financiers intégré, veuillez vous référer aux instructions sur la [page Paiement avec un PSF intégré.](./payment-integrated-fsp.md)*
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
-    Les rôles de responsable financier et gestionnaire financier peuvent effectuer des actions sur la page Paiements. [En savoir plus sur Utilisateurs et rôles.](../users/description-roles.md)
+    Le responsable CVA et le responsable financier peuvent créer des paiements. Seuls les membres de l'équipe désignés comme approbateurs du programme peuvent les approuver. Seul le responsable financier peut lancer les paiements et importer les données de réconciliation. Le responsable financier, le gestionnaire financier et l'approbateur peuvent exporter la liste des instructions de paiements (PSF). [En savoir plus sur Utilisateurs et rôles.](../users/description-roles.md)
 
 ## Aperçu des paiements
 
-La page Paiements de votre programme affichera des informations sur tous les versements ou tours de paiement effectués. Si aucun paiement n'a été effectué, aucun détail n'apparaîtra. Cependant, si certains versements sont déjà en cours, vous verrez chaque versement individuel. **Tant que les paiements sont toujours en cours de traitement dans le programme actuel, vous pouvez ajouter des enregistrements aux nouveaux paiements.**
+La page Paiements de votre programme affichera des informations sur tous les versements ou tours de paiement effectués. Si aucun paiement n'a été effectué, aucun détail n'apparaîtra. Cependant, si certains versements sont déjà en cours, vous verrez chaque versement individuel. **Vous pouvez créer de nouveaux paiements même si des transactions de paiements précédents ont encore le statut En cours.** Tant que la plateforme 121 traite encore un paiement (par exemple juste après la création, le lancement ou la relance d'un paiement), la page Paiements affiche **Paiement en cours** et vous ne pouvez pas créer de nouveau paiement avant la fin du traitement.
 
 ### Créer un nouveau paiement
 
@@ -23,7 +23,7 @@ Pour lancer un nouveau paiement :
 
 ![Bouton Créer un nouveau paiement](../assets/img/PaymentsPage.png)
 
-- Saisissez un nom pour le paiement. Un nom est prérempli (*Payment jj/mm/aaaa, hh:mm*) ; vous pouvez le modifier si nécessaire. Cliquez sur **Poursuivre l'enregistrement**.
+- Saisissez un nom pour le paiement. Un nom est prérempli (*Payment jj/mm/aa, hh:mm*) ; vous pouvez le modifier si nécessaire. Cliquez sur **Poursuivre l'enregistrement**.
 - Une page s'affichera avec une liste d'enregistrements inclus dans le programme.
   *Seuls les enregistrements avec le statut **Inclus(e)** qui n'ont pas encore reçu tous leurs versements apparaîtront dans la liste. Les enregistrements qui ont reçu et complété tous leurs paiements ne seront pas affichés.*
 
@@ -40,7 +40,20 @@ Pour lancer un nouveau paiement :
 - Le portail affichera des directives en haut du récapitulatif pour exporter les instructions de paiement PSF (comme indiqué ci-dessus) ;
 - Cliquez sur **Créer un paiement**. **Cette action n'exécutera pas automatiquement ou n'enverra pas la demande de paiement au PSF. Cependant, cela préparera les instructions de paiement, y compris la liste des enregistrements destinés à recevoir des paiements.**
 
-Une fois le paiement traité, **restez sur la page de paiement sur laquelle vous veniez de travailler**. À partir de là, vous pouvez télécharger les instructions de paiement. Vous verrez toutes les transactions au statut **En cours** pour les enregistrements qui ont choisi de recevoir une aide en espèces via le PSF via export-import manuel (Excel).
+!!! Important "Les doublons bloquent les paiements"
+    Vous ne pouvez pas créer, approuver ni lancer un paiement qui contient des enregistrements marqués comme **Doublon**. Résolvez d'abord les doublons. Consultez [Créer, approuver et lancer les paiements](./create-approve-payment.md).
+
+### Approuver et lancer le paiement
+
+Après avoir cliqué sur **Créer un paiement**, vous arrivez sur la page du paiement. Les transactions ont le statut **En attente d'approbation**. Vous ne pouvez pas encore exporter les instructions de paiement : l'export ne contient que les transactions au statut **En cours**.
+
+- Les approbateurs approuvent le paiement avec **Approuver le paiement**.
+- Une fois que tous les approbateurs ont approuvé, un responsable financier clique sur **Instruire les paiements**.
+- Les transactions du PSF via export-import manuel (Excel) passent au statut **En cours**.
+
+Pour les étapes détaillées, consultez [Créer, approuver et lancer les paiements](./create-approve-payment.md).
+
+Une fois le paiement lancé, **restez sur la page de paiement sur laquelle vous veniez de travailler**. À partir de là, vous pouvez télécharger les instructions de paiement. Vous verrez toutes les transactions au statut **En cours** pour les enregistrements qui ont choisi de recevoir une aide en espèces via le PSF via export-import manuel (Excel).
 
 ### Exporter les instructions de paiement
 
@@ -55,7 +68,7 @@ Le fichier fournira les instructions nécessaires pour que le PSF émette les pa
 Le statut de paiement affiché sur la page des paiements sera mis à jour en fonction de la phase de paiement. Pour le paiement manuel, le message par défaut sera **En cours** jusqu'à ce que la réconciliation des paiements ait été traitée.
 ![Exporter la liste de paiement PSF](../assets/img/IndividualExportReport.png)
 !!! Info "Modèle d'instructions de paiement Excel"
-    Chaque programme peut nécessiter un modèle différent selon le PSF avec lequel vous travaillez dans la région de vos opérations. Notre équipe créera un modèle spécifiquement adapté au téléchargement dans chaque portail PSF.
+    Chaque programme peut nécessiter un modèle différent selon le PSF avec lequel vous travaillez dans la région de vos opérations. Les colonnes du fichier et le champ utilisé pour identifier les enregistrements sont définis pour chaque PSF Excel dans les paramètres du programme, sous **Paramètres** > **Intégration FSP**. Demandez à votre administrateur du programme ou à l'équipe de soutien 121 si vous devez les modifier.
 
     Le fichier d'instructions de paiement ne doit contenir que les critères nécessaires au PSF pour confirmer l'identité des enregistrements et émettre les paiements, tels que les noms, les numéros de téléphone et les numéros d'ID ou tout autre critère selon vos SOP du programme. Pour la confidentialité des données, nous recommandons de n'exporter que les critères minimaux pour vérifier l'identité d'enregistrement. Toutes les autres données non pertinentes pour le processus de paiement doivent être refusées du fichier d'instructions de paiement. Après utilisation, les données exportées doivent être supprimées pour assurer la sécurité des données personnelles.
 

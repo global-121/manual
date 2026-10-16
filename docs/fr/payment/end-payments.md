@@ -29,15 +29,18 @@ Dans la **page Enregistrement** :
 
 Vous pouvez également modifier le statut en cliquant avec le bouton droit sur l'enregistrement dans le tableau et en cliquant sur **:fontawesome-solid-ban: Décliner** ![Liste déroulante du statut](../assets/img/RegistationsStatusRighList.png)
 
+!!! Important "Enregistrements dans un paiement en attente d'approbation"
+    Si un enregistrement que vous déclinez fait partie d'un paiement en attente d'approbation, le portail vous avertit avant la confirmation : *Décliner un enregistrement inclus dans un paiement l'exclura de ce paiement. Pour continuer de recevoir ce paiement, annuler cette action et refuser son enregistrement qu'après le paiement effectué.*
+
 ---
 
 ## Annuler l'action et rétablir le statut
 
-Le statut **Décliné(e)** peut être appliqué temporairement. Vous pouvez rétablir le statut d'un enregistrement à **Inclus(e)** en suivant les mêmes étapes et en sélectionnant **Inclure** à la place.
+Le statut **Décliné(e)** peut être appliqué temporairement. Vous pouvez rétablir le statut d'un enregistrement à **Inclus(e)** en suivant les mêmes étapes et en sélectionnant **Inclure** à la place. Seul un responsable CVA peut inclure des enregistrements.
 
-!!! Important "Le statut Complété(e) ne peut pas être modifié."
+!!! Important "Enregistrements au statut Complété(e)"
 
-    Il n'est pas possible de modifier le statut des enregistrements dont les paiements ont été complétés. Leur statut affichera **Complété(e)**.
+    Les enregistrements qui ont reçu tous leurs paiements ont le statut **Complété(e)**. Vous pouvez toujours les décliner. Vous ne pouvez les inclure à nouveau que s'il leur reste des paiements, par exemple après l'augmentation de leur nombre maximum de paiements.
 
 ---
 

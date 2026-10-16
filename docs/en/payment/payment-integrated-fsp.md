@@ -13,7 +13,7 @@ In the 121 platform, payments can be processed in two different methods: with a 
 
 ## Payments Overview
 
-The Payments page in your program will display information about any completed installments or payment rounds. If no payments have been made yet, no details will appear. However, if some installments are already in progress, you will see each individual installment. **As long as payments are still being processed in the current program, you can add registrations to new payments.**
+The Payments page in your program will display information about any completed installments or payment rounds. If no payments have been made yet, no details will appear. However, if some installments are already in progress, you will see each individual installment. **You can create new payments while transactions of earlier payments still have the status Processing.** While the 121 platform is still processing a payment (for example just after a payment is created, started or retried), the Payments page shows **Payment in progress** and you cannot create a new payment until it has finished.
 
 ## Create new payment
 
@@ -21,7 +21,7 @@ The Payments page in your program will display information about any completed i
 
 ![Create new payment button](../assets/img/PaymentsPage.png)
 
-- Enter a name for the payment. A name is prefilled (*Payment dd/mm/yyyy, hh:mm*); you can change it if needed. Click **Continue to registration**.
+- Enter a name for the payment. A name is prefilled (*Payment dd/mm/yy, hh:mm*); you can change it if needed. Click **Continue to registration**.
 - A page will open displaying a list of registrations included in the program.
   *Only registrations with **Included** status who have not yet received all their installments will appear in the list. Registrations who have received and completed all their payments will not be shown.*
 
@@ -42,6 +42,9 @@ The Payments page in your program will display information about any completed i
 - Once the payment has been processed, a table will display the list of registrations included in the payment round with their respective payment statuses.
 
 ![Payment Board](../assets/img/PaymentReportBoard.png)
+
+!!! Important "Duplicates block payments"
+    You cannot create, approve or start a payment that contains registrations marked as **Duplicate**. Resolve duplicates first. See [Create, approve and start payments](./create-approve-payment.md).
 
 !!! Info "Payment process timeframe"
     Once the payment has been processed in the 121 platform, payment status with integrated FSP are updated instantly. In some cases, it can take a few minutes for the status to be updated (up to 1 hour) as the information needs to be processed from the FSP back to the 121 platform. Updated payment reports will be available only then.

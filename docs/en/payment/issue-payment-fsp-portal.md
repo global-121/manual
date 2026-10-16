@@ -9,11 +9,11 @@ In the 121 platform, payments can be processed in two different methods: with a 
 *For payments instructions with an integrated Financial Service Provider, please refer to the instructions on the [Payment with an integrated FSP page.](./payment-integrated-fsp.md)*
 
 !!! Important "Who can perform actions in this page?"
-    Finance Manager and Finance Officer roles can perform actions in the Payments page. [Learn more about Roles & Permissions.](../users/description-roles.md)
+    CVA Manager and Finance Manager can create payments. Only the team members set as approvers for the program can approve them. Only the Finance Manager can start payments and import reconciliation data. Finance Manager, Finance Officer and Approver can export the FSP payment list. [Learn more about Roles & Permissions.](../users/description-roles.md)
 
 ## Payments Overview
 
-The Payments page in your program will display information about any completed installments or payment rounds. If no payments have been made yet, no details will appear. However, if some installments are already in progress, you will see each individual installment. **As long as payments are still being processed in the current program, you can add registrations to new payments.**
+The Payments page in your program will display information about any completed installments or payment rounds. If no payments have been made yet, no details will appear. However, if some installments are already in progress, you will see each individual installment. **You can create new payments while transactions of earlier payments still have the status Processing.** While the 121 platform is still processing a payment (for example just after a payment is created, started or retried), the Payments page shows **Payment in progress** and you cannot create a new payment until it has finished.
 
 ### Create a new payment
 
@@ -23,7 +23,7 @@ To initiate a new payment:
 
 ![Create new payment button](../assets/img/PaymentsPage.png)
 
-- Enter a name for the payment. A name is prefilled (*Payment dd/mm/yyyy, hh:mm*); you can change it if needed. Click **Continue to registration**.
+- Enter a name for the payment. A name is prefilled (*Payment dd/mm/yy, hh:mm*); you can change it if needed. Click **Continue to registration**.
 - A page will open displaying a list of registrations included in the program.
   *Only registrations with **Included** status who have not yet received all their installments will appear in the list. Registrations who have received and completed all their payments will not be shown.*
 
@@ -40,7 +40,20 @@ To initiate a new payment:
 - The portal will display guidelines at the top of the summary for exporting the FSP payment instructions (as shown above);
 - Click on **Create payment**. **This action will NOT automatically process or send the payment request to the FSP. However, it will prepare the payment instructions, including the list of registrations set to receive payments.**
 
-Once the payment has been processed, **remain on the payment page you just worked on**. From there, you can download the payment instructions. You will see all transactions with status **Processing** for registrations that have opted to receive cash aid through the FSP via manual import-export (Excel).
+!!! Important "Duplicates block payments"
+    You cannot create, approve or start a payment that contains registrations marked as **Duplicate**. Resolve duplicates first. See [Create, approve and start payments](./create-approve-payment.md).
+
+### Approve and start the payment
+
+After you click **Create payment**, you land on the payment page. The transactions have the status **Pending approval**. You cannot export the payment instructions yet: the export only contains transactions with the status **Processing**.
+
+- The approvers approve the payment with **Approve payment**.
+- Once all approvers have approved, a Finance Manager clicks **Start payment**.
+- The transactions for the FSP via manual import-export (Excel) change to the status **Processing**.
+
+For the detailed steps, see [Create, approve and start payments](./create-approve-payment.md).
+
+Once the payment has been started, **remain on the payment page you just worked on**. From there, you can download the payment instructions. You will see all transactions with status **Processing** for registrations that have opted to receive cash aid through the FSP via manual import-export (Excel).
 
 ### Export the payment instructions
 
@@ -55,7 +68,7 @@ The file will provide the necessary instructions for the FSP to issue the paymen
 The payment status displayed in the payment page will be updated depending on the payment phase. For Manual Payment, the default message will be **Processing** until the payment reconciliation has been processed.
 ![Export FSP payment list](../assets/img/IndividualExportReport.png)
 !!! Info "Payment instructions Excel template"
-    Each program may require a different template depending on the FSP you work with in the region of your operations. Our Team will create a template specifically adapted to upload into each FSP portal.
+    Each program may require a different template depending on the FSP you work with in the region of your operations. The columns in the file and the field used to identify registrations are set for each Excel FSP in the program settings, under **Settings** > **FSP integration**. Ask your Program Admin or the 121 support team if you need to change them.
 
     The payment instructions Excel file should only contain the criteria needed for the FSP to confirm the registrations' identity and issue the payments, such as names, phone number and ID number or any other criteria based on your program SOPs. For data privacy, we recommend to only export the minimum criteria to verify the registration identity. All other irrelevant data for the payment process should be declined from the payment instructions file. After usage the exported data should be deleted to ensure personal data is kept secure.
 
