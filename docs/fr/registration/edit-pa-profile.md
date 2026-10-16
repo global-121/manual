@@ -48,7 +48,7 @@ Vous pouvez ouvrir plusieurs images en même temps, par exemple pour les compare
 L'onglet **Journal d'activité** d'un profil d'enregistrement liste tout ce qui est arrivé à l'enregistrement, avec l'utilisateur qui l'a fait (**Fait par**) et la **Date et heure**.
 
 - **Entrez le profil d'enregistrement** en cliquant sur le lien **Enreg. #** ;
-- Cliquez sur l'onglet **Journal d'activité** ;
+- Cliquez sur l'onglet **Journal d'activité** ; ![Onglet Journal d'activité d'un enregistrement](../assets/img/ActivityLog.png)
 - Pour n'afficher qu'un type d'activité, filtrez la colonne **Activité** ;
 - Dépliez une ligne pour voir ses détails.
 

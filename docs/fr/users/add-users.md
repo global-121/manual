@@ -44,7 +44,7 @@ Vous pouvez modifier le nom d'un utilisateur.
 
 - À la fin de la ligne utilisateur, cliquez sur le **:material-dots-horizontal: trois points**,
 - Sélectionnez **Modifier**,
-- Modifiez le champ **Nom et prénom**,
+- Modifiez le champ **Nom et prénom**, ![Fenêtre Modifier l'utilisateur](../assets/img/EditUser.png)
 - Cliquez sur **Enregistrer les modifications**.
 
 !!! Note

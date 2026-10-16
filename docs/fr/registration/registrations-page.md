@@ -57,7 +57,7 @@ La suppression d'un enregistrement efface ses données personnelles de la platef
     La suppression d'enregistrements nécessite une permission spécifique. Par défaut, aucun rôle standard ne l'a. Contactez notre équipe d'assistance si vous devez supprimer des enregistrements.
 
 - Sur la page **Enregistrements**, sélectionnez les enregistrements à supprimer et cliquez sur **Supprimer** en haut du tableau. Ou ouvrez un profil d'enregistrement, cliquez sur **Actions** puis, sous **Mise à jour du statut**, sur **Supprimer** ;
-- La fenêtre contextuelle **Supprimer Enregistrements** apparaît. Indiquez une raison dans **Indiquer la raison de la mise à jour**. La raison est obligatoire ;
+- La fenêtre contextuelle **Supprimer Enregistrements** apparaît. Indiquez une raison dans **Indiquer la raison de la mise à jour**. La raison est obligatoire ; ![Fenêtre Supprimer des enregistrements](../assets/img/DeleteRegistration.png)
 - Cochez **Je comprends que cette action est irréversible.** ;
 - Cliquez sur **Supprimer l'enregistrement** (ou **Supprimer les enregistrements**).
 

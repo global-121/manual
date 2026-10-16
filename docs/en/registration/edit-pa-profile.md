@@ -48,7 +48,7 @@ You can open several images at the same time, for example to compare them.
 The **Activity log** tab of a registration profile lists everything that happened to the registration, with the user who did it (**Done by**) and the **Date and time**.
 
 - **Enter the registration profile** by clicking on the **Reg. #** hyperlink;
-- Click on the **Activity log** tab;
+- Click on the **Activity log** tab; ![Activity log tab of a registration](../assets/img/ActivityLog.png)
 - To show only one type of activity, filter the **Activity** column;
 - Expand a line to see its details.
 

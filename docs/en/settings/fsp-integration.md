@@ -45,7 +45,7 @@ If you use the manual option with Excel, you can set up more than one Excel FSP 
 To add another Excel FSP:
 
 - On the card of an Excel FSP, click on the 3 dots :material-dots-vertical:;
-- Select **Create another Excel FSP**;
+- Select **Create another Excel FSP**; ![Excel FSP menu with Create another Excel FSP](../assets/img/settings-fspintegration-excelfsp.png)
 - Fill in the **Display name**;
 - Select the **Unique identifier field**. This field is used during reconciliation to update the transaction status of each registration, for example the phone number or ID number;
 - Optionally, select the **FSP export fields (optional)**. These are the fields included in the payment report you send to your FSP;

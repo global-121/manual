@@ -45,7 +45,7 @@ Si vous utilisez l'option manuelle via Excel, vous pouvez configurer plusieurs P
 Pour ajouter un autre PSF Excel :
 
 - Sur la carte d'un PSF Excel, cliquez sur les 3 points :material-dots-vertical: ;
-- Sélectionnez **Créez un autre PSF Excel** ;
+- Sélectionnez **Créez un autre PSF Excel** ; ![Menu du PSF Excel avec Créez un autre PSF Excel](../assets/img/settings-fspintegration-excelfsp.png)
 - Remplissez le champ **Nom d'affichage** ;
 - Sélectionnez le champ **Unique identifier field**. Ce champ est utilisé lors de la réconciliation pour mettre à jour le statut de la transaction de chaque enregistrement, par exemple le numéro de téléphone ou le numéro d'identification ;
 - Si vous le souhaitez, sélectionnez les **FSP export fields (optional)**. Ce sont les champs inclus dans le rapport de paiement que vous envoyez à votre PSF ;

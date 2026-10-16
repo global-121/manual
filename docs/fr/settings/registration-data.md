@@ -184,7 +184,7 @@ Si vous souhaitez simplifier les libellés affichés dans les profils 121 et dan
 Sur la carte **Dédoublonnage**, vous choisissez les champs que la plateforme 121 utilise pour trouver les enregistrements en doublon. Si l'un de ces champs est identique pour deux enregistrements ou plus, ces enregistrements sont marqués comme doublons. Choisissez des identifiants uniques, comme les numéros de téléphone, les numéros de compte bancaire ou les numéros d'identification. La carte est aussi disponible si vous n'utilisez pas Kobo et importez vos enregistrements via Excel.
 
 - Accédez à la page **Données d'enregistrement** sous **Paramètres** ;
-- Sur la carte **Dédoublonnage**, cliquez sur **:octicons-pencil-24: Modifier** ;
+- Sur la carte **Dédoublonnage**, cliquez sur **:octicons-pencil-24: Modifier** ; ![Carte Dédoublonnage avec le bouton Modifier](../assets/img/settings-deduplication.png)
 - Dans **Champs de dédoublonnage :**, sélectionnez un ou plusieurs champs ;
 - Cliquez sur **:material-check: Sauvegarder**.
 

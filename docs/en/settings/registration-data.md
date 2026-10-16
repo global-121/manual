@@ -172,7 +172,7 @@ If you wish to simplify the questions as displayed in the 121 profiles and regis
 On the **De-duplication** card, you choose the fields that the 121 platform uses to find duplicate registrations. If any of these fields match across two or more registrations, those registrations are marked as duplicates. Choose unique identifiers, like phone numbers, bank account numbers or ID numbers. The card is also available if you do not use Kobo and import your registrations with Excel.
 
 - Navigate to the page **Registration data** under **Settings**;
-- On the **De-duplication** card, click **:octicons-pencil-24: Edit**;
+- On the **De-duplication** card, click **:octicons-pencil-24: Edit**; ![De-duplication card with the Edit button](../assets/img/settings-deduplication.png)
 - In **Duplication fields:**, select one or more fields;
 - Click **:material-check: Save**.
 

@@ -72,7 +72,7 @@ Each payment page has two tabs: **Transaction list** and **Payment log**. The **
 1. Go to **Payments** page;
 2. Click on the payment you want to check;
 3. Click on the **Payment log** tab.
-   For each event, the table shows the **Activity**, an **Overview**, who did it (**Done by**) and the **Date and time**.
+   For each event, the table shows the **Activity**, an **Overview**, who did it (**Done by**) and the **Date and time**. ![Payment log tab of a payment](../assets/img/PaymentLog.png)
 
 ---
 

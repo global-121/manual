@@ -72,7 +72,7 @@ Chaque page de paiement a deux onglets : **Liste des transactions** et **Journal
 1. Allez à la **page Paiements** ;
 2. Cliquez sur le paiement que vous souhaitez consulter ;
 3. Cliquez sur l'onglet **Journal des paiements**.
-   Pour chaque événement, le tableau affiche l'**Activité**, une **Vue d'ensemble**, la personne qui l'a fait (**Fait par**) et la **Date et heure**.
+   Pour chaque événement, le tableau affiche l'**Activité**, une **Vue d'ensemble**, la personne qui l'a fait (**Fait par**) et la **Date et heure**. ![Onglet Journal des paiements d'un paiement](../assets/img/PaymentLog.png)
 
 ---
 

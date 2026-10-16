@@ -44,7 +44,7 @@ You can change the name of a user.
 
 - At the end of the user row, click on the **:material-dots-horizontal: three dots**,
 - Select **Edit**,
-- Change the **Full name**,
+- Change the **Full name**, ![Edit user dialog](../assets/img/EditUser.png)
 - Click **Save changes**.
 
 !!! Note

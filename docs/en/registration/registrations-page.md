@@ -57,7 +57,7 @@ Deleting a registration removes its personal data from the 121 platform. Only de
     Deleting registrations needs a separate permission. By default, no standard role has it. Contact our support team if you need to delete registrations.
 
 - On the **Registrations** page, select the registrations you want to delete and click **Delete** on the top of the table. Or open a registration profile, click **Actions** and, under **Status update**, click **Delete**;
-- The **Delete registration(s)** pop-up appears. Enter a reason in **Write a reason for the update**. The reason is required;
+- The **Delete registration(s)** pop-up appears. Enter a reason in **Write a reason for the update**. The reason is required; ![Delete registration(s) pop-up](../assets/img/DeleteRegistration.png)
 - Tick **I understand this action can not be undone.**;
 - Click **Delete registration** (or **Delete registrations**).
 
