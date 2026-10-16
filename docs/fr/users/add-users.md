@@ -5,12 +5,13 @@ hide:
 ---
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
-    L'administrateur du programme et le responsable des utilisateurs peuvent afficher cette page et y effectuer des actions.
+    Les utilisateurs ayant les **droits d'administrateur de l'organisation** peuvent afficher cette page et y effectuer des actions. Ces droits ne sont pas liés à un rôle : l'équipe d'assistance 121 les active pour vous. [En savoir plus sur les rôles et permissions](../users/description-roles.md)
 
 Sur la page **Utilisateurs**, vous pouvez :
 
 - Voir la liste de tous les utilisateurs enregistrés dans votre instance 121,
 - Ajouter de nouveaux utilisateurs à la plateforme 121 en leur envoyant une invitation,
+- Modifier le nom d'un utilisateur,
 - Réinitialiser le mot de passe d'un utilisateur.
 
 Sur le côté gauche de votre écran, ouvrez le **menu :material-menu:** et sélectionnez **Utilisateurs**. Un aperçu de tous les utilisateurs de l'instance s'affiche, avec la date de leur dernière connexion.
@@ -37,6 +38,20 @@ Un e-mail sera automatiquement envoyé à l'adresse indiquée. Assurez-vous que 
 
 ---
 
+## Modifier un utilisateur
+
+Vous pouvez modifier le nom d'un utilisateur.
+
+- À la fin de la ligne utilisateur, cliquez sur le **:material-dots-horizontal: trois points**,
+- Sélectionnez **Modifier**,
+- Modifiez le champ **Nom et prénom**,
+- Cliquez sur **Enregistrer les modifications**.
+
+!!! Note
+    Vous ne pouvez pas modifier l'**E-mail** d'un utilisateur. Pour copier l'adresse e-mail d'un utilisateur, cliquez sur le **:material-dots-horizontal: trois points** et sélectionnez **Copier l’e-mail**.
+
+---
+
 ## Réinitialiser le mot de passe d'un utilisateur
 
 Vous pouvez réinitialiser le mot de passe d'un utilisateur directement à partir de la page utilisateur.
@@ -47,7 +62,7 @@ Vous pouvez réinitialiser le mot de passe d'un utilisateur directement à parti
 
 ![Réinitialiser le mot de passe de l'utilisateur](../assets/img/ResetPasswordUser.png)
 
-Un e-mail sera automatiquement envoyé à l'utilisateur afin qu'il puisse réinitialiser son mot de passe.
+Un e-mail contenant un nouveau mot de passe sera automatiquement envoyé à l'utilisateur.
 
 ---
 
