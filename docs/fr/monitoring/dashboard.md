@@ -23,7 +23,7 @@ Un **tableau de bord standard** affichant les indicateurs de base liés aux prin
 
 ![Tableau de bord](../assets/img/Dashboard.png)
 
-*Le tableau de bord est actualisé toutes les heures.*
+*Le tableau de bord affiche les dernières données de la plateforme lorsque vous l'ouvrez. Les modifications très récentes peuvent mettre quelques minutes à apparaître.*
 
 ---
 

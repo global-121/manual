@@ -24,13 +24,14 @@ The **Monitoring page** allows users to upload files that provide additional inf
 ## Uploading a File
 
 - On the top right, click **Upload file**.
-- Either **Select a file** from your computer, or **Drag and drop** the file into the upload window.
-- You can upload the following file types: PDF, PNG, JPG, DOC.
+- Either click **Choose file** to select a file from your computer, or drag and drop the file where it says **Drag and drop file here**.
+- You can upload the following file types: PDF, PNG, JPG, GIF, WEBP, DOC and DOCX.
 - **Enter a file name** that is clear and easy for all users to understand.
+- Click **Import file**.
 
 ![Upload Files Information](../assets/img/UploadFilesInfo.png)
 
-*Only Program Admin, CVA Manager, and Finance Manager can upload files. The files will be visible to all users, except View users. Users with an assigned scope can only access files that fall under their scope. E.g., documents relevant for 1 branch are not accessible for users that have a scope for another branch.*
+*Only Program Admin, CVA Manager, and Finance Manager can upload files. The files are not visible to users with the View without PII, Approver or Program Team Manager role. Users with an assigned scope can only access files that fall under their scope. E.g., documents relevant for 1 branch are not accessible for users that have a scope for another branch.*
 
 To view a file:
 

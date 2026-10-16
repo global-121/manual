@@ -4,10 +4,10 @@ hide:
   - toc
 ---
 
-The **Monitoring page** allows users to keep an overview for all data changes done in the whole program (e.g. personal information edited, status changes, payments done, data import, etc.).
+The **Monitoring page** allows users to keep an overview of the changes made to registrations in the whole program (e.g. personal information edited, also through a data import, FSP changes and ignored duplicates). Status changes are not shown in this tab.
 
 !!! Important "Who can perform actions in this page?"
-    All users can view and export data changes on this page. [Learn more about Roles & Permissions](../users/description-roles.md)
+    Users with the View, CVA Manager, CVA Officer, Finance Manager, Finance Officer or Approver role can view data changes on this page. Program Admin, View without PII and Program Team Manager cannot. To export the status and data changes, the CVA Manager can use **Export** > **Status & data changes** on the **Registrations** page. [Learn more about Roles & Permissions](../users/description-roles.md)
 
 ---
 
@@ -35,7 +35,7 @@ In the **Data changes** tab, you can view all modifications made across the enti
 **To view further details**:
 
 - Click on the **3 dots menu** at the end of the row,
-- Open a new tab.
+- Select **Open in new tab** to open the registration page.
 
 
 ---

@@ -24,13 +24,14 @@ La **page Suivi** permet aux utilisateurs de télécharger des pièces jointes o
 ## Télécharger un fichier
 
 - En haut à droite, cliquez sur **Télécharger le fichier**.
-- **Sélectionnez un fichier** sur votre ordinateur, ou **faites glisser et déposez** le fichier dans la fenêtre de téléchargement.
-- Vous pouvez télécharger les types de fichiers suivants : PDF, PNG, JPG, DOC.
+- Cliquez sur **Choisir le fichier** pour sélectionner un fichier sur votre ordinateur, ou faites glisser et déposez le fichier à l'endroit indiqué par **Glisser puis déposer le fichier ici**.
+- Vous pouvez télécharger les types de fichiers suivants : PDF, PNG, JPG, GIF, WEBP, DOC et DOCX.
 - **Entrez un nom de fichier** qui est clair et facile à comprendre pour tous les utilisateurs.
+- Cliquez sur **Importer le fichier**.
 
 ![Informations de téléchargement de fichiers](../assets/img/UploadFilesInfo.png)
 
-*Seuls l'administrateur du programme, le responsable CVA et le responsable financier peuvent télécharger des fichiers. Les fichiers seront visibles par tous les utilisateurs, sauf les utilisateurs Lecteur. Les utilisateurs disposant d'une portée définie ne peuvent accéder qu'aux fichiers relevant de leur portée. Par exemple, les documents pertinents pour une antenne ne sont pas accessibles aux utilisateurs ayant une portée pour une autre antenne.*
+*Seuls l'administrateur du programme, le responsable CVA et le responsable financier peuvent télécharger des fichiers. Les fichiers ne sont pas visibles par les utilisateurs ayant le rôle Lecteur sans données personnelles, Approbateur ou Responsable de l'équipe du programme. Les utilisateurs disposant d'une portée définie ne peuvent accéder qu'aux fichiers relevant de leur portée. Par exemple, les documents pertinents pour une antenne ne sont pas accessibles aux utilisateurs ayant une portée pour une autre antenne.*
 
 Pour afficher un fichier :
 

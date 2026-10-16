@@ -15,7 +15,7 @@ The monitoring page can feature a Power BI dashboard, either the 121 template ve
 
 ![Monitoring Page](../assets/img/MonitoringPage.png)
 
-The Program metrics translates your program requirements and settings. The details provide the main information about the duration and location of your program, budget, targeted registrations, cash aid delivery and distribution frequencies. Each of your active programs may have different metrics shown in the table below. These can be edited in the **Settings** page.
+The Program metrics translates your program requirements and settings. The details provide the main information about the duration and location of your program, budget, targeted registrations and cash aid delivery. Each of your active programs may have different metrics shown in the table below. These can be edited in the **Settings** page.
 
 | Type | Description |
 | :----------------------------------- | :-------------------------------------------------------------------------- |
@@ -24,11 +24,11 @@ The Program metrics translates your program requirements and settings. The detai
 | **Location** | Country or region in which the program takes place.​ |
 | **Financial Service Provider (FSP)** | Number of FSP integrated or registered in your instance and their names |
 | **Budget** | Initial budget set to be sent to registrations for this program distribution. |
-| **Payment Frequency** | Frequency of payment emission (daily, weekly, monthly, quarterly, yearly) |
 | **Duration** | Number of payment rounds that will be issued over the program duration |
 | **Base Transfer Value** | The base value set to be transferred per registration. |
 | **Cash disbursed** | Amount that has been disbursed up to this date. This is calculated based on the total number of registrations included in the payment rounds, the base transfer value and the multiplier (if any). |
-| **People targeted** | Total number of registrations that are targeted by this program |
+| **Targeted people** | Total number of registrations that are targeted by this program |
+| **People registered** | Total number of registrations in this program, excluding declined and deleted registrations. |
 | **People included** | Registrations with the status included within this program. |
 | **Remaining budget** | Remaining budget is the Initial Budget - Cash disbursed. |
 
@@ -36,12 +36,13 @@ The table is updated automatically.
 
 ---
 
-## At the bottom, you can see 4 tabs: Dashboard, Power BI, Data changes and Files
+## At the bottom, you can see the tabs: Dashboard, PowerBI, Data changes and Files
 
 - **Dashboard** provides real-time program updates with corresponding baseline indicators. [Read more](./dashboard.md)
-- **Power BI** shows a real-time template dashboard, but a custom-made dashboard can be embedded. [Read more](powerbi.md)
-- **Data Changes** lists the history of all changes made into the programs. [Read more](./data-changes.md)
-- **Files** is used to upload attachments useful to your program. [Read more](./upload-files.md)
+- **PowerBI** shows a Power BI dashboard, once it has been set up for your program. This can be a template dashboard or a custom-made dashboard. [Read more](powerbi.md)
+- **Debit Cards** is only shown for programs that use Intersolve Visa debit cards, and only to users who have been given access to card ordering by the 121 support team. Use it to order debit cards and see the cards ordered. [Read more](../payment/debit-cards.md)
+- **Data changes** lists the history of changes made to registrations in the program. [Read more](./data-changes.md)
+- **Files** is used to upload attachments useful to your program. This tab is only shown to users who are allowed to view files. [Read more](./upload-files.md)
 
 ---
 

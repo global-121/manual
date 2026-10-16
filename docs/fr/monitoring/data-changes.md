@@ -4,10 +4,10 @@ hide:
   - toc
 ---
 
-La **page Suivi** permet aux utilisateurs de garder un aperçu de toutes les modifications de données apportées dans l'ensemble du programme (par exemple, informations personnelles modifiées, changements d'état, paiements effectués, importation de données, etc.).
+La **page Suivi** permet aux utilisateurs de garder un aperçu des modifications apportées aux enregistrements dans l'ensemble du programme (par exemple, informations personnelles modifiées, y compris par une importation de données, changements de PSF et doublons ignorés). Les changements de statut ne sont pas affichés dans cet onglet.
 
 !!! Important "Qui peut effectuer des actions sur cette page?"
-    Tous les utilisateurs peuvent consulter et exporter les modifications de données sur cette page. [En savoir plus sur les rôles utilisateur](../users/description-roles.md)
+    Les utilisateurs ayant le rôle Lecteur, Responsable CVA, Gestionnaire CVA, Responsable financier, Gestionnaire financier ou Approbateur peuvent consulter les modifications de données sur cette page. L'administrateur du programme, le Lecteur sans données personnelles et le Responsable de l'équipe du programme ne le peuvent pas. Pour exporter les modifications des statuts et des données, le Responsable CVA peut utiliser **Exporter** > **Modifications des statuts et des données** sur la page **Enregistrements**. [En savoir plus sur les rôles utilisateur](../users/description-roles.md)
 
 ---
 
@@ -35,7 +35,7 @@ Dans l'onglet **Modifications des données**, vous pouvez afficher toutes les mo
 **Pour afficher d'autres détails**:
 
 - Cliquez sur le **menu 3 points** à la fin de la ligne,
-- Ouvrez un nouvel onglet.
+- Sélectionnez **Ouvrir dans un nouvel onglet** pour ouvrir la page de l'enregistrement.
 
 ---
 

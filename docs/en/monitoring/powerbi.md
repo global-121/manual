@@ -13,14 +13,16 @@ The **Monitoring page** can feature a Power BI dashboard, either the 121 templat
 
 - Go to the **Program**.
 - Navigate to the **Monitoring page**.
-- Select the **Power BI tab**.
+- Select the **PowerBI** tab.
 
 ![Monitoring Page](../assets/img/MonitoringPage.png)
 
 
 ## How to view Power BI Dashboard
 
-A **standard Power BI dashboard template** has been added to all 121 instances per default. This template includes indicators derived from the programs managed within the platform and is based solely on data available in the platform, such as payment frequencies, disbursements, payment status, number of registrations, number of inclusions, duplicates, and similar metrics.
+The Power BI dashboard is set up per program by the 121 support team. If no dashboard has been set up for your program yet, the **PowerBI** tab shows a message asking you to contact <support@121.global>.
+
+A **standard Power BI dashboard template** is available. This template includes indicators derived from the programs managed within the platform and is based solely on data available in the platform, such as payment frequencies, disbursements, payment status, number of registrations, number of inclusions, duplicates, and similar metrics.
 
 **Custom Power BI dashboards** can also be embedded. To enable this, **please share the Power BI report link** with our team so it can be displayed in your instance. This allows you to access an overview with more detailed insights tailored to your needs—for example, by location, age group, or other criteria.
 
