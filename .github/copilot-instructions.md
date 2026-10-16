@@ -3,7 +3,7 @@
 ## Scope and goals
 
 - This repository contains a multilingual MkDocs manual (`docs/en`, `docs/fr`, `docs/nl`).
-- Primary goal: help contributors translate and maintain parity across languages without breaking links, headings, or structure.
+- Primary goal: help contributors update the manual, translate and maintain parity across languages without breaking links, headings, or structure.
 
 ## Overall way of work
 
@@ -15,8 +15,9 @@ The agent helps with:
 
 - Creating a change plan splitting the work into discrete commits. Take time to mirror each sub-task in the French and Dutch versions, and ensure that the contributor is aware of the scope of work.
 - Basic git tasks such as git fetch, branch, pull, push, and PR creation. Ensure that the contributor is working on the correct branch and that the PR is created against the correct target branch.
-- Ensuring that the contributor's changes do not break the structure of the manual, including links, headings, and anchors. The agent can run the validation commands below to check for errors.
-- Translate English content to French. Only check for changes in Dutch when the files in the docs/en/nlrc folder are updated. The agent should ensure that the translation is accurate and consistent with the source page intent, and that it follows the glossary and terminology rules below.
+- Ensuring that the contributor's changes do not break the structure of the manual, including links, headings, and anchors. Run the validation commands below to check for errors.
+- Translating English content to French. Only check for changes in Dutch when the files in the docs/en/nlrc folder are updated. Ensure that the translation is accurate and consistent with the source page intent, and that it follows the glossary and terminology rules below.
+- Keeping role information consistent. When a change adds or removes a feature or action, or changes who can do it, update the **Permissions per role** table (and the **Standard 121 user Roles** table if needed) in `docs/en/users/description-roles.md` and its French version. Check that the page's "Who can perform actions on this page?" block matches the table.
 
 ## Translation workflow
 

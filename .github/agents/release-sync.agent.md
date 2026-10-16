@@ -25,6 +25,7 @@ The 121 Platform source is cloned at `/tmp/121-platform` (all tags). The range i
 - `git -C /tmp/121-platform log --oneline <since>..<tag>` lists the commits; PR numbers are in the titles.
 - `git -C /tmp/121-platform diff <since> <tag> -- interfaces/portal/src/locale/` shows changed UI text. Old and new `<source>` strings are the exact English labels; search the manual for the old ones.
 - `git -C /tmp/121-platform diff <since> <tag> -- interfaces/portal/src/app/` shows changed pages, dialogs, columns, buttons and permissions.
+- `git -C /tmp/121-platform diff <since> <tag> -- services/121-service/src/user/` shows changed roles and permissions. `src/user/const/default-user-roles.const.ts` maps each default role to its permissions.
 - French portal translations are not in the repository (they are managed in Lokalise); see step 4 for FR labels.
 - Backend changes (`services/121-service/`) matter only when users see the effect: statuses, permissions and roles, exports and imports, validation rules, FSP behaviour, messages.
 
@@ -39,7 +40,7 @@ When in doubt, read the diff before deciding.
 
 - Search `docs/en` for old labels, feature names and related terms. The navigation is in `config/en/mkdocs.yml`.
 - Check `docs/en/glossary-121.md` for terms, statuses and roles.
-- Check `docs/en/users/description-roles.md` when permissions change.
+- When roles or permissions change, compare the **Permissions per role** table in `docs/en/users/description-roles.md` with `default-user-roles.const.ts` at `<tag>`. Update the table and the "Who can perform actions on this page?" block on each affected page (EN and FR). If it is unclear which table row a permission belongs to, add a `<!-- VERIFY -->`.
 
 ## 3. Update the English pages
 
