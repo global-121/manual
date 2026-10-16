@@ -16,6 +16,6 @@ hide:
 6. Entrez le code de l'écran sur votre téléphone pour vous connecter. </br>
    ![connexion4](../assets/img/nlrc/nl/2falogin4.png){: width="30%" }
 7. Vous êtes connecté!
-8. Cliquez sur un projet pour continuer.
+8. Cliquez sur un programme pour continuer.
 
-Vous verrez un aperçu avec le nombre total d'enregistrements, les demandeurs d'aide actifs et le montant total qui a été versé. Cliquez sur le nom d'un projet pour continuer.
+Pour chaque programme, vous verrez un aperçu avec **Enregistrements ciblés**, **Enregistrements Inclus**, **Budget** et **Montant déboursé**. Cliquez sur le nom d'un programme pour continuer.

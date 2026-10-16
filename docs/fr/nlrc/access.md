@@ -9,8 +9,10 @@ Pour assurer la sécurité des données, il est important de vérifier qui a acc
 ## Vérifier l'accès actuel
 
 1. Connectez-vous et ouvrez le programme
-2. Cliquez sur l'onglet Équipe en haut à droite
+2. Cliquez sur l'onglet **Paramètres** en haut de la page et ouvrez **Équipe du programme**
 3. Afficher la liste des noms et des adresses e-mail
+
+Vous ne pouvez voir cette page que si votre rôle donne accès à l'équipe du programme (par exemple Administrateur du programme, Responsable CVA ou Responsable de l'équipe du programme).
 
 Actions:
 
