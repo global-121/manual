@@ -9,6 +9,8 @@
 
 Contributors to this repo are content experts, but not necessarily skilled with git and other tools used in this project. When making changes, the suggested division of tasks would be:
 
+When opening a pull request, request review from `Gabriele510` and `global-121/121-support`. Do not request review from `jmargutt`.
+
 The contributor updates the docs and assets, usually in English.
 
 The agent helps with:
