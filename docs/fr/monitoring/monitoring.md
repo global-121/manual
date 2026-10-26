@@ -15,7 +15,7 @@ La page Suivi peut comporter un tableau de bord Power BI, soit la version de mod
 
 ![Page Suivi](../assets/img/MonitoringPage.png)
 
-Les métriques du programme traduisent vos exigences et paramètres de programme. Les détails fournissent l'information principale sur la durée et l'emplacement de votre programme, le budget, les enregistrements ciblés et la prestation de l'aide monétaire. Chacun de vos programmes actifs peut afficher différentes métriques présentées dans le tableau ci-dessous. Ceux-ci peuvent être modifiés dans la page **Paramètres**.
+Les métriques du programme traduisent vos exigences et paramètres de programme. Les détails fournissent l'information principale sur la durée et l'emplacement de votre programme, les fonds, les enregistrements ciblés et la prestation de l'aide monétaire. Chacun de vos programmes actifs peut afficher différentes métriques présentées dans le tableau ci-dessous. Ceux-ci peuvent être modifiés dans la page **Paramètres**.
 
 | Type | Description |
 | :----------------------------------- | :-------------------------------------------------------------------------- |
@@ -23,14 +23,14 @@ Les métriques du programme traduisent vos exigences et paramètres de programme
 | **Date de début et de fin** | Information sur le début et la fin de votre programme d'aide en espèces |
 | **Emplacement** | Pays ou région dans lequel le programme se déroule.​ |
 | **Prestataires de services financiers (PSF)** | Nombre de PSF intégrés ou enregistrés dans votre instance et leurs noms |
-| **Budget** | Budget initial défini pour être envoyé aux enregistrements pour cette distribution de programme. |
+| **Fonds disponibles** | Fonds initiaux définis pour être envoyés aux enregistrements pour cette distribution de programme. |
 | **Durée** | Nombre de cycles de paiement qui seront émis pendant la durée du programme |
-| **Valeur de transfert de base** | La valeur de base définie pour être transférée par enregistrement. |
-| **Aide en espèces versée** | Montant qui a été versé jusqu'à cette date. Ceci est calculé en fonction du nombre total d'enregistrements inclus dans les cycles de paiement, de la valeur de transfert de base et du multiplicateur (le cas échéant). |
+| **Valeur de transfert fixe** | La valeur fixe définie pour être transférée par enregistrement. Elle est multipliée par le multiplicateur de chaque enregistrement (le cas échéant). |
+| **Aide en espèces versée** | Montant qui a été versé jusqu'à cette date. Ceci est calculé en fonction du nombre total d'enregistrements inclus dans les cycles de paiement, de la valeur de transfert fixe et du multiplicateur (le cas échéant). |
 | **Personnes ciblées** | Nombre total d'enregistrements ciblés par ce programme |
 | **Personnes enregistrées** | Nombre total d'enregistrements dans ce programme, sans les enregistrements déclinés et supprimés. |
 | **Personnes incluses** | Enregistrements avec le statut inclus dans ce programme. |
-| **Budget restant** | Le budget restant est le budget initial - Aide en espèces versée. |
+| **Fonds restants** | Les fonds restants sont les Fonds disponibles - Aide en espèces versée. <!-- VERIFY: French portal label of "Remaining funds" --> |
 
 Le tableau est mis à jour automatiquement.
 
