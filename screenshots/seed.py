@@ -17,10 +17,11 @@ FSP_CONFIG = {
     "name": FSP,
     "label": {"en": "Excel"},
     "fspName": FSP,
-    "properties": [
-        {"name": "columnToMatch", "value": "phoneNumber"},
-        {"name": "columnsToExport", "value": ["fullName", "phoneNumber", "village", "idNumber"]},
-    ],
+    "properties": [],
+}
+EXCEL_CONFIG = {
+    "uniqueIdentifierField": "phoneNumber",
+    "exportFields": ["fullName", "phoneNumber", "village", "idNumber"],
 }
 
 
@@ -216,10 +217,14 @@ def _program(portal: Portal) -> None:
 
 
 def _fsp(portal: Portal) -> None:
-    """Configure the Excel FSP."""
-    if any(c["name"] == FSP for c in portal.api("GET", "program:/fsp-configurations")):
+    """Configure the Excel FSP: unique identifier field and export fields."""
+    if not any(c["name"] == FSP for c in portal.api("GET", "program:/fsp-configurations")):
+        portal.api("POST", "program:/fsp-configurations", data=FSP_CONFIG)
+        logger.info("seed: added FSP %s", FSP)
+    current = portal.api("GET", f"program:/fsp-configurations/{FSP}/excel")
+    if all(current.get(k) == v for k, v in EXCEL_CONFIG.items()):
         return
-    portal.api("POST", "program:/fsp-configurations", data=FSP_CONFIG)
+    portal.api("PUT", f"program:/fsp-configurations/{FSP}/excel", data=EXCEL_CONFIG)
     logger.info("seed: configured FSP %s", FSP)
 
 
