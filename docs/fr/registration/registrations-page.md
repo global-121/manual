@@ -16,6 +16,12 @@ Superviser tous les nouveaux **enregistrements**. Le statut initial d'un enregis
 
 ![Page d'enregistrements](../assets/img/RegistrationsPage.png)
 
+La colonne **Nom** affiche le nom complet de chaque enregistrement, tel que configuré sur la carte **Configuration du nom complet** de la page [Données d'enregistrement](../settings/registration-data.md#configurer-le-nom-complet). Si le nom complet n'est pas encore configuré, la colonne affiche **Configuration requise**. <!-- VERIFY: French portal labels of the "Name" column, "Full name setup" and "Set up needed" -->
+
+La colonne **Valeur de transfert** affiche le montant qu'un enregistrement reçoit en un seul paiement. Il s'agit de la valeur de transfert fixe du programme multipliée par le multiplicateur de l'enregistrement, le cas échéant. Par exemple, si la valeur de transfert fixe est de 50 $ et que le multiplicateur dépend de la taille du ménage, un ménage de 3 personnes a une valeur de transfert de 150 $. La valeur de transfert s'affiche aussi sur la page de profil de chaque enregistrement. <!-- VERIFY: French portal label of the "Transfer value" column -->
+
+- Si la colonne **Valeur de transfert** n'est pas visible, cliquez sur **Gérer le tableau** (:material-cog:), sélectionnez **Valeur de transfert** et cliquez sur **Appliquer**.
+
 ---
 
 ### Importer une liste d'enregistrement
