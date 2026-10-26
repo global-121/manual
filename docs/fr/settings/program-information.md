@@ -7,7 +7,7 @@ hide:
 La **page Informations sur le programme** se trouve dans les **Paramètres**. La page se compose de deux sections :
 
 - [Informations de base sur le programme](#informations-de-base-sur-le-programme)
-- [Budget du programme](#budget-du-programme)
+- [Finances du programme](#finances-du-programme)
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
     L'administrateur du programme et le responsable CVA peuvent effectuer des actions sur cette page. [En savoir plus sur les rôles et permissions.](../users/description-roles.md)
@@ -47,14 +47,16 @@ Si vous souhaitez configurer des portées, notre équipe de support peut vous ai
 
 ---
 
-### Budget du programme
+### Finances du programme
 
-Dans le second tableau **:octicons-info-24: Budget**, vous trouverez les détails concernant le budget et les paiements pour votre programme. Pendant le programme, vous pouvez ajuster le budget (**Fonds disponibles**), la **Valeur de transfert fixe**, le **Nombre de transactions par enregistrement** ou la **Devise** du programme. Ces paramètres peuvent être modifiés à tout moment. **Toutes les modifications effectuées sur la page Budget prennent effet immédiatement et s'appliquent à l'ensemble de la liste d'enregistrements**.
+Dans le second tableau **:octicons-info-24: Finances**, vous définissez les fonds, la devise, les détails de transfert et les prestataires de services financiers de votre programme. <!-- VERIFY: French portal label of the "Finance" card --> Pendant le programme, vous pouvez ajuster les **Fonds disponibles**, la **Valeur de transfert fixe**, le **Nombre de transactions par enregistrement** ou la **Devise** du programme. Ces paramètres peuvent être modifiés à tout moment. **Toutes les modifications effectuées dans le tableau Finances prennent effet immédiatement et s'appliquent à l'ensemble de la liste d'enregistrements**.
 
-- Cliquez sur **:octicons-pencil-24: Modifier** en haut à droite du tableau Budget ;
+- Cliquez sur **:octicons-pencil-24: Modifier** en haut à droite du tableau Finances ;
 - Modifiez les informations nécessaires, telles que la devise, la valeur de transfert fixe et le PSF ;
 - **:material-check: Sauvegardez** vos modifications ;
 - Tous les champs marqués d'une étoile (*) sont obligatoires.
+
+Les **Fonds disponibles** et le **Nombre d'enregistrements ciblés** (dans le tableau Informations de base) doivent être des nombres entiers. <!-- VERIFY: French portal label of "Target registrations" --> La **Valeur de transfert fixe** peut comporter jusqu'à deux décimales. Les montants s'affichent avec le symbole de la devise du programme.
 
 !!! Note
     Seul l'administrateur du programme peut ajouter ou retirer des PSF dans le champ **Prestataires de services financiers**. Vous ne pouvez pas retirer un PSF encore utilisé par des enregistrements.

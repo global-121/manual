@@ -51,7 +51,7 @@ Your 121 platform also has two technical roles for the Kobo integration: **Only 
 
 | Permissions | **Program Admin** | **CVA Manager** | **CVA Officer** | **Finance Manager** | **Finance Officer** | **View** |
 | :-------------------------------------------------------------- | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: |
-| Edit program information (basic details and budget) | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | | | | |
+| Edit program information (basic details and finance) | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | | | | |
 | Add or remove FSPs in the program | :octicons-check-circle-fill-24:{.yes} | | | | | |
 | Set up the FSP integration | :octicons-check-circle-fill-24:{.yes} | | | | | |
 | Link the Kobo form, edit registration questions and de-duplication fields | :octicons-check-circle-fill-24:{.yes} | | | | | |

@@ -51,7 +51,7 @@ Votre plateforme 121 dispose aussi de deux rôles techniques pour l'intégration
 
 | Permissions | **Administrateur du programme** | **Responsable CVA** | **Gestionnaire CVA** | **Responsable financier** | **Gestionnaire financier** | **Lecteur** |
 | :-------------------------------------------------------------- | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: |
-| Modifier les informations du programme (détails de base et budget) | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | | | | |
+| Modifier les informations du programme (détails de base et finances) | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | | | | |
 | Ajouter ou retirer des PSF dans le programme | :octicons-check-circle-fill-24:{.yes} | | | | | |
 | Configurer l'intégration PSF | :octicons-check-circle-fill-24:{.yes} | | | | | |
 | Lier le formulaire Kobo, modifier les questions d'enregistrement et les champs de dédoublonnage | :octicons-check-circle-fill-24:{.yes} | | | | | |

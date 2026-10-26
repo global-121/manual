@@ -9,7 +9,7 @@ hide:
 
 Chaque fois qu'un nouveau programme commence, l'administrateur du programme configure le Prestataire de Services Financiers (PSF). Vous pouvez ajouter plusieurs PSF au même programme. Vous pouvez également sélectionner l'option manuelle via Excel, ce qui permet d'exporter les instructions du PSF puis d'importer le fichier de réconciliation.
 
-La **Étape 3 de la création du programme** demande de sélectionner le(s) PSF. Cela peut également être fait dans le tableau Budget de la page **Informations sur le programme**. Si cela est fait, le(s) PSF apparaîtront automatiquement sur la page **Intégration FSP** sous **Paramètres**.
+La **Étape 3 de la création du programme** demande de sélectionner le(s) PSF. Cela peut également être fait dans le tableau Finances de la page **Informations sur le programme**. Si cela est fait, le(s) PSF apparaîtront automatiquement sur la page **Intégration FSP** sous **Paramètres**.
 
 ### Vérifier les champs requis du formulaire d'enregistrement
 

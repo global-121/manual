@@ -101,7 +101,7 @@ Si vous souhaitez utiliser le **Multiplicateur** pour autoriser différentes val
 ## Lier votre formulaire à 121
 
 !!! Important "Ajoutez d'abord un PSF"
-    Vous ne pouvez lier un formulaire que si au moins un PSF a été ajouté à votre programme (dans le tableau Budget de la page [Informations sur le programme](../settings/program-information.md#budget-du-programme)). Sinon, la fenêtre **Pending FSP selection** s'ouvre lorsque vous essayez de lier votre formulaire.
+    Vous ne pouvez lier un formulaire que si au moins un PSF a été ajouté à votre programme (dans le tableau Finances de la page [Informations sur le programme](../settings/program-information.md#finances-du-programme)). Sinon, la fenêtre **Pending FSP selection** s'ouvre lorsque vous essayez de lier votre formulaire.
 
 1. Assurez-vous que la version finale de votre formulaire est déployée dans Kobo (dans Formulaire, cliquez sur (Re)deploy) ;
 2. Accédez à la page **Données d'enregistrement** sous **Paramètres** ;

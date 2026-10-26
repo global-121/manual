@@ -95,7 +95,7 @@ If you wish to use the **Multiplier** to allow different transfer values in one 
 ## Link your form to 121
 
 !!! Important "Add an FSP first"
-    You can only link a form when at least one FSP is added to your program (in the Budget table of [Program information](../settings/program-information.md#program-budget)). Otherwise, the **Pending FSP selection** window opens when you try to link your form.
+    You can only link a form when at least one FSP is added to your program (in the Finance table of [Program information](../settings/program-information.md#program-finance)). Otherwise, the **Pending FSP selection** window opens when you try to link your form.
 
 1. Make sure the final version of your form is deployed in Kobo (under Form, click (Re)deploy)
 2. Navigate to the page **Registration data** under **Settings**
