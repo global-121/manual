@@ -91,6 +91,7 @@ npx --yes markdownlint-cli2 "docs/en/**/*.md" "docs/fr/**/*.md"
 ## 7. Pull request
 
 - Title: `docs: update manual for 121 release <tag>`. Put `Closes #<issue>` in the description.
+- Add `Gabriele510` and `global-121/121-support` as requested reviewers when opening the PR (for example, `gh pr create --reviewer Gabriele510 --reviewer global-121/121-support`). Never request review from `jmargutt`.
 - Commit per feature area (EN and FR together), as `docs(<area>): <change> (EN, FR)`, e.g. `docs(settings): rename budget field (EN, FR)`. Screenshots go in a separate commit `docs: refresh screenshots`.
 - Description, in this order:
   1. **Summary**: 2–4 sentences on what changed for users.
