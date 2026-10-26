@@ -55,6 +55,7 @@ Your 121 platform also has two technical roles for the Kobo integration: **Only 
 | Add or remove FSPs in the program | :octicons-check-circle-fill-24:{.yes} | | | | | |
 | Set up the FSP integration | :octicons-check-circle-fill-24:{.yes} | | | | | |
 | Link the Kobo form, edit registration questions and de-duplication fields | :octicons-check-circle-fill-24:{.yes} | | | | | |
+| Set up the full name of registrations | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | | | | |
 | View program team | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | | | | |
 | Manage program team and assign roles | :octicons-check-circle-fill-24:{.yes} | | | | | |
 | Set up payment approval | :octicons-check-circle-fill-24:{.yes} | | | | | |

@@ -55,6 +55,7 @@ Votre plateforme 121 dispose aussi de deux rôles techniques pour l'intégration
 | Ajouter ou retirer des PSF dans le programme | :octicons-check-circle-fill-24:{.yes} | | | | | |
 | Configurer l'intégration PSF | :octicons-check-circle-fill-24:{.yes} | | | | | |
 | Lier le formulaire Kobo, modifier les questions d'enregistrement et les champs de dédoublonnage | :octicons-check-circle-fill-24:{.yes} | | | | | |
+| Configurer le nom complet des enregistrements | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | | | | |
 | Consulter l'équipe du programme | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | | | | |
 | Gérer l'équipe du programme et attribuer les rôles | :octicons-check-circle-fill-24:{.yes} | | | | | |
 | Configurer l'approbation des paiements | :octicons-check-circle-fill-24:{.yes} | | | | | |

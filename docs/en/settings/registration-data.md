@@ -5,7 +5,7 @@ hide:
 ---
 
 !!! Important "Who can perform actions on this page ?"
-    Program Admin can view, set up and update the integration between your Kobo form and the 121 platform, the registration questions and the de-duplication fields.
+    Program Admin can view, set up and update the integration between your Kobo form and the 121 platform, the registration questions and the de-duplication fields. Program Admin and CVA Manager can set up the full name of registrations. [Learn more about Roles & Permissions](../users/description-roles.md)
 
 The 121 platform has an integration with KoboToolbox. If you use this tool for data collection, you can proceed with integrating your form to the program in 121. Registrations are then automatically added to 121 in real-time. Note that Red Cross Red Crescent National Societies can create their Kobo form via [IFRC server](https://kobo.ifrc.org/) for free. If you use another data collection tool, you can [import your registrations via Excel](../registration/registration-import-list.md).
 
@@ -17,6 +17,7 @@ You set up and manage the integration between your Kobo form and 121 on the **Re
 - [Import existing registrations](#import-existing-registrations)
 - [Manage your Kobo form integration](#manage-your-kobo-form-integration)
 - [Simplify question labels](#simplify-question-labels)
+- [Set up the full name](#set-up-the-full-name)
 - [De-duplication](#de-duplication)
 - [View your registrations](#view-your-registrations)
 
@@ -52,7 +53,7 @@ Make sure the default language in the 'Form' tab of Kobo matches the main langua
 
 ### 2. Full Name
 
-The **Full Name** is required for 121. Create a **calculate** field with the data column name **fullName**. The calculation is a combination of all names of the beneficiary. If all names are collected in 1 question, the calculate field can directly refer to this.
+The **Full Name** is required for 121. Make sure the form collects the name of the beneficiary, in one question or in several questions (for example first name and last name). You can also create a **calculate** field, for example with the data column name **fullName**, that combines all names of the beneficiary. After linking the form, select the name field(s) on the **Full name setup** card: see [Set up the full name](#set-up-the-full-name). <!-- VERIFY: is a calculate field fullName still recommended now that the name fields are selected in the portal? -->
 
 ### 3. Choice of FSP(s)
 
@@ -166,6 +167,18 @@ If you wish to simplify the questions as displayed in the 121 profiles and regis
 - Click Save.
 
 ![Registration data link](../assets/img/settings-registrationdata10.png)
+
+## Set up the full name
+
+On the **Full name setup** card, you select the field or fields from your form that make up the full name of the registration. The 121 platform shows this name in the registrations table and on the profile page. The card is also available if you do not use Kobo and import your registrations with Excel.
+
+- Navigate to the page **Registration data** under **Settings**;
+- On the **Full name setup** card, click **:octicons-pencil-24: Edit**;
+- In **Name fields:**, select one or more text fields, in the order you would like to see the name (for example first name, then last name);
+- Click **:material-check: Save**.
+
+!!! Note
+    Only the Program Admin and the CVA Manager can change the name fields. If no field is selected, the card shows **No name field selected**, and the registrations table and the profile page show **Set up needed** instead of the name.
 
 ## De-duplication
 

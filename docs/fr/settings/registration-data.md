@@ -5,7 +5,7 @@ hide:
 ---
 
 !!! Important "Qui peut effectuer des actions sur cette page ?"
-    L'administrateur du programme peut consulter, configurer et mettre à jour l'intégration entre votre formulaire Kobo et la plateforme 121, les questions d'enregistrement et les champs de dédoublonnage.
+    L'administrateur du programme peut consulter, configurer et mettre à jour l'intégration entre votre formulaire Kobo et la plateforme 121, les questions d'enregistrement et les champs de dédoublonnage. L'administrateur du programme et le responsable CVA peuvent configurer le nom complet des enregistrements. [En savoir plus sur les rôles et permissions](../users/description-roles.md)
 
 La plateforme 121 propose une intégration avec KoboToolbox. Si vous utilisez cet outil pour la collecte de données, vous pouvez l'intégrer à votre programme dans 121. Les enregistrements sont ensuite ajoutés automatiquement à 121 en temps réel. Notez que les Sociétés nationales du Mouvement RCRC peuvent créer leur formulaire Kobo via le serveur [IFRC](https://kobo.ifrc.org/) gratuitement. Si vous utilisez un autre outil de collecte de données, vous pouvez [importer vos enregistrements via Excel](../registration/registration-import-list.md).
 
@@ -17,6 +17,7 @@ Vous configurez et gérez l'intégration entre votre formulaire Kobo et 121 sur 
 - [Importer des enregistrements existants](#importer-des-enregistrements-existants)
 - [Gérer votre intégration Kobo](#g%C3%A9rer-votre-int%C3%A9gration-kobo)
 - [Simplifier les libellés des questions](#simplifier-les-libell%C3%A9s-des-questions)
+- [Configurer le nom complet](#configurer-le-nom-complet)
 - [Dédoublonnage](#d%C3%A9doublonnage)
 - [Voir vos enregistrements](#voir-vos-enregistrements)
 
@@ -56,7 +57,7 @@ Assurez-vous que la langue par défaut dans l'onglet **Formulaire** de Kobo corr
 
 ### 2. Nom complet
 
-Le **Nom complet** est requis pour 121. Créez un champ **calculate** avec le nom de colonne de données **fullName**. Le calcul est une combinaison de tous les noms du bénéficiaire. Si tous les noms sont collectés dans une seule question, le champ calculate peut se référer directement à cette question.
+Le **Nom complet** est requis pour 121. Assurez-vous que le formulaire collecte le nom du bénéficiaire, dans une seule question ou dans plusieurs questions (par exemple prénom et nom de famille). Vous pouvez aussi créer un champ **calculate**, par exemple avec le nom de colonne de données **fullName**, qui combine tous les noms du bénéficiaire. Après avoir lié le formulaire, sélectionnez le ou les champs du nom sur la carte **Configuration du nom complet** : voir [Configurer le nom complet](#configurer-le-nom-complet). <!-- VERIFY: is a calculate field fullName still recommended now that the name fields are selected in the portal? -->
 
 ### 3. Choix du ou des PSF
 
@@ -178,6 +179,18 @@ Si vous souhaitez simplifier les libellés affichés dans les profils 121 et dan
 ![Lien d'intégration](../assets/img/settings-registrationdata10.png)
 
 <a id="d%C3%A9doublonnage"></a>
+
+## Configurer le nom complet
+
+Sur la carte **Configuration du nom complet**, vous sélectionnez le ou les champs de votre formulaire qui composent le nom complet de l'enregistrement. La plateforme 121 affiche ce nom dans le tableau des enregistrements et sur la page de profil. La carte est aussi disponible si vous n'utilisez pas Kobo et importez vos enregistrements via Excel. <!-- VERIFY: French portal label of the "Full name setup" card -->
+
+- Accédez à la page **Données d'enregistrement** sous **Paramètres** ;
+- Sur la carte **Configuration du nom complet**, cliquez sur **:octicons-pencil-24: Modifier** ;
+- Dans **Champs du nom :**, sélectionnez un ou plusieurs champs de texte, dans l'ordre dans lequel vous souhaitez voir le nom (par exemple prénom, puis nom de famille) ; <!-- VERIFY: French portal label of "Name fields:" -->
+- Cliquez sur **:material-check: Sauvegarder**.
+
+!!! Note
+    Seuls l'administrateur du programme et le responsable CVA peuvent modifier les champs du nom. Si aucun champ n'est sélectionné, la carte affiche **Aucun champ de nom sélectionné**, et le tableau des enregistrements et la page de profil affichent **Configuration requise** à la place du nom. <!-- VERIFY: French portal labels of "No name field selected" and "Set up needed" -->
 
 ## Dédoublonnage
 
