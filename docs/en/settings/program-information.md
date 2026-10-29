@@ -7,7 +7,7 @@ hide:
 The **program information** can be read and changed under the **Settings**. The page consists of two sections:
 
 - [Basic program information](#basic-program-information)
-- [Program Budget](#program-budget)
+- [Program finance](#program-finance)
 
 !!! Important "Who can perform actions on this page ?"
     Program Admin and CVA Manager can perform actions in this page. [Learn more about Roles & Permissions.](../users/description-roles.md)
@@ -47,14 +47,18 @@ If you’d like to set up scopes, our support team can assist you with the setup
 
 ---
 
-### Program Budget
+### Program finance
 
-In the second table **:octicons-info-24: Budget**, you will find the budget and payment-related details for your program. During the program, you may need to adjust the budget (**Funds available**), the **Fixed transfer value**, the **Number of distributions per registration**, or the program's **Currency**. These settings can be modified at any time. **All changes made on the Budget page take effect immediately and apply to the entire registration list**.
+In the second table **:octicons-info-24: Finance**, you define your program's funds, currency, transfer details and Financial Service Providers. During the program, you may need to adjust the **Funds available**, the **Fixed transfer value**, the **Number of distributions per registration**, or the program's **Currency**. These settings can be modified at any time. **All changes made in the Finance table take effect immediately and apply to the entire registration list**.
 
-- Click on **:octicons-pencil-24: Edit** on the top right of the Budget table;
+![Finance table with the funds, currency, transfer details and FSPs of the program](../assets/img/settings-programinformation-finance.png)
+
+- Click on **:octicons-pencil-24: Edit** on the top right of the Finance table;
 - Edit the necessary information such as currency, fixed transfer value, and FSP;
 - **:material-check: Save** your changes;
 - All fields marked with a star (*) are compulsory.
+
+The **Funds available** and the **Target registrations** (in the Basic information table) must be whole numbers. The **Fixed transfer value** can have up to two decimals. The amounts are shown with the symbol of the program's currency.
 
 !!! Note
     Only the Program Admin can add or remove FSPs in the **Financial service providers** field. You cannot remove an FSP that is still used by registrations.

@@ -45,16 +45,17 @@ When you add a user to your program team, you choose their role(s) in the **Sele
 | **Approver** | Approve payments | Views registrations and payments and exports payment instructions. Meant for users who approve payments. |
 | **Program Team Manager** | Program Team Manager | Manages the program team and assigns roles. Views registrations (without personal data) and payments. |
 
-Your 121 platform also has two technical roles for the Kobo integration: **Only CREATE registrations** and **Only UPDATE registrations**. They are used by the accounts that connect Kobo to 121. Do not assign them to people in your team. Your organisation may also have other roles, or roles with different permissions, set up on request. If you have any questions about the set up of the roles and permissions in your 121 platform, reach out to the 121 support team. In your programs, you see also the 121 team added with the Admin role. This role allows us to provide the required support. We never make changes to your program without explicit permission.
+Your 121 platform also has two technical roles for the Kobo integration: **Only CREATE registrations** and **Only UPDATE registrations**. They are used by the accounts that connect Kobo to 121. Do not assign them to people in your team. The standard roles and their permissions are the same in every 121 platform and cannot be changed. Your organisation may also have other roles set up on request. If you have any questions about the set up of the roles and permissions in your 121 platform, reach out to the 121 support team. In your programs, you see also the 121 team added with the Admin role. This role allows us to provide the required support. We never make changes to your program without explicit permission.
 
 ### Permissions per role
 
 | Permissions | **Program Admin** | **CVA Manager** | **CVA Officer** | **Finance Manager** | **Finance Officer** | **View** |
 | :-------------------------------------------------------------- | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: |
-| Edit program information (basic details and budget) | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | | | | |
+| Edit program information (basic details and finance) | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | | | | |
 | Add or remove FSPs in the program | :octicons-check-circle-fill-24:{.yes} | | | | | |
 | Set up the FSP integration | :octicons-check-circle-fill-24:{.yes} | | | | | |
 | Link the Kobo form, edit registration questions and de-duplication fields | :octicons-check-circle-fill-24:{.yes} | | | | | |
+| Set up the full name of registrations | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | | | | |
 | View program team | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | | | | |
 | Manage program team and assign roles | :octicons-check-circle-fill-24:{.yes} | | | | | |
 | Set up payment approval | :octicons-check-circle-fill-24:{.yes} | | | | | |

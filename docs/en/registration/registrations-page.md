@@ -16,6 +16,12 @@ Oversee all new **registrations**. The initial status for a registration is show
 
 ![Registrations page](../assets/img/RegistrationsPage.png)
 
+The **Name** column shows the full name of each registration, as set up on the **Full name setup** card of the [Registration data](../settings/registration-data.md#set-up-the-full-name) page. If the full name is not set up yet, the column shows **Set up needed**.
+
+The **Transfer value** column shows the amount a registration receives in a single payment. It is the fixed transfer value of the program multiplied by the multiplier of the registration, if applicable. For example, if the fixed transfer value is $50 and the multiplier is based on household size, a 3-person household has a transfer value of $150. The transfer value is also shown on the profile page of each registration.
+
+- If the **Transfer value** column is not visible, click **Manage table** (:material-cog:), select **Transfer value** and click **Apply**.
+
 ---
 
 ### Import a registration list
