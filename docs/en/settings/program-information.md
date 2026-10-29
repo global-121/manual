@@ -51,6 +51,8 @@ If you’d like to set up scopes, our support team can assist you with the setup
 
 In the second table **:octicons-info-24: Finance**, you define your program's funds, currency, transfer details and Financial Service Providers. During the program, you may need to adjust the **Funds available**, the **Fixed transfer value**, the **Number of distributions per registration**, or the program's **Currency**. These settings can be modified at any time. **All changes made in the Finance table take effect immediately and apply to the entire registration list**.
 
+![Finance table with the funds, currency, transfer details and FSPs of the program](../assets/img/settings-programinformation-finance.png)
+
 - Click on **:octicons-pencil-24: Edit** on the top right of the Finance table;
 - Edit the necessary information such as currency, fixed transfer value, and FSP;
 - **:material-check: Save** your changes;

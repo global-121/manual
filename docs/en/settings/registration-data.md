@@ -174,6 +174,9 @@ On the **Full name setup** card, you select the field or fields from your form t
 
 - Navigate to the page **Registration data** under **Settings**;
 - On the **Full name setup** card, click **:octicons-pencil-24: Edit**;
+
+![Full name setup card with the Edit button highlighted](../assets/img/settings-fullnamesetup.png)
+
 - In **Name fields:**, select one or more text fields, in the order you would like to see the name (for example first name, then last name);
 - Click **:material-check: Save**.
 

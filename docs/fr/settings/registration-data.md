@@ -57,7 +57,7 @@ Assurez-vous que la langue par défaut dans l'onglet **Formulaire** de Kobo corr
 
 ### 2. Nom complet
 
-Le **Nom complet** est requis pour 121. Assurez-vous que le formulaire collecte le nom du bénéficiaire, dans une seule question ou dans plusieurs questions (par exemple prénom et nom de famille). Vous pouvez aussi créer un champ **calculate**, par exemple avec le nom de colonne de données **fullName**, qui combine tous les noms du bénéficiaire. Après avoir lié le formulaire, sélectionnez le ou les champs du nom sur la carte **Configuration du nom complet** : voir [Configurer le nom complet](#configurer-le-nom-complet). <!-- VERIFY: is a calculate field fullName still recommended now that the name fields are selected in the portal? -->
+Le **Nom complet** est requis pour 121. Assurez-vous que le formulaire collecte le nom du bénéficiaire, dans une seule question ou dans plusieurs questions (par exemple prénom et nom de famille). Vous pouvez aussi créer un champ **calculate**, par exemple avec le nom de colonne de données **fullName**, qui combine tous les noms du bénéficiaire. Après avoir lié le formulaire, sélectionnez le ou les champs du nom sur la carte **Full name setup** : voir [Configurer le nom complet](#configurer-le-nom-complet). <!-- VERIFY: is a calculate field fullName still recommended now that the name fields are selected in the portal? -->
 
 ### 3. Choix du ou des PSF
 
@@ -182,15 +182,18 @@ Si vous souhaitez simplifier les libellés affichés dans les profils 121 et dan
 
 ## Configurer le nom complet
 
-Sur la carte **Configuration du nom complet**, vous sélectionnez le ou les champs de votre formulaire qui composent le nom complet de l'enregistrement. La plateforme 121 affiche ce nom dans le tableau des enregistrements et sur la page de profil. La carte est aussi disponible si vous n'utilisez pas Kobo et importez vos enregistrements via Excel. <!-- VERIFY: French portal label of the "Full name setup" card -->
+Sur la carte **Full name setup**, vous sélectionnez le ou les champs de votre formulaire qui composent le nom complet de l'enregistrement. La plateforme 121 affiche ce nom dans le tableau des enregistrements et sur la page de profil. La carte est aussi disponible si vous n'utilisez pas Kobo et importez vos enregistrements via Excel.
 
 - Accédez à la page **Données d'enregistrement** sous **Paramètres** ;
-- Sur la carte **Configuration du nom complet**, cliquez sur **:octicons-pencil-24: Modifier** ;
-- Dans **Champs du nom :**, sélectionnez un ou plusieurs champs de texte, dans l'ordre dans lequel vous souhaitez voir le nom (par exemple prénom, puis nom de famille) ; <!-- VERIFY: French portal label of "Name fields:" -->
+- Sur la carte **Full name setup**, cliquez sur **:octicons-pencil-24: Modifier** ;
+
+![Carte Full name setup avec le bouton Modifier mis en évidence](../assets/img/settings-fullnamesetup.png)
+
+- Dans **Name fields:**, sélectionnez un ou plusieurs champs de texte, dans l'ordre dans lequel vous souhaitez voir le nom (par exemple prénom, puis nom de famille) ;
 - Cliquez sur **:material-check: Sauvegarder**.
 
 !!! Note
-    Seuls l'administrateur du programme et le responsable CVA peuvent modifier les champs du nom. Si aucun champ n'est sélectionné, la carte affiche **Aucun champ de nom sélectionné**, et le tableau des enregistrements et la page de profil affichent **Configuration requise** à la place du nom. <!-- VERIFY: French portal labels of "No name field selected" and "Set up needed" -->
+    Seuls l'administrateur du programme et le responsable CVA peuvent modifier les champs du nom. Si aucun champ n'est sélectionné, la carte affiche **No name field selected**, et le tableau des enregistrements et la page de profil affichent **Set up needed** à la place du nom.
 
 ## Dédoublonnage
 
