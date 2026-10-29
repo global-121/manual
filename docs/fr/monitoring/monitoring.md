@@ -30,7 +30,7 @@ Les métriques du programme traduisent vos exigences et paramètres de programme
 | **Personnes ciblées** | Nombre total d'enregistrements ciblés par ce programme |
 | **Personnes enregistrées** | Nombre total d'enregistrements dans ce programme, sans les enregistrements déclinés et supprimés. |
 | **Personnes incluses** | Enregistrements avec le statut inclus dans ce programme. |
-| **Fonds restants** | Les fonds restants sont les Fonds disponibles - Aide en espèces versée. <!-- VERIFY: French portal label of "Remaining funds" --> |
+| **Remaining funds** | Les fonds restants sont les Fonds disponibles - Aide en espèces versée. |
 
 Le tableau est mis à jour automatiquement.
 
