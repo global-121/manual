@@ -120,11 +120,14 @@ def unfocus(page: Page) -> None:
     page.mouse.move(640, 180)
 
 
-def full_height(page: Page) -> Page:
+def full_height(page: Page, width: int = 1280) -> Page:
     """Resize the viewport to the full page height, so nothing is cut off."""
     unfocus(page)
+    if width != 1280:
+        page.set_viewport_size({"width": width, "height": 800})
+        page.wait_for_timeout(400)
     page.set_viewport_size(
-        {"width": 1280, "height": page.evaluate("document.documentElement.scrollHeight")}
+        {"width": width, "height": page.evaluate("document.documentElement.scrollHeight")}
     )
     return page
 
@@ -300,13 +303,21 @@ def edit_user_dialog(portal: Portal) -> Locator:
 
 
 def registrations_page(portal: Portal) -> Page:
-    """Full registrations page."""
-    return full_height(registrations(portal))
+    """Full registrations page, with the Transfer value column shown."""
+    page = registrations(portal)
+    page.get_by_title("Manage table").click()
+    drawer = page.locator(".p-drawer")
+    drawer.locator("label").filter(has=page.get_by_text("Transfer value", exact=True)).click()
+    drawer.get_by_role("button", name="Apply").click()
+    page.get_by_role("columnheader").get_by_text("Transfer value", exact=True).wait_for()
+    page.wait_for_load_state("networkidle")
+    # The table only fits without horizontal scrolling from 2000px wide.
+    return full_height(page, width=2000)
 
 
 def import_button(portal: Portal) -> Page:
     """Registrations page with the Import button highlighted."""
-    page = registrations_page(portal)
+    page = full_height(registrations(portal))
     Portal.highlight(page.get_by_role("button", name="Import"))
     return page
 
