@@ -842,6 +842,14 @@ def edit_basic_information(portal: Portal) -> Locator:
     return Portal.clip_around(card(page, "Basic information"))
 
 
+def finance(portal: Portal) -> Locator:
+    """Finance card in the program settings."""
+    page = settings("information")(portal)
+    page.get_by_test_id("program-finance-data-list").wait_for()
+    full_height(page)
+    return Portal.clip_around(card(page, "Define your program's funds"))
+
+
 def fsps(portal: Portal) -> Page:
     """Open the FSP integration settings page."""
     page = settings("fsps")(portal)
@@ -915,6 +923,18 @@ def deduplication_card(portal: Portal) -> Locator:
     full_height(page)
     Portal.highlight(page.get_by_test_id("deduplication-card-edit-button"))
     return Portal.clip_around(dedup)
+
+
+def full_name_card(portal: Portal) -> Locator:
+    """Full name setup card on the registration data page, with 'Edit' highlighted."""
+    page = settings("registration-data")(portal)
+    full_name = page.get_by_test_id("full-name-card")
+    page.get_by_test_id("full-name-card-datalist").wait_for()
+    page.wait_for_timeout(400)
+    # The card is below the fold; clip_around only covers the viewport.
+    full_height(page)
+    Portal.highlight(page.get_by_test_id("full-name-card-edit-button"))
+    return Portal.clip_around(full_name)
 
 
 def link_kobo_dialog(portal: Portal) -> Locator:
@@ -1167,6 +1187,11 @@ SCENARIOS = [
         edit_basic_information,
     ),
     Scenario(
+        "settings-programinformation-finance.png",
+        "Finance card",
+        finance,
+    ),
+    Scenario(
         "settings-fspintegration-requiredfields.png",
         "FSP card, 'Form requirements' chevron highlighted",
         fsp_required_fields,
@@ -1191,6 +1216,11 @@ SCENARIOS = [
         "settings-deduplication.png",
         "De-duplication card, 'Edit' highlighted",
         deduplication_card,
+    ),
+    Scenario(
+        "settings-fullnamesetup.png",
+        "Full name setup card, 'Edit' highlighted",
+        full_name_card,
     ),
     Scenario("settings-programteampng.png", "Add user to team dialog", add_user_to_team),
     Scenario(
