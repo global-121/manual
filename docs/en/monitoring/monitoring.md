@@ -15,7 +15,7 @@ The monitoring page can feature a Power BI dashboard, either the 121 template ve
 
 ![Monitoring Page](../assets/img/MonitoringPage.png)
 
-The Program metrics translates your program requirements and settings. The details provide the main information about the duration and location of your program, budget, targeted registrations and cash aid delivery. Each of your active programs may have different metrics shown in the table below. These can be edited in the **Settings** page.
+The Program metrics translates your program requirements and settings. The details provide the main information about the duration and location of your program, funds, targeted registrations and cash aid delivery. Each of your active programs may have different metrics shown in the table below. These can be edited in the **Settings** page.
 
 | Type | Description |
 | :----------------------------------- | :-------------------------------------------------------------------------- |
@@ -23,14 +23,14 @@ The Program metrics translates your program requirements and settings. The detai
 | **Start and End date** | Information about the start and the end of your cash program |
 | **Location** | Country or region in which the program takes place.​ |
 | **Financial Service Provider (FSP)** | Number of FSP integrated or registered in your instance and their names |
-| **Budget** | Initial budget set to be sent to registrations for this program distribution. |
+| **Funds available** | Initial funds set to be sent to registrations for this program distribution. |
 | **Duration** | Number of payment rounds that will be issued over the program duration |
-| **Base Transfer Value** | The base value set to be transferred per registration. |
-| **Cash disbursed** | Amount that has been disbursed up to this date. This is calculated based on the total number of registrations included in the payment rounds, the base transfer value and the multiplier (if any). |
+| **Fixed transfer value** | The fixed value set to be transferred per registration. It is multiplied by the multiplier of each registration (if any). |
+| **Cash disbursed** | Amount that has been disbursed up to this date. This is calculated based on the total number of registrations included in the payment rounds, the fixed transfer value and the multiplier (if any). |
 | **Targeted people** | Total number of registrations that are targeted by this program |
 | **People registered** | Total number of registrations in this program, excluding declined and deleted registrations. |
 | **People included** | Registrations with the status included within this program. |
-| **Remaining budget** | Remaining budget is the Initial Budget - Cash disbursed. |
+| **Remaining funds** | Remaining funds are the Funds available - Cash disbursed. |
 
 The table is updated automatically.
 

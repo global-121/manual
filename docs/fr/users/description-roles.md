@@ -45,16 +45,17 @@ Lorsque vous ajoutez un utilisateur à l'équipe de votre programme, vous choisi
 | **Approbateur** | Approve payments | Consulte les enregistrements et les paiements et exporte les instructions de paiement. Destiné aux utilisateurs qui approuvent les paiements. |
 | **Responsable de l'équipe du programme** | Program Team Manager | Gère l'équipe du programme et attribue les rôles. Consulte les enregistrements (sans données personnelles) et les paiements. |
 
-Votre plateforme 121 dispose aussi de deux rôles techniques pour l'intégration Kobo : **Only CREATE registrations** et **Only UPDATE registrations**. Ils sont utilisés par les comptes qui connectent Kobo à 121. Ne les attribuez pas aux personnes de votre équipe. Votre organisation peut aussi avoir d'autres rôles, ou des rôles avec des permissions différentes, configurés sur demande. Si vous avez des questions sur la configuration des rôles et des permissions dans votre plateforme 121, contactez l'équipe d'assistance 121. Dans vos programmes, vous verrez également l'équipe 121 ajoutée avec le rôle Admin. Ce rôle nous permet de fournir l'assistance nécessaire. Nous n'apportons jamais de modifications à votre programme sans votre autorisation explicite.
+Votre plateforme 121 dispose aussi de deux rôles techniques pour l'intégration Kobo : **Only CREATE registrations** et **Only UPDATE registrations**. Ils sont utilisés par les comptes qui connectent Kobo à 121. Ne les attribuez pas aux personnes de votre équipe. Les rôles standard et leurs permissions sont les mêmes dans chaque plateforme 121 et ne peuvent pas être modifiés. Votre organisation peut aussi avoir d'autres rôles configurés sur demande. Si vous avez des questions sur la configuration des rôles et des permissions dans votre plateforme 121, contactez l'équipe d'assistance 121. Dans vos programmes, vous verrez également l'équipe 121 ajoutée avec le rôle Admin. Ce rôle nous permet de fournir l'assistance nécessaire. Nous n'apportons jamais de modifications à votre programme sans votre autorisation explicite.
 
 ### Permissions par rôle
 
 | Permissions | **Administrateur du programme** | **Responsable CVA** | **Gestionnaire CVA** | **Responsable financier** | **Gestionnaire financier** | **Lecteur** |
 | :-------------------------------------------------------------- | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: | :-----------------------------------: |
-| Modifier les informations du programme (détails de base et budget) | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | | | | |
+| Modifier les informations du programme (détails de base et finances) | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | | | | |
 | Ajouter ou retirer des PSF dans le programme | :octicons-check-circle-fill-24:{.yes} | | | | | |
 | Configurer l'intégration PSF | :octicons-check-circle-fill-24:{.yes} | | | | | |
 | Lier le formulaire Kobo, modifier les questions d'enregistrement et les champs de dédoublonnage | :octicons-check-circle-fill-24:{.yes} | | | | | |
+| Configurer le nom complet des enregistrements | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | | | | |
 | Consulter l'équipe du programme | :octicons-check-circle-fill-24:{.yes} | :octicons-check-circle-fill-24:{.yes} | | | | |
 | Gérer l'équipe du programme et attribuer les rôles | :octicons-check-circle-fill-24:{.yes} | | | | | |
 | Configurer l'approbation des paiements | :octicons-check-circle-fill-24:{.yes} | | | | | |

@@ -9,7 +9,7 @@ hide:
 
 Every time a new program starts, the Program Admin configures the Financial Service Provider (FSP). You can add multiple FSPs to the same program. You can also select the manual option using Excel, which allows exporting the instructions from the FSP and later importing the reconciliation file.
 
-**Step 3 of program creation** asks to select the FSP(s). This can also be done in the Budget table of the **Program information** page. If this is done, the FSP(s) will automatically show on the **FSP integration** page under **Settings**.
+**Step 3 of program creation** asks to select the FSP(s). This can also be done in the Finance table of the **Program information** page. If this is done, the FSP(s) will automatically show on the **FSP integration** page under **Settings**.
 
 ### Review required fields registration form
 
