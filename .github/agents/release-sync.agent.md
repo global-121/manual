@@ -62,7 +62,15 @@ When in doubt, read the diff before deciding.
 
 Images live in `overrides/assets/img/`. `uv run python -m screenshots --list` shows the images that a scenario can regenerate.
 
-First keep the demo data seed (`screenshots/seed.py`) working. It creates the demo program through the 121 API, so API changes can break it:
+First check portal access with `uv run python -m screenshots --only LoginPage.png`. If it fails, do not stop at "unreachable": put the exact cause at the top of the **Screenshots** section of the PR, so a maintainer can fix the setup:
+
+- `set PORTAL_URL_121 ...` or `set USERNAME_121 ...`: the Agents secrets and variables are missing (README, one-time setup).
+- A firewall warning or a connection error (DNS, refused, timeout): the portal or API host is not on the Copilot custom allowlist. Name the blocked host.
+- An HTTP or login error: quote the status and message.
+
+Without portal access, still do everything below that does not need the portal (seed and scenario code, PR list), and leave the images unchanged.
+
+Then keep the demo data seed (`screenshots/seed.py`) working. It creates the demo program through the 121 API, so API changes can break it:
 
 - Check whether the release changes an endpoint or payload that `seed.py` uses (programs, registrations and their statuses, FSP configurations, program users, approval thresholds, attachments, payments, reconciliation): `git -C /tmp/121-platform diff <since> <tag> -- 'services/121-service/src/**/*.controller.ts' 'services/121-service/src/**/*.dto.ts'`.
 - The platform's own demo programs in `services/121-service/src/seed-data/program/` (e.g. `demo-program-excel.json`) show the current program payload; compare them with `PROGRAM` and `FSP_CONFIG` in `seed.py` when new fields become required.
@@ -74,9 +82,11 @@ Then update the images:
 - For every image that shows changed UI: run `uv run python -m screenshots --only <name>.png` and inspect `screenshots/output/<name>.png`.
   - If the run reports that the demo program, a registration or a payment is missing ("run once with --seed", "run with --seed", "seed needs an approver"), the test environment was probably reset. Run `uv run python -m screenshots --seed --only <name>.png` once, then retry.
   - Copy it over the old image only if it shows the new UI and the state the text describes. The test environment may not run this release yet.
+  - If the new element is in the release but not in the picture (a column hidden by default, a collapsed section, a value that needs demo data), change the scenario (or `seed.py`) to show it, e.g. enable the column through **Manage table**, and run it again. Do not leave the image unchanged for this reason.
   - If a scenario fails because the UI changed, fix the locator in `screenshots/scenarios.py`. The locators mirror the e2e page objects in `/tmp/121-platform/e2e/portal/pages/`.
 - Otherwise, list it under "Screenshots to refresh" in the PR with the page and what it should show. This includes images without a scenario (GIFs, Kobo, Excel, Power BI and other hand-made images).
-- New features usually deserve a new image. If the test portal is available, add a scenario to `screenshots/scenarios.py` (same pattern as the existing ones, with a descriptive file name that will not change), run it with `--only`, check the result, add it to `overrides/assets/img/` and reference it in both the EN and FR page. If the scenario cannot reach the right state, list the image under "Screenshots to refresh" with a suggested file name, the page and what it should show, and do not reference it in the docs yet.
+- New features usually deserve a new image. Add a scenario to `screenshots/scenarios.py` (same pattern as the existing ones, with a descriptive file name that will not change), also when you cannot run it; base its locators on the e2e page objects and the portal source. If it runs and shows the right state, add the image to `overrides/assets/img/` and reference it in both the EN and FR page. Otherwise list it under "Screenshots to refresh" as untested, with the page and what it should show, and do not reference it in the docs yet.
+- End the "Screenshots to refresh" list with one command that regenerates all of them, for a maintainer to run locally: `uv run --env-file .env python -m screenshots --seed --only A.png --only B.png`. Say which images it cannot cover (no scenario).
 
 ## 6. Validate
 
