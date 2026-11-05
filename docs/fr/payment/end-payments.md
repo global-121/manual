@@ -30,7 +30,7 @@ Dans la **page Enregistrement** :
 Vous pouvez également modifier le statut en cliquant avec le bouton droit sur l'enregistrement dans le tableau et en cliquant sur **:fontawesome-solid-ban: Décliner** ![Liste déroulante du statut](../assets/img/RegistationsStatusRighList.png)
 
 !!! Important "Enregistrements dans un paiement en attente d'approbation"
-    Si un enregistrement que vous déclinez fait partie d'un paiement en attente d'approbation, le portail vous avertit avant la confirmation : *Décliner un enregistrement inclus dans un paiement l'exclura de ce paiement. Pour continuer de recevoir ce paiement, annuler cette action et refuser son enregistrement qu'après le paiement effectué.*
+    Si un enregistrement que vous déclinez fait partie d'un paiement en attente d'approbation, le portail vous avertit avant la confirmation. Décliner cet enregistrement l'exclura de ce paiement. Pour qu'il reçoive encore ce paiement, annulez cette action et ne déclinez l'enregistrement qu'après le paiement.
 
 ---
 
