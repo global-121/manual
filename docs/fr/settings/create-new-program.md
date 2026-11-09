@@ -18,7 +18,7 @@ Chaque fois qu'un nouveau programme commence, un utilisateur ayant les droits d'
 
 **Étape 2** : Ajoutez des informations générales pour définir les détails de votre programme. Vous pouvez également décider si vous souhaitez utiliser la **portée** et la **validation** dans ce programme. Plus d'informations sur la portée et la validation sont disponibles [ici](../settings/program-information.md).
 
-**Étape 3** : Spécifiez les détails financiers, tels que votre devise, la valeur de transfert fixe et le(s) PSF.
+**Étape 3** : Spécifiez les détails financiers, tels que votre devise, la valeur de transfert fixe et le(s) PSF. La valeur de transfert fixe est obligatoire et doit être d'au moins 1.
 
 ![Créer un nouveau programme](../assets/img/settings-createnewprogram.gif)
 
