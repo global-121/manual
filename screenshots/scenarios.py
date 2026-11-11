@@ -199,7 +199,11 @@ def filter_failed(page: Page) -> None:
 
 def login_page(portal: Portal) -> Page:
     """Login page (logged out) with the language menu open."""
-    ctx = portal.ctx.browser.new_context(viewport={"width": 1280, "height": 720}, locale="en-GB")
+    ctx = portal.ctx.browser.new_context(
+        viewport={"width": 1280, "height": 720},
+        locale="en-GB",
+        ignore_https_errors=portal.ignore_https_errors,
+    )
     page = ctx.new_page()
     page.goto(f"{portal.portal_url}/{LOCALE}/login")
     page.get_by_label("E-mail").wait_for()
@@ -681,10 +685,15 @@ def approve_dialog(portal: Portal) -> Locator:
             "set APPROVER_USERNAME_121/APPROVER_PASSWORD_121 to open the page as the approver"
         )
     ctx = portal.ctx.browser.new_context(
-        viewport={"width": 1280, "height": 720}, locale="en-GB", timezone_id="Europe/Amsterdam"
+        viewport={"width": 1280, "height": 720},
+        locale="en-GB",
+        timezone_id="Europe/Amsterdam",
+        ignore_https_errors=portal.ignore_https_errors,
     )
     ctx.set_default_timeout(15_000)
-    approver = Portal(ctx, portal.portal_url, portal.api_url)
+    approver = Portal(
+        ctx, portal.portal_url, portal.api_url, ignore_https_errors=portal.ignore_https_errors
+    )
     approver.program_id = portal.program_id
     approver.login(username, password)
     page = approver.open(f"program:/payments/{payment_id(portal, 'pending')}")

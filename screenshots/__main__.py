@@ -54,6 +54,12 @@ def main() -> int:
         help=f"create/update the '{PROGRAM_TITLE}' demo program (writes to the target environment)",
     )
     ap.add_argument("--headed", action="store_true")
+    ap.add_argument(
+        "--ignore-https-errors",
+        action="store_true",
+        default=os.environ.get("SCREENSHOTS_IGNORE_HTTPS_ERRORS") == "1",
+        help="skip certificate verification for test environments behind the Copilot HTTPS proxy",
+    )
     ap.add_argument("--list", action="store_true", help="list scenarios and exit")
     args = ap.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(message)s", stream=sys.stdout, force=True)
@@ -73,15 +79,23 @@ def main() -> int:
         ap.error(f"unknown scenario(s): {', '.join(sorted(unknown))}")
     selected = [s for s in SCENARIOS if not args.only or s.name in args.only]
     args.out.mkdir(parents=True, exist_ok=True)
+    if args.ignore_https_errors:
+        logger.warning("HTTPS certificate verification is disabled for this screenshot run.")
 
     failed = 0
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=not args.headed)
         ctx = browser.new_context(
-            viewport=VIEWPORT, device_scale_factor=1, locale="en-GB", timezone_id="Europe/Amsterdam"
+            viewport=VIEWPORT,
+            device_scale_factor=1,
+            locale="en-GB",
+            timezone_id="Europe/Amsterdam",
+            ignore_https_errors=args.ignore_https_errors,
         )
         ctx.set_default_timeout(15_000)
-        portal = Portal(ctx, args.portal_url, args.api_url)
+        portal = Portal(
+            ctx, args.portal_url, args.api_url, ignore_https_errors=args.ignore_https_errors
+        )
         portal.login(username, password)
         if args.seed:
             approver = None
