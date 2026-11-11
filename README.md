@@ -68,6 +68,8 @@ Each image has a scenario in `screenshots/scenarios.py` that drives the 121 Port
 
 - E-mail addresses that do not end in `@example.org` are masked in the screenshots.
 
+- Certificate verification stays enabled by default. In Copilot's test environment, the setup workflow sets `SCREENSHOTS_IGNORE_HTTPS_ERRORS=1` because Chromium may not trust the firewall proxy's certificate. This applies to all screenshot browser and API sessions and logs a warning. For a test-only manual retry, use `--ignore-https-errors`; never use this option against production.
+
 ## Deployment notes
 
 - The Azure Static Web App config includes explicit CORS rules for `en/faq/*` and `fr/faq/*`.
@@ -80,7 +82,7 @@ The AI agent (GitHub Copilot) follows the instructions in `.github/copilot-instr
 For every new [121 Platform release](https://github.com/global-121/121-platform/releases), Copilot drafts the manual update:
 
 1. The workflow `.github/workflows/release-sync.yml` runs every Monday morning (or by hand from the Actions tab). When there is a new release, it opens a `release-sync` issue with the release notes, commits and changed portal files since the last documented release. It waits as long as a previous `release-sync` issue is still open, so there is only one manual update at a time; the next issue then covers all releases since.
-2. The issue is assigned to Copilot cloud agent with the custom agent `.github/agents/release-sync.agent.md`. Copilot reviews every commit, updates the EN and FR pages (and screenshots where possible), and opens a pull request with a table of all release items and their manual impact.
+2. The issue is assigned to Copilot cloud agent with the custom agent `.github/agents/release-sync.agent.md`. Copilot reviews every commit, updates the EN and FR pages (and screenshots where possible), and opens a pull request with a table of all release items and their manual impact. When Copilot requests review at the end of its run, `.github/workflows/release-sync-review.yml` marks the release PR **ready for review**, removes any pending request to `jmargutt`, and requests review from `Gabriele510` and `global-121/121-support`. This workflow uses only default-branch code, not code from the PR. To retry a failed handoff (or finalize an existing release PR), run **Actions > Release sync: ready for review > Run workflow** with its PR number.
 3. Review the pull request and check the `<!-- VERIFY -->` items. To have something changed, comment on the pull request and mention `@copilot` (e.g. "@copilot also update the glossary"); Copilot pushes the changes to the same pull request. Collect several remarks in one review (**Start a review** > **Submit review**) so they are handled in one run. Comments on the issue are not picked up.
 4. Merge when it is right; this closes the issue as completed. To reject the update, close the pull request and close the issue as **not planned**: its releases are then included again in the next issue.
 

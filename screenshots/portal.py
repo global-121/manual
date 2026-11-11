@@ -16,17 +16,26 @@ PROGRAM_NGO = "510 manual screenshots"
 class Portal:
     """A logged-in 121 Portal session: opens pages, calls the API and finds common elements."""
 
-    def __init__(self, ctx: BrowserContext, portal_url: str, api_url: str):
+    def __init__(
+        self,
+        ctx: BrowserContext,
+        portal_url: str,
+        api_url: str,
+        *,
+        ignore_https_errors: bool = False,
+    ):
         """Create a session in a browser context.
 
         Args:
             ctx: Browser context that holds the login cookies.
             portal_url: Base URL of the portal, e.g. https://portal.staging.121.global.
             api_url: Base URL of the API, with or without the trailing /api.
+            ignore_https_errors: Skip certificate checks in additional browser/API sessions.
         """
         self.ctx = ctx
         self.portal_url = portal_url.rstrip("/")
         self.api_url = api_url.rstrip("/").removesuffix("/api") + "/api"
+        self.ignore_https_errors = ignore_https_errors
         self.program_id: int | None = None
         self.permissions: dict = {}
 
@@ -98,7 +107,7 @@ class Portal:
 
     def api_login(self, playwright: Playwright, username: str, password: str) -> APIRequestContext:
         """Log in another user through the API and return their request context."""
-        session = playwright.request.new_context()
+        session = playwright.request.new_context(ignore_https_errors=self.ignore_https_errors)
         self.api(
             "POST",
             "/users/login",

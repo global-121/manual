@@ -31,5 +31,8 @@ jobs:
           uv sync --locked --group screenshots
           uv run python -m playwright install --with-deps chromium
 
+      - name: Configure screenshots for the Copilot HTTPS proxy
+        run: echo "SCREENSHOTS_IGNORE_HTTPS_ERRORS=1" >> "$GITHUB_ENV"
+
       - name: Clone the 121 Platform source (to diff releases)
         run: git clone --filter=blob:none https://github.com/global-121/121-platform.git /tmp/121-platform

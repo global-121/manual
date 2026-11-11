@@ -70,6 +70,7 @@ First check portal access with `uv run python -m screenshots --only LoginPage.pn
 - `set PORTAL_URL_121 ...` or `set USERNAME_121 ...`: the Agents secrets and variables are missing (README, one-time setup).
 - A firewall warning or a connection error (DNS, refused, timeout): the portal or API host is not on the Copilot custom allowlist. Name the blocked host.
 - An HTTP or login error: quote the status and message.
+- `net::ERR_CERT_AUTHORITY_INVALID`: Chromium does not trust the Copilot HTTPS proxy certificate. The setup workflow sets `SCREENSHOTS_IGNORE_HTTPS_ERRORS=1` for screenshot browser and API sessions. If it is missing, retry with `--ignore-https-errors` on every screenshot command in this session, only against the configured test environment. This bypasses certificate verification, not the firewall allowlist; do not use it against production.
 
 Without portal access, still do everything below that does not need the portal (seed and scenario code, PR list), and leave the images unchanged.
 
@@ -111,6 +112,7 @@ npx --yes markdownlint-cli2 "docs/en/**/*.md" "docs/fr/**/*.md"
 
 - Title: `docs: update manual for 121 release <tag>`. Put `Closes #<issue>` in the description.
 - Add `Gabriele510` and `global-121/121-support` as requested reviewers when opening the PR (for example, `gh pr create --reviewer Gabriele510 --reviewer global-121/121-support`). Never request review from `jmargutt`.
+- The final PR must be **ready for review**, not draft. Copilot initially creates a draft and may automatically request review from the task initiator when it finishes. `.github/workflows/release-sync-review.yml` handles that completion signal: it marks the release PR ready, removes `jmargutt` from pending review requests and requests `Gabriele510` and `global-121/121-support`. Do not create a second PR or try to work around Copilot's token restrictions. If the handoff fails, report the workflow error; a maintainer can retry it via **Actions > Release sync: ready for review > Run workflow** with the PR number.
 - Commit per feature area (EN and FR together), as `docs(<area>): <change> (EN, FR)`, e.g. `docs(settings): rename budget field (EN, FR)`. Screenshots go in a separate commit `docs: refresh screenshots`.
 - Description, in this order:
   1. **Summary**: 2–4 sentences on what changed for users.

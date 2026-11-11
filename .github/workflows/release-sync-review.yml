@@ -1,0 +1,41 @@
+name: 'Release sync: ready for review'
+
+on:
+  pull_request_target:
+    types: [review_requested]
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: Release-sync PR number to finalize or retry
+        required: true
+        type: number
+
+permissions:
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: release-sync-review-${{ github.event.pull_request.number || inputs.pr_number }}
+  cancel-in-progress: false
+
+jobs:
+  request-review:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (contains(fromJSON('["Copilot", "copilot-swe-agent[bot]"]'), github.actor) &&
+       contains(fromJSON('["Copilot", "copilot-swe-agent[bot]"]'), github.event.pull_request.user.login))
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      # Never execute code from the PR in this privileged workflow.
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          sparse-checkout: .github/scripts
+          persist-credentials: false
+
+      - name: Mark release PR ready and request reviewers
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number || inputs.pr_number }}
+        run: python3 .github/scripts/release_sync_review.py
