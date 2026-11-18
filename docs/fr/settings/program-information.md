@@ -58,7 +58,7 @@ Dans le second tableau **:octicons-info-24: Finance**, vous définissez les fond
 - **:material-check: Sauvegardez** vos modifications ;
 - Tous les champs marqués d'une étoile (*) sont obligatoires.
 
-Les **Fonds disponibles** et les **Enregistrements ciblés** (dans le tableau Informations de base) doivent être des nombres entiers. La **Valeur de transfert fixe** peut comporter jusqu'à deux décimales. Les montants s'affichent avec le symbole de la devise du programme.
+Les **Fonds disponibles** et les **Enregistrements ciblés** (dans le tableau Informations de base) doivent être des nombres entiers. La **Valeur de transfert fixe** doit être d'au moins 1 et peut comporter jusqu'à deux décimales. Les montants s'affichent avec le symbole de la devise du programme.
 
 !!! Note
     Seul l'administrateur du programme peut ajouter ou retirer des PSF dans le champ **Prestataires de services financiers**. Vous ne pouvez pas retirer un PSF encore utilisé par des enregistrements.

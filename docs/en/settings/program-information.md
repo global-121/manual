@@ -58,7 +58,7 @@ In the second table **:octicons-info-24: Finance**, you define your program's fu
 - **:material-check: Save** your changes;
 - All fields marked with a star (*) are compulsory.
 
-The **Funds available** and the **Target registrations** (in the Basic information table) must be whole numbers. The **Fixed transfer value** can have up to two decimals. The amounts are shown with the symbol of the program's currency.
+The **Funds available** and the **Target registrations** (in the Basic information table) must be whole numbers. The **Fixed transfer value** must be at least 1 and can have up to two decimals. The amounts are shown with the symbol of the program's currency.
 
 !!! Note
     Only the Program Admin can add or remove FSPs in the **Financial service providers** field. You cannot remove an FSP that is still used by registrations.

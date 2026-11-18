@@ -18,7 +18,7 @@ Every time a new program starts, a user with Organisational Admin rights can cre
 
 **Step 2**: Add general information to define your program details. You also decide if you wish to make use of "scope" and "validation" in this program. More information on scope and validation can be found on the [program information page](../settings/program-information.md).
 
-**Step 3**: Specify the financial details, such as your currency, fixed transfer value and FSP(s).
+**Step 3**: Specify the financial details, such as your currency, fixed transfer value and FSP(s). The fixed transfer value is required and must be at least 1.
 
 ![Create new program](../assets/img/settings-createnewprogram.gif)
 
