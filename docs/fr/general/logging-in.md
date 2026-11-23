@@ -7,13 +7,13 @@ hide:
 !!! Note
     Pour des raisons de sécurité, si vous vous connectez avec votre adresse e-mail (avec un code à usage unique ou un mot de passe), vous êtes automatiquement déconnecté de la plateforme après 33 heures. Vous pouvez vous reconnecter de la même manière.
 
-Vous pouvez vous connecter à la plateforme 121 en utilisant le lien fourni par e-mail ainsi que vos identifiants. Ce lien est spécifique à votre organisation et doit être utilisé chaque fois que vous vous connectez à la plateforme 121.
-
-Vous pouvez vous connecter avec un **code à usage unique** envoyé à votre adresse e-mail, ou avec votre **mot de passe**.
+Vous pouvez vous connecter avec un **code à usage unique** envoyé à votre adresse e-mail, ou avec votre **mot de passe**. Au cours des prochains mois, la plateforme 121 passera progressivement à la connexion par code à usage unique uniquement.
 
 <!-- VERIFY: French portal labels for "Send code", "Enter your code", "Go back to the previous page", "Request new code", "Log in with password instead" and "Log in with a one-time code instead" are not available in the platform repo; check them in the French portal. -->
 
 ### Comment se connecter avec un code à usage unique
+
+Si vous **vous connectez pour la première fois**, vous aurez reçu par **e-mail** **le lien** vers la plateforme 121 de votre organisation.
 
 - Accédez à la page de connexion.
 - Entrez votre adresse e-mail dans la boîte « E-mail ». *Assurez-vous d'écrire votre adresse e-mail sans espaces supplémentaires.*
@@ -28,7 +28,9 @@ Si vous avez saisi une mauvaise adresse e-mail, cliquez sur **Revenir à la page
     - Le code est valable **10 minutes** et ne peut être utilisé qu'une seule fois. La page de connexion indique le temps restant.
     - Si le code a expiré ou si vous ne l'avez pas reçu, cliquez sur **Demander un nouveau code**. Vous pouvez demander un nouveau code une fois par minute. Seul le code le plus récent fonctionne.
     - Après 5 tentatives incorrectes, le code est bloqué. Vous pouvez demander un nouveau code après 15 minutes.
-    - Si vous ne recevez pas de code, vérifiez que vous avez utilisé l'adresse e-mail de votre compte 121. Pour des raisons de sécurité, la page de connexion n'indique pas si un compte existe pour une adresse e-mail.
+    - Si vous ne recevez pas de code, vérifiez que vous avez utilisé **l'adresse e-mail de votre compte 121**. Pour des raisons de sécurité, la page de connexion n'indique pas si un compte existe pour une adresse e-mail.
+
+![Page de connexion avec code à usage unique](../assets/img/LoginPageCode-FR.png)
 
 ---
 

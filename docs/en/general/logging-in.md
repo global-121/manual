@@ -7,11 +7,11 @@ hide:
 !!! Note
     Due to security reasons, if you log in with your email address (with a one-time code or a password), you are automatically logged out of the platform after 33 hours. You can log in again in the same way.
 
-You can log in to the 121 platform using the link provided via email together with the credentials. This link is specific to your organization and should be used each time you log in to the 121 platform.
-
-You can log in with a **one-time code** that is sent to your email, or with your **password**.
+You can log in with a **one-time code** that is sent to your email, or with your **password**. Over the next months, the 121 platform will gradually move towards one-time code only.
 
 ### How to log in with a one-time code
+
+If you are **logging in for the first time** you will have received **the link** to the 121 platform of your organisation in **your email**.
 
 - Go to the login page.
 - Enter your email address in the "E-mail" box. *Make sure you write your email address without any additional spaces.*
@@ -26,7 +26,9 @@ If you entered the wrong email address, click **Go back to the previous page** t
     - The code is valid for **10 minutes** and can only be used once. The login page shows how much time is left.
     - If the code has expired or you didn't receive it, click **Request new code**. You can request a new code once every minute. Only the most recent code works.
     - After 5 wrong attempts, the code is blocked. You can request a new code after 15 minutes.
-    - If you don't receive a code, check that you used the email address of your 121 account. For security reasons, the login page does not tell you whether an account exists for an email address.
+    - If you don't receive a code, check that you used **the email address of your 121 account**. For security reasons, the login page does not tell you whether an account exists for an email address.
+
+![Login page with one-time code](../assets/img/LoginPageCode-EN.png)
 
 ---
 
